@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 10:18",
+  "verse_text": "Verse text for JGS 10:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/10/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the people and princes of Gilead said one to another, What man is he that will begin to fight against the children of Ammon. he shall be head over all the inhabitants of Gilead. It seems none of them durst accept the offer, as the first onset was the most hazardous. Hence they invited Jephte to take upon him the command. The Israelites consulted the Lord on a former occasion, who should begin the attack upon the Chanaanites, chap. In these wars much depended on one battle. The wars were seldom protracted to such a length as they have been since.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/10/18",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd89",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 10:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "verse_reference": "GAL 1:11",
+  "verse_text": "Verse text for GAL 1:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/1/11",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The gospel that is “according to men” is a lie, for every person is a liar, seeing that whatever truth is found in a man is not from the man but through the man from God.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/11",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c666ee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "The Gospel which was preached of me is not after man. It is not a human but a Divine Gospel; it is not man\"s but God\"s, or, as Ephrem puts it, it is not from Prayer of Manasseh , i.e, it does not spring from man\"s opinions or from man\"s invention, but from God. Hence he adds:",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/11",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52600",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "Possibly because the Savior himself is not a man [merely], as some think. Nor because he is sent in the form of a man is he therefore a man but God in a mystery taking flesh to overcome the flesh…. If “from a man” means one thing, “after the manner of man” will mean another. And again if “I did not receive from a man” is one thing. “not after the manner of man” will be another. Therefore “after the manner of man” can be understood to mean “so that you may understand in a corporeal manner,” seeing that the argument received is that “which I did not receive from man.” .",
+      "commentary_number": "3/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/1/11",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c666ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "You observe how sedulously he affirms that he was taught of Christ, who Himself, without human intervention, condescended to reveal to him all knowledge. And if he were asked for his proof that God Himself thus immediately revealed to him these ineffable mysteries, he would instance his former manner of life, arguing that his conversion would not have been so sudden, had it not been by Divine revelation. For when men have been vehement and eager on the contrary side, their conviction, if it is effected by human means, requires much time and ingenuity. It is clear therefore that he, whose conversion is sudden, and who has been sobered in the very height of his madness, must have been vouchsafed a Divine revelation and teaching, and so have at once arrived at complete sanity. On this account he is obliged to relate his former life, and to call the Galatians as witnesses of past events. That the Only-Begotten Son of God had Himself from heaven vouchsafed to call me, says he, you who were not present, could not know, but that I was a persecutor you do know. For my violence even reached your ears, and the distance between Palestine and Galatia is so great, that the report would not have extended there, had not my acts exceeded all bounds and endurance.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/1/11",
+      "full_content_url": "https://catenabible.com/com/57558ddd3c6effa740dddb02",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "If I wanted to please men, he says, I would still be with the Jews and would contest against the Church. If, however, I have treated with contempt an entire nation and relatives and glory, and have exchanged these with persecutions, and fights, and daily deaths, it should be obvious that even in saying these things I am not relying on the glory, which is from men. In fact he has said this because he is about to speak of his previous life. However, to prevent them from being elated in thinking that he does this as one who is apologizing to them, he says: “For am I still seeking to persuade men?”",
+      "commentary_number": "5/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/1/11",
+      "full_content_url": "https://catenabible.com/com/57558e003c6effa740dddbaa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 1:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

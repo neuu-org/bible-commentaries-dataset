@@ -1,0 +1,69 @@
+{
+  "verse_reference": "PHIL 4:1",
+  "verse_text": "Verse text for PHIL 4:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/4/1",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "The constancy of the Philippians is Paul’s joy, both for the present and for his future crown. For when his disciples are victorious in the contest, the master rightly receives the crown.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/1",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53514",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "For ye are \"our joy, and our crown \"and our hope, and our life, \"if so be that ye stand in the Lord.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/1",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb7f6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "Love, the sum of every virtue for the Christian, does not fittingly come to pass if the faithful do not stand united as one, thinking in harmony. This is what Paul means here by “Stand firm in the Lord, my beloved.” We may understand that he wants them to be united in understanding from the fact that he calls them [literally] “most beloved brethren.” Mutual love is the result of thinking in unison and standing together in Christ. When all have equal faith in Christ all of us stand together in him.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/1",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53515",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "So. How? Unmoved. See how he adds praise after exhortation, my joy and my crown, not simply joy but glory too, not simply glory but my crown too. Which glory nought can equal, since it is the crown of Paul. So stand fast in the Lord, my beloved, i.e. in the hope of God.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/1",
+      "full_content_url": "https://catenabible.com/com/5755bff93c6effa740dddc09",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 4:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

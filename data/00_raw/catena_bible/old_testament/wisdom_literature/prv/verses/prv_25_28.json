@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 25:28",
+  "verse_text": "Verse text for PRV 25:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/25/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Speaking. He lays himself open to every attack, chap. xxix. 11.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/25/28",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be742",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "The example and image used in this text, which compares a person with a city that is broken down and without walls, demonstrates how dangerous it is for a monk to be deprived of [selfcontrol]. Herein is wisdom; herein is knowledge and understanding. Without them can neither our interior dwelling be built nor spiritual riches be gathered, as it is written: “With wisdom a dwelling is built, and with knowledge it is set up again; with understanding its cellars are filled with all precious riches and good things.” .",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/25/28",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8583",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 25:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

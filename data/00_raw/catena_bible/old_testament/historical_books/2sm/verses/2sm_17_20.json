@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 17:20",
+  "verse_text": "Verse text for 2SM 17:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/17/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Water. Hebrew, \"they have crossed the brook of water. \"(Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/17/20",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd177",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "And what shall we say about the deed of the woman who received those who had been sent to King David by the aforementioned Hushai and who hid them in a well, spreading a cover over the mouth of it and making believe that she was drying barley. “They went on,” she said, “after having drunk a little water,” and by this trick she saved them from the hands of their pursuers. Tell me, then, I ask you, what you would have done if a similar situation had arisen for you who now live under the gospel. Would you have chosen to conceal them by a similar lie, saying in the same way, “They went on after having drunk a little water,” thus fulfilling what is commanded, “Do not spare [your help] to save those who are being led to death and to redeem those who are being slain” Or by speaking the truth would you have given over those who were hidden to those who were going to kill them. What, then, of the apostle’s words. “Let no one seek what is [to] his own [benefit] but rather [to] what is another’s. ” And, “Love does not seek what is its own but rather what belongs to others. ” And what he says about himself, “I do not seek what is beneficial to me but what is beneficial to the many, so that they may be saved. ” For if we seek what is ours and wish to hold on obstinately to what is beneficial to us, we shall have to speak the truth even in difficulties of this sort, and we shall become guilty of another’s death. But if we fulfill the apostolic command by placing what is helpful to others ahead of our own well-being, without a doubt the necessity of lying will be imposed upon us.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/2sm/17/20",
+      "full_content_url": "https://catenabible.com/com/5de46d5a8b87fe0847ee871c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 17:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

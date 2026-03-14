@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 5:9",
+  "verse_text": "Verse text for EX 5:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/5/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let there more work be laid upon the men, that they may labor in it; and let them not give regard to vain words. Augustine of Hippo When both the good and the bad do the same things and suffer the same things, they are to be distinguished by their intentions, not by their acts and penalties. Pharaoh oppressed the people of God with hard labors; Moses afflicted the same people, who had fallen into idolatry, with severe punishments. They did the same things, but they did not aim at the same result. The former was puffed up with pride of power, the latter was animated by love.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/5/9",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5275d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lying words, alluding to the proposals of Moses. (Haydock) -- Let them not spend their time in idle conversation. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/5/9",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2ef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 5:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

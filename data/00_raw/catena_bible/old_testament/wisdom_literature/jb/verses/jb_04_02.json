@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 4:2",
+  "verse_text": "Verse text for JB 4:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/4/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Conceived? and to which the speech of Job had given occasion. (Menochius)\nSeptuagint, \"Who shall bear the force of thy words? For if thou \"(Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/4/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdb70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What does Eliphaz say. “Have you often spoken in your suffering. ” By “suffering” the Scripture may signify “sin,” as it states, “Under his tongue is mischief. ” Eliphaz did not say, Have you committed any evil action. Eliphaz asks, “Have you spoken. ” Indeed the fame of Job’s life shone everywhere, and many still testified to Job’s virtue. It is useless, Eliphaz says to Job, to say that your deeds are just and good, for the very reason that the fault is sometimes found in the words we speak. “And who can tolerate the violence of your words. ” Consider now the expression “Have you often spoken. ” The hesitation and uncertainty do not come from his moderation but from the fact that Eliphaz cannot convince Job about an evident fault on his part, “the violence of your words. ” What did Job say. He wished to die and to be delivered from his present life. Did Job actually say, “Is it in spite of my justice and virtues that I suffer such misfortunes”. He said, “I wanted to disappear with the impious, with my servants, with the stillborn. I wanted to have the same fate as the impious. ” He did not say, “I, who have such qualities and such importance.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/4/2",
+      "full_content_url": "https://catenabible.com/com/5e1b5e528bc66721fe4ef5a2",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 4:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

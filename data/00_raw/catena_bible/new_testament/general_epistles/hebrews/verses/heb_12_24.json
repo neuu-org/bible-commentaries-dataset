@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 12:24",
+  "verse_text": "Verse text for HEB 12:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/12/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "that is, of purification, which speaks better things than that of Abel. And if the blood speaks, much more does He who, having been slain, lives. But what does it speak? The Spirit also (he says) speaks with groanings which cannot be uttered. Romans 8:26 How does He speak? Whenever He falls into a sincere mind, He raises it up and makes it speak.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/12/24",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac875",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Instead of Moses, Jesus . Instead of the people, myriads of angels.\n\nAnd to Jesus the mediator of the New Covenant, and to the blood of sprinkling that speaks better [things] than that of Abel. Did then the [blood] of Abel speak? Yea, he says, and by it he being dead yet speaks. Hebrews 11:4 And again God says, The voice of your brother's blood cries unto Me. Genesis 4:10 Either this [meaning] or that; because it is still even now celebrated: but not in such way as that of Christ. For this has cleansed all men, and sends forth a voice more clear and more distinct, in proportion as it has greater testimony, namely that by facts.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/12/24",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac870",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 12:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

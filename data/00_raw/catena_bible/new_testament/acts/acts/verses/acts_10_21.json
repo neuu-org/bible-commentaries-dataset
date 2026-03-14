@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 10:21",
+  "verse_text": "Verse text for ACTS 10:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/10/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "He asked in order to extract a confession, and left an example of the avoidance of haughtiness.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/10/21",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabdf7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "this is the way the Spirit must be obeyed, without demanding reasons. For it is sufficient for all assurance to be told by Him, This do, this believe: nothing more (is needed)— Then Peter went down, and said, Behold, I am he whom you seek: what is the cause wherefore you have come? He saw a soldier, saw a man: it was not that he was afraid, on the contrary, having first confessed that he was the person whom they sought, then he asks for the cause (of their coming); that it may not be supposed that the reason of his asking the cause, was, that he wished to hide himself: (he asks it) in order, that if it be immediately urgent, he may also go forth with them, but if not, may receive them as guests. And they said, etc. into his house.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/10/21",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92b5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 10:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

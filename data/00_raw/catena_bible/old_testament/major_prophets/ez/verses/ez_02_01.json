@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 2:1",
+  "verse_text": "Verse text for EZ 2:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/2/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Son of man, stand upon your feet, and I will speak unto you. Face, to adore God. (Menochius) Son of man. Our Saviour, out of humility, takes this title, which no other gave him; as the angel does commonly to this prophet, who was his figure: few else have received it, (Daniel viii. ) but the reason is not known. (Worthington) God here teaches Ezechiel not to boast of the honour shown to him, since he must always remember that he is but a feeble mortal.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ez/2/1",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befe0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 2:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

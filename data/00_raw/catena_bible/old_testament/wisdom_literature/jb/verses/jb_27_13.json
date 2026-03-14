@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 27:13",
+  "verse_text": "Verse text for JB 27:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/27/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Portion. This you have repeatedly asserted; and (Haydock) I acknowledge it is generally, but not always, the case. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/27/13",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdcff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Julian of Eclanum",
+      "period": "AD455",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh This is the portion of a wicked man with God, and the heritage of oppressors, which they shall receive of the Almighty. Julian of Eclanum “I will teach you through the hand of God. ” He says that he will describe to them with his teaching the afflictions that are given to the hypocrites through the hand of God. In order to show his full knowledge of the things that he will describe, he adds a full account of them. They cannot ignore what he is going to relate. The Greek text reads, “I will announce to you the things that are in the hand of God, the things that are with the Almighty, and I will not lie.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/27/13",
+      "full_content_url": "https://catenabible.com/com/5e1b60df8bc66721fe4ef6c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 27:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

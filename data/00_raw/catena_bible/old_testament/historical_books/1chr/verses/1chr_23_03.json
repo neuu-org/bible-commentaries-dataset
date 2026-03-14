@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 23:3",
+  "verse_text": "Verse text for 1CHR 23:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/23/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh 1 Chronicles 23:3 Now the Levites were numbered from the age of thirty years and upward: and their number, man by man, was thirty and eight thousand. Numbered at the same time, when David caused his son to be crowned, and made these fresh regulations, ver. Upwards, according to the plan given by Moses. David afterwards ordered people of twenty years of age, to begin to serve in the tabernacle, as it was now fixed, and consequently the labours were diminished. This tended to augment the splendour of the religious worship, and to edify the people, who could not attend so constantly, in person.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/23/3",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd718",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Procopius of Gaza",
+      "period": "AD528",
+      "content": "The text of Chronicles makes a list of the Levites according to the importance and dignity given them by the great Moses. It demonstrates how the successors of Moses were chosen for this purpose and how Zadok was appointed as the high priest, along with his nephew Eleazari, and also Abimelech, nephew of Itamari. It includes two lineages, one of which is connected with Itamari which it attributes to those who descend from them. Also Luke mentions this genealogy in his Gospel, considering Zechariah as belonging to the lineage of Abijah. The aforementioned book [of Chronicles] shows that Abija was the seventh to obtain by lot this inheritance.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/23/3",
+      "full_content_url": "https://catenabible.com/com/5e1b64748bc66721fe4ef7a7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 23:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

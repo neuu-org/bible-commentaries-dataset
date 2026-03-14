@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PHIL 2:24",
+  "verse_text": "Verse text for PHIL 2:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/2/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "That I also. This did not take place till full two years were expired, in the year 64: (Tillemont) and others are of opinion, that he was in Macedon when he wrote his first epistle to Timothy. (Theo. Atha. Tille.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/2/24",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0177",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "I am not therefore sending him, as though I myself would not come, but that I may be of good courage when I know your state, that even in the mean time I may not be ignorant of it. But I trust in the Lord, says he. See how he makes all things depend on God, and speaks nothing of his own mind. That is, God willing.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/2/24",
+      "full_content_url": "https://catenabible.com/com/5755bff83c6effa740dddbf3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 2:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

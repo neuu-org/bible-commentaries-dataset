@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 3:17",
+  "verse_text": "Verse text for LV 3:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/3/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fat. It is meant of the fat, which by the prescription of the law was to be offered on God's altar: not of the fat of meat, such as we commonly eat. (Challoner)\nThis distinction is sufficiently insinuated; (chap. vii. 25,) whence it also appears that the fat, here forbidden, is only that, which, in all sacrifices, appertains to the Lord, ver. 9, 10. The fat which was intermingled with the flesh might be eaten, and even the rest if the animal was not sacrificed. God repeatedly forbids the use of blood, chap. xvii. 13. Yet the Jews abstain from the fat also of all oxen, sheep, and goats; (Josephus, iii. 10,) and some, adhering to the words of this text, forbid the use of fat indiscriminately. (Calmet)\nCornelius a Lap ide condemns it, if the animal might be offered in sacrifice, though it were slain at home.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/3/17",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc517",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Fat: It is meant of the fat, which by the prescription of the law was to be offered on God's altar; not of the fat of meat, such as we commonly eat.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/3/17",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f6c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 3:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

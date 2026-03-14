@@ -1,0 +1,58 @@
+{
+  "verse_reference": "EX 16:4",
+  "verse_text": "Verse text for EX 16:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/16/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cassiodorus Senator",
+      "period": "AD585",
+      "content": "These incidents are quite well known from our reading of Exodus, for quails rained down like the heaviest shower, and the Jews received manna to get their fill. But to demonstrate that this was a prefiguration, he spoke not of manna but of the bread of heaven, so that the Lord Savior’s coming could be visualized in this blessing, for he is “the living bread which came down from heaven.” The meaning of manna, as was stated at Psalm , is “What is this?” He disposed of the problem surrounding the name, and with the statement “He filled them with the bread of heaven,” he explained the answer to the question about manna, for the Lord of heaven is indicated by the phrase, and the nature of manna is clearly acknowledged.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/16/4",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52803",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Prove. Show by experience. Therefore he orders the Hebrews to gather manna only for one day, except on Friday. Many suppose that this bread of angels began to fall on Sunday, (ver. 22; Origen, hom. 7.) or on Friday. (Calmet)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/16/4",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc38c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Peter Chrysologus",
+      "period": "AD450",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Behold, I will rain bread from heaven for you; and the people shall go out and gather a certain portion every day, that I may prove them, whether they will walk in my law, or not. The rain of manna fed the Jewish people for forty years in the desert. It did not by its customary service cause an increase of sprouts from the earth but streamed on the earth like harvested grains. It took away all the toil of human labor and by its pleasant dew offered and spread out heavenly produce for the hungry.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/16/4",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52802",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 16:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

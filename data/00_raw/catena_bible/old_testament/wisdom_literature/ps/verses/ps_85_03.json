@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 85:3",
+  "verse_text": "Verse text for PS 85:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/85/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "3. For how did He turn away the captivity of Jacob? See, how that that setting free is spiritual, see how that it is done inwardly. \"Thou hast forgiven,\" he saith, \"the iniquity of Thy people: Thou hast covered all their sins\" (ver. 2). Behold how He hath turned away their captivity, in that He hath remitted iniquity: iniquity held them captive; thy iniquity forgiven, thou art freed. Confess therefore that thou art in captivity, that thou mayest be worthy to be freed: for he that knoweth not of his enemy, how can he invoke the liberator? \"Thou hast covered all their sins.\" What is, \"Thou hast covered\"? So as not to see them. How didst Thou not see them? So as not to take vengeance on them. Thou wast unwilling to see our sins: and therefore sawest Thou them not, because Thou wouldest not see them: \"Thou hast covered all their sins.\" \"Thou hast appeased all Thy anger: Thou hast turned Thyself from Thy wrathful indignation\" (ver. 3).",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/85/3",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6ca2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 85:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 36:33",
+  "verse_text": "Verse text for EX 36:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/36/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Here, therefore, we must assume that a bar was stretched across the ten cubits of the width of the tabernacle, from the top of the boards in front to the top on the other side. [It was] firmly positioned with a head on the boards on each side in such a way that by means of it that side of the tabernacle which rested not on boards but on pillars might also remain immovable, no less firmly fixed than the other [side], even when the wind was blowing against it. If you should also wish to understand the sacrament of this bar, in a figurative manner it unambiguously signifies our Redeemer himself, who passed through from corner to corner, as it were. He reached out from the Jewish people, which he had previously chosen for himself, to make atonement also for the sake of the salvation of the multitude of the Gentiles. Hence, just as in the prophets he can for good reason be called the “cornerstone,” so also in the law can he be called the “corner bar. ” He is “cornerstone,” evidently, in relation to the temple which is constructed for God out of living stones. He is “corner bar” in relation to the tabernacle which is built for him out of imperishable wood, that is, out of the souls of the elect, which are free from the stain of corruption.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/36/33",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e528ec",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bar, not mentioned, (chap. xxvi. 28,) but specified by Josephus ( iii. 5,) at the west end of the tabernacle, going across the breadth of the planks. (To stat)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/36/33",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc4dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 36:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

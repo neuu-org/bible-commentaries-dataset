@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 11:47",
+  "verse_text": "Verse text for LK 11:47",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/11/47",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Woe unto you! for ye build the sepulchres of the prophets. Christ does not rebuke the Scribes for building these sepulchres, but because they sought to persecute and slay Him and His apostles, who were as the prophets of old. See S. Matt. xxiii.2\n\"Ye Acts , 0 ye Scribes, in accordance with the example of your fathers. They killed the prophets and ye bury them, as robbers bury those whom they have plundered and slain. Ye act thus out of pretended reverence and zeal, yet ye are but imitations of your fathers, for ye seek to kill Me and My disciples, and by so doing fill up the measure of their iniquity.\" But Suarez explains these verses thus, \"Inasmuch as ye imitate your fathers in your persecution of Christ and His apostles, ye seem to build these sepulchres more to commemorate the act of the slayer, than out of any desire to honour the slain.\"",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/11/47",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fcb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Woe to you who build Not that the building of the monuments of the prophets was in itself blameworthy, but only the intention of these unhappy men, who made use of this outward show of religion and piety, as a means to carry on their wicked designs against the prince of prophets. (Challoner)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/11/47",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfac7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "But why is a \"woe \"pronounced against them for \"building the sepulchres of the prophets whom their fathers had killed? \"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/11/47",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbdb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 11:47",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

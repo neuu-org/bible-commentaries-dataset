@@ -1,0 +1,58 @@
+{
+  "verse_reference": "EX 25:23",
+  "verse_text": "Verse text for EX 25:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/25/23",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "A dividing wall of cedar planks, twenty cubits high, was built in the temple to separate the inner sanctuary, that is, the Holy of Holies, from the forepart of the temple. The inner sanctuary was twenty cubits deep, twenty cubits wide and twenty cubits high. The [part of the temple] in front of the inner sanctuary was forty cubits long, and in it were tables and the golden candelabrum, as well as the golden altar near the door of the inner sanctuary. This was done so that when incense was offered upon it, the cloud of smoke might rise up and cover the inner sanctuary, where the ark of the covenant was, “and above it the cherubim of glory overshadowing the mercy seat.”",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/25/23",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5288d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "A table: on which were to be placed the twelve loaves of proposition; or, as they are called in the Hebrew, the face bread; because they were always to stand before the face of the Lord in his temple: as a figure of the eucharistic sacrifice and sacrament, in the church of Christ; (Challoner) which shows that Christ must be present in the eucharist. (Worthington)\nBy this bread, renewed at the public expense every sabbath-day, the Israelites made profession that they were indebted for their food to God's providence; and in gratitude, offered him this sacrifice, with incense and wine, ver. 29. The priests alone were to eat these loaves (1 Kings xxi.) at the expiration of the week. (Tirinus)",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/25/23",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc425",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You shall also make a table of acacia wood: two cubits shall be the length of it, and a cubit the breadth of it, and a cubit and a half the height of it. A table: On which were to be placed the twelve loaves of proposition: or, as they are called in the Hebrew, the face bread, because they were always to stand before the face of the Lord in his temple: as a figure of the eucharistic sacrifice and sacrament, in the church of Christ.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/25/23",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 25:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

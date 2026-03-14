@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 9:41",
+  "verse_text": "Verse text for MK 9:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/41",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And whosoever shall scandalize one of these little ones that believe in Me, it were better for him that a millstone were hanged about his neck, and he were east into the sea. This is antithetical to the36th verse. For Christ returns after the question interposed by John to what He had said concerning those who should receive a little child in His name. For as he who receives and cherishes the little ones who believe in Me, receives Myself, and shall be rewarded by Me with eternal glory in heaven; Song of Solomon , on the other hand, whoso shall cause one of these little ones to offend, offendeth Me, and shall be by Me condemned to Gehenna.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/9/41",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e8a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "For whosoever shall give you a cup of water to drink in my name, because you belong to Christ, verily I say unto you, he shall not lose his reward. Gregory of Nyssa God never asks his servants to do what is impossible. The love and goodness of his Godhead is revealed as richly available. It is poured out like water upon all. God furnishes to each person according to his will the ability to do something good. None of those seeking to be saved will be lacking in this ability, given by the one who said: “whoever gives you a cup of water to drink because you bear the name of Christ, will by no means lose his reward.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/41",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52deb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

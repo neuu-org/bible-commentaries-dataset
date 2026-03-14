@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 15:6",
+  "verse_text": "Verse text for ACTS 15:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/15/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Among us, he says, God chose: and from old days: long ago, he says, not now. And this too is no small point— at a time when Jews believed, not turned away (from the Gospel). Among us; an argument from the place: of old days, from the time. And that expression, Chose: just as in their own case he says not, (so) willed it, but, Chose that the Gentiles by my mouth should hear the word of the Gospel and believe. Whence is this proved? From the Spirit. Then he shows that the testimony given them is not of grace merely, but of their virtue. And God which knows the hearts bare them witness",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/15/6",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b938f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 15:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

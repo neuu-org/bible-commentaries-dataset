@@ -1,0 +1,80 @@
+{
+  "verse_reference": "ROM 8:6",
+  "verse_text": "Verse text for ROM 8:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/8/6",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "The wisdom of the flesh is death because sin is serious and it is through sin that this death comes. It is called wisdom, even though it is a foolish thing, because to worldly people sins against the law of God which are conceived, whether in thought or in deed, on the basis of what is visible appear as wisdom, especially because those who sin are full of energy and cleverness. The fact that they take so much trouble over it makes them appear wise, even though there is nothing more foolish than sinning. Moreover, there is yet another wisdom of the flesh which, puffed up as it is by earthly reasoning, denies the possibility of miracles. Therefore it laughs at the virgin birth and at the resurrection of the flesh. The wisdom of the Spirit, on the other hand, is true wisdom which leads to life and peace…. Paul did not say that the flesh is hostile but rather that “the wisdom of the flesh” is. “The wisdom of the flesh” means, in the first place, any argument about the unknown which men have come up with and, in the second place, a preference for what can be seen. Both these things are hostile to God because they make the Lord of the elements and the Creator of the world equal to what he has made and assert that nothing can happen unless there is a rational cause for it. For this reason they deny that God made a virgin give birth or that he raises the bodies of the dead. They say that it is absurd that God should do anything beyond what man can understand, and therefore he did not do it…. These people are so blinded that they do not see how greatly they are insulting God, for the work which he was pleased to do in order that his praise should be proclaimed they condemn and claim is unbelievable and absurd. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/5",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/rom/8/6",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5038",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "“To set the mind on the Spirit is life.” For error, imprudence and ignorance are impassioned, selfrebellious, selfcontradictory. And because of this “to set the mind on the flesh,” which is imprudence, is death, because it does not know God. Therefore, “to set the mind on the Spirit is life and peace.” ..",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/8/6",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5037",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gennadius of Constantinople",
+      "period": "AD471",
+      "content": "“Death” is estrangement and punishment from God; “life” is immortality and “peace” is fellowship with him. .",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/8/6",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5039",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Animal men, again, are instructed in animal things; such men, namely, as are established by their works, and by a mere faith, while they have not perfect knowledge. We of the Church, they say, are these persons.",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/8/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba1a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "But the condemnation of sin is the acquittal of the flesh, just as its non-condemnation subjugates it to the law of sin and death. In like manner, he called \"the carnal mind \"first \"death\"",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/8/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba1b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 8:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

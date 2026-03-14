@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 13:17",
+  "verse_text": "Verse text for EX 13:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/13/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lest. God maketh use of precautions, to show the free-will of man. (Worthington)\nThe Philistines had before made a great slaughter of the Ephraimites, 1 Paralipomenon vii. 21. The Chanaanites would also be ready to oppose the Hebrews, if they had attempted to enter by the road of Pelusium, and perhaps the Idumeans and Amalecites also would have met them in front, while the Egyptians attacked their rear. (Calmet)\nThis journey, Philo says, would not have taken up above three days. The battle with Amalec took place only 40 days afterwards, and God protected his people. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/13/17",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc35f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 13:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

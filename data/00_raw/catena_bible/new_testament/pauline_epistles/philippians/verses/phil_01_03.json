@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PHIL 1:3",
+  "verse_text": "Verse text for PHIL 1:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/1/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He said in another of his writings, Obey them that have the rule over you, and submit to them: for they watch in behalf of your souls, as they that shall give account; that they may do this with joy, and not with grief. Hebrews 13:17 If then the grief be due to the wickedness of the disciples, the doing it with joy would be due to their advancement. As often as I remember you, I glorify God. But this he does from his being conscious of many good things in them. I both glorify, he says, and pray. I do not, because you have advanced unto virtue, cease praying for you. But I thank my God, he says, upon all my remembrance of you,",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/1/3",
+      "full_content_url": "https://catenabible.com/com/5755bff83c6effa740dddbc6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 1:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

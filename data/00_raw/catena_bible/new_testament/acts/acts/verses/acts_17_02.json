@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 17:2",
+  "verse_text": "Verse text for ACTS 17:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/17/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "for so used Christ also to do: as on many occasions we find Him reasoning from the Scriptures, and not on all occasions (urging men) by miracles. Because to this indeed they stood in a posture of hostility, calling them deceivers and jugglers; but he that persuades men by reasons from the Scriptures, is not liable to this imputation. And on many occasions we find (Paul) to have convinced men simply by force of teaching: and in Antioch the whole city was gathered together Acts 13:44: so great a thing is this also, for indeed this itself is no small miracle, nay, it is even a very great one. And that they might not think that they did it all by their own strength, but rather that God permitted it, two things resulted, namely, Some of them were persuaded, etc. (c) And of devout Greeks a great multitude, and of the chief women not a few: but those others did the contrary: the Jews moved with envy, etc.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/17/2",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b93f4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 17:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

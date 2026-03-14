@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 109:6",
+  "verse_text": "Verse text for PS 109:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/109/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. \"When sentence is given upon him, let him be condemned, and let his prayer be turned into sin\" (ver. 6). For prayer is not righteous except through Christ, whom he sold in his atrocious sin: but the prayer which is not made through Christ, not only cannot blot out sin, but is itself turned into sin. But it may be inquired on what occasion Judas could have so prayed, that his prayer was turned into sin. I suppose that before he betrayed the Lord, while he was thinking of betraying Him; for he could no longer pray through Christ. For after he betrayed Him, and repented of it, if he prayed through Christ, he would ask for pardon; if he asked for pardon, he would have hope; if he had hope, he would hope for mercy; if he hoped for mercy, he would not have hanged himself in despair. ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/109/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e659a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Set you a wicked man over him: and let an accuser stand at his right hand. Or may his supplication to judges for pardon irritate them, (Calmet) and let it not move God to mercy any more than a sin. (Menochius) God rejects such prayers as are destitute of the proper conditions, as he did those of Antiochus, (St. Augustine; Calmet) and they are a fresh sin. (Berthier) Yet the prayer of a sinner is not so, when he acts sincerely.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/109/6",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be393",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 109:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

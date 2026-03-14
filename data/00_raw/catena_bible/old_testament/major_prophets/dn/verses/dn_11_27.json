@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 11:27",
+  "verse_text": "Verse text for DN 11:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/11/27",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "There is no doubt but what Antiochus did conclude a peace with Ptolemy and ate at the same table with him and devised plots against him, and yet without attaining any success thereby, since he did not obtain his kingdom but was driven out by Ptolemy's soldiers. But it cannot be proved from this set of facts that the statement of this Scripture was ever fulfilled by past history, namely that there were two kings whose hearts were deceitful and who inflicted evil upon each other. Actually, Ptolemy was a mere child of tender years and was taken in by Antiochus' fraud; how then could he have plotted evil against him? And so our party insist that all these things (A) refer to the Antichrist and to the king of Egypt whom he has for the first time overcome.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/11/27",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd367",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 11:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

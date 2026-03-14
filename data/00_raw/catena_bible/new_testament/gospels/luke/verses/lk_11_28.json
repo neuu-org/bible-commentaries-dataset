@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 11:28",
+  "verse_text": "Verse text for LK 11:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/11/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But He said, Yea rather, blessed are they that hear one word of God, and keep it. Christ does not say that His mother is not blessed, as Calvin would have us believe, but only that they are more blessed who hear the word of God and keep it, i. fulfil its precepts. Because to be the mother of God is a grace and free gift of God, but external, and therefore not of necessity acting upon the soul, but to hear and keep the word is an internal grace, finding acceptance in the sight of God. Again, to be the mother of God does not absolutely ensure everlasting happiness, but to keep God\"s word up to death has the sure promise of eternal life. And further, to be the mother of God Isaiah , of necessity, the blessing of one virgin only, but to hear and keep the word of God, a privilege common to all believers. Christ therefore would encourage the woman who had addressed Him. Thou callest My mother blessed, and sorrowest that so great a privilege has not fallen to thy lot, but I offer thee a better and more lasting blessing, if thou wilt hear My word, and keep My commandments. For My mother was blessed more because she acknowledged My divinity than because she conceived Me in her womb, nay more, because, had she not recognised the purpose of God and been obedient unto His word, she would have been accounted unworthy to have become the mother of His Son; and so S, Augustine says, \"The near relationship of mother would not have profited Mary had she not conceived Christ in her heart as well as in her womb. For she was more blessed in her faith than in her conception.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/11/28",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fc3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But he said, Yea rather, blessed are they that hear the word of God, and keep it. Menounge, imo vero, yes indeed. Our Saviour does not here wish to deny what the woman had said, but rather to confirm it: indeed how could he deny, as Calvin impiously maintained, that his mother was blessed. By these words, he only wishes to tell his auditors what great advantage they might obtain by attending to his words. For the blessed Virgin, as St. Augustine says, was more happy in having our Saviour in her heart and affections, than in having conceived him in her womb.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/11/28",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfabd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 11:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

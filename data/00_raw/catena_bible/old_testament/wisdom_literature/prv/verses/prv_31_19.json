@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 31:19",
+  "verse_text": "Verse text for PRV 31:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/31/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "“She has also braced her arms on the spindle. ” About this spindle let me say what the Lord permits me to. After all, this business of spinning wool is not completely foreign to men. Listen to what it means to say, “She has braced her arms on the spindle. ” It could have said “on the distaff. ” It said spindle, not without reason, perhaps. Though you could, of course, take it, and it wouldn’t be at all absurd, that the spindle seems to signify spinning, and spinning signifies the good works of a chaste woman and a busy and careful housewife. All the same I, dearly beloved, will not keep from you what I understand by this spindle. … Look at these two instruments for spinning wool, the distaff and the spindle. The wool is wrapped round the distaff and has to be drawn and spun in a thread and so pass onto the spindle. What’s wrapped on the distaff is the future; what’s collected by the spindle is already past. So your good work is on the spindle, not on the distaff. On the distaff is what you are going to do; on the spindle is what you have done. So see if you have anything on the spindle, that’s where your arms should be braced.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/31/19",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85e7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Strong things, \"becoming \"(Septuagint) her station. (Calmet)\nSpindle. She purposes and begins well, trusting in God for perfection and a reward. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/31/19",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be7a0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 31:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

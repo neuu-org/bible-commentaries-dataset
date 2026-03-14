@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 18:32",
+  "verse_text": "Verse text for GN 18:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/18/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he said, Oh let not the Lord be angry, and I will speak yet but this once: Suppose ten shall be found there. And he said, I will not destroy it for ten's sake. Abraham's chief solicitude was for Lot; though, out of modesty, he does not mention him; trusting, however, in the divine goodness, that he would be preserved, unless he had forfeited his justice, he proceeds no farther. God thus challenges Jerusalem to produce one virtuous man, and the city shall be saved for his sake, Jeremias v.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/18/32",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc0b5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For proof that such persons’ good standing is a means of winning long suffering for us, take heed in that very story to what he says to the patriarch: “If I find ten good people, I will not destroy the city. ” Why do I say ten good people. No one was found there free from lawlessness, except alone the good man Lot and his two daughters. His wife, you remember, perhaps on his account escaped punishment in the city but paid later the penalty for her own indifference. Now, however, since through God’s ineffable love the growth of religion was taking place, there were many people unobtrusively in the heart of the cities capable of appealing to God, others in hills and caves, and the virtue of these few succeeded in canceling out the wickedness of the majority. The Lord’s goodness is immense, and frequently he finds his way to grant the salvation of the majority on account of a few just people. Why do I say on account of a few just people. Frequently, when a just person cannot be found in the present life, he takes pity on the living on account of the virtue of the departed and cries aloud in the words, “I will protect this city for my own sake and the sake of my servant David. ” Even if they do not deserve to be saved, he is saving. And [they] have no claim on salvation; yet, since showing love is habitual with me and I am prompt to have pity and rescue them from disaster, for my own sake and the sake of my servant David I will act as a shield; he who passed on from this life many years before will prove the salvation of those who have fallen victim to their own indifference.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/gn/18/32",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51a90",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 18:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

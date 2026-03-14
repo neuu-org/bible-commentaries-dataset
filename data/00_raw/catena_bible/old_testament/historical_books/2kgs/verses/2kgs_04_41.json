@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 4:41",
+  "verse_text": "Verse text for 2KGS 4:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/4/41",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "Elisha corrects the nature of the cooked foods with some flour and gives them a new taste. Our Lord did the same according to the [divine] economy, so that he might be imitated, as he said for our exhortation, with the result that we might walk the path of the righteous and the pious, and might rejoice because of the great reward he promised us and might heal the diseases and the anguish and the tribulations that constantly surround us from the beginning of our life. The father of our race, Adam, gathered those [bitter] fruits as a consequence of his sin and proposed and offered them to us in the hour in which he heard [these words] from his Creator: “The ground is cursed because of you; it will bring forth thorns and thistles for you. You are dust, and to dust you shall return.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/4/41",
+      "full_content_url": "https://catenabible.com/com/5e1b69628bc66721fe4ef9bf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 4:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

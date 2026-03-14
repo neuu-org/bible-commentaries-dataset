@@ -1,0 +1,36 @@
+{
+  "verse_reference": "HOS 8:10",
+  "verse_text": "Verse text for HOS 8:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/8/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Princes. Hebrew, \"king of kings. \"This proud title was afterwards taken by the monarchs of Babylon and of Persia. Israel shall cease to pay taxes, having nothing left. They shall cease to be a people. (Calmet)\nSeptuagint, \"I will receive them, and they shall cease a little to anoint a king and princes. \"(Haydock)\nThey had none during the captivity, as they would not consult God before in their appointment, ver. 4. He speaks ironically. I will conduct them beyond the Euphrates, where they shall have nothing to pay for some time. (Calmet)\nThis wretched condition was of long continuance; (Tournemine) though short, if compared with their crimes. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/8/10",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf395",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 8:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

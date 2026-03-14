@@ -1,0 +1,69 @@
+{
+  "verse_reference": "PS 24:1",
+  "verse_text": "Verse text for PS 24:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/24/1",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "A Psalm OF David Himself, ON The First Day OF The Week.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/24/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68c6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. A Psalm of David himself, touching the glorifying and resurrection of the Lord, which took place catty in the morning on the first day of the week, which is now called the Lord's Day.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/24/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68c7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This title was found only in the common edition of the Septuagint. (Theodoret) The Jews say the psalm was used on Sunday; (Berthier) and the Fathers explain it of the resurrection and ascension of our Lord, whom it regards in the more sublime sense, though it may also be literally explained of the temple, or translation of the ark, 2 Kings vi. (Calmet) David appointed when the psalms were to be sung, Ecclesiasticus xlvii. This speaks of the creation. (Menochius) St. Paul applies the first verse to Jesus Christ, whom he styles the Lord, (1 Corinthians x. ) and Creator, of whom David speaks. It is wonderful that so few have noticed this excellent proof of Christ's divinity. The authors of Principles Discussed, according to their general system of two literal senses, explain this psalm of the re-establishment of the Jews after the captivity, and of the propagation of the Christian Church; and it is not clear that two senses ought not to be admitted. But we must, at least, admit that the prophet speaks literally of Jesus Christ (Berthier) as well as of the ark Therein. Though God be the Creator of all, he seems to have made a particular choice of Sion. Before the coming of Christ, all, except a few Jews (Calmet) and enlightened Gentiles, like Job, (Haydock) were buried in sin and ignorance. But now his kingdom is propagated widely; and in every place the Father is adored in spirit and in truth. Augustine) All power is given to Jesus Christ, who rose again on the first day of the week. Not only the earth, but all that is in it, belongs to the great Creator. (Worthington).",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/24/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf19",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The earth is the LORD'S, and the fullness thereof; the world, and they that dwell therein. Hippolytus of Rome He comes to the heavenly gates: angels accompany Him: and the gates of heaven were closed. For He has not yet ascended into heaven. Now first does He appear to the powers of heaven as flesh ascending. Therefore to these powers it is said by the angels, who are the couriers of the Saviour and Lord: Lift up your gates, you princes; and be lifted up, you everlasting doors: and the King of glory shall come in.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/24/1",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac0f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 24:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

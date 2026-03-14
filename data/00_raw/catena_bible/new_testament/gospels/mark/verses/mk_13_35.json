@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 13:35",
+  "verse_text": "Verse text for MK 13:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/13/35",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Watch you therefore: for you know not when the Master of the house comes, at evening, or at midnight, or at the cock crowing, or in the morning: At even, at midnight, or at the cock-crowing, or in the morning. These are generally referred to the different ages of man's life; infancy, youth, manhood, and old age. We are exhorted to be always in readiness, for we know not at what hour the Judge will come. (Nicholas of Lyra) We are taught to watch, because we are charged with the care of our soul, which is the temple or house of God, and which is to be his temple for all eternity. (Bible de Vence).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/35",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf99e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "For He will gird Himself, and will make them to sit down to meat, and will come forth and serve them.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/35",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb74f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 13:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

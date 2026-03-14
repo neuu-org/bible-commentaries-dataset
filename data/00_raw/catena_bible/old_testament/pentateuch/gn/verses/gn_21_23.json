@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 21:23",
+  "verse_text": "Verse text for GN 21:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/21/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now therefore swear unto me here by God that you will not deal falsely with me, nor with my son, nor with my son's son: but according to the kindness that I have done unto you, you shall do unto me, and to the land in which you have sojourned. After these things, Abimelech and Phicol, the commander of his army, spoke to Abraham, for they saw that God was with him and had helped him in the wars of the kings and had also promised him the land of the Canaanites. They also feared that after Abraham destroyed the Canaanites he would also destroy their own land, so they hastened to make a covenant with him, and the two of them made a covenant with Abraham.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/21/23",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51ac9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hurt me. Hebrew, \"lie unto me, \"or revolt and disturb the peace of my people.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/21/23",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc0e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 21:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

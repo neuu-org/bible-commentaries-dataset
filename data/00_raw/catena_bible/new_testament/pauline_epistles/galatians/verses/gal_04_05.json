@@ -1,0 +1,69 @@
+{
+  "verse_reference": "GAL 4:5",
+  "verse_text": "Verse text for GAL 4:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/4/5",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "He says “adoption” so that we may clearly understand that the Son of God is unique. For we are sons of God through his generosity and the condescension of his mercy, whereas he is Son by nature, sharing the same divinity with the Father.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/4/5",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c667a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "Since the law by its precepts held people bound, as it were, only to decency of life but not to the hope of deliverance and eternity, God sent his own Son. He sent him subject to the law, that is, the law of Israel, that he might redeem those who were there and lived under the law. Now this is a great thing, that he says [Christ came] not merely to show them the way of life or to stir them up toward eternity with harsh commands but to redeem them. This is the mystery of what he performed, the redemption of all who believed in him, that they might become sons by adoption. When, therefore, such a great benefit came from Christ, nothing was to be added beside this. The law was no longer a matter of servitude. .",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/4/5",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c667a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "To redeem them that were under the law, that we might receive the adoption as sons. Someone might raise the problem: “If then he was made subject to the law to redeem those who were subject to the law … if he himself was not made also outside the law, he did not redeem those who had not been subject to the law. ” Another, however, will scrutinize the word redeemed more closely and will say that by the “redeemed” are meant those who were once of God’s party and later ceased to be so, whereas those who were not subject to the law were not so much redeemed as purchased.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/4/5",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c667a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Ever done to bring about the fulness of time, or to wait patiently its completion? If nothing, what an impotent state to have to wait for the Creator's time, in servility to the Creator! But for what end did He send His Son? \"To redeem them that were under the law\".\nand \"that we might receive the adoption of sons\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/4/5",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb0e8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 4:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

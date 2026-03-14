@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 52:13",
+  "verse_text": "Verse text for IS 52:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/52/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Behold, my servant shall deal prudently, he shall be exalted and extolled, and be very high. Servant, Christ. In vain do the Jews attempt to apply this to any other. It is wonderful that Grotius should follow their steps, and understand Jeremias to be meant; though elsewhere he allows that the prophet speaks only of the Messias. ) This author has been of great prejudice to religion. The Chaldean and many modern Jews have been compelled by evidence to apply this to the Messias. Jesus was pleased to assume the form of a servant, Philippians ii.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/52/13",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb54",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 52:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

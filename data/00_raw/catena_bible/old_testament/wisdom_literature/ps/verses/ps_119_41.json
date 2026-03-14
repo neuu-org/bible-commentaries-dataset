@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:41",
+  "verse_text": "Verse text for PS 119:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/41",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "42. \"And let Thy loving mercy come also unto us, O Lord\" (ver. 41). This sentence seems annexed to the foregoing: for he doth not say, Let it come unto me, but, \"And let it come unto me.\" ...What then doth he here pray for, save that through His loving mercy who commanded, he may perform the commandments which he hath coveted? For he explaineth in some degree what he meant by adding, \"even Thy salvation, according to Thy word:\" that is, according to Thy promise. Whence the Apostle desireth us to be understood as the children of promise: that we may not imagine that what we are is our own work, but refer the whole to the grace of God. ...Christ Himself is the Salvation of God, so that the whole body of Christ may say, \"By the grace of God I am what I am.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/41",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e662b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Salvation. The Messias, foretold by the prophets, (Genesis xlix., Romans iii. 23., and Titus ii. 13.; Berthier) or grace, freely promised to all who ask for it. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/41",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3fc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

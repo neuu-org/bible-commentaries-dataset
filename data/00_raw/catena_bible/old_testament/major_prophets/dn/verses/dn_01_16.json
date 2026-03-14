@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 1:16",
+  "verse_text": "Verse text for DN 1:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/1/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "At the end of the 10 days, Daniel and his three companions looked healthier; this was a miracle, not a proof that fasting is physically beneficial. (Fr. Most) And inasmuch as they brought to the work all the strength which they had, God also contributed His strength to it. For it was not God’s doing only that they achieved those things for the sake of which they were to receive a reward, but the beginning and starting point was from their own purpose, and having manifested that to be noble and brave, they won for themselves the help of God, and so accomplished their aim.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/1/16",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f441",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 1:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

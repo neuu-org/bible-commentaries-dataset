@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 1:55",
+  "verse_text": "Verse text for LK 1:55",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/55",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "When blessed Mary was making mention of the memory of the fathers, she properly represented them by naming Abraham in particular. Although many of the fathers and holy ones mystically brought forward testimony of the Lord’s incarnation, it was to Abraham that the hidden mysteries of this same Lord’s incarnation and of our redemption were first clearly predicted. Also, to him it was specifically said, “And in you all the tribes of the earth will be blessed. ” None of the faithful doubts that this pertains to the Lord and Savior, who in order to give us an everlasting blessing deigned to come to us from the stock of Abraham. However, “the seed of Abraham” does not refer only to those chosen ones who were brought forth physically from Abraham’s lineage, but also to us…. Having been gathered together to Christ from the nations, we are connected by the fellowship of faith to the fathers, from whom we are far separated by the origin of our fleshly bloodline. We too are the seed and children of Abraham since we are reborn by the sacraments of our Redeemer, who assumed his flesh from the race of Abraham.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/55",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e72c5",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "He has taken hold of Israel—not of the Israel according to the flesh, who prides himself on the bare name, but of him who is so after the Spirit, in accordance with the true meaning of the appellation. The latter comprises those who look to God, believe in him and obtain through the Son the adoption of sons, according to the Word that was spoken and the promise made to the prophets and patriarchs of old. It has, however, a true application also to the carnal Israel, for many thousands and ten thousands of them believed. But he has remembered his mercy as he promised to Abraham and has accomplished what he said to him: that in his seed shall all the tribes of the earth be blessed. This promise was not in the act of fulfillment by the impending birth of our common Savior Christ—who is the seed of Abraham, in whom the Gentiles are blessed. For he took on him the seed of Abraham, according to the apostles’ words, and fulfilled the promise made unto the fathers. .",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/55",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e72c4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:55",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

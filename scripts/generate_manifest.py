@@ -79,17 +79,13 @@ def main():
     parser.add_argument(
         "--layer",
         required=True,
-        choices=["01_original", "02_translated_enriched"],
+        choices=["00_raw", "01_cleaned", "02_translated", "03_enriched"],
         help="Which layer to process",
     )
     args = parser.parse_args()
 
-    if args.layer == "01_original":
-        layer_dir = Path("data/01_original")
-        search_dir = layer_dir / "catena_bible"
-    else:
-        layer_dir = Path("data/02_translated_enriched")
-        search_dir = layer_dir
+    layer_dir = Path(f"data/{args.layer}")
+    search_dir = layer_dir / "catena_bible" if "catena_bible" in str(list(layer_dir.rglob("*.json"))[:1]) else layer_dir
 
     manifest = generate(search_dir, args.layer)
 

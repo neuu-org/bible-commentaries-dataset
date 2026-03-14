@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 10:37",
+  "verse_text": "Verse text for MK 10:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/10/37",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Ponder how profound this is. They were conferring with him about glory. He intended to precede loftiness with humility and, only through humility, to ready the way for loftiness itself. For, of course, even those disciples who wanted to sit, the one on his right, the other on his left, were looking to glory. They were on the lookout, but did not see by what way. In order that they might come to their homeland in due order, the Lord called them back to the narrow way. For the homeland is on high and the way to it is lowly. The homeland is life in Christ; the way is dying with Christ. The way is suffering with Christ; the goal is abiding with him eternally. Why do you seek the homeland if you are not seeking the way to it? Tractate on John.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/10/37",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e23",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 10:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

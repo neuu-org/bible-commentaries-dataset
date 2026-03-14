@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NEH 8:1",
+  "verse_text": "Verse text for NEH 8:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/8/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Were in, or had been at home, (Haydock) after the dedication of the walls, (Calmet) till they assembled (Haydock) at the beginning of the civil year, on the feast of trumpets, which was a day of rejoicing, (ver. 9., and Numbers xxix. 1.) the festival of the new moon. (Ribera) (Menochius)\nGate, near the temple, chap. iii. 26. (Calmet)\nMoses; the pentateuch. (Menochius)\nHe is not desired to restore what was lost. (Tirinus)\nAs many copies had been preserved by the prophets, which Esdras revised. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/8/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda23",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 8:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "verse_reference": "REV 21:6",
+  "verse_text": "Verse text for REV 21:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/21/6",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "The sensible types of these, then, are the sounds we pronounce. Thus the Lord Himself is called \"Alpha and Omega, the beginning and the end\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/21/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb8ef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "I am Alpha and Omega, the beginning and the end. I will give unto him that is thirsty of the fountain of the water of life freely. Cyprian of Carthage In the Apocalypse too: \"I am Alpha and Omega, the beginning and the end. I will give unto Him that is thirsting from the fountain of the water of life freely. He that overcometh shall possess these things, and their inheritance; and I will be his God, and he shall be my son. He who shall overcome shall possess these things, and their inheritance; and I will be his God, and he shall be my son.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/21/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb8f1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "It is done. The state of Christ's Church on earth, and in this world, is now finished; and the time is come to reward the good, and to punish the wicked in the lake burning with fire and brimstone, in hell, with the devils for all eternity. (Witham)\nThis living water is God himself, of which the saints shall be inebriated at the source; i.e. in God himself. Enviable moment, when all the designs of God upon Jesus Christ and upon his Church will be accomplished: but how little thought of now! And how can we hope to be inebriated at this source of God above, if we do not aspire after it whilst we are in this dreary desert here below? He who begins and finishes gratuitously here below the work of our faith, crowns it still more liberally in heaven.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/21/6",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c04dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "For they affirm that without those letters truth cannot be found; nay more, that in those letters the whole plenitude and perfection of truth is comprised; for this was why Christ said, \"I am the Alpha and the Omega.\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/21/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb8f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 21:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

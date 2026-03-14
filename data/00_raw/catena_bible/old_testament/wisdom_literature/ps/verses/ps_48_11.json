@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 48:11",
+  "verse_text": "Verse text for PS 48:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/48/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. \"Walk about Zion, and embrace her\" (ver. 11). Be it said to them who live ill, in the midst of whom is the people, which hath received the mercy of God. In the midst of you is a people living well, \"Walk about Zion.\" But how? \"embrace her.\" Not with scandals, but with love go round about her: that so those who live well in the midst of you ye may imitate, and by imitation of them, be incorporate with Christ, whose members they are. \"Walk about Zion, go round about her: speak in the towers thereof.\" In the height of her bulwarks, set forth the praises thereof.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/48/11",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a63",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Juda. Septuagint, Symmachus, have \"Judea \"(Calmet) which would intimate, that the psalm was composed after the captivity. But the Hebrew reads Yehuda, \"Juda \"with St. Jerome. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/48/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be094",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 48:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

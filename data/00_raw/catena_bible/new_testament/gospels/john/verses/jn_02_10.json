@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JN 2:10",
+  "verse_text": "Verse text for JN 2:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/2/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "When men have well drank, or plentifully; this is the literal sense: nor need we translate, when they are drunk, being spoken of such company, where our Saviour, Christ, his blessed Mother, and his disciples, were present. See Genesis xliii. 34; 1 Machabees xvi. ver. 16, where the same word may be taken in the same sense. (Witham)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/2/10",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb9b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 2:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

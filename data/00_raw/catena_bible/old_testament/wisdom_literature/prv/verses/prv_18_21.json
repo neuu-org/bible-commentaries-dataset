@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 18:21",
+  "verse_text": "Verse text for PRV 18:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/18/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Love it, and speak well or ill, shall receive accordingly, Matthew xii. 37.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/18/21",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be69f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Christ makes the same point when he says, “By your own words you will be condemned, and by your words you will be justified.”The tongue stands in the middle ready for either use; you are its master. So also does a sword lie in the middle; if you use it against the enemy, it becomes an instrument for your safety; if you use it to wound yourself, it is not the steel but your own transgression of the law that causes your death. Let us think of the tongue in the same way, as a sword lying in the middle. Sharpen it to accuse yourself of your own sins, but do not use it to wound your brother. Hence, God has surrounded the tongue with a double wall—with the barrier of the teeth and the fence of the lips—in order that it may not easily and heedlessly utter words it should not speak. –.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/18/21",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8505",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 18:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

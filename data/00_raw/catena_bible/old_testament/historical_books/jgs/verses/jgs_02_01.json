@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 2:1",
+  "verse_text": "Verse text for JGS 2:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/2/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Taking the shape of a man, (Challoner) such as had appeared to Josue, (chap. ; Menochius) the guardian angel of Israel. (Haydock) The Jews commonly suppose that it was Phinees, the high priest, Malachi as ii. (Drusius) But he might be dead with the rest of the ancients when this took place, as the Israelites seem to have experienced many difficulties in consequence of their repeated prevarications, before this messenger was sent to them. He might very probably be some prophet, who speaks in the name of God, (Aggeus i. 13,) as he is said to come not from heaven, but from Galgal to the place of weepers. Hebrew, at Habbocim, \"the mulberry trees. \"Septuagint, Klauthmon. This place, the valley of tears, (Psalm lxxxiii. 7,) perhaps received his name afterwards, from what happened, ver. Some suppose it designates Silo, where the people might be assembled on some great festival, and where sacrifice was offered, ver. Bonfrere collects from the Septuagint and Josephus, ( vii. 4,) that it lay beyond the vale of the Raphaim, on the south side of Jerusalem, (Menochius) where this messenger might summon the people together, and authorize them to offer sacrifice, as was frequently done (Calmet) by dispensation (Haydock) at a distance from the tabernacle, chap. If he was an angel, his authority could not be called in question; and if he was the high priest, or a prophet known to the people, they would hear him with attention and respect. (Calmet) He appeared at least in human form, and spoke in the name of God. (Worthington) (Josue v.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/2/1",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bccbc",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "An angel: Taking the shape of a man.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/2/1",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa009",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 2:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

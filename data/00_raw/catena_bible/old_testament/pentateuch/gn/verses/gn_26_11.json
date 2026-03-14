@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 26:11",
+  "verse_text": "Verse text for GN 26:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/26/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Touch, or hurt, by offering to marry (Haydock)\nAdultery was punished with death among these nations, chap. xxxviii. 24, as it was by the law of Moses. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/26/11",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc11f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "See God’s providence; see his ineffable care. The One who had said, “Don’t go down into Egypt; stay in this land, and I will be with you,” was the one arranging all this and putting the good man in such a safe position. I mean, notice the king going to such trouble to ensure that he could live in peace and be free from all concern. After all, Abimelech threatened them all with death, the text says, “if anyone laid a hand on him or his wife. ” You see, since it was the fear—of death, I mean—that shook Isaac’s resolve, consequently the loving Lord caused him to be rid of it and from then on to live in complete security. See the strange and remarkable thing in the way God, who is creative and wise and transforms everything according to his own wish and finds means where there are none, brings about in every way the security of his servants. Whence was it, after all … that this king showed such care for the good man, as if proclaiming his merits to all the inhabitants of the city and presenting him as a famous person and much admired by himself. In this way too Nebuchadnezzar, after casting the three children in the furnace and learning by experience the invincible power of the young men’s virtue, began then to sing their praises and in every way to render them famous by his own tongue. This, after all, is a particular index of the abundance of God’s power, when he causes his servants to be celebrated by their enemies. The man who with relish had the furnace lit and then saw that, on account of help from on high, the children’s virtue survived even the fire’s heat, was all at once changed, and he cried out, “Servants of God the most high.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/gn/26/11",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51b68",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 26:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

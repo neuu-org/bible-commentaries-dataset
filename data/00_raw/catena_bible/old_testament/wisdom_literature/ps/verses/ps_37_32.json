@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 37:32",
+  "verse_text": "Verse text for PS 37:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/37/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The wicked watches the righteous, and seeks to slay him. Augustine of Hippo \"The wicked watcheth the righteous, and seeketh to slay him\" (ver. For he says, what it was foretold in the book of Wisdom that he should say, \"He is grievous unto us, even to behold; for his life is not like other men's. \" Therefore he \"seeks to slay him. Doth the Lord, who keepeth him, who dwelleth with him, who departeth not from his lips, from his heart, doth He forsake him. What then becomes of what was said before: \"And He forsaketh not His Saints\".",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/37/32",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Death, mortificare. Some read perdere, or occidere. The wicked are constantly laying snares for destruction, (Calmet) and to draw others into mortal sin. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/37/32",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdffc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 37:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

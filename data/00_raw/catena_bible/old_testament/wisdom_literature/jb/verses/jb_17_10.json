@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 17:10",
+  "verse_text": "Verse text for JB 17:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/17/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Man. He offers to dispute with them again, and convince them of folly; (Menochius) or rather he here concludes his address to them, and invites them to change their preposterous judgments.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/17/10",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc5b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Which same words of exhortation he properly frames to the Elect, whom he calls to the eternal world; who are bidden in two ways, viz. that they should ‘turn,’ and that they should ‘come;’ ‘turn’ by faith, ‘come’ by practice. Or indeed that they ‘turn’ by abandoning evil deeds, and ‘come’ by doing good ones; as it is written, Depart from evil, and do good: [Ps. 37, 27] but that is wonderful which is added, And may I not find one wise man among you. For what does this mean, that he bids them to wisdom, and yet wishes that he may not find them wise, saving that they cannot come to true wisdom, who are deceived in confidence in their own false wisdom. Concerning whom it is written, Woe unto you that are wise in your own eyes, and prudent in your own sight [Is. 5, 21]; and to whom it is said again, Be not wise with your own selves [Rom. 12, 16]; whence that same great preacher sought that those, whom he found carnally wise, in order that they might attain true wisdom, should first become foolish; saying, If any man among you seemeth to be wise in this world, let him become a fool, that he may be wise. 3, 18] And ‘Truth’ saith by Itself, I thank Thee, O Father, Lord of heaven and earth, because Thou hast hid these things from the wise and prudent, and hast revealed them unto babes. 11, 25] And so because they that are wise in themselves cannot come to true wisdom, blessed Job, being anxious for the conversion of his hearers, rightly desires that he may not ‘find any wise man among them. ’ As if he said to them in plain speech; ‘Learn to be foolish in your own selves, that ye may be truly wise in God.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/jb/17/10",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd031",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 17:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

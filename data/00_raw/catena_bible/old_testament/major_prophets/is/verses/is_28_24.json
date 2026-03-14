@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 28:24",
+  "verse_text": "Verse text for IS 28:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/28/24",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "I praise wedlock, I praise marriage, but it is because they give me virgins. I gather the rose from the thorns, the gold from the earth, the pearl from the shell. “Does the plowman plow all day to sow?” Shall he not also enjoy the fruit of his labor? Wedlock is the more honored, the more what is born of it is loved. Why, mother, do you grudge your daughter her virginity? She has been reared on your milk, she has come from your womb, she has grown up in your bosom. Your watchful affection has kept her a virgin. Are you angry with her because she chooses to be a king’s wife and not a soldier’s? She has conferred on you a high privilege; you are now the mother-in-law of God.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/28/24",
+      "full_content_url": "https://catenabible.com/com/5e4f7fa7c849cf49a740e3ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 28:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

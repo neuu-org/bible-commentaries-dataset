@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 33:1",
+  "verse_text": "Verse text for PS 33:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/33/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. \"Rejoice in the Lord, O ye rigtheous:\" rejoice, O ye righteous, not in yourselves, for that is not safe; but in the Lord. \"For praise is comely to the upright\" (ver. 1): these praise the Lord, who submit themselves unto the Lord; for else they are distorted and perverse.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/33/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e694b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "David. There is no title in Hebrew; and the Greek copies vary. This psalm may be considered as a continuation of the former, with the last verse of which it may be well connected. (Calmet)\nSome suppose that David composed it after he had been rescued from the giant Jesbibenob, ver. 16., and 1 Paralipomenon xx. 4. (Ferrand.)\nIt is not certain that he is the author; but as other psalms without a title are ascribed to him, we have no reason to deny that he wrote this. (Berthier)\nMany explain it as a thanksgiving of Ezechias. (Theodoret)\nBut we need not refer it to any particular event. (Calmet)\nUpright. But it is not seemly in the mouth of a sinner, Ecclesiasticus xv. 9., (Worthington) and Psalm lxix. 16. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/33/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf91",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 33:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

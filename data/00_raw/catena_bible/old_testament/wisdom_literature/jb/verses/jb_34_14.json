@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 34:14",
+  "verse_text": "Verse text for JB 34:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/34/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "To him, and examine his conduct with rigour: there is scarcely a moment of our lives in which he would not discover a just reason for withdrawing his hand, and suffering us to die, Psalm ciii. 29. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/34/14",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdd8e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "47. The heart is crooked, when it seeks for things below. It is made straight when it is raised to things above. If a man therefore direct his heart to the Lord, the Lord draws to Himself his spirit and his breath. He uses, namely, spirit for inward thoughts, but breath, which is drawn through the body, for outward actions. For God, then, to draw the spirit and breath of man to Himself, is for Him so to change us both within and without, to turn towards Him in our desires, that nothing outward may any longer please the mind, and that the flesh (even if it wishes it) may not endeavour to attain any inferior object; but that the whole man may have its inward desires kindled towards Him from Whom it springs, and may bind itself closer to Him without, by self-control.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/34/14",
+      "full_content_url": "https://catenabible.com/com/574393213c6effa740ddd1e5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 34:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

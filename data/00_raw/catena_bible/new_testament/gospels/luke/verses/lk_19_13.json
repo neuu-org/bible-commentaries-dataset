@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 19:13",
+  "verse_text": "Verse text for LK 19:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/19/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And he called, &c. That you may increase my gain and your own. \"Ten,\" that is all his servants, for he gave to each man a mna as appears from what follows. Christ would have us continually traffic with the \"mnas,\" that is His talents, gifts, graces, which He has given us, that we may assiduously increase our gain of works and merits. He forbids us therefore to be idle; so that our whole life ought not to be one of ease, but of continual trading in spiritual gain, which, says S. Gregory to Dominicus (lib1Ep39), \"we truly carry on, if by our lives and words we bring profit to the souls of our neighbours; if by preaching the joys of heaven we strengthen the feeble in the love of things heavenly; if we bow down the bold and haughty by inflexibly proclaiming the punishments of Gehenna: if we spare no man for Truth\"s sake: if, given up to heavenly friendships, we fear no human enmity. \" He adds, \"But I fear the burthen of my weakness for this work. I see Him when He has received His kingdom, returning and bringing me to account, and with what heart shall I endure His presence, to whom, in return for the work I have undertaken, I bring no gain of souls, or almost none. \" This he says. As much more humble, so much greater.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/19/13",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5207f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ten pieces of money, each of which was called a mna. To translate pounds, gives the English reader a false notion, the Roman coin called a mna not corresponding to our pound. (Witham)\nA mna was 12½ ounces, which, at five shillings per ounce, is £3 2s. 6d.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/19/13",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb36",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 19:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

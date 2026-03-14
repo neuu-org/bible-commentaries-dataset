@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 21:11",
+  "verse_text": "Verse text for LK 21:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/21/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Terrors from heaven. Josephus, in his history of this war, in which Jerusalem was destroyed by Titus, (lib. vii. chap. 12) relates, at length, many of the prodigies which were the forerunners of the dreadful end of this unfortunate city. During a whole year a meteor, like a flaming sword, was seen impending over the city. There were likewise seen in the air, appearances of chariots and numerous armies, which pressed one upon another. On the night of Pentecost, the priests, after a confused noise, heard distinctly these words, \"Let us go hence \"which are supposed to have been spoken by the angels, who had hitherto guarded and protected the holy city, but now were taking their leave of it. Josephus was in the Roman camp, before the city, during the siege, and an eye-witness of what passed on the occasion. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/21/11",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb51",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 21:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

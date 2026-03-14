@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 16:13",
+  "verse_text": "Verse text for EX 16:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/16/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Quails. All the Oriental languages express these birds by solaem, though some have asserted, that pheasants or locusts are here meant. Josephus (Antiquities iii. 1) informs us, that great flocks of quails are found about the gulph of Arabia. They return to Europe from the warmer regions, about the beginning of May, at which time God directed the course of vast multitudes to the camp of Israel. Hesychius says, the chennion, a smaller species of quails, was salted and dried, as the Hebrews did theirs, Numbers xi. 32. See Psalm lxxvii. 26. (Calmet)\nDew, upon which lay the miraculous bread, around the camp. None fell within, as the place was not sufficiently clean. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/16/13",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc392",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 16:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

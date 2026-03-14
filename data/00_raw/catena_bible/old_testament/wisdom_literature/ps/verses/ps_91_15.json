@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 91:15",
+  "verse_text": "Verse text for PS 91:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/91/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"He shall call upon me, and I will hear him: yea, I am with him in trouble\" (ver. Fear not when thou art in trouble, as if the Lord were not with thee. Let faith be with thee, and God is with thee in thy trouble. There are waves on the sea, and thou art tossed in thy bark, because Christ sleepeth. Christ slept in the ship, while the men were perishing. If thy, faith sleep in thy heart, Christ is as it were sleeping in thy ship: because Christ dwelleth in thee through faith, when thou beginnest to be tossed, awake Christ sleeping: rouse up thy faith, and thou shalt be assured that He deserts thee not. But thou thinkest thou art forsaken, because He rescueth thee not when thou thyself dost wish. He delivered the Three Children from the fire. Did He, who did this, desert the Maccabees. He delivered both of these: the first bodily, that the faithless might be confounded; the last spiritually, that the faithful might imitate them. \"I will deliver him, and bring him to honour.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/91/15",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6d1a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Tribulation. The just are not exempt from it.\nGlorify him, with eternal salvation.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/91/15",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 91:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "EPH 1:16",
+  "verse_text": "Verse text for EPH 1:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/eph/1/16",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "Every prayer that we offer up to God is made either in thanks for what we have received or in petition to receive something else. We are encouraged to pray both for ourselves and for those we love. So Paul says, “I make mention of you in my prayer.” “Therefore my chief prayer is first on my account, then on yours.” .",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/1/16",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c668c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What is your prayer, and what your entreaty?",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/1/16",
+      "full_content_url": "https://catenabible.com/com/57558dcd3c6effa740ddda75",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Consider how many people he had in mind, whom it was hard work even to remember. All these he has remembered in his prayers, giving thanks to God as though he himself were the chief beneficiary…. Everywhere he joins faith and love in a remarkable union. .",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/1/16",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c668c4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EPH 1:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

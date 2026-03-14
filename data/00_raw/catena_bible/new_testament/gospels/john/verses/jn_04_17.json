@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 4:17",
+  "verse_text": "Verse text for JN 4:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/4/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "The woman answered, &c. From hence it is plain that this woman was thus a widow, and therefore not an adulteress, but a harlot, unless indeed her lover were married, in which case both were guilty of adultery.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/4/17",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52128",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "To whom is it not now evident that the Saviour was not ignorant that she was bereft of any rightful husband and that He made the enquiry about her husband who was not, a plea for making known hidden things? For He was, He was thus with difficulty able to help her no longer marvelling at Him as one of us, but as now above man, by reason of His wondrous knowledge of her circumstances. And profitably does He approve her saying she has no husband, although she had had so many; for not the coming together out of pleasure, but the approval of the law and bond of pure love make marriage blameless.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/4/17",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabe89",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 4:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

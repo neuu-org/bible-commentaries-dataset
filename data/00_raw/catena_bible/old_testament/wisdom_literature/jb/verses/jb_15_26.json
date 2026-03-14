@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 15:26",
+  "verse_text": "Verse text for JB 15:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/15/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And is. Hebrew, \"even upon the thick bosses of his buckler. \"(Haydock)\nGod thus seizes his antagonist, who, like Pharao, swells with pride. (Calmet) (Deuteronomy xxxii. 15.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/15/26",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc3c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "To ‘run against God with erected neck’ is to commit with shamelessness such things as are displeasing to the Creator. Of whom it is rightly said, He ran, i. e, in doing evil, he had no let or hindrance from adversity. Concerning whom it is yet further added; And he is armed with a stout neck [pingui cervice]. ‘A stout neck’ is wealthy pride, as being buttressed up with overflowing stores, as it were with a quantity of flesh. And so the bad man with power ‘is armed against God with a stout neck,’ in that swollen with temporal good things he is set up as by a great bulk of flesh against the precepts of truth. For what is poverty but a sort of leanness, and what is the abundance of stores but the fatness of the present life. And so he lifts himself up ‘with a stout neck against God,’ who takes temporal abundance to serve the end of pride. For the powerful and wicked have this thing proper to them, that being engrossed with deceitful riches they neglect the true riches of God, and in proportion as they investigate the less what is true, they are the more lifted up by false acquisitions. For the care and concern of earthly things, because it engrosses, utterly blinds the sight.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/15/26",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd009",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 15:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

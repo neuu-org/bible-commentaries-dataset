@@ -1,0 +1,58 @@
+{
+  "verse_reference": "EX 20:2",
+  "verse_text": "Verse text for EX 20:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/20/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Let [my opponents] insist, if they like, in contradiction to their own assertion, that worship of the one true God and the prohibition against idolatry is not to be preached to the unbaptized but to the already baptized. Do not, however, let them any longer say to those who are going to receive baptism that they need be instructed only on belief in God and after the reception of the sacrament they will be taught the manner of living required by the second precept on the love of neighbor. For both are contained in the law which the people received after the Red Sea, that is, after baptism. The commandments were not so distributed that before crossing the Red Sea the Jews were warned against idolatry and not until after their escape taught to honor father and mother, not to commit adultery, not to kill, and the remaining prescriptions for a rational and godly way of living.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/20/2",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52837",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Fulgentius of Ruspe",
+      "period": "AD533",
+      "content": "In the first commandment of the Decalogue, just as the worship and service of the one Lord God is most clearly commanded, so for adoration and service to be shown by the faithful to any creature is most vehemently forbidden. For it is said there: “I am the Lord your God, who brought you out of the land of Egypt, out of the house of slavery; you shall have no other gods before me.” If this is taken as spoken simultaneously by the Father and the Son, the Father and the Son are believed to be one Lord God. But if either the Father is believed to have said this without the Son or the Son without the Father, it is necessary that the Father or the Son be denied to be the Lord God. Concerning this he said, “I am the Lord your God who brought you out of the land of Egypt, out of the house of slavery; you shall have no other gods before me.” .",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/20/2",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52838",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thy God. By this endearing title, we are all required to consecrate our whole hearts and souls to our only Maker and Redeemer; and therefore we must love God sincerely, and comply with all his commandments. This preface to the Decalogue, enforces the acts of faith, hope, charity, religion (Haydock)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/20/2",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3c7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 20:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

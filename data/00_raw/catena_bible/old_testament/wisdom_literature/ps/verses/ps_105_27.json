@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 105:27",
+  "verse_text": "Verse text for PS 105:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/105/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh They showed his signs among them, and wonders in the land of Ham. Augustine of Hippo 18. \"He set forth in them the words of His tokens, and of His wonders in the land of Ham\" (ver. We ought not to understand by \"the words of His tokens,\" words literally, words with which the tokens and wonders were worked, that is, which they uttered, that these tokens and wonders might take place. For many were performed without words, either with a rod, or with outstretched hand, or by ashes sent towards heaven.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/27",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6555",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He gave. Hebrew, \"they placed in them the words of their signs. \"(Calmet) (Houbigant)\nBut the Chaldean and St. Jerome are conformable to the Septuagint. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/27",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be35a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 105:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

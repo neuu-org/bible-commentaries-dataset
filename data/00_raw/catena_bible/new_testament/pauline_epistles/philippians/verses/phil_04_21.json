@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PHIL 4:21",
+  "verse_text": "Verse text for PHIL 4:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/4/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "The greeting of the brothers is an act of mutual consolation. It calls to mind those who have been split apart.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/21",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53543",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Salute every saint in Christ Jesus. This also is no small thing. For it is a proof of great good will, to salute them through letters. The brethren which are with me salute you. And yet you said that you have no one like-minded, who will care truly for your state. How then do you say now, The brethren which are with me? He either says, The brethren which are with me, because he has no one like-minded of those who are with him, (where he does not speak of those in the city, for how were they constrained to undertake the affairs of the Apostles?) or that he did not refuse to call even those brethren.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/4/21",
+      "full_content_url": "https://catenabible.com/com/5755bff93c6effa740dddc18",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 4:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

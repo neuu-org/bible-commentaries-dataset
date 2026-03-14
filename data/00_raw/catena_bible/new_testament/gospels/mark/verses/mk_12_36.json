@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 12:36",
+  "verse_text": "Verse text for MK 12:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/12/36",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "For David himself said by the Holy Spirit, The LORD said to my Lord, Sit on my right hand, till I make your enemies your footstool. Hilary of Poitiers The scribe, therefore, is not far from the kingdom of God when he acknowledges the one God who is to be loved above all things. But he is admonished by his own confession in that he does not fully grasp the mystery of the law as being fulfilled in Christ…. The scribe only recognized him according to the flesh and the birth from Mary, who was descended from David, rather than as David’s Lord.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/12/36",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e6a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 12:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

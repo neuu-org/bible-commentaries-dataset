@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 18:28",
+  "verse_text": "Verse text for ACTS 18:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/18/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now by this, that he publicly convinced them, his boldness was shown: by the clearness of his arguing, his power was declared: by his convicting them out of the Scriptures, his skill (of learning). For neither boldness by itself contributes anything, where there is not power, nor power where there is not boldness. He mightily convinced, it says. (β ) And it came to pass, etc.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/18/28",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9442",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Methodius of Olympus",
+      "period": "AD311",
+      "content": "For he mightily convinced the Jews, and that publicly, showing by the scriptures that Jesus was the Christ. Methodius of Olympus Gs are placed under Thee as their Cause and Author, as He who brought all things into being out of nothing, and gave to what was unstable a firm coherence; as the connecting Band and Preserver of that which has been brought into being; as the Framer of things by nature different; as He who, with wise and steady hand, holds the helm of the universe; as the very Principle of all good order; as the irrefragable Bond of concord and peace. For in Thee we live, and move, and have our being.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/18/28",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae7d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 18:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

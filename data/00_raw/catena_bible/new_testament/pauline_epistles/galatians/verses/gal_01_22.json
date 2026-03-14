@@ -1,0 +1,80 @@
+{
+  "verse_reference": "GAL 1:22",
+  "verse_text": "Verse text for GAL 1:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/1/22",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "It should be observed that Jews had believed in Christ not only in Jerusalem, nor were they so few that they had been absorbed into the Gentile churches, but they were so numerous that churches came into being from them.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/22",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c6670e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And was unknown by face. The Christians in Judæa had not seen my face. He says this, says Chrysostom, to prove that he had not taught in Judæa, nor preached circumcision and the Old Law, as the Judaisers alleged he had done.\nWhich were in Christ—inHis faith and religion; which were Christians. See my canon37.\n>",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/22",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5260a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "He discreetly returns to the main point, establishing that he had spent so short a time in Judea that he was unknown even by face to the believers. Hence he shows that he had no teachers—not Peter, not James, not John—but Christ, who had revealed his gospel to him.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/22",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c6670d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What modesty in thus again mentioning the facts of his persecuting and laying waste the Church, and in thus making infamous his former life, while he passes over the illustrious deeds he was about to achieve! He might have told, had he wished it, all his successes, but he mentions none of these and stepping with one word over a vast expanse, he says merely, I came into the regions of Syria and Cilicia; and, they had heard, that he, which once persecuted us, now preaches the faith of which he once made havoc. The purpose of the words, I was unknown to the Churches of Judæa, is to show, that so far from preaching to them the necessity of circumcision, he was not known to them even by sight.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/1/22",
+      "full_content_url": "https://catenabible.com/com/57558ddd3c6effa740dddb0c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What is his aim in saying “I was unknown by face to the churches of Judea?” That you may understand he was so far from preaching circumcision to them that they did not even know him by sight.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/22",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c6670c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 1:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:83",
+  "verse_text": "Verse text for PS 119:83",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/83",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "83. But when spiritual desires burn, carnal desires without doubt cool: on this account followeth, \"Since I am become like a bottle in the frost, I do not forget Thy righteousnesses\" (ver. 83). Truly he desireth this mortal flesh to be understood by the bottle, the heavenly blessing by the frost, whereby the lusts of the flesh as it were by the binding of the frost become sluggish; and hence it ariseth that the righteousnesses of God do not slip from the memory, as long as we do not meditate apart from them; since what the Apostle saith is brought to pass: \"Make not provision for the flesh, to fulfil the lusts thereof.\" \"And I do not forget Thy righteousness:\" that is, I forget them not, because I have become such. For the fervour of lust hath cooled, that the memory of love might glow.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/83",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e664f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Like a bottle in the frost. In the Hebrew, like a bottle in the smoke. That is, I am become, through my sufferings in this mortal pilgrimage, as a leathern bottle, shrunk up because of being exposed to the frost or smoke. (Challoner)\nSo the bodies of the just are exposed to mortification, that they may become like new bottles, capable of containing the new wine of the gospel doctrine, Matthew ix. 17. (Worthington)\nGoats' skins, with the hair inward, are still used in some places to contain liquors. (Calmet)\nThey were hung over the smoke, to make the wine old, or fit for drinking sooner. (Colum. i. 6.) Amphoræ fumum bibere institutæ, Consule Tullo. (Horace 3. Od. 8.) (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/83",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be41f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:83",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

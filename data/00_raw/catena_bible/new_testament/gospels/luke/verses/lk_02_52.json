@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 2:52",
+  "verse_text": "Verse text for LK 2:52",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/2/52",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Not that he was wiser at any future period of his life, than he was at the moment of his conception, but this is said, because he chose to manifest increasing signs of wisdom as he increased in years.\nIn the same manner also he increased in grace, by displaying, as he advanced in age, the gifts of grace with which he was endowed; and by this excited men to the praise of God, from the consideration of favours God had bestowed upon him; and thus he conduced to the honour of God, and the salvation of men. (St. Gregory)\nThe sun, always equally brilliant in itself, is said to increase in splendour, till it has reached its meridian brilliancy.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/2/52",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa18",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "I blush not at an error which I have ceased to hold, because I am delighted at having ceased to hold it, because I recognise myself to be better and more modest. No one blushes at his own improvement. Even in Christ, knowledge had its stages of growth;",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/2/52",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc17",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 2:52",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

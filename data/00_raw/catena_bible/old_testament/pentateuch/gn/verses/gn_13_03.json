@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 13:3",
+  "verse_text": "Verse text for GN 13:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/13/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Consider, I ask you, how he was a lover of peace and quiet and was constantly attentive to divine worship. The text says, remember, that he went down to that place where he had previously built the altar. By calling on the name of God he right from the very beginning fulfilled in anticipation that saying of David, “I would rather be of no account in the house of my God than take up residence in sinners’ dwellings.” In other words, solitude turned out to be preferred by him for invoking the name of God, instead of the cities. After all, he well knew that cities’ greatness is not constituted by multitude of inhabitants but by the virtue of its residents. Hence too the desert proved to be more desirable than the cities, adorned as it was by the just man’s virtue and thus a more resplendent vision than the whole world.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/13/3",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e519fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 13:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

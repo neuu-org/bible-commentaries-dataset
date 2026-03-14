@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 119:125",
+  "verse_text": "Verse text for PS 119:125",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/125",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I am your servant; give me understanding, that I may know your testimonies. Augustine of Hippo 124. \"I am Thy servant. O grant me understanding, that I may know Thy testimonies\" (ver. This petition must never be intermitted. For it sufficeth not to have received understanding, and to have learnt the testimonies of God, unless it be evermore received, and evermore in a manner quaffed from the fountain of eternal light. For the testimonies of God are the better and the better known, the more understanding a man attaineth to.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/125",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6677",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:125",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 5:1",
+  "verse_text": "Verse text for 2KGS 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“Naaman, commander of the army of the king of Aram, was a great man and in high favor with his master because by him the Lord had given victory to Aram. ” Some rely on these words to say that he was the one who had killed Ahab by striking him with an arrow shot by his own hand, when there was war between [Israel] and Aram. This favor was granted him by the Lord as a reward for killing the persecutor of the prophets and for enfeebling the power of Jezebel, [Ahab’s] wife, and for restraining her cruelty. And thanks to him the disciples of Elijah had relief too, those whom the fear of Ahab and Jezebel had forced to flee into the desert and take refuge in some caves. And they had returned to their abodes, as the Scripture mentions below. But all these theories are groundless, except for what they say about the persecution of the prophets, which is undoubtedly correct. It is true, nevertheless, what Obadiah says to Elijah: “Has it not been told my lord what I did when Jezebel killed the prophets of the Lord, how I hid a hundred of the Lord’s prophets fifty to a cave and provided them with bread and water.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/5/1",
+      "full_content_url": "https://catenabible.com/com/5e1b69628bc66721fe4ef9c1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "King, Benadad, who had defeated Achab, and was slain by Hazael; (chap. viii.; Tirinus) or, according to Salien, Hazael was already king. (Menochius)\nJosephus passes over this history. It is not known for what reason, (Calmet) unless he was staggered at the petition of Naaman, ver. 18, 19. (Haydock)\nSyria. The Rabbins say, by killing Achab, 3 Kings xxii. 34. But their authority is very small; (Haydock) and he might signalize himself on many other occasions.\nLeper. This malady did not exclude him from court. The Hebrews allowed such to appear in public, till the priests had declared them unclean; and other nations viewed the leprosy with less horror.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/5/1",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd443",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

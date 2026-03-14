@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2TIM 3:15",
+  "verse_text": "Verse text for 2TIM 3:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2tm/3/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For he who knows the Scriptures as he ought is not offended at anything that happens. He endures all things patiently, referring them partly to faith and to the incomprehensible nature of the divine dispensation, and partly knowing reasons for them and finding examples in the Scriptures…. Know this, however, that God dispenses all things, that he provides for all, that we are free agents, that some things he works and some things he permits. Indeed, God wills nothing evil to be done, for all things are not done by his will but some by ours also. All evil things are done by ours alone, all good things by our will conjointly with his influence. Thus, nothing is without his knowledge. Therefore he works all things. You then knowing this can reckon what things are good, what are evil and what are indifferent.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2tm/3/15",
+      "full_content_url": "https://catenabible.com/com/583f5325205c248f42e532a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2TIM 3:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

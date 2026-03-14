@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 1:32",
+  "verse_text": "Verse text for PRV 1:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/1/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Turning. Hebrew, \"the ease of the simple \"who have given way to deceit. (Calmet)\nThem. The objects of their eager desires, prove their ruin, Ezechiel xvi. 49.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/1/32",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be571",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Solomon says, “The turning away of little ones shall kill them, and the prosperity of fools shall destroy them.” Hence Paul admonishes, saying, “They that buy shall be as though they possessed not, and they that use this world, as if they used it not.” That is, the things which suffice us should so serve us outwardly as not to take away our minds from the pursuit of supernal delight, and the things that merely support us in our [earthly] exile, must not abate the mourning of our soul’s pilgrimage. We who see ourselves miserable in our present state of separation from the eternal must not rejoice as though we were happy in the possession of what is transitory. .",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/1/32",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8392",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 1:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

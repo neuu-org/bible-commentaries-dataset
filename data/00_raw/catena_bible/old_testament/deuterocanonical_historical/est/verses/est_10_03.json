@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EST 10:3",
+  "verse_text": "Verse text for EST 10:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/10/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For Mordecai the Jew was next unto king Ahasuerus, and great among the Jews, and accepted by the multitude of his brethren, seeking the welfare of his people, and speaking peace to all his countrymen. Benjamin (I tin. ) informs us, that both he and the queen were buried in the chief city of the Medes, which he calls \"the great Hamda \"perhaps the province Mardochæa, (or Amordakia. ) near the Persian gulf, may have been called after this statesman.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/10/3",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdb0a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "What does the text mean when it says that King Ahasuerus made all lands and all islands of the sea subject to his tributes. Since the historical king of the Persians and Medes did not have all lands under his rule, nor was he able to make all the islands of the sea subject to his tributes since the fame of his name could not even reach some of those islands or parts of the world, this sentence more truly applies to our king and Lord Christ whose power is in heaven, on earth, over the sea and every abyss. And he called himself “door,” because through him we have access to eternal life, according to the testimony of the psalmist, “And the kings of the entire universe adore him. And all the kings of the earth serve him, the kings of Tharsis and the islands offer gifts, the kings of Arabia and Sheba bring gifts. ” Therefore not only the voices and the writings of the Jewish people alone, but also those of all the nations testify how the power of this king, his authority, dignity and preeminence advanced the true Mordecai, that is, the assembly of the holy teachers and masters of the church who lead the Christian people. Those whom he made his elect at the beginning through the gift of grace, those whom he made glorious and honorable before all the nations are the ones who look out for the good of his people and speak the words which concern the peace of his seed, according to the prediction of Isaiah: “Listen. Your sentinels lift up their voices; together they sing your praises.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/10/3",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa50",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 10:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

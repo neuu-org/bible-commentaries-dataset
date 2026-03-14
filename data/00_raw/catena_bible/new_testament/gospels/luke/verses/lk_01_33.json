@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 1:33",
+  "verse_text": "Verse text for LK 1:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/33",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Those are here called of the house of Jacob, who out of the multitude of the Jews believed in Christ. This is conformable to that text of St. Paul: All are not Israelites that are of Israel, but the children of the promise are accounted for the seed. (Romans ix. 6, 8.) (St. Chrysostom, hom. vii. on S. Matt.)\nAnd of his kingdom there shall be no end: which clearly shows it was not to be a temporal, but a spiritual and an eternal kingdom. (Witham)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/33",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": ", because He was a King, \"of whose kingdom is no end; \"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/33",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbbad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "Peter said: We preach one God and Father of our Lord Jesus Christ, that has made the heaven and the earth and the sea, and all that therein is, who is the true King; and of His kingdom there shall be no end.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/33",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbbae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "AM 4:10",
+  "verse_text": "Verse text for AM 4:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/4/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I have sent among you a plague after the manner of Egypt: your young men have I slain with the sword, and have taken away your horses; and I have made the stench of your camps to come up unto your nostrils: yet have you not returned unto me, says the LORD. Egypt, as I published the Egyptians, (Calmet) or the Hebrews, when they came thence, and wished to return. (Chaldean; St. Cyril) Horses. I have deprived you of them, (Haydock) under Achab and Joachaz, 4 Kings vi. Hazael slew many subjects of Jehu, 4 Kings x. (Calmet) The stench of their carcasses and of the locusts caused death or the plague.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/4/10",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf439",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 4:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

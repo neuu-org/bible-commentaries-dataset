@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 10:41",
+  "verse_text": "Verse text for LK 10:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/10/41",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Such also was what the Lord said to Martha, who was occupied with many things, and distracted and troubled with serving; while she blamed her sister, because, leaving serving, she set herself at His feet, devoting her time to learning: \"Thou art troubled about many things, but Mary hath chosen the good part, which shall not be taken away from her.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/10/41",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbd82",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Thou art too anxious, Martha, and therefore thou are troubled. Thou desirest to prepare many things for me, whereas I need but few. Emmanuel Sa and all the others translate é·ç³‹å¡. , thou art confused, but the better rendering Isaiah , thou art troubled. For those who are anxious about many things experience much perturbation of mind—hence too much care and anxiety is the sign of excessive love or fear, and so they who love honour or riches, or any other thing too much, fear lest they may lose what they love, and become perturbed and anxious.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/10/41",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 10:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 22:14",
+  "verse_text": "Verse text for LV 22:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/22/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And if a man eat of a holy thing unwittingly, then he shall add the fifth part of it unto it, and shall give it unto the priest with the holy thing. A layman, who, through mistake, ate of any of the tithes, was obliged to give the capital, and a fifth part besides, with a sacrifice, mentioned chap. Hebrew and Septuagint, \"He shall give to the priest the holy thing. \"But if he ate it on purpose, he was to be slain, Numbers xv.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/22/14",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc656",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And if a man eat of a holy thing unwittingly, then he shall add the fifth part of it unto it, and shall give it unto the priest with the holy thing. At the end, it is stated, “If a man eats of the sanctified things through ignorance, iniquity and wickedness are laid at his feet, and he shall be bound by a vow. ” Thus also the apostle teaches us that we are to eat the Eucharist of the Lord with caution, lest we eat to our condemnation and judgment. If ignorance is condemned under the law, how much more will full knowledge be condemned according to the gospel. Against the Pelagians.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/22/14",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 22:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

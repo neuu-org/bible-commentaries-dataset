@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZR 5:6",
+  "verse_text": "Verse text for EZR 5:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/5/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "But also let the gold and silver vessels of the temple of God, which Nebuchadnezzar took from the temple in Jerusalem and brought to Babylon, be returned and brought back to their place in Jerusalem, which also have been placed in the temple of the god. When he says that the vessels were at that time placed 'in the temple of the god', he means the temple of the Babylonians in which Nebuchadnezzar had put them and, as is stated more clearly earlier in the book,1 from which Cyrus had ordered they be removed and brought back to Jerusalem. The letter of King Cyrus that had been found in Ecbatana ends at this point. To which suddenly in a novel and unusual way there is an addition in the name and authority of King Darius:",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ezr/5/6",
+      "full_content_url": "https://catenabible.com/com/58fe623b543064d91d46c36a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 5:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

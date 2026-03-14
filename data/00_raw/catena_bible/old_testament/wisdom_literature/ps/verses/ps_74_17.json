@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 74:17",
+  "verse_text": "Verse text for PS 74:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/74/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "17. \"Thou hast made all the ends of the earth\" (ver. 17). ...Behold in what manner He hath made the ends of the earth, that hath wrought Salvation in the midst of the earth. \"Thou hast made all the ends of the earth. Summer and spring Thou hast made them.\" Men fervent in the Spirit are the summer. Thou, I say, hast made men fervent in the Spirit: Thou hast made also the novices in the Faith, they are the \"spring.\" \"Summer and Spring Thou hast made them.\" They shall not glory as if they have not received: \"Thou hast made them.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/74/17",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c02",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 74:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

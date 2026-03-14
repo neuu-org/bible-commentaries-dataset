@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 9:4",
+  "verse_text": "Verse text for NEH 9:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/9/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then stood up upon the stairs, of the Levites, Jeshua, and Bani, Kadmiel, Shebaniah, Bunni, Sherebiah, Bani, and Chenani, and cried with a loud voice unto the LORD their God. And we prayed to our God and set watchmen on the wall day and night against them. This is the sole /725/ refuge against all enemies of the Church - namely prayer to God and the zeal of teachers who, meditating day and night on his law, fortify the hearts of the faithful against the attacks of the devil and his soldiers by preaching, consoling, and exhorting.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/9/4",
+      "full_content_url": "https://catenabible.com/com/58fe876d543064d91d46c3d3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Step, erected by Esdras, chap. viii. 4.\nJosue These Levites are mentioned again, (ver. 5.) with some variation. Bani is called Bonni; Sebania, is Hasebnia. (Calmet)\nPerhaps some of them might be different, as there seems to be no reason for thus changing their names so soon. There are eight persons in both places. Septuagint have, \"Jesus and the sons (Bani) of Kadmiel, Sachania, son of Sarabaia, the sons of Chanani; (5.) and the Levites, Jesus and Kadmiel said, Arise (6.) and Esdras said, Thou \"(Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/9/4",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda33",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 9:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

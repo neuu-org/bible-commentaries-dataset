@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PHIL 2:16",
+  "verse_text": "Verse text for PHIL 2:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/2/16",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "“I have glory through you because you possess the word of life”— that is, because you know Christ, who is the Word of life, “because what was made in Christ was life.” Therefore Christ is the Word of life. From this we perceive how great is the profit and glory of those who correct the souls of others.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/2/16",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e534c0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "To my glory That is, I beseech you to continue in faith, and comply with the word and doctrine of the gospel, that I may have glory, and rejoice together with you in the day of Christ, when he shall come to judgment. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/2/16",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0173",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "It means those who hold that they are going to live and are among the saved. See what immediate prizes he sets before them: “The stars,” he says, “possess the principle of light and you the principle of life.” What is this “word of life”? It means having the seed of life, that is, the beginnings of life, possessing life itself. .",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/2/16",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e534c1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 2:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

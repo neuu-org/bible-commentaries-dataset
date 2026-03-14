@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 5:28",
+  "verse_text": "Verse text for LK 5:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/5/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Levi was a publican, a man greedy for dirty money, filled with an uncontrolled desire to possess, careless of justice in his eagerness to have what did not belong to him. Such was the character of the publicans. Yet he was snatched from the workshop of sin itself and saved when there was no hope for him, at the call of Christ the Savior of us all. For Jesus said to him, “ ‘Follow me.’ And he left all and followed him.” What most wise Paul says is true: “that Christ came to save sinners.” Do you see how the onlybegotten Word of God, having taken upon him the flesh, transferred to himself the devil’s goods? Commentary on Luke, Homily",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/28",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e738a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The profane Julian charged St. Matthew with levity, in leaving all and following a stranger at one word. But hereby is seen the marvellous efficacy of Christ's word and internal working, which in a moment can alter the heart of man, and cause him to despise what before was most near and dear to him. And this was done not only whilst Christ was living on earth, but daily in his Church. Thus St. Anthony, St. Francis, and others, hearing this word in the Church, forsook all and followed Jesus. (St. Jerome, in Matt. ix.; St. Athanasius, in vita. St. Anthony; St. Augustine, Confess. lib. viii. chap. 11.; St. Bonaventure, in vit. St. Francis.)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/28",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa52",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 5:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

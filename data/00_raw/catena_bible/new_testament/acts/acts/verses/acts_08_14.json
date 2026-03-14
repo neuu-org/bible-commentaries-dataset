@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 8:14",
+  "verse_text": "Verse text for ACTS 8:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/8/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "Now when the apostles who were at Jerusalem heard that Samaria had received the word of God, they sent unto them Peter and John: Spirit, performed the miracles of healing in Samaria, insomuch that the Samaritans were affected, and embraced the faith of the God of the universe, and of the Lord Jesus, and were baptized into His name; nay, and that Simon himself, when he saw the signs and wonders which were done without any magic ceremonies, fell into admiration, and believed, and was baptized, and continued in fasting and prayer,-we heard of the grace of God which was among the Samaritans by Philip, and came down.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/14",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723badd7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 8:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

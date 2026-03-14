@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 10:10",
+  "verse_text": "Verse text for NM 10:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/10/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And on. This serves to explain what kind of banquet is meant. On the festivals of religion, peace-offerings were made, of which those who were pure, might partake. (Haydock)\nOn solemn and extraordinary occasions, holocausts were also presented to God by the whole nation; and the trumpets announced those public rejoicings, 2 Paralipomenon v. 12., and xxix. 26. (Calmet)\nMonths. The day when the moon first appeared, was a festival day among the Jews, (Menochius) or the first day of the month, while they observed the solar year.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/10/10",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc72c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 10:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

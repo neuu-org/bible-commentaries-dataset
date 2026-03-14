@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 144:3",
+  "verse_text": "Verse text for PS 144:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/144/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "4. \"Lord, what is man, that Thou hast become known unto him?\" (ver. 3). All is included in \"that Thou hast become known unto him.\" \"Or the son of man, that Thou valuest him?\" Thou valuest him, that is, Thou makest him of such importance, Thou countest him of such price, Thou knowest under what Thou placest him, over what Thou placest him. For valuing is considering the price of a thing. How greatly did He value man, who for him shed the blood of His only-begotten Son! For God valueth not man in the same way as one man valueth another he, when he findeth a slave for sale, giveth a higher price for a horse than for a man. Consider how greatly He valued thee, that thou mayest be able to say, \"If God be for us, who can be against us?\" And how greatly did He value thee, \"who spared not His own Son\"? \"How shall He not also with Him freely give us all things?\" He who giveth this food to the combatant, what keepeth He in store for the conqueror? ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/144/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6799",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "To him. Hebrew, \"thou dost acknowledge him. \"(St. Jerome) (Haydock)\nIn the transport of gratitude, he reflects on his own weakness, Job vii. 17., and Romans viii. 31. (Calmet)\nBefore Christ, all mankind were undeserving of revelation. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/144/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be518",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 144:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

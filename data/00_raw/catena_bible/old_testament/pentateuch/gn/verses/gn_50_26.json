@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 50:26",
+  "verse_text": "Verse text for GN 50:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/50/26",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The text goes on: “Joseph passed away at one hundred and ten. ” Why did it indicate to us his age too. For you to learn how long he had been entrusted with the control of Egypt. He was seventeen when he went down to Egypt, and it was when he reached the age of thirty that he appeared before Pharaoh and interpreted his dreams. Joseph then held complete control of Egypt for eighty years. Do you see how the rewards were greater than the hardships and the recompense manifold. For thirteen years he struggled with temptations, suffering servitude, that illicit accusation, ill treatment in prison. Since he nobly bore everything with thankfulness, accordingly he attained generous rewards even in the present life. Consider, after all, I ask you, that as a result of that short period that he endured servitude and imprisonment Joseph occupied a royal position for eighty years. For proof that it was by faith that he did all this and for the same motive gave directions about the transfer of his bones, listen to Paul’s words: “It was by faith that at the point of death Joseph gave a reminder about the exodus of the sons of Israel.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/50/26",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51d1e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 50:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

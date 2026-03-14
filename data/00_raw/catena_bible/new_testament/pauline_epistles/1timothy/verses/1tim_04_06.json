@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1TIM 4:6",
+  "verse_text": "Verse text for 1TIM 4:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/4/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "If you put the brethren in remembrance of these things, you shall be a good minister of Jesus Christ, nourished up in the words of faith and of good doctrine, which you have attained. Athanasius the Apostolic Virtues and vices are the food of the soul, which can feed on either one, turning to whichever one it wants to. If it is bent toward moral excellence, it will be fed by virtue—by righteousness, temperance, meekness, endurance. In other words, it’s just as St. Paul says, “being nourished by the word of truth. ” That’s the way it was with our Lord, who said, “My food is to do the will of him who sent me.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/4/6",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e6395",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What are the things here meant? The same which he had before mentioned, that great is the mystery; that to abstain from meats is the doctrine of devils, that they are cleansed by the word of God and prayer.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/4/6",
+      "full_content_url": "https://catenabible.com/com/575f0fd63c6effa740ddde08",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 4:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

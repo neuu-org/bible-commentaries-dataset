@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 1:11",
+  "verse_text": "Verse text for EX 1:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/1/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Masters. Cruel like himself, who not only made them build without proper materials, (ver. 14, and chap. v. 10, Haydock,) but oppressed them with heavy burdens of brick and tile. Hence Aristophanes calls the Hebrews in derision Plinthophoroi. This servitude is styled the iron furnace of Egypt, Deuteronomy iv. 20; Jeremias xi. 4.\nOf tabernacles, or of storehouses. (Challoner)\nTo keep his treasures, Chaldean, or \"fortresses \"Septuagint. It may also be the name of a city, Miscenoth, chap. xii. 37. Phi Thom, perhaps the same as the town of Heroum, where the Septuagint say Joseph first met his father, Genesis xlvi. 28. Ramesses was the capital, and situate in the Arabic nome. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/1/11",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2b3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Of tabernacles: Or, of storehouses.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/1/11",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f17a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 1:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

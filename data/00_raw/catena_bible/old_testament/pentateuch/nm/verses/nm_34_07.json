@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 34:7",
+  "verse_text": "Verse text for NM 34:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/34/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The most high mountain. Libanus. (Challoner)\nHebrew, \"the mountain of the mountain, or of Hor. \"Some understand Mount Casius, Hermon, Taurus, or Amanus; which last lies on the confines of Cilicia, and hence the Rabbins draw a line by the straits of Gibraltar to Pelusium, so as to comprise all the islands and the waters of the Mediterranean. (Selden, Marc. Claus. i. 6.) But Grotius denies that the sea can be claimed by any one, nor was it, even for fishing, says he, before the days of Justinian. (Jur. ii. 2, 3.) (Calmet)\nAt any rate, Moses here seems to mean the northern limits from the point of the Mediterranean, where Libanus is situated, across the country eastward to Emath, and as far as the village of Enan, ver. 9. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/34/7",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc8b9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The most high mountain: Libanus.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/34/7",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fe2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 34:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

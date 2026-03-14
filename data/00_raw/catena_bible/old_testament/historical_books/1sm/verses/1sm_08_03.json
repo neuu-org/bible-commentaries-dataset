@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 8:3",
+  "verse_text": "Verse text for 1SM 8:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/8/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Judgment. Samuel was not to blame, and hence he was not punished like Heli. (Menochius)\nHowever, the misconduct of the children of these two judges, in succession, (Haydock) gave occasion to the people to demand a king, who might not be tempted by bribes. (Worthington)\nIt is surprising that most of the great men who are mentioned in history, had degenerate children. (Calmet)\nSuch were some of David's sons, as well as Cambyses, the son of Cyrus (Haydock)\nWas it because their fathers were too much taken up with the affairs of state, to watch over the education of their children? or rather, because these young men confided too much on the merits of their family, and took no pains to tread in the footsteps of their parents? (Calmet)\n\"We have here, says Josephus, a manifest proof that children do not always resemble their parents, but sometimes good men spring from the wicked; and on the contrary, the virtuous have an evil progeny.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/8/3",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bce97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And his sons walked not in his ways, but turned aside after gain, and took bribes, and perverted justice. But possibly you flatter yourself that since the bishop who has made you a deacon is a holy man, his merits will atone for your transgressions. I have already told you that the father is not punished for the son or the son for the father. “The soul that sins shall itself die. ” Samuel too had sons who forsook the fear of the Lord and “turned aside after lucre” and iniquity.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/8/3",
+      "full_content_url": "https://catenabible.com/com/5de467401f75ae05ba98ce9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 8:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

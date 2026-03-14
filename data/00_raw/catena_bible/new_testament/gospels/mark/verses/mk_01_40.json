@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 1:40",
+  "verse_text": "Verse text for MK 1:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/1/40",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "It is not in one’s own power, however admirable and trustworthy may be the knowledge one has of the facts, to determine the order in which he will recall them to memory. For the way in which one thing comes into one’s mind before or after another proceeds not as we will, but simply as it occurs to us. It is reasonable enough to suppose that each of the Evangelists believed it to have been his duty to relate what he had to relate in that order in which it had pleased God to suggest it to his recollection.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/1/40",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52cd8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Therefore volition takes the precedence of all; for the intellectual powers are ministers of the Will. \"Will \"it is said, \"and thou shalt be able.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/1/40",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb683",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 1:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

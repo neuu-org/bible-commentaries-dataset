@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MAL 3:5",
+  "verse_text": "Verse text for MAL 3:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mal/3/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And I will come near to you for judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against false swearers, and against those that oppress the hireling in his wages, the widow, and the fatherless, and that turn aside the sojourner from his right, and fear not me, says the LORD of hosts. He has answered (ver. 1, 2) the complaint of the Jews, chap. (Haydock) This he does here (Menochius) more pointedly. (Haydock) Christ condemned the world, as his spirit did likewise, John xvi. He made an example of Jerusalem, which showed that he would not leave crimes unpunished. We may also understand this of his last coming. (Calmet) God threatens to punish even secret sins, which are know to him alone. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mal/3/5",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf63f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MAL 3:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

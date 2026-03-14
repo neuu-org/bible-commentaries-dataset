@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 5:3",
+  "verse_text": "Verse text for JGS 5:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/5/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Hear, O you kings; give ear, O you princes; I, even I, will sing unto the LORD; I will sing praise to the LORD God of Israel. She invites all who have authority, whether in or out of Israel, to attend unto the dispensations of Providence. God alternately cherishes and corrects his people. David makes a similar appeal to all kings and judges, Psalm ii. She dwells with a degree of rapture on the thought that God had shown his power so wonderfully, and had effected his gracious purposes by the hand of a woman. (Haydock) She directed Barac. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/5/3",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bccf9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 5:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

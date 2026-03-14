@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 4:6",
+  "verse_text": "Verse text for MK 4:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/4/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And if the young shoots of the wheat wither, that is not because of the heat, for he did not say that it withered because of the heat, but “because it had no roots.” And if that which he has taught us is choked, neither is it the fault of the thorns, but of those who allow them to grow. For you can, if you will, oppose their evil growth, and make fitting use of your resources. For this reason he says not “the world,” but “the care of this world”; not “riches,” but “the deceitfulness of riches.” Let us put blame, not on created things, but on the corrupted will. .",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/4/6",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d19",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now pay particular attention. There is not one single way of destruction. Rather there are various ways that differ from one another significantly. Some, like the seed along the roadside, are the coarseminded, indifferent, and careless. Others, those on the rock, are like people who fail from weakness only. The Gospel of St. Matthew, Homily",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/4/6",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d1a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 4:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

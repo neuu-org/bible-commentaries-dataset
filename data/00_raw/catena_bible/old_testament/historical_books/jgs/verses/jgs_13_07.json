@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 13:7",
+  "verse_text": "Verse text for JGS 13:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/13/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "When the spirit of the Hebrews had been so crushed by long and injurious subjection that no one with manly vigor dared to encourage them to freedom, there arose in their behalf a great hero, Samson, whose destiny was ordained by God’s words. He was not numbered with the many, but outstanding among the few; he was without question easily reckoned as surpassing all in bodily strength. We must regard him with great admiration from the very beginning, not because he gave great evidence of temperance and sobriety from boyhood by abstaining from wine, nor because as a Nazarite he was ever faithful to guard his sacred trust, with locks unshorn, but because from his youth—a period of softness in others, but truly remarkable in him—he worked amazing deeds of strength, perfect beyond the measure of human nature. By his deeds he soon gained credence for that divine prophecy. For no slight cause had such great graces preceded him that an angel came down to foretell to his parents his unexpected birth, the leadership he would hold and the protection he would give his people who had been tormented so long by the oppressive rule of the Philistines. His godfearing father was of the tribe of Dan, of no low station in life, preeminent among others. His mother, a barren woman, was not unfruitful in the virtues of the soul. She was worthy to receive into the dwelling of her soul the vision of an angel, whose command she obeyed and whose words she fulfilled. She did not permit herself to know even the secrets of God without her husband’s sharing of them; she told him that a man of God had appeared to her, of wondrous beauty, bringing her a prophecy that a child would be born. Because she trusted his promises she shared with her husband her trust in these heavenly pledges.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/jgs/13/7",
+      "full_content_url": "https://catenabible.com/com/5de46f028b87fe0847ee878f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Thus Jacob, the patriarch Joseph, Samson, [who was] the bravest of the chieftains, and Samuel, [who was] the most distinguished of the prophets, [all] had as their progenitors [mothers who were] for a long time barren in body but always fruitful in virtues. In this way their dignity would be known from the miraculous nativity of those who were born, and it might be proven that they would be famous in their lives, since at the very outset of their lives they transcended the norms of the human condition.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/13/7",
+      "full_content_url": "https://catenabible.com/com/5de46f028b87fe0847ee878e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 13:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

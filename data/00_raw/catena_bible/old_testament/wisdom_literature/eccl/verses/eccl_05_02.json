@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ECCL 5:2",
+  "verse_text": "Verse text for ECCL 5:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/5/2",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Evagrius Ponticus",
+      "period": "AD399",
+      "content": "“We do not know how to pray as we ought. ” He is not so much talking [about prayer] at this point as issuing a command not to theologize thoughtlessly. Indeed, anyone who belongs to this material world and whose thoughts have their origin in this world cannot speak about God without error—or on other matters that elude the senses. That is why he says, “And let your words be few,” that is, they should be true and well chosen. I think also that “few” means the same as in the following texts: “Better a little with righteousness than an abundance of riches with sinners. ” And, “Better is the receiving of a little with righteousness. ” But to those who do not observe this, he says, “For as a dream comes when there are many cares, so is the fool’s voice with many words. ” … He also talks about “the voice of a fool,” coming up with false words and beguiling the soul. This is “the voice of the slanderer and reviler. ” He is also able to apply this to the voice of the fool who “by a multitude of words you will not escape sin.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/5/2",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee96",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Be not rash with your mouth, and let not your heart be hasty to utter anything before God: for God is in heaven, and you upon earth: therefore let your words be few. Under anxiety a person is naturally disturbed with dreams, in which some true ideas may present themselves; in like manner, as a great talker will say some things respecting God, which may not be reprehensible, though the greatest part of his discourse will be nothing to the purpose. This is another abuse. All must speak of God and religion, though few are able to do it, with propriety.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/5/2",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be7df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "Listen to the Preacher exhorting not to be hasty to utter anything before God, “for God,” (says he), “is in heaven above, and you upon earth beneath.” He shows, I think, by the relation of these elements to each other, or rather by their distance, how far the divine nature is above the speculations of human reason. For that nature which transcends all intelligence is as high above earthly calculation as the stars are above the touch of our fingers, or rather, many times more than that. Knowing, then, how widely the divine nature differs from our own, let us quietly remain within our proper limits. For it is both safer and more reverent to believe the majesty of God to be greater than we can understand, than, after circumscribing his glory by our misconceptions, to suppose there is nothing beyond our conception of it. Answer to Eunomius’s Second Book.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/5/2",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theodore of Tabennesi",
+      "period": "AD368",
+      "content": "Truly, if a person guards his mouth and acquires humility, the angels will be his friends here below; his soul will be a perfume poured out; the angels will carry his remembrance before God day and night, whether he is a monk or a secular. Besides, many persons in the world are watchful on this point. As for me, I know many who have acquired a great humility and have watched themselves not to speak evil of anyone. On the contrary, they underestimate themselves constantly and praise the others, saying, “It is within the power of God that we should find a little place in heaven.”",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/5/2",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 5:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

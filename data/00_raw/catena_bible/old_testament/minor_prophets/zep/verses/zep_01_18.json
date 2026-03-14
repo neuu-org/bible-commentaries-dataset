@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEP 1:18",
+  "verse_text": "Verse text for ZEP 1:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/zep/1/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "I am weary and vexed at enumerating the multitude of ornaments, and I am compelled to wonder how those who bear such a burden are not worried to death. O foolish trouble. O silly craze for display. They squander meretriciously wealth on what is disgraceful and in their love for ostentation disfigure God’s gifts, emulating the art of the evil one. The rich man hoarding up in his barns and saying to himself, “You have many goods laid up for many years; eat, drink be merry,” the Lord in the Gospels plainly called “fool. ” “For this night they shall take your soul; whose then shall those things which you have prepared be. ” Apelles, the painter, seeing one of his pupils painting a figure loaded with gold color to represent Helen, said to him, “Boy, being incapable of painting her beautiful, you have made her rich. ” Such Helens are the ladies of the present day, not truly beautiful but richly got up. To these the Spirit prophesies by Zephaniah: “And their silver and their gold shall not be able to deliver them in the Day of the Lord’s anger. ” But for those women who have been trained under Christ, it is suitable to adorn themselves not with gold but with the Word, through whom alone the gold comes to light.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zep/1/18",
+      "full_content_url": "https://catenabible.com/com/58391adb205c248f42e52f69",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Neither their silver nor their gold shall be able to deliver them in the day of the LORD'S wrath; but the whole land shall be devoured by the fire of his jealousy: for he shall make even a speedy riddance of all them that dwell in the land. Ezechiel vii. Thus the Medes despised riches, Isaias xiii. (Calmet) Jealousy. God regarded the synagogue as his spouse. (Menochius) \"If he loved not the soul of man, he would not be jealous of it. Jerome) (Haydock).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zep/1/18",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf542",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEP 1:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 5:6",
+  "verse_text": "Verse text for ZEC 5:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/5/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And I said, What is it. And he said, This is the basket that goes forth. He said moreover, This is their resemblance through all the earth. Hebrew epha. (Calmet) Eye. This is what they fix their eye upon, or this is a resemblance and figure of them, viz. , of sinners. (Calmet) Protestants, \"resemblance. \"(Haydock) This is their picture. (Calmet) Septuagint, \"wickedness \"áunom. (Haydock) U is often mistaken for i. Jerome) Yet here the Septuagint seems equally intelligible, ver.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/5/6",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf5a6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "This is their eye: This is what they fix their eye upon: or this is a resemblance and figure of them, viz., of sinners.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/5/6",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 5:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

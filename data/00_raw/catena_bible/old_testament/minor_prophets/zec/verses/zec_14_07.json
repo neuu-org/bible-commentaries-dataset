@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ZEC 14:7",
+  "verse_text": "Verse text for ZEC 14:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/14/7",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But it shall be one day which shall be known to the LORD, not day, nor night: but it shall come to pass, that at evening time it shall be light. In the time of the evening there shall be light. An unexpected light shall arise by the means of the Machabees, when things shall seem to be at the worst. (Challoner) At one period of the last siege, it was dubious what would be the event, particularly (Calmet) when Titus was separated from almost all his attendants, and when the besieged burned the works of the enemy. (Josephus, Jewish Wars vi.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/14/7",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf613",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "In the time of the evening there shall be light: An unexpected light shall arise by the means of the Machabees, when things shall seem to be at the worst.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/14/7",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "And in another place: “And I was reckoned with the transgressors. ” Then there was darkness for three hours, from the sixth to the ninth, and again light in the evening; as it is written: “It shall not be day or night, and at the evening there shall be light. ” All [these] things, when those malefactors saw that they were crucified with him, the one of them reproached him as though he was weak and unable to deliver himself. But the other rebuked the ignorance of his fellow, and turning to the Lord, as being enlightened by him, and acknowledging who he was that suffered, he prayed that he would remember him in his kingdom hereafter. He then presently granted him the forgiveness of his former sins and brought him into paradise to enjoy the mystical good things. He also cried about the ninth hour, and said to his Father, “My God. Why have you forsaken me. ” And a little afterward, when he had cried with a loud voice, “Father, forgive them, for they know not what they do,” and had added, “into your hands I commit my spirit,” he gave up his spirit and was buried before sunset in a new sepulcher. But when the first day of the week dawned, he arose from the dead and fulfilled those things that before his passion he foretold to us, saying, “The Son of man must continue in the heart of the earth three days and three nights. ” And when he was risen from the dead, he appeared first to Mary Magdalene and Mary the mother of James, then to Cleopas in the way, and after that to us his disciples, who had fled away for fear of the Jews but privately were very inquisitive about him. But these things are also written in the Gospels.",
+      "commentary_number": "3/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/zec/14/7",
+      "full_content_url": "https://catenabible.com/com/5838db41205c248f42e52bb6",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 14:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

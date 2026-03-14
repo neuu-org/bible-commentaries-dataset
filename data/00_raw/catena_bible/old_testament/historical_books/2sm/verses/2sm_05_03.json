@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 5:3",
+  "verse_text": "Verse text for 2SM 5:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/5/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ancients; princes of the tribes, and officers, (Calmet) with all the chief magistrates. (Haydock)\nThe high priest, Abiathar, received the oaths of allegiance from the people, and of the king, who promised to govern according to the laws of God. The ark was probably present, and innumerable sacrifices offered on this solemn occasion, as was usual, 1 Paralipomenon xii. 26. Hebron continued to be a place for sacrifices, chap xv. 7. (Calmet)\nDavid had erected here a temporary altar and tabernacle, where Abiathar officiated in his pontifical robes, as it was not safe for the people to go into the dominions of Isboseth, either to Gabaon or to Cariathiarim. (To stat)\nIsrael, acknowledging the right which David had to the throne, by God's appointment. (Haydock; Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/5/3",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd098",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 5:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

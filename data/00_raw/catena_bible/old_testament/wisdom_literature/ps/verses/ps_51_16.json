@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 51:16",
+  "verse_text": "Verse text for PS 51:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/51/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sacrifice. If my crime were of such a nature as to be expiated by certain victims, I would surely have offered them: but my heart has offended, and must do penance. (Calmet)\nThe legal victims were not of themselves sufficient to remit sin. (Menochius)\nContrition was necessary, Isaias lxvi. 2., and Ezechiel vi. 9. (Berthier)\nThe Scripture often prefers internal, before outward sacrifices. This of the heart must precede those of justice, and of praise. (Worthington)\nThe heart must be broken, to make place for love. Compunction is thrice urged. The two first terms in Hebrew are the same, \"contrite \"(Haydock) broken, or disconcerted. Kateklasthe philon etor. (Homer, Odyssey) (Menochius)\nThe captives might adopt this prayer, Daniel iii. 39. (Calmet)\nExternal sacrifices are commended in the next verses, as they are good, (Haydock) being instituted by God. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/51/16",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be0ba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 51:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

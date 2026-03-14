@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 89:7",
+  "verse_text": "Verse text for PS 89:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"God is very greatly to be feared in the counsel of the righteous, and to be had in dread of all them that are round about Him\" (ver. God is everywhere; who therefore are round about Him, who is everywhere. For if He has some round about Him, He is represented as finite on every side. Moreover, if it is truly said to God and of God, \"of His greatness there is no end;\" who remain, who are round about Him, except because He who is everywhere, chose to be born of the flesh on one spot, to dwell among one nation, in one place to be crucified, from one spot to rise again and ascend into Heaven. Where He did this, the Gentiles are round about Him. If He remained where He did these things, He would not be \"great, and be had in dread of all them that are round about Him;\" but since He preached when there in such a manner as to send preachers of His own name through all nations over the whole world; by working miracles among His servants, He is become \"great, and to be had in dread of all them that are round about Him.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/89/7",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cdb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "About. God eclipses every created beauty. (Haydock)\nThe angels themselves tremble before him. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/7",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be28e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

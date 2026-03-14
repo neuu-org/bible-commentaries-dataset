@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PHIL 1:28",
+  "verse_text": "Verse text for PHIL 1:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/1/28",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "This work of fearlessness is part of his explanation of what it means to conduct oneself worthily according to Christ’s gospel: Never be terrified, whether by adversaries or anything else…. For this very condition of being courageous tends toward our salvation. It deals a death blow to our adversaries. Yet this too is a work of God, lest we should think it part of our own work that our not being terrified should be a cause of our salvation. “For this too is of God,” he says, “just as I have often told you that all things come about through the will, the mercy and the grace of God.”",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/1/28",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53432",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The adversaries. Either by the persecutions of the Jews and Gentiles, or by the doctrine of false brethren. _",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/28",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0168",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Well said he, affrighted, this is what befalls us from our enemies, they only frighten. In nothing therefore, he says, whatever happens, whether dangers— whether plots. For this is the part of those who stand upright; the enemy can do nought but frighten only. Since it was likely that they should be greatly troubled, when Paul suffered such numberless ills, he says, I exhort you not only not to be shaken, but not to be affrighted, yea rather to despise them heartily; for if you are thus affected, you will straightway, by this means, make evident at once their destruction, and your salvation. For when they see, that with their innumerable plots they are unable to frighten you, they will take it as a proof of their own destruction. For when the persecutors prevail not over the persecuted, the plotters over the objects of their plots, the powerful over those subject to their power, will it not be self-evident, that their perdition is at hand, that their power is nought, that their part is false, that their part is weak. And this, he says, comes from God.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/1/28",
+      "full_content_url": "https://catenabible.com/com/5755bff83c6effa740dddbdf",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 1:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

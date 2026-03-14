@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 10:46",
+  "verse_text": "Verse text for MK 10:46",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/10/46",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "And they came to Jericho: and as he went out of Jericho with his disciples and a great number of people, blind Bartimaeus, the son of Timaeus, sat by the roadside begging. Augustine of Hippo Mark has recorded both the name of Bartimaeus and of his father, a circumstance which scarcely occurs in all the many cases of healing which had been performed by the Lord…. Consequently there can be little doubt that this Bartimaeus, the son of Timaeus, had fallen from some position of great prosperity, and was now regarded as an object of the most notorious and the most remarkable wretchedness, because, in addition to being blind, he had also to sit begging.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/46",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e2e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Bartimus, the son of Timus. This blind Prayer of Manasseh , then, was called by a proper name, Bartimus, i. e, the son of Timus, as Bartholomew is the same as son of Ptolemy. The same was called also by the same name as his father Timus. Timus was the name of that Pythagorean philosopher who wrote the life of Pythagoras. Moreover, Bartimus is interpreted by Pagnini in three ways (in Nom. The first is from S. Jerome, to the effect that Bartimus means the blind Song of Solomon , or the son of blindness. He says that it is a Syriac name, but corrupted from Barsemia, or Barsamus. Bar is Song of Solomon , semaia, blindness. The second opinion Isaiah , that it means the son of honour; as if compounded of the Syriac Baruch , a Song of Solomon , and the Gr. Ï„Î¹Î¼Î®, honour. The third Isaiah , that it means the son of the admirer, or admirable corn, or admirable purity. For this was what the blind man received from Christ. For being illuminated in body, he was far more illuminated in his soul. For bar means meal, or wheat, or purity, as well as son. Tamah is to admire. And followed Him in the way. Moraliter: Says the Gloss, Let us consider the way in which He goeth, and follow Him by humility and labours. The way is that of which He saith, \"I am the way, the truth, and the life. \" This is \"the narrow way,\" which leads to the heights of Jerusalem and Bethany, to the Mount of Olives, which is the mount of light and consolation; yea, which leads to Zion and the heavenly Jerusalem. The blind man therefore sees and follows, for he who rightly understands the life of Christ ought to follow and imitate it by his works.",
+      "commentary_number": "2/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/mk/10/46",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e95",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bartimæus is a Syriac word, and signifies, son of Timæus.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/46",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf972",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 10:46",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 103:14",
+  "verse_text": "Verse text for PS 103:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/103/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "18. \"For He knoweth our forming\" (ver. 14): that is, our infirmity. He knoweth what He hath created, how it hath fallen, how it may be repaired, how it may be adopted, how it may be enriched. Behold, we are made of clay: \"The first man is of the earth, earthy: the second man is the Lord from heaven.\" He sent even His own Son, Him who was made the second man, Him who was God before all things. For He was second in His coming, first in His returning: He died after many, He arose before all. \"He knoweth our forming.\" What forming? Ourselves. Why sayest thou that He knoweth? Because He hath pitied. \"Remember that we are but dust.\" Addressing God Himself, he saith, \"Remember,\" as if God could forget: He perceiveth, He knoweth in such a manner that He cannot forget. But what meaneth, \"Remember\"? Let thy mercy continue towards us. Thou knowest our forming; forget not our forming, lest we forget thy grace.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/103/14",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e651d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He remembereth. Roman Septuagint and psalter, \"Remember. \"Other copies agree with us. (Calmet)\nGod compassionates the frailty of those who fear him. Origen falsely inferred from ver. 9., that the devils and the damned would one day be saved. But this is contrary to Scripture, ver. 17., Matthew xxv., and Apocalypse xx. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/103/14",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be328",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 103:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

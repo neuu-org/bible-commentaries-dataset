@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 6:19",
+  "verse_text": "Verse text for 2SM 6:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/6/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "So it is that he who of all philosophers so praised truth, Plato, gave new life to the dying ember of Hebrew philosophy by condemning a life spent in revelry. “When I arrived,” he said, “what is here called a life of pleasure, filled with Italian and Syracusan meals, was very repulsive to me. It is a life in which one gorges oneself twice a day, sleeps not only during the night, and engages in all the pastimes that go with this sort of life. No one upon earth could ever become wise in this way, if from his youth he had followed such pursuits as these, nor would he ever attain in that way any reputation for an excellent physique. ” Surely, Plato was not unacquainted with David, who, when he was settling the holy ark in the middle of the tabernacle of his city, made a feast for all his obedient subjects and “before the face of the Lord, distributed to all the multitude of Israel, both men and women, to everyone, a cake of bread and baked bread and pancakes from the frying pan. ” This food sufficed, this food of Israel; that of the Gentiles is extravagance.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/6/19",
+      "full_content_url": "https://catenabible.com/com/5de46d0b8b87fe0847ee86e0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cake, made very thin, with a mixture of oil.\nBeef, sufficient for a meal.\nOil. This was much esteemed in those days. Many would translate the Hebrew, \"a bottle of wine.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/6/19",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd0b5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 6:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

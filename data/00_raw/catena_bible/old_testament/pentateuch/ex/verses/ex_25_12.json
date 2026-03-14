@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 25:12",
+  "verse_text": "Verse text for EX 25:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/25/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "What is symbolized by the ark but holy church? The orders are that it is to be provided with four rings of gold in the four corners—obviously because, being extended to the four parts of the world, it is declared to be equipped with the four books of the holy Gospels. And staves of setim wood are made and inserted into these rings for carrying, because strong and persevering teachers, like incorruptible timbers, are to be sought out, who, always adhering to the instructions of the sacred volumes, proclaim the unity of holy church, and, as it were, carry the ark, by their being let into the rings. Indeed, to carry the ark with staves is to bring holy church through preaching to the untutored minds of unbelievers. Furthermore, they are ordered to be overlaid with gold, that when the sound of their preaching goes forth to others, they may themselves shine in the splendor of their way of life.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/25/12",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52889",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 25:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

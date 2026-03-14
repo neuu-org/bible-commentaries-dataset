@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 9:17",
+  "verse_text": "Verse text for NEH 9:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/9/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And refused to obey, neither were mindful of your wonders that you did among them; but hardened their necks, and in their rebellion appointed a leader to return to their bondage: but you are a God ready to pardon, gracious and merciful, slow to anger, and of great kindness, and forsook them not. Or appointed a leader instead of Moses, (Numbers xiv. ; Menochius) or an idol, Exodus xxxii. Septuagint, \"they gave a beginning, or a chief to return. \"Syriac, \"their heart returned to their crimes. \"(Calmet) Protestants, \"and in their rebellion appointed a captain to \"They turned their back upon the promised land, and set their faces to return into Egypt. (Haydock) Sinners are not deprived of free-will. (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/9/17",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda3a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "And gave the head: That is, they set their head, or were bent to return to Egypt.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/9/17",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9e93",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 9:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

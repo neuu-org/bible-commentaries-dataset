@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 45:17",
+  "verse_text": "Verse text for PS 45:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/45/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"They shall be mindful of thy name in every generation and generation; therefore shall the peoples confess unto Thee\" (ver. What does it profit then to \"confess\" indeed and yet to confess out of \"the Temple\". What does it profit to pray, and yet not to pray on the Mount. \"I cried,\" says he, \"unto the Lord with my voice: and He heard me out of His holy hill. \" Out of what \"hill\". Out of that of which it is said, \"A city set upon a hill cannot be hid. \" Of what \"hill\". Out of that hill which Daniel saw \"grow out of a small stone, and break all the kingdoms of the earth; and cover all the face of the earth. \" There let him pray, who hopes to receive: there let him ask, who would have his prayer heard: there let him confess, who wishes to be pardoned. \"Therefore shall the peoples confess unto thee for ever, world without end. \" For in that eternal life it is true indeed there will no longer be the mourning over sins: but yet in the praises of God by that everlasting City which is above, there will not be wanting a perpetual confession of the greatness of that happiness. For to that City itself, to which another Psalm sings, \"Glorious things are spoken of thee, O City of God,\" to her who is the very Bride of Christ, the very Queen, a \"King's daughter, and a King's consort;\". the peoples shall for this very cause confess even to herself; the hearts of all, now enlightened by perfect charity, being laid bare, and made manifest, that she may know the whole of herself most completely, who here is, in many parts of her, unknown to herself.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/45/17",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a44",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I will make your name to be remembered in all generations: therefore shall the people praise you forever and ever. Hebrew, Septuagint of Aldus and Complutensian, and the Greek Fathers, have \"I will \"yet this is contrary to the Vatican and Alexandrian Septuagint, (Berthier) and seems less accurate. (Houbigant) The prophet was not to life for ever, so that the fame of the Church was to be spread by others. (Berthier) Ever. There shall be pastors and faithful people to the end. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/45/17",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be07a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 45:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

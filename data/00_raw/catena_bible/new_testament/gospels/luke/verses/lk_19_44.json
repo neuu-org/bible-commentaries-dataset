@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 19:44",
+  "verse_text": "Verse text for LK 19:44",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/19/44",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "And shall lay you even with the ground, and your children within you; and they shall not leave in you one stone upon another; because you knew not the time of your visitation. They might see Him who should teach them that the place chosen of God, in which it was suitable that victims should be offered to God, is his Wisdom; and that on the other hand they might hear that this place, which seemed chosen for a time, often harassed as it had been by hostile invasions and plunderings, was at last to be wholly destroyed.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/19/44",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf0f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And shall lay thee even with the ground, and thy children within thee; and they shall not leave in thee one stone upon another. That Isaiah , shall destroy thee utterly; spoken in hyperbole, for the Romans were not so laborious or so idle, as to leave no stone upon another. The migration from the city is testified to, for it is now built on the spot where the Lord was crucified outside the gate. The former Jerusalem is utterly destroyed; for Mount Calvary is now in the middle of the new city. Because thou knowest not the time of thy visitation. \"The time of this visitation,\" says Titus , \"is that of Christ\"s coming down from heaven. \" \"In figure all these things,\" says S. Gregory hom39 , \"happen to the soul that has lived as a slave to the flesh. For then the devils surround it on all sides, tempt it, hedge it in, and carry it off to hell. Then all that erection of stones, that Isaiah , their thoughts, is overthrown, because they did not know the time of their visitation, when God by His preachers, His confessors, His masters, and His internal inspirations, warned them to amend their lives and take thought for their salvation. \" Greg, Dial. iv chaps30 , 38 , 46 , 52 , and following, gives the dreadful example of Chrysaorius Theodore, King Theodoric, and others.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/19/44",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5208e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "He therefore charged us Himself to fast these six days on account of the impiety and transgression of the Jews, commanding us withal to bewail over them, and lament for their perdition. For even He Himself \"wept over them, because they knew not the time of their visitation.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/19/44",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf0e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 19:44",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

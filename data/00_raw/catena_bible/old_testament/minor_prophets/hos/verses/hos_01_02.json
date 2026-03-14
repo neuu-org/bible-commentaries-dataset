@@ -1,0 +1,58 @@
+{
+  "verse_reference": "HOS 1:2",
+  "verse_text": "Verse text for HOS 1:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/1/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fornications. That is, a wife that hath been given to fornication. This was to represent the Lord's proceedings with his people Israel, who, by spiritual fornication, were continually offending him. (Challoner) The prophet reclaimed her. Jerome) She denoted Samaria, abandoned to idolatry, Ezechiel xvi. Several such actions were prophetical. Many have supposed that this was only a parable; but the sequel proves the contrary. (Calmet) Of fornications. So called from the character of their mother, if not also from their own wicked dispositions. (Challoner) He is ordered to marry a woman who had been of a loose character, and to have children who would resemble her; (Worthington) or he takes her children to his house; (Grotius) unless the children of the prophet were so styled because the mother had been given to fornication. So the rod of Aaron retains its name when it was become a serpent, Exodus vii. Shall, or rather, \"has departed \"and therefore he denounces future chastisements.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/1/2",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf334",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "A wife of fornications: That is, a wife that has been given to fornication. This was to represent the Lord's proceedings with his people Israel, who, by spiritual fornication, were continually offending him.-- Ibid.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/1/2",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4bd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Children of fornications: So called from the character of their mother, if not also from their own wicked dispositions.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/1/2",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4be",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 1:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1COR 5:10",
+  "verse_text": "Verse text for 1COR 5:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/5/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul means that it would be better to die than to mix with fellow believers who sin like the fornicator in question, because death would put an end to it sooner rather than later. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/5/10",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5c2d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Does he mean \"to idolaters an idolater? \"\"to heathens a heathen? \"\"to the worldly worldly? \"But albeit he does not prohibit us from having our conversation with idolaters and adulterers, and the other criminals, saying, \"Otherwise ye would go out from the world\".\nAll waves thereof whatsoever suffocate; every eddy thereof sucks down unto Hades. Let no one say, \"Who will so safely foreguard himself? We shall have to go out of the world!\".\n) is the heathen man, who is walking with us along the same road of life which is common to him and ourselves. Now \"we must needs go out of the world\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/5/10",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba6df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 5:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

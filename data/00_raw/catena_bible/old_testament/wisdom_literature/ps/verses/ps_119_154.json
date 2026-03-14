@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 119:154",
+  "verse_text": "Verse text for PS 119:154",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/154",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Plead my cause, and deliver me: revive me according to your word. Augustine of Hippo 152. \"Avenge Thou,\" he saith, \"my cause, and deliver me\" (ver. The former sentence is here almost repeated. And what is there said, \"For I do not forget Thy law,\" agreeth [with what we read here, \"Quicken me, according to Thy word. \" For these words are the law of God, which he hath not forgot, so that he hath abased himself, and will therefore be exalted. But the words, \"Quicken me,\" pertain to this very exaltation; for the exaltation of the saints is everlasting life.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/154",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6693",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:154",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

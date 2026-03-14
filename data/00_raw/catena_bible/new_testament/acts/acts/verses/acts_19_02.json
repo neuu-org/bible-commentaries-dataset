@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 19:2",
+  "verse_text": "Verse text for ACTS 19:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/19/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He said unto them, Received you the Holy Spirit when you believed. And they said unto him, We have not so much as heard whether there be any Holy Spirit. Paul first inquires of them, if they have received the Holy Spirit by confirmation. Their answer is probably not to be interpreted with rigour; since they must have heard something of the holy Spirit, so often mentioned in the Old Testament, by whom the prophets are said to speak They meant, they did not know there was in the Church, any means of communicating this Spirit to the faithful.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/19/2",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe3b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He knew that they had not, but wishes themselves to say it, that having learned what they lack, they may ask. John verily baptized, etc.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/19/2",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9444",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 19:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

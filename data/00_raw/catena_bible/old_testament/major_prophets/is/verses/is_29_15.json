@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 29:15",
+  "verse_text": "Verse text for IS 29:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/29/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "He forgets the words of the Educator: “Every man that passes beyond his own bed, who says in his soul: Who sees me? Darkness compasses me about, and the walls cover me, and no man sees my sins: whom do I fear? The Most High will not remember.” Such a person is most wretched, for he fears only the human observation and thinks to hide from God. “He does not know,” Scripture continues, “that the eyes of the Most High Lord are far brighter than the sun, beholding all the ways of men and looking into the most hidden parts.” Another time, the Educator gives warning through Isaiah: “Woe to you who made your counsel in secret and say: Who sees us?”\nA light that can be seen by the senses may pass unnoticed, but that which illumines the mind cannot be ignored.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/29/15",
+      "full_content_url": "https://catenabible.com/com/5e4f7fb1c849cf49a740e414",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 29:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

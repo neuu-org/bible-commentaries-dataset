@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 26:4",
+  "verse_text": "Verse text for ACTS 26:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/26/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "which is what he says on a former occasion Being a zealot. Acts 22:3 And when the whole people was present, then he challenges their testimony: not before the tribunal, but before Lysias, and again here, when more were present: whereas in that hearing there needed not much vindication of himself, since Lysias' letter exculpated him. Know all the Jews, he says, which knew me from the beginning. And he does not say what kind of life his was, but leaves it to their own conscience, and lays the whole stress on his sect, as he would not have chosen that sect, if he had been a man of evil disposition and bad character (πονηρὸς καὶ μοχθηρός). But, for this hope (manuscripts and Edd. αἱρέσεως) he says, I stand and am judged.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/26/4",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9500",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 26:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 13:12",
+  "verse_text": "Verse text for JER 13:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/13/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Therefore you shall speak unto them this word; Thus says the LORD God of Israel, Every wineskin shall be filled with wine: and they shall say unto you, Do we not certainly know that every wineskin shall be filled with wine. Bottle, of earthen ware, chap. (Calmet) Every man shall suffer, ver. (Haydock) This is another prophetical similitude denoting extreme perplexity. (Worthington) Do. They deride the prophet, as if he said nothing worthy of notice. (Menochius).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/13/12",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723becef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And these things he said, setting laws and rules for his own disciples, that when they should have to receive as disciples those of all sorts that should come from the whole world, they might deal with them very gently. “Neither is new wine put into old wineskins.” Consider how his illustrations are like those in the Old Testament. The garment? The wineskins? For Jeremiah, too, calls the people “a waistcloth” and makes mention again of “jar” and of “wine.” Thus, the discourse being about gluttony and a table, he takes his illustrations from the same.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/13/12",
+      "full_content_url": "https://catenabible.com/com/5e936112d87c4a70874ae217",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 13:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 5:11",
+  "verse_text": "Verse text for LK 5:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/5/11",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "For this reason also Peter, carried back to the memory of his former sins, trembles and is afraid. As an impure man, he does not dare to receive the one who is pure. His fear was praiseworthy, because he had been taught by the law to distinguish between the holy and the profane. Commentary on Luke, Homily",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/11",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e737b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "We may suppose that these four apostles, like Andrew, followed Jesus Christ at the first call, but without attaching themselves to him; and that now they attached themselves to him, never to leave him more.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/11",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Maximus of Turin",
+      "period": "AD423",
+      "content": "Ordinarily people are not given life on a boat but transported. Nor are they comforted on a vessel but anxious about its journey. Notice also that this boat is not a boat that is given to Peter to be piloted—rather, it is the church, which is committed to the apostle to be governed. For this is the vessel that does not kill but gives life to those borne along by the storms of this world as if by waves. Just as a little boat holds the dying fish that have been brought up from the deep, so also the vessel of the church gives life to human beings who have been freed from turmoil. Within itself, I say, the church gives life to those who are halfdead, as it were.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/11",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e737c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 5:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

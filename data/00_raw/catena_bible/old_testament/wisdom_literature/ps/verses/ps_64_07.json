@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 64:7",
+  "verse_text": "Verse text for PS 64:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/64/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But God shall shoot at them with an arrow; suddenly shall they be wounded. Augustine of Hippo 12. \"Arrows of infants have been made the strokes of them\" (ver. Where is that savageness. where is that roar of the lion, of the people roaring and saying, \"Crucify, Crucify\". Where are the lyings in wait of men bending the bow. Have not \"the strokes of them been made the arrows of infants\". Ye know in what manner infants make to themselves arrows of little canes. What do they strike, or whence do they strike. What is the hand, or what the weapon. what are the arms, or what the limbs.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/64/7",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6b44",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The arrows of children are their wounds. That is, the wounds, stripes, or blows, they seek to inflict upon the just, are but like the weak efforts of children's arrows, which can do no execution; and their tongues, that is, their speeches against them, come to nothing. (Challoner)\nOr, children themselves have wounded these crafty politicians, and exposed their folly. (Haydock)\nHebrew is \"very perplexed in the last three verses. Let us adhere to the Vulgate and Septuagint, who generally correctly than the present Hebrew. \"(Calmet) (Berthier)\nYet St. Jerome gives a very good sense. (Haydock)\nWounds. God hath chosen the weak things of this world to confound the strong, (Worthington) and he hath taken the wise in their craftiness. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/64/7",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be130",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 64:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

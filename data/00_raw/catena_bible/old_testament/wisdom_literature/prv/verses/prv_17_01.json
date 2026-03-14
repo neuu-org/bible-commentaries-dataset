@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 17:1",
+  "verse_text": "Verse text for PRV 17:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/17/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "The Scriptures teach us not to be wasteful but liberal. There are two kinds of free giving, one arising from liberality, the other from wasteful extravagance. It is a mark of liberality to receive the stranger, to clothe the naked, to redeem the captives, to help the needy. It is wasteful to spend money on expensive banquets and much wine. Therefore one reads, “Wine is wasteful, drunkenness is abusive.” It is wasteful to spend one’s own wealth merely for the sake of gaining the favor of the people. This they do who spend their inheritance on the games of the circus, or on theatrical pieces and gladiatorial shows, or even a combat of wild beasts, just to surpass the fame of their forefathers for these things. All this that they do is only foolish, for it is not right to be extravagant in spending money even on good works. –.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/17/1",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c84de",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Victims. Of which part was used for a feast, chap. vii. 14. (Calmet)\nSeptuagint add, \"of many goods, and unjust victims. \"(Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/17/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be67d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 17:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

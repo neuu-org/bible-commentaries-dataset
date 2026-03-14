@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 27:6",
+  "verse_text": "Verse text for PS 27:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/27/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "6. \"On a rock hath He exalted me.\" And that what I believed might be made manifest for salvation, He hath made my confession to be conspicuous in His own strength. \"And now, lo! He hath exalted mine head above mine enemies\" (ver. 6). What doth He reserve for me at the last, when even now the body is dead because of sin, lo! I feel that my mind serves the law of God, and is not led captive under the rebellious law of sin? \"I have gone about, and have sacrificed in His tabernacle the sacrifice of rejoicing.\" I have considered the circuit of the world, believing on Christ; and in that for us God was humbled in time, I have praised Him with rejoicing: for with such sacrifice He is well pleased. \"I will sing and give praises to the Lord.\" In heart and in deed I will be glad in the Lord.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/27/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68fb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Round. Hebrew, \"my enemies around. \"But the Septuagint understand it of David, (Berthier) or of the priest, who poured the blood of the victims on different sides of the altar. (Haydock)\nJubilation: singing and music, which are styled the fruit, or calves of the lips, Isaias lvii. 19., and Osee xiv. 3. (Calmet)\nDavid diligently recounted God's benefits, with all his heart and voice. (Worthington)\nHe offered sacrifices by ministry of the priests, on the altar of holocausts, which was not in, but before, the tabernacle. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/27/6",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf48",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 27:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

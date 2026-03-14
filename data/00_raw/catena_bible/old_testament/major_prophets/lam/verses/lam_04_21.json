@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 4:21",
+  "verse_text": "Verse text for LAM 4:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/4/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Rejoice and be glad, O daughter of Edom, that dwells in the land of Uz; the cup also shall pass through unto you: you shall be drunk, and shall make yourself naked. Edom had manifested her joy at the misfortunes of Juda. The prophet hints at this with a cutting irony, Psalm cxxxvi. , and Abdias 11. Come, as at a feast. Edom was visited five years after the Jews, chap. Septuagint, \"and shalt pour it out \"(Haydock) or vomit. (Calmet) (Grotius).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/4/21",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befb7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Here those isolated, and principally the Edomites, are threatened first. Then second, the Jews are comforted. As said in Verse 22: \"The punishment of your iniquity, O daughter of Zion, is accomplished, he will keep you in exile no longer. \" As to the first (the Edomites), joy is excluded. As said in Verse 21: \"Rejoice and be glad, O daughter of Edom. \" That is, be laughingly. As 2 Samuel (2 Kings) 1:20 records: \"Tell it not in oath, publish it not in the streets of Ashkelon. \" And: \"O daughter of Edom\". Namely, the people of Edom, dwellers\" in the land of Uz\". On the contrary Deuteronomy 2:5 states: \"because I have given Mount Seir to Esau as a possession. \" And also: Hus, (viz, land of Job; located around the Arabian desert, near Edom) was the first born of Nahor (from Milcah). Genesis: 22:21). Moreover, it must he mentioned that there is no notice as to a person named \"Hus\", but rather to a land called \"Hus\";(i. , near Edom). Such is termed \"Ausitides\", as another name in the \"interlenear Gloss\". And also Jeremiah 25:24 says: \"All the kings of Arabia and all the kings of the mixed tribes that dwell in the desert. \" That is, within the boundaries of the Edomites, around the Arabian desert. Secondly, punishment is threatened. As expressed in Verse 21: \"But to you also the cup shall pass. \" Namely, the wrath of the Lord God. Then: \"you shall become drunk. \" That is: you will become full of misery. A-nd: \"strip yourself bare. \" Namely, you will be despoiled of all your goods. As Jeremiah 49:12 says: \"For thus says the Lord: 'If those who did not deserve to drink the cup must drink it, will you go unpunished.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lam/4/21",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9dc3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 4:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

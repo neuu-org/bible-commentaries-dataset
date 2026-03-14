@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MI 1:4",
+  "verse_text": "Verse text for MI 1:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/1/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Melted. Septuagint, \"moved. \"(Haydock)\nCleft, as it was to swallow up Core, (Numbers xvi. 31.) with the greatest ease.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/1/4",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4bc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "As wax cannot endure the nearness of the fire, and as the waters are carried headlong, so all of the ungodly, when the Lord comes, shall be dissolved and disappear. .",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/1/4",
+      "full_content_url": "https://catenabible.com/com/5838db9b205c248f42e52c49",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pachomius the Great",
+      "period": "AD348",
+      "content": "On another occasion when he was sitting by himself some place reading the book of the twelve prophets, he came to the prophet Micah. An angel of the Lord appeared to him and asked him about this verse from Micah: “Like water coming down from its source.” He said to him, “What do you think it means?” While he was still puzzling over it, trying to understand, the angel answered, “Theodore, why do you not perceive its meaning? Is it not obvious that it is the water of the river coming down from paradise?” As soon as the angel had said this, he ceased to see him. Life of (Bohairic)",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mi/1/4",
+      "full_content_url": "https://catenabible.com/com/5838db9b205c248f42e52c48",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 1:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

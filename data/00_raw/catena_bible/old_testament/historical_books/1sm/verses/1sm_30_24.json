@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 30:24",
+  "verse_text": "Verse text for 1SM 30:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/30/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Alike. Nothing could be more just and prudent; as this decision prevents continual murmurs and inconveniences. Those who are left behind, are bound to defend the baggage at the hazard of their lives, and each man must obey the orders of the general. Hence all nations seem to have adopted similar regulations, though Achilles declaims against it. (Homer, Iliad i.)\nCoriolanus observes, that formerly the Romans brought all the spoil into the public treasury. (Hali car. vii.)\nThe soldiers promised on oath to bring all they should take, and an equal division was made to the whole army. (Polyb. x.)\nThe sick and absent also partook of the plunder. (Calmet)\nThe same was observed by the Machabees, 2 Machabees viii. 28. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/30/24",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd035",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Horsiesios",
+      "period": "AD387",
+      "content": "Let there be no special food for anyone working in the kneading room. Let the food be the same for everyone, for those who bake and those who are appointed to any task, in accordance with what was established from the beginning by the father of the koinōnia, Apa, to whom God entrusted this great calling. If other fathers who have succeeded him have made canons granting special food to the bakers, they did so after Moses’ manner, as we have learned in the Gospel that says, “Because of your hardness of heart, Moses has allowed you to repudiate your wives, but in the beginning it was not like this. ” If, for some light fatigue, a man separates himself from his brother and differs from him in his food more than do those who are to leave for the harvest or for any other task at which they will have to endure the heat, let us not allow the brothers who have been appointed for any other task in the community to eat with these, since they have not set out to endure the heat and to work strenuously. On the contrary, the unity of the koinōnia consists in a like measure for all, according to the saints’ way of doing; thus David approached those who had not gone to war and spoke to them peacefully, giving them a share of the spoils equal to that received by those who had gone to war with him. He did not listen to those who were wicked and said, “We will not share with them. ” The Lord taught us likewise in the Gospel by the parable, when those who had “borne the weight of the day and the heat murmured, saying, ‘Why have you treated us like those who have worked only an hour. ’ ” They, too, heard the reproach, “Is your eye evil because I am good.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/1sm/30/24",
+      "full_content_url": "https://catenabible.com/com/5de4687a1f75ae05ba98cf79",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 30:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

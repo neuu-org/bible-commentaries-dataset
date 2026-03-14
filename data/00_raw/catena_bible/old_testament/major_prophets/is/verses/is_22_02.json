@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 22:2",
+  "verse_text": "Verse text for IS 22:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/22/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "Now is the time to utter aloud those words of the prophet who said, “Who will give water to my head and a fountain of tears to my eyes, and I will weep for the slain of the daughters of my people?” For, even if deep silence enfolds them and they lie dispossessed once and for all of their senses by the horrible deed (for by the deadly blow they have been deprived already of the very awareness of their condition), still we must not tearlessly disregard so great a fall. For, if Jeremiah judged those whose bodies were smitten in war worthy of innumerable laments, what should be said regarding so terrible a disaster to souls? “Your slain,” it is said, “are not slain by the sword, and your dead are not dead in battle.” But I bewail the sharp sting that causes real death, that is, grievous sin, and the fiery darts of the evil one, barbarously burning soul and body alike.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/22/2",
+      "full_content_url": "https://catenabible.com/com/5e4f7f89c849cf49a740e360",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Battle. He taxes the king with cowardice.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/22/2",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be9cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 22:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

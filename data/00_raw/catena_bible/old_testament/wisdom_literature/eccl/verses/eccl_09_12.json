@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ECCL 9:12",
+  "verse_text": "Verse text for ECCL 9:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/9/12",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "Now as these things are written in the Scriptures, the case is clear, that the saints know that a certain time is measured to every person, but that no one knows the end of that time is plainly intimated by the words of David, “Declare unto me the shortness of my days. ” What he did not know, that he desired to be informed of. Accordingly the rich man also, while he thought that he had yet a long time to live, heard the words, “You fool, this night your soul shall be required of you: then whose shall those things be which you have provided. ” And the Preacher speaks confidently in the Holy Spirit, and says, “Man also knows not his time. ” Wherefore the patriarch Isaac said to his son Esau, “Behold, I am old, and I know not the day of my death. ” Our Lord, therefore, although as God and the Word of the Father, both knew the time measured out by him to all and was conscious of the time for suffering, which he himself had appointed also to his own body. Yet since he was made man for our sakes, he hid himself when he was sought after before that time came, as we do; when he was persecuted, he fled; and avoiding the designs of his enemies he passed by, and “so went through the midst of them. ” But when he had brought on that time which he himself had appointed, at which he desired to suffer in the body for all men, he announces it to the Father, saying, “Father, the hour is come; glorify thy Son. ” And then he no longer hid himself from those who sought him but stood willing to be taken by them; for the Scripture says, he said to them that came unto him, “Whom do you seek. ” And when they answered, “Jesus of Nazareth,” he said unto them, “I am he whom you seek.",
+      "commentary_number": "1/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/eccl/9/12",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19eefc",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Didymus the Blind",
+      "period": "AD398",
+      "content": "Many can know chronological time. Everybody, for example, knows that noon is the time for healthy people to eat lunch. The time, however, which is determined by physicians, is not known to everyone but only to the physician. And since there is only one physician for the soul, to whom we say, “O Lord, be gracious to me; heal me, for I have sinned against you,” only this physician knows our time. But the individual does not know his time. The inhabitants of Tyre, for example, who would have been ready to repent if the supernatural miracles had occurred among them—they did not know the time.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/9/12",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19eefb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "With. Hebrew adds, \"evil. \"Net, (Montanus) or hook. (Haydock)\nThem. They may use precautions; but, without God's aid, they will not succeed, Psalm cxxvi. 1. (Calmet)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/9/12",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be82c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 9:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

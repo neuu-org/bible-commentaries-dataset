@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 5:31",
+  "verse_text": "Verse text for DN 5:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/5/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Darius. He is called Cyaxares by the historians, and was the son of Astyages, and uncle to Cyrus (Challoner) as well as to Baltassar, by the mother's side. He is styled Astyages, (Chap. xiii. 65.) or Artaxerxes. (Septuagint, chap. vi. 1.) He takes the title of king both of the Medes and Persians, chap. vi. 8. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/5/31",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2d8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 5:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

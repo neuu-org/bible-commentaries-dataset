@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 17:28",
+  "verse_text": "Verse text for LK 17:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/17/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Et rursus: \"Sicut autem erat in diebus Noe, erant nubentes, et nuptui dantes, aedificantes, et plant antes; et sicut erat in diebus Lot, ita erit adventus Filii hominis.\".\nEt quod hoc non dicit ad genies, Ostend it, cum subjungit: \"Num cum venerit Filius hominis, inveniet fidem in terra? \"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/17/28",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbeb2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Let us marry daily, and in the midst of our marrying let us be overtaken, like Sodom and Gomorrah, by that day of fear!",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/17/28",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbeb3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 17:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

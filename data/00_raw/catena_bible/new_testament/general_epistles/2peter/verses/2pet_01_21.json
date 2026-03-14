@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2PET 1:21",
+  "verse_text": "Verse text for 2PET 1:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2pt/1/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For prophecy came not by the will of man at any time. This is to show that they are not to be expounded by any one's private judgment, because every part of the holy Scriptures is delivered to us by the divine spirit of God, wherewith the men were inspired who wrote them; therefore they are not to be interpreted but by the spirit of God, which he left, and promised to his Church to guide her in all truth to the end of the world. Our adversaries may perhaps tell us, that we also interpret prophecies and Scriptures; we do so; but we do it always with a submission to the judgment of the Church, they without it. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2pt/1/21",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03ce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "In union with them, and when moved by Him the prophets announced what God willed. For they spake not of their own power",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/1/21",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2PET 1:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

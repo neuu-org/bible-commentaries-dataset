@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 11:34",
+  "verse_text": "Verse text for LK 11:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/11/34",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "The light of the body is the eye. Figuratively the eye represents reason, intellect, especially good intention—for what the eye is to the body, such is reason or good intention to the mind.\nWhen thine eye is single, thy whole body also is full of light, i.e. illumined by a single, a clear and unclouded eye.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/11/34",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fc4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The lamp of the body is the eye: therefore when your eye is sound, your whole body also is full of light; but when your eye is evil, your body also is full of darkness. If thy eye be single. As when the eyes of the body are pure, and free from the mixture of bad humours, the whole body is lightsome; so if the eyes of the mind, viz. reason, faith and understanding, are not infected with the pestiferous humours of envy, avarice, and other vices, the whole mind will be illuminated by the presence of the Holy Spirit. Take care, therefore, lest by giving way to these vices, the light which is in thee be turned into darkness. (Bar radius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/11/34",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfac0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 11:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

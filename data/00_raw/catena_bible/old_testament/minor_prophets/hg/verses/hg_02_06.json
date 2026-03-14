@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HG 2:6",
+  "verse_text": "Verse text for HG 2:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hg/2/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "In truth he comes, who shakes the elements by his coming, in whose sight heaven and earth tremble. Hence the prophet says, “There is still a little while, and I will move not only the earth but also the sky.” He will bring the whole human race to his examination; angels, archangels, thrones, principalities and dominations will obey him, for the punishment of evil and the recompense of the good. Consider, dearly beloved, what terror there will be on that day at the sight of so great a judge. There will be no relief from punishment then. What a shame we will feel in the sight of all human beings and angels because of our own guilt! How we will fear when we see him angry, whom the human mind cannot comprehend even when he is peaceful! Forty Gospel Homilies",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hg/2/6",
+      "full_content_url": "https://catenabible.com/com/5839ed41205c248f42e52fa8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "There have been two remarkable transformations of the human way of life in the course of the world’s history. These are called two “covenants,” and, so famous was the business involved, two “shakings of the earth.” The first was the transition from idols to the law; the second, from the law to the gospel. The gospel also tells of the third shaking, the change from this present stage of things to what lies unmoved, unshaken, beyond. An identical feature occurs in both covenants. The feature? There was nothing sudden involved in the first movement to take their transformation in hand. On the Holy Spirit, Theological Oration ().",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hg/2/6",
+      "full_content_url": "https://catenabible.com/com/5839ed41205c248f42e52fa9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HG 2:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

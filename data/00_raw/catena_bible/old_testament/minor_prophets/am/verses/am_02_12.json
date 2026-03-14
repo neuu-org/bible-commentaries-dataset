@@ -1,0 +1,36 @@
+{
+  "verse_reference": "AM 2:12",
+  "verse_text": "Verse text for AM 2:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/2/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But you gave the Nazarites wine to drink; and commanded the prophets, saying, Prophesy not. Samson and Samuel drank neither wine nor strong drink, for they were children of promise and conceived in abstinence and fasting. Aaron and the other priests when about to enter the temple refrained from all intoxicating drink for fear they should die. From this we learn that they die who minister in the church without sobriety. And hence it is a reproach against Israel: “You gave my Nazirites wine to drink.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/2/12",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c0a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 2:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

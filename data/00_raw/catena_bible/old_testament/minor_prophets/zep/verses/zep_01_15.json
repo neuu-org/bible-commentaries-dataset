@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEP 1:15",
+  "verse_text": "Verse text for ZEP 1:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/zep/1/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Day, is a day. The repetition elegantly describes the great danger. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zep/1/15",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf53f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "But let them hear how the prophet Zephaniah holds out over them the power of divine rebuke, saying, “Behold, the Day of the Lord comes, great and horrible, the day of wrath, that day; a day of darkness and gloominess, a day of cloud and whirlwind, a day of trumpet and clamor, upon all fenced cities, and upon all lofty corners. ” For what is expressed by fenced cities but minds suspected and surrounded ever with a fallacious defense; minds which, as often as their fault is attacked, suffer not the darts of truth to reach them. And what is signified by lofty corners (a wall being always double in corners) but insincere hearts; which, while they shun the simplicity of truth, are in a manner doubled back on themselves in the crookedness of duplicity, and, what is worse, from their fault of insincerity lift themselves in their thoughts with the pride of prudence. Therefore the Day of the Lord comes full of vengeance and rebuke upon fenced cities and lofty corners, because the wrath of the last judgment both destroys human hearts that have been closed by defenses against the truth and unfolds such as have been folded up in duplicities. For then the fenced cities fall. For souls that God has not penetrated will be damned. Then the lofty corners tumble, because hearts which erect themselves in the prudence of insincerity are prostrated by the sentence of righteousness.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zep/1/15",
+      "full_content_url": "https://catenabible.com/com/58391adb205c248f42e52f68",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEP 1:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

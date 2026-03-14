@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 11:19",
+  "verse_text": "Verse text for ROM 11:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/11/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "A believing Gentile says that he can rejoice that the Jews did not believe, saying that their condemnation made room for the Gentiles. But the Jews were not condemned by God in order to let the Gentiles in. They condemned themselves by rejecting God’s gift, and by doing that they gave the Gentiles an opportunity to be saved. Paul wants to stop this boasting, so that we might rejoice in our salvation rather than insult the weak. For the man who insults a sinner is easily deceived. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/11/19",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5208",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "When you were stripped you were anointed with exorcised olive oil, from the topmost hairs of your head to the soles of your feet, and became partakers of the good olive tree, Jesus Christ. Cuttings from the wild olive tree, you were grafted into the good olive tree and became partakers of the richness of the true olive tree.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/11/19",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5207",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 11:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 13:16",
+  "verse_text": "Verse text for NM 13:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/13/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "And the same [Moses] by divine inspiration foresaw the name Jesus very clearly and again also endowed this with special privilege. The name of Jesus, which had never been uttered among men before it was made known to Moses, Moses applied first to this one alone. He knew that Joshua, again as a type and a symbol, would receive the rule over all after Moses’ death. His successor, at any rate, had never before used the title Jesus. He had been called by another name, Auses, which his parents had bestowed upon him. Moses himself proclaims Jesus, as a privilege of honor far greater than a royal crown, giving him the name because Jesus, the son of Nave, himself bore a resemblance to our Savior, who alone, after Moses and the completion of the symbolic worship transmitted by him, received the rule of true and pure religion.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/13/16",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52911",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 13:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

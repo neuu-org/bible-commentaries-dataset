@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 12:25",
+  "verse_text": "Verse text for 1KGS 12:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/12/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then Jeroboam built Shechem in mount Ephraim, and dwelt there; and went out from there, and built Penuel. Built, or \"had built \"while Roboam was preparing for his invasion. (Salien) Sichem and Phanuel had been ruined by Abimelech, and by Gedeon, Judges viii. (Calmet) By means of these fortresses, he secured both sides of the Jordan. (Haydock) Jeroboam afterwards fixed his residence at Thirsa, where the court was kept, till Amri built Samaria.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/12/25",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd315",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "We have learned in the books of Kings that under Rehoboam, the son of Solomon, Jeroboam, the son of Nabat, made a division among the people and led ten tribes into Samaria. The tribes of Judah and Benjamin, however, remained under the rule of Rehoboam; and many likewise from the tribe of Levi who were dwelling in Jerusalem as priests and Levites—as it is written in Paralipomenon—returned to the temple of God, that is, to Jerusalem. Thus, there were three tribes in Judea: Judah itself the royal tribe, and Benjamin, and later the Levites from the various tribes, when they had come to the temple. They who were in Samaria had a king from the tribe of Ephraim. Just as they who held sway in Judea had a king from the tribe of Judah and from the family of David, so they who prevailed in Samaria had a king from the tribe of Ephraim, and their kings were called Ephraim.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/12/25",
+      "full_content_url": "https://catenabible.com/com/5e1b67d28bc66721fe4ef8fc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 12:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

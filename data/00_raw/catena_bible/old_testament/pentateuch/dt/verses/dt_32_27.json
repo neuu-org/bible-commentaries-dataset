@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 32:27",
+  "verse_text": "Verse text for DT 32:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/32/27",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wrath. The enemies of the Israelites wished nothing more than their destruction. If therefore God had gratified this desire, by punishing his people, as they deserved, the enemy would have presently insinuated, that He had not been able to drive them out, or that (Haydock) he was fickle\nMighty. (excelsa;) \"lifted up. \"This expression shows the pride and insolence of those who make use of it, as if they despised God and all his laws. Procopius mentions this wicked inscription, to be still seen at Rome, \"I lift up my hands to (or against) God, who destroyed me, though innocent, in the 20th year of my age. \"Pos. Procius, (Calmet) who seems to have been a woman, quæ vixi (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/32/27",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcaf4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 32:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

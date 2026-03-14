@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 3:23",
+  "verse_text": "Verse text for DN 3:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/3/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "It was a great miracle for men to be cast into a furnace bound and to fall headlong into the midst of the fire, only to have the bonds burn up by which they were bound, the bodies of the fettered withal remaining untouched by the timid flames. The Hebrew text goes only up to this point and the intervening passage which now follows as far as the end of the Song of the Three Youths is not contained in the Hebrew [i.e. the Aramaic]. Lest we seem to pass over it altogether, we must make a few observations.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/3/23",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2ac",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 3:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

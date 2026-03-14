@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 2:43",
+  "verse_text": "Verse text for LK 2:43",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/2/43",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And when they had fulfilled the days, as they returned, the child Jesus tarried behind in Jerusalem. In the Greek, after they had finished, or gone through, the days—namely, of the Passover; for this feast was kept for seven days, and S. Luke here implies that Mary and Joseph kept all these days at Jerusalem, though they were not bound by the law to remain so long—tarried behind in Jerusalem, there to shed some little ray of His wisdom and Divinity, as though longing to begin the ministry for which His Father had sent Him. For at the age of twelve childhood ends, and youth and perfect judgment begin. So says Bede. And Joseph and his mother knew not of it, because Jesus asked leave of His parents, who were lingering a little in Jerusalem from motives of devotion or business, to visit His relations, as if he were about to go on with them, and, having obtained permission, went to them, but soon withdrew quietly to the Temple—God so directing—in order that His parents, though at other times always solicitous about Him, should be unaware of this, and think that He was in the company of His kinsfolk.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/2/43",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f17",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 2:43",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 15:33",
+  "verse_text": "Verse text for 1SM 15:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/15/33",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Samuel said, As your sword has made women childless, so shall your mother be childless among women. And Samuel cut Agag in pieces before the LORD in Gilgal. Josephus adds, by the hand of others. (Menochius) But zeal put the sword into his own hand; and he imitated the Levites and Phinees, (Exodus xxxii. ) to show Saul how preposterous had been his pity, when the Lord had spoken plainly. (Calmet) Lord, as a sort of victim, Isaias xxxiv. (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/15/33",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcf25",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 15:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

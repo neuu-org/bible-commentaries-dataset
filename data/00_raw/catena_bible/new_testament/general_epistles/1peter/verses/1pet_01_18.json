@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1PET 1:18",
+  "verse_text": "Verse text for 1PET 1:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/1/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "From your vain conversation of the tradition of your fathers. Peter teacheth what St. Paul repeats in many places, that it was in vain for them to hope to be saved by the ceremonies and precepts of the former law, to which their forefathers had added many unnecessary and groundless traditions. They could only hope for salvation by believing in Christ, by the price of whose precious blood they were redeemed from their sins, as they had heard by the word of the gospel preached to them. His doctrine is the same with that of St. Paul, of St. James, of St. John, and of the other apostles, that to be saved it is not enough to have faith or hope in Christ, but it must be a faith joined and working by charity, obeying the law of Christ in the spirit of charity with a sincere and brotherly love of every one, without setting our hearts upon the vanities and corruptible things of this world, remembering that all flesh is as grass, or the flowers of the field, which wither and pass away in a very short time. Thus presently vanish all riches, honours, pleasures, and all the glory of this life, but the word of God and his promises will bring us to happiness which will last for ever.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1pt/1/18",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c0398",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 1:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

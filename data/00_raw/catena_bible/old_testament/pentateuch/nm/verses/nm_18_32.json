@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 18:32",
+  "verse_text": "Verse text for NM 18:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/18/32",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And you shall bear no sin by reason of it, when you have offered from it the best of it: neither shall you pollute the holy things of the children of Israel, lest you die. By Hebrew, \"when you have made a heave-offering of the best of it; nor shall you profane the holy things of \"(Haydock) This they would do, if they gave the worst only to the priests. (Du Hamel) There were only three at this time; yet they received the 100th part of the produce of so many thousands. Well therefore might God say, I will fill the souls of the priests with fatness: and my people shall be filled with good things, Jeremias xxxi.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/18/32",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7b9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 18:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

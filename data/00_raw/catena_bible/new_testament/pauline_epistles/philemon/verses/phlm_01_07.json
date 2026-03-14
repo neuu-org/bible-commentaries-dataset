@@ -1,0 +1,69 @@
+{
+  "verse_reference": "PHLM 1:7",
+  "verse_text": "Verse text for PHLM 1:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/phlm/1/7",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "It is clear that Paul says he is happy because Philemon was providing for the needs of the saints. For this is certain that Philemon will obey his requests since it is clear that he is of higher rank.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/7",
+      "full_content_url": "https://catenabible.com/com/576218ce9fd295934bf12054",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Nothing so shames us into giving, as to bring forward the kindnesses bestowed on others, and particularly when a man is more entitled to respect than they. And he has not said, If you do it to others, much more to me; but he has insinuated the same thing, though he has contrived to do it in another and a more gracious manner. I had joy, that is, you have given me confidence from the things which you have done to others. And consolation, that is, we are not only gratified, but we are also comforted. For they are members of us. If then there ought to be such an agreement, that in the refreshing of any others who are in affliction, though we obtain nothing, we should be delighted on their account, as if it were one body that was benefited; much more if you shall refresh us also. And he has not said, Because you yield, and compliest, but even more vehemently and emphatically, because the bowels of the Saints, as if it were for a darling child fondly loved by its parents, so that this love and affection shows that he also is exceedingly beloved by them.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phlm/1/7",
+      "full_content_url": "https://catenabible.com/com/57eb0ef1b0d44ee10cfac70c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Nothing so shames us into giving as to bring forward the kindnesses bestowed on others, and particularly when the intercessor is more entitled to respect than they.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/7",
+      "full_content_url": "https://catenabible.com/com/583ba9de205c248f42e53035",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "The reason he gives thanks is joy. And he says, For I had great joy and consolation... 3 John 4: ‘I have no greater joy than to hear that my children are walking in the truth.’ For this joy alleviates anxiety. That is why he adds consolation. Psalm 93:119: ‘When anxieties are increased in my heart, your comfortings delight my soul.’ He explains why, saying because through you, brother, the hearts of the saints have found rest. Colossians 3:12... ‘Put on, therefore, as God’s chosen ones, holy and beloved, a heart of mercy, kindness, humility, meekness, patience.’ 3 John 2: ‘Beloved I pray that in all things you may prosper and be in health...’",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phlm/1/7",
+      "full_content_url": "https://catenabible.com/com/576218ce9fd295934bf12071",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHLM 1:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

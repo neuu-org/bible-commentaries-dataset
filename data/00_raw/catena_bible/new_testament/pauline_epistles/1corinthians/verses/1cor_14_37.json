@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1COR 14:37",
+  "verse_text": "Verse text for 1COR 14:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/14/37",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "1 Corinthians 14:37 If any man thinks himself to be a prophet, or spiritual, let him acknowledge that the things that I write unto you are the commandments of the Lord. Paul is alluding to the false apostles mentioned above, by whom they had been misled. They were teaching things which people wanted to hear but which were not of God. By saying that he was handing on nothing of his own, Paul was trying to indicate that what he was saying came from God and not from men. He therefore preaches consistently, with a clear conscience because he does not desire to please men but God. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/14/37",
+      "full_content_url": "https://catenabible.com/com/584c89a19ac03ecd4b8e5ea7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "If any man think himself to be a prophet, &c. It is the Lord who commands this order to be observed in your assemblies, by my mouth, not directly by Himself. This verse is an authority for canons passed by the Popes, and for the laws of the Church. Melancthon replies that Bishops cannot make fresh canons, because, since the whole of the Holy Scripture has been now written, the Bishops have a full and sufficient guide in the word of God; but he says the civil magistrate can pass new laws, because he has not the word of God to follow. But this is a frivolous answer. The magistrate has not only the law of nature, but a very full and complete code of laws in the statute-book. But if everything has not been provided for there, and the magistrate may add to the number of laws, why may not Bishops do the same. For the word of God has not provided for everything, as may be seen in the additions made to it by the Canon Law. Moreover, S. Paul is here enacting human and ecclesiastical laws, not Divine ones; and he had besides the word of God, not indeed written, but received by tradition or revelation from God ( Galatians 1:12), and that much more fully than we have it. If, therefore, it was lawful for him to add his laws to those given by God, it is also lawful for the Pope and the Bishops, who have succeeded Paul, to do the same.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/14/37",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e524d2",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 14:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

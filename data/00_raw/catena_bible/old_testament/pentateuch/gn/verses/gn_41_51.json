@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 41:51",
+  "verse_text": "Verse text for GN 41:51",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/41/51",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Manasses. That is, oblivion, or forgetting. (Challoner)\nFather's house, or the injuries received from my brethren. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/41/51",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc224",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Consider the man’s Godfearing attitude. By recording the memory of everything by the name of his son, Joseph purposely expressed his constant thankfulness. He did so that the one born to him might be in a position to know from his own name the trials and endurance that characterized the good man and so brought Joseph to such prominence. “Because he made me forget all my hardships and all those of my father.” What is the meaning of “all those of my father”? Here I think there is reference to the former enslavement and the latter, as well as the deprivation in prison. “All those of my father” means the separation he endured in being away from his father’s embrace and the fact that, being raised with such care, at a tender age he exchanged freedom for slavery.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/41/51",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51c5c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 41:51",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

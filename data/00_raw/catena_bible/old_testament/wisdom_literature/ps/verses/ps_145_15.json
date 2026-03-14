@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 145:15",
+  "verse_text": "Verse text for PS 145:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/145/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "14. \"The eyes of all hope upon Thee, and Thou givest them food in due season\" (ver. 15). Just as when thou refreshest a sick man in due season, when he ought to receive, then Thou givest, and what he ought to receive, that Thou givest. Sometimes then men long, and he giveth not: he who tendeth, knoweth the time to give. Wherefore say I this, brethren? Lest any one be faint, if perchance he hath not been heard, when making some righteous request of God. For when he maketh any unrighteous request, he is heard to his punishment: but when making some righteous request of God, if perchance he have not been heard, let him not be down-hearted, let him not faint, let his eyes wait for the food, which He giveth in due season. When He giveth not, He therefore giveth not, lest that which He giveth do harm. ...\"Thou givest them meat in due season.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/145/15",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67aa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hope. For sustenance, Psalm cxxii. 2., and Matthew vi. 26.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/145/15",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be530",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 145:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

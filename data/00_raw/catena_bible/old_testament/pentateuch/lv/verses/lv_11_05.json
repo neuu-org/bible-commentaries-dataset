@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 11:5",
+  "verse_text": "Verse text for LV 11:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/11/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The cherogrillus. Some suppose it to be the rabbit, others the hedgehog: St. Jerome intimates that it is another kind of animal common in Palestine, which lives in the holes of rocks, or in the earth. We choose here, as also in the names of several other creatures that follow, (which are little known in this part of the world) to keep the Greek or Latin names. (Challoner)\nBo chart (Hierozoicon) may be consulted on this subject. He supposes, that the Hebrew shaphan, denotes the Arabian rat called aliarbuho. But the Jews themselves are ignorant of many of these animals. (Calmet)\nBoth choiros and grullos, signify swine. The porcupine, or the bear-mouse of Palestine, may be meant. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/11/5",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc58b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the rock badger, because it chews the cud, but divides not the hoof; it is unclean unto you. The cherogrillus: Some suppose it to be the rabbit, others the hedgehog. Jerome intimates that it is another kind of animal common in Palestine, which lives in the holes of rocks or in the earth. We choose here, as also in the names of several other creatures that follow (which are little known in this part of the world,) to keep the Greek or Latin names.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/11/5",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f73",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 11:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

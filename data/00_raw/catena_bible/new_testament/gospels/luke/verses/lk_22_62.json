@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 22:62",
+  "verse_text": "Verse text for LK 22:62",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/22/62",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Why did Peter weep? Guilt took him by surprise. I am accustomed to weep if I lack guilt, if I do not avenge myself, or do not get what I wickedly desire. Peter grieved and wept because he went astray as a man. I do not learn why he spoke, but I learn that he wept. I read of his tears, but I do not read of his explanation. What cannot be defended can be purged. Tears may wash away the offense that is a shame to confess aloud. Tears deal with pardon and shame. Tears speak of guilt without fear and confess sin without the obstacle of shame. Tears do not demand pardon and deserve it. I learn why Peter was silent, lest a swift petition for pardon might offend even more. First he must weep, and then he must pray.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/22/62",
+      "full_content_url": "https://catenabible.com/com/585b6d629ac03ecd4b8e7677",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "To wash away the sin of denial, Peter needed the baptism of tears. From where would he get this, unless the Lord gave him this too? That is why the apostle Paul gave this advice to his people concerning deviant opinions and about how they should deal with them. He said they must be “correcting his opponents with gentleness. God may perhaps grant that they will repent and come to know the truth.” So even repentance is a gift from God. The heart of the proud is hard ground. It is softened for repentance only if it is rained on by God’s grace. ..",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/22/62",
+      "full_content_url": "https://catenabible.com/com/585b6d629ac03ecd4b8e7678",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 22:62",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

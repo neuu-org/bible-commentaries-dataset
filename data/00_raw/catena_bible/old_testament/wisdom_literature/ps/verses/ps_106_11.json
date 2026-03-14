@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 106:11",
+  "verse_text": "Verse text for PS 106:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/106/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. \"As for those that troubled them, the waters overwhelmed them: there was not one of them left\" (ver. 11); not of all the Egyptians, but of those who pursued the departing Israelites, desirous either of taking or of killing them.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/106/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e656d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Left. Manetho and Lorin assert, that Pharao reigned afterwards. But this is contrary to the Scripture. All who came to attack Israel perished. (Calmet)\nThey supposed that the waters were enchanted. (St. Iren us iv. 48.)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/106/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be370",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 106:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

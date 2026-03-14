@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 23:8",
+  "verse_text": "Verse text for MT 23:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/23/8",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "One is your master, or teacher, who is the Christ, and under him one vicar, the successor of St. Peter, with whom all Catholic teachers are one, because they all teach one and the same doctrine in every part of the Christian world; whereas in the multiplicity of modern sects, which are every day dividing and subdividing into fresh sects, no two leaders can be found teaching in all points exactly the same tenets; as each is not only allowed, but expected to follow his own private spirit, and to build his creed upon his own interpretation of Scripture. (Haydock)",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/23/8",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf832",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The other things then He carried no further than to accuse them, as being small and trifling, and as though His disciples needed not at all to be corrected about these matters; but what was a cause of all the evils, even ambition, and the violent seizing of the teacher's chair, this He brings forward, and corrects with diligence, touching this vehemently and earnestly charging them. For what says He. But be not ye called Rabbi. Then follows the cause also; For one is your master, and all you are brethren; Matthew 23:8 and one has nothing more than another, in respect of his knowing nothing from himself. Wherefore Paul also says, For who is Paul, and who is Apollos, but ministers. 1 Corinthians 3:5 He said not masters. And again, Call not, father, Matthew 23:9 not that they should not call, but they may know whom they ought to call Father, in the highest sense. For like as the master is not a master principally; so neither is the father. For He is cause of all, both of the masters, and of the fathers.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/23/8",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac560",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“You are not to be called rabbi, for you have one teacher, and you are all brothers.” One has nothing more than another. For in respect to his knowledge he knows nothing from himself. This is why Paul says, “For who is Paul, and who is Apollos, but ministers?”—not masters. Again, “call no man your father.” This is said in order that they may know whom they ought to call Father in the highest sense. It is not said frivolously as if no one should ever be called father. Just as the human master is not the divine Master, so neither is the father the Father who is the cause of all, both of all masters and of all fathers. The Gospel of Matthew, Homily",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/23/8",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e70f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 23:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

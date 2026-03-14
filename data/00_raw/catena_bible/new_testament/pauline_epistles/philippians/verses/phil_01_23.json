@@ -1,0 +1,80 @@
+{
+  "verse_reference": "PHIL 1:23",
+  "verse_text": "Verse text for PHIL 1:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/1/23",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "What does this departure mean but the dissolution and torpor of the body, while the soul for its part is turned toward its rest and made free, if it be faithful, “to be with Christ”? On the Benefit of Death",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/23",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53426",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "From him we come, by his own power we are created, and to him we return. “So it is much better to be with Christ.” .",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/23",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53425",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "See the affection of this blessed one; in this way too he comforts them, when they see that he is master of his own choice, and that this is done not by man's sin, but by the dispensation of God. Why mourn ye, says he, at my death? It had been far better to have passed away long since. For to depart, he says, and to be with Christ, is very far better.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/23",
+      "full_content_url": "https://catenabible.com/com/5755bff83c6effa740dddbd9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Impatience is a bad omen for our hope. It puts our faith in doubt. We wound Christ when we do not accept with equanimity his calling people away, treating them as though they were to be pitied. “I long,” says the apostle, “to be taken up and be with Christ.” How much better is the wish that he expresses! On Patience",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/23",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53424",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "You long for the goal, and the stage, and the dust, and the place of combat! I would have you answer me this question: Can we not live without pleasure, who cannot but with pleasure die? For what is our wish but the apostle's, to leave the world, and be taken up into the fellowship of our Lord?.\nAnd received into the Lord's presence, which was the desire even of an apostle?.\nShall the servant of God yearn after heirs, who has disinherited himself from the world? And is it to be a reason for a man to repeat marriage, if from his first (marriage) he have no children? And shall he thus have, as the first benefit (resulting therefrom), this, that he should desire longer life, when the apostle himself is in haste to be \"with the Lord? \"",
+      "commentary_number": "5/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/1/23",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb787",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 1:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

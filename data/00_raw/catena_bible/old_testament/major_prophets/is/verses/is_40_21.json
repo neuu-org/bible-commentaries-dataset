@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 40:21",
+  "verse_text": "Verse text for IS 40:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/40/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The divinely inspired Scripture was not silent. For the knowledge of the truth from above was veiled through the patriarchs, through the law and the prophets. But this was not the case when the only-begotten Word of God came among us as a man to illuminate those on the earth. This was the last days when the leader of those who oppose spiritual deception came. It was the first of the attacks on idolatry. For the choir of the saints never stops attacking such deception, showing how loathsome it is while at the same time making known the [true] Maker and Lord of the universe.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/40/21",
+      "full_content_url": "https://catenabible.com/com/5e88f281b1c7280cb341d030",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Beginning, by the light of nature, and (Worthington) has not Moses declared that God alone created the world? (Haydock)\nHis power and goodness herein convince us that he will not deny grace. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/21",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723beaaf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 40:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

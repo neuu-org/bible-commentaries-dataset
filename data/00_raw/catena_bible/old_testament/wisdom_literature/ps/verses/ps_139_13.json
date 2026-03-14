@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 139:13",
+  "verse_text": "Verse text for PS 139:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/139/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"For Thou, O Lord, hast possessed my reins\" (ver. The Possessor is within; He occupieth not only the heart, but also the reins; not only the thoughts, but also the delights: He then possesseth that whence I should feel delight at any light in this world: He occupieth my reins: I know not delight, save from the inward light of His Wisdom. Dost thou not delight that thy affairs are very prosperous, times fortunate to thee. dost thou not delight in honour, in riches, in thy family. \"I do not,\" saith he. Because \"Thou hast possessed my reins, O Lord; Thou hast taken me up from my mother's womb. \" While I was in my mother's womb, I did not regard with indifference the darkness of that night and the light of that night. Now, having been taken up froth the womb of that our mother, we look on them with indifference, and say, \"As is His darkness, so is also His light. \" Neither doth earthly prosperity make us happy, nor earthly adversity wretched. We must maintain righteousness, love faith, hope in God, love God, love our neighbours also. After these toils we shall have unfailing light, day without setting. Fleeting is all the light and darkness of this night.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/139/13",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6757",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Reins, and interior. (Theodoret)\nNothing seems more hidden than a man's entrails, or a child in his mother's womb, who is formed by God, ver. 16., and 2 Machabees vii. 22. (Worthington)\nProtected. Hebrew, \"covered \"which may also mean formed. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/139/13",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4e5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 139:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 11:53",
+  "verse_text": "Verse text for JN 11:53",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/11/53",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Then from that day forth, &c. See here plainly appears the unrighteous disposition and meaning of Caiaphas and his associates.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/53",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e522a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Then from that day forth they took counsel together to put him to death. Cyril of Alexandria For they had the desire to defile themselves with Christ's Blood, and from the moment at which the assembly took place, it received as it were a fresh start, the common consent of all to it being publicly acknowledged. For the Evangelist did not say simply: \"From that hour they took counsel to commit the murder,\" but: \"They took counsel together;\" that is to say, the very thing which seemed desirable to each one individually was pleasing to them all collectively.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/53",
+      "full_content_url": "https://catenabible.com/com/57eb0c76b0d44ee10cfabfdb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And, in truth, had sought to do so before; for the Evangelist says, Therefore the Jews sought to kill Him John 5:18; and, Why do you seek to kill Me? John 7:19 But then they only sought, now they ratified their determination, and treated the action as their business.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/53",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabbe8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 11:53",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

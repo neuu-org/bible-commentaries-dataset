@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 20:10",
+  "verse_text": "Verse text for 1KGS 20:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/20/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Handfuls. Hebrew shohal. The Septuagint, read \"shuhal \"and render it, \"suffice for the foxes, for all the people, (even for) my infantry \"(Haydock) as if his forces were so numerous as to cover the whole land, and leave no room for even foxes to occupy. The hyperbole is equally great, supposing that his soldiers could by each taking a handful, or what might stick to his feet, (Chaldean) carry off all Samaria. Josephus intimates, that Benadad speaks of erecting terraces of equal height with the walls; others, that he would level the city with the ground, Ezechiel xxvi. 4. (Sanctius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/20/10",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd3ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 20:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

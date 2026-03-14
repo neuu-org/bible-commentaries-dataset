@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 107:43",
+  "verse_text": "Verse text for PS 107:43",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/107/43",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10. \"Who is wise? and he will consider these things; and will understand the mercies of the Lord\" (ver. 43). ...Not his own deservings, not his own strength, not his own power; but \"the mercies of the Lord;\" who, when he was wandering and in want, led him back to the path, and fed him; who, when he was struggling against the difficulties of his sins, and bound down with the fetters of habit, released and freed him; who, when he loathed the Word of God, and was almost dying with a kind of weariness, restored him by sending him the medicine of His Word; who, when he was endangered among the risks of shipwreck and storm, stilled the sea, and brought him into port; who, finally, placed him in that people, where He giveth grace to the humble; not in that where he resisteth the proud; and hath made him His own, that remaining within he may be multiplied, not that going out he may be minished. The righteous see this, and rejoice. \"The mouth,\" therefore, \"of all wickedness shall be stopped.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/107/43",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6591",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 107:43",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

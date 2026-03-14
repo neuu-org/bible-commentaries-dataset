@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 29:11",
+  "verse_text": "Verse text for PS 29:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/29/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The LORD will give strength unto his people; the LORD will bless his people with peace. Augustine of Hippo 11. \"The Lord will give strength to His people\" (ver. For the Lord will give strength to His people fighting against the storms and whirlwinds of this world, for peace in this world He hath not promised them. \"The Lord will bless His people in peace. \" And the same Lord will bless His people, affording them peace in Himself; for, saith He, \"My peace I give unto you, My peace I leave with you.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/29/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6919",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 29:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

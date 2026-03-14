@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:45",
+  "verse_text": "Verse text for PS 18:45",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/45",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "46. \"The strange children have lied unto Me.\" Children, not to be called Mine, but rather strange children, to whom it is rightly said, \"Ye are of your father the devil,\" have lied unto Me. \"The strange children have waxen old\" (ver. 45). The strange children, to whom for their renovation I brought the new Testament, have remained in the old man. \"And they have halted from their own paths.\" And like those that are weak in one foot, for holding the old they have rejected the new Testament, they have become halt, even in their old Law, rather following their own traditions, than God's. For they brought frivolous charges of unwashen hands, because such were the paths, which themselves had made and worn by long use, in wandering from the ways of God's commands.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/18/45",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e686e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Faded, (inveterati sunt) \"are grown old. \"(Haydock)\nThe Jews had been long the objects of God's favours: yet they fall away. Thus we often see priests outdone in piety by simple laics. (Berthier)\nDavid continues in the comparison of a tree which bears no fruit; (Calmet) thus lying, as it were, and frustrating the just expectations of the owner. Subjects do the like, when they revolt; (Isaias xxx. 9.) and thus deserve the title of strange. Protestants, \"the strangers shall fade away, and be afraid out of their close places \"(St. Jerome) \"shall flow away, and be contracted in their straits \"while I shall be at large, ver. 37. The last verb gachregu, (Haydock) occurs no where else. It may signify \"shall be withered \"or burnt, from charar. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/18/45",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdee9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:45",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

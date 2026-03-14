@@ -1,0 +1,69 @@
+{
+  "verse_reference": "EX 12:3",
+  "verse_text": "Verse text for EX 12:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/12/3",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The bridegroom, who was to call good and bad to his marriage, was pleased to assimilate himself to his guests, in being born of good and bad. He thus confirms as typical of himself the symbol of the Passover, in which it was commanded that the lamb to be eaten should be taken from the sheep or from the goats—that is, from the righteous or the wicked. Preserving throughout the indication of both divinity and humanity, as man he consented to have both bad and good as his parents, while as God he chose the miraculous birth from a virgin. Against Faustus, a Manichaean",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/12/3",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5279c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "It was commanded that the paschal lamb, by whose immolation the people of Israel were freed from slavery in Egypt, should be selected five days before the [feast of] Passover, that is, on the tenth [day of the lunar] month, and immolated on the fourteenth [day of the lunar] month at sundown. This signified the one who was going to redeem us by his blood, since five days before the [feast of] Passover (that is, today), accompanied by the great joy and praise of people going ahead and following, he came into God’s temple, and he was there teaching daily. At last, after five days, having observed up to that point the sacraments of the old Passover, he brought them to perfect fulfillment, and he handed over the new sacraments to his disciples to be observed henceforth. [Then], having gone out to the Mt. of Olives, he was seized by the Jews and crucified [the next] morning. He redeemed us from the sway of the devil on that very day when the ancient people of the Hebrews cast aside the yoke of slavery under the Egyptians by the immolation of the lamb.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/12/3",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5279a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Children; a word which has been dropped in the printed Hebrew and in the Chaldee, which has been assimilated to it, though found still in some manuscripts and in the Samaritan, Septuagint, Syriac and Arabic versions. (Kennicott)\nDay. This regarded only the present occasion. (Jonathan)\nThe Jews no longer eat the paschal lamb, as they are banished from Chanaan. (Calmet)\nMan, who has a family sufficient to eat a lamb; Hebrew se, which means also a kid, (as either was lawful, ver. 13,) and perhaps also a calf, Deuteronomy xvi. 2.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/12/3",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc33d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "“The lamb,” the Lord says, “must be without blemish. You may take it from either the sheep or the goats.” In another place of Holy Writ, it is prescribed that if anyone is unable to keep the Passover in the first month, he is to do so in the second. According to the regulation above, anyone who is unable to sacrifice a lamb may substitute a kid. In the house of the church, moreover, Christ is offered in a twofold manner: if we are just, we eat of the flesh of the lamb; if we are sinners and do penance, for us a goat is slain. This does not mean that Christ is from the goats that stand, as he has taught, on his left hand, but that Christ becomes a lamb or a goat in conformity with individual and personal merit.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/12/3",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5279b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 12:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EPH 5:13",
+  "verse_text": "Verse text for EPH 5:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/eph/5/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "But all things that are reproved are made manifest by the light: for whatsoever does make manifest is light. Having instructed them also to counsel all those who are doing ill, he next shows what a great service this is. For admonition makes those sins manifest. It puts them in the light. For the one who admonishes shows how important is the behavior he illumines. In doing this he is in effect illuminating the evil to show its consequences. When the one who commits evil understands this, the shadows are dispelled and he enters the light.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/5/13",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c669e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Moreover, he styled life (Zoe) the light of men, because they are enlightened by her, that is, formed and made manifest. This also Paul declares in these words: \"For whatsoever doth make manifest is light.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/5/13",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb01a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EPH 5:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 40:31",
+  "verse_text": "Verse text for IS 40:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/40/31",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Eagles, who grow young, when they get new feathers, Psalm cii. 5. (St. Jerome)\nIn this and the following 26 chapters the prophet chiefly comforts his people, as he had rebuked them for their crimes in the first part. (Worthington)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/31",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beab4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "We have said that the old age of eagles is revived by a change of their wings and that they alone who see the brilliance of the sun and the radiance of its splendor are able to gaze with gleaming eyes; and they test their young ones to see whether they are of noble birth by this same test. In the same way the saints are made young again as they put on their immortal bodies so that they no longer feel the toil of mortals but are taken up into the clouds before the face of Christ, and in no way (following the Septuagint) do they hunger, since they have the Lord present to them as food.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/40/31",
+      "full_content_url": "https://catenabible.com/com/5e88f286b1c7280cb341d03e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John of the Cross",
+      "period": "AD1591",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint. John of the Cross The soul runs swiftly to God and touches Him again and again; and it runs without fainting by reason of its hope. For here the love that has made it strong makes it to fly swiftly. Of this the prophet Isaiah speaks thus: ’ The saints that hope in God shall renew their strength;'.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/31",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa0b9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 40:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

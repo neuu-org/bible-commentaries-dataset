@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1THES 3:1",
+  "verse_text": "Verse text for 1THES 3:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1thes/3/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Forbearing no longer. That is, not being able to be at rest, for not seeing you, nor hearing concerning you. (Witham)\nNot bearing to be any longer uncertain and uninformed of your constancy, amidst the tribulations you had to endure, I sent Timothy to strengthen you, that you might not be moved in the difficulties to which we are destined, and which it is appointed for us to undergo. (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1thes/3/1",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c01c4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“Therefore when we could bear it no longer, we were willing to be left at Athens alone. And Paul sent two of those who ministered to him,” both to announce his coming and to make them more eager…. Do you see how God permits trials, and by them stirs up and awakens the disciples and makes them more energetic? Then let us not sink down under trials: for he himself will “also make the way of escape, that we may be able to bear them.” Nothing so makes friends and rivets them so firmly as affliction; nothing so fastens and joins the souls of believers; nothing is so timely for us teachers in order that the things said by us may be heard. For when the hearer is living an easy life, listless and indolent, those who try to teach him only annoy him. But when he is in affliction and distress, he longs to hear his teachers. For when he is distressed in his soul, he seeks comfort from all directions in his affliction. And the preaching brings no small comfort.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1thes/3/1",
+      "full_content_url": "https://catenabible.com/com/583bc355205c248f42e5313c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And this he says, not as extolling Timothy, but honoring them, that he sent them the fellow-worker, and minister of the Gospel. As if he had said, Having withdrawn him from his labors we have sent to you the minister of God, and our fellow-laborer in the Gospel of Christ.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1thes/3/1",
+      "full_content_url": "https://catenabible.com/com/575712ed3c6effa740dddc44",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1THES 3:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 22:43",
+  "verse_text": "Verse text for MT 22:43",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/22/43",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For since He was now about to go on to His passion, He sees forth the prophecy that plainly proclaims Him to be Lord; and not as having come to do this without occasion, nor as having made this His aim, but from a reasonable cause.\n\nFor having asked them first, since they answered not the truth concerning Him (for they said He was a mere man), to overthrow their mistaken opinion, He thus introduces David proclaiming His Godhead. For they indeed supposed that He was a mere man, wherefore also they said, the Son of David; but He to correct this brings in the prophet witnessing to His being Lord, and the genuineness of His Sonship, and His equality in honor with His Father.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/22/43",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac556",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 22:43",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

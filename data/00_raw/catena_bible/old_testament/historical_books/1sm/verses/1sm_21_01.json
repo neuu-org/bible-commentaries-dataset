@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1SM 21:1",
+  "verse_text": "Verse text for 1SM 21:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/21/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Nobe. A city in the tribe of Benjamin, to which the tabernacle of the Lord had been translated from Silo. (Challoner)\nIt was about 12 miles south-west of Gabaa. (Tudelensis.)\nThere was another Nobe on the east side of the Jordan, to which Serarius thinks David was three days in travelling. But when David made that assertion, he wished to conceal the real state of his affairs, as he had not seen Saul since he was at Najoth, ver. 5. Nobe was afterwards accounted a sacerdotal city, ver. 19., and 2 Esdras xi. 32.\nAchimelech, who is perhaps the same with Achia (chap. xiv. 3,) and Abiathar, Mark ii. 32.\nWith thee. He would not expose his men to the resentment of Saul, (Calmet) though he afterwards gave the priest to understand that he had some attendants, (ver. 2) as the gospel relates, Matthew xii. 3. He dismissed them before he entered Geth. (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/21/1",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcf97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "In similar fashion, whenever we have God on our side, even if we are utterly alone, we will live more securely than those who dwell in the cities. After all, the grace of God is the greatest security and the most impregnable fortification. To prove to you how the person who, in fact, lives utterly alone turns out to be more secure and efficacious than a person living in the middle of cities and enjoying plenty of human assistance, let us see how David, though shifting from place to place and living like a nomad, was protected by the hand from above, whereas Saul, who in fact was in the middle of cities and had armies at his command, bodyguards and shieldbearers as well, still spent each day in fear and dread of enemy assaults. Whereas the one man, although alone and with no one else in his company, had no need of assistance from human beings, the other, by contrast, needed his help, despite wearing a diadem and being clad in purple. The king stood in need of the shepherd; the wearer of the crown had need of the peasant.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/21/1",
+      "full_content_url": "https://catenabible.com/com/5de4681d1f75ae05ba98cf2f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Nobe: A city in the tribe of Benjamin, to which the tabernacle of the Lord had been translated from Silo.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/21/1",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f10e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 21:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

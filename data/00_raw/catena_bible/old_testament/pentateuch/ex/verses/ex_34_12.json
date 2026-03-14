@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 34:12",
+  "verse_text": "Verse text for EX 34:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/34/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Take heed to yourself, lest you make a covenant with the inhabitants of the land where you go, lest it be for a snare in the midst of you: Caesarius of Arles When the Lord handed over to you the land of the Canaanites, he said, “Take care, therefore, not to make a covenant with these inhabitants of the land that you are to enter; else they will immediately become a snare among you. ” Now we believe that by the grace of baptism all sins and offenses have been banished from us. If we afterward make a covenant with those same sins and vices, doubtless this covenant will become a snare for us because of our consent to avarice or dissipation.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/34/12",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e528e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 34:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

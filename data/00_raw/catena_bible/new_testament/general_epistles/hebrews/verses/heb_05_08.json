@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 5:8",
+  "verse_text": "Verse text for HEB 5:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/5/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He that was truly the Son of God, and knew all things, learnt practically, and taught us perfect obedience in suffering and dying a cruel death on the cross. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/5/8",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Of growing up; and, when grown up, is not eager to be recognised, but is furthermore contumelious to Himself, and is baptized by His own servant; and repels with words alone the assaults of the tempter; while from being \"Lord \"He becomes \"Master \"teaching man to escape death, having been trained to the exercise of the absolute forbearance of offended patience.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/5/8",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb1a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 5:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

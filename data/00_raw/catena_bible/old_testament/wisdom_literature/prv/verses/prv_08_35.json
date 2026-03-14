@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 8:35",
+  "verse_text": "Verse text for PRV 8:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/8/35",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Man in paradise was capable of selfdestruction by abandoning justice by an act of will; yet if the life of justice was to be maintained, his will alone would not have sufficed, unless he who made him had given him aid. But, after the fall, God’s mercy was even more abundant, for then the will itself had to be freed from the bondage in which sin and death are the masters. There is no way at all by which it can be freed by itself, but only though God’s grace, which is made effectual in the faith of Christ. Thus, as it is written, even the will by which “the will itself is prepared by the Lord” so that we may receive the other gifts of God through which we come to the Gift eternal—this too comes from God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/8/35",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c844d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lord. Wisdom, or Jesus Christ, is our salvation, happiness, and life. Septuagint, \"and the will is prepared by the Lord. \"St. Augustine often quotes this to prove the necessity of preventing grace. (Ep. ccxvii., and clxxxvi.) (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/8/35",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be5dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 8:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

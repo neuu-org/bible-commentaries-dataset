@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PRV 15:19",
+  "verse_text": "Verse text for PRV 15:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/15/19",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thorns. All seems to them impossible. (Calmet)\nIn agriculture, however, (Haydock) \"in domestic affairs, negligence is attended with more labour than diligence. \"(Colum. xii. 2.)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/15/19",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be65e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "There are those who are called the slothful in the book of Wisdom, who strew their path with thorns, who consider harmful to the soul a zeal for deeds in keeping with the commandments of God, the demurrers against the apostolic injunctions, who do not eat their own bread with dignity, but, fawning on others, make idleness the art of life. Then, there are the dreamers who consider the deceits of dreams more trustworthy than the teachings of the Gospels, calling fantasies revelations. Apart from these, there are those who stay in their own houses, and still others who consider being unsociable and brutish a virtue without recognizing the command to love and without knowing the fruit of longsuffering and humility.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/15/19",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c84c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The way of the slothful man is as a hedge of thorns: but the way of the righteous is made a highway. In the words of Solomon, “The ways of those who do nothing are strewn with thorns, but the ways of the strong are well trodden. ” Thus, having turned aside from the royal path, they are unable to get to that metropolis to which our journeying must ever and unswervingly be directed. Ecclesiastes also expressed this quite distinctly when he said, “The toil of fools afflicts those who do not know how to go to the city”—namely, to “that heavenly Jerusalem, which is the mother of us all.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/15/19",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c84ca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 15:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

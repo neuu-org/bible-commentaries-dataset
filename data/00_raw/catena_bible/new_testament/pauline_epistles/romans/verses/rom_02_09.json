@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ROM 2:9",
+  "verse_text": "Verse text for ROM 2:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/2/9",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Tribulation and anguish, upon every soul of man that does evil, of the Jew first, and also of the Greek; “Tribulation” refers to the punishment which the condemned sinner will suffer. Evil is not just a matter of deeds but of unbelief as well…. Paul always puts the Jew first, whether he is to be praised or blamed, because of his privileged ancestry. If he believes he will be all the more honored because of Abraham, but if he doubts he will be treated all the worse, because he has rejected the gift promised to his forefathers. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/2/9",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4d99",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of the Jew first, and also of the Greek. That is, God, as a just judge, will not have any respect to their persons, but punish or reward both Jews and Gentiles, according to their good or bad works. And salvation is now offered to both. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/2/9",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfee0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Having shown the extreme seriousness of the disease … Paul goes on to give the Jew the greater burden in the tribulation. For the Jew has enjoyed a larger share of instruction and so also deserves to suffer a larger share of the punishment if he does wrong. The wiser or mightier we are, the more we will be punished if we sin.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/2/9",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4d9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 2:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

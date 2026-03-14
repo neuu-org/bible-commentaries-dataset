@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HG 2:23",
+  "verse_text": "Verse text for HG 2:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hg/2/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "So it is mystically said to him alone: “I will take you, O Zerubbabel, and I will make you as a signet ring, for I have chosen you.” For, when our soul becomes so peaceful that it is said to her, “Return, return, O Sulamitess,” which means “peaceful,” or to your own name, “Irenic,” then she will receive Christ like a signet ring upon her, for she is the image of God. Then she will be according to that image, because heavenly is the heavenly man. And we need to bear the image of the heavenly one, that is, peace. And that we may know that this is true, you have in the Canticles to the soul, now full perfect, what I wish the Lord Jesus may say to you, “Put me as a seal upon your arm.” May peace glow in your heart, Christ in your works, and may there be formed in you wisdom and justice and redemption.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hg/2/23",
+      "full_content_url": "https://catenabible.com/com/5839ed41205c248f42e52fb2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“The Jews sent to John and said to him, ‘Who are you. ’ He confessed and said, ‘I am not the Messiah. ’ They said to him, ‘Are you Elijah. ’ He said, ‘No. ’ ” But our Lord called him Elijah, as Scripture attests. However, when they interrogated him, he said, “I am not Elijah. ” But Scripture does not say that John came in the body of Elijah but “in the spirit and the power of Elijah. ” Elijah, who was taken up into the heavens, did not return to them, just as it was not David who later became king but Zerubbabel. The Pharisees, however, did not ask John, “Have you come in the spirit of Elijah. ” but “Are you Elijah himself. ” That is why he said to them, “No. ” Why should he have needed to be Elijah himself, if the actions of Elijah were to be found present in John. Elisha intervened and stood between John and Elijah, lest John be judged by them, since Elijah was taken up in a sacred chariot, whereas [John’s] head was carried away on a dish by a corrupt young girl. Commentary on Tatian’s Diatessaron.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hg/2/23",
+      "full_content_url": "https://catenabible.com/com/5839ed41205c248f42e52fb1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HG 2:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

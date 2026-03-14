@@ -1,0 +1,80 @@
+{
+  "verse_reference": "LK 4:23",
+  "verse_text": "Verse text for LK 4:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/4/23",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "The Savior deliberately explains why he performed no miracles of virtue in his own country, to prevent someone from thinking that we should value affection for our country very little. He who loved all could not but love his fellow citizens. But those who envy his country deprive themselves of love, for “love does not envy, it is not puffed up.” Yet his country does not lack divine blessings. Isn’t it a greater miracle that Christ was born there? So, you see what measure of evil envy brings. His country is found unworthy because of envy, the country in which he toiled as a citizen, which was worthy that the Son of God be born there.",
+      "commentary_number": "1/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/4/23",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7367",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Tropologically, S. Anthony thus expounded the saying \"Physician, heal thyself;\" He that will cure the faults of others let him first cure his own. For they that will help others before they cure themselves shall relapse into their own faults. Indeed experience teaches us that they who remedy any fault in themselves easily cure it in others. Whatsoever we have heard done in Capernaum, do also here in Thy country. Hence it Isaiah , plain that these events took place in Nazareth after Jesus had preached and worked many miracles in the city of Capernaum, as has been said at v16 , and S. Augustine (De Consensu, bk. cap42) observes. The Gloss interprets, \"We do not believe what a vague rumour has published, seeing that among us, on whom favours of the kind would have been more fittingly conferred, Thou hast done no such work. \" Here in Nazareth, Thy fatherland which conceived Thee, nourished Thee, and brought Thee unto manhood, Thou hast brethren, sisters, kinsfolk, and neighbours, some rich, others poor, some sick, others suffering in other respects. Why then dost Thou not miraculously succour these Thine own people, to whom Thou art bound by blood, by love of home, and by natural affection.",
+      "commentary_number": "2/5",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lk/4/23",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f36",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Jesus rebuked them, therefore, for asking so foolishly, “Isn’t this Joseph’s son?” Keeping to the goal of his teaching, he says, “Truly, I tell you, that no prophet is acceptable in his country.” As I have mentioned, certain Jews affirmed that the prophecies relating to Christ had been fulfilled in the holy prophets or in certain of their own more distinguished men. For their good, he draws them away from such a supposition. He said that Elijah had been sent to a single widow and that the prophet Elisha had healed but one leper, Naaman the Syrian. By these he refers to the church of the heathen, who were about to accept him and be healed of their leprosy, by reason of Israel’s remaining impenitent. Commentary on Luke, Homily",
+      "commentary_number": "3/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/4/23",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7368",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I see you will object to me this similitude, (parabolen) or trite saying, applied to such as attended to the concerns of others, and neglected their own. (Menochius)",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/4/23",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa36",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "But Christ will be (the Christ) of the prophets, wheresoever He is found in accordance with the prophets. And yet even at Nazareth He is not remarked as having preached anything new,",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/4/23",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc4a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 4:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

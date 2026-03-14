@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MAL 2:11",
+  "verse_text": "Verse text for MAL 2:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mal/2/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "God, or one addicted to idol-worship, (Haydock) which was contrary to the law, Deuteronomy vii. 3. (Calmet)\nSeptuagint, \"the holy things of the Lord, by what he has loved and done for strange gods. \"(Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mal/2/11",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf634",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "And if you wish to clearly how utterly unlawful it is for a Christian woman to marry a Gentile, consider what the same apostle says, “A wife is bound for so long time as her husband lives. But if the husband be dead, she is freed to be married to whom she will, only in the Lord,” that is, to a Christian. The one who allows second and third marriages in the Lord forbids first marriages with a Gentile. Whence Abraham also makes his servant swear upon his thigh, that is, on Christ, who was to spring from his seed, that he would not bring an alienborn as a wife for his son Isaac. And Ezra checked an offense of this kind against God by making his countrymen put away their wives. And the prophet Malachi thus speaks, “Judah has dealt treacherously, and an abomination is committed in Israel and in Jerusalem; for Judah has profaned the holiness of the Lord which he loves and has married the daughter of a strange god. The Lord will cut off the man that does this, him that teaches and him that learns, out of the tents of Jacob, and him that offers an offering to the Lord of hosts. ” I have said this that they who compare marriage with virginity may at least know that such marriages as these are on a lower level than digamy and trigamy.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mal/2/11",
+      "full_content_url": "https://catenabible.com/com/5838db61205c248f42e52bdc",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MAL 2:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

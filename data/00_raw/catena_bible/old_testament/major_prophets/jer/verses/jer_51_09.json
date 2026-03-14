@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 51:9",
+  "verse_text": "Verse text for JER 51:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/51/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh We would have healed Babylon, but she is not healed: forsake her, and let us go everyone into his own country: for her judgment reaches unto heaven, and is lifted up even to the skies. Cyril of Alexandria Jerusalem here is called Babylon, noted among the surrounding countries as the one who worked the hardest at imitating Babylon, and in no way lagging behind these other countries. Indeed, having arrived at almost a state of perfection in this regard, it tolerated no respect for the law or benefit from prophetic instruction.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/51/9",
+      "full_content_url": "https://catenabible.com/com/5e936170d87c4a70874ae374",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "We. The guardian angels, or Jews reply. Miracles are lost on her.\nHeavens. Her crimes call for punishment, Genesis xviii. 21., and Jonas i. 2.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/51/9",
+      "full_content_url": "https://catenabible.com/com/5735e271ec4bd7c9723bef31",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 51:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

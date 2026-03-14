@@ -1,0 +1,69 @@
+{
+  "verse_reference": "EPH 6:6",
+  "verse_text": "Verse text for EPH 6:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/eph/6/6",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "It is on account of their reverence for God that they are called to demonstrate here and now their faithful and just service to persons. As they serve God by their service to earthly masters, they look toward the day of judgment, when all will be requited and all brought to final justice.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/6/6",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c66a29",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Not serving to the eye; to please men only, but to do the will of God. (Witham)",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/6/6",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0153",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Serving Christ comes “from the heart and with good will.” The goal is not merely to serve sincerely and do nothing wrong. It is rather to serve with all one’s might. Paul does not call servants simply to do what is barely due but to serve abundantly out of ardor, not from necessity. Serve on principle and by choice, not under compulsion. If you serve freely in this way, you are not a slave. If your service comes from your free choice, from good will, from the soul and on account of Christ, you are no slave. ..",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/6/6",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c66a2a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "From the heart, says he, with good-will doing service. For since it is possible to do service even with singleness of heart and not wrongfully, and yet not with all one's might, but only so far as fulfilling one's bounden duty, therefore he says, do it with alacrity, not of necessity, upon principle, not upon constraint. If thus thou do service, you are no slave; if you do it upon principle, if with good-will, if from the heart, and if for Christ's sake. For this is the servitude that even Paul, the free man, serves, and exclaims, For we preach not ourselves, but Christ Jesus, as Lord, and ourselves as your servants for Jesus' sake. 2 Corinthians 4:5 Look how he divests your slavery of its meanness. For just in the same way as the man who has been robbed, if he gives still more to him who has taken, is not ranked among those robbed, but rather among liberal givers; not among those who suffer evil, but among those who do good; and rather clothes the other with disgrace by his liberality, than is clothed with disgrace by being robbed—so, I say, in this case, by his generosity he will appear at once more high-minded, and by showing that he does not feel the wrong, will put the other to shame.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eph/6/6",
+      "full_content_url": "https://catenabible.com/com/57558dcd3c6effa740dddae8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EPH 6:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

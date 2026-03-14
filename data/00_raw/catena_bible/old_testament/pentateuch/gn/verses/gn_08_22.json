@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 8:22",
+  "verse_text": "Verse text for GN 8:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/8/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh While the earth remains, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease. And because there was neither planting nor harvest during that year and the seasonal cycles had been disturbed, God restored to the earth that which had been taken away in his anger. God then said, “All the days of the earth, planting and harvest, cold and heat, summer and winter, day and night shall not cease from the earth. ” For throughout the entire year, until the earth dried up, winter, with no summer, had been upon them.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/8/22",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e519ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh While the earth remains, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease. Seed-time, according to the Targum of Jonathan, is the equinox of September; harvest, that of March; winter and summer denote the solstice of December and of June. But the Hebrews probably divided the year into summer and winter; or perhaps they might also admit the season of spring, with the Egyptians and the ancient Greeks, who represented the seasons by the three hours, daughters of Jupiter.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/8/22",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc038",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 8:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

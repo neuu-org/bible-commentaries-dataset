@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 5:42",
+  "verse_text": "Verse text for JN 5:42",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/5/42",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But I know you, &c. \"I know and penetrate the inmost recesses of your hearts (for I, being God, am the Searcher of hearts), and I see in them nothing of Divine love, but that they are full of ambition, avarice, and pride. And this is the reason why ye will not receive those clear testimonies which I bring forward in My favour. The root from whence your unbelief and obstinacy spring is not ambition of glory in Me, but your own lack of charity. For if ye truly loved God, ye would indeed acknowledge that I have been sent by Him, and am clearly described in the Scriptures. \" Thus even now the cause of heresy in many is a vitiated love, because indeed many love the liberty of the flesh which heresy teaches, and do not love God, who forbids it. Cyril connects this verse with what precedes, thus,—\"I have not proclaimed these great things about Myself for the sake of glory, that I may gain human praise, but that ye may learn (as I know) that the love of God is not in you, deprived of which, how can ye come to Me who am the Son of God. \" Differently also Maldonatus and Toletus: \"I preach that I am Messiah, and the Son of God, not because I seek the vain glory of men, but because I know that ye have not that love of God which leads to eternal life, so that I may lead you to this love by faith, by which ye may believe in Me.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/5/42",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52178",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For when under pretense of loving God they persecuted Him because He made Himself equal with God, and He knew that they would not believe Him, lest any one should ask, why do you speak these words? I speak them, He says, to convict you of this, that it is not for the love of God that you persecute Me, if it be so that He testifies to Me both by works and by the Scriptures. For as before this when you deemed Me an enemy of God ye drove Me away, so now, since I have declared these things, you ought to have hastened to Me, if you had really loved. God. But ye love Him not. And therefore have I spoken these words, to show that you are possessed with excessive pride, that you are vainly boasting and shading over your own enviousness. And the same He proves not by these things only, but by those that should come to pass.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/5/42",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabb0f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 5:42",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

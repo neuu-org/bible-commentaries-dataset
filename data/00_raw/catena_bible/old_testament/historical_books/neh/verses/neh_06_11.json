@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NEH 6:11",
+  "verse_text": "Verse text for NEH 6:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/6/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Should. Literally, \"Does one like me retire from his post? And who like me shall enter the temple and live? \"(Haydock)\nIt is unlawful for a layman to flee into the part of the temple assigned to the priests. Yet into this he had been invited, as the court of Israel was not perhaps yet secured. Those who suppose that Nehemias was a priest, say (Calmet) that he refused to flee, lest he should intimidate the people by his cowardly departure. (Tirinus) (Menochius)\nSemaia might also have a design upon his life, when they should be alone.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/6/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda13",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 6:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

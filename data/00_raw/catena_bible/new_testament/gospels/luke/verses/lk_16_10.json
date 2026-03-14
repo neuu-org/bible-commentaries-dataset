@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 16:10",
+  "verse_text": "Verse text for LK 16:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/16/10",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "For the Lord saith in the Gospel, \"If ye have not kept that which was small, who will commit to you the great? For I say unto you, that he that is faithful in that which is least, is faithful also in much.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/16/10",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbe72",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "He that is faithful in that which is least is faithful also in much. By \"that which is least\" we must understand earthly possessions as distinguished from the \"much\" of spiritual gifts. That ye may not be deprived of your heavenly stewardship, or rather that ye may be entrusted therewith, take heed rightly to administer your temporal affairs, and especially to give alms to the poor, according to the purpose of God. For so Christ explains His words in the next verse. In a similar sense S. Paul writes, \"If a man know not how to rule his own house, how shall he take care of the church of God?\" ( 1 Timothy 3:5.) Christ seems here to be reproaching the Pharisees with unfaithfulness in the disposal of their riches, and in the interpretation of the law, and also with being little worthy of the position they held (see S. Matt. v. and xxiii.), for from ver14it is clear that these things were spoken against them.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/16/10",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5203d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He that is faithful in that which is least. This seems to have been a common saying, and that men judged of the honesty of their servants by their fidelity in lesser matters. For example, a master that sees his servant will not steal a little thing, judges that he will not steal a greater\nAnd he that is unjust in that which is little, is unjust also in that which is greater. The interpreters take notice, that here temporal goods are called little, and spiritual goods are called greater; so that the sense is, that such men as do not make a right use of their temporal goods, in the service of God, will not make a good use of spiritual graces as they ought to do. See Maldonatus. (Witham)",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/16/10",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb09",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "But if thou art desirous of also becoming a god, obey Him that has created thee, and resist not now, in order that, being found faithful in that which is small, you may be enabled to have entrusted to you also that which is great.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/16/10",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbe71",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 16:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

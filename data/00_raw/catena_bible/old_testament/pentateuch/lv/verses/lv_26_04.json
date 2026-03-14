@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 26:4",
+  "verse_text": "Verse text for LV 26:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/26/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then I will give you rain in due season, and the land shall yield its increase, and the trees of the field shall yield their fruit. Caesarius of Arles If we faithfully and diligently pay attention to it, brethren, everything which was promised corporally to the Jews is fulfilled spiritually in us; for all the blessings of God which they received on earth we have obtained in our souls through the grace of baptism. Therefore, with his help, let us labor with all our strength so that we may be able to receive God’s blessings and avoid his curses.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/26/4",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 26:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

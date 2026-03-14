@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 5:18",
+  "verse_text": "Verse text for JGS 5:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/5/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Merone. Hebrew, \"In the heights of the field, or of Merome. \"Some take this place to be the lake Semechon, but we have endeavoured to show that it was in the vicinity of Thanac, Josue xi. 5. (Calmet)\nThabor was in the midst of a great field or plain. (Du Hamel)\nBarac seems to have been at the head of 10,000 men, of the tribe of Issachar, attacking Sisara, at the foot of Thabor, while 40,000 of the tribes of Nephthali and Zabulon, almost without arms, fell upon the kings of Chanaan, who had posted themselves near the waters of Mageddo, to intercept any recruits that might be sent from the southern tribes, ver. 8, 15, 19. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/5/18",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd07",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 5:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

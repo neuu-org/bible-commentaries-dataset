@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 4:12",
+  "verse_text": "Verse text for MK 4:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/4/12",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Jesus did not ordinarily assume that his teaching would remain hidden. He expected it to be proclaimed openly in every direction. Yet it is possible, in defensive circumstances, to utter something openly and yet veiled at the same time. Something may be said not strictly in secret, but in a secret way. Note that it was not in secret that Jesus said “they may indeed see but not perceive.” If this had not been spoken openly, there would have been no sense to the phrase “not seeing.” The same hearer may not perceive the level on which something is spoken openly, yet on another level secretly understood. The very things which his detractors had heard without understanding were such as could not with justice or truth be turned into a criminal charge against him. As often as they tried by their questions to find something by which to accuse him, he gave them such replies as utterly confounded all their plots and left no ground for the calumnies they devised.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/4/12",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d21",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "That seeing they may see, and not perceive; and hearing they may hear, and not understand; lest at any time they should be converted, and their sins should be forgiven them. Cyril of Alexandria Parables are word pictures not of visible things, but rather of things of the mind and the spirit. That which cannot be seen with the eyes of the body, a parable will reveal to the eyes of the mind, informing the subtlety of the intellect by means of things perceivable by the senses, and as it were tangible.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/4/12",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d22",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "That seeing they may see In punishment of their wilfully shutting their eyes, (Matthew xiii. ) God justly withdrew those lights and graces which otherwise he would have given them, for their effectual conversion. (Challoner) These speeches here and elsewhere, we are not to understand as if he spoke in parables to this end that the hearers might not understand, lest they should be converted; but we must learn the true sense from the corresponding texts in Matthew xiii, and Acts xxviii, where our Saviour and St. Paul render it thus: with their ears they have been dull of hearing, and their eyes they have shut. lest, perhaps, they may see, and understand, and be converted, and I heal them. Whereby it is evident, that the speaking in parables was not the cause, (for many besides the apostles heard and understood) but themselves, who would not hear and understand, and be converted: and thus they were the real cause of their own wilful and obstinate infidelity. And therefore also he spoke in parables, because they were not worthy to understand, as the others were to whom he expounded them.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/4/12",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf924",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 4:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

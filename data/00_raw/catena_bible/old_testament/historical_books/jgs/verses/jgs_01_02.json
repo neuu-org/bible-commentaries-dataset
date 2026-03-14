@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 1:2",
+  "verse_text": "Verse text for JGS 1:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/1/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "And in the book of Joshua, son of Nave [Nun], when the land of promise was divided by lot among the other tribes, the tribe of Judah took its own portion of the land without casting lots, and first of all. And, moreover, “After the death of Joshua the children of Israel inquired of the Lord, saying, who shall go up for us against the Canaanite, leading our fighting against him. And the Lord said, Judah shall go up. Behold, I have given the land into his hands. ” These words, then, make it clear that God ordained the tribe of Judah to be the head of all Israel, and the account goes on … And in the book of Judges, when different persons at different times were at the head of the people, though individually the judges were of different tribes, yet speaking generally the tribe of Judah was head of the whole people; and much more so in the times of David and his successors, who belonged to the tribe of Judah and continued to rule until the Babylonian captivity, after which the leader of those who returned from Babylon to their own land was Zerubbabel, the son of Salathiel, of the tribe of Judah, who also built the temple. Hence, too, the book of Chronicles, when giving the genealogies of the twelve tribes of Israel, begins with Judah. And you will see it follows from this that in the days that succeeded, the same tribe had the headship, although different individuals had temporary leadership, whose tribes it is impossible to decide with accuracy, because there is no sacred book handed down to give the history of the period from then to the time of our Savior.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/1/2",
+      "full_content_url": "https://catenabible.com/com/5de46e2d8b87fe0847ee8742",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Said, by the mouth of Phinees, (Josephus, v. 2,) who had succeeded Eleazar in the pontificate. The latter survived Josue some little time, so that this must have happened some time later. Le Clerc offers violence to the text, when he asserts that the war against Adonibezec took place under the government of Josue.\nJuda. Some suppose that this is the name of the leader: but most people conclude from the sequel, that it designated the tribe. (Calmet)\nThis first judge was of this tribe, but not all of them. The manner of consulting the Lord was by the high priest praying before the tabernacle, Exodus xxix. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/1/2",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcca3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 1:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

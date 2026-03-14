@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 28:34",
+  "verse_text": "Verse text for EX 28:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/28/34",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh A golden bell and a pomegranate, a golden bell and a pomegranate, upon the hem of the robe round about. Hence in the vesture of the priest, in accordance with the divine Word, pomegranates are added to the little bells. What else is symbolized by pomegranates but the unity of faith. For as in the pomegranate many seeds within are protected by one outer rind, so unity in faith comprehends numberless people of holy church, who, though varying in merits, are retained within it.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/28/34",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5289c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 28:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

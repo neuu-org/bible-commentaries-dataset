@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 19:15",
+  "verse_text": "Verse text for REV 19:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/19/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "sword: So also Isaiah says, \"And he hath set my mouth as a sharp sword;\" and the Apostle, \"And the sword of the Spirit, which is the Word of God.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/19/15",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9cb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "winepress: It is even so. For now also He treads until He tread without the city. <a",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/19/15",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9cba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sharp two-edged sword. The power which Christ exercises over the impious. (Menochius)\nWine press This painting corresponds to the triumph of Jesus Christ. (Calmet)\nSome of the attributes here mentioned are also ascribed to Christ, by the prophet Isaiah, (Isaias lxiii. 2, 3.) \"Why then is thy apparel red, and thy garments like theirs that tread in the wine press? I have trodden the wine-press alone, and of the Gentiles there is not a man with me: I have trampled on them in my indignation, and have trodden them down in my wrath, and their blood is sprinkled upon my garments, and I have stained all my apparel. \"(Pastorini)",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/19/15",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c04d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 19:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

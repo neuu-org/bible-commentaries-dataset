@@ -1,0 +1,58 @@
+{
+  "verse_reference": "2COR 7:7",
+  "verse_text": "Verse text for 2COR 7:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/2cor/7/7",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "2 Corinthians 7:7 And not by his coming only, but by the consolation with which he was comforted in you, when he told us your earnest desire, your mourning, your fervent mind toward me; so that I rejoiced the more. Paul showed what great affection he had for them. He paid no mind to the stench of the dungeon, nor of the pain of the lashes, nor of the rope with which his feet were bound. But when he heard that the Corinthians had amended their ways he rejoiced, and forgetting his sufferings, thanked God for their salvation, viewing it as a kind of reward for his troubles. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/7/7",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e615c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "2 Corinthians 7:7 And not by his coming only, but by the consolation with which he was comforted in you, when he told us your earnest desire, your mourning, your fervent mind toward me; so that I rejoiced the more. Cornelius a Lapide When he told us your earnest desire, your mourning, your fervent mind toward me; so that I rejoiced the more. I was before saddened through your divisions and other sins, but when I saw and heard of your desire to amend, your penitence for your sins, and your zeal to protect me against all detractors, I rejoiced.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/7/7",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52579",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul was consoled by the good news from Corinth, which shows how much he loved the people there.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/7/7",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e615d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2COR 7:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

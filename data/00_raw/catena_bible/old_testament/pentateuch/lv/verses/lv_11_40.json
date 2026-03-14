@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 11:40",
+  "verse_text": "Verse text for LV 11:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/11/40",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he that eats of the carcass of it shall wash his clothes, and be unclean until the evening: he also that bears the carcass of it shall wash his clothes, and be unclean until the evening. Clothes, and his whole body, either together or separate, as the Rabbins explain the law. (Selden, syn. ) If any one eat or touch these things, on purpose, he was liable to a more severe punishment, (Menochius) and his soul was defiled by disobedience, ver.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/11/40",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc5a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 11:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

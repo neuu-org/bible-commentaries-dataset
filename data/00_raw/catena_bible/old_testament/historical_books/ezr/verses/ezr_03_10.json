@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EZR 3:10",
+  "verse_text": "Verse text for EZR 3:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/3/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "'And now,' he says, 'if there is repentance in Israel for this, let us make a covenant with our God and send away all these wives and those who are born from them. If the people, he says, fully repent for this transgression, first, having turned to the Lord, let us promise amendment and ask for mercy; and then, having returned to ourselves, let us remove from us the whole root and stem of the wicked deed we have committed - namely, by casting out the unlawful wives along with their progeny. For this is what it means for one truly to do penance: to be entirely turned to God inwardly in the heart, and outwardly to cut off all the means of committing sin from its very source. And by adding,",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ezr/3/10",
+      "full_content_url": "https://catenabible.com/com/58fe623b543064d91d46c3a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hands; compositions, (Haydock) or ordinances. (Worthington)\nThe 135th Psalm was sung, (Calmet) or the 117th. (Vatable)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ezr/3/10",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd963",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 3:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

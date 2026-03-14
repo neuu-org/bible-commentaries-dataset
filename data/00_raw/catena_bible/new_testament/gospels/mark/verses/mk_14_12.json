@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 14:12",
+  "verse_text": "Verse text for MK 14:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/14/12",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Whither wilt thou By these words the disciples teach us to direct our every step according to the will of God; therefore does their Lord tell them, with whom he would eat the pasch, to go two of them into the city. (St. Jerome)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/14/12",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "The Passover affords a more than usually solemn day for baptism. For that is the day when in effect the Lord’s passion, into which we are baptized, was completed.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/14/12",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52ebc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "On the first day of unleavened bread, on which they slew the lamb at even, just as had been enjoined by Moses.\n. Which prediction was thus also fulfilled, that \"on the first day of unleavened bread\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/14/12",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb753",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 14:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

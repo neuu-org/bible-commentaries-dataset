@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 2:5",
+  "verse_text": "Verse text for JGS 2:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/2/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lord: holocausts to acknowledge his dominion, and sacrifices of expiation for the transgressions of the people. Only the tabernacle and temple were appointed for such sacrifices, though they might be offered elsewhere by dispensation. (St. Augustine, q. 36.) (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/2/5",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bccbf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Let us consider where he has set his ascent: “In the valley of tears, in the place that he has appointed. ” We have read in the book of Judges that when the angel came and preached repentance to the people, saying, “You have abandoned the Lord, and the Lord shall abandon you,” the Israelites wept aloud when they heard the threat; and that place was called the valley of tears. We have called attention to ancient history in order to avoid heresy. The valley of tears, moreover, we may understand allegorically as this world, for we are not on the mountain, that is, in the kingdom of heaven, but in the valley, in the darknesses of this world; through a fault, we have been cast out of Paradise with Adam into a lowly vale of tears where there is repentance and weeping. “In the valley of tears, in the place that he has appointed. ” What did the prophet mean. God made this world an arena that here we may strive against the devil, against sin, in order to receive our crown in heaven. Why did he ordain a contest. Could not he save us without the struggle. He gave us, as it were, a master of contests; he gave us a stadium in which to carry on our wrestling against vices, so that afterwards he may crown us meritoriously, not as those who sleep but as those who labor.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/2/5",
+      "full_content_url": "https://catenabible.com/com/5de46e2d8b87fe0847ee8746",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 2:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

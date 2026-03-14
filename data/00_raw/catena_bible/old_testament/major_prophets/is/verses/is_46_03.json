@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 46:3",
+  "verse_text": "Verse text for IS 46:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/46/3",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Aponius",
+      "period": "AD500",
+      "content": "We hear the voice of the Holy Spirit with wonder when it tells us in many passages of Scripture that the Word of God, in an ineffable motion of love, has given human nature the names of “sister,” “daughter,” “bride.” For example, the words in Isaiah, “Listen to me, Israel my people, the race of Abraham my friend, you whom I carry in my womb.” … Our mind is set aflame with desire to obtain the love that burns between the Word of God and the soul, so that it can know the measure of love and give love to God in return.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/46/3",
+      "full_content_url": "https://catenabible.com/com/5e88f32ab1c7280cb341d12b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "After your apostasies I will still continue to call you to repentance, since you are my creation. I created you; therefore I sustain you. I promise I will make atonement for your sins, if you change. - \"Commentary on Isaiah 2.31\"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/46/3",
+      "full_content_url": "https://catenabible.com/com/5e88f32ab1c7280cb341d12c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By my. Vulgate may have read a me ab, (Calmet) instead of a meo. Hebrew and Septuagint, \"taken from the womb \"(Haydock) and treated with the utmost tenderness. (Calmet)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/46/3",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb0b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 46:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

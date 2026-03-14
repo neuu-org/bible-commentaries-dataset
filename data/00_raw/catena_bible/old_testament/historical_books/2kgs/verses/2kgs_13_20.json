@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 13:20",
+  "verse_text": "Verse text for 2KGS 13:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/13/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Elisha died, and they buried him. And the bands of the Moabites invaded the land in the spring of the year. His disciples, the sons of the prophets, buried him. It seems that Joash accompanied him to his grave, because he had stayed beside him at the time of his illness and had showed a deep love for him, weeping before him and composing lamentations for his death. It also seems that the prophet Hosea took his place and ruled the sons of the prophets, because Hosea says at the beginning of his oracles that he prophesied at the time of Jeroboam, son of Joash.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/13/20",
+      "full_content_url": "https://catenabible.com/com/5e1b69868bc66721fe4ef9e8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Buried him, near Samaria. (Menochius) He had been chosen by Elias sixty-eight years before, and had lived eleven with him. His perfect character is given, Ecclesiasticus xlviii. His double spirit represents the plentitude of grace in Jesus Christ; as his raising of the child to life, in such a wonderful manner, denotes his incarnation. The waters of Jericho made sweet, and the healing of Naaman, set before us the virtue of baptism: as the widow's oil shows the great graces which are bestowed by Christ upon his Church. The children devoured, and the Syrians struck blind, remind us of the perversity and blindness of infidels, who will not acknowledge the truth, Matthew xiii. We must now see how the bones of Eliseus prophesied: 1. By raising the dead to life, as a confirmation of all his former predictions; 2. as proof of a future resurrection, of the virtue of relics, and of the influence of the saints in heaven, whose souls were formerly united to their bodies, and were filled with the Holy Spirit; (St. Cyril of Jerusalem, cat. in as much as this miracle was a figure of Christ's resurrection, who raised himself to life, and those who believe in him: (Calmet) while Eliseus, in the like state of death, had only raised another. (Haydock) (St. Septuagint, Hebrew, and Syriac, \"at the coming in of the year \"(Haydock) or, \"the next year.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/13/20",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd4b8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 13:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

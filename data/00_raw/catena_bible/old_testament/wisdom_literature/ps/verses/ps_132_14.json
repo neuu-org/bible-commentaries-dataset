@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 132:14",
+  "verse_text": "Verse text for PS 132:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/132/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh This is my rest forever: here will I dwell; for I have desired it. Augustine of Hippo 15. \"This shall be My rest for ever\" (ver. These are the words of God. \"My rest:\" I rest there. How greatly doth God love us, brethren, since, because we rest, He saith that He also resteth. For He is not sometimes Himself disturbed, nor doth He rest as we do; but He saith that He resteth there, because we shall have rest in Him. \"Here will I dwell: for I have a delight therein.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/132/14",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6710",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This. God is introduced speaking to the end. (Haydock)\nChosen. Hebrew, \"desired. \"This relates to his spouse, the Church. (Calmet)\nHe dwelleth in this Sion for ever. (Worthington)\nIt was the figure of the Christian Church, as this is of heaven, Hebrews xii. 22. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/132/14",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4b4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 132:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

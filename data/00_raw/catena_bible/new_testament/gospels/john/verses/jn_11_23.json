@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 11:23",
+  "verse_text": "Verse text for JN 11:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/11/23",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Jesus saith unto her, Thy brother shall rise again. Jesus solaces Martha sorrowing for the death of her brother, by a hope of his resurrection, but an ambiguous one, that He might raise her by degrees to faith and hope of so great a miracle as that by which He was soon to raise him, so that she might dispose herself to it, and, as it were, merit it. So Leontius.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/23",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52283",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thy brother shall rise again. Martha took notice that Christ did not express, whether immediately, or at the general resurrection, which she and the Jews generally believed. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/23",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfc5f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Jesus said unto her, Your brother shall rise again. He thus far refutes the former saying, Whatsoever you will ask; for He said not, I ask, but what. Your brother shall rise again. To have said, Woman, thou still lookest below, I need not the help of another, but do all of Myself, would have been grievous, and a stumblingblock in her way, but to say, He shall rise again, was the act of one who chose a middle mode of speech. And by means of that which follows, He alluded to the points I have mentioned; for when Martha says,.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/23",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabbd5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 11:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

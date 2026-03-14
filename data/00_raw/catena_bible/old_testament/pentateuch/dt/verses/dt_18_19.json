@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 18:19",
+  "verse_text": "Verse text for DT 18:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/18/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And it shall come to pass, that whosoever will not hearken unto my words which he shall speak in my name, I will require it of him. Peter (Acts iii. 23,) reads, And it shall be that every soul which will not hear that prophet; (instead of Hebrew, \"my words which he shall speak in my name, I will require it of him\") or he shall be destroyed from among the people. (Tertullian, contra Mar. ) (Haydock) God now chastises the faithless Jews.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/18/19",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9f5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 18:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

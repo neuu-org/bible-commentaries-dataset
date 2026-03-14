@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 16:8",
+  "verse_text": "Verse text for PS 16:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/16/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I have set the LORD always before me: because he is at my right hand, I shall not be moved. Augustine of Hippo 8. \"I foresaw the Lord in My sight always\" (ver. But coming into things that pass away, I removed not Mine eye from Him who abideth ever, foreseeing this, that to Him I should return after passing through the things temporal. \"For He is on My right hand, that I should not be moved. \" For He favoureth Me, that I should abide fixedly in Him.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/16/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e682f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew, \"I shall not \"The sense is the same, but St. Peter agrees with us and the Septuagint, Acts ii. 25 It is not of faith that the seven preceding verse regard Jesus Christ as the following do; but as the same person speaks, we may rationally infer that all should be explained of him. Though he always enjoyed the beatific vision, his soul had the affections of other men, and always tended to keep in God's presence. So the angels who see God, desire more and more to contemplate him, 1 Peter i. How earnestly ought we to strive always to keep in the divine presence. (Berthier) then we should constantly advance in virtue, and fear no dangers. The patriarchs thus walked with God, and arrived at such perfection. (Haydock) The Father was always at the right hand of his Son, to support and glorify him; and the Son, having continually performed what was pleasing to God, (John viii. ) was placed at his right hand at his ascension, though his divinity had never been separated from him. (Calmet) He had always God in view, and has left us a pattern how to behave. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/16/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdebd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 16:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

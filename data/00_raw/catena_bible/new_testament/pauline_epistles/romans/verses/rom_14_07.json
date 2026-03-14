@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 14:7",
+  "verse_text": "Verse text for ROM 14:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/14/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "A man would be living for himself if he did not act according to the law. But whoever is controlled by the brake of the law is not living for himself but for God, who gave the law so that it might be possible to live according to his will. Likewise, whoever dies dies to God, for he is the Judge who will either condemn or reward him. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/14/7",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e530a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This means that we are not free. We have a master who wants us to live and not die, and to whom life and death matter more than they do to us…. For if we die, we do not die to ourselves alone but to our master as well. By “death,” Paul means apostasy from the faith.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/14/7",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e530b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 14:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

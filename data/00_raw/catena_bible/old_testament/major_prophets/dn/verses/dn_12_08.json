@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 12:8",
+  "verse_text": "Verse text for DN 12:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/12/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The prophet wished to comprehend what he had seen, or rather, what he had heard, and he desired to understand the reality of the things to come. For he had heard of the various wars of kings, and of battles between them, and a detailed narrative of events; but he had not heard the names of the individual persons involved. And if the prophet himself heard and did not understand, what will be the case with those men who presumptuously expound a book which has been sealed, and that too unto the time of the end, a book which is (p. 579) shrouded with many obscurities? But he comments that when the end comes, the ungodly will lack comprehension, whereas those who are learned in the teaching of God will be able to understand. \"For wisdom will not enter the perverted soul, nor can it impart itself to a body which is subject to sins.\" [The editors do not cite the source of this quotation.]",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/12/8",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd379",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 12:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

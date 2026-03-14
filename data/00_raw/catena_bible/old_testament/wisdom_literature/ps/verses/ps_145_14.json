@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 145:14",
+  "verse_text": "Verse text for PS 145:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/145/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "13. \"The Lord strengtheneth all that are falling\" (ver. 14). But who are \"all that are falling\"? All indeed fall in a general sense, but he meaneth those who fall in a particular way. For many fall froth Him, many also fall from their own imaginations. If they had evil imaginations, they fall from them, and \"God strengthened all that are falling.\" They who lose anything in this world, yet are holy, are as it were dishonoured in this world, from rich become poor, from honoured of low estate, yet are they God's saints; they are, as it were, falling. But \"God strengtheneth.\" For \"the just falleth seven times, and riseth again; but the wicked shall be weakened in evils.\" When evils befall the wicked, they are weakened thereby; when evils befall the righteous, \"the Lord strengtheneth all that are falling.\" ...\"And lifteth up all those that have been cast down:\" all, that is, who belong to him; for \"God resisteth the proud.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/145/14",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lifteth. Hebrew, \"upholdeth all who are falling. \"(Haydock)\nNo one can stand or rise without God. (Berthier)\nHe is ready to lift up every one. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/145/14",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be52f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 145:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

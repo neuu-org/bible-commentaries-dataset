@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JL 2:15",
+  "verse_text": "Verse text for JL 2:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jl/2/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "Since, as I said, there are many kinds of proclamations, let us listen to the trumpet blast of the prophet: “Blow a trumpet in Zion, consecrate a fast.” This is a warning trumpet, and it earnestly commands us that when we fast, we should do it in a holy manner, for God is holy and has pleasure in his holy people. Not everyone, however, who calls upon God honors him. Some defile him—although they don’t actually defile him: that’s impossible. But they do defile their own consciences concerning him. The apostle Paul tells us how it is that some people dishonor God: those who break the law dishonor God. So the prophet said, in order to point out those who pollute the fast, “Sanctify a fast.” Many people, though they go through the motions of a fast, are still polluted in their hearts because they do evil against their brothers and sisters or because they dare to cheat. And many, if nothing else, think more highly of themselves than of their neighbors, thereby committing a great offense.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jl/2/15",
+      "full_content_url": "https://catenabible.com/com/5836709b8a58883142aa6a35",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Trumpet. Thus were festivals announced, Numbers x. 7.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jl/2/15",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf3ea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "If these [vessels] were approved by the Lord it was at a time when the priests had to offer victims and when the blood of sheep was the redemption of sins. They were figures typifying things still future and were “written for our admonitions upon whom the ends of the world are come. ” But now our Lord by his poverty has consecrated the poverty of his house. Let us, therefore, think of his cross and count riches to be but dirt. Why do we admire what Christ calls “the mammon of unrighteousness”. Why do we cherish and love what it is Peter’s boast not to possess. Or if we insist on keeping to the letter and find the mention of gold and wealth so pleasing, let us keep to everything else as well as the gold. Let the bishops of Christ be bound to marry wives, who must be virgins. Let the bestintentioned priest be deprived of his office if he bears a scar and is disfigured. Let bodily leprosy be counted worse than spots on the soul. Let us be fruitful and multiply and replenish the earth, but let us slay no lamb and celebrate no mystic Passover, for where there is no temple, the law forbids these acts. Let us pitch tents in the seventh month and noise abroad a solemn fast with the sound of a horn.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jl/2/15",
+      "full_content_url": "https://catenabible.com/com/5836709b8a58883142aa6a36",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JL 2:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

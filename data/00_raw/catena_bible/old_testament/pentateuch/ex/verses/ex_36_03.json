@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 36:3",
+  "verse_text": "Verse text for EX 36:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/36/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Vows, or voluntary oblations to Moses, according to the Hebrew. (Calmet)\nThese donations are called first-fruits, because they were the best of all things, and the first offerings that were made by the people, in the desert. (Tirinus)\nThey show great alacrity in performing this action, as it was to make some atonement for their liberality in honour of the golden calf. (Haydock)\nBut as matter alone will not suffice, unless it be properly managed, so neither will the letter of the Scripture instruct us, unless God teach us, by his pastors, Ephesians iv. 11. (Worthington)\nFrom this place to the end, the Roman edition of the Septuagint is very confused. That of Alcala agrees better with the Vulgate than the Alexandrian or Aldine. See Grabe. Almost all the three following chapters might be comprised in these words. The workmen did all according to God's prescription. Moses perhaps gave them plans of what each was to execute; and hence Calmet accounts for these repetitions. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/36/3",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc4db",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 36:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

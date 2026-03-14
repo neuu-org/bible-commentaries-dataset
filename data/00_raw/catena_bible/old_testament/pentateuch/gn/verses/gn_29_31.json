@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 29:31",
+  "verse_text": "Verse text for GN 29:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/29/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Despised, or loved less; so Christ orders us to hate father, Matthew x. 17. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/29/31",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc15c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And when the LORD saw that Leah was hated, he opened her womb: but Rachel was barren. See God’s creative wisdom. Whereas one woman by her beauty attracted her husband’s favor, the other seemed to be rejected because she lacked it. But it was the latter God awoke to childbirth while leaving the other’s womb inactive. He thus dealt with each in his characteristic love so that one might have some comfort from what was born of her and the other might not triumph over her sister on the score of charm and beauty.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/29/31",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51bc9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 29:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

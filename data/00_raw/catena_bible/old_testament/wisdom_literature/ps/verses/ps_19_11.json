@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 19:11",
+  "verse_text": "Verse text for PS 19:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/19/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "12. \"For Thy servant keepeth them \"(ver. 11). For to him who keepeth them not the day of the Lord is bitter. \"In keeping them there is great reward.\" Not in any external benefit, but in the thing itself, that God's judgments are kept, is there great reward; great because one rejoiceth therein.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/19/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6880",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I speak from experience. (Calmet) If I had no other inducement, I would observe this law for the consolation, (Haydock) and repeated advantages which I have derived from it. (Theodoret) Those who keep the same , and content not themselves with reading or hearing only, may feel the same impressions. Reward: on which account the prophet declares that he observed the justifications; (Psalm cxviii. ) though that passage is corrupted in the Protestant version. (Worthington) Hebrew, \"wherefore thy servant shall teach them \"(St. Jerome) or rather, \"is instructed by them, and convinced that in keeping them there are frequent falls. (Calmet) Hekeb may indeed signify \"a fall \"or tripping up the heels. But it is more commonly rendered \"a reward \"(as Protestants, Mont. , here agree) or end, as 1 Peter (i. (Haydock) The instruction, which the observer of the laws obtains, arises from that observance, inasmuch as \"he is attentive to them. \"Septuagint, phulassei auta. This must therefore be understood, and is well expressed by Custodit. Taste, and see that the Lord is sweet, Psalm xxxiii.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/19/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdef9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 19:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

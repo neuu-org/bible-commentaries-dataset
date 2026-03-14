@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 34:8",
+  "verse_text": "Verse text for PS 34:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/34/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Now will He speak openly of the same Sacrament, whereby He was carried in His Own Hands. \"O taste and see that the Lord is good\" (ver. Doth not the Psalm now open itself, and show thee that seeming insanity and constant madness, the same insanity and sober inebriety of that David, who in a figure showed I know not what, when in the person of king Achis they said to him, How is it. Widen the Lord said, \"Except a man eat My Flesh and drink My Blood,he shall have no life in him\". And they in whom reigned Achis, that is, error and ignorance, said; what said they. \"How can this man give us his flesh to eat. \" If thou art ignorant, \"Taste and see that the Lord is good:\" but if thou understandest not, thou art king Achis: David shall change His Countenance and shall depart from thee, and shall quit thee, and shall depart. \"Blessed is the man that trusteth in Him. \" Why needeth this to be explained at length. Whoever trusteth not in the Lord, is miserable. Who is there that trusteth not in the Lord. He that trusteth in himself.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/34/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6969",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Taste, in the blessed Eucharist, (St. Athanasius; St. Augustine; Theodoret) or by experience. (Calmet) (1 Peter ii. 3.)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/34/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdfa8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 34:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

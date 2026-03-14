@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 2:15",
+  "verse_text": "Verse text for ACTS 2:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/2/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "About nine in the morning. On festival days, the Jews did not eat till the morning devotions were finished, about mid-day. (Bible de Vence)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/2/15",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd28",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And why this? Is it not possible at the third hour to be drunken? But he did not insist upon this to the letter; So we learn that on unessential points one must not spend many words. And besides, the next part is enough to bear him out on this point. And do you observe the mildness of his defence? Although having the greater part of the people on his side, he reasons with those others gently; first he removes the evil surmise, and then he establishes his apology. On this account, therefore, he does not say, as you mock, or, as you deride, but, as you suppose; wishing to make it appear that they had not said this in earnest, and for the present taxing them with ignorance rather than with malice. As for the accusation of drunkenness, he cleared himself of that by his own assertion; but for the grace, he fetches the prophet as witness, as we see next.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/2/15",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd2b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 2:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

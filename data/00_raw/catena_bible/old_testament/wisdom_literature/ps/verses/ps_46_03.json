@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 46:3",
+  "verse_text": "Verse text for PS 46:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/46/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"The waters thereof roared, and were troubled\" (ver. 3): when the Gospel was preached, \"What is this. He seemeth to be a setter forth of strange gods:\" this the Athenians; but the Ephesians, with what tumult would they have slain the Apostles, when in the theatre, for their goddess Diana, they made such an uproar, as to be shouting, \"Great is Diana of the Ephesians. \" Amidst which waves and roaring of the sea, feared not they who to that refuge had fled. Nay, the Apostle Paul would enter in to the theatre, and was kept back by the disciples, because it was necessary that he should still abide in the flesh for their sakes. But yet, \"the waters thereof roared, and were troubled: the mountains shook at the mightiness thereof. \" Whose might. or rather God's, of whom was said, \"refuge and strength, a helper in tribulations, which have found us out too much. \" For shaken were the mountains, that is, the powers of this world. For one thing are the mountains of God, another the mountains of the world: the mountains of the world, they whose head is the devil, the mountains of God, they whose Head is Christ. But by these mountains were shaken those mountains. Then gave they their voices against Christians, when the mountains were shaken, the waters roaring; for the mountains were shaken, and there was made a great earthquake, with quaking of the sea. But against whom this. Against the City founded upon a rock. The waters roar, the mountains shake, the Gospel being preached. What then, the City of God. Hear what followeth.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/46/3",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a48",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Their. Hebrew, St. Ambrose, read, \"its. \"(Calmet)\nBoth sea and land may be in confusion; we shall fear nothing, having God for our protector. (Haydock)\nThough many and noble personages have revolted from the faith in England, yet the Catholic Church will never fail, (Worthington) even if it should in these islands. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/46/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be07d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 46:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

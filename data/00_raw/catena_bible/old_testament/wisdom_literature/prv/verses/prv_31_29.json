@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 31:29",
+  "verse_text": "Verse text for PRV 31:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/31/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "“Many daughters have done mightily, but you have surpassed and outdone them all.” You, he says, have surpassed them all, you have outdone them all. So who are these other daughters who have done mightily, whom this one has surpassed, and whom this one has outdone? And again, how have they done mightily, and in what way has this one surpassed them? There are, you see, bad daughters, namely, heresies. Why are they daughters? Because they too were born of this woman. But bad daughters, daughters not in the family likeness of their behavior but in the likeness of their sacraments. They too have our sacraments, they have our Scriptures, they have our Amen and Alleluia, most of them have our creed, many of them have our baptism. That’s why they are daughters. But would you like to know what is said to this lady somewhere else, in the Song of Songs? “Like a lily in the midst of thorns, so is my darling in the midst of the daughters.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/31/29",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Leander of Seville",
+      "period": "AD600",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Many daughters have done virtuously, but you excel them all. Leander of Seville “Many women have gathered together riches; you have excelled them all. ” … Heresies are generated from Christian seed; they are thorns because they have been nourished outside of God’s paradise, that is, outside of the catholic church. This is proved not by any conjecture of my own making but by the authority of divine Scripture, when Solomon said, “As a lily among thorns, so is my beloved among women.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/31/29",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85ee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 31:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

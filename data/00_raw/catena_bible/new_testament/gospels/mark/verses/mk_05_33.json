@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 5:33",
+  "verse_text": "Verse text for MK 5:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/5/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But the woman fearing and trembling, knowing what was done in her, came and fell down before Him, and told Him all the truth. Fearing and trembling, not because she had been guilty of an act of superstition, as Calvin would have it, but because she had approached secretly, and, unclean, had touched Christ the clean, and had, as it were, stolen a gift of healing from Christ without His knowledge. Therefore she was afraid lest Christ should rebuke her, or lest He should recall the benefit, or afflict her with a worse evil. Hence it is plain that she had not perfect faith and hope in Christ, or she would not have thought that she could be hid from Him, nor would she have been afraid of Him. Wherefore Christ said, to reassure her, Daughter, be of good courage, as Matthew says.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/5/33",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e5a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth. Note the separate stages; mark the progress. As long as she was hemorrhaging, she could not come into his presence. She was healed by faith and then came before him. She fell at his feet. Even then she did not yet dare to look up into his face. As long as she had been cured, it was enough for her to cling to his feet. She “told him all the truth. ” Christ himself is the truth. She was giving praise to the truth. She had been healed by the truth.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/5/33",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d51",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 5:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

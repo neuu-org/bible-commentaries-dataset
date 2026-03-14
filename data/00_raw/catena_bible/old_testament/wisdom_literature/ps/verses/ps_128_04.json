@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 128:4",
+  "verse_text": "Verse text for PS 128:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/128/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "6. ...Such children ought therefore to be \"around\" the Lord's \"table, like olive-branches.\" A complete Vine it is, a great bliss: who would now refuse to be there? When thou seest any blasphemer have a wife, children, grandchildren, and thyself perchance without them, envy them not; discern that the promise hath been fulfilled in thee also, but spiritually. If therefore we have, why have we? Because we fear the Lord. \"Lo, thus shall the man be blessed that feareth the Lord\" (ver. 4). He is the man, who is also the men; and the men are one man; because many are one, because Christ is One.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/128/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66f1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 128:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

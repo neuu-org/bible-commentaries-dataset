@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 18:18",
+  "verse_text": "Verse text for 1SM 18:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/18/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Life. What exploits have I performed deserving such an honour? or what offices have my relations yet enjoyed? (Calmet)\nDavid considers only his abject condition, and forgets his victories. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/18/18",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcf67",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Symeon the New Theologian",
+      "period": "AD1022",
+      "content": "As [David] looks on the greatness of God’s lovingkindness, he is struck with amazement. He considers himself with all his soul to be unworthy of the vision of such goodness and does not wish to look closely at them or fully understand them. He is constrained by trembling, fear and reverence to cry, “Who am I, Lord, and what is my father’s house, that you should reveal such mysteries to me, unworthy as I am, and have wondrously made me not only to have a vision of such good things, but even to participate and share in them!”",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/18/18",
+      "full_content_url": "https://catenabible.com/com/5de4681d1f75ae05ba98cf17",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 18:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

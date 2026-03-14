@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ROM 7:19",
+  "verse_text": "Verse text for ROM 7:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/7/19",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Do you think that anyone with a knowledge of sin can avoid it? Paradise",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/19",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ff2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul repeats this often in order to make it clear. Commentary on Paul’s Epistles.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/19",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ff3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Methodius of Olympus",
+      "period": "AD311",
+      "content": "Therefore it is in our power to will not to think these things; but not to bring it about that they shall pass away, so as not to come into the mind again; for this does not lie in our power, as I said; which is the meaning of that statement, \"The good that I would, I do not; \".\nBut if any one should venture to oppose this statement, and reply, that the apostle teaches that we hate not only the evil which is in thought, but that we do that which we will not, and we hate it even in the very act of doing it, for he says \"The good which I would, I do not; but the evil which I would not, that I do; \"",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/7/19",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba05",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 7:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

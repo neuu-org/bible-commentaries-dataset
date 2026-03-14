@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 16:29",
+  "verse_text": "Verse text for LV 16:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/16/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "“On the days of your solemn feasts you shall mortify yourselves.” Why did he say this? Because fasts and vigils and holy mortifications afflict bodies that are humbled, but they purify hearts that have been defiled. They may take strength away from limbs, but they add a bright sheen to conscience. Sins of pleasure are redeemed by bodily weariness while the physical delights of dissipation are punished by the distresses of a hard cross. Thus by present mortification the sentence of future death is suspended.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/16/29",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Beginning on the evening of the ninth Tisri, which corresponds with part of our September and October, and is the first month of the civil year, chap. Afflict, by a rigid abstinence from all that might give delight to the body. Children of seven years old begin to join in this mortification. Boys of 13, and girls of 11 years old complete, were obliged to fast. The Samaritans pray all the day, and give no food even to infants during the 24 hours. (Calmet) Moses was the first who showed them the example; and this was the only day which he prescribed to be kept as a fast. The Jews afterwards appointed many more. (Haydock) Maimonides says, this festival was instituted in memory of the descent of Moses from Mount Sinai the third time, when he came to announce to the people that God had pardoned their idolatry. Usher thinks it was in memory of Adam's fall. The Jews still observe it in some degree. As they are not allowed to sacrifice, they kill a white cock, and the women a hen, on the 9th at evening. Those with child kill both. They confess their sins, receive 39 lashes, ask pardon of those whom they have offended, and generally spend the fore part of this month in acts of piety and of penance. (Buxtorf, Syn. ) Stranger; a proselyte of justice, such as were bound to observe the law.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/16/29",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc5f7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 16:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

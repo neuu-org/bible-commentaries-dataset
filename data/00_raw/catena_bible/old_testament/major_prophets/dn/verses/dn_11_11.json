@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 11:11",
+  "verse_text": "Verse text for DN 11:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/11/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "The king of the south: Ptolemeus Philopator, son of Evergetes. (Challoner)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/11/11",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f49e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The Ptolemy surnamed Philopator, having lost Syria through the betrayal of Theodotius, gathered together a very great multitude and launched an invasion against (p. 562) Antiochus the Great, who now bears the title of king of the North, at the region where Egypt borders upon the province of Judaea. For owing to the nature of the region, this locality lies partly to the south and partly to the north. If we speak of Judaea, it lies to the north of Egypt and to the south of Syria. And so when he had joined battle near the town of Raphia at the gateway of Egypt, Antiochus lost his entire army and was almost captured as he fled through the desert. And after he had conceded the loss of Syria, the conflict was finally brought to an end upon the basis of a treaty and certain conditions of peace. And this is what the Scripture means here by the statement that Ptolemy Philopator \"shall cast down many thousands\" and yet shall not prevail. For he was unable to capture his adversary. The sequel now follows.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/11/11",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd35e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 11:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

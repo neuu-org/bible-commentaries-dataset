@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 9:54",
+  "verse_text": "Verse text for LK 9:54",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/9/54",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And when His disciples James and John saw this, they said, Lord, wilt Thou that we command fire to come down from heaven, and consume them, even as Elias did. They show themselves to be indeed Boanerges, or sons of thunder, for with excess of zeal they would destroy these Samaritans, because of their inhospitality and refusal to receive Christ. They remembered how Elijah had destroyed those who had been sent by Ahaziah to apprehend him ( 2 Kings 1:10), and they knew that Jesus was mightier than that prophet; and if fire was sent from heaven to protect Elijah from harm, and to consume the Jews, who had come to take him, how much more deserving of punishment were these Samaritans, who had refused to receive the Son of God. Wilt Thou that we command. Jerorne goes on to say (Epist151), \"The command of the Apostles can effect nothing, unless by the permission and will of God. \" They therefore seek from Christ, as from a Judges , justice, and the punishment of the wicked, according to their deserts.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/54",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f9b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wilt thou that we command fire In the Greek is added as Elias did. These words might be first in the margin, and thence by transcribers taken into the text. The two apostles, called the sons of thunder, knew their Master was greater than Elias; and therefore they are for calling for fire from heaven, as he had done. (Witham)\nIt was probably this trait in the life of James and John, which gained them the name of boanerges, the sons of thunder. Their too great zeal for the glory of Jesus Christ, and the spirit of revenge, of which they were not yet healed, caused them to make this petition; which seemed in some manner justified by the example of Elias, 4th book of Kings, chap. i. 10. Many editions have the addition of these words, as Elias did. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/54",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa9f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 9:54",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

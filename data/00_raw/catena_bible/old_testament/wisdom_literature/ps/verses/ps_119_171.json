@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 119:171",
+  "verse_text": "Verse text for PS 119:171",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/171",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh My lips shall utter praise, when you have taught me your statutes. Augustine of Hippo 168. \"My lips shall burst forth praise: when Thou hast taught me Thy righteousnesses\" (ver. We know how God teacheth those who are docile unto God. For every one who hath heard from the Father and hath learned, comes unto Him \"who justifieth the ungodly:\" so that he may keep the righteousnesses of God not only by retaining them in his memory, but also by doing them. Thus doth he who glorieth, glory not in himself, but in the Lord, and burst forth praise.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/171",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:171",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

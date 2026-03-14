@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 24:6",
+  "verse_text": "Verse text for PRV 24:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/24/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Man. Hebrew, \"eat not bread of an evil eye \"the envious, or rather the sordid miser.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/24/6",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be71c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "[Solomon] calls war a matter full of disorder, a matter in need of many hands. Or, he may be warning us not to rush to war inconsiderately. Behold, he says, When a decision must be taken, is it not always beneficial to have wisdom in the middle of things? Commentary on the Proverbs of Solomon, Fragment",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/24/6",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8569",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 24:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

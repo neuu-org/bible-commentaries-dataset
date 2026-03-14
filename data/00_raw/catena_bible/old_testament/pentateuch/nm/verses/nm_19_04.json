@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 19:4",
+  "verse_text": "Verse text for NM 19:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/19/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And. Hebrew, \"And Eleazar, the priest, shall take part of her blood with his finger. \"He looked from the pile of wood, where he was standing, towards the west, and sprinkled the blood, and wiping his fingers upon the skin of the cow, waiting till the fire was kindled, before he opened her belly; he then threw into the fire the cedar-wood (Drusius)\nOthers believe that this last ceremony was performed by some one else, (ver. 7,) as it is not clear that Eleazar became unclean. His being substituted instead of Aaron, might show that Christ would institute a new priesthood.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/19/4",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7bc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 19:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

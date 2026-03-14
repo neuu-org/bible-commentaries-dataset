@@ -1,0 +1,47 @@
+{
+  "verse_reference": "SG 6:7",
+  "verse_text": "Verse text for SG 6:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/6/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "What are the cheeks of the church of which the Scripture elsewhere says, “Your cheeks are as the bark of pomegranates”? They are the cheeks on which modesty is accustomed to shine, beauty to sparkle, on which there is either the flower of youth or the distinguished mark of perfect age. - \"Consolation on the Death of Emperor Valentinian 6\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/6/7",
+      "full_content_url": "https://catenabible.com/com/5e4f7dd7c849cf49a740e10e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Song of Songs 6:7 As a piece of a pomegranate are your temples behind your veil. The true pastors are numerous, but hirelings more so. The faithful are innumerable, and all are united in the same faith. (Worthington) The spouse and the queens represent the more prefect; the concubines, or wives of inferior degree, those who are led by fear; and the maidens, such as are languid and negligent. (Origen) The Roman Church is at the head of all metropolitan, episcopal, and parochial Churches.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/6/7",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 6:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "verse_reference": "2TIM 3:7",
+  "verse_text": "Verse text for 2TIM 3:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2tm/3/7",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Let us direct the mind’s gaze and, with the Lord’s help, let us search out God. The word of the divine canticle is, “Seek God and your soul will live.” Let us seek him who is to be found, and in doing so let us seek him who has been found. He has been hidden so that he may be sought for and found. He is immeasurable so that, even though he has been found, he may still be sought for…. Therefore it was not thus said, “Seek his face always,” as about certain men: “always learning and never attaining to a knowledge of the truth,” but rather as that one says, “When a man ends, then he is beginning.”",
+      "commentary_number": "1/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2tm/3/7",
+      "full_content_url": "https://catenabible.com/com/583f5325205c248f42e53282",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Never attaining to the knowledge of the truth. These words, in construction, agree with the aforesaid women. (Witham)",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2tm/3/7",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c025f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "For, being driven away from Him who truly is .\nNow, such are all the heretics, and those who imagine that they have hit upon something more beyond the truth, so that by following those things already mentioned, proceeding on their way variously, in harmoniously, and foolishly, not keeping always to the same opinions with regard to the same things, as blind men are led by the blind, they shall deservedly fall into the ditch of ignorance lying in their path, ever seeking and never finding out the truth.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2tm/3/7",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bad11",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "It is a good thing … to defer to one’s betters, to obey those set over one, to learn not only from the Scriptures but from the example of others how one ought to order one’s life, and not to follow that worst of teachers, one’s own selfconfidence. Of women who are thus presumptuous the apostle says that they “are carried about with every wind of doctrine,” “ever learning and never able to come to the knowledge of the truth.”",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2tm/3/7",
+      "full_content_url": "https://catenabible.com/com/583f5325205c248f42e53283",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you see them employing the artifice of that old deceiver, the weapons which the devil used against Adam. Entering into houses, he says. Observe how he shows their impudence by this expression, their dishonorable ways, their deceitfulness. Leading captive silly women, so that he who is easy to be deceived is a silly woman, and nothing like a man: for to be deceived is the part of silly women. Laden with sins. See whence arises their persuasion, from their sins, from their being conscious to themselves of nothing good. And with great propriety has he said laden. For this expression marks the multitude of their sins, and their state of disorder and confusion; led away with various lusts. He does not accuse nature, for it is not women simply, but such women as these, that he blames. And why various lusts. By that are implied their various faults, their luxury, their disorderly conduct, their wantonness. Divers lust, he says, that is, of glory, of wealth, of pleasure, of self-will, of honor: and perchance other vile desires are implied. Ever learning, and never able to come to the knowledge of the truth. He does not say thus to excuse, but to threaten them severely; for their understanding was callous, because they had weighed themselves down with lusts and sins.",
+      "commentary_number": "5/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2tm/3/7",
+      "full_content_url": "https://catenabible.com/com/575f0fe63c6effa740ddde68",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2TIM 3:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 15:8",
+  "verse_text": "Verse text for DT 15:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/15/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Need of. The Rabbins understand this of giving freely without any prospect of receiving again, much less of any advantage by usury. They esteem themselves bound also, by the laws of humanity, to assist even idolaters, though they will not beg of such, in public. Some assert, that they never allow public beggars among themselves, and indeed such are seldom to be seen. Yet no law forbids it; and Juvenal (vi. 541,) upbraids them with begging slyly at Rome. Arcanum Judæa tremens mendicat in aurem. (Calmet)\nIf people be in extreme want, the law requires that necessaries should be given them; but if they be not so far reduced, but that they may be able to pay again in a little time, it may suffice to lend. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/15/8",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9ba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 15:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

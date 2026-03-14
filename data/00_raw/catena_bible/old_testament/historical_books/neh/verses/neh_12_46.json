@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 12:46",
+  "verse_text": "Verse text for NEH 12:46",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/12/46",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sanctified. That is, they gave them that which by the law was set aside, and sanctified for their use. (Challoner)\nThe Levites paid a tithe to the priests, (chap. x. 38., and Numbers xviii. 26.; Calmet) as the people did to them. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/12/46",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda85",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Sanctified: That is, they gave them that which by the law was set aside, and sanctified for their use.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/12/46",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9e94",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 12:46",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

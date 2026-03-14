@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 30:18",
+  "verse_text": "Verse text for EX 30:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/30/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "In the first instance, we can understand this basin (or flanged bowl, as it is called further on) to be the water of baptism, in which all those who enter the doors of the church must bathe in order to be cleansed. It was put between the tabernacle of the testimony and the altar of the holocaust, and the priests were commanded to wash themselves in it twice a day (that is, morning and evening) when they were going to the altar of incense to offer to the Lord. We, however, are not supposed to be washed in the water of baptism more than once; consequently the basin commends to us that washing of compunction and of tears which is required of us at all times, and especially when we draw near to minister at the heavenly mysteries. On the Tabernacle, at Exodus :–.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/30/18",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e528a6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You shall also make a laver of bronze, and its base also of bronze, for washing: and you shall put it between the tabernacle of meeting and the altar, and you shall put water in it. Its foot also of brass, made of mirrors which the women gave, chap. It was double; one vessel being shallower, to wash the feet, and the other containing a quantity of water, which was let out by pipes. The pagans had lavers also; and our holy-water vessels should remind us of that purity and holiness which became the house of God.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/30/18",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc480",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 30:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

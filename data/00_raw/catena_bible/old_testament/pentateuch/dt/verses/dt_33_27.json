@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 33:27",
+  "verse_text": "Verse text for DT 33:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/33/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The eternal God is your refuge, and underneath are the everlasting arms: and he shall thrust out the enemy from before you; and shall say, Destroy them. Underneath are the everlasting arms. Though the dwelling of God be above in heaven, his arms are always stretched out to help us here below. (Challoner) Hebrew, \"The eternal God is thy refuge; or, From eternity is the abode of God, or in fine, the protection of the Lord is before, and his eternal arms underneath \"so that nothing can hurt you.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/33/27",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb1f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Underneath are the everlasting arms: Though the dwelling of God be above in heaven, his arms are always stretched out to help us here below.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/33/27",
+      "full_content_url": "https://catenabible.com/com/587e51f954b4f95416b2f16f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 33:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

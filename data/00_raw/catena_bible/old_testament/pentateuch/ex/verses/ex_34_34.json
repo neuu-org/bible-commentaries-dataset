@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 34:34",
+  "verse_text": "Verse text for EX 34:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/34/34",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "When Moses comes forth from the sanctuary of God, he veils his shining countenance when in the presence of the people, because he is not going to reveal to the multitude the secrets received in profound enlightenment. Hence God speaking through him enjoined that if anyone dug a pit and neglected to cover it over, then if an ox or an ass fell into it, he should pay the price of the animal. So when a man who has arrived at the deep streams of knowledge does not cover them up before the unlearned hearts of his hearers, he is judged liable to punishment if by his words a soul, whether clean or unclean, takes scandal. Hence it is said to blessed Job: “Who gave the cock understanding?” Pastoral Care",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/34/34",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e528e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 34:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

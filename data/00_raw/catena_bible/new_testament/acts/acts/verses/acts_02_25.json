@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 2:25",
+  "verse_text": "Verse text for ACTS 2:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/2/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cassiodorus Senator",
+      "period": "AD585",
+      "content": "I foresaw the Lord always in my sight:\nHe passes on to the unique remedy by which to avoid sins, for the person who with the mental eye always gazes on the Lord in no way turns to sins.\n\nfor he is at my right hand, so that I may not be moved:\nIt was fitting for Him to speak of the Lord as being at His right hand, for if the Lord does not occupy that place the Devil will at once seize it for ambush. As was written of Judas, Set the sinner over him, and let the Devil stand at his right hand (Ps. 109:6).",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/2/25",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd6c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 2:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 30:13",
+  "verse_text": "Verse text for EX 30:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/30/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Half a sicle. A sicle or shekel of silver, (which was also called a stater) according to the standard or weight of the sanctuary, which was the most just and exact, was half an ounce of silver; that is, about half a crown of English money. The obol, or gerah, was about three halfpence. (Challoner)\nA priest kept the weights and measures, 1 Paralipomenon xxiii. 29. The Egyptians and Romans took the like precaution to prevent any fraud; and Justinian required that such things should be kept in churches. Some have supposed, that the royal or common sicle was less than that of the sanctuary. But Moses admits of no distinction. (Leviticus xxvii. 25.; Ezechiel xlv. 12.) Perhaps the weights of the Egyptians, might differ from this, which Moses therefore particularizes so well. (Calmet)\nArbuthnot makes the weight of the sicle equal to 9 dwt. 2,57 gr. English Troy weight; and he values that of silver at 2s. 3,375d. sterling. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/30/13",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc47e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh This they shall give, every one that passes among them that are numbered, half a shekel after the shekel of the sanctuary: (a shekel is twenty gerahs:) a half shekel shall be the offering of the LORD. Half a sicle: A sicle or shekel of silver, (which was also called a stater,) according to the standard or weight of the sanctuary, which was the most just and exact, was half an ounce of silver, that is, about half a crown of English money. The obol, or gerah, was about three halfpence.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/30/13",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 30:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

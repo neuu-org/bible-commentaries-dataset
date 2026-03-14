@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 9:8",
+  "verse_text": "Verse text for DN 9:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/9/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh O Lord, to us belongs shame of face, to our kings, to our princes, and to our fathers, because we have sinned against you. Concerning the same God of Whom he had previously said, \"To Thee, O Lord, belongeth justice,\" he now says (since the Lord is not only just but also merciful): \"To Thee belongeth mercy. \" He says this in order |92 that he might call upon the Judge to show mercy, after His sentence has been imposed.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/9/8",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd32f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 9:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

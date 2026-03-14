@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:34",
+  "verse_text": "Verse text for PS 119:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/34",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Give me understanding, and I shall keep your law; yea, I shall observe it with my whole heart. Augustine of Hippo 34. \"Give me understanding, and I shall search Thy law, yea, I shall keep it with my whole heart\" (ver. For when each man hath searched the law, and searched its deep things, in which its whole meaning doth consist; he ought indeed to love God with all his heart, with all his soul, with all his mind; and his neighbour as himself. \"For on these two commandments hang all the Law and the Prophets. \" This he seemeth to have promised, when he said, \"Yea, I shall keep it with my whole heart.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/34",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6624",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Heart. Enable me to keep and to understand thy law, ver. 1, 2. (Worthington)\nWe must observe what we know, that we may receive greater lights. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/34",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3f6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

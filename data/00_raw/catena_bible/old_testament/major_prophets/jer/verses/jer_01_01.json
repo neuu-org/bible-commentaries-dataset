@@ -1,0 +1,80 @@
+{
+  "verse_reference": "JER 1:1",
+  "verse_text": "Verse text for JER 1:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/1/1",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Helcias, the high priest who discovered the book of the law, (Clement of Alexandria, Strom. i.) though this be uncertain.\nAna Thoth, a village to the north of Jerusalem, to which many priests had retired, though it did not belong to them. (Calmet)",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/1/1",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bec12",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "What were the dimensions, then, of the temple of Solomon? Its length was sixty cubits, and its breadth twenty. And it was not turned to the east, that the worshippers might not worship the rising sun, but the Lord of the sun. And let no one marvel if, when the Scripture gives the length at forty cubits, I have said sixty. For a little after it mentions the other twenty, in describing the holy of holies, which it also names Dabir. Thus the holy place was forty cubits, and the holy of holies other twenty. And Josephus says that the temple had two storeys, and that the whole height was one hundred and twenty cubits. For so also the book of Chronicles indicates, saying, “And Solomon began to build the house of God. In length its first measure was sixty cubits, and its breadth twenty cubits, and its height one hundred and twenty; and he overlaid it within with pure gold.”",
+      "commentary_number": "2/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/1/1",
+      "full_content_url": "https://catenabible.com/com/5743bfee3c6effa740ddd269",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "In those days etc. The great clemency of God is astonishing; with the captivity already neat and the Babylonian army besieging Jerusalem, he nevertheless provokes the people to repentance, preferring to save the converted rather than to destroy wrongdoers. This is not as heresy supposes because Jeremiah existed before his conception, but because the Lord, to whom things not yet made are already made, foreknew that he was going to exist. Fruthermore, when he says, \"I appointed you a prophet to the nations,\" he wishes this to be understood: later on in this very prophet, we are going to read that he prophesied not only to Jerusalem but also to many of the surrounding nations. Certain people understand this passage to be about the Savior, who was in the strictest sense a prophet to the nations and who called all nations through the apostles. For that one, before being formed in the virgin's womb and coming forth from his mother's body, was truly sanctified in the womb and known in the Father, and the Father was always in Him.",
+      "commentary_number": "3/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/1/1",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa08d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "After the beginning of Jeremiah's prophesying, in the thirty-fifth year of his prophetic career, Ezekiel began to prophesy to those who had been taken captive.",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/1/1",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa08a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The Prophet Jeremiah, for whom this prologue is written, was seen among the Hebrews to be certainly more rustic in style than Isaiah and Hosea and certain other prophets, but equal in meanings, which the same Spirit obviously prophesied. Furthermore, his simplicity of speech happened from the place in which he was born. For he was from Anathoth, which is up to today a village three miles distant from Jerusalem, a priest from priests and sanctified in his mother’s womb, dedicating with her virginity a man of the Gospel to the Church of Christ. This boy began to prophesy the captivity of the city and Judea both not only by the Spirit, but also with eyes of flesh. The Assyrians had already transferred the ten tribes of Israel, and now colonies of gentiles had taken possession of their lands. For this reason he prophesied only in Judah and Benjamin, and he lamented the ruins of his city in a fourfold alphabet, which we have presented in the measure of the meter and in verses. Besides this, the order of visions, which is entirely confused among the Greeks and Latins, we have corrected to the original truth. And the Book of Baruch, his scribe, which is neither read nor found among the Hebrews, we have omitted, standing ready, because of these things, for all the curses from the jealous, to whom it is necessary for me to respond through a separate short work. And I suffer because you think this. Otherwise, for the benefit of the wicked, it was more proper to set a limit for their rage by my silence, rather than any new things written to provoke daily the insanity of the envious.",
+      "commentary_number": "5/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/1/1",
+      "full_content_url": "https://catenabible.com/com/5743bfee3c6effa740ddd26a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 1:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 19:10",
+  "verse_text": "Verse text for 1SM 19:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/19/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "Now it is certainly obvious what the sequence is looking to through the figures of the story. The one of David is predicted by means of David, and the one who was anointed signifies the Christ. And the lyre is a human instrument, but the song which comes from it is the Word which has been made manifest to us through the one who was made flesh, whose work is to destroy the derangement that comes from demons so that “the gods of the nations” may no longer be “demons. ” That king, however, who had the demons in himself, when the spirits withdrew at the song of him who adapted his instrument to this purpose, smote him with his spear (now a spear is wood which has been equipped with iron), but the wall received the spear instead of him. And we think that the wall is the earthly building, by which we understand the body, in relation to which we see the wood of the cross and the iron. But that David, who is both Christ and king, is without suffering. For the deity does not experience the cross and the nails.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/19/10",
+      "full_content_url": "https://catenabible.com/com/5de4681d1f75ae05ba98cf1c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "As also, on the other hand, if we have no works, the Spirit flies away. But if we are deserted by the Spirit, we shall also halt in our works. For when this has gone, the unclean one comes. This is plain from Saul. For what if he does not choke us as he did him, still he strangles us in some other way by wicked works. We have need then of the harp of David, that we may charm our souls with the divine songs, both these, and those from good actions. Since if we do the one only, and while we listen to the charm, war with the charmer by our actions, as he did of old, the remedy will even turn to judgment to us, and the madness become the more furious. For before we heard, the wicked demon was afraid lest we should hear it and recover. But even when after hearing it, we continue the same as we were, this is the very thing to rid him of his fear. Let us sing then the psalm of good deeds, that we may cast out the sin that is worse than the demon.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/19/10",
+      "full_content_url": "https://catenabible.com/com/5de4681d1f75ae05ba98cf1d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 19:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

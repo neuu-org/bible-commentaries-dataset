@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1COR 12:29",
+  "verse_text": "Verse text for 1COR 12:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/12/29",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "A church has only one bishop, and prophecy is not given to everybody. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/12/29",
+      "full_content_url": "https://catenabible.com/com/584c89a19ac03ecd4b8e5e33",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "And they hearken not to that which the Scripture has said: \"Let not many be teachers among you, my brethren, and be not all of you prophets.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/12/29",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba856",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Are all apostles? Certainly not. Let each, therefore, be content with the position in which God has placed him in the Church, and with the grace that he has freely received from God, and thank God for all, and use the grace given him to God\"s glory and the good of the Church.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/12/29",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e524a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And he does not stop at the first and the second gift, but proceeds to the last, either meaning this that all cannot be all things, (even as he there says, if all were one member, where were the body?) or establishing some other point also along with these, which may tell in the way of consolation again. What then is this? His signifying that even the lesser gifts are contended for equally with the greater, from the circumstance that not even these were given absolutely to all? For why, says he, do you grieve that you have not gifts of healing? Consider that what you have, even though it be less, is oftentimes not possessed by him that has the greater.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/12/29",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd8d3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 12:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

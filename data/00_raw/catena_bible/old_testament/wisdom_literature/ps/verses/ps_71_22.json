@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 71:22",
+  "verse_text": "Verse text for PS 71:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/71/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "28. \"For I will confess to Thee in the vessels of a Psalm Thy truth\" (ver. 22). The vessels of a Psalm are a Psaltery. But what is a Psaltery? An instrument of wood and strings. What doth it signify? There is some difference between it and a harp: ...there seemeth to be signified by the Psaltery the Spirit, by the harp the flesh. And because he had spoken of two bringings back of ours from the bottomless places of the earth, one after the Spirit in hope, the other after the body in substance; hear thou of these two: \"For I will confess to Thee in the vessels of a Psalm Thy truth.\" This after the Spirit: concerning the body what? \"I will psalm to Thee on a harp, Holy One of Israel.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/71/22",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6bc5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 71:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

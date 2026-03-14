@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PHIL 2:20",
+  "verse_text": "Verse text for PHIL 2:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/2/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "How does he say that they are of one soul, and having a soul? Likewise, also, writing respecting Timothy and himself, he says, \"For I have no one like-souled, who will nobly care for your state. For all seek their own, not the things which are Jesus Christ's.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/2/20",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb7bf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "At the same time too, he honors them by sending Timothy. What do you say? Do you send Timothy? And wherefore? Because I have no one likeminded; that is, none of those whose care is like mine, none who will care truly for you. Philippians 2:20 Had he then no one of those who were with him? No one likeminded, that is, who has yearnings and takes thought for you as I do. No one would lightly choose, he means, to make so long a journey for this purpose. Timothy is the one with me who loves you. For I might have sent others, but there was none like him. This then is that likemindedness, to love the disciples as the master loves them.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/2/20",
+      "full_content_url": "https://catenabible.com/com/5755bff83c6effa740dddbef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 2:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

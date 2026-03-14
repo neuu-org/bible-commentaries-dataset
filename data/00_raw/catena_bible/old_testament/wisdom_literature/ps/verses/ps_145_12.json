@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 145:12",
+  "verse_text": "Verse text for PS 145:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/145/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"That they may make known to the sons of men Thy power, and the glory of the greatness of the beauty of Thy kingdom\" (ver. Thy saints then commend \"the glory of the greatness of the beauty of Thy kingdom,\" the glory of the greatness of its beauty. There is a certain \"greatness of the beauty of Thy kingdom:\" that is, Thy kingdom hath beauty, and great beauty. Since whatever hath beauty, hath beauty from Thee, how great beauty hath Thy whole kingdom. Let not the kingdom frighten us: it hath beauty also, wherewith to delight us. For what is that beauty, which the saints shall hereafter enjoy, to whom it shall be said, \"Come, ye blessed of My Father, enjoy the kingdom\". Whence shall they come. whither shall they come. Behold, brethren, and, if ye can, as far as ye can, think of the beauty of that kingdom which is to come; whence our prayer saith, \"Thy kingdom come. \" For that kingdom we desire may come, that kingdom the saints proclaim to be coming. Observe this world: it is beautiful. How beautiful are earth, sea, air, heavens, stars. Do not all these frighten him who considereth them. Is not the beauty of them so conspicuous, that it seemeth as though nothing more beautiful could be found. And here, in this beauty, in this fairness almost unspeakable, here worm and mice and all creeping things of the earth live with thee, they live with thee in all this beauty. How great is the beauty of that kingdom where none but angels live with Thee. There is a greatness of a certain beauty; let it be loved before it is seen, that when it is seen, it may be retained.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/145/12",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67a7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thy. Hebrew, \"his. \"But the Septuagint correctly, with the Chaldean\nMen. The Gentiles, to whom the saints, (Berthier) or converted Jews preached. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/145/12",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be52d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 145:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

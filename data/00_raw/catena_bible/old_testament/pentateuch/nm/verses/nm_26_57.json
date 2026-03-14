@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 26:57",
+  "verse_text": "Verse text for NM 26:57",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/26/57",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Procopius of Gaza",
+      "period": "AD528",
+      "content": "These words seem to say something about the blessedness of Christ, by the fact that they decree rewards proper to each virtue, and the greatest rewards go to those who are endowed with sincere hearts. For, Scripture says, they will see God. The sort of men he bids to be chosen for holy orders have an appointed description; apart from that they have no portion in the land. They could also say, “In your hands is my lot and my portion, Lord.” So there is no little boy among them; this signifies purity and integrity. The one who counts all of them is Christ, adumbrated in the high priest and lawgiver, who gave no lot to the unfaithful. For Scripture says, “Let them be expunged from the book of the living and not be recorded with the just.” Catena on the Octateuch, on Numbers :.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/26/57",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e5295f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 26:57",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

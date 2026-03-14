@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 105:23",
+  "verse_text": "Verse text for PS 105:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/105/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Joseph also came into Egypt, and Jacob was a stranger in the land of Ham\" (ver. Israel is the same with Jacob, as is Egypt with the land of Ham. Here it is very plainly shown, that the Egyptian race sprang from the seed of Chain, the son of Noah, whose first-born was Canaan. So that in those copies wherein in this passage Canaan is read, we must alter the reading. It is better construed, \"was a stranger,\" than \"dwelt,\" as other copies have it: which would be the same as \"was an inhabitant,\" for it meaneth nothing different; the very same word is used in the Greek passage above, where it is said, \"Very few, and they strangers in the land. \" Moreover, the state of an incola or accola doth not signify a native, but a stranger. Behold how \"they went from one nation to another. \" What had been briefly proposed, hath been briefly explained in the narration. But from what kingdom they passed over to another people may well be asked. For they were not yet reigning in the land of Canaan, because the kingdom of the people of Israel had not yet been established there. How then can it be understood, except by anticipation, because the kingdom of their seed was destined there to exist.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/105/23",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6551",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cham. Who resided there, and was worshipped under the name of Jupiter Ammon. (Bo chart, Phaleg. iv. 1.) (Calmet)\nMisraim was his son, and peopled the land, Genesis x. 13. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/23",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be357",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 105:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

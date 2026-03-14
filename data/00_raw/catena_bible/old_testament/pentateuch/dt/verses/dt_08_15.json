@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 8:15",
+  "verse_text": "Verse text for DT 8:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/8/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Breath. Hebrew saraphh, or the basilisk, as it is rendered, Isaias xxx. 6. It destroys both the grass and animals, by the burning infection of its breath. (Galen; Pliny, viii. 19. See Numbers xxi. 6. (Tirinus)\nScorpion stings with its tail.\nDips as. A serpent whose bite causes a violent thirst: from whence it has its name; for in Greek, dipsa signifies thirst. (Challoner)\nIt is impossible to quench this thirst, (Worthington) and those who are bitten by this serpent can discharge no water. (Calmet)\nThey drink till they burst, unless they can procure some treacle, or remedy against the poison. (Dioscorides) (Tirinus)\nSome translate the Hebrew, \"scorpions, and (at the place of) drought, where there was no water: he brought\", whether Tsommaon be the name of a particular place, (Isaias xxxv. 7.; Onkelos; Calmet) or it may be applied to the greatest part of that desert, where the want of water so often occasioned the murmurs of the people. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/8/15",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc95b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The Dipsas: A serpent whose bite causeth a violent thirst; from whence it has its name, for in Greek dipsa signifies thirst.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/8/15",
+      "full_content_url": "https://catenabible.com/com/587e51f954b4f95416b2f151",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 8:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

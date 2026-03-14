@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2COR 3:11",
+  "verse_text": "Verse text for 2COR 3:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/2cor/3/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul does not deny that there was splendor in the law and on the face of Moses, but it did not endure because in his case it was a symbol and not a reality. The difference between the face of Moses and the glory of Christ is the same as the difference between the picture and the person whom it portrays. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/3/11",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e6063",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For the one ceased, but the other abides continually.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/3/11",
+      "full_content_url": "https://catenabible.com/com/5751ab5f3c6effa740ddd981",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2COR 3:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

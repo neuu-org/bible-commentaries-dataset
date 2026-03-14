@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 9:2",
+  "verse_text": "Verse text for EST 9:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/9/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "The twelfth month, as we have said above, signifies the last age of the world when our Redeemer became incarnate and the preaching of the gospel spread over the entire world. In a similar way, the thirteenth day proclaims the light of faith and good works which is produced by the preaching of the gospel in the church through the faithful. Indeed, in the twelfth month on the thirteenth day when the destruction of all the Jews was being prepared and their enemies longed for their blood, the Jews, on the contrary, began to triumph and started taking revenge on their adversaries because they [represent] the assembly of the faithful where the true confession of the right faith resides who are helped by the grace of God and comforted by the shield of faith and the weapons of justice in the face of the enemies and persecutors of the name of Christ who persecute and oppress them wherever they are. The assembly of the faithful is thus able to defeat its enemies and to gain the triumph of glory over them.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/9/2",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa49",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 9:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:47",
+  "verse_text": "Verse text for PS 18:47",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/47",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "48. \"O God, who givest Me vengeance, and subduest the people under Me\" (ver. 47). O God, who avengest Me by subduing the people under Me. \"My Deliverer from My angry enemies:\" the Jews crying out, \"Crucify Him, Crucify Him.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/47",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6870",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Avengest, or \"grantest me revenges \"(Haydock) and the victory; inflicting a just punishment on the wicked. David was too well informed to delight in sentiments of revenge, 3 Kings iii. 11. Jesus Christ takes vengeance on his enemies, but this is done without passion. The love of justice is his only motive. David approves of this conduct. (Calmet)\nEnraged enemies. Vulgate iracundis. (Haydock)\nSeptuagint have thus explained aph, \"wrath \"others join it with the following verse, \"But (Calmet) or yea \"(Haydock) etiam. The former version is, however, very accurate. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/47",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdeeb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:47",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

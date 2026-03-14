@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 2:20",
+  "verse_text": "Verse text for MK 2:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/2/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Jesus Christ here foretelleth that fasting shall be used in his Church, no less than in the old law, or in the time of John the Baptist. See Matthew ix. 15.\nWhen first we begin to be converted to God, the spiritual consolations which God infuses into our souls, cause in us an overflowing of spiritual delights, so that we then feast, and are in the midst of delight; but when the Bridegroom shall be taken away, when these spiritual consolations cease, then we fast, and find the commandments difficult. It is then we must prepare ourselves for tribulation. (Ven. Bede)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/2/20",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf90d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "Do ye who are able fast the day of the preparation and the Sabbath-day entirely, tasting nothing till the cock-crowing of the night; but if any one is not able to join them both together, at least let him observe the Sabbath-day; for the Lord says somewhere, speaking of Himself: \"When the bridegroom shall be taken away from them, in those days shall they fast.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/2/20",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb693",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 2:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

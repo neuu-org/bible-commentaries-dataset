@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 5:19",
+  "verse_text": "Verse text for DN 5:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/5/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And for the majesty that he gave him, all people, nations, and languages, trembled and feared before him: whom he would he slew; and whom he would he kept alive; and whom he would he set up; and whom he would he put down. He was an absolute monarch, and considered his subjects as so many slaves. (Calmet) Xerxes having called together his nobles, that he might not seem to have resolved on the war with Greece alone, said: \"Nevertheless, remember that you have to obey rather than to advise.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/5/19",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2d2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Thus he sets forth the example of the king's great-grandfather (p. 521), in order to teach him the justice of God and make it clear that his great-grandson too was to suffer similar treatment because of his pride. Now if Nebuchadnezzar slew whomever he would and smote to death whomever he wished to; if he set on high those whom he would and brought low whomever he wished to, there is certainly no Divine providence or Scriptural injunction behind these honors and slayings, these acts of promotion and humiliation. But rather, such things ensue from the will [reading voluntate for the erroneous voluntas of the text] of the men themselves who do the slaying and promoting to honor, and all the rest. If this be the case, the question arises as to how we are to understand the Scripture: \"The heart of a king reposes in the hand of God; He will incline it in whatever direction He wishes\" (Prov. Perhaps we might say that every saint is a king (655), for sin does not reign in his mortal body, and his heart therefore is kept safe, for he is in God's hand (Rom. And whatever has once come into the hand of God the Father, according to the Gospel, no man is able to take it away. And whoever is taken away, it is understood that he never was in God's hand at all.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/5/19",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2dd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 5:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "OB 1:16",
+  "verse_text": "Verse text for OB 1:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ob/1/16",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "These words “as you have drunk” indicate, I think, that the victors insolently gloried in victory. They had a festive celebration where they got drunk with their friends, boasting in praise of their part in the victory while they got drunk. And while they were drinking and singing songs and causing all manner of damage at this party, they got drunk and began to insult the other nations. “And they will descend against you,” that is, the neighboring regions will attack these parties. And so, you will want to be in a place where they are not; otherwise you too will be wiped out of existence. Mount Zion, however, by divine inspiration is called the church. For it is truly the highest and most visible, the foremost holy place. It is the house and city of the most holy God. .",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ob/1/16",
+      "full_content_url": "https://catenabible.com/com/5839ec83205c248f42e52f8b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "You have drunk on my holy mountain from the cup of wrath, which David and Ahab mixed for you. All the nations around you shall drink constantly because of the Assyrians and the Chaldeans, in the days of Hezekiah and his sons. .",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ob/1/16",
+      "full_content_url": "https://catenabible.com/com/5839ec83205c248f42e52f89",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For as you have drunk upon my holy mountain, so shall all the nations drink continually, yea, they shall drink, and they shall swallow down, and they shall be as though they had never been. They shall rejoice at your fall, as you did at that of Juda; (St. Jerome) or, as my people has not been spared, can you expect to escape. (Jeremias xlix. These nations and the Chaldeans themselves were brought low, while the Jews regained the regal power. The cup denotes vengeance, Psalm lxxiv. Plautus uses the same expression: ut senex hoc eodem poculo, quo ego bibi, biberet.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ob/1/16",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf496",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured OB 1:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

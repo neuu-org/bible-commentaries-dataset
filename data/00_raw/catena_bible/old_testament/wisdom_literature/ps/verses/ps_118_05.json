@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 118:5",
+  "verse_text": "Verse text for PS 118:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Let Israel now confess that He is good, and that His mercy endureth for ever\" (ver. \"Let the house of Aaron now confess that His mercy endureth for ever\" (ver. \"Yea, let all now that fear the Lord confess that His mercy endureth for ever\" (ver. Ye remember, I suppose, most beloved, what is the house of Israel, what is the house of Aaron, and that both are those that fear the Lord. For they are \"the little and the great,\" who have already in another Psalm been happily introduced into your hearts: in the number of whom all of us should rejoice that we are joined together, in His grace who is good, and whose mercy endureth for ever; since they were listened to who said, \"May the Lord increase you more and more, you and your children;\" that the host of the Gentiles might be added to the Israelites who believed in Christ, of the number of whom are the Apostles our fathers, for the exaltation of the perfect and the obedience of the little children; that all of us when made one in Christ, made one flock under one Shepherd, and the body of that Head, like one man, may say, \"I called upon the Lord in trouble, and the Lord heard me at large\" (ver. The narrow straits of our tribulation are limited: but the large way whereby we pass along hath no end. \"Who shall lay anything to the charge of God's elect.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/118/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65f5",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Trouble. Both spiritual and temporal. (Worthington)\nEnlarge me, or set me at liberty in a spacious place. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

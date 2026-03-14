@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 11:28",
+  "verse_text": "Verse text for NM 11:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/11/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "Joshua, the son of Nun and successor of Moses, was amazed, and coming to Moses said to him, Have you heard that Eldad and Medad are prophesying? They were called and did not come forward; “Moses, my lord, stop them.” I cannot forbid them, he said, for the grace is from heaven. So far am I from forbidding them that I consider it a favor. But I think you have not spoken thus in envy. Do not be overzealous on my account, because they have prophesied, and you do not yet prophesy. Await the proper time. “Would that all the people of the Lord might prophesy, whenever the Lord shall give them his spirit.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/11/28",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52905",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Chosen among the seventy, and designed, from his youth, to be the general, and successor of Moses; the Hebrew may be understood in all these senses. See Exodus xvii. 10. (Calmet)\nJosue was afraid lest they had assumed this air of authority in opposition to Moses. St. John addressed our Saviour, under the same impressions of zeal, Luke ix. 49.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/11/28",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc74a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 11:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

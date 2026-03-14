@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2CHR 32:1",
+  "verse_text": "Verse text for 2CHR 32:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/2chr/32/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Manasses, whether king Osee consented, or the people of Juda followed the dictates of their zeal, neglecting the regular order of things, which forbids the subjects of one kingdom to interfere thus with those of another. (Grotius) (St. Augustine, q. in Deut. vii., and 12.)\nIf Ezechias gave orders, we may suppose that he was assured of his neighbour's consent. Josias (chap. xxxiv. 6.) followed his example after most part of Israel was led away captive, and the country obeyed the king of Assyria. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2chr/32/1",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd907",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2CHR 32:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "GN 49:17",
+  "verse_text": "Verse text for GN 49:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/49/17",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "On this account, when we run well in the way, let us beware that the serpent may not lie hid anywhere in the path and undermine the footstep of the horse—that is, of our body—and suddenly throw the sleeping rider. For if we are vigilant, we ought to be on our guard in some measure and shun the bites of the serpent. Therefore let the sleep of neglect, the sleep of the world, not overwhelm us. Let the sleep of wealth not overwhelm us, lest it be said of us also, “They have slept their sleep, and all the men of riches have found nothing. ” But there are indeed riders who sleep, of whom it is written, “They have slumbered who mounted on horses. ” Should avarice wound your heart, should lust inflame it, you are a sleeping rider …. Judas was sleeping; therefore he did not hear the words of Christ. Judas was sleeping, yes, sleeping the sleep of wealth, for he sought recompense from his betrayal. The devil saw that he was sleeping, yes, buried in the deep sleep of avarice. He let himself into Judas’s heart, wounded the horse and threw the rider, whom he separated from Christ.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/49/17",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51d02",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Dan shall be a serpent by the way, an adder in the path, that bites the horse's heels, so that his rider shall fall backward. Hippolytus of Rome The fact that the prophet says “biting the heel of the horse” signifies that Christ will test those who announce the way of the truth and salvation. So he also tested the apostles, cheated Judas and took hold of him; he took hold of him as of a horse and threw the rider who was on it to death.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/49/17",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51d01",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rufinus of Aquileia",
+      "period": "AD411",
+      "content": "The path indicates a more narrow way, which demonstrates that he does not walk along that wide and spacious way leading to death but along that narrow way full of obstacles leading to life. He bites the heel of the horse and so does what the apostle Paul said: “I pommel my body and subdue it, lest after preaching to others I myself should be disqualified.” He acts in this manner so that the rider may fall backwards. He always fears elations and heights and prefers his soul to fall from an evil height to an honest humility, in order to learn from Christ, who is modest and gentle in his heart. It is typical of those who progress to fear elation. And finally a very important apostle like Paul said, “A thorn was given me in the flesh, a messenger of Satan, to keep me from being too elated.” And so the soul, after being recalled from elation and led back to the humility of Christ, waits for the salvation of the Lord.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/49/17",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51d03",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 49:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

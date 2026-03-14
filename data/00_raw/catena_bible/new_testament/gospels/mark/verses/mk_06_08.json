@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 6:8",
+  "verse_text": "Verse text for MK 6:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/6/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Are all commanded not to have two coats, nor food in their possession, money in their purse, only a staff in the hand and shoes on the feet? Are all commanded to sell all they possess and give it to the poor, and follow Jesus? Of course not. This command is for those who earnestly desire to respond fully to grace…. The Lord says in the Gospel to him who had boasted of having kept the whole law: “If you will be perfect, go and sell all that you have, and give to the poor, and come, follow me.” He said this to those who wish to be wholly mature in faith, that he might not seem to be laying a heavy burden on unwilling shoulders.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/6/8",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d63",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 6:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

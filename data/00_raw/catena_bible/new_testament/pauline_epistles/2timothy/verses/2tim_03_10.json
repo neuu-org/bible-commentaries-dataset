@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2TIM 3:10",
+  "verse_text": "Verse text for 2TIM 3:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2tm/3/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "I did not say these things, he says, and not do them. I was not a philosopher in words only.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2tm/3/10",
+      "full_content_url": "https://catenabible.com/com/583f5325205c248f42e5328d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But you have fully known my doctrine. Wherefore be strong; for thou were not merely present, but followed closely. Here he seems to imply that the period had been long, in that he says, You have followed up my doctrine; this refers to his discourse. Manner of life; this to his conduct. Purpose; this to his zeal, and the firmness of his soul. I did not say these things, he says, and not do them; nor was I a philosopher in words only. Faith, longsuffering. He means, how none of these things troubled me. Charity, which those men had not; patience, nor yet this. Towards the heretics, he means, I show much longsuffering; patience, that under persecution.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2tm/3/10",
+      "full_content_url": "https://catenabible.com/com/575f0fe63c6effa740ddde6b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2TIM 3:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

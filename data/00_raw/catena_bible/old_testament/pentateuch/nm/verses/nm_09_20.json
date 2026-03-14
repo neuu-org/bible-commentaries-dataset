@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 9:20",
+  "verse_text": "Verse text for NM 9:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/9/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And so it was, when the cloud was a few days upon the tabernacle; according to the commandment of the LORD they abode in their tents, and according to the commandment of the LORD they journeyed. For Hebrew, \"and so it was when the cloud was days of number upon the tabernacle; by the mouth of the Lord they staid in their tents \"Days of number, yamim mispar, most probably means a few days; (see Deuteronomy iv. 27,) though Louis de Dieu would translate \"a full year \"as yamim, according to him, signifies, ver. It is understood, however, by others, to denote a week, a month, a year, or an indeterminate number of days, Genesis xxiv.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/9/20",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc723",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 9:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

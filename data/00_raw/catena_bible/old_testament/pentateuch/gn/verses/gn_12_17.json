@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 12:17",
+  "verse_text": "Verse text for GN 12:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/12/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "This passage is a great witness and demonstration of the necessity of maintaining chastity, exhorting everyone to show himself chaste, not to long for the bed of another and not to seduce the wife of another, counting on the hope of not being discovered and of going unpunished. It exhorts all not to let themselves be tempted by neglect … or by a prolonged absence. God, the defender of marriage, is present. From him nothing remains hidden, nothing escapes him, and no one can make sport of him. God takes on the task of the absent husband and maintains the sentinels. Indeed, even without sentinels he surprises the guilty before he puts into action what he has premeditated. In the soul of each one, in the mind of all he recognizes the guilt. Adulterer, even if you have deceived the husband, you do not deceive God. Even if you have escaped from the husband, even if you have made sport of the judge of the tribunal, you do not escape from the judge of the whole world. He punishes with greater severity the injury that is done to the weak, the offenses done to an imprudent husband. In fact, the injury is greater when the author rather than the guardian of the marriage is held in contempt and not taken into consideration.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/12/17",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e519f6",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Scourged Pharao with unusual pains, sterility that he might easily perceive that his taking Sarai was displeasing to God. (Haydock)\nHe did not intend to commit adultery indeed, but his conduct was tyrannical and oppressive to the stranger, whom God protects, Psalm xliv. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/12/17",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc068",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 12:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

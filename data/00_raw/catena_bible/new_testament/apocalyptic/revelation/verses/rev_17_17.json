@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 17:17",
+  "verse_text": "Verse text for REV 17:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/17/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "For God has put in their hearts to fulfill his will, and to agree, and give their kingdom unto the beast, until the words of God shall be fulfilled. give: That is, that they should obey the devil until the Scriptures should be fulfilled, in which God said, that in the time of the fourth kingdom He would bring the earth to its consummation; as we read in Daniel, \"There shall be the fourth kingdom upon the earth, which shall be more powerful than all these kingdoms, and shall devour, and overthrow, and destroy the whole earth. \" <a.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/17/17",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "hearts: God, the Jugde, he says, just and mighty, and to whom justice is always pleasing, for the punishment of their former sins suffered the ungodly to do such things, for whose sake He might with reason bring to an end the whole world; as the Gospels testify to have been done in the instance of Sodom, and of the flood.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/17/17",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c99",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 17:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

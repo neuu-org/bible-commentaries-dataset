@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1COR 1:15",
+  "verse_text": "Verse text for 1COR 1:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/1/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul downplays his own role in order to show that he was not seeking honor or glory for himself.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/1/15",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5b4f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He states also the reason, why he gives thanks that he had baptized no one. What then is this reason? Lest anyone should say that you were baptized into my own name. Why, did he mean that they said this in those other cases? Not at all; but, I fear, says he, lest the disease should proceed even to that. For if, when insignificant persons and of little worth baptize, a heresy arises, had I, the first announcer of Baptism, baptized many, it was likely that they forming a party, would not only call themselves by my name, but also ascribe the Baptism to me. For if from the inferiors so great an evil arose, from those of higher order it would perhaps have gone on to something far more grievous.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/1/15",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd805",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 1:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

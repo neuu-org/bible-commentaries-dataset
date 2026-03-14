@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 22:22",
+  "verse_text": "Verse text for ACTS 22:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/22/22",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This word. That is, until he told them that God had sent him to preach to the Gentiles, whom they could not bear to hear preferred before themselves. Not that the Jews forbad preaching to the Gentiles; on the contrary, our Saviour reproached the Pharisees, that they would go over land and sea for the sake of making one proselyte. They were likewise enraged that St. Paul had not laid on the Gentiles the heavy yoke of the law. (Calmet)\nHence they exclaim: take away this wicked man from amongst us, for it is a sin to let him live. (Bible de Vence)",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/22/22",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe74",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And they gave him audience until this word, and then lifted up their voices, and said, Away with such a fellow from the earth: for it is not fit that he should live. The Jews would not endure to hear out all his harangue, but excessively fired by their wrath, they shouted, it says, Away with him; for it is not fit that he should live. And as they cried out, and cast off their clothes, and threw dust into the air, the tribune commanded him to be brought into the castle, and bade that he should be examined by scourging; that he might know wherefore they cried so against him.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/22/22",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94c0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Nay, you are the persons not fit to live; not he, who in everything obeys God. O villains and murderers! And shaking out their clothes, it says, they threw dust into the air",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/22/22",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 22:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

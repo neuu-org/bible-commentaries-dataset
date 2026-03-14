@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 23:1",
+  "verse_text": "Verse text for ACTS 23:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/23/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "With an entire good conscience. With an upright sincerity. But St. Paul is far from excusing himself from all sin. He laments elsewhere his blind zeal in persecuting the Christians. See 1 Corinthians xv. 9. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/23/1",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe7a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What he means is this: I am not conscious to myself of having wronged you at all, or of having done anything worthy of these bonds. What then said the high priest? Right justly, and ruler-like, and mildly: And the high priest Ananias commanded them that stood by him to smite him on the mouth. Then said Paul unto him, God shall smite you, you whited wall: for do you sit to judge me after the law, and commandest me to be smitten contrary to the law? And they that stood by said, Do you revile God's high priest? Then said Paul, I knew not, brethren, that he was the high priest: for it is written, You shall not speak evil of the ruler of your people.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/23/1",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94cb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 23:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

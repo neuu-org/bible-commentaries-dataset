@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:109",
+  "verse_text": "Verse text for PS 119:109",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/109",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "108. \"My soul is alway in Thy hand\" (ver. 109). Some copies read, \"in my hand:\" but most, \"in Thy hand;\" and this latter is indeed easy. For \"the souls of the righteous are in God's hand: in whose hand are both we and our words.\" \"And I do not forget Thy law:\" as if his memory were aided to remember God's law by the hands of Him in whose hands is his soul. But how the words, \"My soul is in my hands,\" can be understood, I know not. For these are the words of the righteous, not of the ungodly; of one who is returning to the Father, not departing from the Father? ...Is it perhaps said, \"My soul is in my hands,\" in this sense, as if he offered it to God to be quickened? Whence in another passage it is said, \"Unto Thee, O Lord, have I lifted up my soul.\" Since here too he had said above, \"Quicken Thou me.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/109",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6668",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "My hands. In danger of being thrown by, or of falling, (Worthington) ready to appear before God's tribunal. I watch over myself, and strive to keep my soul tranquil. The prophet might have all this in view. (Berthier)\nMost of the fathers read, \"in thy hands \"under God's protection. This is denied by St. Jerome (ad Sun.) though the commentary which goes under his name, and was written in the same age, has thy. The other reading is, however, more correct. The Greeks made use of a similar expression, to show the danger of losing a treasure. (Athen. xiii. 4.) (Calmet)\nSuch is our soul, which we must fear to lose. (St. Gregory, Mor. vii. 6.) (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/109",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be434",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:109",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

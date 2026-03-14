@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 9:14",
+  "verse_text": "Verse text for DN 9:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/9/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Whenever we are rebuked because of our sins, God is keeping watch over us and visiting us with chastenment. But whenever we are left alone by God and we do not suffer judgment but are unworthy of the Lord's rebuke, then He is said to slumber. And so we read in the Psalms as well: \"The Lord has risen up as one (B) who was slumbering or as a man out of a drunken sleep\" (Ps. 77=78). For our wickedness and iniquity inflames God with wine, and whenever it is rebuked in our case, God is said to be keeping careful watch and to be rising up out of His drunken sleep, in order that we who are drunken with sin may be made to pay careful heed unto righteousness.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/9/14",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd333",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 9:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

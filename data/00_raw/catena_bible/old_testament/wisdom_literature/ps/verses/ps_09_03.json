@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 9:3",
+  "verse_text": "Verse text for PS 9:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/9/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "5. \"They will be weakened, and perish from Thy face\" (ver. 3). Who will be weakened and perish, but the unrighteous and ungodly? \"They will be weakened,\" while they shall avail nothing; \"and they shall perish,\" because theungodly will not be; \"from the face\" of God, that is, from the knowledge of God, as he perished who said, \"But now I live not, but Christ liveth in me.\" But why will the ungodly \"be weakened and perish from thy face?\" \"Because,\" he saith, \"Thou hast made my judgment, and my cause:\" that is, the judgment in which I seemed to be judged, Thou hast made mine; and the cause in which men condemned me just and innocent, Thou hast made mine. For such things served Him for our deliverance: as sailors too call the wind theirs, which they take advantage of for prosperous sailing.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/9/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67e3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 9:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

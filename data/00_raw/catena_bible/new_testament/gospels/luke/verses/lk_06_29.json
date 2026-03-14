@@ -1,0 +1,91 @@
+{
+  "verse_reference": "LK 6:29",
+  "verse_text": "Verse text for LK 6:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/6/29",
+  "commentary_status": "available",
+  "total_commentaries": 6,
+  "full_content_fetched": 6,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "Which rather appeared to me to be very unjust, and I shall tell you how. He alleged that it was right to present to him who strikes you on the one cheek the other",
+      "commentary_number": "1/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/29",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc99",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "For \"to him that taketh away thy coat \"He says, \"give to him thy cloak also; and from him that taketh away thy goods, ask them not again; and as ye would that men should do unto you, do ye unto them: \".\na comparison be instituted between us and them,",
+      "commentary_number": "2/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/29",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc93",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "And let your good works shine before men, that they, seeing them, may glorify your Father which is in heaven.\"",
+      "commentary_number": "3/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/29",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc92",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "And bids us, on the contrary, \"to him who smiteth us on the one cheek, to offer the other also, and to give up our coat to him that taketh away our cloak.\".\nUnless he be a man likewise to offer to one who takes away his coat his cloak as well?",
+      "commentary_number": "4/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/29",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc95",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "\"If any one gives thee a stroke on thy right cheek, turn to him the other also.\".\nAnd, \"He that will sue thee at the law, and take away thy coat, let him have thy cloak also.\"",
+      "commentary_number": "5/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/29",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc98",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Didache",
+      "period": "AD100",
+      "content": "If one give thee a blow upon thy right cheek, turn to him the other also;.\nIf one take away thy cloak, give him also thy coat.",
+      "commentary_number": "6/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/29",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 6:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

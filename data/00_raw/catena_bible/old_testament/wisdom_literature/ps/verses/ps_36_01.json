@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PS 36:1",
+  "verse_text": "Verse text for PS 36:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/36/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"The ungodly hath said in himself that he will sin: there is no fear of God before his eyes\" (ver. Not of one man, but of a race of ungodly men he speaketh, who fight against their own selves, by not understanding, that so they may live well; not because they cannot, but because they will not. For it is one thing, when one endeavours to understand some thing, and through infirmity of flesh cannot; as saith the Scripture in a certain place, \"For the corruptible body presseth down the soul, and the earthly tabernacle weigheth down the mind that museth upon many things;\" but another when the human heart acts mischievouslyagainst itself, so that what it could understand, if it had but good will thereto, it understandeth not, not because it is difficult, but because the will is contrary. But so it is when men love their own sins, and hate God's Commandments. For the Word of God is thy adversary, if thou be a friend to thy ungodliness; but if thou art an adversary to thy ungodliness, the Word of God is thy friend, as well as the adversary of thy ungodliness.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/36/1",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e698b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Himself. Hebrew libbi, \"in my heart. \"But this is visibly incorrect, and we should substitute lobu, as St. Jerome, Chaldean, Syriac, have done. (Calmet)\nYet Symmachus translates, \"concerning the disorder of the impious within, my heart has said, there \"Hebrew may also signify, \"the transgression of the wicked saith within my heart. \"(Protestants) (Haydock)\nI am inwardly convinced how great the malice of the wicked may be. It touches me to the very heart. Both senses are good. The wicked are bent on evil, and this fills the virtuous with grief. (Berthier)\nEyes. They sin publicly, (Psalm xiii. 1.; Calmet) and on purpose, preferring vice before virtue, (Worthington) and constantly bent on doing evil, so that they become odious to all. (Menochius)",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/36/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfd3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Himself. Psalm is understood. It is expressed in St. Ambrose and St. Jerome, (Calmet) and in the Alexandrian Septuagint. (Haydock)\nEusebius improperly assigns the cause of the omission to the piece being of a moral nature. Many suppose it refers to Saul, who had promised that he would give ear no more to the detractors of David, when the latter restored to him his spear and cup, 1 Kings xxvi. (Theodoret)\nBut it seems rather to express the sentiments of the captives at Babylon, like the Psalms x., xi., xiii., and lii. (Calmet)\nDavid gloried in the title of servant of the Lord, though he bore the sceptre, Psalm xvii., (Berthier) and Psalm cxv. 16. (Menochius)\nHe applies this instruction to himself, and to all in the lowest stations. (Worthington)",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/36/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfd2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 36:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

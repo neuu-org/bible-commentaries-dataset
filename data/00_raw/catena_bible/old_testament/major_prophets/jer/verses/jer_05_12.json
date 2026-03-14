@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JER 5:12",
+  "verse_text": "Verse text for JER 5:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/5/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh They have lied about the LORD, and said, It is not he; neither shall evil come upon us; neither shall we see sword nor famine: Accusation is the censure of wrongdoers. This mode of instruction God employs by David, when he says, “The people whom I did not know served me, and when their ears heard they obeyed me. Sons of strangers came to me, and halted from their ways. ” And by Jeremiah: “And I gave her a divorce decree, but covenant-breaking Judah did not fear. ” And again: “And the house of Israel disregarded me. The house of Judah lied to the Lord.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/5/12",
+      "full_content_url": "https://catenabible.com/com/5e9360ebd87c4a70874ae17a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 5:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

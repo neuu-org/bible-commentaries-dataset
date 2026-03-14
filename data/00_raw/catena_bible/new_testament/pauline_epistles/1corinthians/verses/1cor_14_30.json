@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1COR 14:30",
+  "verse_text": "Verse text for 1COR 14:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/14/30",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "In particular, the higherranking person should give way to the lower. It is simply not the case that every privilege can be granted to a single individual. Nor can it be that anyone, however low in the hierarchy, should have nothing given to him. No one is without the grace of God. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/14/30",
+      "full_content_url": "https://catenabible.com/com/584c89a19ac03ecd4b8e5e97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "If anything be revealed to another that sitteth by, let the first hold his peace. Let him rise and speak; let the first cease and sit down. S. Ambrose says: \"This is a custom of the synagogue which S. Paul borrows and enjoins on us. The elders in dignity sit in their chairs while discoursing, those next to them sit on lower seats, the last on mats spread on the pavement. If anything happens to be revealed to these last, he bids that they be listened to: they are not to be despised, for they are members of the same body.\"",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/14/30",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e524cb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "For it behoves a bishop not only to teach, but also to learn; because he also teaches better who daily increases and advances by learning better; which very thing, moreover, the same Apostle Paul teaches, when he admonishes, \"that if anything better be revealed to one sitting by, the first should hold his peace.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/14/30",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba892",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 14:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

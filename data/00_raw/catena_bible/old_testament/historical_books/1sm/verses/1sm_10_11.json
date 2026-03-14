@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 10:11",
+  "verse_text": "Verse text for 1SM 10:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/10/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Prophets. This proverb received a fresh confirmation, when Saul was going to seize David, and was forced by the Spirit to join with the college of prophets, in singing God's praises, chap. xix. 24. (Haydock)\nIt may be applied to those who are unexpectedly raised to a high dignity, or enabled to speak or to do extraordinary things, like the apostles, when they spoke various languages (Delrio adag. 178.) (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/10/11",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bceaf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "It is possible for an evil spirit to influence a person. The spirit of God later turned Saul into another man, that is, into a prophet, when people said, “What is this that has happened to the son of Kish? Is Saul also among the prophets?” But the evil spirit also turned him into another man, in other words, into a renegade. For some time Judas was numbered among the chosen [apostles], even becoming the keeper of the purse. He was then not yet a traitor, but he was dishonest. Later, the devil entered into his soul.\nTherefore, if neither the spirit of God nor the devil enters into the soul of man at the birth of the soul, then the soul must exist separately before the accession of either spirit. If it exists alone, then it is simple and uncompounded in substance and it breathes simply as a result of the substance which it received from God.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/10/11",
+      "full_content_url": "https://catenabible.com/com/5de467b11f75ae05ba98ceb0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 10:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

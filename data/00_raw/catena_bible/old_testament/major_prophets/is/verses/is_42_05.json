@@ -1,0 +1,69 @@
+{
+  "verse_reference": "IS 42:5",
+  "verse_text": "Verse text for IS 42:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/42/5",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "The Son is both sent and given, and the Spirit also is both sent and given; they have assuredly a oneness of Godhead who have a oneness of action. - \"On the Holy Spirit 3.2.10\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/42/5",
+      "full_content_url": "https://catenabible.com/com/5e88f294b1c7280cb341d078",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "The name by which he will be praised as the Lord and God of all, [Isaiah] says, “I will give to no other” but to you alone, whom I shall grant to be light to the nations. Hence, in the promise the Christ of God is called Lord and God by all the nations, the Father having granted him alone that glory. Next comes “nor will I give my powers to the carved images,” or, according to Aquila, “my worship to carved images,” or, with Symmachus, “my praise to carved images.” … According to this, Christ alone is called God since to him alone and to no other has God, who is above all things, given his glory and power.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/5",
+      "full_content_url": "https://catenabible.com/com/5e88f293b1c7280cb341d074",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "The breath of life, which also rendered man [a person] an animated being, is one thing, and the vivifying Spirit another, which also caused him to become spiritual. And for this reason Isaiah said, “Thus says the Lord, who made heaven and established it, who founded the earth and the things therein, and gave breath to the people on it and the Spirit to those walking on it”; thus telling us that breath is indeed given in common to all people on earth but that the Spirit is theirs alone who tread down earthly desires.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/42/5",
+      "full_content_url": "https://catenabible.com/com/5e88f294b1c7280cb341d076",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "And again, “who gave breath to the people on the earth and spirit to those walking on it.” For at first the soul, that is, “breath,” was given to the people who go around on the earth, that is, to those acting in flesh in a fleshly manner; then later the Spirit was given to those who walk on the earth, that is, those who subdue the works of the flesh, as the apostle affirms, “Not that which is spiritual first, but that which is animal and then that which is spiritual.” For although Adam from the beginning prophesied that great mystery in Christ and the church, “this is now bone of my bone and flesh of my flesh, on which account a man will leave his father and mother and cleave to his wife and they two will become one flesh,” he was subject to a falling of the spirit.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/5",
+      "full_content_url": "https://catenabible.com/com/5e88f293b1c7280cb341d075",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 42:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

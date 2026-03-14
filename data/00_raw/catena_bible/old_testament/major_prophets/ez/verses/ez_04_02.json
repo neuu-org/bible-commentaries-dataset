@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 4:2",
+  "verse_text": "Verse text for EZ 4:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/4/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And lay siege against it, and build a siege wall against it, and cast up a mound against it; set camps also against it, and place battering rams against it round about. The ditch would be about three feet deep, and the earth being thrown up, people might approach the town with less danger. (Worthington) The besieged were thus also prevented from going out, 4 Kings xxv. Forts or towers were erected to overlook and clear the walls. This is the first time we find them mentioned. Homer is silent about them; (Calmet) and the ancient sieges lasted so long, because people had not found out the art of demolishing the walls. (Diodorus ii.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ez/4/2",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723beff7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 4:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

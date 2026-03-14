@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 20:47",
+  "verse_text": "Verse text for LK 20:47",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/20/47",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "These shall receive a greater condemnation, because they not only commit ordinary evil actions, but also make their prayers, and virtue itself, a cloak to their hypocrisy and vanity, and the cause of their greater depravity, famishing the widows whom themselves ought to compassionate and relieve. (Theophylactus)\nOr, the greater honours and rewards they received for their wickedness, the greater punishment must they endure to expiate it. (Ven. Bede)\nJesus Christ seems in this place to allude to the avaricious practice of the Jews, draining the purses of widows by their stipulated long prayers for their departed husbands, (see Matthew xxiii. 14.; Mark xii. 40.) and thus abusing so holy a thing as prayer, merely to gratify their avarice.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/20/47",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb4d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 20:47",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

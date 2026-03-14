@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 31:16",
+  "verse_text": "Verse text for PS 31:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/31/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "17. \"Make Thy Face to shine upon Thy servant\" (ver. 16). Make it known to men, who do not think that I belong unto Thee, that Thy Face is bent upon me, and that I serve Thee. \"Save me in Thy mercy.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/31/16",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6936",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Shine propitiously, so as to free me from this storm. (Calmet)\nMake me acquainted with the right path, and deliver me. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/31/16",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf7f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 31:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

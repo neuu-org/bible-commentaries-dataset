@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1PET 2:4",
+  "verse_text": "Verse text for 1PET 2:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/2/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The living stone, rejected Christ is the chief foundation of his Church, the corner-stone of the building, whom the Jews, and other obstinate unbelievers, reject to their own condemnation and destruction. See Isaias xxviii. 16.; Matthew xxi. 42.; Acts iv. 11.; Romans ix. 32. (Witham)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/4",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c039f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Shepherd of Hermas",
+      "period": "AD150",
+      "content": "Of the stones that were dragged out of the depths, they placed in the building just as they were: for they were polished and fitted exactly into the other stones, and became so united one with another that the lines of juncture could not be perceived.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/4",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa19",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": ", among the Jews from Jerusalem \"among the other things named, \"the wise architect \"too.\nand knowing how to bear infirmity: \"to wit as having been set by the Father \"for a stone of offence\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/4",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa1a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 2:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 1:24",
+  "verse_text": "Verse text for 1SM 1:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/1/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Considering all these things, and whatever else the Lord shall have made known to you in this matter, which either does not occur to me or would take too much time to state here, strive in prayer to overcome this world: pray in hope, pray in faith, pray in love, pray earnestly and patiently, pray as a widow belonging to Christ. For although prayer is, as he has taught, the duty of all his members, that is, of all who believe in him and are united to his body, a more assiduous attention to prayer is found to be specially enjoined in Scripture upon those who are widows. Two women of the name of [Hannah] are honorably named there—the one, Elkanah’s wife, who was the mother of holy Samuel; the other, the widow who recognized the Most Holy One when he was yet a babe. [Hannah], though married, prayed with sorrow of mind and brokenness of heart because she had no sons; and she obtained Samuel and dedicated him to the Lord, because she vowed to do so when she prayed for him.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/1/24",
+      "full_content_url": "https://catenabible.com/com/5de467401f75ae05ba98ce6a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And when she had weaned him, she took him up with her, with three bullocks, and one ephah of flour, and a skin of wine, and brought him unto the house of the LORD in Shiloh: and the child was young. Three calves. Septuagint, \"a calf three years old \"such as Abraham sacrificed, Genesis xv. We only find one offered up, ver. Hebrew epha, (Calmet) each of which contained three bushels or measures, Ruth ii. (Haydock) Bottle. Hebrew nebel, a large measure containing above 87 pints. (Calmet) The sacrifices seem to have been for thanksgiving, accompanied with an ephi for each calf, and with wine, Numbers xv. , and Ezechiel xlvi.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/1/24",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce39",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 1:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

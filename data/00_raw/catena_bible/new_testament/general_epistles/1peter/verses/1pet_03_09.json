@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1PET 3:9",
+  "verse_text": "Verse text for 1PET 3:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/3/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Polycarp of Smyrna",
+      "period": "AD155",
+      "content": "Up us also, if we do His will, and walk in His commandments, and love what He loved, keeping ourselves from all unrighteousness, covetousness, love of money, evil speaking, false witness; \"not rendering evil for evil, or railing for railing\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/9",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa57",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "How much more, while you are returning the malediction in the name of Jupiter himself, are you doing honour to Jupiter in the same way as he who provoked you! But a believer ought to laugh in such cases, not to rave; nay, according to the precept.\nNot even by an evil word does He permit it to be vented.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/9",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa58",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 3:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

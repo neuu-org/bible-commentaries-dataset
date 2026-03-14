@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 2:3",
+  "verse_text": "Verse text for 2KGS 2:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/2/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The sons of the prophets. That is, the disciples of the prophets; who seem to have had their schools, like colleges or communities, in Bethel, Jericho, and other places, in the days of Elias and Eliseus. (Challoner) Many of these disciples might be also their children. Elias collected some fervent souls together even at Bethel, to preserve the true religion, as much as possible. He visited them before his departure. (Calmet) Peace: let not Elias hear us.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/2/3",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd403",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The sons of the prophets: That is, the disciples of the prophets; who seem to have had their schools, like colleges or communities, in Bethel, Jericho, and other places in the days of Elias and Eliseus.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/2/3",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa062",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 2:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

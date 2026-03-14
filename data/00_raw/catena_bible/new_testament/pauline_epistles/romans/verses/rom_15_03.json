@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 15:3",
+  "verse_text": "Verse text for ROM 15:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/15/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "For even Christ pleased not himself; but, as it is written, The reproaches of them that reproached you fell on me. In the sixtyeighth Psalm [lxx] the Savior says that he did not come to please himself but God the Father. For because he said: “I did not come down from heaven to do my will but the will of him who sent me,” the Jews objected and put him to death as a sinner. Therefore the psalmist puts himself in Christ’s place and says: “The reproaches of those who reproached thee fell on me. ” Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/3",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e534b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul always points to Christ’s selfsacrifice when he asks us to make sacrifices.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/3",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e534c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 15:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

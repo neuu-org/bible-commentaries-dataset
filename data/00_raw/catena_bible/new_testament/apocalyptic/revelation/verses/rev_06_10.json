@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 6:10",
+  "verse_text": "Verse text for REV 6:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/6/10",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "How long? They ask not this in hatred of their enemies, for whom they made supplication in this age: But in a love of justice, in which, as they who are placed near the Judge Himself, they agree with Him, they pray for the coming of the day of judgement, in which the reign of sin may be destroyed, and the resurrection of their lifeless bodies may come. For we also, in the present time, when we are commanded to pray for our enemies, say nevertheless, when we pray to the Lord, \"Thy kingdom come.\" <a",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/6/10",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9bc4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "voice: The great cry of the souls is their great desire for those things which they know that the Lord wills to do. For it is not right to suppose, that they wish for anything against the good pleasure of God, when their desires are dependent upon His will.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/6/10",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9bc3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Cry in jealousy unto the Lord \"How long, Lord, dost Thou not avenge our blood on the inhabitants of the earth? \"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/6/10",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb870",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 6:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

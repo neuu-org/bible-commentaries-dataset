@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 33:14",
+  "verse_text": "Verse text for IS 33:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/33/14",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of you. Hebrew, \"of us. \"(Haydock)\nThey are seriously alarmed at the sight of the fires prepared to burn the dead bodies of the Assyrians, (chap. xxx. 33.) and begin to think of hell, (Calmet) which their sins deserve. (Haydock)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/33/14",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "The Scripture itself … expressly distinguishes between Abraham’s bosom, where the poor man dwells, and the infernal place of torment. “Hell” (I take it) means one thing, and “Abraham’s bosom” another. “A great gulf” is said to separate those regions and to hinder a passage from one to the other. Besides, the rich man could not have “lifted up his eyes,” and from a distance too, except to a superior height, and from the said distance all up through the vast immensity of height and depth. … There is some determinate place called Abraham’s bosom, and it is designed for the reception of souls of Abraham’s children, even from among the Gentiles (since he is “the father of many nations,” which must be classed amongst his family), and of the same faith as that with which he himself believed God, without the yoke of the law and the sign of circumcision. This region, therefore, I call Abraham’s bosom. Although it is not in heaven, it is yet higher than hell, and it is appointed to afford an interval of rest to the souls of the righteous, until the consummation of all things shall complete the resurrections of all people with the “full recompense of their reward. ” This consummation will then be manifested in heavenly promises. … Amos, however, tells us of “those stories towards heaven” which Christ “builds”—of course for his people. There also is that everlasting abode of which Isaiah asks, “Who shall declare to you the eternal place, but he (that is, of course, Christ) who walks in righteousness, speaks of the straight path, and hates injustice and iniquity. ” Now, although this everlasting abode is promised, and the ascending stories (or steps) to heaven are built by the Creator, who further promises that the seed of Abraham shall be even as the stars of heaven, by virtue certainly of the heavenly promise, why may it not be possible, without any injury to that promise, that by Abraham’s bosom is meant some temporary receptacle of faithful souls, wherein is even now delineated an image of the future and where is given some foresight of the glory of both judgments.",
+      "commentary_number": "2/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/is/33/14",
+      "full_content_url": "https://catenabible.com/com/5e4f7fbdc849cf49a740e447",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Verecundus of Junca",
+      "period": "AD552",
+      "content": "“He looked upon them, and the nations shook and the mountains quickly scattered.” The sight of the Lord shattered what was hardened and melted what was tightly compact, so that the truth expressed by Isaiah might be evident, for God is a living fire who advances to purify, not to kill: “Who among you can dwell with the devouring fire, or who among you can walk with eternal flames?” Whomever he looks upon, therefore, and touches with his warmth, he melts on the spot. Consequently, when he will later look upon the nations with mercy and judge them to be most worthy of redemption through his Christ, immediately their hardness will be shattered.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/33/14",
+      "full_content_url": "https://catenabible.com/com/5e4f7fbdc849cf49a740e448",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 33:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

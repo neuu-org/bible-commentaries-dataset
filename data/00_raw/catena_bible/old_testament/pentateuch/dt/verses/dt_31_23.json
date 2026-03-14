@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 31:23",
+  "verse_text": "Verse text for DT 31:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/31/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he gave Joshua the son of Nun a charge, and said, Be strong and of a good courage: for you shall bring the children of Israel into the land which I swore unto them: and I will be with you. Hebrew has not this word, so that it would seem as if Moses had given this charge to Josue; but the context shows (Calmet) that it was the Lord; (ver. ) for he swore to give the land of Israel. The Septuagint insert the words Moses and the Lord. \"And Moses commanded Josue. The land which the Lord swore. \"(Haydock) This is the first time that God addresses Josue, in order to confirm his authority. (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/31/23",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcadb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 31:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

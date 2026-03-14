@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 49:16",
+  "verse_text": "Verse text for PS 49:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/49/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Perchance thy heart saith, Wretch that I am, I suppose to no purpose I have believed, God doth not regard things human. God therefore doth awaken us: and He saith what. \"Fear not, though a man have become rich\" (ver. For why didst thou fear, because a man hath become rich. Thou didst fear that thou hadst believed to no purpose, that perchance thou shouldest have lost the labour for thy faith, and the hope of thy conversion: because perchance there hath come in thy way gain with guilt, and thou couldest have been rich, if thou hadst seized upon that same gain with the guilt, and neededst not have laboured; and thou, remembering what God hath threatened, hast refrained from guilt, and hast contemned the gain: thou seest another man that hath made gain by guilt, and hath suffered no harm; and thou fearest to be good. \"Fear not,\" saith the Spirit of God to thee, \"though a man shall have become rich. \" Wouldest thou not have eyes but for things present. Things future He hath promised, who hath risen again; peace in this world, and repose in this life, He hath not promised. Every man doth seek repose; a good thing he is seeking, but not in the proper region thereof he is seeking it. There is no peace in this life; in Heaven hath been promised that which on earth we are seeking: in the world to come hath been promised that which in this world we are seeking.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/49/16",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a76",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 49:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

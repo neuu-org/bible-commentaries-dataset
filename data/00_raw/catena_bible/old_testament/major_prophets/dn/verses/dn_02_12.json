@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 2:12",
+  "verse_text": "Verse text for DN 2:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/2/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The Hebrews raise the question of why Daniel and the three lads did not enter before the king along with the other wise men, and why they were ordered to be slain with the rest when the decree was issued. They have explained the difficulty in this way, by saying that at that time, when the king was promising rewards and gifts and great honor, they did not care to go before him, lest they should appear to be shamelessly grasping after the wealth and honor of the Chaldeans. Or else it was undoubtedly true that the Chaldeans themselves, being envious of the Jews' reputation and learning, entered alone before the king, as if to obtain the rewards by themselves. Afterwards they were perfectly willing to have those whom they had denied any hope of glory to share in a common peril.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/2/12",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd27e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 2:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 5:1",
+  "verse_text": "Verse text for JER 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Run to and fro through the streets of Jerusalem, and see now, and know, and seek in its broad places, if you can find a man, if there is any that executes justice, that seeks the truth; and I will pardon it. Go, Jeremias, and you who publicly adhere to me. Sodom would have been spared for the sake of ten just people, Genesis xviii. Before the reform of Josias, Jerusalem was strangely corrupted, though these expressions be hyperbolical, and spoken as it were in the heat of debate. Josias, Holda, and others, were living at this time, and renowned for their piety.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/5/1",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bec61",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "After the address of the Lord in which he commanded, “go throughout Jerusalem,” and so on, the prophet addresses the Lord in return: “Lord, your eyes look for faith,” which is ʾemûnā in Hebrew, referring not to the works of the Jews, in which they exulted according to ceremonies of the law, but to the faith of Christians, through which we are saved by faith. In this chapter, therefore, we learn that supplications are brought for the correction of our faults. This is why he says, “You struck them, and they did not grieve; you wore them out, but they refused to accept discipline.” For Jerusalem was emended through many torments and chastisements and was found to have no shame for their faults after all of this, but with rock-hard shamelessness on their brow, they would not convert to the better way.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/5/1",
+      "full_content_url": "https://catenabible.com/com/5e9360e6d87c4a70874ae167",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

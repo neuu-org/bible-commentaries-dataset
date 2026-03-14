@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 5:4",
+  "verse_text": "Verse text for ROM 5:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/5/4",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "It is clear that if endurance is of the quality we have said, our character will be quite strong. That there should be hope in someone who has been tried and tested is perfectly reasonable. One who is thus made worthy is sure to receive a reward in the kingdom of God. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/5/4",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4eb7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Endurance is directed toward future hope. Hope is directed toward the reward and restitution of hope.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/5/4",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4eb6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "\"For patience \"he says, \"worketh experience, and experience hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Spirit that is given to us.\"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/5/4",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb9ab",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And patience, experience; and experience, hope: Endurance produces character, which contributes in some measure to the things which are to come because it gives power to the hope which is within us. Nothing encourages a man to hope for blessing more than the strength of a good character. No one who has led a good life worries about the future…. Does our good really lie in hope. Yes, but not in human hopes, which often vanish and leave only embarrassment behind. Our hope is in God and is therefore sure and immovable.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/5/4",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4eb8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 5:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

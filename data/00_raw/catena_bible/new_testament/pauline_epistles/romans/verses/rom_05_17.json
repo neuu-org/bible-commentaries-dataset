@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 5:17",
+  "verse_text": "Verse text for ROM 5:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/5/17",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul says that death reigned, not that it is now reigning. Those who understand the limits of the law—what the future judgment of God will be—have been delivered from its control. Death reigned, because without the revelation of the law there was no fear of God on earth. But the higher meaning is that, since death reigned from Adam to Moses over those who sinned according to the transgression of Adam, how much more will grace reign by the abundance of God’s gift of life through the one Jesus Christ. For if death reigned, why should grace not reign even more, since it has justified far more people than the number over whom death reigned? Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/5/17",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f01",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "“Much more will those reign” pertains to eternal life; “those who receive the abundance of grace” pertains to the forgiveness of many sins.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/5/17",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f04",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Concurring with these statements, Paul, speaking to the Romans, declares: \"Much more they who receive abundance of grace and righteousness for",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/5/17",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb9bc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For if by one man's offense death reigned by one; much more they who receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ. ) Paul speaks of an abundance of grace to show that what we have received is not just a medicine sufficient to heal the wound of sin, but also health and beauty and honor, and glory and dignity far transcending our natural state. Each of these in itself would have been enough to do away with death, but when they are all put together in one there is not a trace of death left, nor can any shadow of it be seen, so entirely has it been done away with.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/5/17",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f02",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 5:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

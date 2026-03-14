@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 8:37",
+  "verse_text": "Verse text for LK 8:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/8/37",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Then the whole multitude (the whole city, S. ) of the country of the Gadarenes round about besought Him to depart from them. They did not make their request out of humility, because they considered themselves unworthy of the presence of Christ, as S. Jerome thinks, but out of distrust and fear, lest His continuing amongst them might cause them further loss. For they knew that Jesus was a Jew by nation, a holy Prayer of Manasseh , and possessed of divine power, and that they were Gentiles of an alien race. They therefore feared lest He might inflict further punishment upon them because of their different religion and their past sins. They feared as did the widow of Sarepta, when she exclaimed, \"What have I to do with thee, 0 thou man of God. Art thou come unto me to call my sin to remembrance, and to slay my son. \" Therefore not from any ill-will, but rather from a reverential awe, they besought Jesus to depart out of their coasts. For sinners, knowing that righteousness and sin cannot exist together, fear the presence of holy men, because of the zeal with which they seek the correction of sinners and the punishment of sin. And He went up into the ship, and returned back again, from the country of the Gadarenes to Capernaum. For He would not force Himself or His ministration on those who were unwilling to receive them.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/37",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f78",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 8:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

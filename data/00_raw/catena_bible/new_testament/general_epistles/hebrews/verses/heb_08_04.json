@@ -1,0 +1,36 @@
+{
+  "verse_reference": "HEB 8:4",
+  "verse_text": "Verse text for HEB 8:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/8/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And in another way; Having said that He is on high, he affirms and proves that He is a Priest from every consideration, from Melchisedec, from the oath, from offering sacrifice. From this he also frames another and necessary syllogism. For if (he says) He had been on earth, He would not be a Priest, seeing that there are priests who offer the gifts according to the Law. If then He is a Priest (as He really is), we must seek some other place for Him. For if He were indeed on earth, He should not be a priest. For how [could He be]? He offered no sacrifice, He ministered not in the Priest's office. And with good reason, for there were the priests. Moreover he shows, that it was impossible that [He] should be a priest upon earth. For how [could He be]? There was no rising up against [the appointed Priests], he means.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/8/4",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac7f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 8:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

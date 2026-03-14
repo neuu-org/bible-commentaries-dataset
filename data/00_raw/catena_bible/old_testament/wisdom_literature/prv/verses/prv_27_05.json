@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 27:5",
+  "verse_text": "Verse text for PRV 27:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/27/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "It is surely clear that concealing sin contributes to the death of the sick person, “for the sting of death is sin,” says the Scripture, and also, “Open rebukes are better than hidden love.” Let no one, therefore, conceal a sin in behalf of another, lest fratricide take the place of fraternal charity.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/27/5",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c859c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Love. Which can be of no service to us, while reproof may cause us to amend.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/27/5",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be75a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 27:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

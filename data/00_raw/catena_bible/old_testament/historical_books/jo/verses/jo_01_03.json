@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 1:3",
+  "verse_text": "Verse text for JO 1:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/1/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Moses. Thus the preceding permission, which the Jews extend, as if God had authorized them to conquer the whole world, is limited. (Haydock) See Deuteronomy xi. 24.\nTheir right to the land of Chanaan depends on this grant of God, who is the Lord of all things, and who thus took away all the privileges of the former inhabitants. But the warrant of destruction only regarded the people of Chanaan. Those who lived towards the Euphrates, were obliged only to pay tribute by David and Solomon, though their country formed part of what had been promised to the Israelites. They might have possessed all that region, if they had proved faithful. The limits of the promised land vary, as they are considered under various lights. (Calmet)\nThe desert of Arabia Petrea and Antilibanus formed the boundaries on the south and on the north, the Euphrates and Mediterranean were on the east and west, when the territories of the Israelites were considered in their utmost extent. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/1/3",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb2d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 1:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 3:7",
+  "verse_text": "Verse text for PRV 3:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/3/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Ignorance is constantly, so to speak, accompanied by rashness and leads people on to attach great importance to their wretched fancies. Thus those who are the victims of this malady entertain a great idea of themselves and imagine themselves possessed of such knowledge as no one can gainsay. For they forget, it seems, Solomon, who says, “Be not wise in your own eyes,” that is, according to your own single judgment; and again, that “wisdom not put to the proof goes astray.” For we do not necessarily possess true opinions upon every individual doctrine that we hold, but often perhaps abandoning the right path, we err and fall into that which is not fitting. But I think it right that exercising an impartial and unprejudiced judgment, and not rendered rash by passion, we should love the truth, and eagerly pursue it. Commentary on Luke, Homily",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/3/7",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c83a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Fulgentius of Ruspe",
+      "period": "AD533",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Be not wise in your own eyes: fear the LORD, and depart from evil. Fulgentius of Ruspe If there are any who are even in the catholic church and live evil lives, before they finish this life, let them hasten to give up the evil life, and let them not think that the catholic name is enough for salvation, if they do not do the will of God. … In Proverbs each one of us is commanded both to fear the Lord and to depart from evil. There it is said, “Fear the Lord and turn away from evil. It will be a healing for your flesh and a refreshment for your body.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/3/7",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c83a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 3:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

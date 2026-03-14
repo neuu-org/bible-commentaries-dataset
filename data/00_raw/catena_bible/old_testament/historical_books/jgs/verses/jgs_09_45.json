@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 9:45",
+  "verse_text": "Verse text for JGS 9:45",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/9/45",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sowed salt. To make the ground barren, and fit for nothing; (Challoner) and to testify his eternal hatred towards the place, as salt is the symbol of duration. See Deuteronomy xxix. 23., Sophonias ii. 9., and Jeremias xvii. 6.\nSalsa autem tellusquæ perhibetur amara\nFrugibus infelix. (Virgil, Georg. ii.) Notwithstanding the fury of Abimelech, Sichem was afterwards rebuilt, and became as fertile as before. The city of Milan was destroyed and sowed with salt in 1162. (Sigon.)\nThe houses of traitors were formerly treated in this manner in France, (Bran tome) as was that of the admiral de Chatillon. (Calmet)\nSee on this custom Bo chart, animal. iii. 16.\nSome think it denoted that the ground might henceforth be cultivated, and grow corn where houses had stood. Salt is the source of fertility, if there be not too much of it. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/9/45",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd72",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Sowed salt: To make the ground barren, and fit for nothing.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/9/45",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa01f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 9:45",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

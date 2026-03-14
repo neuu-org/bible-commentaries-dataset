@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 109:29",
+  "verse_text": "Verse text for PS 109:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/109/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "29. \"As for me, I will confess greatly unto the Lord with my mouth\" (ver. 29). ...Is He said to \"praise among the multitude\" because He is with His Church here even unto the end of the world; so that we may understand by \"among the multitude,\" that He is honoured by this very multitude? For he is said to be in the midst, unto whom the chief honour is paid. But if the heart is, as it were, that which is mid-most of a man, no better construction can be put on this passage than this, I will praise Him in the hearts of many. For Christ dwelleth through faith in our hearts; and therefore he saith, \"with my mouth,\" that is, with the mouth of my body, which is the Church.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/109/29",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Many. In the Catholic Church, (Haydock) till the end of the world. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/109/29",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 109:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 37:24",
+  "verse_text": "Verse text for PS 37:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/37/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Though he fall, he shall not be utterly cast down; for the Lord upholdeth his hand\" (ver. See what it is \"to delight in\" Christ's \"way. \" Should it happen that he suffers some tribulation; some forfeiture of honour, some affliction, some loss, some contumely, or all those other accidents incident to mankind frequently in this life, he sets the Lord before him, what kind of trials He endured. and, \"though he fall he shall not be utterly cast down, for the Lord upholdeth his hand,\" because He has suffered before him. For what shouldest thou fear, O man, whose steps are ordered so, that thou shouldest \"delight in the way of the Lord\". What shouldest thou fear. Christ was scourged. Shouldest thou fear contumelies. He was reproached with, \"Thou hast a devil,\" who was Himself casting out the devils. Haply thou fearest faction, and the conspiracy of the wicked. Conspiracy was made against Him. Thou canst not make clear the purity of thy conscience in some accusation, and sufferest wrong and violence, because false witnesses are listened to against thee. False witness was borne against Him first, not only before His death, but also after His resurrection. On the Third Part of the Psalm.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/37/24",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69af",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Him. To break the fall. Hebrew, \"the Lord upholdeth him with his hand. \"(Protestants) (Haydock)\nThe just man is like a courageous wrestler, who may slip, but yields not. (Origen; Eusebius)\nHis fall is not mortal, (Calmet) though he may be guilty of venial sin, Proverbs xxiv. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/37/24",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdff6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 37:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

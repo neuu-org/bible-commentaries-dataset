@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 10:22",
+  "verse_text": "Verse text for ACTS 10:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/10/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This he had ordered them. Do not think he has done this out of contempt: not as of contempt has he sent, but so he was ordered. And Cornelius was waiting for them, and had called together his kinsmen and near friends.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/10/22",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92b6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And they said, Cornelius the centurion, a just man, and one that fears God, and of good report among all the nation of the Jews, was warned from God by a holy angel to send for you to come into his house, and to hear words from you. They speak his praises, so as to persuade him that an Angel has in fact appeared unto him. Then called he them in, (b) that they may suffer no harm, and lodged them: thenceforth he without scruple takes his meals with them. And on the morrow Peter went away with them, and certain brethren from Cæsarea accompanied him. And the morrow after, they entered into Cæsarea.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/10/22",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92ad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 10:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 10:3",
+  "verse_text": "Verse text for JO 10:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/10/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebron was about 24 miles south of Jerusalem, and Jeri moth 16. Lachis was a very famous city, (4 Kings xiv., and xviii. 14,) about nine miles south of Eleuthero polis, which was itself situated about 20,000 paces towards the south of Jerusalem; (I tin. Anton.) though some assert it was 22 or 32 miles distant. Eusebius and St. Jerome generally fix the situation of places by this city. Eglon was twelve miles to the eastward of it. The Septuagint read Odollam, (Calmet) which was either the same city, (Eusebius) or one probably near it, chap. xii. 12, 5.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/10/3",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcbb1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 10:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

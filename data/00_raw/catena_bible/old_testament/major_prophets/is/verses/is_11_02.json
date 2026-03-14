@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 11:2",
+  "verse_text": "Verse text for IS 11:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/11/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Him. In the form of a dove, John i. 32. (Haydock)\n\"The whole fountain of the Holy Spirit descending. \"(Ev. Nazar.) (St. Jerome)\nChrist was filled with his seven gifts, and of his fullness his servants receive. (Worthington)\nYet all virtues are the gifts of the holy Spirit, and the number seven is not specified in Hebrew, as the same word (Calmet) yirath, is rendered godliness, which (ver. 3.) means, the fear of the Lord. (Haydock)\nGod enables us to penetrate the difficulties of Scripture, and to act with prudence (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/11/2",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be94d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 11:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 11:6",
+  "verse_text": "Verse text for ECCL 11:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/11/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Better. Be kind to all during life, Galatians vi. 10. (Calmet)\nDo good, both in youth and in old age, (Worthington) lest, if thou shouldst grow remiss, all would be lost. (St. Jerome)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/11/6",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be849",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Peter of Alexandria",
+      "period": "AD311",
+      "content": "Let us turn now and ponder the word just as the natural philosopher has said, and let us know its power. “Sow your seed,” he said, “in the morning hour and do not cease in the evening hour. ” And I say according to my dull mind, “The morning hour is the young childhood of man, and the evening hour is old age. ” For infancy is in need of teaching and instruction for everyone so that they escape sin. Likewise moreover, he will continue to remember the sin into which he has fallen in the morning hour, which is his childhood, and he will not set his heart on his own teaching but will be first to the church, the school for little and great, and he will listen to the Scriptures inspired by God, that he might not be unmindful or fall but become new again through repentance. The word extends to us, too, we who are called “bishop” and “presbyter” and “teacher,” that we might continue to abide in the word of teaching every day from morning until evening every day, just as it is written, “Speak [and] do not be silent. ” I am speaking with you, he said, personally, so that you will not be ashamed. I will sow in you the Word of God, the seed of truth and life from the morning hour to the evening hour.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/11/6",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef28",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 11:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

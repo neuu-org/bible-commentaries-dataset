@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PHIL 3:8",
+  "verse_text": "Verse text for PHIL 3:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/3/8",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Yea doubtless, and I count all things but loss for the excellency of the knowledge of Christ Jesus my Lord: for whom I have suffered the loss of all things, and do count them but rubbish, that I may win Christ, Ambrose of Milan He had read that Abraham, when he confessed himself to be refuse and ashes, found God’s grace in his extreme humility. He had read that Job, sitting on his refuse heap, had recovered all his losses. He had read in David’s prophecy that “God raises the needy from the earth and the pauper from the refuse.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/8",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e534ec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you see, how everywhere he calls it loss, not in itself, but for Christ. Yea verily, and I count all things but loss. Wherefore again. For the excellency of the knowledge (of Him), for whom I suffered the loss of all things. Again, wherefore too I count all things to be loss, that I may gain Christ. See how, from every point, he lays hold of Christ as his foundation, and suffers not the Law to be anywhere exposed, or receive a blow, but guards it on every side. And that I may be found in Him, not having a righteousness of my own, even that which is of the Law. If he who had righteousness, ran to this other righteousness because his own was nothing, how much rather ought they, who have it not, to run to Him. And he well said, a righteousness of my own, not that which I gained by labor and toil, but that which I found from grace. If then he who was so excellent is saved by grace, much more are you. For since it was likely they would say that the righteousness which comes from toil is the greater, he shows that it is dung in comparison with the other. For otherwise I, who was so excellent in it, would not have cast it away, and run to the other. But what is that other. That which is from the faith of God, i. it too is given by God. This is the righteousness of God; this is altogether a gift. And the gifts of God far exceed those worthless good deeds, which are due to our own diligence.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/3/8",
+      "full_content_url": "https://catenabible.com/com/5755bff93c6effa740dddbfe",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "(in other words, ) it was not the God of the Jews, but their stupid obduracy, which he repudiates. These are also the things \"which he counts but dung for the excellency of the knowledge of Christ\".\n, for the purpose of \"winning the Lord; \"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/8",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb7cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 3:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "NM 16:32",
+  "verse_text": "Verse text for NM 16:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/16/32",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Then there were the miracles of the seditious among the people of God. They separated themselves from the divinely ordered community. They were swallowed alive by the earth, as a visible token of an invisible punishment.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/16/32",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52927",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the earth opened its mouth, and swallowed them up, and their households, and all the men that belonged unto Korah, and all their goods. Basil the Great In the Old Testament, as, for instance, in the case of Korah and the men who dared to enter the priesthood without being called to it and by the severity of the wrath which came upon them to their utter destruction, we see how grave a thing it is to do that which is unsuitable as regards the person. Concerning Baptism, Question.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/16/32",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52926",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the earth opened its mouth, and swallowed them up, and their households, and all the men that belonged unto Korah, and all their goods. Hebrew adds, \"all those who belonged to (or sided with) Core, and all their riches. \"Moses informs us, (chap. 10,) how some of Core's children were miraculously preserved. Their descendants were appointed by David to sing and to guard the doors of the temple, 1 Paralipomenon ix. (Calmet) Samuel was of the same family, 1 Paralipomenon vi.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/16/32",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc798",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 16:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

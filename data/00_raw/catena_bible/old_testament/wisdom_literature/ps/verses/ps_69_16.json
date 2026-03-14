@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 69:16",
+  "verse_text": "Verse text for PS 69:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/69/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Hearken unto me, O Lord, for sweet is Thy mercy\" (ver. He hath given this as a reason why He ought to be hearkened unto, because sweet is the mercy of God. To a man set in trouble the mercy of God must needs be sweet. Concerning this sweetness of the mercy of God see ye what in another place the Scripture saith: \"Like rain in drought, so beautiful is the mercy of God in trouble. \" That which there he saith to be \"beautiful,\" the same he saith here to be \"sweet. \" Not even bread would be sweet, unless hunger had preceded. Therefore even when the Lord permitteth or causeth us to be in any trouble, even then He is merciful: for He doth not withdraw nourishment, but stirreth up longing. Accordingly what saith he now, \"Hearken to me, O Lord, for sweet is Thy mercy\". Now do not Thou defer hearkening, in so great trouble I am, that sweet to me is Thy mercy. For to this end Thou didst defer to succour, in order that to me that wherewith Thou didst succour might be sweet: but now no longer is there cause why Thou must defer; my trouble hath arrived at the appointed measure of distress, let Thy mercy come to do the work of goodness. \"After the multitude of Thy pities have regard unto me:\" not after the multitude of my sins.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/69/16",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6b9b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 69:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

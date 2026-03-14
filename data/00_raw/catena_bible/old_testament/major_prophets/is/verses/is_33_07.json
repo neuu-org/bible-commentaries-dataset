@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 33:7",
+  "verse_text": "Verse text for IS 33:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/33/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "But if you want to see that the ancient prophets were terribly sad and aggrieved about the future blinding of their nation, which was the cause of our illumination, listen to Isaiah, for when he was sent to announce beforehand the grace of the Lord’s coming, saying that “a light has arisen upon those who dwell in the region of the shadow of death,” he responded immediately to the advent of the same light, saying “you have enlarged the nation; you have not increased its joy.” And elsewhere, while commemorating the despondency of this people, Isaiah said, among other things, “the messengers of peace will weep bitterly,” referring to the prophetic heralds of the divine word. Four Books on",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/33/7",
+      "full_content_url": "https://catenabible.com/com/5e4f7fbdc849cf49a740e446",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Behold, their valiant ones shall cry outside: the ambassadors of peace shall weep bitterly. The people of the country, and the envoys of Ezechias, 4 Kings xviii. Hebrew, \"Behold their Ariel, cried they without \"insultingly, (Calmet) pointing at Jerusalem, chap. At which (Haydock) the envoys rent their garments, chap. (Calmet) \"Behold I shall appear to them. \"(Aquila) (St. Jerome) Angels. Messengers or deputies sent to negotiate a peace, (Challoner) who wept because they could not obtain it. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/33/7",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea6b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 33:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

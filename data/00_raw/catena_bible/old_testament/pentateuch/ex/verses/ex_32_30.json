@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 32:30",
+  "verse_text": "Verse text for EX 32:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/32/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "You. Many who had not been slain, had followed the bad example, and Aaron, in particular, had brought upon them a most heinous sin, ver. 21. Yet on account of their repentance, they were not subjected to immediate punishment; but they were visited afterwards, ver. 34. Though God was appeased, (ver. 14,) so as not to destroy the whole multitude, Moses thought it a very arduous task to obtain a full reconciliation, notwithstanding the exemplary vengeance he had taken of the ringleaders. Hence he addresses himself to God with the greatest humility, and with such earnestness as scarcely seems justifiable, if we understand that he put his own eternal salvation at stake. But he makes an impossible supposition, or proposal, which he knew God would not admit, to extort as it were the requested favour. As he is willing to die for his people, God pardons them for his sake. (St. Augustine, q. 147) (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/32/30",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc4ab",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "By a threefold confession Peter blotted out his threefold denial. If Aaron committed sacrilege by fashioning molten gold into the head of a calf, his brother’s prayers made amends for his transgressions. If holy David, meekest of men, committed the double sin of murder and adultery, he atoned for it by a fast of seven days.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/32/30",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e528c1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 32:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

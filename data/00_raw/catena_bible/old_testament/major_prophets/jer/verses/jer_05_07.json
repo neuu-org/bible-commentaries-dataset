@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 5:7",
+  "verse_text": "Verse text for JER 5:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/5/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Didascalia Apostolorum",
+      "period": "AD230",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh How shall I pardon you for this. your children have forsaken me, and sworn by them that are no gods: when I had fed them to the full, they then committed adultery, and assembled themselves by troops in the harlots' houses. We must conduct our festivals and rejoice with fear and trembling. A faithful Christian, the psalm says, must not sing the songs of the heathen or have anything to do with the principles and doctrines of strange assemblies. It may happen that through their songs, he might make mention of the names of idols, which God forbids the faithful to do. The Lord scolds certain people through Jeremiah and says, “Your children have forsaken me, and have sworn by those who are no gods.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/5/7",
+      "full_content_url": "https://catenabible.com/com/5e9360e8d87c4a70874ae16e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "How can. I have only the character of judge left. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/5/7",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bec66",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 5:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

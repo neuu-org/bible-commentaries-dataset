@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 22:14",
+  "verse_text": "Verse text for REV 22:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/22/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "That they may have a right or power to eat of the tree of life. A right grounded on the promises of God and his graces. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/22/14",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c04ee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Blessed are they that do his commandments, that they may have right to the tree of life, and may enter in through the gates into the city. Tertullian of Carthage \"Inserting thus the particle of present time, \"And now \"He shows that He had made for a time, and at present, a prolongation of man's life. Therefore He did not actually. \"Thus, too, again \"Blessed they who act according to the precepts, that they may have power over the tree of life and over the gates, for entering into the holy city. Dogs, sorcerers, fornicators, murderers, out.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/22/14",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb905",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 22:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

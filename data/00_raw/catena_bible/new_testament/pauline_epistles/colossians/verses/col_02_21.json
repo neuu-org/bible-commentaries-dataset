@@ -1,0 +1,47 @@
+{
+  "verse_reference": "COL 2:21",
+  "verse_text": "Verse text for COL 2:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/2/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Touch not That is, why do you permit yourselves to be taught in this manner by those Jewish doctors: why do you touch or eat this, lest you be unclean? such superstitious observations, now at least, when there is no necessity nor obligation for you to observe them, tend to destruction (Witham)\nThe meaning is, that Christians should not subject themselves, either to the ordinances of the old law, forbidding touching or tasting things unclean: or to the superstitious invention of heretics, imposing such restraints, under pretence of wisdom, humility, or mortification. (Challoner)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/2/21",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c01a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "You are not in the world, he says, how is it you are subject to its elements? How to its observances? And mark how he makes sport of them, touch not, handle not, taste not, as though they were cowards and keeping themselves clear of some great matters, all which things are to perish with the using. He has taken down the swollenness of the many, and added, after the precepts and doctrines of men. What do you say? Do you speak even of the Law? Henceforth it is but a doctrine of men, after the time has come. Or, because they adulterated it, or else, he alludes to the Gentile institutions. The doctrine, he says, is altogether of man.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/2/21",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddcd8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 2:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

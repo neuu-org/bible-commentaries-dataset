@@ -1,0 +1,47 @@
+{
+  "verse_reference": "RU 2:2",
+  "verse_text": "Verse text for RU 2:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ru/2/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Does the widow Naomi seem to you of small account, who supported her widowhood on the gleanings from another’s harvest, and who, when heavy with age, was supported by her daughter-in-law? It is a great benefit both for the support and for the advantage of widows that they so train their daughters-in-law as to have in them a support in full old age, and, as it were, payment for their teaching and reward for their training. For to her who has well taught and well instructed her daughter-in-law a Ruth will never be wanting who will prefer the widowed life of her mother-in-law to her father’s house, and if her husband also be dead, will not leave her, will support her in need, comfort her in sorrow and not leave her if sent away; for good instruction will never know need. So that Naomi, deprived of her husband and her two sons, having lost the offspring of her fruitfulness, did not lose the reward of her pious care, for she found both a comfort in sorrow and a support in poverty.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ru/2/2",
+      "full_content_url": "https://catenabible.com/com/5de472978b87fe0847ee88bf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "my daughter: Booz was already a man of advanced age. It is certainly clear that she was a young girl in comparison to him, because he called her daughter. (Nicholas of Lyra Com Ruth)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ru/2/2",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9ce3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured RU 2:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

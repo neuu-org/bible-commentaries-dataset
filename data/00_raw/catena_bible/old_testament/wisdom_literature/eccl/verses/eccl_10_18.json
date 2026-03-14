@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ECCL 10:18",
+  "verse_text": "Verse text for ECCL 10:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/10/18",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Through. If we neglect our own, or other's soul, (Haydock) in the administration of Church, (St. Jerome) or state, all will go to ruin.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/10/18",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be841",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Our house, which was built to human stature, along with the habitation we shall have in heaven, will collapse if we are lazy and hesitant to do good works. And every floor that depends upon a rafter for support will crush its inhabitant when it falls to the ground. It is when the assistance of our hands and our strength is lacking that all the storm clouds and violent winds from above burst forth upon us. Moreover, because we translated this verse in the singular, it is better to understand it as pertaining to the church, all of whose sublimity will be ruined through the negligence of its leaders. And where the roof is thought to be strong, there will be found the enticements of wickedness.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/10/18",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef16",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh By much slothfulness the building decays; and through idleness of the hands the house leaks. A house never suddenly collapses except because of some old weakness in the foundation or because of extended disregard by its tenants. Thus the structure of the roof is eventually destroyed by what had begun as a tiny leak but into which, through long neglect, a stormy tempest of rain pours like a river, once a large breach has been made. For “by slothfulness a dwelling will be brought low, and through lazy hands a house will leak.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/10/18",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef15",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "But as long as we are among the living, while the foundation of our true faith continues unshattered, even if somewhat of the outer roofwork or inner building be disabled, it is allowed to renew by repentance the part rotted by sins.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/10/18",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef17",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 10:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

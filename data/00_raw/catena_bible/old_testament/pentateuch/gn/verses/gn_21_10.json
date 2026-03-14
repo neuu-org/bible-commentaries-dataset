@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 21:10",
+  "verse_text": "Verse text for GN 21:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/21/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "Then Sarah, who showed no envy in any matter that concerned herself, became envious in this matter concerning her son. She was not envious of Hagar whom she had given to her husband. Since it was a matter of God’s promise, and the son of the concubine thought that he would be coheir with the son of the freewoman, Sarah said, “Cast out the slave woman and her son, because it is not just that a son of a handmaid should have any inheritance together with that son of the promise, to whom it was promised by God. It is not right that you be opposed to God and make an heir him whom God has not made an heir.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/21/10",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51abf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 21:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

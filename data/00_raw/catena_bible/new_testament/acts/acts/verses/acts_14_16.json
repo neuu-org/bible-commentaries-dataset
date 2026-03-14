@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 14:16",
+  "verse_text": "Verse text for ACTS 14:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/14/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He left not himself without testimony. Inasmuch as the Gentiles had always the light of reason, and such lights, that by the created things of this world, and from the visible effects of God's providence, they might have come to the knowledge of the true God, the creator of all things. See Romans chap. i. (Witham)\nGod did not leave himself without testimony among the Gentiles. He did not leave them without the means of discovering the way which led to him. They had the law of nature engraved in their hearts, the knowledge of good and evil (Menochius)\nTherefore they were inexcusable, if they did not know him. The invisible things of God, his eternal divinity might have been known to them from the consideration of the visible creation. (Romans i. 20.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/14/16",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfdfa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Who in times past allowed all nations to walk in their own ways. but wherefore He suffered them, this he does not say, for at present he keeps to the matter of immediate importance, nowhere bringing in the name of Christ. Observe, he does not wish to swell the accusation against them, but rather that they themselves should refer all to God. Nevertheless, He left not Himself without witness, in that He did good, giving you rain from heaven, and fruitful seasons, filling your hearts with food and gladness.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/16",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b936d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 14:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 7:5",
+  "verse_text": "Verse text for JN 7:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/7/5",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "For neither did His brethren believe in Him. They so freely and boldly urged Jesus to come with them to Jerusalem, because they did not fully believe that He was the Christ. For had they believed it, they would not have dared to speak to Him so freely. So says Euthymius. For though they saw Him work so many miracles, and did not doubt their truth, yet they doubt whether He were the Messiah and the Son of God. For though they wished it to be true, and partly believed it on account of His many miracles, yet on the other hand they doubted when they saw Him so poor and despised. To make certain they urge Christ to go with them to Jerusalem, where the Scribes and Priests could, on examination had, declare Him to be the Christ, and thus Hebrews , and they through Him, might gain honour and celebrity.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/7/5",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e521b8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Neither did his brethren believe in him; by his brethren here, we are to understand his kindred, his townsmen or countrymen, at or about Nazareth. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/7/5",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfc01",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Answer denies His mother and brethren for the present, as even Apelles might learn. \"The Lord's brethren had not yet believed in Him.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/7/5",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb43b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 7:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

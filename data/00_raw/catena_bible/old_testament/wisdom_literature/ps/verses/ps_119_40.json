@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:40",
+  "verse_text": "Verse text for PS 119:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/40",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "41. \"Behold, I have coveted Thy commandments: O quicken Thou me in Thy righteousness\" (ver. 40). Behold, I have coveted to love Thee with all my heart, and with all my soul, and with all my mind, and my neighbour as myself, but, \"O quicken Thou me\" not in my own, but \"in Thy righteousness,\" that is, fill me with that love which I have longed for. Aid me that I may do that which Thou chargest me: Thyself give what Thou dost command. \"O quicken Thou me in Thy righteousness:\" for in myself I had that which would cause my death: but I find not save in Thee whence I may live. Christ is Thy righteousness, \"Who of God is made unto us wisdom,\" etc. And in Him I find Thy commandments, which I have coveted, that in Thy righteousness, that is, in Him, Thou mayest quicken me. For the Word Himself is God; and \"the Word was made flesh,\" that He Himself also might be my neighbour.\n\nVav.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/40",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e662a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Quicken. The just prays for greater perfection, and for perseverance. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/40",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3fb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

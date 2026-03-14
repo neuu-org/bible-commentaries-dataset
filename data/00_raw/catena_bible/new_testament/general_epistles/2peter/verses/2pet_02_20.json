@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2PET 2:20",
+  "verse_text": "Verse text for 2PET 2:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2pt/2/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For if after they have escaped the defilements of the world through the knowledge of the Lord and Savior Jesus Christ, they are again entangled therein, and overcome, the latter end is worse with them than the beginning. For if flying, and been happily freed from the pollutions, the abominations, and corruptions of a wicked world, be upon your guard, and take great care not to be entangled again in these dangerous snares and nets, lest your latter condition (as Christ said, Matthew xii. ) be worse than the former, lest you be like a dog that returns to his vomit, or like a sow that is washed and wallows again in the mire.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/2/20",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03db",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2PET 2:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

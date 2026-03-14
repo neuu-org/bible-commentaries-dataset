@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 7:23",
+  "verse_text": "Verse text for ECCL 7:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/7/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thy. We must be satisfied with a good conscience, as we cannot control the thoughts and words of all. (St. Ambrose, Of. i. 1.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/7/23",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be80a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "Now the subject of God is harder to come at, in proportion as it is more perfect than any other, and is open to more objections, and the solutions of them are more laborious. For every objection, however small, stops and hinders the course of our argument and cuts off its further advance, just like people who suddenly check with the rein the horses in full gallop and turn them right around by the unexpected shock. Thus Solomon, who was the wisest of all whether before him or in his own time, to whom God gave breadth of heart, and a flood of contemplation, more abundant than the sand, even he, the more he entered into profundities, the more dizzy he became. And he declared the furthest point of wisdom to be the discovery of how very far away wisdom was from him. On Theology, Theological Oration ()..",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/7/23",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19eed0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 7:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

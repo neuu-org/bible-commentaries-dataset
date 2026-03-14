@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 34:14",
+  "verse_text": "Verse text for PS 34:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/34/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But what is, \"Depart from evil\". It is little that thou injure none, murder none, steal not, commit not adultery, do no wrong, speak no false witness; \"Depart from evil. \" When thou hast departed, thou sayest, Now I am safe, I have done all, I shall have life, I shall see good days. Not only saith he, \"Depart from evil,\" but also, \"and do good. \" It is nothing that thou spoil not: clothe the naked. If thou hast not spoiled, thou hast declined from evil; but thou wilt not do good, except thou receive the stranger into thine house. So then depart from evil, as to do good. \"Seek peace, and ensue it. \" He hath not said, Thou shalt have peace here; seek it, and ensue it. Whither shall I ensue it. Whither it hath gone before. For the Lord is our peace, hath risen again, and hath ascended into Heaven. \"Seek peace, and ensue it;\" because when thou also hast risen, this mortal shall be changed, and thou shall embrace peace there where no man shall trouble thee. For there is perfect peace, where thou wilt not hunger.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/34/14",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e696e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Depart from evil, and do good; seek peace, and pursue it. It will not suffice to refrain from criminal actions, Psalm xxxvi. Peace, both private and public, Jeremias xxix. (Calmet) A person may, notwithstanding, have much to suffer. Peter prevents this objection, by proclaiming those happy who suffer for justice sake, ver. (Berthier) Good works are necessary as well as faith. (Worthington) Nam frustra vitium vitaveris illud Si te alio pravum detorseris. (Horace, ii.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/34/14",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdfae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 34:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

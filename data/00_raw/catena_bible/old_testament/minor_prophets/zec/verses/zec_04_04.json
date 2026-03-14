@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ZEC 4:4",
+  "verse_text": "Verse text for ZEC 4:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/4/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Nevertheless we can find out who was the creator of this paradise. We read in Genesis that God planted a garden to the east, and he put there the man he had formed. Who had the power to create paradise, if not almighty God, who “spoke and they were made” and who was never in want of the thing which he wished to bring into being? He planted, therefore, that paradise of which he says in his wisdom: “Every plant which my Father has not planted will be rooted up.” This is a goodly plantation, for angels and saints are said to lie beneath the fig tree and the vine. In this respect they are the type of the angels in that time of peace which is to come.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/4/4",
+      "full_content_url": "https://catenabible.com/com/5838db40205c248f42e52b71",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 4:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

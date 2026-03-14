@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:70",
+  "verse_text": "Verse text for PS 119:70",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/70",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Their heart is as gross as grease; but I delight in your law. Augustine of Hippo 69. \"Their heart is curdled as milk\" (ver. Whose, save the proud, whose iniquity he hath said hath been multiplied upon him. But he wisheth it to be understood by this word, and in this passage, that their heart hath become hard. It is used also in a good sense, and is understood to mean, full of grace: for this word, some have also interpreted \"curdled.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/70",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6643",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Curdled. Grown hard, like milk that is curdled and turned to cheese. (Challoner)\nHebrew, \"like fat. \"They have no compassion or wisdom, Isaias vi. 10. (Calmet)\nWithout the points, cheleb means also milk. (Berthier)\nThe wicked combine together for my ruin: but I will still be faithful. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/70",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be415",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:70",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

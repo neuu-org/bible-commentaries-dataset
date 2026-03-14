@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 13:9",
+  "verse_text": "Verse text for ZEC 13:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/13/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And I will bring the third part through the fire, and will refine them as silver is refined, and will test them as gold is tested: they shall call on my name, and I will hear them: I will say, They are my people: and they shall say, The LORD is my God. The Church was persecuted during the first centuries; but always became more pure, and the blood of martyrs increased her numbers. (Calmet) She faithfully adhered to God. (Haydock) The Jews say this will not take place at last: \"but we assert that it is already accomplished.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/13/9",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf60c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "These cases occur in persecutions more than at other times (for it is then that we are approved or condemned, humbled or corrected). Their general occurrence is permitted or commanded by him at whose will they happen even partially; by him, I mean, who says, “I am he who makes peace and creates evil”—that is, war, for that is the antithesis of peace. But what other war has our peace than persecution. If in its issues persecution emphatically brings either life or death, either wounds or healing, you have the author too of this. “I will smite and heal, I will make alive and put to death. ” “I will burn them,” he says, “as gold is burned; and I will try them,” he says, “as silver is tried,” for when the flame of persecution is consuming us, then the steadfastness of our faith is proved. These will be the fiery darts of the devil, by which faith gets a ministry of burning and kindling; yet by the will of God. As to this I do not know who can doubt, unless it be persons with frivolous and frigid faith, which seizes upon those who with trembling assemble together in the church. For you say, seeing we assemble without order, and assemble at the same time, and flock in large numbers to the church, the heathen are led to make inquiry about us, and we are alarmed lest we awaken their anxieties. Do you not know that God is Lord of all. And if it is God’s will, then you shall suffer persecution; but if it is not, the heathen will be still. Believe it most surely, if indeed you believe in that God without whose will not even the sparrow, which a penny can buy, falls to the ground. But we, I think, are better than many sparrows.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/zec/13/9",
+      "full_content_url": "https://catenabible.com/com/5838db41205c248f42e52bb1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 13:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

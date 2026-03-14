@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 122:9",
+  "verse_text": "Verse text for PS 122:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/122/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "14. \"Because of the house of the Lord my God, I have sought good things for thee\" (ver. 9). Not on my own account have sought good things, for then I should not seek for thee, but for myself; and so should I not have them, because I should not seek them for thee; but, \"Because of the house of the Lord my God,\" because of the Church, because of the Saints, because of the pilgrims; because of the poor, that they may go up; because we say to them, we will go into the house of the Lord: because of the house of the Lord my God itself, I have sought good things for Thee. These long and needful words gather ye, brethren, eat them, drink them, and grow strong, run, and seize.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/122/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66bf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 122:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 115:2",
+  "verse_text": "Verse text for PS 115:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/115/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "2. \"For Thy loving mercy, and for Thy truth's sake\" (ver. 2). Observe how often these two qualities, loving mercy and truth, are joined together in the holy Scriptures. For in His loving mercy He called sinners, and in His truth He judgeth those who when called refused to come. \"That the heathen may not say, Where is now their God?\" For at the last, His loving mercy and truth will shine forth, when \"the sign of the Son of man shall appear in heaven, and then shall all tribes of the earth cry woe;\" nor shall they then say, \"Where is their God?\" when He is no longer preached unto them to be believed in, but displayed before them to be trembled at.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/115/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 115:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

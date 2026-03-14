@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 4:33",
+  "verse_text": "Verse text for DT 4:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/4/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And lived. It was generally supposed, that those who had seen a vision of God, or of his angel, would instantly die. See Genesis xvi. 13. (Haydock) (Chap. v. 24.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/4/33",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc91c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“You have never seen his face.” Yet Isaiah, Jeremiah, Ezekiel and many others say that they have seen him. What is it, therefore, that Christ meant here? He was introducing them to a philosophical teaching, showing gradually that with regard to God there is neither voice nor outward appearance; he is superior to such forms and sounds. Just as by saying, “You have never heard his voice,” he did not mean that God utters sound but is not heard, so by saying, “You have never seen his face,” he did not mean that God has outward form but cannot be seen. Neither sound nor form exists with regard to God. Indeed, in order that they might not say, “You are making a display of knowledge in vain, since God spoke only to Moses” (they actually did say, “We know that God spoke to Moses; but as for this man, we do not know where he is from”), he spoke in this way to show that with regard to God there is neither voice nor outward appearance.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/4/33",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a15",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 4:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

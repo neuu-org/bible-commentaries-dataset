@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 9:21",
+  "verse_text": "Verse text for LK 9:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/9/21",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "The Lord Jesus Christ was at first unwilling to be extolled, lest any murmuring arise. He rebuked his disciples, lest they say this to anyone, because the Son of man must suffer many things, and be rejected by the elders and the chief priests and the scribes, and be slain, and be raised the third day. Perhaps he added this because the Lord knew that even the disciples would believe with difficulty in his passion and resurrection. Therefore he preferred to be the defender of his own passion and resurrection, so that faith would be born of action, and not discord of hearsay. Thus Christ refused to boast but preferred to seem unimportant in order to undergo his passion. Do you boast, who are low born. Must you walk the same path that Christ walked, which he himself walked. This is the recognition of him, this is the imitation of him through obscurity and a good reputation, so that you may glory in the cross as he was glorified. Thus Paul walked and therefore glories, saying, “God forbid that I should glory, save in the cross of our Lord Jesus Christ.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/21",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7442",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "When the disciple Peter had professed his faith, Jesus charged them, it says, and commanded them to tell it to no one. “For the Son of man,” he said, “is about to suffer many things, and be rejected, and killed, and the third day he shall rise again. ” Wasn’t it the duty of disciples to proclaim him everywhere. This was the very business of those appointed by him to the apostleship. But, as the sacred Scripture says, “There is a time for everything. ” There were things yet unfulfilled which must also be included in their preaching about him. They must also proclaim the cross, the passion, and the death in the flesh. They must preach the resurrection of the dead, that great and truly glorious sign by which testimony is borne him that the Emmanuel is truly God and by nature the Son of God the Father. He utterly abolished death and wiped out destruction. He robbed hell, and overthrew the tyranny of the enemy. He took away the sin of the world, opened the gates above to the dwellers upon earth, and united earth to heaven. These things proved him to be, as I said, in truth God. He commanded them, therefore, to guard the mystery by a seasonable silence until the whole plan of the dispensation should arrive at a suitable conclusion. Commentary on Luke, Homily.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/21",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7443",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "This conclusion He even Himself confirms by thus far bearing with it, nay, even enjoining silence respecting it.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/9/21",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbd15",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 9:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

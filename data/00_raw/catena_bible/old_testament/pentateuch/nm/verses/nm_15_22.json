@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 15:22",
+  "verse_text": "Verse text for NM 15:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/15/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Other victims are prescribed; (Leviticus iv. 13,) so that the ignorance here mentioned must be of a different nature. The former was perhaps a sin of commission, and this a sin of omission; such as if the whole people should neglect to eat the paschal lamb. The Rabbins think that the law alludes here to idolatry, committed for want of knowledge. But that is next to impossible in a whole nation. Outram believes, that the Book of Leviticus speaks of those who transgress the negative precepts, without abandoning the true religion; but the present law alludes to those who forget the laws of their fathers, and embrace a false worship. Thus Ezechias offered the victims here prescribed, though more in number, to expiate the idolatry of the people under Achaz, 1 Paralipomenon xxix. See also 1 Esdras viii. Some think Moses has supplied in this place what was left deficient before. But it is more probable, that he supposes here only some of the tribes have sinned ignorantly, while in Leviticus he speaks of the whole nation. (Calmet) No one sins for the sake of the offence, but for some advantage which we falsely persuade ourselves we shall derive from doing so. Augustine, q.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/15/22",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc784",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 15:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

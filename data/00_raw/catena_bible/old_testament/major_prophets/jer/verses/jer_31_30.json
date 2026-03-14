@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 31:30",
+  "verse_text": "Verse text for JER 31:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/31/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Finally, that we may not be disturbed by the words I have quoted and many others of like importance, about returning the sins of the parents on the children—words written truthfully, yet that might be thought contrary to this prophecy—he solves this very vexed question by adding, “Behold, the days shall come, says the Lord, and I will make a new covenant with the house of Israel and with the house of Judah, not according to the covenant that I made with their ancestors.” In this new covenant through the blood of the Mediator, the paternal decree having been cancelled, humankind by rebirth begins to be no longer subject to the paternal debts that bind them at birth, as the Mediator says: “And call no one on earth your father,” inasmuch as we but shall live forever with the Father.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/31/30",
+      "full_content_url": "https://catenabible.com/com/5e936151d87c4a70874ae30d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "Will you be able to persuade anyone that, by receiving those who lapsed, the entire church has fallen? That the party of those who receive them back has become like someone who denies the faith because they admit penitents? But even if a congregation somehow has been too lenient, have other congregations who did not approve of their actions but rather followed convention and kept communion, also lost the name Christian? Hear the voice of Jeremiah! “In those days they shall not say, ‘The fathers have eaten sour grapes, and the children’s teeth are set on edge.’ But each one shall die for his own sin.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/31/30",
+      "full_content_url": "https://catenabible.com/com/5e936150d87c4a70874ae30b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 31:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

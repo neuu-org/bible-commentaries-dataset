@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 3:13",
+  "verse_text": "Verse text for HEB 3:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/3/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But exhort one another daily, while it is called Today; lest any of you be hardened through the deceitfulness of sin. The duration of the present life may be accounted but a day, which God destines for the trial of our faith and obedience; we ought, therefore, to labour hard during the short time of the present day, that we may live and reign with God for all eternity. We cannot too often entertain this truth in our hearts, if we wish to square our lives after the gospel. The heart of man becomes insensibly hardened to Christian truths, when its natural corruption is not courageously attacked.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/3/13",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02cb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Wherefore exhort ye one another daily, while it is called today. That is, edify one another, raise yourselves up: lest the same things should befall you. Lest any one of you be hardened by the deceitfulness of sin. Do you see that sin produces unbelief. For as unbelief brings forth an evil life, so also a soul, when it has come into a depth of evils, becomes contemptuous Proverbs 18:3, and having become contemptuous it endures not even to believe, in order thereby to free itself from fear. For they said (one says), The Lord shall not see, neither shall the God of Jacob regard. Psalm 94:7 And again, Our lips are our own: who is Lord over us. Psalm 12:4; and again Wherefore has the wicked man provoked God to wrath. Psalm 10:13; and again, The fool has said in his heart, there is no God; they are corrupt and become abominable in their doings. Psalm 14:1 There is no fear of God before his eyes, for he was deceitful before Him, to find out his iniquity and to hate. Psalm 36:1-2 Yea and Christ also says this same thing, Every one that does evil, hates the light and comes not to the light.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/3/13",
+      "full_content_url": "https://catenabible.com/com/57eb1775b0d44ee10cfac7b6",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 3:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

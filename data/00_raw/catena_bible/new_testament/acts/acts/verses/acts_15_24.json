@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 15:24",
+  "verse_text": "Verse text for ACTS 15:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/15/24",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "For the apostle says, \"All other things buy out of the shambles, asking no questions \"with the exception of the things mentioned in the Catholic epistle of all the apostles,",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/15/24",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae57",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Since we have heard that certain who went out from us have troubled you with words, unsettling your souls, saying, You must be circumcised, and keep the law: to whom we gave no such commandment: Some who went out from us, from Jerusalem, and pretended to speak our mind, and in our name, but we gave them no such commission. (Witham) A proper description of heretics, schismatics, and seditious preachers, who go out from their own superiors, and pretend to teach and preach without any mission; how can they preach, unless they are sent.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/15/24",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe0a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Since we have heard that certain who went out from us have troubled you with words, unsettling your souls, saying, You must be circumcised, and keep the law: to whom we gave no such commandment: Sufficient was this charge against the temerity of those men, and worthy of the Apostles' moderation, that they said nothing beyond this. Then to show that they do not act despotically, that all are agreed in this, that with deliberation they write this— It seemed good to us, being assembled with one accord, to send men of ours whom we have chosen.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/15/24",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b939d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 15:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 18:28",
+  "verse_text": "Verse text for MT 18:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/18/28",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The God of all releases us from the difficulties of our faults, according to the parable. This is what is signified by the ten thousand talents. But this happens on the proviso that we ourselves release our fellow servants from the hundred denarii, that is, from the few minor faults they have committed against us. The angels who stand over us and are under the same yoke of service as we are make accusations before God. They do not speak to God as if God does not know—for God knows everything. Rather, in the interest of justice, they demand the proper punishment for those who choose to despise and dishonor the command that we love one another. When we meet our proper deserts, either we receive punishment in our present life, such as being visited with some pain or trouble or infirmity, or if not, we will certainly be punished in the future life. God punishes the obstinate, intractable person with a view to improving and changing him for the better. This is easy to see. Holy Scripture is pertinent here, in these wisely spoken words: “the Lord disciplines those he loves, and he punishes everyone he accepts as a son,” and again: “Abide instruction.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/18/28",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e7064",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you see the master's benevolence? Do you see the servant's cruelty? Hear, you who do these things for money. For if for sins we must not do so, much more not for money.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/18/28",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac4d8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "He who had been forgiven went out, departed, and as a consequence, took his fellow servant by the throat: the one who lacks compassion is not he who remains in God, but rather he who departs from God and is a stranger to Him. So great was the servantâ€™s inhumanity that, although he had been forgiven the greater amount (ten thousand talents), he could not at all forgive the smallest amount (a hundred pence), nor even grant a postponement. And this despite the fact that the fellow servant spoke the very same words to him, reminding him of the words by which he himself had been saved: Have patience with me and I will pay thee all.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/18/28",
+      "full_content_url": "https://catenabible.com/com/57eb0d50b0d44ee10cfac20e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 18:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

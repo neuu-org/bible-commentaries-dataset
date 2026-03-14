@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 5:22",
+  "verse_text": "Verse text for EX 5:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/5/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The words that Moses speaks to the Lord are not words of contumacy or indignation but of inquiry and prayer. This fact is clear from the way the Lord answered him. For he did not accuse him of infidelity but revealed what he was about to do.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/5/22",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52760",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wherefore. These are not words of anger, but of earnest prayer. (St. Augustine, q. 14.) Moses does not attempt to satisfy the exasperated officers, but commits the whole to God. (Menochius)\nIn great undertakings, there are commonly many difficulties; which ought not to discourage us. (Tirinus)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/5/22",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2f4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 5:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

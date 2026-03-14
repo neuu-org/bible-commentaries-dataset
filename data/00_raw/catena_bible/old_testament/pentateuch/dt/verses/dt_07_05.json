@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 7:5",
+  "verse_text": "Verse text for DT 7:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/7/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "When you have received lawful authority, do all this. Where authority has not been given to us, we don’t do it; where it has been given, we don’t fail to do it. Many pagans have these abominations on their estates. Do we march in and smash them? The first thing we try to do is to break the idols in their hearts. When they too become Christians, they either invite us in to perform this good work or else they get in first with it before us. The thing we have to do now is pray for them, not get angry with them.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/7/5",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a2f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Things. This was to be done with regard to the idols of Chanaan, when it was first conquered, ver. 25. Afterwards David made no scruple in wearing a crown, which had been taken from the spoils of Melchon, the idol of the Ammonites, 1 Paralipomenon xx. 2. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/7/5",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc941",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 7:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

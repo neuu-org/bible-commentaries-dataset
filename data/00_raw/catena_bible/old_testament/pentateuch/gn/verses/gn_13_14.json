@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 13:14",
+  "verse_text": "Verse text for GN 13:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/13/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "There follows a passage that clearly teaches us how fast the soul progresses once the excesses of the irrational parts have been eliminated and how much evil is produced by an accumulation of vices. Not without reason did Scripture put it this way: “And God said to Abraham, after Lot had separated from him: ‘Lift up your eyes and look from the place where you are, northward and southward and eastward and westward: for all the land which you see I will give to you and to your descendants for ever. ’ ” This text is the source from which the Stoic philosophers drew one of their doctrinal maxims: that everything belongs to the wise man. Indeed, north, south, east and west are the parts of the universe: they encompass the entire world. And when God promises that he will give all of this to Abraham, what else is he saying than that the wise and faithful man possesses all things, lacks nothing at all. For which reason Solomon also says in Proverbs, “The whole world of riches belongs to him who is faithful. ” How much earlier did Solomon live than Zeno the teacher and founder of the Stoic school itself. How much earlier was he than Plato, the very father of philosophy, or Pythagoras, who invented the term philosophy. But who is the faithful person if not one who is wise. For “the fool changes like the moon,” but the wise person remains unchanging in faith.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/13/14",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51a0c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "See the promptness of God’s providential recompense demonstrated in favor of the good man. Sacred Scripture wants to teach us the extent of the reimbursement the patriarch was accorded for such humility from the loving God. And so after saying that Lot took his leave and went off to the land he had selected on the score of its beauty, [Scripture] immediately added, “The Lord God said to Abram.” Then, for our precise realization that he said this by way of rewarding him for what had been done for Lot, it added, “God said to Abram after Lot’s parting with him,” as if to say the following words to him without demur: You ceded the beautiful region to your nephew on account of your great restraint and thus gave evidence of your eminent humility and showed such concern for peace as to put up with anything for the sake of preventing any rivalry coming between you—accept from me a generous reward.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/13/14",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51a0d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 13:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

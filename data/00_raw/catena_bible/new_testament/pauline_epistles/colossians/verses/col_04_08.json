@@ -1,0 +1,36 @@
+{
+  "verse_reference": "COL 4:8",
+  "verse_text": "Verse text for COL 4:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/4/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Here he shows his great love, seeing that for this purpose he sent him, and this was the cause of his journey; and so when writing to the Thessalonians, he said, Wherefore when we could no longer forbear, we thought it good to be left behind at Athens alone, and sent Timothy our brother. 1 Thessalonians 3:1-2 And to the Ephesians he sends this very same person, and for the very same cause, That he might know your estate, and comfort your hearts. Ephesians 6:21-22 See what he says, not that you might know my estate, but that I might know yours. So in no place does he mention what is his own. He shows that they were in trials too, by the expression, comfort your hearts.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/4/8",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddcf8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 4:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

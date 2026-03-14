@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 3:13",
+  "verse_text": "Verse text for 2SM 3:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/3/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he said, Well; I will make a league with you: but one thing I require of you, that is, You shall not see my face, except you first bring Michal Saul's daughter, when you come to see my face. Could David thus authorize treachery. It is answered, that Abner knew that the throne belonged to him, and he was already responsible for all the evils of the civil war. David does not approve of his conduct, but only makes use of him to obtain his right. He might justly think that the people would have less repugnance to acknowledge him for their sovereign, when they saw that he had married the daughter of Saul. She had never been repudiated by him.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/3/13",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd079",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 3:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

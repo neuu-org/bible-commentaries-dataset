@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 31:6",
+  "verse_text": "Verse text for DT 31:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/31/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Pay attention to what comes next: “Without love, a measure of money is sufficient for present needs, because he himself said, ‘I will not forsake you; I will not desert you.’ ” “You were afraid of all kinds of evils, against which you were saving money; count me as your guarantor.” That’s what God says to you. God—not a man, not your equal or you yourself—says to you: “I will not forsake you; I will not desert you.” If a person made such a promise, you would trust him. God makes it, and you hesitate? He made the promise, put it in writing, made out the bond; you needn’t worry at all.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/31/6",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a8d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 31:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

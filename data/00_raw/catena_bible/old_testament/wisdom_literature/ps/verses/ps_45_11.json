@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 45:11",
+  "verse_text": "Verse text for PS 45:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/45/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "24. \"For the King hath greatly desired thy beauty\" (ver. 11). What \"beauty\" is that, save that which is His own work? \"Greatly desired the beauty\"-Of whom? Of her the sinner, the unrighteous, the ungodly, such as she was with her \"father,\" the devil, and among her own \"people\"? No, but hers of whom it is said, \"Who is this that cometh up made white?\" She was not white then at the first, but was \"made\" white afterwards. For \"though your sins shall be as scarlet, I will make them white as snow.\" \"The king has greatly desired thy beauty.\" What King is this? \"For He is the Lord thy God.\" Now consider whether thou oughtest not to forego that thy father, and thy own people, and to come to this King, who is thy God? Thy God is \"thy King,\" thy \"King\" is also thy Bridegroom. Thou weddest to thy King, who is thy God: being endowed by Him, being adorned by Him; redeemed by Him, and healed by Him. Whatever thou hast, wherewith to be pleasing to Him, thou hast from Him.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/45/11",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a3f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lord. Hebrew adonaiic, \"thy master \"and worship him, (Haydock) like a dutiful wife, 1 Peter iii. 6., and 3 Kings i. 16.\nGod is not found in the Septuagint. The title belongs to Jesus Christ, the spouse, who has been twice called God before. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/45/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be074",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 45:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

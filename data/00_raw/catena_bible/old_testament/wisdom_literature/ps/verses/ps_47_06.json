@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 47:6",
+  "verse_text": "Verse text for PS 47:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/47/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "7. \"Sing praises to our God, sing praises\" (ver. 6). Whom as Man mocked they, who from God were alienated. \"Sing praises to our God.\" For He is not Man only, but God. Man of the seed of David, God the Lord of David, of the Jews having flesh. \"Whose\" (saith the Apostle) \"are the fathers, of whom as concerning the flesh Christ came.\" Of the Jews then is Christ, but according to the flesh. But who is this Christ who is of the Jews according to the flesh? \"Who is over all, God blessed for ever.\" God before the flesh, God in the flesh, God with the flesh. Nor only God before the flesh, but God before the earth whence flesh was made; nor only God before the earth whereof flesh was made, but even God before the Heaven which was first made; God before the day which was first made; God before Angels; the same Christ is God: for \"In the beginning was the Word, and the Word was with God, and the Word was God.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/47/6",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a56",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "King. Christ is God, by his divine nature, and our king, by his humanity. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/47/6",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be085",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 47:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 19:12",
+  "verse_text": "Verse text for EX 19:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/19/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And you shall set bounds unto the people round about, saying, Take heed to yourselves, that you go not up into the mount, or touch the border of it: whosoever touches the mount shall be surely put to death: Augustine of Hippo In this wonderful agreement there is the very great difference, that in the Old Testament the people is held back by a fearful dread from approaching the place where the law was given; whereas in the New the Holy Spirit comes upon those who were assembled together waiting for his promised coming.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/19/12",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5282a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 19:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

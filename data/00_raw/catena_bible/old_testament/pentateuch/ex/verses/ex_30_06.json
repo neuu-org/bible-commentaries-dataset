@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 30:6",
+  "verse_text": "Verse text for EX 30:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/30/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And you shall put it before the veil that is by the ark of the testimony, before the mercy seat that is over the testimony, where I will meet with you. The ark of the covenant, which was inside the veil, … very suitably symbolizes the nature of [Christ’s] humanity. The urn [containing] manna symbolizes the fullness of his divinity. The staff of Aaron symbolizes the indestructible power of his priesthood, [and] the tablets of the covenant symbolize that it is he who gave the law and will also give his blessing to those who fulfill the law.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/30/6",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e528a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Where Hence some infer, that its situation was in the most holy place. But God spoke also to Moses at the door of the sanctuary (chap. xxix. 42.; Haydock); and most people suppose, that it was placed out of the holy of holies, beside the veil. The golden censer, which St. Paul (Hebrews ix. 4,) tells us was within, might be that of Aaron, which was placed there after the sedition of Core, (Numbers xvi.) or one that might be left smoking before the ark, on the day of expiation. (Calmet)\nSt. Augustine, believe, however, that it was in the holy of holies. (q. 133.; Origen, hom. 19.; St. Gregory; 1 Kings xiv.;)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/30/6",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc479",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 30:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

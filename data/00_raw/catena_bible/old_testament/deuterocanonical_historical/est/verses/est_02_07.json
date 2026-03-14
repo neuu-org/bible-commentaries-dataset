@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 2:7",
+  "verse_text": "Verse text for EST 2:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/2/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Brothers. Josephus, ( xi. 6.) the old Latin version of the Syriac, Abenezra, suppose that Mardochai was uncle to Esther. But the Hebrew, Syriac, Greek, and Chaldean assert that he was only her cousin. Septuagint, \"daughter of Amina dab, (or rather Abihail, ver. 15.) his father's brother, and her name was Esther; and after her parents were dead, he educated her for a wife \"eis gunaika, as some Rabbins also maintain, believing she was an heiress. Yet other Greek copies, Hebrew, read, \"he educated her as a daughter, thugatera: for the damsel was very beautiful. \"He had probably adopted her. (Calmet)\nEdissa. Hebrew hadassa, (Haydock) or Hadassah, signified \"of myrtle. \"(Menochius)\nEsther, \"a sheep. \"(Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/2/7",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdab3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 2:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

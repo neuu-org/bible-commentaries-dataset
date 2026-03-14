@@ -1,0 +1,47 @@
+{
+  "verse_reference": "COL 3:10",
+  "verse_text": "Verse text for COL 3:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/3/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "According to the image of him who created him. We are created to the image of God, inasmuch as our souls are spiritual and immortal, but here we are put in mind to imitate God by sanctity and justice, as God is holy and the fountain of justice. (Witham)\nThe image or resemblance of our Creator was effaced by sin, but is retraced by Jesus Christ, who forms in us this new man. (Bible de Vence)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/3/10",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c01a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "For what other visible fruit is there of the invisible Spirit, than the rendering of the flesh mature and capable of in corruption? If then",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/3/10",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baf35",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 3:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

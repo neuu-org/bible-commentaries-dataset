@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1COR 1:28",
+  "verse_text": "Verse text for 1COR 1:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/1/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "God chose ignoble and contemptible things to exalt. It is not that they are really ignoble and contemptible; this is how the world sees them. By believing in Christ they have overturned worldly reasoning. God did this in order to destroy things which are really ignoble and contemptible, because those who judged were more deserving of judgment and condemnation. Their teaching was asserted in words but not demonstrated in power, and so it was destroyed. Our teaching is proved true not only by words but by power as well. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/1/28",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5b70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And the base things of the world, and the things that are despised, and the things that are not, that he might bring to naught the things that are. Now what does He call things that are not. Those persons who are considered to be nothing because of their great insignificance. Thus has He shown forth His great power, casting down the great by those who seem to be nothing. The same elsewhere he thus expresses, 2 Corinthians 12:9 For my strength is made perfect in weakness. For a great power it is, to teach outcasts and such as never applied themselves to any branch of learning, how all at once to discourse wisely on the things which are above the heavens. For suppose a physician, an orator, or any one else: we then most admire him, when he convinces and instructs those completely uneducated. Now, if to instil into an uneducated man the rules of art be a very wonderful thing, much more things which pertain to so high philosophy. But not for the wonders sake only, neither to show His own power, has He done this, but to check also the arrogant. And therefore he both said before, That he might confound the wise and the strong, that He might bring to nought the things which are, and here again,.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/1/28",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd80d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 1:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

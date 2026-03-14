@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEP 2:15",
+  "verse_text": "Verse text for ZEP 2:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/zep/2/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh This is the rejoicing city that dwelt securely, that said in her heart, I am, and there is none beside me: how has she become a desolation, a place for beasts to lie down in. everyone that passes by her shall hiss, and shake his fist. Beside, or equal. This was true, Jonas i. (Calmet) The founder intended that no city should ever equal it. Jerome applies what is here said of Ninive to the Church in the times of antichrist, (Rondet. ) or to a fallen soul. Any nation may abandon the faith: but the whole Church cannot fail.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zep/2/15",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf54f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Oresiesis-Heru-sa Ast",
+      "period": "AD380",
+      "content": "Some from the circle of your friendship go out with a madeup face; they wear a bandeau around their face; they put this black thing over their eyes under pretext of illness; they have numberless rings attached to their handkerchief, and on their belt, fringes that flap behind them, like calves frisking about in an enclosure. Often they bathe quite naked without necessity; they wear soft shoes on their feet—“she went out taking pride in the desires of her soul”—they mince along in the assembly; they accost their friend with a boisterous laugh, like the noise of thorny twigs cracking under a cooking pot. They build themselves alcoves; they adopt customs of the crows and vultures of the world, making themselves comparable to them in their food: dead meat and rotted venison.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zep/2/15",
+      "full_content_url": "https://catenabible.com/com/58391adb205c248f42e52f70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEP 2:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

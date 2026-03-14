@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HOS 8:8",
+  "verse_text": "Verse text for HOS 8:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/8/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "O appalling hardness. O strange cruelty. You did not fear God, nor did you reverence others or feel shame before your friends. So you have suffered shipwreck of all things at once. You have stripped yourselves of every good thing at the same time. Therefore again I grieve for you, wretched man. You who were announcing your ardor for the kingdom have fallen from the kingdom. You who were inspiring all with a reverence for the doctrine did not have the fear of God before your eyes. You who were preaching holiness are now found to be polluted. You who glory in poverty are caught stealing money. You who through your guidance point out the punishment of God have drawn down chastisement upon yourselves. How shall I bewail you. How shall I grieve for you. The morning star, which rose early, has fallen and shattered upon the earth. The two ears of everyone who hears it will ring. How did the Nazirite who shone brighter than gold become darker than soot. And how did the worthy son of Zion instantly become like a polluted vessel. Letter , To a Fallen Monk.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/8/8",
+      "full_content_url": "https://catenabible.com/com/5838db23205c248f42e52b20",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Vessel. The nations around despised them, after they had applied to the Assyrians, who were looked upon as enemies of all independent states. Israel was not yet in captivity: but this event may be spoken of as if already past.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/8/8",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf393",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 8:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

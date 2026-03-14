@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 9:6",
+  "verse_text": "Verse text for NEH 9:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/9/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You, even you, are LORD alone; you have made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and you preserve them all; and the host of heaven worships you. They were all trying to frighten us, scheming that our hands would cease from the work and that we would rest For this reason, I strengthened my hands all the more. Thus in the spiritual edifice too, because the cunning enemy tries always to obstruct our hands, let us always take care to strengthen them ourselves in good action with divine help.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/9/6",
+      "full_content_url": "https://catenabible.com/com/58fe876d543064d91d46c3de",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You, even you, are LORD alone; you have made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and you preserve them all; and the host of heaven worships you. The highest, (Calmet) and most glorious (Haydock) residence of the Eternal. Stars (Calmet) and angels, (Menochius) which are like his guards. Life, or being. If the Levites had adopted the sentiments of the Persians, that the stars were animated, this does not prove the truth of that opinion, which has nevertheless been maintained by many, Genesis i. (Calmet) The expression is used for preserving, (Psalm xl. ; Menochius) re-establishing, chap.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/9/6",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda35",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 9:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 9:31",
+  "verse_text": "Verse text for JB 9:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/9/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Abhor me. This striking expression intimates something extremely filthy. God will make his servants discern many stains, even when they have aimed at the greatest purity. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/9/31",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdbd4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“If I am ungodly, why have I not died?” You see how he does not deny being a sinner. “Why have I not died?” he says. This is not the expression of a man who accuses but who searches. I do not know at all, he says, God’s plans. “For if I should wash myself with snow and purge myself with pure hands [that would be useless]. You have thoroughly plunged me in filth, and my garment has abhorred me.” He means, before everybody’s eyes I am an example of impiety. It would be necessary that the wicked disappeared, so that I might not play the role of master for the others anymore. If I become purer than the sun, I still retain filthiness, and not an ordinary filthiness. “My garment has abhorred me.” What can I say about people, if even my garment despises me? This is what he more or less means. Even my closest relations have begun to hate me. They have turned away from me not because I am condemned but because they think I am cursed and impure.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/9/31",
+      "full_content_url": "https://catenabible.com/com/5e1b5ed58bc66721fe4ef600",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 9:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

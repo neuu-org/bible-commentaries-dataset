@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 13:19",
+  "verse_text": "Verse text for LK 13:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/13/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Wherefore He Himself, declaring Himself very beautifully, likened Himself to a grain of mustard-seed;",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/13/19",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbe23",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Our Lord was this mustard-seed, when he was buried in the earth; and He became a tree, when he ascended into heaven; but a tree that overshadowed the whole creation, in the branches of which the birds of heaven rested; that is, the powers of heaven, and all such as by good works have raised themselves from the earth. The apostles are the branches, to repose in whose bosoms we take our flight, borne on the wings of Christian virtue. Let us sow this seed (Christ) in the garden of our hearts, that the grace of good works may flourish, and you may send forth the various perfumes of every virtue. (St. Ambrose)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/13/19",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfae6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 13:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

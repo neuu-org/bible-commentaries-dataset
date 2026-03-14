@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 27:12",
+  "verse_text": "Verse text for ACTS 27:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/27/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Phoenice, on the south part of Crete, a convenient haven to ride safe in, lying by south-west and north-west. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/27/12",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfeae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "as they did, rather than Paul. Then, severe the storm (that ensued), deep the darkness: and that they may not forget, the vessel also goes to pieces, and the grain is flung out and all beside, that they may not have it in their power after this to be shameless. For this is why the vessel goes to pieces, and their souls are tightly braced. Moreover, both the storm and the darkness contributed not a little to his obtaining the hearing he did. Accordingly observe how the centurion does as he bids him, insomuch that he even let the boat go, and destroyed it. And if the sailors did not as yet comply with his bidding, yet afterwards they do so: for in fact this is a reckless sort of people.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/27/12",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b951b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 27:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

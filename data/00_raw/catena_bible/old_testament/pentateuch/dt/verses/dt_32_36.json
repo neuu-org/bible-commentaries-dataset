@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 32:36",
+  "verse_text": "Verse text for DT 32:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/32/36",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "People who have been guilty, that he may spare them, when they repent. (Menochius)\n\"He will give judgment in favour of his people \"(Houbigant)\nServants. He will not involve the innocent in the ruin of the rebellious. (Menochius)\nBut, at the same time, he will have them to be convinced that their salvation came not from themselves. He will assist them when all human aid has proved abortive, (Haydock) and when they are reduced to the utmost distress. See Isaias xxxv. 3., and 3 Kings xxi. 21. Those who may have thought themselves secure in their sins, will not escape punishment. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/32/36",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcafb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 32:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

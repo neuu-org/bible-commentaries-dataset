@@ -95,10 +95,11 @@ def atomic_write_json(path: Path, data: dict):
 
 
 class Translator:
-    def __init__(self, model: str = "gpt-4o-mini", batch_size: int = 5):
+    def __init__(self, model: str = "gpt-4o-mini", batch_size: int = 5, lang: str = "pt"):
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self.model = model
         self.batch_size = batch_size
+        self.lang = lang
         self._last_call = 0.0
         self.stats = {
             "files": 0, "translated": 0, "skipped": 0,
@@ -223,7 +224,7 @@ class Translator:
         s = str(input_path)
         rel = s.split("01_cleaned", 1)[1]
         rel = rel.replace("catena_bible/", "").replace("catena_bible\\", "")
-        return REPO_ROOT / "data" / "02_translated_enriched" / rel.lstrip("/\\")
+        return REPO_ROOT / "data" / "02_translated" / self.lang / rel.lstrip("/\\")
 
     def run(self, testament: str, book: str, max_files: int = 0, overwrite: bool = False):
         files = self.discover_files(testament, book, max_files)
@@ -261,10 +262,11 @@ def main():
     parser.add_argument("--max-files", type=int, default=0, help="Limit files to process")
     parser.add_argument("--model", default="gpt-4o-mini", help="OpenAI model")
     parser.add_argument("--batch-size", type=int, default=5, help="Comments per API call")
+    parser.add_argument("--lang", default="pt", help="Target language code (default: pt)")
     parser.add_argument("--overwrite", action="store_true", help="Re-translate existing")
     args = parser.parse_args()
 
-    translator = Translator(model=args.model, batch_size=args.batch_size)
+    translator = Translator(model=args.model, batch_size=args.batch_size, lang=args.lang)
     translator.run(args.testament, args.book, args.max_files, args.overwrite)
 
 

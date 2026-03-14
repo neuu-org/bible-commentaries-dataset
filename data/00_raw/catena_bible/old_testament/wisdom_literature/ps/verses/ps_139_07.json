@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 139:7",
+  "verse_text": "Verse text for PS 139:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/139/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Behold thou findest that the runaway in a far country cannot escape His eyes, from whom he fleeth. And whither can he go now, whose \"limit is tracked out\". Behold, what saith he. \"Whither shall I go from Thy Spirit. Who can in the world flee from that Spirit, with whom the world is filled. \"And whither shall I flee from Thy Face. \" He seeketh a place whither to flee from the wrath of God. What place will shelter God's runaway. Men who shelter runaways, ask them from whom they have fled; and when they find any one a slave of some master less powerful than themselves, him they shelter as it were without any fear, saying in their hearts, \"he hath not a master by whom he can be tracked out. \" But when they are told of a powerful master, they either shelter not, or they shelter with great fear, because even a powerful man can be deceived. Where is God not. Who can deceive God. Whom doth not God see. From whom doth not God demand His runaway. Whither then shall that runaway go from the Face of God. He turneth him hither and thither, as though seeking a spot to flee to.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/139/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6752",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Face? or anger. (St. Augustine) (Chaldean) (Calmet) (Isaias xxx. 28.) (Menochius)\nThe power of God extends every where, Wisdom i. 7. (Calmet)\nThe third divine person is truly God, and immense. (St. Jerome)\nAs God's knowledge comprehends every thing, so his presence reaches to all. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/139/7",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 139:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 8:1",
+  "verse_text": "Verse text for REV 8:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/8/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Seal: It is believed that after the death of Antichrist, there will be some little rest in the Church, which Daniel thus foretold: \"Blessed is he who waiteth and cometh to the one thousand three hundred and thirty-five days. \" And it is thus interpreted by the blessed Jerome: \"Blessed,\" he says, \"is he, who when Antichrist is slain, beyond the one thousand two hundred and ninety days, that is, three years and a half, waits for the forty-five days, in which the Lord and Saviour is to come in His own Majesty. Now for what reason, after the destruction of Antichrist, there is silence for forty-five days, is a subject of divine knowledge, unless perhaps we say, the deferring of the kingdom of the saints is the trial of patience. \" Observe that at the sixth seal, he sees the greatest afflictions of the Church, at the seventh, rest. For the Lord was crucified on the sixth day of the week, and rested on the Sabbath, awaiting the time of resurrection. Thus far concerning the opening of the closed book. and the six seals. But now he recapitulates from the beginning, as he is about to say the same things in another manner.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/8/1",
+      "full_content_url": "https://catenabible.com/com/5863076ddd1bb6dd3dba9cd1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "There was silence in heaven: which is to represent as it were a general consternation, and an expectation of dreadful events at the opening of the seventh seal, and when seven Angels stood prepared to sound seven trumpets. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/8/1",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c0465",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "Whereby is signified the beginning of everlasting rest; but it is described as partial, because the silence being interrupted, he repeats it in order. For if the silence had continued, here would be an end of his narrative.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/8/1",
+      "full_content_url": "https://catenabible.com/com/574f83293c6effa740ddd780",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 8:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

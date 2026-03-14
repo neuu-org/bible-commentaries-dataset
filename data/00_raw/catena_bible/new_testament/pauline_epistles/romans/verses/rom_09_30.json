@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ROM 9:30",
+  "verse_text": "Verse text for ROM 9:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/9/30",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "What shall we say then. That the Gentiles, who followed not after righteousness, have attained to righteousness, even the righteousness which is of faith. God is the true and lasting righteousness, if he is acknowledged. For what is more righteous that to know God the Father, from whom all things come, and Christ his Son, through whom all things come. Therefore the first part of righteousness is to acknowledge the Creator, and the next part is to keep what he commands. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/9/30",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e516b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "What then shall we say. Or what shall we conclude from these testimonies of the Scripture, but this paradox, as St. Chrysostom calls it, that they who sought for justice, or sanctification, found it not, and they who did not seek it, found it; that is, the Jews, who sought for this justice by the works of their law, which they magnified so much, have not attained to that law that could make them just; whereas the Gentiles, who had no such written law to confide in, have only sought to be justified by the faith and law of Christ, by which they have met with justice, and sanctification. (Witham) Behold what was wanting to the justice of the Jews. Scrupulous observers of the ceremonial law: esteeming too much their power, and pretended justice, they regarded the gospel and faith in Christ as of no advantage. Running in the path of the commandments with zeal, but without circumspection, they struck against Jesus Christ, who became to them a stumbling-block. They rejected him: they refused to believe. Thus did their works become dead works, without any fruit for eternity.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/9/30",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bff42",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul means that the Gentiles did not go to particular trouble to acquire righteousness, in the way that the Jews did.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/9/30",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e516c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 9:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

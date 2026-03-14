@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 135:1",
+  "verse_text": "Verse text for PS 135:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/135/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Very pleasant ought it be to us, and we should rejoice because it is pleasant, to which this Psalm exhorteth us. For it says, \"Praise the name of the Lord\" (ver. And it forthwith appends the reason, why it is just to praise the name of the Lord. \"Praise the Lord, ye servants. \" What more just. what more worthy. what more thankful. For if He teaches His own servants who have deserved well of Him, the preachers of His Word, the rulers of His Church, the worshippers of His name, the obeyers of His command, that in their own conscience they should possess the sweetness of their life, lest they be corrupted by the praise or disheartened by the reproach of men; how much the more is He above all, the unchangeable One, who teacheth these things, neither the greater if thou praisest, or the less if thou reproachest. For ye will do nothing out of place, by praising your Lord, as servants. And if ye were to be for ever only servants, ye ought to praise the Lord; how much more ought ye servants to praise the Lord, that ye may hereafter gain the privilege of sons.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/135/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6728",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Praise you the LORD. Praise you the name of the LORD; praise him, O you servants of the LORD. The psalm turns on God's praises, and might be composed by David, after he had settled the order of the Levites, though it may suit all people. (Berthier) The latter part agrees with Psalm cxiii. , and Jeremias x. , which might lead us to conclude that it was composed after the captivity, perhaps for the dedication of the second temple. The next psalm is a repetition of this, with the chorus interspersed.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/135/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4be",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 135:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

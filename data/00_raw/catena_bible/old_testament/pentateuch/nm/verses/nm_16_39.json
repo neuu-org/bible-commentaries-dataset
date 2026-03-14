@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 16:39",
+  "verse_text": "Verse text for NM 16:39",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/16/39",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "When the divine lesson was read just now, dearly beloved, we heard that our Lord told Moses to forge the censers in which those haughty, rebellious men had offered incense, beat them flat and fasten them to the altar as a sign of the rebellious and proud. “Because the sinners have consecrated the censers at the cost of their lives,” said the Lord, “have them hammered into plates to cover the altar, because in being presented before the Lord they have become sacred. ” By this figure it seems to have been shown that those censers which Scripture calls brazen represent the sacred writings. Heretics put strange fire in these writings, that is, they introduce a perverse meaning and a sense that is foreign to God and contrary to the truth, thus offering to the Lord an incense that is not sweet but abominable. If we bring these brazen censers, that is, words of the heretics, to the altar of God where there is divine fire, the true preaching of the faith, the same truth will shine all the better in comparison with what is false.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/16/39",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52929",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Altar of holocausts, which was already covered with plates of brass. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/16/39",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc79c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 16:39",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

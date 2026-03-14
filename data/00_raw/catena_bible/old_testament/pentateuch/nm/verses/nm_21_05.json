@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 21:5",
+  "verse_text": "Verse text for NM 21:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/21/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "God. They had before often directed their complaints against the two brothers. Now, Aaron being no more, they attack God himself, who had always resented the injury done to his ministers.\nFood. So they call the heavenly manna: thus world lings loathe the things of heaven, for which they have no relish. (Challoner)\nSeptuagint, \"our soul is indignant at this most empty bread \"which has no solidity in it, nor support. Many translate the Hebrew, \"most vile bread. \"Thus, in the blessed eucharist, the substance of bread is removed, and the accidents only appear; so that to the worldly receiver, it seems very empty and light, though in reality it be super substantial; containing Christ himself, who fills the worthy communicant with grace and comfort, and enables him to go forward, on the road to heaven, without fainting. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/21/5",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Very light food: So they call the heavenly manna: thus worldlings loathe the things of heaven, for which they have no relish.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/21/5",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fd4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 21:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

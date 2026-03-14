@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 4:7",
+  "verse_text": "Verse text for JER 4:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/4/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Robber. Nabuchodonosor attacks unjustly, (Calmet) though he be God's scourge.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/4/7",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bec51",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "This is the true Nebuchadnezzar, as we have said before, about whom Peter also said, “Our adversary, the devil, prowls about like a roaring lion. ” He ascended from the depths to which he had been relegated and for fear that he is sent back, the plunderer or destroyer of the nations entreats and arises. He is whom it was said that “he will dominate all his enemies” and those who boast in the face of the Lord: “I have gone around the earth and trampled it. ” For whom has the venom of the devil not affected except for he alone who is able to say “the prince of this world comes and finds that he has nothing over me”. He repeatedly makes all the territory of the church a wasteland, that those who have left the church might do battle against it, those about whom John the Evangelist also says, “They went forth from us, but they were not of us, for if they had been of us, they would have remained with us. ” The cities of the land of Judah are devastated, and the councils of heretics flourish. It can be said, therefore, about every patron of the authors of perverse doctrine: “A lion ascended from his lair and a destroyer of nations has arisen,” and so on.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/4/7",
+      "full_content_url": "https://catenabible.com/com/5e9360e4d87c4a70874ae161",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 4:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

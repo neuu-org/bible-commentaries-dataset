@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 31:30",
+  "verse_text": "Verse text for DT 31:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/31/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Nicetas of Remesiana",
+      "period": "AD414",
+      "content": "Moses again, when about to depart from this life, sang a fearinspiring canticle in Deuteronomy. He left the song as a sort of testament to the people of Israel, to teach them the kind of funeral they should expect, if ever they abandoned God.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/31/30",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a8e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 31:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

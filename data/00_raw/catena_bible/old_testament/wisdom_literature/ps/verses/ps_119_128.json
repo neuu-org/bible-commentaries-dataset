@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:128",
+  "verse_text": "Verse text for PS 119:128",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/128",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "127. \"Therefore,\" he saith, \"was I made straight unto all Thy commandments\" (ver. 128). I was made straight, doubtless, because I loved them; and I clung by love to them, which were straight, that I might also myself become straight. Then what he addeth, naturally follows: \"and every unrighteous way I utterly abhor.\" For how could it be that he who loved the straight could do aught save abhor an unrighteous way? For as, if he loved gold and precious stones, he would abhor all that might bring loss of such property: thus, since he loved the commandments of God, he abhorred the path of iniquity, as one of the most savage rocks in the sailor's track, whereon he must needs suffer shipwreck of things so precious. That this may not be his lot, he who saileth on the wood of the Cross with the divine commandments as his freight, steereth far from thence.\n\nPe.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/128",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e667a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Directed. In my steps. (Berthier)\nPagnin, \"I judged all, yea all thy precepts to be right. \"(Haydock)\nThe hatred of the wicked made the love of the beauty of the law increase in my breast. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/128",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be443",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:128",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

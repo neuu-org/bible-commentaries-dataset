@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PS 13:1",
+  "verse_text": "Verse text for PS 13:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/13/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. \"For Christ is the end of the law to every one that believeth.\" \"How long, O Lord, wilt Thou forget me unto the end?\" (ver. 1) that is, put me off as to spiritually understanding Christ, who is the Wisdom of God, and the true end of all the aim of the soul. \"How long dost Thou turn away Thy face from me?\" As God doth not forget, so neither doth He turn His face away: but Scripture speaks after our manner. Now God is said to turn away His face, when He doth not give to the soul, which as yet hath not the pure eye of the mind, the knowledge of Himself.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/13/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6813",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Unto The End, A Psalm OF David.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/13/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6812",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Me? These expressions are figurative. God seems displeased: but it is often for our greater good. Some explain this of David, Ezechias, the captives It may be applied to every afflicted soul, which places her whole trust in God. (Calmet)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/13/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdea4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 13:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

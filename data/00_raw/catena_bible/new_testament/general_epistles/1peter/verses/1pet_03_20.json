@@ -1,0 +1,91 @@
+{
+  "verse_reference": "1PET 3:20",
+  "verse_text": "Verse text for 1PET 3:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/3/20",
+  "commentary_status": "available",
+  "total_commentaries": 6,
+  "full_content_fetched": 6,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "Let us turn to every age that has passed, and learn that, from generation to generation, the Lord has granted a place of repentance to all such as would be converted unto Him. Noah preached repentance, and as many as listened to him were saved.",
+      "commentary_number": "1/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/20",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa66",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Who formerly were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was being prepared, by which a few, that is, eight souls were saved through water. Cyprian of Carthage \"In the ark \"says he, \"of Noah, few, that is, eight souls, were saved by water, as also baptism shall in like manner save you. Peter also, showing this, set forth that the Church is one, and that only they who are in the Church can be baptized; and said, \"In the ark of Noah, few, that is, eight souls, were saved by water; the like figure where-unto even baptism shall save you; \".",
+      "commentary_number": "2/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/20",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa6a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Further, they declare that the arrangement made with respect to the ark in the Deluge, by means of which eight persons were saved.",
+      "commentary_number": "3/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/20",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa67",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Shepherd of Hermas",
+      "period": "AD150",
+      "content": "For the tower was founder on the word of the almighty and glorious Name and it is kept together by the invisible power of the Lord.\"",
+      "commentary_number": "4/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/20",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa68",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Who formerly were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was being prepared, by which a few, that is, eight souls were saved through water. Tertullian of Carthage But (in vain): for they who had originated those of the former seed sent into the ark (secretly and stealthily, and unknown to that Mother-Virtue), together with those \"eight souls\". Once more, \"two (joined) into one flesh \"undertake (the duty of) \"growing and multiplying\"-Noah, (namely), and his wife, and their sons, in single marriage.",
+      "commentary_number": "5/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/20",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa69",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "And didst deliver righteous Noah from that flood by an ark,",
+      "commentary_number": "6/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/20",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa6b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 3:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

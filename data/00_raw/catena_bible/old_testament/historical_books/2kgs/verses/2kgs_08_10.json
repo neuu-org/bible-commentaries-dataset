@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 8:10",
+  "verse_text": "Verse text for 2KGS 8:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/8/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Tell him: Thou shalt recover. By these words the prophet signified that the king's disease was not mortal: and that he would recover, if no violence were used. Or he might only express himself in this manner, by way of giving Hazael to understand that he knew both what he would say and do; that he would indeed tell the king he should recover, but would be himself the instrument of his death. (Challoner) -- The imperative is often used for the future tense. (Gloss iii. 3.) (John ii. 19.) The present Hebrew reads, \"Thou shalt not live: for\", which removes the difficulty. But the Chaldean, Septuagint, Syriac, agree with the Vulgate, (Calmet) as the Protestant version also does. \"Thou mayst certainly recover, howbeit the Lord \"(Haydock)\nLo, \"not \"in the Hebrew text, seems however preferable to the marginal reading, lu, \"to him. \"This mistake has been sometimes made elsewhere, and ought to be carefully examined. (Kennicott, 1 Paralipomenon xi. 20.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/8/10",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd479",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Tell him: thou shalt recover: By these words the prophet signified that the king's disease was not mortal: and that he would recover if no violence were used. Or he might only express himself in this manner, by way of giving Hazael to understand that he knew both what he would say and do; that he would indeed tell the king he should recover; but would be himself the instrument of his death.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/8/10",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa06e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 8:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

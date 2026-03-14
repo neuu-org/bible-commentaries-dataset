@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 123:2",
+  "verse_text": "Verse text for PS 123:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/123/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "What then followeth, since he hath said, \"Unto Thee do I lift up mine eyes\". How hast thou lifted up thine eyes. \"Behold, even as the eyes of servants look unto the hand of their masters, and as the eyes of a maiden unto the hand of her mistress: even so our eyes wait upon the Lord our God, until He have mercy upon us. \" We are both servants, and a handmaiden: He is both our Master and our Mistress. What do these words mean. What do these similitudes mean. It is not wonderful if we are servants, and He our Master; but it is wonderful if we are a maiden, and He our Mistress. But not even our being a maiden is wonderful; for we are the Church: nor is it wonderful that He is our Mistress; for He is the Power and the Wisdom of God. When therefore thou hearest Christ, lift up thine eyes to the hands of thy Master; when thou hearest the Power of God and the Wisdom of God, lift up thine eyes to the hands of thy Mistress; for thou art both servant and handmaiden; servant, for thou art a people; handmaiden for thou art the Church. But this maiden hath found great dignity with God; she hath been made a wife. But until she come unto those spiritual embraces, where she may without apprehension enjoy Him whom she hath loved, and for whom she hath sighed in this tedious pilgrimage, she is betrothed: and hath received a mighty pledge, the blood of the Spouse for whom she sigheth without fear. Nor is it said unto her, Do not love; as it is sometimes said to any betrothed virgin, not as yet married: and is justly said, Do not love; when thou hast become a wife, then love: it is rightly said, because it is a precipitate and preposterous thing, and not a chaste desire, to love one whom she knoweth not whether she shall marry. For it may happen that one man may be betrothed to her, and another man marry her. But as there is no one else who can be preferred to Christ, let her love without apprehension: and before she is joined unto Him, let her love, and sigh from a distance and from her far pilgrimage.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/123/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66cd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Masters. Expecting liberty, or rather food; though it may also imply that they are ready to run at the first sign, which they observe with attention. Thus Menelaus had his eyes on Agamemnon. (Homer) (Calmet)\nAs servants, and particularly handmaids, are very attentive, and hope to receive sustenance, so we ought to pray with all earnestness to God for what is necessary. (Worthington)\nAll must come from Him.\nUntil. Or \"waiting for his having mercy on us. \"We shall not cease to look up to Him afterwards. (Berthier)\n\"Take care not to turn thine eyes away from mine. \"(Terent. Adelph. ii. 1.)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/123/2",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be480",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 123:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

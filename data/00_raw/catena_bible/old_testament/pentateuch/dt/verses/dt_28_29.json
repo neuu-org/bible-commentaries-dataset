@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 28:29",
+  "verse_text": "Verse text for DT 28:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/28/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And you shall grope at noonday, as the blind gropes in darkness, and you shall not prosper in your ways: and you shall be only oppressed and plundered continually, and no man shall save you. At times when we were in error, mired in the pride of our mind as if with our feet in the mud, we did not perceive our error because our soul was unable to see itself. Although we would look [into the mirror] each day, we would “grope around” in the dark “like blind men. ” Our inner mind did not possess that which is necessary for discernment.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/28/29",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a81",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ways. Is not this visibly the present condition of the Jews, amid the blaze of the gospel light, the miracles and divine conduct of the Son of God! They shut their eyes, and will not acknowledge him for the Messias. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/28/29",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bca9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 28:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

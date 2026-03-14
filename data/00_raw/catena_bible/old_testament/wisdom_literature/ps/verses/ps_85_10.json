@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 85:10",
+  "verse_text": "Verse text for PS 85:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/85/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Mercy and truth have met together\" (ver. \"Truth in our land,\" in a Jewish person, \"mercy\" in the land of the Gentiles. For where was truth. Where the utterances of God were. Where was mercy. On those who had left their God, and turned themselves unto devils. Did He look down also upon them. Yea, as if He said, Call those who are fugitives afar off, who have departed far from Me: call them, let them find Me who seek them, since they themselves would not seek Me. Therefore, \"Mercy and truth have met together: righteousness and peace have kissed each other. \" Do righteousness, and thou shalt have peace; that righteousness and peace may kiss each other. For if thou love not righteousness, thou shalt not have peace; for those two, righteousness and peace, love one another, and kiss one another: that he who hath done righteousness may find peace kissing righteousness. They two are friends: thou perhaps willest the one, and not the other: for there is no one who wills not peace: but all will not work righteousness. Ask all men, Wiliest thou peace. With one mouth the whole race of man answers thee, I wish, I desire, I will, I love it. Love also righteousness: for these two, righteousness and peace, are friends; they kiss one another: if thou love not the friend of peace, peace itself will not love thee, nor come unto thee. For what great thing is it to desire peace. Every bad man longeth for peace. For peace is a good thing. But do righteousness, for righteousness and peace kiss one another, they quarrel not together.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/85/10",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6ca8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Mercy and truth are met together; righteousness and peace have kissed each other. Kissed or \"embraced\" like friends, as the ancient psalters read. The people practised these virtues after the captivity, and more particularly in the Church of Christ. (Calmet) At the time appointed, He reconciled sinners to his Father, having satisfied his justice, (Berthier) and displayed his own mercy. (Menochius) Thus justice is strictly observed, and peace made between God and man. (Worthington) The justice of the Father and the mercy of the Son kiss each other. (Du Hamel) (Haydock).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/85/10",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be261",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 85:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

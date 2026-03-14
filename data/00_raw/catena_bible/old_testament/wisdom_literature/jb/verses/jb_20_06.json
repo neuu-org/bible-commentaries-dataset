@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 20:6",
+  "verse_text": "Verse text for JB 20:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/20/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Pride. Septuagint, \"presents. \"(Haydock)\nRiches may be meant by pride. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/20/6",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc82",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "The pride of the hypocrite is said to ‘mount up unto the heavens,’ when his high-mindedness has the appearance of leading a heavenly life; and his ‘head as it were reaches unto the clouds,’ when the leading part, i. his intellect, is thought to equal the merits of the Saints that have gone before. Yet he ‘perishes at last like the dunghill,’ because at his death, when he is led to torments, being full of the dung of evil habits, he is trodden under foot of evil spirits. For the joys of the present life, which the unrighteous account great good, righteous men look upon as dung. Whence it is written; A slothful man is stoned with the dung of oxen. 22, 2] Thus he that will not follow God is made slothful in the love of the life everlasting. And as often as he is stricken with the loss of temporal goods, he is surely troubled on the score of those things, which the righteous look down upon as ‘dung:’ what else is it with him, then, that is bruised with the buffeting of things earthly, than that he ‘is stoned with the dung of oxen’ And the hypocrite is justly described like a dunghill, in that while he aims to obtain temporal glory, at one time in the imagination of his heart he swells within himself, at another time he grudges that same glory to some, and laughs at others having it really. For all the evil qualities then that he is full of, his breast as it were is defiled with so much dung, in the eye of the Eternal Judge.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/20/6",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd06b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 20:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

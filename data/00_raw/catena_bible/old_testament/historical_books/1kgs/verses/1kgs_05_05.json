@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 5:5",
+  "verse_text": "Verse text for 1KGS 5:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/5/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Aurelius Prudentius Clemens",
+      "period": "AD413",
+      "content": "After this war one work remains for us,\nO leaders, that which Solomon achieved,\nThe peaceful scion and the unarmed heir\nOf a warlike realm, whose father’s weary hand\nWas sullied by the ardent blood of kings.\nThe blood effaced, a temple is upraised\nAnd golden altar, house sublime of Christ.\nJerusalem then by its temple crowned,\nReceived its God, now that the wandering ark\nOn the marble altar found repose.\nIn our camp let a sacred temple rise,\nthat God may in its sanctuary dwell.\nWhat profits it to have repelled the hosts\nOf earthborn vices, if the Son of man\nFrom heaven descending, enter the body cleansed,\nBut unadorned and not a temple fair?\nThus far we have engaged in fierce conflict\nNow let white-vestured Peace perform its tasks,\nAnd youth unarmed build up a sacred house.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/5/5",
+      "full_content_url": "https://catenabible.com/com/5e1b66ae8bc66721fe4ef855",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 5:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

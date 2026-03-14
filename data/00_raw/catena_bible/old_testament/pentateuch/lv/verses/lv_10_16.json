@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 10:16",
+  "verse_text": "Verse text for LV 10:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/10/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "While Hebrew, \"and Moses sought diligently for \"This goat had been offered the same day, for the sins of the priest and of the people, chap. ix. 15. Aaron had not taken the parts allotted to his family, being too much grieved, and perhaps thinking that they could not eat all. (Calmet)\nTherefore, he judged it conformable to God's command to consume the whole, chap vii. 17. Moses fearing lest the thing had been done through negligence, finds fault with his two sons; but on hearing the remonstrance of Aaron, is satisfied. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/10/16",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc583",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 10:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

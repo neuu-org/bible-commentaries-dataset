@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 15:3",
+  "verse_text": "Verse text for 1SM 15:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/15/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Destroy, as a thing accursed. (Haydock)\nChild. The great master of life and death (who cuts off one half of mankind whilst they are children) has been pleased sometimes to ordain that children should be put to the sword, in detestation of the crimes of their parents, and that they might not live to follow the same wicked ways. But without such ordinance of God, it is not allowable in any wars, how just soever, to kill children. (Challoner)\nThe Israelites were now to execute God's orders with blind obedience, as he cannot be guilty of injustice.\nNor covet. His, is omitted in Hebrew (Calmet)\nAmalec is stricken when the flesh is chastised\nHe is destroyed when we repress evil thoughts. (St. Gregory) (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/15/3",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcf10",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now go and strike Amalek, and utterly destroy all that they have, and spare them not; but slay both man and woman, infant and nursing child, ox and sheep, camel and donkey. Child: The great Master of life and death (who cuts off one half of all mankind whilst they are children) has been pleased sometimes to ordain that children should be put to the sword, in detestation of the crimes of their parents, and that they might not live to follow the same wicked ways. But without such ordinance of God it is not allowable, in any wars, how just soever, to kill children.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/15/3",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f103",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 15:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

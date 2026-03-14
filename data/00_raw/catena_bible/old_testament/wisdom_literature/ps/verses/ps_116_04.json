@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 116:4",
+  "verse_text": "Verse text for PS 116:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/116/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But after \"I too found trouble and heaviness, I called upon the Name of the Lord\" (ver. For trouble and profitable sorrow I did not feel; trouble, wherein He giveth aid, unto whom it is said, \"O be Thou our help in trouble: and vain is the help of man. \" For I thought I might rejoice and exult in the vain help of man; but when I had heard from my Lord, \"Blessed are they that mourn, for they shall be comforted:\" I did not wait until I should lose those temporal blessings in which I rejoiced, and should then mourn: but I gave heed to that very misery of mine which caused me to rejoice in such things, which I both feared to lose, and yet could not retain; I gave heed to it firmly and courageously, and I saw that I was not only agonized by the adversities of this world, but even bound by its good fortune; and thus \"I found the trouble and heaviness\" which had escaped me, \"and called upon the Name of the Lord; O Lord, I beseech Thee, deliver my soul. \" Let then the holy people of God say, \"I called upon the Name of the Lord:\" and let the remainder of the heathen hear, who do not as yet call upon the Name of the Lord; let them hear and seek, that they may discover trouble and heaviness, and may call upon the Name of the Lord, and be saved.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/116/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65e8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 116:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

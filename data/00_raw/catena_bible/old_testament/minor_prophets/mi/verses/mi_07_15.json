@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MI 7:15",
+  "verse_text": "Verse text for MI 7:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/7/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Hear what is even more wonderful, that the hidden and veiled mysteries of the ancient books are in some degree revealed by the ancient prophets. For Micah the prophet spoke thus. “According to the days of your coming out of Egypt will I show unto him marvelous things.” … Our sins are overwhelmed and extinguished in baptism, just as the Egyptians were drowned in the sea. “He does not retain his anger forever because he delights in steadfast love…. You will cast all our sins into the depths of the sea.”",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/7/15",
+      "full_content_url": "https://catenabible.com/com/5838db9b205c248f42e52c85",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wonders. The prophets speaking of the return, have Christ and his religion in view; so that they seem not to find terms sufficiently magnificent, Isaias ix. 15., and xliii. 16., and Zacharias x. 11. We know from Esdras that nothing so surprising attended the liberation of the people. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/7/15",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf505",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 7:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

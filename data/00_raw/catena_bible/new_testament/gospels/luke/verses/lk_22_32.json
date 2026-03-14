@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 22:32",
+  "verse_text": "Verse text for LK 22:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/22/32",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "We know that this saying arose out of the very circumstance of his withdrawal, and the rest of the disciples did likewise.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/22/32",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf76",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "That thy faith fail not. The faith of Peter, established by the coming of the Holy Spirit, hath never failed, nor can fail, being built upon a rock, which is Christ himself, and being guided by the spirit of truth, as Christ promised. (John xv. 26. and xvi. 13.)\nAnd thou being once converted, confirm thy brethren, even all the other apostles and bishops, over whom I have made and constituted thee and thy successors the chief head, that such a head being appointed by divine authority, all occasions of schisms and divisions might cease, says St. Jerome. (Witham)\nAdmire the superabundance of the divine patience. That the disciple might not lose courage, he promised him pardon before he has committed the crime, and restores him again to his apostolic dignity, saying, confirm thy brethren. (St. Cyril)",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/22/32",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb63",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ignatius of Antioch",
+      "period": "AD108",
+      "content": "From whom the Lord Jesus Christ will deliver us, who prayed that the faith of the apostles might not fail,",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/22/32",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf75",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "And who said then to those that stood by the high priest, \"Take away his ragged garments from him; \"and added, \"Behold, I have taken thine iniquities away from thee; \"He will say now, as He said formerly of us when we were assembled together, \"I have prayed that your faith may not fail.\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/22/32",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf77",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 22:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

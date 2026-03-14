@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 86:9",
+  "verse_text": "Verse text for PS 86:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/86/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "12. \"All nations that Thou hast made shall come and worship before Thee, O Lord\" (ver. 9). He has announced the Church: \"All nations.\" If there is any nation which God hath not made, it will not worship Him: but there is no nation which God hath not made; because God made Adam and Eve, the source of all nations, thence all nations sprang. All nations therefore hath God made. When was this said? When before Him there worshipped none but a few holy men in one people of the Hebrews, then this was said: and see now what it is which was said: \"All nations that Thou hast made,\" etc. When these things were spoken, they were not seen, and they were believed: now that they are seen, why are they denied? \"All nations that Thou hast made shall come and worship before Thee, O Lord, and shall glorify Thy Name.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/86/9",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cb5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Name. This was partly verified after the captivity, and fully when the gospel was preached. (Calmet)\nThe Gentiles came by faith, and glorified God by good works, Matthew v. 17. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/86/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be26a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 86:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

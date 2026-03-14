@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 21:10",
+  "verse_text": "Verse text for IS 21:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/21/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "Notice how in this passage he does not call those of the circumcision to hear the un-speakable words, but only those whom he calls “forsaken and tortured.” These were those of the time of the apostles who regretted and lamented the evil of humanity. - \"Proof of the Gospel 2.3\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/21/10",
+      "full_content_url": "https://catenabible.com/com/5e4f7f88c849cf49a740e35b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Floor: you who must shortly be reduced to the utmost distress. Baladan was friendly to Ezechias. But Assar don having seized Babylon, took Manasses prisoner; and the city thenceforward continued to fill up the measure of its sins. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/21/10",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be9c6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 21:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

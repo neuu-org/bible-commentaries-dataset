@@ -1,0 +1,80 @@
+{
+  "verse_reference": "EPH 3:5",
+  "verse_text": "Verse text for EPH 3:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/eph/3/5",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "For now that is clearly shown \"which was not made known to other ages, which is now revealed to the sons of men.\"",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/3/5",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bafa8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "He teaches that there is a perfect harmony—a complete unity and identity— between the revelations given to him and those given to the apostles. His purpose is to avoid discord and any appearance of having received by revelation something that was not given to the apostles by the living Christ. .",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/3/5",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c66939",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Which in other ages was not made known unto the sons of men, as it is now revealed unto his holy apostles and prophets by the Spirit; As it is now revealed. Paul, as both St. Jerome and St. Chrysostom take notice, does not absolutely say that this mystery was not known, but only not known as it was afterwards to the apostles. For whether by this mystery we understand the incarnation of Christ, or the uniting of the Jews and Gentiles into one Church, we cannot doubt but both were revealed to Abraham, to David, to many prophets and just men in the time of the law; but now it was revealed and made known to all.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/3/5",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c012b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Tell me then, what part did the prophets not fully grasp? How can Christ say later that Moses and the prophets wrote “these things about me”? … What he is saying is that the expectation of Christ was not revealed to everyone. It “was not made known to the sons of men in other generations as it has now been revealed to his holy apostles and prophets by the Spirit.” Peter, if he had not been guided by the Spirit, would never have gone to the Gentiles. … The prophets therefore spoke but did not have complete knowledge at the time. They did not even have complete knowledge after they heard the gospel, which far exceeds human reason and common expectations. .",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eph/3/5",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c6693a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What then, tell me, did not the Prophets know it. How then does Christ say, that Moses and the Prophets wrote these things concerning Me. And again, If you believed Moses, you would believe Me. John 5:46 And again, You search the Scriptures, because ye think that in them you have eternal life, and these are they which bear witness of me. John 5:39 His meaning is this, either that it was not revealed unto all men, for he adds, which in other generations was not made known unto the sons of men, as it has now been revealed; or else, that it was not thus made known by the very facts and realities themselves, as it has now been revealed unto His holy Apostles and Prophets in the Spirit. For reflect. Peter, had he not been instructed by the Spirit, never would have gone to the Gentiles. For hear what he says, Then has God given unto them the Holy Ghost, as well as unto us. Acts 10:47 That it was by the Spirit that God chose that they should receive the grace. The Prophets then spoke, yet they knew it not thus perfectly; so far from it, that not even did the Apostles, after they had heard it. So far did it surpass all human calculation, and the common expectation.",
+      "commentary_number": "5/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eph/3/5",
+      "full_content_url": "https://catenabible.com/com/57558dcd3c6effa740ddda97",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EPH 3:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

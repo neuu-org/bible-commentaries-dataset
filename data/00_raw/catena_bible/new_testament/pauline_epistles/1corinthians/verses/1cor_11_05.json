@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1COR 11:5",
+  "verse_text": "Verse text for 1COR 11:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/11/5",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "And she will never fall, who puts before her eyes modesty, and her shawl; nor will she invite another to fall into sin by uncovering her face. For this is the wish of the Word, since it is becoming for her to pray veiled.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/11/5",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba80b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "(although that even they have the right of prophesying, he has already shown.\nFor they who allow to virgins immunity from head-covering, appear to rest on this; that the apostle has not defined \"virgins \"by name, but \"women\".\ndishonoureth her own head.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/11/5",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba80c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "What is the meaning of the expression “every woman” except women of every age, every rank and every circumstance? No one is excepted.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/11/5",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5d9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "And he says: \"Every woman that prayeth or prophesieth with her head uncovered, dishonoureth her head\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/11/5",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba80d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 11:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

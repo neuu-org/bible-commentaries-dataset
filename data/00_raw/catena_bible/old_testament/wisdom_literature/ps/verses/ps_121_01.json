@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 121:1",
+  "verse_text": "Verse text for PS 121:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/121/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. ...Let them \"lift up their eyes to the hills whence cometh their help\" (ver. 1). What meaneth, The hills have been lightened? The San of righteousness hath already risen, the Gospel hath been already preached by the Apostles, the Scriptures have been preached, all the mysteries have been laid open, the veil hath been rent, the secret place of the temple hath been revealed: let them now at length lift their eyes up to the hills, whence their help cometh ...\"Of His fulness have all we received,\" he saith. Thy help therefore is from Him, of whose fulness the hills received, not from the hills; towards which, nevertheless, save thou lift thine eyes through the Scriptures, thou wilt not approach, so as to be lighted by Him.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/121/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66af",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Canticle. David wrote this during his flight from Absalom; (Grotius) and de Muis judges from the martial air, that it was composed in the midst of danger. It relates to the captives, (Origen; Calmet) and to all in the pilgrimage of this world. (Berthier)\nMountains. Jerusalem, and heaven, whence all our help must come. God most readily hears the prayers which are poured forth in places appointed by him. (Worthington)\nJerusalem was situated among mountains, and the Jews turned towards it in prayer, Daniel vi. 10. They did not depend on human aid, Jeremias iii. 22.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/121/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be470",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 121:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

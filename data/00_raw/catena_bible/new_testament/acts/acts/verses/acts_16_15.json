@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 16:15",
+  "verse_text": "Verse text for ACTS 16:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/16/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "Here two examples are given, one of constraining guests, the other of going in to those recently converted.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/16/15",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabe0b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "and receives the Apostles with such earnestness of entreaty; with more than that used by Abraham. And she speaks of no other token than that whereby she was saved Genesis 18:3: she says not, If you have judged me a great, a devout woman; but what? faithful to the Lord: if to the Lord, much more to you. If you have judged me: if you do not doubt it. And she says not, Abide with me, but, Come into my house and abide: with great earnestness (she says it). Indeed a faithful woman!— A certain damsel possessed with a spirit of Python.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/16/15",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b93d4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "then look at her wisdom, how she importunes (δυσωπεἵ), the Apostles how full of humility her words are, how full of wisdom. If you have judged me faithful, she says. Nothing could be more persuasive. Who would not have been softened by these words. She did not request (or, claim) did not entreat simply: but she left them to decide, and (yet) exceedingly forced them: And she constrained us, it says, by those words. And again in a different way: for see how she straightway bears fruit, and accounts it a great gain. If you have judged me, that is, That ye did judge me is manifest, by your delivering to me such (holy) mysteries (i. sacraments, see p. 225, note 3): and she did not dare to invite them before this. But why was there any unwillingness on the part of Paul and those with them, that they should need to be constrained. It was either by way of calling her to greater earnestness of desire, or because Christ had said, Enquire who is worthy, and there abide. Luke 10:8 (It was not that they were unwilling), but they did it for a purpose. — And it came to pass, it says, as we went to prayer, a certain damsel possessed with a spirit of divination met us, which brought her masters much gain by soothsaying: the same followed Paul and us, and cried, saying, These men are the servants of the most high God, which show unto us the way of salvation.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/16/15",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b93ca",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 16:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

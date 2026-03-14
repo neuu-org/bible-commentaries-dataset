@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ZEP 3:17",
+  "verse_text": "Verse text for ZEP 3:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/zep/3/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The LORD your God in the midst of you is mighty; he will save, he will rejoice over you with joy; he will quiet you with his love, he will rejoice over you with singing. Silent; constant. (Menochius) He will accuse thee no more. Can this be understood of the Jews, who have been cast off till the fulness of the Gentiles enter the Church. To the latter all this must be applied. Few prophets inveighed against the crimes of the captives after their return. (Calmet) But this must be deemed a punishment, unless the crimes were also removed.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zep/3/17",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf55e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEP 3:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

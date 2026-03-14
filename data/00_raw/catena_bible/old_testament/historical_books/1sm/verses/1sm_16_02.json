@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 16:2",
+  "verse_text": "Verse text for 1SM 16:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/16/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of the herd. Hebrew, \"a heifer in thy hand. \"(Haydock)\nFemales might be employed as peace-offerings, Leviticus iii. 1.\nLord. This was one, though not the principal reason. No one doubted but that he might lawfully offer sacrifice, at a distance from the tabernacle, as he was guided by God. The Jews allow that prophets have this privilege, and may dispense with the ceremonial law, (Grotius) when they act by God's authority, as we ought to believe they do, as long as there is no proof to the contrary. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/16/2",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcf28",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 16:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

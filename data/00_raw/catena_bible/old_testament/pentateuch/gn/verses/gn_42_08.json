@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 42:8",
+  "verse_text": "Verse text for GN 42:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/42/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By them. Years and change of situation, had made such an alteration in him. God was pleased that Jacob should remain so long ignorant of his son's fate, that, by sorrow, he might do penance, and purify himself from every stain; and that he might not attempt to redeem Joseph, whose slavery was to be the source of so much good to his family. (Menochius)\nJoseph did not make himself known at first; in order to bring his brethren to a true sense of their duty, that they might obtain pardon for their sin. Thus pastors must sometimes treat their penitents with a degree of severity. (St. Gregory, hom. 22, Ezec.; St. Augustine, ser. 82, de Tem.) (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/42/8",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc22a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 42:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

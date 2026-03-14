@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 10:40",
+  "verse_text": "Verse text for LK 10:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/10/40",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But Martha was cumbered with much serving, × ×•×–×™×•×£× ×‘Ìƒ×¤×Ÿ × ×•×–ï¢“ × ×Ÿ×›×›×—Ì€× ×”×™×‘×š×Ÿ×ï¢“×‘×, was drawn aside and distracted, i.e. was anxious that nothing should be wanting for the entertainment of such a guest. Hence the Arabic, Martha was diligently serving to the utmost of her power.\nAnd came to Him, and said, Lord, dost Thou not care that my sister hath left me to serve alone? bid her therefore that she help me. Came to Him: Greek, ×•Ì‰× ×™×£×¤×‘Ìƒ×£×‘, standing by Him.\nDost Thou not care? Does not it displease you? Arabic.\nMartha spoke thus partly from her wish that all things should be properly prepared for Christ, partly from her knowledge of His consideration and kindness. Lord, my sister sees me overwhelmed with care because of my desire to honour Thee, and yet does nothing to assist me. Out of kindness to me, bid her, therefore, share my labour. She will obey Thy word, but will not, I know, listen to my request.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/10/40",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fb8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Calvin here ridicules the professors of evangelical poverty, because they gather from this place that there are two states of life, viz. the active and the contemplative, figured by Martha and Mary. But what will he answer, when he is informed, that this is the opinion not merely of monks, but even of a St. Augustine, (Serm. xxvii. De verbis Domini,) of a St. Jerome, (Com. 3 cap. of Jeremiah,) of a St. Gregory, and many others? Not that they were ignorant that there was another more natural explanation; but they were of opinion that nothing could be found more proper for the illustration of these different states of life. (Maldonatus)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/10/40",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfab0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 10:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

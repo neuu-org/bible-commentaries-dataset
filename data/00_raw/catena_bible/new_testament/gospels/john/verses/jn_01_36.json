@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 1:36",
+  "verse_text": "Verse text for JN 1:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/1/36",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And seeing Jesus as he walked, &c. As though he said, \"Behold Christ like a spotless Lamb, destined for a victim, that He may be offered to God upon the cross, for the sins of the whole world.\" When John spoke thus it was as though he said to his disciples, \"Why do you follow me? follow Him who is the Lamb of God, the ransom of the world.\"\nHere observe the prudence and modesty of John. He does not compel or urge his disciples to follow Christ, but only points Him out to them, that they might the more ardently pursue after so great a good when it was discovered by themselves. Like a man who, when a jewel is being sold for a small price, points out to merchants how great is its worth, and causes them of their own accord to long to purchase it.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/1/36",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "For this cause I was born, and for this cause I am come into the world, that I might bear testimony to the truth. Every one that is of the truth heareth my voice.\"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/1/36",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb2c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Already had the blessed Baptist pointed Him out before; but lo, repeating again the same words, he points Jesus out to his disciples, and calls Him the Lamb of God, and says that He taketh away the sin of the world, all but bringing his hearers to remembrance of Him Who saith in the Prophets: I, even I, am He That blotteth out thy transgressions, and will not remember thy sins. But not in vain does the Baptist repeat the same account of the Saviour. For it belongs to skill in teaching, to infix in the souls of the disciples the not yet received word, not shrinking at repetition, but rather enduring it for the profit of the pupils. For therefore does the blessed Paul too say, To write the same things to you, to me indeed is not grievous, but for you it is safe.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/1/36",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabe38",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 1:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

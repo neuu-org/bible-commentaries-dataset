@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 3:20",
+  "verse_text": "Verse text for 1SM 3:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/3/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Faithful. Hebrew Neeman, may be a title of dignity, or may signify that Samuel was confirmed and continued to be a prophet. (Calmet)\nAccording to, or by. God revealed his will to him by word, and not by visions. (Sanchez)\nIsrael. The whole people suffered along with their leaders. (Haydock)\nThey were concerned in the prediction which was denounced against the house of Heli. (Menochius)\nSeptuagint, \"and Samuel was entrusted to be the prophet of the Lord, to all Israel, from the ends of the earth to the ends: And Heli was very old, and his sons going went forward, and their way was wicked before the Lord. \"Thus they usher in the following catastrophe. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/3/20",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce6b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 3:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

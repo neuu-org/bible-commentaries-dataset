@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 8:51",
+  "verse_text": "Verse text for LK 8:51",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/8/51",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Verily, verily, I say. He says this not from indignation but from pity of the Jews, showing that He is seeking not His own glory, but their salvation. \"I say in very truth,\" and as S. Augustine thinks, he means I swear, \"that if ye keep My commandments ye shall never die the death of the soul; ye shall never sin, for sin is the death of the soul. But ye shall ever live, here in the grace of God, and in heaven in His glory. Ye shall die indeed in the body, but I will raise you up in the day of judgment, and ye shall live in happiness of body and spirit for all eternity.\" So S. Augustine.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/51",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f87",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "And the father and mother of the maiden.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/8/51",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbd09",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 8:51",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

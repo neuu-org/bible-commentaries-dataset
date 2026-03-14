@@ -1,0 +1,69 @@
+{
+  "verse_reference": "JN 12:19",
+  "verse_text": "Verse text for JN 12:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/12/19",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "The Pharisees therefore said among themselves, Perceive ye how that ye prevail nothing. Behold, the world is gone after Him. This is an hyperbole. But a large body, of every age, sex, and rank had gone after Him, old and young, Jews and Gentiles. Cyril observes that the Pharisees tacitly prophesied that all the world would be converted to Christ, though they themselves did not understand this. Chrysostom and Theophylact consider that they who spoke thus were believers in Christ, or anyhow disposed to believe in Him, and that they addressed in these words those who disbelieved in Him. Cyril, Euthymius, and others, think that they were unbelievers, and enemies of Christ, explaining it thus:—We have all of us decided to put Jesus to death. Why do we delay. We have gained nothing by it. It would have been far better, if we had put Him to death at once, before His party had increased, and become so well known. What now is our course of duty. To carry out our intention as quickly as possible. lf we delay much longer all will go after Him. We shall be beaten by Numbers , unless we prevail by craft.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/12/19",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e522b3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "This they say, finding fault with themselves, that they had not long ago put Jesus and Lazarus also to death, urging themselves to murder; being angry concerning the believing multitude, as though deprived of their special possessions----those which really belonged to God.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/12/19",
+      "full_content_url": "https://catenabible.com/com/57eb0c76b0d44ee10cfabfe8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Do you see that we prevail nothing? Thus said the Pharisees, being vexed that so many followed Christ, even after they had ordered, that whosoever owned him, should be turned out of their synagogues; and after they had employed men to apprehend him, but to no purpose. (Witham)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/12/19",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfc76",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now this seems to me to be said by those who felt rightly, but had not courage to speak boldly, and who then would restrain the others by pointing to the result, as though they were attempting impossibilities. Here again they call the multitude the world. For Scripture is wont to call by the name world both the creation, and those who live in wickedness; the one, when It says, Who brings out His world by number Isaiah 40:26; the other when It says, The world hates not you, but Me it hates. John 7:7 And these things it is necessary to know exactly, that we may not through the signification of words afford a handle to the heretics.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/12/19",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabbf3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 12:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 32:11",
+  "verse_text": "Verse text for PS 32:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/32/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Be glad in the LORD, and rejoice, you righteous: and shout for joy, all you that are upright in heart. Augustine of Hippo 11. \"Be glad in the Lord, and rejoice, ye righteous:\" be glad, and rejoice, ye righteous, not in yourselves, but in the Lord. \"And glory, all ye that are right in heart\" (ver. 11): and glory in Him, all ye who understand that it is right to be subject unto Him, that so ye may be placed above all things beside.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/32/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e694a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Glory, which is lawful when God is the object, 1 Corinthians i. 31. My glory I will not give to another, Isaias xlii. 8. (Calmet)\nHebrew, \"praise him. \"(St. Jerome) (Haydock)\nJoy is the end of true penance, to which the prophet invites all. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/32/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf90",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 32:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

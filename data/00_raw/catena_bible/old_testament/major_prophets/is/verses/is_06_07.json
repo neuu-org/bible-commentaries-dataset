@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 6:7",
+  "verse_text": "Verse text for IS 6:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/6/7",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Tell me, then, whoever you are who deny the divinity of the Holy Spirit. The Spirit could not be liable to sin, who rather forgives sin. Does an angel forgive. Does an archangel. Certainly not, but the Father alone, the Son alone and the Holy Spirit alone [can forgive sins]. Now one is obviously able to avoid that which he has power to forgive. But perhaps someone will say that the seraph said to Isaiah, “Behold, this has touched your lips and shall take away your iniquities and purge away your sins. ” Shall take away, he says, and shall purge, not I will take away, but that fire from the altar of God, that is, the grace of the Spirit. For what else can we piously understand to be on the altar of God but the grace of the Spirit. Certainly not the wood of the forests or the soot and coals. Or what is so in accordance with piety as to understand according to the mystery that it was revealed by the mouth of Isaiah that everyone should be cleansed by the passion of Christ, who as a coal according to the flesh burnt up our sins, as you read in Zechariah: “Is not this a brand snatched from the fire. Now Joshua was clothed in filthy garments.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/6/7",
+      "full_content_url": "https://catenabible.com/com/5e4f7f45c849cf49a740e233",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sin. Impediment in speech. All defects were attributed to some sin, (John ix. 2.) as Job's friends maintained.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/6/7",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be90b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Peter Chrysologus",
+      "period": "AD450",
+      "content": "But let us at this time feel remorse with all the affection of our hearts. Let us admit that we are wretched in this misery of the flesh. Let us weep with holy groans because we, too, have unclean lips. Let us do all this to make that one of the seraphim bring down to us, by means of the tongs of the law of grace, a flaming sacrament of faith taken for us from the heavenly altar. Let us do this to make him touch the tip of our lips with such delicate touch as to take away our iniquities, purge away our sins and so enkindle our mouths to the full flame of complete praise that the burning will be one that results in salvation, not pain. Let us beg, too, that the heat of that coal may penetrate all the way to our hearts. Thus we may draw not only relish for our lips from the great sweetness of this mystery but also complete satisfaction for our senses and minds.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/6/7",
+      "full_content_url": "https://catenabible.com/com/5e4f7f45c849cf49a740e234",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 6:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

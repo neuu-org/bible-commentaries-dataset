@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 26:1",
+  "verse_text": "Verse text for DT 26:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/26/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The land where Moses was speaking, which had been already conquered, was no less under the obligation of paying the first-fruits, than Chanaan, and the parts of Syria which were promised to the Israelites. (Haydock) All the products of the earth seem to have been liable to be offered, (Matthew xxiii. 23,) in proportion as they ripened, at the feasts of the Passover and of Pentecost, (Calmet) and of tabernacles. (Menochius) Yet we find no mention here of the therumah, or offering, of which the Rabbins speak so much, as distinct at least from the first-fruits, which were heaved both by the priest and the offerer towards heaven and earth, on the right and left hand. Each (Calmet) landholder, (Haydock) and even the king himself, was bound to bring his own basket to the temple, and to recite the words here prescribed. The wheat and barley were first winnowed, and the grapes and olives made into wine and oil. Before the offering was made to the Lord, no one was allowed to taste any of the produce, Leviticus xxiii. , and Numbers xviii. 12 Whether legumes were to be tithed, seems a matter of dispute.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/26/1",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bca6d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 26:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

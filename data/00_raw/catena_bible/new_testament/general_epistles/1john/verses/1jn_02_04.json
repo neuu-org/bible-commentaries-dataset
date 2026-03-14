@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1JN 2:4",
+  "verse_text": "Verse text for 1JN 2:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/1jn/2/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Nos enim didicimus libertatem, qua Dominus noster nos liberat a voluptatibus, eta cupiditatibus, et aliis perturbation bus solvens. \"Qui dicit: Novi Dominum, et mandata ejus non set vat, mendax est, et in eo veritas non est\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1jn/2/4",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba956",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "He that saith he knoweth Him, that Isaiah , with true and saving knowledge, such as leads to eternal life, and keepeth not His commandments is a liar. As the Apostle said ( Romans 1:21) of the philosophers who knew God, but only in a speculative and barren way, \"When they knew God, they glorified Him not as God.\"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1jn/2/4",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5269e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He that says he knoweth him To know, in this and many other places, is not taken for a speculative knowledge alone, but is joined with a love of God, and an earnest desire of serving him and keeping his commandments. (Witham)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1jn/2/4",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1JN 2:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

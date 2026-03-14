@@ -1,0 +1,80 @@
+{
+  "verse_reference": "PHLM 1:15",
+  "verse_text": "Verse text for PHLM 1:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/phlm/1/15",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Sometimes the occasion of evil becomes the occasion of good, and God turns evil human plans to an upright end…. If indeed [Onesimus] had not fled his master, he never would have come to Rome where Paul was in prison in chains. If he had not seen Paul in chains, he would not have received faith in Christ. If he had not had faith in Christ, he never would have become Paul’s son, so that he might be sent for the work of the gospel…. Paul says “perhaps” cautiously, hesitantly, with trepidation and not with certainty. If he had not said “perhaps,” all slaves would need to flee in order to become apostles. .",
+      "commentary_number": "1/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phlm/1/15",
+      "full_content_url": "https://catenabible.com/com/583ba9de205c248f42e5304b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Sometimes evil is the occasion of good, and God turns the wicked plans of men into what is right.",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/15",
+      "full_content_url": "https://catenabible.com/com/576218ce9fd295934bf12084",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul wisely said “perhaps,” that the master may yield to his request. For since Onesimus’s flight arose from wickedness and a corrupt mind and not from the intention to accomplish good, Paul has said, “perhaps.” And he has not said, “therefore he fled,” but “therefore he was separated,” in order to elicit some tenderness on the part of Philemon.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/15",
+      "full_content_url": "https://catenabible.com/com/583ba9de205c248f42e53048",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He has well said, perhaps, that the master may yield. For since the flight arose from perverseness, and a corrupt mind, and not from such intention, he has said, perhaps. And he has not said, therefore he fled, but, therefore he was separated, by a more fair sounding expression softening him the more. And he has not said, He separated himself, but, he was separated. For it was not his own arrangement that he should depart either for this purpose or for that. Which also Joseph says, in making excuse for his brethren, For God did send me hither Genesis 45:5, that is, He made use of their wickedness for a good end. Therefore, he says, he was parted for a season. Thus he contracts the time, acknowledges the offense, and turns it all to a providence. That you should receive him, he says, for ever, not for the present season only, but even for the future, that you might always have him, no longer a slave, but more honorable than a slave. For you will have a slave abiding with you, more well-disposed than a brother, so that you have gained both in time, and in the quality of your slave. For hereafter he will not run away. That you should receive him, he says, for ever, that is, have him again.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phlm/1/15",
+      "full_content_url": "https://catenabible.com/com/57eb0ef1b0d44ee10cfac714",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Then when he says, Perhaps, indeed..., he gives the reason why he ought to receive him kindly, first, on the side of God, second, on the side of the Apostle:",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/15",
+      "full_content_url": "https://catenabible.com/com/576218ce9fd295934bf12078",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHLM 1:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

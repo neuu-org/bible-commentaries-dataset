@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 1:56",
+  "verse_text": "Verse text for LK 1:56",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/56",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "And Mary abode with her about three months, and returned to her own house. Ambrose of Milan Now it was not only for the sake of friendship that she abode so long, but for the increase also of so great a prophet. For if ather first coming the child had so far advanced, that at the salutation of Mary he leaped in the womb, and his mother was filled with the Holy Spirit, how much must we suppose the presence of the Virgin Mary to have added during the experience of so long a time. Rightly then is she represented as having shown kindness to Elisabeth, and preserved the mystical number.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/56",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9d46",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "For the chaste soul which conceives a desire of the spiritual word must of necessity submit to the yoke of heavenly discipline, and sojourning for the days as it were of three months in the same place, cease not to persevere until it is illuminated by the light of faith, hope, and charity.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/56",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9d47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Greek Expositor",
+      "period": "AD1000",
+      "content": "For it is the custom for virgins to go away when the pregnant woman brings forth. But when she reached her own home, she went to no other place, but abode there until she knew the time of her delivery was at hand. And Joseph doubting, is instructed by an Angel.\nFor it is the custom for virgins to go away when the pregnant woman brings forth. But when she reached her own home, she went to no other place, but abode there until she knew the time of her delivery was at hand. And Joseph doubting, is instructed by an Angel.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/56",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9d48",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophilus of Antioch",
+      "period": "AD184",
+      "content": "And Mary abode with her about three months, and returned to her own house. Theophilus of Antioch For in the sixth month of the conception of the forerunner, the Angel came to Mary, and she abode with Elisabeth three months, and so the nine months are completed. But when Elisabeth was going to bring forth, the Virgin departed, as it follows, And she returned; or, probably because of the multitude, who were about to assemble at the birth. But it became not a virgin to be present on such an occasion.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/56",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9d45",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:56",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

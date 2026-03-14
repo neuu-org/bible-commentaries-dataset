@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 5:6",
+  "verse_text": "Verse text for EST 5:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/5/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "Notice how the will of the inviting queen and the order of the commanding king agree. But woe to the one who comes to the banquet of the Lord with an evil mind! Even though such a person has his heart defiled by hatred and a corrupt conscience, he is not ashamed to enter unworthily the banquet of the Lord. Even though he comes after being invited, he does not bask in the joy of the guests. But when the king comes and sees that he sits there without wearing a wedding robe, he will rebuke his temerity and will order him to be bound hand and foot and thrown into the outer darkness where he will be forced to suffer the evil of his deception which he was wickedly preparing against the innocent, as Solomon says, “The wicked will be caught in his snares.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/5/6",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa3a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 5:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

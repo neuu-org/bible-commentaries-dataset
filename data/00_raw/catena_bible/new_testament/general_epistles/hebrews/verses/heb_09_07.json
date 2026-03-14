@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 9:7",
+  "verse_text": "Verse text for HEB 9:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/9/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Into the second part of the sanctuary, (i.e. the holy of holies) no one entered but the high priest, and he but once a year, on the feast called of expiation, to make an aspersion of blood upon the ark and round about, which he offereth for his own and the people's ignorance, or ignorances, as in the Greek; that is, for all his and their sins. See Leviticus x. (Witham)\nHe offered the blood of a calf for his own sins and those of his family, and the blood of a goat for the sins of the people. (Leviticus xvi.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/9/7",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02ff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "You see that the types were already laid down beforehand. For, lest they should say, how is there [but] one sacrifice. he shows that this was so from the beginning, since at least the more holy and the awful [sacrifice] was [but] one. And how did the High Priest offer once for all. Thus were they wont [to do] from the beginning, for then also (he says) the High Priest offered once for all. And well said he, not without blood. (Not indeed without blood, yet not this blood, for the business was not so great. ) He signifies that there shall be a sacrifice, not consumed by fire, but rather distinguished by blood. For inasmuch as he called the Cross a sacrifice, though it had neither fire, nor logs, nor was offered many times, but had been offered in blood once for all; he shows that the ancient sacrifice also was of this kind, was offered once for all in blood. Which he offers for himself; again, for himself; and for the errors of the people. He said not sins; but errors, that they might not be high-minded. For even if you have not sinned intentionally, yet unintentionally you have erred, and from this no man is pure. And everywhere [he adds] the for himself, showing that Christ is much greater. For if He be separated from our sins, how did He offer for Himself. Why then did you say these things (one says). Because this is [a mark] of One that is superior.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/9/7",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac807",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 9:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

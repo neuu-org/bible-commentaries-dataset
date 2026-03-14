@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 3:3",
+  "verse_text": "Verse text for PS 3:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/3/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "3. \"But Thou, O Lord, art my taker.\" It is said to God in the nature of man, for the taking of man is, the Word made Flesh. \"My glory.\" Even He calls God his glory, whom the Word of God so took, that God became one with Him. Let the proud learn, who unwillingly hear, when it is said to them, \"For what hast thou that thou didst not receive? Now if thou didst receive it, why dost thou glory as if thou hadst not received it?\" \"And the lifter up of my head\" (ver. 3). I think that this should be here taken of the human mind, which is not unreasonably called the head of the soul; which so inhered in, and in a sort coalesced with, the supereminent excellency of the Word taking man, that it was not laid aside by so great humiliation of the Passion.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/3/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e648a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Protector. Hebrew, \"shield. \"\nGlory. God is the hope of his servants, (1 Corinthians xv. 31.) and grants their requests. (Calmet)\nHe has not abandoned me, when I had fallen into sin. (Haydock)\nHe gives me the victory, and confirms my throne. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/3/3",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde54",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 3:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

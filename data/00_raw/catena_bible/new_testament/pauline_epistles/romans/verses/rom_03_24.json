@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 3:24",
+  "verse_text": "Verse text for ROM 3:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/3/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "They are justified freely because they have not done anything nor given anything in return, but by faith alone they have been made holy by the gift of God. Paul testifies that the grace of God is in Christ, because we have been redeemed by Christ according to the will of God so that once set free we may be justified, as he says to the Galatians: “Christ redeemed us by offering himself for us.” For he achieved this despite the fierce attacks of the devil, who was outwitted. For the devil received Christ (in hell) thinking that he could hold him there, but because he could not withstand his power he lost not only Christ but all those whom he held at the same time. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/3/24",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e36",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Prosper of Aquitaine",
+      "period": "AD455",
+      "content": "Grace is the glory of God, not the merit of him who has been freed.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/3/24",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e37",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 3:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

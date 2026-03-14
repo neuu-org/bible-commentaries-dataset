@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 1:19",
+  "verse_text": "Verse text for JGS 1:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/1/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Was not able Through a cowardly fear of their chariots armed with hooks and scythes, and for want of confidence in God. (Challoner)\nHebrew does not say expressly that Juda could not: quia non ad expellendum He had not the courage or the will. With God's assistance, what had he to fear? Were these Philistines with their chariots, more terrible than the giants in their fortresses?\nScythes. Hebrew receb barzel, \"chariots of iron. \"(Calmet)\nThe Roman and Alexandrian Septuagint have \"Rechab was opposed to them. \"(Haydock)\nThe edition of Basil adds, \"and they had chariots of iron \"as St. Augustine (q. 5,) reads. A double translation is thus given. (Calmet)\nThese chariots were calculated to cut down all that came in contact with them. (Curt. iv.) (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/1/19",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bccb0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Was not able: Through a cowardly fear of their chariots armed with hooks and scythes, and for want of confidence in God.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/1/19",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa008",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 1:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

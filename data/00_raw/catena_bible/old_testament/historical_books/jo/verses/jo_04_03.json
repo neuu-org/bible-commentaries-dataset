@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 4:3",
+  "verse_text": "Verse text for JO 4:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/4/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And command them, saying, Take from here out of the midst of the Jordan, out of the place where the priests' feet stood firm, twelve stones, and you shall carry them over with you, and leave them in the lodging place, where you shall lodge this night. The Hebrew term is referred by some to the priests, \"from the station of the priests, prepared, or standing firm \"(chap. 17,) by others to the stones, which were to be prepared, hard, or exactly twelve. (Calmet) The Septuagint have taken it in the latter sense, \"twelve stones ready \"or such as they might easily find, in the place where the priests had stood. They were of a flinty nature, (Haydock) that they might perpetuate the memory of this event. (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/4/3",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb55",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 4:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

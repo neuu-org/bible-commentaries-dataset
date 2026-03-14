@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 11:11",
+  "verse_text": "Verse text for DT 11:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/11/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But the land, where you go to possess it, is a land of hills and valleys, and drinks water from the rain of heaven: All this Abraham undergoes that he may dwell in a land of promise watered from above, and not like Egypt, from below, no producer of herbs for the weak and ailing but a land that looks for the early and the latter rain from heaven. It is a land of hills and valleys and stands high above the sea. The attractions of the world it entirely lacks, but its spiritual attractions are for this all the greater.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/11/11",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a41",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 11:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

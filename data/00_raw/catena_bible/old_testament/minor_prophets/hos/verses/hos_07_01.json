@@ -1,0 +1,36 @@
+{
+  "verse_reference": "HOS 7:1",
+  "verse_text": "Verse text for HOS 7:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/7/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When I would have healed Israel, then the iniquity of Ephraim was uncovered, and the wickedness of Samaria: for they commit falsehood; and the thief comes in, and bands of robbers plunder outside. God divided the kingdom, that by this chastisement the people might be converted. But Jeroboam set up calves, and caused them to grow worse. (Worthington) How often did God send his prophets to reclaim them. Most of the kings were of this stamp, while foreign nations invaded the land.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/7/1",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf37c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 7:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

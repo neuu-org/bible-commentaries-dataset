@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 17:3",
+  "verse_text": "Verse text for PS 17:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/17/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You have proved my heart; you have visited me in the night; you have tested me, and shall find nothing; I have purposed that my mouth shall not transgress. Augustine of Hippo 3. \"Thou hast proved and visited Mine heart in the night- season\" (ver. For this Mine heart hath been proved by the visitation of tribulation. \"Thou hast examined Me by fire, and iniquity hath not been found in Me. \" Now not night only, in that it is wont to disturb, but fire also, in that it burns, is this tribulation to be called; whereby when I was examined I was found righteous.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/17/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6835",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 17:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

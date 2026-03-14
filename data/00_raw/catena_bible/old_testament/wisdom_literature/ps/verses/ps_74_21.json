@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 74:21",
+  "verse_text": "Verse text for PS 74:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/74/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "21. \"Let not the humble man be turned away confounded\" (ver. 21). For them pride hath confounded. \"The needy and helpless man shall praise Thy name.\" Ye see, brethren, how sweet ought to be poverty: ye see that poor and helpless men belong to God, but \"poor in spirit, for of them is the Kingdom of Heaven.\" Who are the poor in spirit? The humble, men trembling at the words of God, confessing their sins, neither on their own merits, nor on their own righteousness relying. Who are the poor in spirit? They who when they do anything of good, praise God, when anything of evil, accuse themselves. \"Upon whom shall rest My Spirit,\" saith the Prophet, \"but upon the humble man, and peaceful, and trembling at My words?\" Now therefore Asaph hath understood, now to the earth he adhereth not, now the earthly promises out of the Old Testament he requireth not. ...",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/74/21",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c06",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 74:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

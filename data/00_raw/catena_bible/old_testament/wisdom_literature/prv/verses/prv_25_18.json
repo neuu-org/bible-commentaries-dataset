@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 25:18",
+  "verse_text": "Verse text for PRV 25:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/25/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh A man that bears false witness against his neighbor is a club, and a sword, and a sharp arrow. Athanasius the Apostolic He that has been struck by a stone goes to a physician, but sharper than a stone are the strokes of calumny. For, as Solomon has said, “A false witness is a war club, and a sword, and a sharp arrow,” and its wounds truth alone is able to cure. If truth is set at naught, the wounds grow worse and worse.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/25/18",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c857b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 25:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

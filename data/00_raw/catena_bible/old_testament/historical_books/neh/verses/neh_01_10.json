@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NEH 1:10",
+  "verse_text": "Verse text for NEH 1:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/1/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now these are your servants and your people, whom you have redeemed by your great power, and by your strong hand. Those who signed it were Nehemiah, Athersatha son of Hacaliah. /1350/ Another translation1 has 'Nehemiah who is Athersatha', for Nehemiah had two names, which is why it is also specifically added, son of Hacaliah. This same point is suggested more clearly above when it is said: And Nehemiah (he is Athersatha), Ezra the scribe, and the Levites who interpreted to all the people, said, 'This day is sacred to the Lord our God'.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/1/10",
+      "full_content_url": "https://catenabible.com/com/58fe876d543064d91d46c3f6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 1:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

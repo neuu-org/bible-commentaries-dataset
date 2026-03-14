@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 5:15",
+  "verse_text": "Verse text for JN 5:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/5/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "The man departed, and told the Jews that it was Jesus, who had made him whole. Cornelius a Lapide The man went away, and told, &c. Not out of malevolence, but from gratitude, that he might not hide the author of so great a kindness. So Augustine, Chrysostom, and others. \"He went away and told,\" says Euthymius, \"not as being wicked, that he might betray, but as being grateful to disclose who was his benefactor. Because he thought he should be guilty of a crime if he kept silence, therefore he proclaimed the benefit.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/5/15",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5215d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The man departed, and told the Jews that it was Jesus, who had made him whole. Cyril of Alexandria He makes Jesus known to the Jews, not that they by daring to do anything against Him should be found to be blasphemers, but in order that, if they too should be willing to be healed by Him, they might know the wondrous Physician. For observe how this was his aim. For he does not come like one of the faultfinders, and say that it was Jesus Who had bidden him walk on the Sabbath day, but Which had made him whole. But this was the part of one doing nought save only making known his Physician.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/5/15",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabeb2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Again observe him continuing in the same right feeling. He says not, This is he who said, Take up your bed, but when they continually advanced this seeming charge, he continually puts forward the defense, again declaring his Healer, and seeking to attract and attach others to Him. For he was not so unfeeling as after such a benefit and charge to betray his Benefactor, and to speak as he did with an evil intention. Had he been a wild beast, had he been something unlike a man and of stone, the benefit and the fear would have been enough to restrain him, since, having the threat lodged within, he would have dreaded lest he should suffer a worse thing, having already received the greatest pledges of the power of his Physician. Besides, had he wished to slander Him, he would have said nothing about his own cure, but would have mentioned and urged against Him the breach of the Sabbath. But this is not the case, surely it is not; the words are words of great boldness and candor; he pro claims his Benefactor no less than the blind man did. For what said he. He made clay, and anointed my eyes John 9:6; and so this man of whom we now speak, It is Jesus who made me whole.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/5/15",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabaf6",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 5:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

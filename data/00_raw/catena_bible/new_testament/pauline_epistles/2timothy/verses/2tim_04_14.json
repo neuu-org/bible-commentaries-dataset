@@ -1,0 +1,58 @@
+{
+  "verse_reference": "2TIM 4:14",
+  "verse_text": "Verse text for 2TIM 4:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2tm/4/14",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The Lord will render to him. We read shall render, not only in the Latin and Syriac, but also in divers Greek manuscripts which Dr. Wells again prefers before the ordinary Greek copies, in which we read, The Lord render or reward him, as in the Protestant translation. If that was the true reading, we must take the words by way of a prophecy, and not as an imprecation or curse. (Witham)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2tm/4/14",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0270",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Here again he makes mention of his trial, not wishing merely to censure and accuse the man but to prepare his disciple for the conflicts, that he might bear them firmly. Though they be mean and contemptible persons, and without honor, who cause these trials, they ought all, he says, to be borne with fortitude.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2tm/4/14",
+      "full_content_url": "https://catenabible.com/com/583f5325205c248f42e532d9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Here he again makes mention of his trial, not wishing merely to censure and accuse the man, but to prepare his disciple for the conflicts, that he might bear them firmly. Though they be mean and contemptible persons, and without honor, who cause these trials, they ought all, he says, to be borne with fortitude. For he who suffers wrong from any great personage, receives no little distinction from the superiority of him who does the wrong. But he who is injured by a vile and abject person, suffers the greater annoyance. He did me much evil, he says, that is, he persecuted me in various ways. But these things will not go unpunished. For the Lord will reward him according to his works. As he said above: What persecutions I endured, but out of them all the Lord delivered me. 2 Timothy 3:11 So also here he consoles his disciples by a double consideration, that he himself had suffered wrong, and that the other would be rewarded for his evil deeds. Not that the Saints rejoice in the punishment of their persecutors, but that the cause of the Gospel required it, and the weaker would derive consolation from it.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2tm/4/14",
+      "full_content_url": "https://catenabible.com/com/575f0fe63c6effa740ddde7e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2TIM 4:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 18:15",
+  "verse_text": "Verse text for ACTS 18:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/18/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But if it be a question of words and names, and of your law, look you to it; for I will be no judge of such matters. (g) He taught them that not such are the matters which crave a judicial sentence, but they do all things out of order. And he does not say, It is not my duty, but, I do not choose, that they may not trouble him again. Thus Pilate said in the case of Christ, Take ye Him, and judge him according to your law. John 18:31 But they were just like men drunken and mad. (d) And he drove them from the judgment-seat.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/18/15",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9433",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 18:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 2:4",
+  "verse_text": "Verse text for JER 2:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/2/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "The prophets say, “And the Word of the Lord came to me.” … All these messages proscribe in every light the Arian heresy and signify the eternity of the Word, and that he is not foreign but proper to the Father’s essence. - \"Discourses Against the Arians 2.18.32\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/2/4",
+      "full_content_url": "https://catenabible.com/com/5e9360c1d87c4a70874ae0ef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Horsiesios",
+      "period": "AD387",
+      "content": "Consider by how many testimonies the Word of the Lord urges us to recite the Holy Scriptures in order that we may possess through faith what we have repeated with our mouth.… And elsewhere it is written, I remembered the mercy of your youth. - \"The Testament of Horsiesi 52\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/2/4",
+      "full_content_url": "https://catenabible.com/com/5e9360c1d87c4a70874ae0f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 2:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 11:28",
+  "verse_text": "Verse text for PRV 11:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/11/28",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "He who does not think of the future because he is longing for present goods will finally be lacking in both. But they who do good deeds in the present for the hope of future rewards will justly receive that for which they hope. The green leaf in the tree that does not yet have fruit to display surely signifies the future. And the righteous flourish like green leaves because, having been saved in hope through faith, they do not cease to make progress in virtue by grace until they attain the fruit of their desired reward. .",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/11/28",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c848c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 11:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

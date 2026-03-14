@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 48:4",
+  "verse_text": "Verse text for IS 48:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/48/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Brass; unblushing, Jeremias iii. 3. (Calmet)\nOs tuum ferreum. (Cicero, contra Pis.)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/48/4",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb1b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "Perchance he will say to me, who am not reformed even by blows, “I know that you are obstinate and your neck is an iron sinew, the heedless is heedless, and the lawless person acts lawlessly, and for nothing comes correction from heaven and the scourges.” The bellows are burned, the lead is consumed, as I once reprimanded you by the mouth of Jeremiah: “The founder melted the silver in vain; your wickednesses are not melted away.” … May it not be that I should ever, among other chastisements, be thus approached by him who is good, and yet by my own contrariness continue to walk against his goodness. This causes God to walk against me in fury.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/48/4",
+      "full_content_url": "https://catenabible.com/com/5e88f332b1c7280cb341d156",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Not, therefore, on account of your merit but through my mercy I have calmed my fury, lest you come near to death. For the sake of my name I will rein you in so that like a donkey you are made to follow behind the reins of a horse. Behold, I have dried you up, that is, I have tested you in the way one fires silver. Or it may be that I will test you, not in riches but in the furnace of poverty. … I predict to you that Babylon is to be overcome by the Medes and Persians. I will do quickly that about which I have given warning, lest when the events predicted take place, you think they have happened at the nod of the gods you worship or by fate. And I do not intimate mere knowledge of future things, but I speak for your benefit, whose heart I know to have been from the beginning unbelieving and whose neck is like iron and whose forehead like bronze. You have heard all the things that are about to come, and yet you hide the truth by keeping quiet. So it does little good to relate things long gone by, like how I led you out of Egypt.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/48/4",
+      "full_content_url": "https://catenabible.com/com/5e88f333b1c7280cb341d157",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 48:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

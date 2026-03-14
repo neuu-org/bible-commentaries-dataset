@@ -1,0 +1,80 @@
+{
+  "verse_reference": "COL 3:14",
+  "verse_text": "Verse text for COL 3:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/3/14",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "When love is in command, the way of the law is followed: when the full mind does the operation, it is done with love. .",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/3/14",
+      "full_content_url": "https://catenabible.com/com/583f5795205c248f42e533d2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Above all these things have charity, the love of God, and of your neighbour, which is the bond of perfection, the end of all virtues, which unites the hearts of all to God. (Witham)",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/3/14",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c01aa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now what Paul wishes to say is that there is no benefit in those things, for all those things fall apart, unless they are done with love. This is the love that binds them all together. Whatever good thing it is that you mention, if love be absent, it is nothing, it melts away. The analogy is like a ship; though its rigging be large, yet if it lacks girding ropes, it is of no service. Or it is similar to a house; if there are no tie beams, of what use is the house? Think of a body. Though its bones be large, if it lacks ligaments, the bones cannot support the body. In the same way, whatever good our deeds possess will vanish completely if they lack love.",
+      "commentary_number": "3/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/3/14",
+      "full_content_url": "https://catenabible.com/com/583f5795205c248f42e533d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you see that he says this. For since it is possible for one who forgives, not to love; yea, he says, you must love him too, and he points out a way whereby it becomes possible to forgive. For it is possible for one to be kind, and meek, and humbleminded, and longsuffering, and yet not affectionate. And therefore, he said at the first, A heart of compassion, both love and pity. And above all these things, love, which is the bond of perfectness. Now what he wishes to say is this; that there is no profit in those things, for all those things fall asunder, except they be done with love; this it is which clenches them all together; whatsoever good thing it be you mention, if love be away, it is nothing, it melts away. And it is as in a ship, even though her rigging be large, yet if there be no girding ropes, it is of no service; and in an house, if there be no tie beams, it is the same; and in a body, though the bones be large, if there be no ligaments, they are of no service. For whatsoever good deeds any may have, all do vanish away, if love be not there. He said not that it is the summit, but what is greater, the bond; this is more necessary than the other. For summit indeed is an intensity of perfectness, but bond is the holding fast together of those things which produce the perfectness; it is, as it were, the root.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/3/14",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddce5",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Severian of Gabala",
+      "period": "AD425",
+      "content": "When love does not lead, there is no completion of what is lacking; but, where love is present we abstain from doing evil to one another. Indeed we put our minds in the service of doing good, when we love one another. .",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/3/14",
+      "full_content_url": "https://catenabible.com/com/583f5795205c248f42e533d1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 3:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

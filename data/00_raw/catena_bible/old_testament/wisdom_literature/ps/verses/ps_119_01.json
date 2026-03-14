@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:1",
+  "verse_text": "Verse text for PS 119:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. From its commencement, dearly beloved, doth this great Psalm exhort us unto bliss, which there is no one who desireth not. ...And therefore this is the lesson which he teacheth, who saith, \"Blessed are those that are undefiled in the way, who walk in the law of the Lord\" (ver. 1). As much as to say, I know what thou wishest, thou art seeking bliss: if then thou wouldest be blessed, be undefiled. For the former all desire, the latter fear: yet without it what all wish cannot be attained. But where will any one be undefiled, save in the way? In what way, save in the law of the Lord? ...",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e660a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "There is no title in Hebrew. But (Haydock) this psalm contains the praises of the Lord, and of his holy law, under fourteen different names, (Worthington) of way, testimony, repeated in every verse, except the 122d, (Muis) with surprising variety, so as to avoid tautology, and to give a most perfect system of moral doctrine. It is written according to the order of the Hebrew alphabet, (Haydock) that we may learn it from our infancy. Hilary) Eight verses begin with each of the twenty-two letters. Jerome (ad Paulam Urb. ) moralizes on the signification of these letters, which he renders, 1. Aleph, \"the doctrine 2. of the house; 3. the plenitude, 4. of the tables (or holy scriptures) 5. beginning 11. the hand 12. of discipline (or the heart) 13. From them 14. everlasting 15. the fountain (or eye) 17. of the mouth 18. of justice 19. the calling 20. of the head 21. of teeth 22. \"By thus connecting the letters, he forms sentences to show that the holy Scriptures bring us to the knowledge of the Church, and of Christ See Worthington. Thus every thing serves to excite the devotion of the saints, though the proud may deride their ingenuity. The sacred writers have certainly found some pleasure and utility in writing so frequently in the alphabetical order, though we may not perceive the advantages of it. (Haydock) David is supposed to have written this psalm for the instruction of Solomon in his youth, (Berthier) though others believe that he composed it while he himself was young, and persecuted by Saul. (Muis; Bossuet) It seems very probable, that Daniel wrote it for the consolation of the captives. (Calmet) (Daniel ix. ) Origen and Ven. Bede refer it to those times; though it seems in reality to appertain to all who desire to live piously, (Haydock) and it is only a conjecture that any other but David was the author, to whom it is generally attributed. Its excellency cannot be denied, and the Church has adopted it for her daily office, dividing it into eleven psalms. (Berthier) St. Augustine has written thirty-two, and St. Ambrose twenty-two sermons on the contents; and St. Basil observes, that David has here comprised in one psalm the sum of all that he has written in the rest. Among other points of morality and doctrine, we may remark, that the psalmist insists on the necessity of God's grace, and the co-operation of free will, (Worthington) and overturns the Protestant system of justification. (Du Hamel) The Israelites might recite this psalm on their journey, three times a-year, to the temple, as the fifteen gradual canticles which follow, were to be sung on the steps leading to the house of God. (Bellarmine) (Menochius) Lord. Such only are happy here, (Worthington) or hereafter. (Haydock) All aim at happiness, but only the virtuous take the proper means to attain it. Augustine) The way may here designate this life, (Worthington) or the law, (St. Augustine) or Jesus Christ, John xiv. Ambrose) The psalmist evidently presupposes, that some can and do keep the law. (Worthington).",
+      "commentary_number": "3/3",
+      "reading_time": "3 mins",
+      "source_url": "https://catenabible.com/ps/119/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3db",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

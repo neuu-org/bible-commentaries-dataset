@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PHIL 1:25",
+  "verse_text": "Verse text for PHIL 1:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/1/25",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "And having this confidence, I know that I shall abide and continue with you all for your furtherance and joy of faith; Truly like a father, like a servant of God, he has renounced that one of his two desires which was to be more profitable to himself alone, namely, that he should now depart and be with Christ…. He says “I shall remain,” and he adds the stronger form “I shall continue. ” This means: “I shall stay until the completion, that is, the completion of your progress, so that you may obtain grace. Thus when you present your faith, you may receive grace from God.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/25",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53428",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And having this confidence, I know that I shall abide and continue with you all for your furtherance and joy of faith; And having this confidence. In effect St. Paul escaped this first danger, for after having remained two years at Rome, he was taken from his confinement. (Calmet) I know (or am persuaded, as in the Greek) that I shall remain. by my coming to you again. This is one argument that this epistle was written during his first imprisonment at Rome: yet this is not agreed upon by the interpreters, and especially whether he ever returned again to Philippi.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/25",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0166",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He brings them into his confidence by explaining his reasoning: “It is absolutely necessary that I remain, and not only remain but remain with you…. If so, then I remain for your sake. But take care that you do not put my fidelity to shame.” .",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/25",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53429",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 1:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

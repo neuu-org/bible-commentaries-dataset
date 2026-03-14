@@ -1,0 +1,80 @@
+{
+  "verse_reference": "MK 13:2",
+  "verse_text": "Verse text for MK 13:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/13/2",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": ", iv, 42: Because after the founding of the Church of Christ, Judaea was to be punished for her treachery, the Lord fitly, after praising the devotedness of the Church in the person of the poor widow, goes out of the temple, and foretold its coming ruin, and the contempt in which the buildings now so wonderful were soon to be held. Wherefore it is said, “And as He went out of the temple, one of His disciples saith unto Him, Master, see what manner of stones and what buildings are here. But it was ordered by Divine power that after that the grace of the faith of the Gospel was made known through the world, the temple itself with its ceremonies should be taken away; lest perchance some one weak in the faith, if he saw that these things which had been instituted by God still remained, might by degrees drop from the sincerity of the faith, which is in Christ Jesus, into carnal Judaism. Again, when the Lord left the temple, all the edifice of the law and the framework of the commandments were destroyed, so that nothing could be filled up by the Jews; and now that the head has been taken away, all the limbs fight one against the other.",
+      "commentary_number": "1/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/13/2",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9c46",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "Antichrist will come at such a time as there shall not be left of the temple of the Jews “one stone upon another,” to quote the sentence pronounced by the Savior. For it is not until all the stones are overthrown, whether by the decay of age, or through being pulled down for building material or in consequence of this or that other happening, and I do not mean merely the stones of the outer walls, but the floor of the inner temple where the cherubim were, that Antichrist will come “with all signs and lying wonders” treating all the idols with disdain.",
+      "commentary_number": "2/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/13/2",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e7c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "As Christ had frequently denounced the destruction of the temple, his disciples, surprised that so beautiful an edifice should be reduced to nothing, wish on that account to show him the grandeur and magnificence of it; upon which Christ exclaimed: There shall not remain a stone upon a stone. (Theophylactus)",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/2",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf994",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Here also the Lord enumerates to His disciples the destruction of the last time, that is of the temple, with the people, and its letter; of which one stone shall not be left upon another, that is, no testimony of the Prophets upon those, to whom the Jews perversely applied them, that is, on Ezra, Zerubbabel and the Maccabees.",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/2",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9c48",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "For, since the Lord had spoken much concerning the destruction of Jerusalem, His disciples wondered, that such numerous and beautiful buildings were to be destroyed; and this is the reason why they point out the beauty of the temple, and He answers not only that they were to be destroyed, but also that one stone should not be left uponanother.Wherefore it goes on: “And Jesus answering said unto him, Seest thou these great buildings? there shall not be left one stone upon another, that shall not be thrown down.”",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/2",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9c47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 13:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

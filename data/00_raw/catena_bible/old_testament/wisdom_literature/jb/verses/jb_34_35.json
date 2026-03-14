@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JB 34:35",
+  "verse_text": "Verse text for JB 34:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/34/35",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Julian of Eclanum",
+      "period": "AD455",
+      "content": "“Those who have sense will say to me.” It seems that, as his friends, with the silence that they have observed, approve and ascribe to their praise the fact that they have endured those arguments that were said by him, so holy Job praises himself for what he has demonstrated with his words. - \"Exposition on the Book of Job 34.34\"",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/34/35",
+      "full_content_url": "https://catenabible.com/com/5e1b61688bc66721fe4ef71d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 34:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

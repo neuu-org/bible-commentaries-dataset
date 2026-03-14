@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 5:16",
+  "verse_text": "Verse text for ACTS 5:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/5/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For Peter was the wonderful one, and he to whom they more gave heed both because of his public harangue, the first and the second and the third, and because of the miracle; for he it was that wrought the miracle, the first, the second, the third: for the present miracle was twofold: first, the convicting the thoughts of the heart, and next the inflicting of death at his word of command. That at the least the shadow of Peter passing by, etc. This had not occurred in the history of Christ; but see here what He had told them actually coming to pass, that they which believe in Me, the works that I do shall they do also; and greater works than these shall they do. John 14:12",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/5/16",
+      "full_content_url": "https://catenabible.com/com/57ec81edb0d44ee10cfac8d3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 5:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

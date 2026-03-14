@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 15:28",
+  "verse_text": "Verse text for JB 15:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/15/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Heaps, by his ambition and fury, (Calmet) and exactions, (Cajetan; Menochius) till the king chooses to rebuild the cities. (Vatable)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/15/28",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc3d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "For as a ‘community’ has its name from the intercourse of persons living together in common, ‘desolate communities’ are the actual throngs of wicked followers, by whose shouts this bad man is commended, when he is hurried away by his wickedness into evil deeds. Whence it is written; The sinner is commended in the desires of his soul, and he that doeth unrighteousness is blessed. 10, 3] But ‘deserted houses’ are bad thoughts, which this wicked man inhabits, in that by all that he does he seeks to please the thoughts of the wicked. Which communities are rightly called ‘desolate,’ and houses ‘deserted,’ in that except Almighty God had abandoned the dealings and thoughts of such on account of their previous sins, they would never arrive at, the commission of worse ones. And it is well said, Which are reduced to heaps. For the ruined buildings of houses and cities make heaps; in that whilst the wicked severally are joined to one another for wicked deeds in confused courses of conduct, they shew without doubt, that they have fallen from the edifice of life.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/15/28",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd00b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 15:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

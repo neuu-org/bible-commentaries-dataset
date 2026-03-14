@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 18:30",
+  "verse_text": "Verse text for JN 18:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/18/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "They were perplexed for a specious plea against Him, but cloak the baseness of their impiety, and their apparent resolution to put Him to death unjustly, by the sophistical reply, that they would never have brought Jesus to suffer justice, if they had not taken Him in a criminal act. For they still affected to observe the Law, which bade them execute righteous judgment in all things; and, marvellous to relate, they use their respect for the Law as a weapon against the Lawgiver. They, who did not shrink from bringing an accusation against the Lawgiver, claimed credit as keepers of the Law. They declared that He That had come to take away sin had done evil, that the truth of the words that Christ spake, by the mouth of the Prophet Isaiah, might be seen: Woe unto them! for they have fled from Me: their doom is misery, because they have transgressed against Me. Though I have redeemed them, yet they have spoken lies against Me.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/18/30",
+      "full_content_url": "https://catenabible.com/com/57eb0c76b0d44ee10cfac09d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "O madness! For why do ye not mention His evil deeds, instead of concealing them? Why do ye not prove the evil? Do you see that they everywhere avoid a direct accusation, and that they can say nothing? That Annas questioned Him about His doctrine, and having heard Him, sent Him to Caiaphas; and he having in his turn questioned Him, and discovered, nothing, sent Him to Pilate. Pilate says, What accusation bring ye against this man? Nor here have they anything to say, but again employ certain conjectures. At which Pilate being perplexed says,",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/18/30",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabc98",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 18:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

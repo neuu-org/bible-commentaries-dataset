@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 3:9",
+  "verse_text": "Verse text for 1SM 3:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/3/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Heareth; ready to comply with whatever may be required. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/3/9",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce61",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "And therefore by no means let the ignorance or shallowness of one old man or of a few deter you and cut you off from that salutary path about which we have spoken and from the traditions of our forebears. The clever enemy misuses their gray hairs to deceive the young. But everything should be revealed to the elders without any obfuscating embarrassment, and from them one may confidently receive both healing for one’s wounds and examples for one’s way of life. Thanks to them we shall experience the same assistance and a like result if we strive to aim at nothing whatsoever by our own judgment and presumption. Finally, it is evident that this understanding is greatly pleasing to God, for not without reason do we find this same instruction even in holy Scripture. Thus, the Lord did not desire of himself to teach the boy Samuel through divine speech, once he had been chosen by his own decision, but he was obliged to return twice to the old man. He willed that one whom he was calling to an intimate relationship with himself should even be instructed by a person who had offended God, because he was an old man. And he desired that one whom he judged most worthy to be selected by himself should be reared by an old man so that the humility of him who was called to a divine ministry might be tested and so that the pattern of this subjection might be offered as an example to young men.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/3/9",
+      "full_content_url": "https://catenabible.com/com/5de467401f75ae05ba98ce80",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 3:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

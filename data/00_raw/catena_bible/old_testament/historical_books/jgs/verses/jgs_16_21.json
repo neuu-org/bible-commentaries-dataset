@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 16:21",
+  "verse_text": "Verse text for JGS 16:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/16/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "Now what does it mean that Samson possessed strength in his hair. Notice this carefully, too, brothers. He did not have strength in his hand, his foot, his chest, not even in his head, but in his hair. What is hair. If we perceive it, the apostle answers us after being questioned, “Hair is a covering”; and Christ had strength in a covering, when the shadows of the old law protected him. For this reason the hair of Samson was a covering, since it was seen and understood in Christ at different times. What does it mean that Samson’s secret was betrayed and his head was shaved. The law was despised and Christ suffered. They would not have killed Christ if they had not contemned the law, for they knew that it was not right for them to kill him. They told the judge, “It is not lawful for us to put anyone to death. ” Samson’s head was shaved, the secrets were exposed, the covering was removed; Christ who lay hidden was revealed. Moreover, the hair was restored and again covered the head, because the Jews were unwilling to recognize Christ when he was risen. He was in a mill, blinded and in a prison house. The prison or mill is the labor of this world. The blindness of Samson indicates people who are blinded by their infidelity and do not recognize Christ exercising his power or ascending into heaven.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/16/21",
+      "full_content_url": "https://catenabible.com/com/5de46f398b87fe0847ee87ba",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "But the one who has taken root as “a fruitful olive tree in the house of God” composes those words against the tyrant which we have heard in the psalm, saying, “Why do you glory in evil, you who are mighty in iniquity,” whose “tongue” is “like a sharp razor.” It was by means of these two things that [Samson] was led off, after [Delilah] had removed the beauty of his hair and cut off the “seven locks of curls” in which our strength lies. Now you will by all means understand the meaning of the spiritual curls from the number seven, just as Isaiah has enumerated the grace which comes from the Spirit in seven parts. If these are cut off, as happened in the case of Samson, the destruction of the “eyes” follows, and one becomes a laughing stock to foreigners when they are drunk.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/16/21",
+      "full_content_url": "https://catenabible.com/com/5de46f398b87fe0847ee87b9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 16:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

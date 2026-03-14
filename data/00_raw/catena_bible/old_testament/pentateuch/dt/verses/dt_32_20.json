@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 32:20",
+  "verse_text": "Verse text for DT 32:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/32/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he said, I will hide my face from them, I will see what their end shall be: for they are a very perverse generation, children in whom is no faith. There is peace and joy in the hearts of those upon whom the face of the Lord looks. But for those from whom he turns away there is an accumulation of evils. He does not desire to look upon evil, because he is good. But if he deliberately looks toward evil, then wickedness takes root, because of humankind’s infidelity.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/32/20",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52aa0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he said, I will hide my face from them, I will see what their end shall be: for they are a very perverse generation, children in whom is no faith. The Jews themselves acknowledged, in the siege of Jerusalem, that God had abandoned and given up to destruction his once beloved people. (Josephus, Jewish Wars vii. ) (Calmet) Consider, or look on their utter ruin with indifference, or rather with complacency. (Haydock) I will laugh at your destruction, Proverbs i. (Calmet) God loves without seeing any preceding merit in his creatures, but he never abandons them till they have first proved unfaithful. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/32/20",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcaee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 32:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

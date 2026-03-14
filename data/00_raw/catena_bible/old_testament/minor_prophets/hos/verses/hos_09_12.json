@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HOS 9:12",
+  "verse_text": "Verse text for HOS 9:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/9/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "God is not ashamed to take flesh from such members, for he framed these very members. Who tells us this. The Lord said to Jeremiah, “Before I formed you in the womb I knew you. Before you were born I dedicated you. ” If in fashioning me, therefore, he touched them and was not ashamed, was he ashamed in forming for himself the holy flesh, the veil of his Godhead. It is God who even now creates the babes in the womb, as it is written in Job, “Did you not pour me out as milk, and thicken me like cheese. With skin and flesh you clothed me, with bones and sinews knit me together. ” There is nothing corrupt in the human bodily frame unless one defiles it with adulteries and wantonness. He who formed Adam formed Eve also; and male and female were fashioned by the divine hands. None of the members of the body, as fashioned from the beginning, is corrupt. Let all heretics be silent who slander their bodies, or rather him who formed them. But let us be mindful of Paul’s words: “Do you not know that your members are the temple of the Holy Spirit, who is in you. ” Again, the prophet has foretold in the person of Jesus, “my flesh is from them.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/9/12",
+      "full_content_url": "https://catenabible.com/com/5838db23205c248f42e52b26",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "When. Septuagint Theodotion, \"my flesh is taken from them \"which Theodoret, Lyranus, explain of the incarnation; but Aquila, agree with the Vulgate which is more natural. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/9/12",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf3a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 9:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

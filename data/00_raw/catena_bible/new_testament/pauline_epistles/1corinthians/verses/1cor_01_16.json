@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1COR 1:16",
+  "verse_text": "Verse text for 1COR 1:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/1/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And I baptized also the house of Stephanas. Stephanas, says Theophylact, was a well-known inhabitant of Corinth, whose faith and charity are praised by S. Paul ch. 1 Corinthians 16:17).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/1/16",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e523cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then, having abashed those who were unsound in this respect and subjoining, I baptized also the house of Stephanas, he again drags down their pride, saying besides, I know not whether I baptized any other. For by this he signifies that neither did he seek much to enjoy the honor accruing hereby from the multitude, nor did he set about this work for glory's sake.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/1/16",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd806",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 1:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

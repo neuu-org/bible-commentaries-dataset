@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 8:17",
+  "verse_text": "Verse text for LK 8:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/8/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "And if one say that it is written, \"There is nothing secret which shall not be revealed, nor hidden which shall not be disclosed\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/8/17",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbcf9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Who had hidden himself-a greater and more needful light-during so long a time; and when he promises that \"everything shall be brought out of its secrecy and made manifest\".\nFor who will grant to you, a man of so faithless repentance, one single sprinkling of any water whatever? To approach it by stealth, indeed, and to get the minister appointed over this business misled by your asseverations, is easy; but God takes foresight for His own treasure, and suffers not the unworthy to steal a march upon it. What, in fact, does He say? \"Nothing hid which shall not be revealed.\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/17",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbcfa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 8:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

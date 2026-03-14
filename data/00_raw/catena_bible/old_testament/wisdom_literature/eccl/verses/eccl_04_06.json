@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ECCL 4:6",
+  "verse_text": "Verse text for ECCL 4:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/4/6",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Evagrius Ponticus",
+      "period": "AD399",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Better is a handful with quietness, than both hands full with toil and grasping for the wind. The “chasing after wind,” I believe, refers to the will of the soul caught up with passions. That is why a handful of virtue is better than two handfuls of wickedness, ignorance and “chasing after wind. ” … It is as if someone said it is better to learn contemplation of one spiritual thing than to have numerous visions of foolish wisdom.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/4/6",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee8e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Mind. These are the words of the slothful, (Calmet) or of truth. (Haydock) (Proverbs xvii. 1.)\nThe indolent will not observe moderation in the application of this sentence. (Menochius)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/4/6",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be7d4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "According to the words of Solomon, “A single handful with repose is better than two handfuls with toil and presumption of spirit.” All those who are very weak are inevitably entangled in these illusions and losses. Even though their own salvation is in doubt and they still stand in need of others’ teaching and instruction, they are prompted by diabolical illusions to convert and to govern others. And even if they have been able to acquire some gain and to make some conversions, they will lose whatever they got because of their impatience and their immoderate behavior. .",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/4/6",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee8d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 4:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

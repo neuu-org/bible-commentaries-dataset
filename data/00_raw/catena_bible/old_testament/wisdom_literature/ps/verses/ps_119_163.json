@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:163",
+  "verse_text": "Verse text for PS 119:163",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/163",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "161. \"As for iniquity, I hate and abhor it; but Thy law have I loved\" (ver. 163). That awe, therefore, of His word did not create hatred of those words, but maintained his love unimpaired. For the words of God are no other than the law of God. Far be it therefore that love perish through fear, where fear is chaste. Thus fathers are at once feared and loved by affectionate sons; thus doth the chaste wife at once fear her husband, lest she be forsaken by him, and loveth him, that she may enjoy his love. If then the human father and the human husband desire at once to be feared and loved; much more doth our Father who is in heaven, and that Bridegroom, \"beautiful beyond the sons of men,\" not in the flesh, but in goodness. For by whom is the law of God loved, save by those by whom God is loved? And what that is severe hath the father's law to good sons? Let the Father's judgments therefore be praised even in the scourge, if His promises be loved in the reward.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/163",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e669c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Iniquity. Hebrew, \"lying. \"The Babylonians have attempted to draw me over to their false religion; but I perceive its vanity, (Calmet) and stick closer to the truth, (Haydock; ver. 85.) and to thy holy law. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/163",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be461",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:163",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

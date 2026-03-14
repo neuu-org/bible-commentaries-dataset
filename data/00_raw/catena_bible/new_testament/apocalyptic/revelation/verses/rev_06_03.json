@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 6:3",
+  "verse_text": "Verse text for REV 6:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/6/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And when he had opened the second seal, I heard the second living creature say, Come and see. Opened the second seal portending wars and shedding of blood, and so he is said to have power to take away peace from the earth. (Witham) Another red horse. This red horse signifies the cruel persecutions, which the Roman emperors carried on against the Christian religion. For this end, it is said immediately after, one sat thereon, to take peace from the earth, and kill one another; for this purpose was a great sword given to him. (Andræas; Menochius; Grotius).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/6/3",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c0457",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "The red horse, and he that sat upon him, having a sword, signify the coming wars, as we read in the Gospel: For nation shall rise against nation, and kingdom against kingdom; and there shall be great earthquakes in various places. This is the ruddy horse.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/6/3",
+      "full_content_url": "https://catenabible.com/com/574f83293c6effa740ddd771",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 6:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

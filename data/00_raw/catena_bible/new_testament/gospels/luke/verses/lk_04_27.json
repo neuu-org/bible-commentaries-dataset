@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 4:27",
+  "verse_text": "Verse text for LK 4:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/4/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And many lepers were in Israel in the time of Eliseus the prophet; and none of them was cleansed saving Naaman the Syrian, a foreigner and a Gentile. As Elisha, following his master Elias, did not prophecy to the Jews, his own people, but to foreigners, and did not therefore heal the lepers that were in Judæa, but Naaman the Gentile, by reason of his faith and their incredulity; so I preach and work miracles among these Capernaite strangers, on account of their faith, reverence, and good-will towards Me, but I leave you Nazarenes alone for your infidelity, your irreverence, and your contempt of Me. For Elisha, like Elias, was a type and forerunner of Christ; and Naaman the Gentile, a type of the Gentiles to whom Christ, leaving the Jews, would, by the apostles, transfer His faith, His church, and His grace. So Bede, Titus , Theophylact, Euthymius, Jansenius, Toletus, and others.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/4/27",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f39",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "With axes on the bank of the river Jordan, the iron flew off and sank in the stream; and so, on Elisha.\nTo the exclusion of.\nso many lepers in Israel.\nNow, although He said in a preceding chapter,",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/4/27",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc4d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 4:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

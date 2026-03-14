@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 9:6",
+  "verse_text": "Verse text for JGS 9:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/9/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Mello. We know of no such city in the vicinity of Sichem. Hebrew, \"all the house of Millo: \"which some take to be the town-house of Sichem, full of the chief citizens, as Mello signifies \"filled up \"(Vatable) or it might designate some part of the city which had been levelled, like the deep valley at Jerusalem, (3 Kings ix. 15.; Haydock) and where some powerful family, probably the father of Abimelech's mother, might dwell. (Calmet)\nThis family would interest itself the most in the advancement of the tyrant, ver. 3. (Haydock)\nOak. Hebrew, \"the plain, or oak of the statue \"(alluding to the monument which was left here by Josue, ver. 37., Josue xxiv. 26) or Septuagint, \"of the station \"as those of Sichem might assemble here to deliberate on public affairs, (Calmet) in memory of the solemn covenant between God and the people. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/9/6",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 9:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

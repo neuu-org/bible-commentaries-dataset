@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 1:18",
+  "verse_text": "Verse text for MK 1:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/1/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "And from that day they adhered to him so resolutely that they did not depart…. Let us, also, ourselves build a house in our heart and make a place where he may come and teach us. , .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/1/18",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52cc9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "And immediately they left their nets, and followed him. Tertullian of Carthage Do you hesitate about your business and professions for the sake of your children and parents. It has been demonstrated to us in Scripture that any too dear relations, crafts and trades are to be quite left behind for the Lord’s sake. For James and John, called by the Lord, immediately leave quite behind both father and ship. Matthew is roused from the tollbooth. Even burying a father was too tardy a business for faith. None of those whom the Lord chose to him said, “I have no means to live.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/1/18",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52cc8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 1:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

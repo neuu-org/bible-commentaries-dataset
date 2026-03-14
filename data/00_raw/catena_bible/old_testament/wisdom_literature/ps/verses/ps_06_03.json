@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 6:3",
+  "verse_text": "Verse text for PS 6:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/6/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "He proceeds accordingly to say, \"Pity me, O Lord, for I am weak: heal me, O Lord, for my bones are troubled\" (ver. 2), that is, the support of my soul, or strength: for this is the meaning of \"bones. \" The soul therefore says, that her strength is troubled, when she speaks of bones. For it is not to be supposed, that the soul has bones, such as we see in the body. Wherefore, what follows tends to explain it, \"and my soul is troubled exceedingly\" (ver. 3), lest because he mentioned bones, they should be understood as of the body. \"And Thou, O Lord, how long. \" Who does not see represented here a soul struggling with her diseases; but long kept back by the physician, that she may be convinced what evils she has plunged herself into through sin. For what is easily healed, is not much avoided: but from the difficulty of the healing, there will be the more careful keeping of recovered health. God then, to whom it is said, \"And Thou, O Lord, how long. \" must not be deemed as if cruel: but as a kind convincer of the soul, what evil she hath procured for herself. For this soul does not yet pray so perfectly, as that it can be said to her, \"Whilst thou art yet speaking I will say, Behold, here I am. \" That she may at the same time also come to know, if they who do turn meet with so great difficulty, how great punishment is prepared for the ungodly, who will not turn to God: as it is written in another place, \"If the righteous scarcely be saved, where shall the sinner and ungodly appear.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/6/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66c4",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Long? Wilt thou leave me in distress? (Worthington)\nHe breaks off abruptly to express his sorrow, See Isaias vi. 11; Jeremias xiii. 26. (Berthier)\nTrue converts are often tried a long time, that they may conceive how God will treat those who never return to him, (St. Augustine; Eusebius) and that they may beware of a relapse. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/6/3",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde73",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 6:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

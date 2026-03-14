@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 11:41",
+  "verse_text": "Verse text for 1KGS 11:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/11/41",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Words, or transactions. (Haydock)\nBook. This book is lost, with divers others mentioned in holy writ. (Challoner)\nNathan, Ahias, and Addo, composed these journals, 2 Paralipomenon ix. 29. (Haydock)\nSimilar works were kept at the courts of Persia and of Babylon, Esther vi. 1., and 1 Esdras vi. 2. Plutarch quotes the journal of Alexander; and Tacitus (An. iii.) informs us, that the smallest occurrences were specified in journals, at Rome, while things of greater importance were recorded in the annals. The books of days, are cited in the Paralipomenon, so that we cannot suppose that these journals are the same with that work. (Calmet)\nGod was pleased that those writings should not come down to us; so that we can only speak from conjecture of the repentance of Solomon. (Salien, the year of the world 3058.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/11/41",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd303",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The book of the words: This book is lost, with divers others mentioned in holy writ.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/11/41",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa042",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 11:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

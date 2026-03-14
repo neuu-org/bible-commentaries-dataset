@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 9:11",
+  "verse_text": "Verse text for PS 9:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/9/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Sing to the Lord, who dwelleth in Sion\" (ver. 11), is said to them, whom the Lord forsakes not asthey seek Him. He dwelleth in Sion, which is interpreted watching, and which beareth the likeness of theChurch that now is; as Jerusalem beareth the likeness of the Church that is to come, that is, the city of Saints already enjoying life angelical; for Jerusalem is by interpretation the vision of peace. Now watching goes before vision, as this Church goes before that one which is promised, the city immortal and eternal. But in time it goes before, not in dignity: because more honourable is that whither we are striving to arrive, than what we practise, that we may attain to arrive; now we practise watching, that we may arrive at vision. But again this same Church which now is, unless the Lord inhabit her, the most earnest watching might run into any sort of error. And to this Church it was said, \"For the temple of God is holy, which temple ye are:\" again, \"that Christ may dwell in the inner man in your hearts by faith. \" It is enjoined us then, that we sing to the Lord who dwelleth in Sion, that with one accord we praise the Lord, the Inhabitant of the Church. \"Show forth His wonders among the heathen. \" It has both been done, and will not cease to be done.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/9/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67ea",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 9:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

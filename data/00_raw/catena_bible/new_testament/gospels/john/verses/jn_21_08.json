@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JN 21:8",
+  "verse_text": "Verse text for JN 21:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/21/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The evangelist praises Peter, and excuses the other apostles: all come to Christ; the former leaving his boat, his companions, his nets and prey, arrives more expeditiously; the latter with the impediments of the boat and nets arrive also, but not so readily; a just figure this of religious, who leave all to go directly to God, and of those who remain in the world, and have to navigate a treacherous element with imminent danger of shipwreck. (Maldonatus)\nThe poet Sedulius writes thus on the nets: Pendula fluctivagam traxerunt retia prædam, Per typicam noscenda viam; nam retia dignis Lucida sunt præcepta Dei, quibus omnis in illa Dextra parte manens concluditur, ac simul ulnis Fertur apostolicis Domini ad vestigia Christi.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/21/8",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd05",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 21:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

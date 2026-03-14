@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 18:40",
+  "verse_text": "Verse text for LK 18:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/18/40",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "The Light came into the world to give sight to the blind and faith to those who lacked it. When he approached the blind man, he cried out and said, “Jesus, Son of David, have mercy on me.” The beggar’s hand was stretched out to receive a penny from human beings and found himself receiving the gift of God! “Son of David, have mercy on me.” He correctly understood that Jesus was the Son of David, David who spared the blind and the lame of the Jebusites. What did he then answer him? “See, your faith has saved you.” Christ did not say to him, “It is your faith that has caused you to see,” in order to show that faith had first given him life and then bodily sight. Commentary on Tatian’s Diatessaron",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/18/40",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e75c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "But even if you could show me this, still (the blind man) would more readily have presumed that they were ignorant, than that the Lord could possibly have permitted an untrue exclamation about Himself. But the Lord \"stood patient.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/18/40",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbee5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 18:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

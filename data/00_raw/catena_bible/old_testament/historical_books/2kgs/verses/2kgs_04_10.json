@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 4:10",
+  "verse_text": "Verse text for 2KGS 4:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/4/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "It happened, in the next days, that Elisha arrived at Shunem and passed it. After the ascension of Elijah, Elisha took his place and was appointed as the chief and prefect of the children of the prophets. Duty to his calling obligated him to visit their lodgings in Bethel and Jericho, as well as those along the Jordan. In fact, since the straight line of his route compelled him to pass through the village of Shunem, now and then he made a detour to the house of the Shunammite, because she was an admirable woman. And she, after hearing the words of her fellow citizens about him and seeing him in her house, understood the advantages of his stay at her place. Therefore she asked her husband to build a high room, solitary and separated from the rest of the people of the house. Indeed, she said that it was not proper for a holy prophet to live in an impure place. She called him holy because of his virginity.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/4/10",
+      "full_content_url": "https://catenabible.com/com/5e1b69628bc66721fe4ef9b3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Chamber. Hebrew adds, \"on the wall \"(Haydock) or surrounded \"with walls \"at the top of the house, where strangers usually lodged. (Calmet)\nAfter being entertained the first day with the family, they might retire, and live, as if they were at home; some presents being sent to them daily, at least among the Greeks of rank. (Vitruv. vi. 10.)\nThe apartment of Eliseus might be separate from the house, that he might be less distracted in his meditations. (Menochius) (Vatable)\nCandlestick, on which many lamps, or even wood, might burn, Exodus xxv. 27. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/4/10",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd42e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 4:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

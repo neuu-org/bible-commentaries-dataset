@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 42:9",
+  "verse_text": "Verse text for IS 42:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/42/9",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "When the prophet says, “Behold, the former things have come to pass, and new things I will now declare, and before I declare them they have been made known to you,” he does not allow the word of the Savior to be disbelieved by us in any detail. For just as what was said from the beginning about his coming has come to fulfillment, he says, so too will what he calls the new things turn out to be true and will be revealed before they appear. What are these things? They are the eternal life that is to come, which our Lord Jesus Christ promised us, that is, the life of incorruption and holiness and righteousness, the kingdom of heaven, the glorious participation in spiritual good things, the fruits of forbearance, the rewards of piety, the crown of love for Christ. May we too attain them through his grace and loving kindness.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/9",
+      "full_content_url": "https://catenabible.com/com/5e88f297b1c7280cb341d083",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "“Behold, the first things,” he says, “came to pass. But I proclaim new things, and before they arise, I will cause these things to be heard by you.” Just as he says “the first things” would be fulfilled through my works, as I promised Abraham concerning his “seed,” so indeed I acted. I fulfilled also those things foretold by Moses and the rest of the prophets; “now I promise to everyone what was proclaimed before” and to make them come to light through the prophecies, for “I caused these things to be heard by you.”",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/42/9",
+      "full_content_url": "https://catenabible.com/com/5e88f297b1c7280cb341d082",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Them. The completion of former predictions enforces the belief of those which are yet to come. (Calmet)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/42/9",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beacb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 42:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

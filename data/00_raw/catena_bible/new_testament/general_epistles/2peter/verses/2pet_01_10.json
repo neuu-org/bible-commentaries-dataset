@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2PET 1:10",
+  "verse_text": "Verse text for 2PET 1:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2pt/1/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Therefore rather, brethren, give diligence to make your calling and election sure: for if you do these things, you shall never fall: By good works you may make sure without diving into the hidden mysteries of predestination You shall not sin at any time. These words evidently suppose, that the graces and assistances of God will not be wanting; for it would be in vain to command, unless a man had both free will and capacity to perform. But, as it follows, these helps shall be abundantly ministered to you.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/1/10",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03c6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2PET 1:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

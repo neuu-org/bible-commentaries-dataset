@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 10:31",
+  "verse_text": "Verse text for LK 10:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/10/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And by chance there came down a certain priest that way: and when he saw him, he passed by on the other side. By chance, humanly speaking, but really by the providence of God, for all things are foreordained by Him. Passed by on the other side, \"×‘Ì‰××¤×™× ×‘×–×—Ìƒ×›×˜×•×.\" The priest, terrified at his appearance, turned away from him, and went by on the other side. Christ here draws attention to the perversity of the priests of that day, who were zealous in carrying out all the outward observances of the law, but were utterly wanting in true religion and in showing mercy and pity. For this priest left his fellow-countryman and neighbour in his direst distress without even a word of consolation or comfort.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/10/31",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51faf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And by chance there came down a certain priest that way: and when he saw him, he passed by on the other side. Our Saviour here shows the Jewish priests how preposterous was their behaviour, who, though scrupulously exact in performing all external acts of religion, entirely neglected piety, mercy, and other more essential duties. The Jews despised the Samaritans as wicked and irreligious men; but our Saviour here tells them that they were less exact in works of charity towards their neighbours than the very Samaritans.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/10/31",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfaae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 10:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 89:49",
+  "verse_text": "Verse text for PS 89:49",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/49",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "38. But in the very faith in Christ great difficulties occurred, and the heathen in their rage long said, \"When shall he die, and his name perish?\" On account of these then who have now long believed in Christ, but were destined to doubt for some time, these words follow, \"Lord, where are Thy old loving-kindnesses?\" (ver. 49). We have now acknowledged Christ our purifier, we now possess Him in whom Thy promises were to be fulfilled; show forth in Him what Thou hast promised. It is He Himself that shall live, and not see death: Himself who delivers His own soul from the hand of Hell: and yet we are still in suffering. Thus spoke the Martyrs, whose birthdays we are celebrating. He shall live, and not see death: He delivers His soul from the hands of Hell: yet \"for Thy sake we are killed all the day long: and are counted as sheep appointed to be slain.\" \"Lord, where are Thy old loving-kindnesses which Thou swarest unto David in Thy truth?\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/89/49",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cf9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "David. He was a man according to thy own heart, and thy promises to him were absolute. Ethan speaks not of the other kings, or of the people, who might have justly irritated the Lord. He excuses their failings, by the consideration or their mortal and frail nature, ver. 49. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/49",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2aa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:49",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 10:24",
+  "verse_text": "Verse text for LK 10:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/10/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "For I tell you, that many prophets and kings have desired to see those things which you see, and have not seen them; and to hear those things which you hear, and have not heard them. And in addition to this, willing to convict more fully of error the prophets from whom they asserted that they had learned, He proclaimed that they died desiring the truth, but not having learned it, saying, `Many prophets and kings desired to see what ye see, and to hear what you hear; and verily I say to you, they neither saw nor heard.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/10/24",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbd79",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Methodius of Olympus",
+      "period": "AD311",
+      "content": "For I tell you, that many prophets and kings have desired to see those things which you see, and have not seen them; and to hear those things which you hear, and have not heard them. Methodius of Olympus Tell us, then, O children, whence is this, your beautiful and graceful contest of song. Who taught it you. Who instructed you. Who brought you together. What were your tablets. Who were your teachers. Do but you, they say, join us as our companions in this song and festivity, and you will learn the things which were by Moses and the prophet earnestly longed for.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/10/24",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbd78",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 10:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

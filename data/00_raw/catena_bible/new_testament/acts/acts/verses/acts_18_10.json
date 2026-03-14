@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 18:10",
+  "verse_text": "Verse text for ACTS 18:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/18/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For He did not always permit them to suffer evil, that they might not become too weak. For nothing so grieved Paul, as men's unbelief and setting themselves (against the Truth): this was worse than the dangers. Therefore it is that (Christ) appears to him now. And he continued a year and six months, etc.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/18/10",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9430",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "See by how many reasons He persuades him, and how He puts last the reason which of all others most prevailed with him, I have much people in this city. Then how was it, you may ask, that they set upon him? And yet, the writer tells us, they prevailed nothing, but brought him to the proconsul. And he continued there a year and six months, teaching the word of God among them. And when Gallio was proconsul of Achaia, the Jews made insurrection with one accord against Paul, and brought him to the judgment-seat.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/18/10",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9426",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 18:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 14:17",
+  "verse_text": "Verse text for MT 14:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/14/17",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "When the disciples advised that the crowds be sent away into the neighboring villages to buy food, he answered, “They do not need to go away. ” This signaled that these people whom he healed with the food of teaching, teaching that was not for sale, had no need to go back to Judea and buy food. He ordered the apostles to give them something to eat. But was Jesus unaware there was nothing to give. Did he not know the disciples possessed a limited amount of food. He could read their minds, so he knew. We are invited to explain things by reasoning according to types. It was not yet granted to the apostles to make and administer heavenly bread for the food of eternal life. Yet their response reflected an ordered reasoning about types: they had only five loaves and two fish. This means that up to then they depended on five loaves—that is, the five books of the law. And two fish nourished them—that is, the preaching of the prophets and of John. For in the works of the law there was life just as there is life from bread, but the preaching of John and the prophets restored hope to human life by virtue of water. Therefore the apostles offered these things first, because that was the level of their understanding at the time. From these modest beginnings the preaching of the gospel has proceeded from them, from these same apostles, until it has grown into an immense power.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/14/17",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6f8f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Wherefore Mark also says, They understood not the saying, for their heart was hardened.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/14/17",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac460",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "\"Bring the loaves here to Me. Though it be evening, I Who created the hours am here. Though it be a deserted place, it is I Who giveth food to all flesh.\" We learn from this that we must spend in hospitality even the little that we have, just as the apostles gave to the crowds the little that they had. As that little was multiplied, so too will your little be multiplied. He bids the multitude to recline on the grass, teaching frugality, so that you also, O reader, may not take your ease on expensive beds and couches. He looks up to heaven and blesses the loaves, as if both to confirm that He is not opposed to God but that He came from the Father and from heaven, and also to teach us to give thanks when we begin a meal and only then to eat.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/14/17",
+      "full_content_url": "https://catenabible.com/com/57eb0d50b0d44ee10cfac1fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 14:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

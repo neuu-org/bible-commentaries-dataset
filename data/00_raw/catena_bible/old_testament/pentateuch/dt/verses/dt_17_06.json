@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 17:6",
+  "verse_text": "Verse text for DT 17:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/17/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Slain. When the action was public, this formality was not requisite, chap. xiii. 9.\nHim. One witness was never admitted to prove any crime; neither would the Jews receive for witnesses, women, infants under thirteen, slaves, publicans, thieves (Josephus, iv. last chapter.) The Rabbins also reject other notorious offenders, enemies, relations, and those who had not a competent knowledge of the law (Ap. Selden, Syn. ii. 13. 11.; and Grotius)\nBut we could wish for some authors of more credit. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/17/6",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9d9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh At the mouth of two witnesses, or three witnesses, shall he that is worthy of death be put to death; but at the mouth of one witness he shall not be put to death. Tertullian of Carthage “Two angels, however, appeared there. ” For just so many honorary companions were required by the Word of God, which usually prescribes “two witnesses. ” Moreover, the women, returning from the sepulcher and from this vision of the angels were foreseen by Isaiah, when he says, “Come, you women, who return from the vision”; that is, “come” to report the resurrection of the Lord.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/17/6",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a54",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 17:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

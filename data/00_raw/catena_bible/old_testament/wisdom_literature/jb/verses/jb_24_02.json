@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 24:2",
+  "verse_text": "Verse text for JB 24:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/24/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Marks. This was a heinous offence, (Deuteronomy xix. 14.) which Numa punished with death. (Halyc. i.) (Calmet)\nAnd fed. Septuagint, \"and those who fed them.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/24/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdcd1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Whom does he denote by the title of ‘others,’ saving Heretics, who to the bosom of Holy Church are strangers. For they the same persons remove landmarks, in that the constitutions of the Fathers they by walking awry do overstep. Concerning which same constitutions it is written, Remove not the ancient landmark which thy fathers have set. 22, 28] And these violently take away the flocks, and feed them, in that all the inexperienced, by wicked persuasions, they draw to themselves, and with baneful lessons nourish them for slaughtering. For that the ignorant multitudes are represented by the designation of ‘flocks,’ the words of the Spouse bear witness, Who addresses His Espoused, in the words, Except thou know thyself, O beautiful amongst women, depart forth, and go after the footsteps of the flocks; i. ‘excepting that by living well, thou knowest thine honour whereby thou art created after the likeness of God, depart forth from the sight of the contemplation of Me, and follow the life [al. ‘the way’] of the uninstructed multitudes.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/24/2",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd0ce",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 24:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

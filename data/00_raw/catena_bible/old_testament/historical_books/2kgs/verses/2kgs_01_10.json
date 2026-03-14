@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 1:10",
+  "verse_text": "Verse text for 2KGS 1:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/1/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Let fire Elias was inspired to call down fire from heaven upon these captains, who came to apprehend him; not out of a desire to gratify any private passion, but to punish the insult offered to religion, to confirm his mission, and to show how vain are the efforts of men against God and his servants, whom he has a mind to protect. (Challoner) The Roman laws authorize a person, in authority, to punish those who refuse to obey. ) Si quis jus dicenti non obtemperaverit, omnibus concessum est suam jurisdictionem defendere poenali judicio. Elias acted as God's envoy, and the insult reverted upon him. Thomas Aquinas, 2. ) The Manichees have blamed the conduct of the prophet: but the miracle justifies him, as God would never countenance the private revenge of any one; and the Holy Spirit places this transaction on a level with that when Elias shut up the heavens, Ecclesiasticus xlviii. Peter was moved with the like zeal, Acts v. The sons of Zebedee gave way to some private indignation, when they wished our Saviour to call down fire from heaven upon a city of Samaria, Luke ix. But he reprimanded them for it; as the citizens might not be so well acquainted with him, as these soldiers must have been with Elias: and he came to display the spirit of mildness, (Calmet) to attract all to his holy religion; while Elias had manifested the severity of the divine judgments, conformably to the law of terror, under which he lived. (Haydock) In zeal of justice, Elias procured fire to burn these wicked men, as he had done for the holocaust. Augustine) (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/1/10",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd3fe",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Let fire: Elias was inspired to call for fire from heaven upon these captains, who came to apprehend him; not out of a desire to gratify any private passion; but to punish the insult offered to religion, to confirm his mission, and to shew how vain are the efforts of men against God, and his servants, whom he willeth to protect.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/1/10",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa05f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 1:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

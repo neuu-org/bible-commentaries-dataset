@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JAS 5:12",
+  "verse_text": "Verse text for JAS 5:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/5/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But above all things swear not, this earnest admonition is against all kind of oaths in common conversation, (not against oaths made on just and necessary occasions) and in the very same words, as our blessed Savior warned all people against this sin of swearing. (Matthew 5) How unaccountably is this commandment of God contemned? And what a dreadful account will some day be exacted for so many oaths, curses, and blasphemies, which are now so common, that we may rather wonder at the patience of God and that already exemplary punishments have not fallen upon whole cities and kingdoms for this continued profanation of the holy name of God?\nSt. James here repeats the injunctions of our Saviour, not to swear al all. (Matthew v. 34.) See the annotations in that place.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jas/5/12",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c038c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 5:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

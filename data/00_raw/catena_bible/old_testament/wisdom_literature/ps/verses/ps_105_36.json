@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 105:36",
+  "verse_text": "Verse text for PS 105:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/105/36",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "26. \"He smote every first-born in their land: even the first-fruits of all their strength\" (ver. 36). This is the last plague, excepting the death in the Red Sea. \"The first-fruits of all their strength,\" I imagine to be an expression derived from the first-born of cattle. These plagues are ten in number, but they are not all mentioned, nor in the same order in which they are there read to have happened. For praise-giving is free from the law which bindeth one who is relating or composing a history. And since the Holy Spirit is the Author and Dictator, through the Prophet, of this praise; by the very same authority with which He guided him who wrote that history, he doth both mention something to have taken place which is not there read, and passeth over what is there read.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/105/36",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e655d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Labour. This explains the first part of the verse, Genesis xlix. 3., and Psalm lxxvii. 51. (Haydock)\nThe fifth and sixth plagues are not specified. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/36",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be361",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 105:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 4:8",
+  "verse_text": "Verse text for LK 4:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/4/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "Get you behind me, Satan: for it is written, You shall worship the Lord your God, and him only shall you serve. Therefore our Lord, confirming the worship of one God, answered him: `It is written, Thou shall worship the Lord thy God, and Him only shalt thou serve. \"Therefore you shall be able to persuade yourselves with respect to the things that are profitable, if, like charmers, you say to the horrible serpent which lurks in your heart, `The Lord God thou shall fear, and Him alone thou shall serve.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/4/8",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc41",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "He Himself, when tempted by the devil, demonstrated who it is that presides over and is the originator of temptation.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/4/8",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc40",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 4:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

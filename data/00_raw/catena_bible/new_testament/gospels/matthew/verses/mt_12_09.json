@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 12:9",
+  "verse_text": "Verse text for MT 12:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/12/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He came into the synagogue. This happened some days later, but again on a sabbath. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/12/9",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf740",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Again He heals on a Sabbath day, vindicating what had been done by His disciples. And the other evangelists indeed say, that He set the man in the midst, and asked them, If it was lawful to do good on the Sabbath days.\n\nSee the tender bowels of the Lord. He set him in the midst, that by the sight He might subdue them; that overcome by the spectacle they might cast away their wickedness, and out of a kind of shame towards the man, cease from their savage ways. But they, ungentle and inhuman, choose rather to hurt the fame of Christ, than to see this person made whole: in both ways betraying their wickedness; by their warring against Christ, and by their doing so with such contentiousness, as even to treat with despite His mercies to other men.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/12/9",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac407",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 12:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

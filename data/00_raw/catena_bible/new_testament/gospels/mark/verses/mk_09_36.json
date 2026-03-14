@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 9:36",
+  "verse_text": "Verse text for MK 9:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/36",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Shepherd of Hermas",
+      "period": "AD150",
+      "content": "Without doing evil, will be more honoured than all who have been previously mentioned; for all infants are honourable before God, and are the first persons with Him.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/36",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb6f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Shepherd of Hermas",
+      "period": "AD150",
+      "content": "They are as veritable infants, whose hearts do not invent evil, who hardly know what corruption is, and who have remained childlike forever. People such as these, therefore, undoubtedly dwell in the kingdom of God, because they in no way defile God’s commandments, but have continued in innocence all the days of their lives in the same state of mind.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/36",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52de3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

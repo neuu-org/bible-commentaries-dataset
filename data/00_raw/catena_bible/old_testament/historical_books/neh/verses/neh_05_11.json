@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 5:11",
+  "verse_text": "Verse text for NEH 5:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/5/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "As the most excellent leader of the heavenly militia and “wise architect” of God’s city, he first of all declared that he himself had done what he wished the nobles and magistrates of the people to do, namely, to give alms to the poor and seek nothing from them except faithfulness to God’s law and the building of his city. In this passage, we do not need to scrutinize the allegorical meaning but to observe the literal meaning of the text itself by performing it as diligently as we can, namely, so that quite apart from the daily fruits of almsgiving, we should take care whenever a general time of famine and destitution has afflicted the people, not only to give poor people what we can but also to forgive that tribute that we have been accustomed to exact from our subjects as though by right, in order that the Father might forgive us our debts too.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/5/11",
+      "full_content_url": "https://catenabible.com/com/591a466e19aa35522bc7e354",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Restore, I pray you, to them, even this day, their lands, their vineyards, their oliveyards, and their houses, also the hundredth part of the money, and of the grain, the wine, and the oil, that you exact of them. For them, to the Persian governors, ver. (Haydock) Nehemias remits this pension, which was before paid by the people, and exacted by the rich. (Wolphius) Du Moulin asserts that there is no question of usury, which the Jews always abhorred, much less of that which the Romans called the 100th, (Calmet) consisting in the payment of 12 per cent, (Tirinus) or one every month. (Menochius) Hebrew, \"Give back to them, \"(Haydock) that they may enjoy those things.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/5/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda05",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 5:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

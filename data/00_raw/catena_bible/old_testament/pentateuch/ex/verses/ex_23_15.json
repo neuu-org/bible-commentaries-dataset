@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 23:15",
+  "verse_text": "Verse text for EX 23:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/23/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But shalt offer something in sacrifice, and for the support of the Levites, freely, Deuteronomy xvi. At the Passover, the first-fruits of barley were to be offered, as those of wheat would be ready at Pentecost. The third feast, was that of tabernacles, at the conclusion of the civil year. Presents were to be made to God, in testimony of their submission to him; as they were to the kings of the east, by their subjects. (Tavernier, Perse. ) See 1 Kings x. and 1 Paralipomenon xviii. A sixtieth part of the fruits, at least, was carried to the temple. They consisted of wheat, barley, grapes, figs, apricots, olives, and dates. The king himself carried his basket, and when the solemn procession arrived at the temple, the Levites began to sing the Psalm xxix. , I will extol thee, O Lord After which, the people repeated the words of Deuteronomy xxvi. 3; and having given their baskets to the priests, (ver. 4,) recited parts of the 5th, 6th, 7th, 8th, 9th, and 10th verses. (Calmet) God. Here the Septuagint add, \"For when I shall have cast the Gentiles from before thy face, and extended thy limits.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/23/15",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc407",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You shall keep the feast of unleavened bread: (you shall eat unleavened bread seven days, as I commanded you, in the time appointed of the month Abib; for in it you came out from Egypt: and none shall appear before me empty:) “You shall not appear before the Lord empty,” that is, enter not into the temple without sacrifices. Now if it is not right to go into the house of God without sacrifices, much more ought we to enter the assembly accompanied by our brethren. For this sacrifice and offering is better than that, when you bring a soul with you into the church.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/23/15",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5287a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 23:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

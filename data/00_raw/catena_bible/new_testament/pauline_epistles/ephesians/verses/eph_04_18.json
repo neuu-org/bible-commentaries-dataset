@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EPH 4:18",
+  "verse_text": "Verse text for EPH 4:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/eph/4/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "For sometimes while we are practising evil things we do not perceive it on account of the double-mindedness and unbelief that is in our breasts, and we are \"darkened in our understanding\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/4/18",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bafdd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "These words are not addressed to the Ephesians only, but are now addressed also to you; and that, not from me, but from Paul; or rather, neither from me nor from Paul, but from the grace of the Spirit. And we then ought so to feel, as though that grace itself were uttering them. And now hear what it says. This I say therefore, and testify in the Lord, that you no longer walk as the Gentiles also walk, in the vanity of their mind, being darkened in their understanding, alienated from the life of God because of the ignorance that is in them, because of the hardening of their heart. If then it is ignorance, if it is hardening, why blame it. if a man is ignorant, it were just, not that he should be ill-treated for it, nor be blamed, but that he should be informed of those things of which he is ignorant. But mark how at once he cuts them off from all excuse. Who being past feeling, says he, gave themselves up to lasciviousness, to work all uncleanness with greediness; but you did not so learn Christ. Here he shows us, that the cause of their hardening was their way of life, and that their life was the consequence of their own indolence and want of feeling.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eph/4/18",
+      "full_content_url": "https://catenabible.com/com/57558dcd3c6effa740dddab9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EPH 4:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

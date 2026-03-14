@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 17:1",
+  "verse_text": "Verse text for JGS 17:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/17/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "At that time, is not in the Hebrew or Septuagint. It only means that the event which is recorded took place at some time, which the sacred writer does not determine. We should conclude, that the histories which fill up the remainder of this book, ought to be placed after the death of Samson, (Serarius) if some passages did not determine us to allow that their proper order must be soon after the death of Josue and of the ancients. The grandson of Moses must, on the former supposition, have been extremely old, whereas he is said to have been a young man, ver. 7. The tribe of Dan was still straitened for room, chap. xviii. 1 (Calmet)\nJosephus, ( v. 2,) who passes over the history of Michas. (Salien, in the year of the world 2622, the 22d year of Othoniel and Phinees.) (Haydock)\nAnarchy at that time prevailed, (ver. 6,) so that we need not wonder to behold such confusion among the Israelites. (Menochius)\nEphraim. The country was mountainous for nine miles. (Adrichomius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/17/1",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcdc4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 17:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

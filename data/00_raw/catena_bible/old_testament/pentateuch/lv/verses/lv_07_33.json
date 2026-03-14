@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 7:33",
+  "verse_text": "Verse text for LV 7:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/7/33",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "What does it mean that the priest, by a precept of the law, receives not only the right shoulder, but receives it “separated”? Not only is his work useful; it is also unique. Not only does he do what is right among wicked men, but he surpasses those who live well and are subject to him by the honor of his orders and thus surpasses them in his virtuous life. When the breast and the shoulder are given to him as food—since he is bidden to consume part of the sacrifice—he learns to sacrifice something of himself to God. Not only should he think right thoughts in his breast, but also by the work of his shoulder draw his hearers to things above. Nothing in this present life should he desire, nothing should he fear. He should despise the pleasures of this world and reject the fear within, and he should scorn fear as he meditates on the pleasures of inner sweetness. Exposition of the Old and New Testament, Leviticus",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/7/33",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529b4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 7:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

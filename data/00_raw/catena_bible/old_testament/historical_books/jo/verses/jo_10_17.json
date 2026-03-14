@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JO 10:17",
+  "verse_text": "Verse text for JO 10:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/10/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "City, or territory. (Calmet)\nThe kings had sought their own safety in flight, leaving their people to make their escape as well as they could. But their cowardly behaviour only brought upon them a more dishonourable death. Josue and some of the forces stopped in the environs of Maceda, while the rest pursued after the fugitives, and slew all that had not strength to enter the fenced cities. (Haydock)\nThen all the army assembled round their leader, took Maceda, and completed the victory of that most memorable day, by the ignominious death of the five kings. (Calmet)\nGod permitted some to escape, lest the land should be overrun with wild beasts; (Exodus xxiii. 29,) and to instruct us that his children must suffer tribulation, to prevent the growth of vice. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/10/17",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcbb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "For if the armed host of the Lord was represented by the trumpets of the priests, we may see in Jericho a type of the overthrow of the world by the preaching of the gospel. And to pass over endless details (for it is not my purpose now to unfold all the mysteries of the Old Testament), five kings who previously reigned in the land of promise and opposed the gospel army were overcome in battle with Joshua. I think it is clearly to be understood that before the Lord led his people from Egypt and circumcised them, sight, smell, taste, hearing, and touch had the dominion, and that to these, as to five princes, everything was subject. And when they took refuge in the cave of the body and in a place of darkness, Jesus entered the body itself and killed them, that the source of their power might be the instrument of their death.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/10/17",
+      "full_content_url": "https://catenabible.com/com/5de470b48b87fe0847ee8865",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 10:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 10:21",
+  "verse_text": "Verse text for JB 10:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/10/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Death, to the grave, or to hell, (Calmet) if my sins deserve it. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/10/21",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdbe6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "For what is denoted by ‘the land of darkness’ saving the dreary caverns of Tartarus, which are covered by the shadow of eternal death, in that it keeps all the damned for evermore severed from the light of life. Neither is the place below improperly called a land. For all they that have been made captive by it, are held fast and firm. As it is written; One generation passeth away, and another generation cometh, but the earth abideth for ever. 1, 4] Thus the dungeons of hell are rightly designated ‘a land of darkness,’ for all, whom they receive doomed to punishment, they torment with no transient infliction or phantasm of the imagination, but keep in the substantial vengeance of everlasting damnation. Yet they are sometimes denoted by the title of ‘a lake,’ as the Prophet bears witness, when he says, They have borne their shame with them that go down into the lake. 25] Thus hell is both called ‘a land,’ because it holds stedfastly all that it takes in, and ‘a lake,’ because it swallows up those whom it has once received, ever tossing and quaking in weltering floods of torment; but the holy man, whether in his own voice or in the voice of mankind, beseeches that he may be ‘let go’ before he departs, not because he that bewails his sin is to ‘go to the land of darkness,’ but because everyone that neglects to bewail it doth assuredly go thither, according as the creditor says to his debtor, ‘Pay thy debt, before thou art put in bonds for the debt;’ whereas he is not put in bonds, if he delays not to pay all that he owes. In which place too it is rightly added, Whence I shall not return, in that His pity in sparing never any more sets them free, whom His justice in judging once assigns their doom in the places of punishment, which same places are yet more minutely described.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/jb/10/21",
+      "full_content_url": "https://catenabible.com/com/57421a163c6effa740ddcf91",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 10:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

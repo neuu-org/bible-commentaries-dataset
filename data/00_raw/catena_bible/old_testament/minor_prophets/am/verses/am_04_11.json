@@ -1,0 +1,69 @@
+{
+  "verse_reference": "AM 4:11",
+  "verse_text": "Verse text for AM 4:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/4/11",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "See how God, through His love of goodness, seeks repentance; and by means of the plan He pursues of threatening silently, shows His own love for man.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/4/11",
+      "full_content_url": "https://catenabible.com/com/5745e16f3c6effa740ddd498",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I have overthrown some of you, as God overthrew Sodom and Gomorrah, and you were as a firebrand plucked out of the burning: yet have you not returned unto me, says the LORD. Cyril of Alexandria In this he was probably suggesting to us the eventual sacking that happened in the time of Jeremiah by the hand of Nebuchadnezzar, who tool the whole of Judea, set fire even to Jerusalem itself and its neighboring cities and towns, pulled down the divine Temple, took captive the survivors from the fighting, and as a glorious conqueror went back home with the captives, who finally returned to Judea at the completion of the period of 70 years.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/4/11",
+      "full_content_url": "https://catenabible.com/com/5745e16f3c6effa740ddd497",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Burning. This comparison shows the condition of Israel. Hardly any escaped, Zacharias iii. 2., and 1 Corinthians iii. 15. (Calmet)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/4/11",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf43a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "They [who refuse to repent] do not deserve to be saved by the Lord’s visitation or to be healed by temporal afflictions. They are like those “who in despair have handed themselves over to lasciviousness in the working of every error, unto uncleanness.” In their hardness of heart and with their frequent habit of sinning, they are beyond the purgation of this very brief age and the punishment of the present life. The divine Word reproves them too through the prophet: “I have destroyed you as God destroyed Sodom and Gomorrah, and you have become like a firebrand snatched from the fire, and not even thus have you returned to me, says the Lord.” .",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/4/11",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c16",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 4:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

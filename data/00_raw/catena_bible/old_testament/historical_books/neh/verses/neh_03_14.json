@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 3:14",
+  "verse_text": "Verse text for NEH 3:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/3/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "They say the site of the city of Jerusalem, being laid out on a gentle slope, inclines toward the north and east in such a way that rainfall does not accumulate there at all but rather flows out like rivers through the eastern gates and swells the torrent of Kidron in the valley of Jehoshaphat, taking with it all the waste of the streets. And so it appears likely that the Dung Gate is the one through which refuse and filth were generally to be driven out. It is not in any way of less virtue and usefulness for all impure things to be removed from the city of the Lord than for those things that are pure to be collected into it. They who build the Dung Gate in Jerusalem, therefore, are the ones who ordain to the ministry of the holy church those through whom the filth of the vices is removed from the minds of the elect, but also through whom people of corrupt mind are kept away from the boundaries of the church while a shower of heavenly grace helps them and weakens every impurity, so that, according to the psalmist, “all who do evil” are eliminated “from the city of the Lord.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/3/14",
+      "full_content_url": "https://catenabible.com/com/591a466e19aa35522bc7e34b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bethacharam, in the tribe of Benjamin, Jeremias vi. 1.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/3/14",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 3:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

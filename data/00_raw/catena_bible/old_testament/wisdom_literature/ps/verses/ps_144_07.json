@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 144:7",
+  "verse_text": "Verse text for PS 144:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/144/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Lord, bow Thy heavens, and come down: touch the mountains, and they shall smoke\" (ver. \"Flash Thy lightning, and Thou shall scatter them; send forth Thine arrows, and Thou shall confound them\" (ver. \"Send forth Thy Hand from above, and deliver me, and draw me out of many waters\" (ver. The Body of Christ, the humble David, full of grace, relying on God, fighting in this world, calleth for the help of God. What are \"heavens bowed down\". Apostles humbled. For those \"heavens declare the glory of God;\" and of these heavens declaring the glory of God it is presently said, \"There is neither speech nor language, but their voices are heard among them,\" etc. When then these heavens sent forth their voices through all lands, and did wonderful things, while the Lord flashed and thundered from them by miracles and commandments, the gods were thought to have come down from heaven to men. For certain of the Gentiles, thinking this, desired even to sacrifice to them. But they commended to these the Lord Jesus Christ, humbling themselves, that God might be praised; because \"the heavens\" were \"bowed,\" that \"God\" might \"come down. \"Touch the mountains, and they shall smoke. \" So long as they are not touched, they seem to themselves great: they are now about to say, \"Great art Thou, O Lord:\" the mountains also are about to say, \"Thou only art the Most Highest over all the earth.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/144/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e679b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Waters. Of tribulation. (Worthington)\nChildren. My rebellious subjects, (Haydock) who lead bad lives in the true Church. (Worthington)\nForeign nations continued faithful, while Israel rose up against their sovereign.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/144/7",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be51b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 144:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

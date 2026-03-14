@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 10:4",
+  "verse_text": "Verse text for PS 10:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/10/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "2. \"The sinner hath angered the Lord\" (ver. 4). Let no one congratulate the man that prospers in his way, to whose sins no avenger is nigh, and an approver is by. This is the greater anger of the Lord. For the sinner hath angered the Lord, that he should suffer these things, that is, should not suffer the scourging of correction. \"The sinner hath angered the Lord: according to the multitude of His anger He will not search it out.\" Great is His anger, when He searcheth not out, when He as it were forgetteth and marketh not sin, and by fraud and wickednessman attains to riches and honours: which will especially be the case in that Antichrist, who will seem to man blessed to that degree, that he will even be thought God. But how great this anger of God is, we are taught by what follows.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/10/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67f4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 10:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

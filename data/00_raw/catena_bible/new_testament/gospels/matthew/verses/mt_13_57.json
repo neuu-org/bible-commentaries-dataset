@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 13:57",
+  "verse_text": "Verse text for MT 13:57",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/13/57",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "The Nazarenes were foolish to think that low birth and plain ancestry hinder anyone from pleasing God. Let us suppose that Jesus was simply man and not God. What would have prevented Him from being a great wonderworker? So they are proven to be foolish and spiteful. They ought rather to have taken pride that their native city had produced such a good man. The Lord had brothers and sisters, the children of Joseph which he begat by the wife of his brother Cleopas. For when Cleopas died childless, Joseph took his wife in accordance with the law and had six children by her, four boys and two girls, Mary, who was called the daughter of Cleopas, in accordance with the law, and Salome. The Nazarenes also took offense at Jesus, perhaps themselves saying that He was casting out demons by Beelzebub.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/13/57",
+      "full_content_url": "https://catenabible.com/com/58a5ce5154b4f95416b2f6ea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 13:57",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

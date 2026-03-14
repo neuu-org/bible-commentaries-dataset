@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 9:7",
+  "verse_text": "Verse text for ROM 9:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/9/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "What Paul wants us to understand is that not all are worthy because they are children of Abraham, but only those who are children of the promise, that is, whom God foreknew would receive his promise, whether they are Jews or Gentiles…. Abraham believed and received Isaac on account of his faith, because he believed in God. By this the mystery of the future faith was indicated, that they would be brothers of Isaac who had the same faith by which Isaac was born, because Isaac was born as a type of the Savior by the promise. Thus whoever believes that Christ Jesus was promised to Abraham is a child of Abraham and a brother of Isaac. Abraham was told that all the nations would be blessed in his offspring. This happened not in Isaac, but in him who was promised to Abraham in Isaac, that is, Christ, in whom all the nations are blessed when they believe. Therefore the other Jews are children of the flesh, because they are deprived of the promise and cannot claim Abraham’s merit, because they do not follow the faith by which Abraham is counted worthy. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/9/7",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e510e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Diodorus of Tarsus",
+      "period": "AD390",
+      "content": "Paul wants to say that it is not those who are of Abraham’s flesh who are his children, but those who are of the promise, who are godly and just, whom God promised according to his foreknowledge would be children of Abraham, just as Isaac was made righteous by the promise. .",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/9/7",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e510d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 9:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 12:52",
+  "verse_text": "Verse text for LK 12:52",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/12/52",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "For there shall be from henceforth five in one house divided, three against two, and two against three. Five, that is—Father, Song of Solomon , mother, daughter, daughter-in-law, for mother-in-law is the same as mother. So S. Ambrose. And this is plain from what follows. In the same house three unbelievers shall rise against two believers, or two unbelieving against three faithful, or father and Song of Solomon , who do not believe in Christ, shall rise against mother, daughter, and daughter-in-law who, do believe in Him, or the contrary.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/12/52",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 12:52",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

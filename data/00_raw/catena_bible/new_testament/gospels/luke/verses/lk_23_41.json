@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 23:41",
+  "verse_text": "Verse text for LK 23:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/23/41",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And we indeed justly; for we receive the due reward of our deeds. This was an act of profound and public confession, contrition, and repentance, by which he expiated his former sins.\nBut this man hath done nothing amiss. The Greek is Î¬Ï„Î¿Ï€Î¿Î½, which means out of harmony, unbecoming incongruous, nothing worthy of the slightest blame or reprehension. Lo! a free and public confession of, and testimony to, the innocence of Christ, given before the scribes and rulers, who had condemned Him, fearing nothing.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/23/41",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 23:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

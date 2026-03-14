@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 83:15",
+  "verse_text": "Verse text for PS 83:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/83/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Like as the fire that burneth up the wood, and as the flame that consumeth the mountains\" (ver. 14): \"so shall Thou persecute them with Thy tempest, and in Thy anger shalt disturb them\" (ver. 15). Wood, he saith, for its barrenness, mountains for their loftiness; for such are the enemies of God's people, barren of righteousness, full of pride. When he says, \"fire\" and \"flame,\" he means to repeat under another term, the idea of God judging and punishing. But in saying, \"with Thy tempest,\" he means, as he goes on to explain, \"Thy anger:\" and the former expression, \"Thou shall persecute,\" answers to, \"Thou shalt disturb.\" We must take care, however, to understand, that the anger of God is free from any turbulent emotion; for His anger is an expression for His just method of taking vengeance: as the law might be said to be angry when its ministers are moved to punish by its sanction.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/83/15",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c8c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Tempest. During the night, a tempest probably arose, which threw the enemy into confusion, who supposing that the Israelites had broken into the camp, fell upon each other in the dark. (Calmet)\nSt. Paul reminds us of God's indignation, which Christians as well as Jews ought to dread, Hebrews xii. 25, 29., and Deuteronomy iv. 24. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/83/15",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be24c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 83:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

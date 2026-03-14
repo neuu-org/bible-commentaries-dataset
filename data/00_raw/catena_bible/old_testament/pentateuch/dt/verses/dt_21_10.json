@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 21:10",
+  "verse_text": "Verse text for DT 21:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/21/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Captives. Some Rabbins say this was only lawful in what they call voluntary wars, which the Lord had not commanded, as in those which were waged against the devoted nations, it was not permitted to reserve the women, even though they should embrace the true religion. Calmet seems to be of the same opinion in the preceding chapter, to which he even refers. But here he thinks, that upon their complying with the condition specified, they might be married, as Rahab was, and consequently this law must be considered as an exception to those general laws, which prohibit matrimony with those nations of Chanaan, which were otherwise ordered to be entirely destroyed, chap. vi. 16. \"We believe, says he, that if these women changed their religion, they might be espoused, of whatever nation they might be. \"He seems still to exclude the Chanaanite women, (chap. xxiii. 3,) which variation of sentiment shows that the point is not to be easily decided. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/21/10",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bca1e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 21:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 5:6",
+  "verse_text": "Verse text for LK 5:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/5/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "They inclosed a great multitude of fishes—for Peter had said, \"At Thy word I will let down the net.\" \"Behold here the fruit and reward of obedience. Jesus did this—1. In order that by providing them with food, He might prepare them for their vocation and ministry. I have chosen you to be My disciples, make not excuse that ye must work for your livelihood as fishermen. Behold this miraculous draft of fishes, and believe that I am able to provide you with all things necessary for life more easily and more abundantly than ye are able to provide them yourselves2. To teach from this miracle, that they were soon to become successful fishers of men.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/6",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f3d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "When Christ commanded Peter to let go the net, as great a quantity of fishes were taken as this Lord of the land and sea wished. For the voice of the Lord is the voice of power, at the command of which, in the beginning of the world, light and every created thing sprang into existence. This it was that so much astonished Peter. (St. Gregory of Nazianzus, chap. xxxi.)\nThe net is broken, but the fishes are not lost, because the Lord preserves his servants among the scandals (schisms and heresies) of his enemies. (Ven. Bede)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/6",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa43",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 5:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

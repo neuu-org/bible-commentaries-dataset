@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 15:15",
+  "verse_text": "Verse text for JB 15:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/15/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Unchangeable, of his own nature, and during this life. (Calmet) Hebrew and Septuagint, \"is not trusted by him \"till they have been tried, (Haydock; chap. iv. 17.; None is good but God alone, Mark x. 18.) in comparison. (Tirinus)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/15/15",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc36",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "He repeated that with the title of ‘the heavens,’ which he before denoted by the appellation of the ‘Saints. ’ For it is written concerning those very Saints; The heavens are telling the glory of God [Ps. 19, 1]; all of whom have by nature in themselves changeableness proper to them, but while they earnestly desire to attach themselves always to the unchangeable ‘Truth,’ in attaching themselves they bring it to pass that they become unchangeable; and whilst they keep themselves fixed thereto with a full affection, they one day obtain that being carried above themselves, they get the better of this, that in themselves they were changeable. For what is changeableness but a kind of death. which while it changes one thing into another, as it were kills that which was, that that should begin to be which was not. And it is written concerning the Author of all things, Who only hath unchangeableness [1 Tim. 6, 16], in that He only is unchangeable in Himself. Concerning whom it is written by James; With Whom is no variableness, neither shadow of changing [Jam. For changeableness itself is a shadow, which if it altered the light by any changes, would as it were obscure it. But because in God changeableness entereth not, ‘no shadow of changing’ intercepts His Light. Now it is well said, the heavens are not clean in His sight, in that by themselves before the strict cognizance of God not even they can be clean to perfection, who are preachers of cleanness, as John testifies, who saith, If we say that we have no sin, we deceive ourselves. [1 John 1, 8] If then ‘among His Saints there is no one unchangeable, and the heavens are not clean in His sight,’ who may presume in himself upon the practice of righteousness.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/jb/15/15",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddcfff",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 15:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

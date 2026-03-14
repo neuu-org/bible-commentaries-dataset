@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 18:16",
+  "verse_text": "Verse text for PRV 18:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/18/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Evagrius Ponticus",
+      "period": "AD399",
+      "content": "“A man’s gift” is called an upright life. It is that gift that “makes room for him” and makes him worthy of the fullness of God. It is that very thing which is called the “throne” of the holy powers. Indeed, the “throne” of the mind is that excellent state which they maintain who are seated in a position that is fixed or immovable. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/18/16",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c84f5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Princes. He easily finds access by showing submission. (Calmet) Placatur donis Jupiter ipse suis. (Ovid)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/18/16",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be69a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 18:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

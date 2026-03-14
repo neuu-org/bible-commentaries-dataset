@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EST 2:23",
+  "verse_text": "Verse text for EST 2:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/2/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "King. Such histories were preserved with great care, 1 Esdras vi. 1. (Calmet)\nSeptuagint, \"the king ordered a memorial of it to be kept in the royal library, for the praise of Mardochai's good will. \"(Haydock)\nThe latter also wrote an account, chap. xii. 4.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/2/23",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdac0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "There is no doubt that the Scribes and Pharisees of the Jews are signified by the two eunuchs who were the caretakers of the royal house and guarded the threshold of the palace. Indeed it was said that even though they had the key to knowledge, they did not enter and did not let others enter. They wanted to rebel against the king and kill him because they were jealous of the teaching and virtue of the Savior. They constantly put him in danger and conspired with the ministers of Roman power to find a way to kill him. Therefore it is written in the gospel, “Then the Pharisees went and plotted to entrap him in what he said. So they sent their disciples to him, along with the Herodians, saying, ‘Teacher, we know that you are sincere, and teach the way of God in accordance with truth, and show deference to no one; for you do not regard people with partiality. Tell us, then, what you think. Is it lawful to pay taxes to Caesar, or not. ’ ” And in another passage it is read, “So the chief priests and the Pharisees called a meeting of the council, and said, ‘What are we to do. This man is performing many signs. If we let him go on like this, everyone will believe in him, and the Romans will come and take our place and people. ’ ” And a bit further it is added, “So from that day on they planned to put him to death.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/2/23",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa31",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 2:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

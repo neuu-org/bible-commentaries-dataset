@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ZEP 2:5",
+  "verse_text": "Verse text for ZEP 2:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/zep/2/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Woe unto the inhabitants of the seacoast, the nation of the Cherethites. the word of the LORD is against you; O Canaan, the land of the Philistines, I will even destroy you, that there shall be no inhabitant. Literally, \"line \"(Haydock) with which land was measured. (Calmet) Reprobates. Hebrew cerethim, (Haydock) or Cerethi, of whom David's guards were formed. (Calmet) Septuagint, \"people sprung the Cretans \"whence some (Theodoret) of the Philistines came, perhaps rather than from Cyprus, as was conjectured, Genesis x. So the Philistines are styled contemptuously. They adored the same idols, Wisdom xii.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zep/2/5",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf547",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEP 2:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

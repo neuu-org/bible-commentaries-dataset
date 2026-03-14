@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 102:5",
+  "verse_text": "Verse text for PS 102:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/102/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"For the voice of my groaning, the bones cleave unto my flesh\" (ver. For many groan, and I also groan; even for this I groan, because they groan for a wrong cause. That man hath lost a piece of money, he groaneth: he hath lost faith, he groaneth not: I weigh the money and the faith, and I find more cause for groaning for him who groaneth not as he ought, or doth not groan at all. He committeth fraud, and rejoiceth. With what gain, with what loss. He hath gained money, he hath lost righteousness. For the latter reason, he who knoweth how to groan, groaneth; he who is near the head, who righteously clingeth to Christ's body, groaneth for this reason. But the carnal do not groan for this reason, and they cause themselves to be groaned for, because they do not groan for this reason; nor can we despise them, whether they groan not at all, or groan for the wrong cause. For we wish to correct them, we wish to amend them, we wish to reform them, and when we cannot, we groan; and when we groan, we are not separated from them.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/102/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64f1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 102:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

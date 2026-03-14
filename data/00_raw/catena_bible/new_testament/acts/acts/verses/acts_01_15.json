@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 1:15",
+  "verse_text": "Verse text for ACTS 1:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/1/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "And this is subsequently observed, according to divine instruction, in the Acts of the Apostles, when Peter speaks to the people of ordaining an apostle in the place of Judas. \"Peter \"it says, \"stood up in the midst of the disciples, and the multitude were in one place.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/1/15",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bad47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And in those days Peter stood up in the midst of the disciples, and said, (the number of names together were about a hundred and twenty,) Peter, rising up Peter, says St. Chrysostom on this place, who was prince, or chief of the apostolical college, who had authority over them all, who by his place and dignity, might, without them, have chosen, and appointed a new apostle to succeed Judas, (Christ having said to him, confirm thy brethren,) yet he consults them. (Witham) Here Peter acts and ordains in virtue of his supremacy, and the other apostles agree to his appointment.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/1/15",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd1d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Peter, having been put in trust by Christ with the flock, and as having precedence in honor, he always begins the discourse.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/1/15",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabce8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 1:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

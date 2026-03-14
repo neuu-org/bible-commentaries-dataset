@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:4",
+  "verse_text": "Verse text for PS 18:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "5. \"The pains of death,\" that is, of the flesh, have \"compassed Me about. And the overflowings of ungodliness have troubled Me\" (ver. 4). Ungodly troubles stirred up for a time, like torrents of rain which will soon subside, have come on to trouble Me.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6845",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The sorrows of death surrounded me, and the floods of ungodly men made me afraid. Hebrew, \"cables. \"By these figurative expressions, David declares to what dangers he had been exposed. They seem to be more applicable to our Saviour's agony. (Berthier) The wicked were constantly laying snares for both. We have the same idea enforced in the next verse. (Haydock) The words are put into the mouth of fallen man, in the mass for Septuagesima. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/4",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdec6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 19:17",
+  "verse_text": "Verse text for LV 19:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/19/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Openly, is not in the Hebrew or other versions. Instead of bearing malice at the heart, we are authorized to demand our right in a legal manner, or to correct in a fraternal matter, the person who may have injured us, lest we incur sin for our neglect, and the offender continue impenitent. Jesus Christ instructs us to do this with as little disturbance as possible, Matthew xviii. 15. Yet public sins must undergo a public correction, 1 Timothy v. 20. (St. Augustine, ser. 82.) Love should regulate our complaints. (St. Augustine, q. 70.)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/19/17",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc61d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 19:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

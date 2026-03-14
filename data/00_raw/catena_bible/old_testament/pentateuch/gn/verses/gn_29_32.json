@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 29:32",
+  "verse_text": "Verse text for GN 29:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/29/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ruben. \"See the son, or the son of vision \"alluding perhaps, distantly, to ver. 24, He saw Lia. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/29/32",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc15d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "Reuben was the firstborn of those born after him, and their resemblance to him bore witness to their relationship to him, so that their brotherhood was not unrecognized, being testified to by the similarity of appearance. Therefore, if through the same rebirth “by water and the spirit,” we also have become brothers of the Lord, he having become for us “the firstborn among the many brothers,” it follows that our nearness to him will show in the character of our life, because “the firstborn of every creature” has informed our life. But what have we learned from the Scripture about the character of his life. What we have said many times: that “he committed no sin, nor was deceit found in his mouth. ” Therefore, if we are going to act as brothers of the One who gave us birth, the sinlessness of our life will be a pledge of our relationship to him, and no filth will nullify our union with his purity. But the firstborn is also justice and holiness and love and redemption and such things. So if our life is characterized by such qualities, we furnish clear tokens of our noble birth, and anyone, seeing these qualities in our life, will bear witness to our brotherhood with Christ.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/29/32",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51bca",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 29:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

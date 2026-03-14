@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 2:9",
+  "verse_text": "Verse text for EZ 2:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/2/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And when I looked, behold, a hand was sent unto me; and, lo, a scroll of a book was in it; Without. This was only done when the work was long. (Calmet) Scriptus et in tergo, necdum finitus Orestes. ) Septuagint, \"past and present things were written in it. \"(Haydock) Woe, or the words of the penitent, of the blessed, and of the damned. (Worthington) The canticles were of a mournful nature, and the prophet had sorrows to announce.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ez/2/9",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befe6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 2:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

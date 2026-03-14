@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 2:3",
+  "verse_text": "Verse text for ZEC 2:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/2/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Another. The angel who measured spoke to Michael. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/2/3",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf589",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "We have learned from certain places in Scripture that some things are done by cherubim and some by seraphim. Because I have no clear proof, I am unwilling to affirm whether they do these things themselves or accomplish them through bands of angels under their authority, their names, which are greater, being used because the things are done on their authority. But I am certain of this, that to carry out some duty from on high some spirits send others. The prophet Zechariah is our witness: “See,” he says, “the angel who talked with me came forward, and another angel came forward to meet him and said to him, ‘Run and speak to that boy, saying, “Jerusalem shall be inhabited without a wall.” ’ ” When one angel says to another, “Run and speak,” there is no doubt that one is sending the other. The lesser ranks are sent; the greater ones do the sending.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/2/3",
+      "full_content_url": "https://catenabible.com/com/5838db40205c248f42e52b5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 2:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

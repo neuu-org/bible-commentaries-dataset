@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 2:3",
+  "verse_text": "Verse text for 1SM 2:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/2/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "No sensible person, then, will be proud of his wisdom … but will follow the excellent advice of blessed Hannah and of the prophet Jeremiah, “Let not the wise man glory in his wisdom and let not the strong man glory in his strength and let not the rich man glory in his riches.” But what is true glory and what makes one great? “In this,” says the prophet, “let him that glories, glory, that he understands and knows that I am the Lord.” This constitutes the pinnacle of human dignity, this is his glory and greatness: truly to know what is great and to cleave to it, and to seek after glory from the Lord of glory.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/2/3",
+      "full_content_url": "https://catenabible.com/com/5de467401f75ae05ba98ce6e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew hathak means also, \"hard things. \"(Du Hamel) \"Let arrogance come out of your mouth \"to return no more. Yet most people supply the negation from the former member; \"Let not arrogance or hard things. \"Chaldean, \"blasphemy \"(Calmet) Cease to praise idols, as you have done. (Worthington) Use not the malevolent language to which you have been accustomed. The secrets of hearts are open to him. Hebrew, \"and by him actions are weighed \"as in scales; (Haydock) or, \"thoughts (and actions) are not established. \"(Symmachus) The Syriac and Arabic also read the negation, \"there are not pretexts before him \"or, \"are not actions founded upon him. \"Will he not execute what he has wisely designed, in spite of opposition. (Haydock) Septuagint, \"and God prepares his thought \"(Calmet) (epitedeumata autou) or, \"what is convenient for him. \"(Haydock) They have read lu, \"of him \"instead of la, \"not \"as they are authorized to do by the Keri, (or various readings in the margin) and by several Hebrew manuscripts. The Protestants think rightly, and suppose that la, \"not \"has been omitted, \"Let not arrogancy \"because we find it in Chaldean, Septuagint, Syriac and Arabic versions. Lu is substituted for la, ver. When some have been pressed with the argument of variations, called Keri, they have said that they were rather explanations of obscure words in the text: but is there any obscurity in lu, \"to him \"and la, \"not \"or can they explain each other. Leusden answers in the affirmative, ver. (Kennicott).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/2/3",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce3e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 2:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

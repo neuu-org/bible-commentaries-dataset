@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 11:3",
+  "verse_text": "Verse text for DN 11:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/11/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "A strong king: Alexander. (Challoner)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/11/3",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f497",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And a mighty king shall stand up, that shall rule with great dominion, and do according to his will. He clearly refers to Alexander the Great, king of the Macedonians, and son of Philip. For after he had overcome the Illyrians and Thracians, and had conquered Greece and destroyed Thebes, he crossed over into Asia. And when he had routed Darius's generals and taken the city of Sardis, he afterwards captured India and founded the city of Alexandria. And then, when he had attained the age of thirty-two and the twelfth year of his reign, he died of poison.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/11/3",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd356",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 11:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 27:11",
+  "verse_text": "Verse text for IS 27:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/27/11",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Women. The princes shall be weak and irresolute. (Calmet)\nSeptuagint, \"Hither, ye women, coming from the shew. For it is not an intelligent people.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/27/11",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea1e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rufinus of Aquileia",
+      "period": "AD411",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When its boughs are withered, they shall be broken off: the women come, and set them on fire: for it is a people of no understanding: therefore he that made them will not have mercy on them, and he that formed them will show them no favor. Rufinus of Aquileia That the women were to see his resurrection, while the scribes and Pharisees and the people disbelieved, this also Isaiah foretold in these words, “You women, who come from beholding, come: for it is a people that has no understanding.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/27/11",
+      "full_content_url": "https://catenabible.com/com/5e4f7fa0c849cf49a740e3cb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When its boughs are withered, they shall be broken off: the women come, and set them on fire: for it is a people of no understanding: therefore he that made them will not have mercy on them, and he that formed them will show them no favor. Tertullian of Carthage The women, returning from the sepulcher and from this vision of the angels, were foreseen by Isaiah, when he says, “Come, you women, who return from the vision,” that is, “come” to report the resurrection of the Lord. It was well, however, that the unbelief of the disciples was so persistent, in order that to the last we might consistently maintain that Jesus revealed himself to the disciples as none other than the Christ of the prophets.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/27/11",
+      "full_content_url": "https://catenabible.com/com/5e4f7fa0c849cf49a740e3cc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 27:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

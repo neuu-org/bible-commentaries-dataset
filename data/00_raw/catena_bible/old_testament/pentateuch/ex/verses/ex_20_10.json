@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 20:10",
+  "verse_text": "Verse text for EX 20:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/20/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But the seventh day is the sabbath of the LORD your God: in it you shall not do any work, you, nor your son, nor your daughter, your manservant, nor your maidservant, nor your cattle, nor your stranger that is within your gates: Stranger. Of some other nation. Good policy required, that all should conform to this regulation, whatever their religion might be. (Grotius) Maimonides says, without any probablility, that \"a Gentile observing the law, was guilty of death.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/20/10",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3ce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "When he speaks to us of another commandment, not known to us by the dictate of conscience, he not only prohibits but also adds the reason. When, for instance, he gave the commandment respecting the sabbath, “On the seventh day you shall do no work,” he subjoined also the reason for this cessation. What was this? “Because on the seventh day God rested from all his works which he had begun to make.” And again, “Because you were a servant in the land of Egypt.” For what purpose then, I ask, did he add a reason respecting the sabbath but did no such thing in regard to murder? Because this commandment was not one of the leading ones. It was not one of those which were accurately defined in our conscience but a kind of partial and temporary one. And for this reason it was later experienced.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/20/10",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52849",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 20:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

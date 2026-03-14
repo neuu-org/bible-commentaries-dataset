@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MAL 1:13",
+  "verse_text": "Verse text for MAL 1:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mal/1/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Behold of our labour You pretended labour and weariness, when you brought your offering; and so made it of no value, by offering it with an evil mind. Moreover, what you offered was both defective in itself, and gotten by rapine and extortion. (Challoner)\nThese were two defects. (Worthington)\nHebrew, \"what fatigue, or if we change one letter, and read (Calmet) mothlae, (Haydock) it stinks, and you. \"Some copies of Septuagint, Arabic, \"I blew them away \"with disgust.\nRapine. Ecclesiasticus xxxiv. 24.\nOffering. Mincha, ver. 11. (Calmet)\nSuch victims and presents as are lame or strange, are rejected. (Pliny, viii. 45.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mal/1/13",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf62b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You said also, Behold, what a weariness is it. and you have sneered at it, says the LORD of hosts; and you brought that which was torn, and the lame, and the sick; thus you brought an offering: should I accept this of your hand. says the LORD. Behold of our labour: You pretended labour and weariness, when you brought your offering; and so made it of no value, by offering it with an evil mind. Moreover, what you offered was both defective in itself, and gotten by rapine and extortion.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mal/1/13",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9edd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MAL 1:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

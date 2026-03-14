@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 10:5",
+  "verse_text": "Verse text for JN 10:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/10/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But a stranger will they not follow, for they know not the voice of strangers, i.e, of heretics, Jews, heathens, and all wicked and deceitful men, for the genuine sheep of Christ fly from them as from wolves.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/10/5",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5223f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Certainly here He speaks of Theudas and Judas, (for all, as many as believed on them, were scattered [ Acts v. 36 ], It says,) or of the false Christs who after that time should deceive. For lest any should say that He was one of these, He in many ways separates Himself from them. And the first difference He sets down is His teaching from the Scriptures; for He by means of these led men to Him, but the others did not from these draw men after them. The second is, the obedience of the sheep; for on Him they all believed, not only while He lived, but when He had died; the others they straightway left. With these we may mention a third difference, no trifling one. They did all as rebels, and to cause revolts, but He placed Himself so far from such suspicion, that when they would have made Him a king, He fled; and when they asked, Is it lawful to give tribute unto Cæsar. He bade them pay it, and Himself gave the two drachm piece. Matthew 17:27 Besides this, He indeed came for the saving of the sheep, That they might have life, and that they might have more abundantly John 10:10, but the others deprived them even of this present life. They betrayed those who were entrusted to them and fled, but He withstood so nobly as even to give up His life. They unwillingly, and by compulsion, and desiring to escape, suffered what they suffered, but He willingly and by choice endured all.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/10/5",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabbb0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 10:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

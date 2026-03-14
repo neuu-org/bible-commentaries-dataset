@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 18:48",
+  "verse_text": "Verse text for PS 18:48",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/48",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "49. \"From them that rise up against Me Thou wilt exalt Me\" (ver. 48). From the Jews that rise up against Me in My passion, Thou wilt exalt Me in My resurrection. \"From the unjust man Thou wilt deliver Me.\"From their unjust rule Thou wilt deliver Me.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/48",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6871",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:48",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

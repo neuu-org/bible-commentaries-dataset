@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 4:12",
+  "verse_text": "Verse text for LV 4:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/4/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Even the whole bullock shall he carry forth outside the camp unto a clean place, where the ashes are poured out, and burn it on the wood with fire: where the ashes are poured out shall it be burned. Ashes of the victims. They were first laid beside the altar of holocausts. By this ceremony, the priest begged that his sins might be removed from the sight of God, (Menochius) by virtue of Christ's sacrifice, who suffered out of the gate of Jerusalem, Hebrews xiii. The high priest was obliged to offer this sacrifice himself, to expiate his own sin, as well as that of the people, Hebrews ix.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/4/12",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc51d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 4:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

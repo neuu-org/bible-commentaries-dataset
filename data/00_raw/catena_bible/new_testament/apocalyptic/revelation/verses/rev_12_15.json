@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 12:15",
+  "verse_text": "Verse text for REV 12:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/12/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "A Treatise Against the Heretic Novatian",
+      "period": "AD255",
+      "content": ", by the \"violence of the flood which the serpent sent forth from his mouth after the woman.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/12/15",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb89e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And the serpent cast out of his mouth water as a flood after the woman, that he might cause her to be carried away by the flood. The serpent (the dragon, the devil) came out of his mouth He endeavoured to destroy the Christian religion; but the earth, that is, the princes of the earth, as God was pleased to turn their hearts, helped to turn away the persecutions. (Witham) As a last effort, the devil raises a more bloody persecution than was ever known before. See Eusebius, History of the Church.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/12/15",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c0495",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "He signifies by the water which the serpent cast out of his mouth, the people who at his command would persecute her.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/12/15",
+      "full_content_url": "https://catenabible.com/com/574f83293c6effa740ddd79e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 12:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

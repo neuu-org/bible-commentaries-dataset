@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JL 1:18",
+  "verse_text": "Verse text for JL 1:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jl/1/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "The prophet says, “The beasts of burden have become putrid in their own dung.” For beasts of burden to become putrid in their own dung means for all those who are materialistic to end their lives in the stench of dissipation. As often as we prove a materialistic heart for its sins, as often as we draw back to its memory the wrongs it has committed, it is as if we are turning a measure of dung onto a barren tree. It is to call to mind the evils it has done and grow fertile to the gift of compunction as if from the stench.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jl/1/18",
+      "full_content_url": "https://catenabible.com/com/5836709b8a58883142aa6a24",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JL 1:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 21:24",
+  "verse_text": "Verse text for 2KGS 21:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/21/24",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "There is no sin more grievous than idolatry, for it is an impiety against God, and yet even this sin has been forgiven, on sincere repentance. But if anyone sins in direct opposition and on purpose to try whether God will punish the wicked or not, such a one shall have no remission, although he says to himself, “All is well, and I will walk according to the customs of my evil heart.” Such a one was Amon the son of Manasseh. For the Scripture says, “And Amon reasoned an evil reasoning of transgression and said, My father from his childhood was a great transgressor and repented in his old age; and now I will walk as my soul lusts, and afterwards I will return to the Lord.” And he did evil in the sight of the Lord above all who were before him. And the Lord God soon destroyed him utterly from his good land. And his servants conspired against him and killed him in his own house, and he reigned two years only.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/21/24",
+      "full_content_url": "https://catenabible.com/com/5e1b69a48bc66721fe4efa13",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 21:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

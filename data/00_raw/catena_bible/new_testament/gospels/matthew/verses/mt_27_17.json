@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 27:17",
+  "verse_text": "Verse text for MT 27:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/27/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "When therefore they were gathered together, Pilate said unto them, Whom will ye that I release unto you? Barabbas, or Jesus? \"That if the Chief Priests wished through envy to destroy Him, the people, who had experienced His manifold benefits, might ask for His life,\" saith Druthmar; or if, as S. Chrysostom says, \"they did not wish to pronounce Him innocent, they might release Him, though guilty, in consideration of the feast.\"\nWhich is called Christ. Pilate was in earnest, wishing the Jews to demand His deliverance, as being their promised Messiah.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/27/17",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51dfa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 27:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

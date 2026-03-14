@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1TIM 4:11",
+  "verse_text": "Verse text for 1TIM 4:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/4/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "In some cases it is necessary to command, in others to teach. If you command in cases where teaching is required, you will become ridiculous. Again, if you teach where you ought to command, you are exposed to the same reproach…. Not to profess Judaism should be a simple command, but teaching is required when you would lead people persuasively to part with their possessions, to live chastely, or when you would discourse on faith…. But where the salvation of others is concerned, command and interpose with authority. This is not a case for moderation but for authority, lest the common good suffer.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1tm/4/11",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e63a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "In some cases it is necessary to command, in others to teach; if therefore you command in those cases where teaching is required, you will become ridiculous. Again, if you teach where you ought to command, you are exposed to the same reproach. For instance, it is not proper to teach a man not to be wicked, but to command; to forbid it with all authority. Not to profess Judaism, should be a command, but teaching is required, when you would lead men to part with their possessions, to profess virginity, or when you would discourse of faith. Therefore Paul mentions both: Command and teach. When a man uses amulets, or does anything of that kind, knowing it to be wrong, he requires only a command; but he who does it ignorantly, is to be taught his error. Let no one despise your youth.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1tm/4/11",
+      "full_content_url": "https://catenabible.com/com/575f0fd63c6effa740ddde0c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 4:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

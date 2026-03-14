@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 43:9",
+  "verse_text": "Verse text for IS 43:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/43/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let all the nations be gathered together, and let the people be assembled: who among them can declare this, and show us former things. let them bring forth their witnesses, that they may be justified: or let them hear, and say, It is truth. Eusebius of Caesarea If they seemed to have the eyes of the soul and a human mind, they were still nonetheless blind to the deceit of idolatry. But what then happened to them provides the basis for Isaiah’s message. For the former blind and deaf were gathered together into the church of God even as the rulers of the nations opposed the people of God. The prophet is amazed and tries to make sense of the prophecy that he is speaking, and so he calls out, saying, “Who can announce these things.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/43/9",
+      "full_content_url": "https://catenabible.com/com/5e88f308b1c7280cb341d0a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Former. The pagans were little acquainted with antiquity. Such researches lead to the knowledge of the true religion. (Haydock)\nTruth, if they can produce any true prophecy.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/43/9",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beadd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 43:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

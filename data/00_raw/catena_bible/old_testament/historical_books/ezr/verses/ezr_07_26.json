@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EZR 7:26",
+  "verse_text": "Verse text for EZR 7:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/7/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "This Artaxerxes, who in his own way pays homage to God’s temple and priests with a most devout mind and offers willing service to him, like his predecessor Darius signifies Christian rulers. Nor should one marvel if we have said that the successors of Cyrus, who caused the Lord’s temple and city to be built, who loved and assisted his servants and law, contain a figure of Christian kings, since the Lord himself said through the prophet that Cyrus came as a figure of his own Son and deigned that Cyrus should be honored through his name: “Thus the Lord says to my anointed Cyrus,” and the other things about him that we have spoken about more extensively above.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ezr/7/26",
+      "full_content_url": "https://catenabible.com/com/591a4a9719aa35522bc7e38f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Banishment. Hebrew literally, \"eradication \"by death or exile, (Calmet) or by being cut off from all society, chap. x. 8. (De Dieu)\nSeptuagint, \"correction. \"(Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ezr/7/26",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 7:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

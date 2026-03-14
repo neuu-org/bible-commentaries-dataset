@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 41:33",
+  "verse_text": "Verse text for GN 41:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/41/33",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now therefore let Pharaoh seek out a man discreet and wise, and set him over the land of Egypt. When Joseph said, “Let Pharaoh select a man,” he spoke about himself. Joseph, out of modesty, did not say it openly in his own name, but he would not give it to another, for he knew that no one else would be able to make suitable provision for the great scourge that was coming upon them. Joseph became great in the eyes of Pharaoh through his interpretation of Pharaoh’s dreams but even more through the beneficial counsel that his mind had devised.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/41/33",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51c56",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 41:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

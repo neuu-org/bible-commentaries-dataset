@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 106:13",
+  "verse_text": "Verse text for PS 106:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/106/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. \"They acted hastily: they forgot His works\" (ver. 13): other copies intelligibly, \"They hastened, they forgot His works, and would not abide His counsel.\" For they ought to have thought, that so great works of God towards themselves were not without a purpose, but that they invited them to some endless happiness, which was to be waited for with patience; but they hastened to make themselves happy with temporal things, which give no man true happiness, because they do not quench insatiable longing: for \"whosoever,\" saith our Lord, \"shall drink of this water, shall thirst again.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/106/13",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e656f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Counsel. Three days after the passage of the sea, God laid injunctions upon them at Mara, which they would not observe, Exodus xv. 22. (Calmet)\nThey coveted unnecessary things. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/106/13",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be372",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 106:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

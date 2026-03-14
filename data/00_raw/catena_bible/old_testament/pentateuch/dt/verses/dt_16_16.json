@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 16:16",
+  "verse_text": "Verse text for DT 16:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/16/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Empty. All were bound to make some offering, which was left to their option, and thus the festivity was much increased, by the abundance of all things; so that all might find a particular pleasure in being present at these feasts, even though they were not influenced by sentiments of piety and of religion. See Exodus xxiii. 15. (Calmet)\nWhile the masters of families were from home, thrice in the year, God protected their houses and children from the incursions of enemies, so that they were never more secure. (Sanctius) (Tirinus)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/16/16",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9cf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Paterius",
+      "period": "AD606",
+      "content": "He appears emptyhanded in the sight of the Lord who brings none of the fruits of his labor with him. One man seethes with desire to increase his power; another pants with longing to gather praise. But because the dying man leaves all these things behind, he appears before the Lord emptyhanded, for he brings nothing with him when he appears before the judge. Thus the law admonishes us to good effect when it says, “You will not appear emptyhanded in the sight of the Lord.” For the man who does not plan for the reward of a meritorious life by acting well appears emptyhanded in the sight of the Lord. The psalmist says of the just, “coming they will come rejoicing, carrying their sheaves.” They who come to the judge’s court carrying sheaves are the ones who display in themselves good works by which they merit life. Exposition of the Old and New Testament, Deuteronomy",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/16/16",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a51",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 16:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

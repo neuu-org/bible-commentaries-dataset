@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 7:48",
+  "verse_text": "Verse text for JN 7:48",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/7/48",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Have any of the rulers or Pharisees believed in Him? And consequently He is not the Christ. An argument from authority, but yet a fallacy. For these rulers and Pharisees were the sworn enemies of Christ, because He reproved their sins. But yet some of the rulers secretly believed in Him, as Nicodemus. As S. Augustine wisely says, \"They who knew not the law, believed on Him who had sent the law, and they who taught the law despised Him who had sent it, that the saying might be fulfilled, \"I am come that they which see not may see, and that they which see might be made blind.\"\"",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/7/48",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e521df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "They fall away to their wonted boastfulness, casting imputation of unlearning on those who marvelled at Jesus as a wonder-worker and as bringing in things God-befitting, and crown their own heads alone with skill in the law and knowledge of the holy Scriptures. And because themselves consent not to those who rightly marvel at these things, they believe that they are full of virtue. And as though the Law bade them find fault with things worthy of marvel, and cast a perverse judgment on things that surpass wonder, they plume themselves not a little, demented and of too great lightness easily cast into all uninstructedness. And whence they the rather ought to acknowledge Jesus now present, thence are they taken wronging themselves and weighting their collar, as it is written, for professing themselves to be wise, they became fools. Albeit it had been far better to confess that they knew not the Law, than thinking and saying that they knew it well, and then dishonouring Him That was proclaimed thereby, to fall into keener doom and be pierced with woes past escape. For he which knew, (He says) his Lord's will and did it not, shall be beaten with many stripes, but he that knew not and did not, shall be beaten with few stripes. Therefore in confessing that they know the Law, themselves full well accuse their own unbelief, and laugh at the multitude as unlearned and therefore caught by our Saviour's miracles, then unable to dissuade them through the declarations of the Law, they boastfully insult, calling them uninstructed who were ready to understand. For this is ever the wont of more ignorant teachers who having nought to say of what they are asked, repel by anger the minuteness of enquirers. And they say that they who believe are cursed, while themselves would more rightly be persuaded to say this of their own selves. For it better befits the unbeliever to be accursed, seeing that the Law declares clearly of the Prophet our Saviour Christ, And it shall be whosoever will not hearken unto the words which that Prophet shall speak in My Name, that soul shall be destroyed from among his people.",
+      "commentary_number": "2/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/jn/7/48",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabf39",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you then make this a charge against Christ, tell me, and not against the unbelievers?",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/7/48",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabb63",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 7:48",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

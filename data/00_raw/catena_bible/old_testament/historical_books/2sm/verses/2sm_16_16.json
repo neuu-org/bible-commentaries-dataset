@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 16:16",
+  "verse_text": "Verse text for 2SM 16:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/16/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Arachite; perhaps descended from the ancient Arachites, who dwelt near Arad and Tripoli, where the pretended Sabbatic river is said to flow; (Josephus, Jewish Wars xii. 13.) or rather, as the names are written in a different manner, this person might be a native of Arachi, in Benjamin, west of Bethel, Josue xvi. 2. (Calmet) See chap. xv. 32.\nFriend. This was his peculiar title of office, 1 Paralipomenon xxvii. 33. (Calmet)\nKing. (Salve.) Literally, \"Hail, O King \"in both places. The salutation is repeated for greater emphasis. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/16/16",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd162",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 16:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

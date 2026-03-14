@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 4:19",
+  "verse_text": "Verse text for ACTS 4:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/4/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But Peter and John stopped their mouths, by asking them, if it was reasonable for them to hearken to men rather than to God. For we, say they, (ver. 20.) cannot but speak the things which we have seen and heard. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/19",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd4e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "Here by “God” they mean Christ, for he it was that commanded them.\nBefore He spoke or did any thing, Christ called Apostles, that neither word nor deed of His should be hid from their knowledge.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/19",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabdb6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 4:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 6:30",
+  "verse_text": "Verse text for JGS 6:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/6/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bring. Parents took cognizance of the evil actions done in their family. The citizens require Joas to punish his son, or to deliver him up to them. On the same principle, the Israelites insisted that the tribes of Benjamin should not neglect to punish the citizens of Gabaa; and the Philistines demand Samson, chap. xv. 12., and xx. 13. Cato advised that Cæsar should be given up to the Germans, whom he had unjustly invaded; and the Gauls would not be satisfied, unless the Fabii should be abandoned unto them. (Grotius, Jur. ii. 21, 4.) (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/6/30",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd2a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 6:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

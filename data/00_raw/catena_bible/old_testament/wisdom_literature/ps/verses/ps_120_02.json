@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 120:2",
+  "verse_text": "Verse text for PS 120:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/120/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Deliver my soul, O Lord, from unrighteous lips, and from a deceitful tongue\" (ver. What is a deceitful tongue. A treacherous tongue, one that hath the semblance of counsel, and the bane of real mischief. Such are those who say, And wilt thou do this, that nobody doth. Wilt thou be the only Christian. Some deter by dissuasion, others discourage yet more by their praise. For since such is the life that hath for some time been diffused over the world, so great is the authority of Christ, that not even a pagan ventureth to blame Christ. He who cannot be censured is read. They cannot contradict Christ, they cannot contradict the Gospel, Christ cannot be censured; the deceitful tongue turneth itself to praise as an hindrance. If thou praisest, exhort. Why dost thou discourage with thy praise. Thou turnest thyself to another mode of dissuasion, that by false praise thou mayest turn me away from true praise; nay, that by praising Christ thou mayest keep me away from Christ, saying, What is this. Behold these men have done this: thou, perhaps, wilt not be able: thou beginnest to ascend, thou fallest. It seemeth to warn thee: it is the serpent, it is the deceitful tongue, it hath poison. Pray against it, if thou wishest to ascend.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/120/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66aa",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Tongue. From the Babylonians, who seek to delude me, (Calmet) and from detraction, which is most dangerous. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/120/2",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be46b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 120:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

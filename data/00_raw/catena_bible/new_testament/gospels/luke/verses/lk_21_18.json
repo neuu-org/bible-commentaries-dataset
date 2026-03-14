@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 21:18",
+  "verse_text": "Verse text for LK 21:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/21/18",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But there shall not an hair of your head perish. \"Because,\" says S. Gregory, \"what was said about death was hard, comfort is added at once, from the joy of the resurrection, when it is said, \"a hair of your head shall not perish. \" For we know that the flesh when wounded, causes pain, but the hair when cut does not. Our Lord therefore said to His martyrs, \"A hair of your head shall not perish. \"\" From these words of Christ, we may conclude that we shall rise again with our actual bodies. Augustine (De Civitate, chap19 , 2O. Bonaventure, S. Thomas, the master of the sentences, Soto, and others. Their proof is from Matthew 10:30: \"The very hairs of your head are all numbered;\" and from this of S. Luke , \"Not a hair of your head shall perish. \" \"Not in length,\" says S. Augustine, \"but in number. We may collect this from reason, for our bodies will rise without deformity, with their natural adornments and comeliness; the adornment of the head is the hair, the beard, the nails. If any one has not these he is a deformed.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/21/18",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52091",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "A hair of your head: A hair shall not perish from the head of the disciples of Christ; because not only their most heroic actions, and their public confessions of his name, but even their passing thoughts shall be crowned with adequate rewards. (Ven. Bede)",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/21/18",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb54",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "\"And there shall not a hair of your head perish.\"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/21/18",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf42",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "For we shall rise incorruptible: whether we die at sea, or are scattered on the earth, or are torn to pieces by wild beasts and birds, He will raise us by His own power; for the whole world is held together by the hand of God. Now He says: \"An hair of your head shall not perish.\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/21/18",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf43",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 21:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

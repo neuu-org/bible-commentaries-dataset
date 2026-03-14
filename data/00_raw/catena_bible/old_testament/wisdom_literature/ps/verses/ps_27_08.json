@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 27:8",
+  "verse_text": "Verse text for PS 27:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/27/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When you said, Seek my face; my heart said unto you, your face, LORD, will I seek. Augustine of Hippo 8. \"My heart hath said to Thee, I have sought Thy countenance\" (ver. For I have not exhibited myself to men; but in secret, where Thou alone hearest, my heart hath said to Thee; I have not sought from Thee aught without Thee as a reward, but Thy countenance. \"Thy countenance, O Lord, will I seek. \" In thus search will I perseveringly persist: for not aught that is common, but Thy countenance, O Lord, will I seek, that I may love Thee freely, since nothing more precious do I find.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/27/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When you said, Seek my face; my heart said unto you, your face, LORD, will I seek. Hebrew pointed, \"faces seek ye. \"But Septuagint, St. Jerome, Chaldean, take no notice of these points; and even Protestants' marginal note has, \"My heart said unto thee, Let my face seek thy face \"(Berthier) though in the text they derange the words, and add, \"When thou saidst, Seek ye my face, my heart said \"(Haydock) Seek. \"I have sought for no reward besides thee. Augustine) I have earnestly desired to see thee face to face, 1 Corinthians xiii. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/27/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf4a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 27:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

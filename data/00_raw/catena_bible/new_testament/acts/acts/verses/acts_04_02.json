@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ACTS 4:2",
+  "verse_text": "Verse text for ACTS 4:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/4/2",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Neither do we observe that this was regarded by the apostles only in the ordinations of bishops and priests, but also in those of deacons, of which matter itself also it is written in their Acts: \"And they twelve called together \"it says, \"the whole congregation of the disciples, and said to them; \"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/2",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bad80",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The resurrection. This vexed particularly the Sadducees, who denied the resurrection: and they had great power among the Jews. (Witham)",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/2",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "In the case of Christ, however, they did not so; but having taken Him at midnight, they immediately led him away, and made no delay, being exceedingly in fear of the multitude: whereas in the case of the Apostles here, they were bold. And they no more take them to Pilate, being ashamed and blushing at the thought of the former affair, lest they should also be taken to task for that.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/2",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabda8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Peter, together with John, preached to them this plain message of glad tidings, that the promise which God made to the fathers had been fulfilled by Jesus; not certainly proclaiming another god, but the Son of God, who also was made man, and suffered; thus leading Israel into knowledge, and through Jesus preaching the resurrection of the dead,",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/2",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bad7f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 4:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

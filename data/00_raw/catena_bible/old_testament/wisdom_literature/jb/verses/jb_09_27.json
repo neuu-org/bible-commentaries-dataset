@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 9:27",
+  "verse_text": "Verse text for JB 9:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/9/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sorrow. I cannot entirely repress it. (Calmet)\nThe more I strive, (Haydock) the greater is my pain. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/9/27",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdbd0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "49. For the Jewish People would not speak as before, in that it denied Him, Whom it had foretold; but with changed countenance it is tormented with grief, in that while it defiled with the foulness of unbelief the aspect of its inward man, by which it might have been known by the Creator, setting out with present evils, it brought itself under the sentence of everlasting vengeance. For its face being as it were changed, it is not known by the Creator, in that upon faith in a good conscience being gone, it is condemned. But doubtless it remains for her, that the pain of punishment torment her, whom her Creator knowing not disowns. Seeing, then, that we have gone through these points under the signification of our Redeemer, now let us go over them again, to make them out in a moral sense.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/9/27",
+      "full_content_url": "https://catenabible.com/com/57421a163c6effa740ddcf7a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 9:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

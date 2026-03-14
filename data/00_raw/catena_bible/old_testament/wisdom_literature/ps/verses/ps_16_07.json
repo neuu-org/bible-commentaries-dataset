@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 16:7",
+  "verse_text": "Verse text for PS 16:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/16/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I will bless the LORD, who has given me counsel: my heart also instructs me in the night seasons. Augustine of Hippo 7. \"I will bless the Lord, who hath given Me understanding\" (ver. 7): whereby this inheritance may be seen and possessed. \"Yea moreover too even unto night my reins have chastened Me. \" Yea besides understanding, even unto death, My inferior part, the assumption of flesh, hath instructed Me, that I might experience the darkness of mortality, which that understanding hath not.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/16/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e682e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I will bless the LORD, who has given me counsel: my heart also instructs me in the night seasons. Understanding. Hebrew, \"counsel. \"In the night of tribulation God directs the reins, or affections of the soul. Christ might speak thus concerning his human nature. (Berthier) (Luke ii. , and Hebrews v. ) David also gives thanks to God for enabling him to make so happy a choice, and to avoid being seduced. (Calmet) He derives instructions from pain. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/16/7",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdebc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 16:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

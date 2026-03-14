@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 5:29",
+  "verse_text": "Verse text for LK 5:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/5/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "And He does not bid them part with their property, but, applying the just and removing the unjust judgment, He subjoins, \"To-day salvation has come to this house, for as much as he also is a son of Abraham.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/29",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc63",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And Levi made himself a great feast in his own house: and there was a great company of tax collectors and of others that sat down with them. And Levi made him a great feast, to testify his gratitude to Jesus for the favour he had done him. It appears that both St. Mark and St. Luke affect, through consideration for St. Matthew, to designate him here by his less known name of Levi; whereas he designates himself, through humility, in this same circumstance, by his more known appellation of Matthew. (See Matthew ix. ) (Bible de Vence).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/29",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa53",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 5:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

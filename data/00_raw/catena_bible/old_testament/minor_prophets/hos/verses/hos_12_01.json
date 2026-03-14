@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HOS 12:1",
+  "verse_text": "Verse text for HOS 12:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/12/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "God of my heart … I didn’t know how to love you, because I did not know how to conceive the existence of anything—however glorious—beyond mere matter. The soul that goes puffing and wheezing after such figments of the imagination [as fortune telling] is one that goes whoring from you and trusts what is phony and feeds on the wind. Yet while I wouldn’t have this sorcerer sacrificing to demons on my behalf, I was actually sacrificing to them myself just by being involved in my superstition. For what else is to feed on the wind, if not to feed on error, and so to become the sport and plaything of the demonic? Confessions",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/12/1",
+      "full_content_url": "https://catenabible.com/com/5838db23205c248f42e52b3a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Ephraim feeds on wind, and follows after the east wind: he daily increases lies and desolation; and they do make a covenant with the Assyrians, and oil is carried into Egypt. Literally, the wind. (Haydock) To trust in men is no less vain. (Worthington) Septuagint, \"Ephraim is an evil spirit \" Heat. Hebrew, \"eastern or burning wind. \"(Haydock) Mana hem attempted to engage Egypt on his side, but he was frustrated in his hopes, (4 Kings xv. Jerome) as Osee was likewise; to which king the sense conducts us better, chap. That of Palestine was very excellent, Ezechiel xxvii.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/12/1",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf3b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 12:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:76",
+  "verse_text": "Verse text for PS 119:76",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/76",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"I know,\" she saith, \"O Lord, that Thy judgments are righteous, and that in Thy truth Thou hast humbled me\" (ver. \"O let Thy merciful kindness be my comfort, according to Thy word unto Thy servant\" (ver. Mercy and truth are so spoken of in the Divine Word, that, while they are found in many passages, especially in the Psalms, it is also so read in one place, \"All the paths of the Lord are mercy and truth. \" And here indeed he hath placed truth first, whereby we are humbled unto death, by the judgment of Him whose judgments are righteousness: next mercy, whereby we are renewed unto life, by the promise of Him whose blessing is His grace. For this reason he saith, \"according to Thy Word unto Thy servant:\" that is, according to that which Thou hast promised unto Thy servant. Whether therefore it be regeneration whereby we are here adopted among the sons of God, or faith and hope and charity, which three are built up in us, although they come from the mercy of God; nevertheless, in this stormy and troublesome life they are the consolations of the miserable, not the joys of the blessed.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/76",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6648",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Mercy. Jesus Christ, according to St. Jerome.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/76",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be41b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:76",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

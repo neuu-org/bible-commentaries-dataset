@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GAL 4:2",
+  "verse_text": "Verse text for GAL 4:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/4/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Governors. Stewards who administer his property.\nUntil the time appointed. The prescribed day when the power of the tutor came to an end, i.e, the date when the heir was twenty five years of age, which in many places is the age of majority.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/4/2",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5263e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "“Guardians and trustees” could be taken as the prophets, by whose words we were made ready, day by day, for the coming of the Savior, just as the law of Moses is described above as a custodian…. Or the phrase could be taken to refer to priests and princes, who then held power over the people and are now a reflection of God’s purpose. People are correctly said to live under tutors and overseers when, having the spirit of fear, they have not yet deserved to receive the spirit of freedom and adoption. For the age of infancy feels dread in relation to sin, fears its custodian and does not believe in its own freedom, even if it is sovereign by nature.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/4/2",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c66795",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 4:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

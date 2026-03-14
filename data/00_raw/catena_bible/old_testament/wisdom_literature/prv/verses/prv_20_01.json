@@ -1,0 +1,69 @@
+{
+  "verse_reference": "PRV 20:1",
+  "verse_text": "Verse text for PRV 20:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/20/1",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Scripture always uses wine in a mystical sense, as a symbol of the holy blood, and always repudiates any intemperate use made of it. .",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/20/1",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8511",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "Those who eat the heavenly bread become heavenly without doubt! Wine teaches us in that it makes those who are familiar with it like itself: for it hates those who are fond of it and is intoxicating and maddening and a mocker of them.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/20/1",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8513",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "A luxurious thing. Hebrew, \"a scoffer. \"Chaldean, \"renders one a scoffer. \"\nDrunkenness. Hebrew ssocor, any strong drink, particularly palm-wine. Intemperance places the strongest obstacles in the way of wisdom. It causes a person to mock at all sacred things, and to be quarrelsome, chap. xxiii. 29., and Ephesians v. 18.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/20/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be6b9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pachomius the Great",
+      "period": "AD348",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise. Pachomius the Great As it is said, “The priest and the prophet were deranged by wine. ” “Wine is licentious, drunkenness is bold. The person who indulges in them will not be exempt from sin. ” Wine is a good thing if you drink it with moderation. “If you set your eyes on cups and goblets you will walk naked as a pestle. ” Therefore, all who have prepared to become disciples of Jesus should abstain from wine and drunkenness.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/20/1",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8512",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 20:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 14:23",
+  "verse_text": "Verse text for ACTS 14:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/14/23",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Such an one is in reality a presbyter of the Church, and a true minister (deacon) of the will of God, if he do and teach what is the Lord's; not as being ordained",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/23",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae3e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "they taught them to fast also in their trials. (o) Why did they not make elders in Cyprus nor in Samaria? Because the latter was near to Jerusalem, the former to Antioch, and the word was strong there; whereas in those parts they needed much consolation, especially they of the Gentiles, who behooved to have much instruction. And when they had come, etc.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/23",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b937e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you mark Paul's ardor?— Then other consolation: Commended them, it says, to the Lord. And after they had passed throughout Pisidia, they came to Pamphylia. And when they had preached the word in Perga, they went down into Attalia",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/23",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9373",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 14:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

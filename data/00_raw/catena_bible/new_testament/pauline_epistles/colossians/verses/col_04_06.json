@@ -1,0 +1,80 @@
+{
+  "verse_reference": "COL 4:6",
+  "verse_text": "Verse text for COL 4:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/4/6",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "In addition, it will in my opinion form an appropriate sequel to defend those tenets, on account of which the Greeks assail us, making use of a few Scriptures, if perchance the Jew also may listen",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/4/6",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baf4d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "And again it says: \"Let your speech be seasoned with grace. For it is required of a man to know how to give an answer to every one in season.\"",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/4/6",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baf50",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Here, too, a man needs a loftiness of mind far beyond my own littleness of spirit, if he is to correct this disorderly and unprofitable delight that ordinary people enjoy. He must try to divert their attention to something more useful, so that church people will follow and defer to him. He should not be governed by their desires. It is impossible to acquire this power except by these two qualities: contempt of praise and the force of eloquence. If either is lacking, the one left is made useless by the divorce from the other. If a preacher despises praise yet does not produce the kind of teaching which is “with grace, seasoned with salt,” he is despised by the people, and his sublime words accomplish nothing. And if he is eloquent but is a slave to the sound of applause, again an equal damage threatens both him and the people, because through his passion for praise he aims to speak more for the pleasure than the profit of his hearers.",
+      "commentary_number": "3/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/4/6",
+      "full_content_url": "https://catenabible.com/com/583f5795205c248f42e533ec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Let your speech be always with grace, seasoned with salt, that you may know how you ought to answer every man. Let your speech be always with grace, seasoned with salt; that is, that this graciousness may not lapse into indifferentism. For it is possible to be simply agreeable, it is possible also to be so with due seemliness. That ye may know how ye ought to answer each one. So that one ought not to discourse alike to all, Greeks, I mean, and Brethren. By no means, for this were the very extreme of senselessness.",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/4/6",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddcf6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theonas of Alexandria",
+      "period": "AD300",
+      "content": "; let them mark it and admire it, and by reason thereof praise Jesus Christ our Lord in you. Let your conversation always be temperate and modest, and seasoned with religion as with salt.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/4/6",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baf4f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 4:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

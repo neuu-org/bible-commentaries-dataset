@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JL 2:14",
+  "verse_text": "Verse text for JL 2:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jl/2/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Who knoweth. Confidence in God and repentance must accompany prayer.\nBlessing; plentiful crops, so that the usual sacrifices may be performed again, chap. i. 9.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jl/2/14",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf3e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "We should enter his house in sackcloth and lament night and day between the porch and the altar, in piteous array, and with more piteous voices. [We should] cry aloud without ceasing on behalf of ourselves and the people, sparing nothing, either toil or word, which may propitiate God. [We should] say, “Spare, O Lord, your people, and give not your heritage to reproach,” and the rest of our prayer; surpassing the people in our sense of the affliction as much as in our rank, instructing them in our own persons in compunction and correction of wickedness, and in the consequent longsuffering of God, and cessation of the scourge. Come then, all of you, my brethren, “let us worship and fall down, and weep before the Lord our maker”; let us appoint a public mourning in our various ages and families; let us raise the voice of supplication. Let this, instead of the cry which he hates, enter into the ears of the Lord of Sabbaoth. Let us anticipate his anger by confession; let us desire to see him appeased, after [his wrath]. Who knows, he says, if he will turn and choose again, and leave a blessing behind him. On His Father’s Silence, Oration.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jl/2/14",
+      "full_content_url": "https://catenabible.com/com/5836709b8a58883142aa6a34",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JL 2:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

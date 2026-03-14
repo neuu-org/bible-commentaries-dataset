@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 1:27",
+  "verse_text": "Verse text for MK 1:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/1/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And they were all amazed, so that they questioned among themselves, saying, What thing is this. what new doctrine is this. for with authority he commands even the unclean spirits, and they do obey him. Cornelius a Lapide What new doctrine is this, &c. \"What is this heavenly and divine doctrine, which indeed God confirms from heaven by so many and such mighty miracles. For Christ, the Teacher of this doctrine, not by prayers, but of His mere power, and by His command only, orders the devils to go out, and they obey Him. Wherefore this must be the Messias, the Son of God, and the true God; for He alone commands the devils by His power.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/1/27",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e33",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "It is observed by St. Justin, (Apol. i. 54.) that the discourses of Jesus were short and concise. St. Chrysostom (in hom. xlviii. in Matt.) says, that Christ here accommodated his preaching to his hearers, and to his subject. The ancients differ as to the length of time employed by Christ in the ministry of the word. It is most probable that he spent about three years in announcing to the world his heavenly doctrines. In the first year of his preaching, he seems not to have met with any great opposition; and on this account it may have been called, by the prophet Isaias, the acceptable year. (Sandinus)\nWhat is this new doctrine? In the Greek, This new manner of instructing. See below, xiv. 2, and xii. 38.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/1/27",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf901",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 1:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 78:39",
+  "verse_text": "Verse text for PS 78:39",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/78/39",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "22. \"And He remembered that they are flesh, a spirit going and not returning\" (ver. 39). Therefore calling them and pitying them through His grace, He called them back Himself, because of themselves they could not return. For how doth flesh return, \"a spirit walking and not turning back,\" while a weight of evil deserts doth weigh it down unto the lowest and far places of evil, save through the election of grace? ...For thus also is solved this no unimportant question, how it is written in the Proverbs, when the Scripture was speaking of the way of iniquity, \"all they that walk in her shall not return.\" For it hath been so spoken as if all ungodly men were to be despaired of: but the Scripture did only commend grace; for of himself man is able to walk in that way, but is not able of himself to return, except when called back by grace.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/78/39",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c44",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Flesh. The inferior appetite wars against the spirit, Galatians v. 17., and Matthew xxvi. 41. (Haydock)\nNot, in the ordinary course. This does not contradict the faith of the resurrection, which is elsewhere clearly expressed. (St. Jerome) (Calmet)\nMan may go astray, but cannot be converted by his own efforts, Proverbs ii. 19. (St. Augustine) (Berthier)\nGod will never abandon the whole Church. The Jews here mark the middle of the psalter, and the 1263rd verse, (Worthington) or the division of the book. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/78/39",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be1f7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 78:39",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

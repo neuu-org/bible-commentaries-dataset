@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1PET 2:12",
+  "verse_text": "Verse text for 1PET 2:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/2/12",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Above all, we are to keep in mind what was spoken sacredly: \"Having your conversation honest among the Gentiles; that, whereas they speak against you as evil-doers, they may, by the good works which they behold, glorify God.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/12",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa36",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "That they may arise and go forth from the darkness by the light of the good works of the fear of God, \"that they may see our good works and glorify our Father who is in heaven.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/12",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa37",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In the day of visitation. God is said to visit his people, sometimes by afflictions and punishments, and sometimes by graces and favours. Some think St. Peter here, by the day of visitation, means the approaching destruction of Jerusalem by the Romans, and that the sense is, that the heathen Romans seeing your peaceable dispositions and pious conversations, may have a favourable opinion of the Christian religion, and be converted. Others, that you and they to whom the gospel is preached, may glorify God when he visits them with graces and favours, whether exterior or interior. (Witham)\nBe careful not to give occasion to scandal. Detraction is the life of the world, and piety is most exposed to its shafts, because it most condemns the maxims of its followers.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1pt/2/12",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Polycarp of Smyrna",
+      "period": "AD155",
+      "content": "Having your conduct blameless among the Gentiles\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/12",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa35",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 2:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 19:5",
+  "verse_text": "Verse text for PS 19:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/19/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "6. \"In the sun hath He set His tabernacle.\" Now that He might war against the powers of temporal error, the Lord, being about to send not peace but a sword on earth, in time, or in manifestation, set so to say His military dwelling, that is, the dispensation of His incarnation. \"And He as a bridegroom coming forth out of His chamber\" (ver. 5). And He, coming forth out of the Virgin's womb, where God was united to man's nature as a bridegroom to a bride. \"Rejoiced as a giant to run His way.\" Rejoiced as One exceeding strong, and surpassing all other men in power incomparable, not to inhabit, but to run His way. For, \"He stood not in the way of sinners. \"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/19/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e687a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Here God seems to reside, (Ferrand) and the magnificence of his works shines forth, insomuch that almost all nations have offered divine honours to the sun, and even the Manichees adored it, imagining that it was the very body of Jesus Christ. Augustine, contra Faust. ) Hebrew, \"For the sun he has place a tent in them \"the heavens, (St. Jerome; Haydock) or the ends of the world. The Jews supposed that the heavens rested, like a tent, upon the earth. (Calmet, Diss. ) The Hebrew preposition l, may have (Haydock) different meanings, ad solem posuit \"He placed a tent in them, at or for the sun. \"The idea of the Vulgate is more noble, but we would not exclude the other, which is very good, (Berthier) and obviates the gross mistake of the Manichees. (Amama) The Vulgate may admit the fig. hypallage, (M. ) as good authors say dare classibus austros, and thus it may signify \"he placed the sun in his tent. \"(Haydock) This vast body stands in need of no vehicle, or tent, but itself. (Diodorus) It was placed in the firmament at first, (Genesis i. ) and still performs its revolutions exactly. (Haydock) Giant. Moderns would render \"a strong man \"and Bythner remarks that the bulk of a giant would render him less fit for running, as if the stoutest wrestlers were not often the most active. (Berthier) The sun is represented as a hero at some of the ancient games. Augustine and St. Jerome explain all this of Jesus Christ, who diffuses the light and warmth of his grace throughout the world. (Calmet) He always resides with the Church, and is never divorced from her. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/19/5",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdef3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 19:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

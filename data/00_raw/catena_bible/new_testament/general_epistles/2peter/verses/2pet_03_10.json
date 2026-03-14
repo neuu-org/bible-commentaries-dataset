@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2PET 3:10",
+  "verse_text": "Verse text for 2PET 3:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2pt/3/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The heavens He puts the faithful in mind not to regard these profane scoffers, but to be convinced of the truths revealed, and that the world shall be destroyed a second time by fire. Reflect that the time of this life, and all the time that this world shall last, is nothing to eternity, which has no parts, no beginning, nor end; so that in the sight of God, who is eternal, a thousand years are no more to be regarded than one day, or one moment. The long time that hath hitherto passed, must not make you think that God is slack as to his promises, or that they shall not infallibly come to pass at the time and moment appointed by his divine providence. God's infinite mercy, and his love for mankind, bears patiently with the provocations of blind and unthinking sinners, not willing that any of them should perish, but that they should return to him by a sincere repentance and true penance, and be saved. But watch always, according to the repeated admonition of our blessed Redeemer. ) For both the day of your death, and the day of the Lord to judge the world, will come like a thief (Witham).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2pt/3/10",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03de",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "The belief that everything was made from nothing will be impressed upon us by that ultimate dispensation of God which will bring back all things to nothing. For \"the very heaven shall be rolled together as a scroll; '\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/3/10",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac8d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2PET 3:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

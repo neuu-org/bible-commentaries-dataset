@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 5:14",
+  "verse_text": "Verse text for LK 5:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/5/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Because men in sickness generally turn their thoughts towards God, but when they recover, forget him, the leper is commanded to think of God, and return him thanks. Therefore is he sent to the priest, to make his offering, (Leviticus xiv. ) that, committing himself to the examination of the priest, he might be accounted among the clean. Chrysostom, hom. ) By this our Saviour would testify to the priest, that this man was healed not by the ordination of the law, but by the power of grace, which is above the law. He likewise shows that he did not come to destroy, but to fulfil the law. Ambrose) Jesus Christ seems here to approve of the legal sacrifices, which the Church does not receive; and this he did, because he had not yet established that most holy of all holy sacrifices, the sacrifice of his own body. The figurative sacrifices were not to be abrogated, before that, which they prefigured, was established by the preaching of the apostles, and the faith of Christian believers. Augustine, quest. ) By this leper is represented the whole human race, which was covered with a spiritual leprosy, and languishing in the corruption of sin; for all have sinned, and need the glory of God; (Romans iii. ) therefore he stretched forth his hand, i. he clothed himself with our human nature, that we might be cleansed from our former errors, and might offer in return for this favour our bodies, a living sacrifice to God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/14",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa4a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "; but so far as the honour of the law was concerned, He requested that the usual course should be followed: \"Go, show thyself to the priest, and present the offering which Moses commanded.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/14",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc5c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 5:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

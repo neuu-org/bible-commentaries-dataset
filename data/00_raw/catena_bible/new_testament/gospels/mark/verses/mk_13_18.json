@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 13:18",
+  "verse_text": "Verse text for MK 13:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/13/18",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "Winter is without fruit and sabbath without labor. Do not let it be you who might be led away captive under such circumstances—when you have neither fruit nor work. Pray that captivity does not come either of some external necessity, such as the winter, or during a time of inattentiveness such as the sabbath. This means that neither the constraint of others nor the relaxation of your own will should be the occasion to take you away from the work of the Lord your God…. It is true that distress will come and that you will have to flee. But keep on praying lest this calamity come upon you in the winter, or surprise you on the sabbath when you are resting…. Winter is the time of repose from all the work of the summer, just as the sabbath is the time of repose, the seventh day, when work is not done. Commentary on Tatian’s Diatessaron.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/13/18",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e88",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "When the elect pray that their flight not be on the Sabbath or in the winter, this means that God asks us not to let ourselves be surprised by the things which meet us unexpectedly when we might be sluggish in righteousness (neglecting the Sabbath or caught in worldly preoccupations).",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/18",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e87",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "And pray you that your flight be not in the winter. Victorinus of Pettau Moreover, we read in the Gospel that the prayers of the Church are sent from heaven by an angel, and that they are received against wrath, and that the kingdom of Antichrist is cast out and extinguished by holy angels; for He says: \"Pray that ye enter not into temptation: for there shall be a great affliction, such as has not been from the beginning of the world; and except the Lord had shortened those days, no flesh should be saved.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/18",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb749",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 13:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

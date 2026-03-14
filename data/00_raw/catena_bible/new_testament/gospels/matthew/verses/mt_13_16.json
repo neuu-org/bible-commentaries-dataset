@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 13:16",
+  "verse_text": "Verse text for MT 13:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/13/16",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "He blesses them, accordingly, as hearers of the Son’s voice and as having been made ready to see him, through whom and in whom they saw, intellectually, the nature of God and the Father. Of these things the saints of old were accounted worthy, those, namely, who most completely possess a joy in good things.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/13/16",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6f37",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But blessed are your eyes. As the eyes of such as see and will not believe are miserable, so, he says, blessed are your eyes; you see my miracles, you hear my heavenly doctrines (St. Aquinas)\nHad we not read in a preceding part, that Christ exhorted his auditors to search after the knowledge of his words, we might perhaps have thought that Jesus here spoke of corporal eyes and ears; but the eyes here mentioned, seem to me to be those which can discern the mysteries of Christ. (St. Jerome in St. Thomas Aquinas)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/13/16",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf762",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For in proof that our sin belongs not to nature, nor to necessity and compulsion, hear what He says to the apostles, But blessed are your eyes, for they see, and your ears, for they hear; Matthew 13:16 not meaning this kind of sight nor hearing, but that of the mind. For indeed these too were Jews, and brought up in the same circumstances; but nevertheless they took no hurt from the prophecy, because they had the root of His blessings well settled in them, their principle of choice, I mean, and their judgment. Do you see that, unto you it is given, was not of necessity. For neither would they have been blessed, unless the well-doing had been their own. For tell me not this, that it was spoken obscurely; for they might have come and asked Him, as the disciples did: but they would not, being careless and supine. Why say I, they would not. Nay, they were doing the very opposite, not only disbelieving, not only not hearkening, but even waging war, and disposed to be very bitter against all He said: which He brings in the prophet laying to their charge, in the words, They heard heavily.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/13/16",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac439",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 13:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 8:10",
+  "verse_text": "Verse text for EST 8:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/8/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "The month of Sivan, which is the third after Nisan among the Jews, and is called Thessari among the Greeks, is named June among Latin peoples. On the twenty-third day of this month new letters were written according to Mordecai’s dictation in order to invalidate the old letters of Haman. And the meaning of this event is quite clear, because the doctrine of the gospel was founded by the writers of the New Testament through our Lord Jesus Christ so that the faith of the Holy Trinity might be contained in it in its fullest form, and the supreme perfection might be shown to lie in two principles of charity that encompass the entire Decalogue. And the Scripture itself, through mounted couriers, that is the holy preachers, was provided to the whole world, which is signified by the one hundred twenty provinces that constituted the kingdom of Ahasuerus.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/8/10",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa45",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 8:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

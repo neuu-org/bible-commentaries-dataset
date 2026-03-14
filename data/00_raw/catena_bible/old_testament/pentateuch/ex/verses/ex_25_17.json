@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 25:17",
+  "verse_text": "Verse text for EX 25:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/25/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "A propitiatory: a covering for the ark; called a propitiatory, or mercy-seat, because the Lord, who was supposed to sit there upon the wings of the cherubims, with the ark for his footstool, from thence showed mercy. It is also called the oracle, ver. 18 and 20, because, from thence, God gave his orders and his answers. (Challoner)\nIt was the lid or covering of the ark, from kapha, \"to cover, efface \"(Calmet)\nHere the hanan, or cloud representing God, rested, (Leviticus xvi. 2.) and the divine oracles were audibly given: for which reason, God is said to sit upon the cherubims, the mercy-seat being his footstool, Psalm lxxix. 2.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/25/17",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc423",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And you shall make a mercy seat of pure gold: two cubits and a half shall be the length of it, and a cubit and a half the breadth of it. A propitiatory: a covering for the ark: called a propitiatory, or mercy seat, because the Lord, who was supposed to sit there upon the wings of the cherubims, with the ark for his footstool, from thence shewed mercy. It is also called the oracle, ver. 18 and 20; because from thence God gave his orders and his answers.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/25/17",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 25:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 51:19",
+  "verse_text": "Verse text for PS 51:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/51/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Then Thou shalt accept the sacrifice of righteousness\" (ver. But now sacrifice for iniquity, to wit, a spirit troubled, and a heart humbled; then the sacrifice of righteousness, praises alone. For, \"Blessed they that dwell in Thy house, for ever and ever they shall praise Thee:\" for this is the sacrifice of righteousness. \"Oblations and holocausts. \" What are \"holocausts\". A whole victim by fire consumed. When a whole beast was laid upon the altar with fire to be consumed, it was called a holocaust. May divine fire take us up whole, and that fervour catch us whole. What fervour. \"Neither is there that hideth himself from the heat thereof. \" What fervour. That whereof speaketh the Apostle: \"In spirit fervent. \" Be not merely our soul taken up by that divine fire of wisdom, but also our body; that it may earn their immortality; so be it lifted up for a holocaust, that death be swallowed into victory. \" \"Then shall they lay upon thine altar calves. \" Whence \"calves\". What shall He therein choose. Will it be the innocence of the new age, or necks freed from the yoke of the law.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/51/19",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6aa9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then shall you be pleased with the sacrifices of righteousness, with burnt offering and whole burnt offering: then shall they offer bullocks upon your altar. Justice; works of piety, (Psalm iv. ) or victims vowed or prescribed by the law; the same which are afterwards styled holocausts (Calmet) by two different terms, hola and calil. (Haydock) The latter includes fruits (Calmet) While we are in sin, our good works are less acceptable. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/51/19",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be0bc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 51:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

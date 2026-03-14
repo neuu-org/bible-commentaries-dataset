@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 8:14",
+  "verse_text": "Verse text for EST 8:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/8/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "The fact that this earthly king sends his couriers to gather the Jews in each place and to assemble them in a single location so that they may fight for their lives and destroy all their enemies with their children and women and houses signifies that through his preachers our king, the absolute ruler of heaven and earth, orders the true Jews and his confessors among all the Gentiles, after they have gathered in the unity of society and peace, to fight for the salvation of their souls and to condemn their enemies both visible and invisible, namely the false Jews, who belong to the synagogue of Satan, and the unredeemed pagan and heretics, and the unclean spirits with all their impieties.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/8/14",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa46",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 8:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

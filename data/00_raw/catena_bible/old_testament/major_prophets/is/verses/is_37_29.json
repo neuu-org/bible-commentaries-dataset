@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 37:29",
+  "verse_text": "Verse text for IS 37:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/37/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lips, and treat thee like some ungovernable beast. (Haydock) (Ezechiel xxix. 4., and xxxviii. 4.) (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/37/29",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea95",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "This is directed from the person of God against the words of Assyria, to whose blasphemy the Lord responds thus: “Do you not know that you did this with my permission. Do you not know that I predict the future and command that certain things be done through you. Hence, what I decreed long ago is being fulfilled at this time: that the hills (that is, princes who fight among themselves) and the fortified cities will be shaken and eradicated, and will perish when I withdraw my hand and offer them none of the assistance to which they have grown accustomed. They were also compared not to olive groves and vineyards and fruitful trees but to straw and turf, to roof grass, all of which impede fruitfulness and wither before they reach maturity. In this way I have also foreknown your sitting down and your going out and your coming in, and I predicted through the prophets the insanity with which you would rage against me. Through these I knew long ago that you would say, ‘I will ascend to heaven; I will set my throne above the stars of heaven, and I will be like the Most High. ’ Thus, your anger and your pride have reached my ears, and I will bear you no longer, that you may understand that you are not capable by your own strength but by my will. For the impious Gentiles and the unfruitful trees deserved to be cut down and felled through you, as though you were my axe and saw. Hence, I put a ring or a bit in your nostrils to restrain your verbal blasphemy, that you would dare to speak such things no more. I will also place a bridle on your lips to tame your ferocity and to lead you back to Egypt. ” Scripture employs the same imagery in the Psalms against the impious: “Constrain their jaws with a bit and bridle, that they not approach you.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/is/37/29",
+      "full_content_url": "https://catenabible.com/com/5e4f7fcdc849cf49a740e49a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 37:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

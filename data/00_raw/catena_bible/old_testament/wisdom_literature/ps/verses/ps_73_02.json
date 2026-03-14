@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 73:2",
+  "verse_text": "Verse text for PS 73:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/73/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "7. But what to thee? \"But my feet were almost moved\" (ver. 2). When were the feet moved, except when the heart was not right? Whence was the heart not right? Hear: \"My steps were well nigh overthrown.\" What he hath meant by \"almost,\" the same he hath meant by \"well nigh:\" and what he hath meant by \"my feet were almost moved,\" the same he hath meant by \"my steps were overthrown.\" Almost my feet were moved, almost my steps were overthrown. Moved were the feet: but whence were the feet moved and the steps overthrown? Moved were the feet to going astray, overthrown were the steps to falling: not entirely, but \"almost.\" But what is this? Already I was going to stray, I had not gone: already I was falling, I had not fallen.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/73/2",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6bdf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Slipt. I had almost yielded to the temptation (Menochius) by denying Providence, (Haydock) and following the broad road. (Worthington)\nUpon more mature reflection, (Haydock) I am perfectly convinced that God is not indifferent about those who serve him, though he may have treated Israel with severity. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/73/2",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be19f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 73:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

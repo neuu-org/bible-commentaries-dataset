@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 10:12",
+  "verse_text": "Verse text for JGS 10:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/10/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew, \"Maon. \"Septuagint Roman and Alexandrian, \"Madian. \"The Maonites are styled Mineans by the Septuagint (1 Paralipomenon iv. 40,) and these inhabited Arabia, (Diod. 42,) and might join themselves to Madian and Amalec, in their attacks upon the Israelites. As for Chanaan, which other editions of the Septuagint retain, we know that they were domestic enemies, like thorns in the sides of Israel, Josue xxiii. All the persecutions, which the Hebrews had to undergo, are not particularized in this book. (Calmet) They were grievously tormented in Egypt, they had to contend with the Amorrhites at their first entrance into the land. (Haydock) The Ammonites and Amalecites had assisted Eglon before, and the Philistines had attacked Samgar. The Sidonians, it seems, had also greatly molested those who lived near them, and probably were the auxiliaries of Jabin. (Calmet) But the Chanaanites were ready to fall upon every weak spot, living in various parts of the country, (Haydock) and continually tempted the people of Israel to abandon the service of God.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/10/12",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd83",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 10:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

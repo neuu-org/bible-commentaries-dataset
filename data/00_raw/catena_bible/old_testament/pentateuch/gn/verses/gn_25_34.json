@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 25:34",
+  "verse_text": "Verse text for GN 25:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/25/34",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "Jacob saw that the right of the firstborn was despised by Esau, and he contrived to take it from him, trusting in God who had said, “The elder shall serve the younger.” Jacob boiled some lentils, and “Esau came home famished after hunting and said to Jacob, ‘Let me eat some of that red pottage,’ ” that is, “Let me eat some of your lentils.” “Jacob said to him, ‘Give me your birthright and you may take all of them.’ After Esau swore to him and sold him his birthright, Jacob then gave Esau [the lentils].” To show that it was not by reason of his hunger that Esau sold his birthright, Scripture says, “After he had eaten he arose and went away, and Esau despised his birthright.” Therefore Esau did not sell it because he was hungry, but rather, since it had no value to him, he sold it for nothing as if it were nothing.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/25/34",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51b5d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Listening to this, however, let us learn the lesson never to neglect the gifts from God or forfeit important things for worthless trifles. I mean, why, tell me, should we be obsessed with a desire for money when the kingdom of heaven and those ineffable blessings are within our grasp, and why prefer blessings that endure forever and ever to those that are passing and scarcely last until evening. What could be worse than the folly of being deprived of the former through lust after the latter and never being able to enjoy them in a pure fashion. What good, after all, tell me, is such wealth. Are you not aware that acquisition of great wealth brings us nothing else than an increase in worry, anxiety and sleeplessness. Do you not see that these people (in particular those possessing great wealth) are, so to say, everyone’s slaves, and day in and day out are in fear even of shadows. This, you see, is the source of plotting, envy, deep hatred and countless other evils. Often you would see the person with ten thousand talents of gold hidden away calling blessed the one behind the shop counter who prepares his own meals by hand.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/25/34",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51b5c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 25:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

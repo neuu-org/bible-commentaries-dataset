@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 27:15",
+  "verse_text": "Verse text for LV 27:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/27/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "House. The Rabbins say this fifth part went towards repairing the temple. We may suppose it was laid on to indemnify the priests, for the loss which they sustained by selling a house, or a field, (ver. 16,) to the former owner; since if any other had purchased them, the priests would have been able to sell them again at the return of every jubilee. At that period, even the former proprietor would not obtain a title to possess them for ever; (ver. 21,) and therefore he would not need to pay any more than the stated value. (To stat) (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/27/15",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc6b1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 27:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

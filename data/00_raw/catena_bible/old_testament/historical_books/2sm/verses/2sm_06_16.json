@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 6:16",
+  "verse_text": "Verse text for 2SM 6:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/6/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "But we also find praiseworthy bodily dancing in honor of God, for David danced before the ark of the Lord. Michal, however, the daughter of Saul, saw him dancing and beating a drum in the presence of the Lord and asked him, after receiving him into her home, “How is it honorable for the king of Israel to dance naked today in the presence of his maidservants?” And David answered Michal in the presence of the Lord: “Blessed be the Lord who chose me above your father and above his entire house to be established as prince over his people Israel. I will make merry in the presence of the Lord and run naked, and I will be lighthearted in your presence, and I will be honored by the maids with whom you called me naked.” “And Michal,” it says, “the daughter of Saul, had no children until the day she died.” Thus, this is a clear lesson that the prophet who beats a drum and dances before the ark of the Lord is justified, whereas the one who reproves him is condemned to sterility.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/6/16",
+      "full_content_url": "https://catenabible.com/com/5de46d0b8b87fe0847ee86df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Leaping. Septuagint, \"beating \"musical instruments. She counted him as nothing (Haydock)\nShe rather partook of her father's disposition and pride. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/6/16",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd0b3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 6:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

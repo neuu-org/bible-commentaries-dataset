@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 62:11",
+  "verse_text": "Verse text for PS 62:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/62/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Once, by the generation of his word, (St. Augustine) or when he promulgated the law, Exodus xx. 6. (Berthier)\nGod's word is invariable, (Worthington; Job xxxiii. 14.; Menochius) and will be put in execution. (St. Ambrose) (Tirinus)\nThis he has often inculcated. (Vatable) (Job xxxix. 35.) Amos (i. 3.) uses three and four, in the same sense. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/62/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be120",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 62:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

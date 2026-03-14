@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 1:1",
+  "verse_text": "Verse text for JGS 1:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/1/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew, \"And after \"as if this consultation had taken place immediately after the decease of their late victorious general, who had not pointed out his successor. But it is probable that the ancients who governed in their respective tribes, (Calmet) were only roused to this act of vigour some time after, on seeing the preparations of the Chanaanites, particularly of Adonibezec, whose power became very alarming. (Haydock) Indeed it is wonderful how he had escaped the vigilance of Josue, if he had been king during the lifetime (Calmet) of that enterprising leader. It is therefore more likely that he took advantage of the lethargy of the Israelites after his death, and rose to a degree of eminence, which made the people of God consult the high priest, how they were to resist his efforts, (Haydock) who was to be their generalissimo, (Calmet) or which of the tribes was to make head against him. (Menochius) God only gave answer to the last question, and it does not appear that all Israel was engaged in this war. After the defeat of the king, the different tribes might easily have subdued the enemies who held possession of part of their territory, if they had been vigorous.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/1/1",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcca2",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "This Book is called JUDGES, because it contains the history of what passed under the government of the judges, who ruled Israel before they had kings. The writer of it, according to the more general opinion, was the prophet Samuel.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/1/1",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa001",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 1:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

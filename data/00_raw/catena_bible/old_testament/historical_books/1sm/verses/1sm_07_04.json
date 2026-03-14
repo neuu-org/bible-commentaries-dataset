@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 7:4",
+  "verse_text": "Verse text for 1SM 7:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/7/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "God alone is substantially and essentially God. When I say “alone,” I set forth the holy and uncreated essence and substance of God. For the word alone is used in the case of any individual and generally of human nature. In the instance of Paul, that he alone was caught into the third heaven and “heard unspeakable words that are not lawful for a man to utter,” and of human nature, as when David says, “as for man his days are as grass,” not meaning any particular man but human nature generally; for every human is short-lived and mortal. So we understand these words to be said of the nature, “who alone has immortality” and “to God only wise,” and “none is good save one, that is God,” for here “one” means the same as alone. … In Scripture “one” and “only” are not predicated of God to mark distinction from the Son and the Holy Spirit but to exclude the unreal gods falsely so called. As for instance, “The Lord alone did lead them and there was no strange god with them,” and “then the children of Israel did put away Baalim and Ashtaroth and served the Lord only.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/7/4",
+      "full_content_url": "https://catenabible.com/com/5de467401f75ae05ba98ce96",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 7:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

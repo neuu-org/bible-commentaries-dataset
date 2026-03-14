@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 8:1",
+  "verse_text": "Verse text for 1KGS 8:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/8/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then Solomon assembled the elders of Israel, and all the heads of the tribes, the chiefs of the fathers of the children of Israel, unto king Solomon in Jerusalem, that they might bring up the ark of the covenant of the LORD out of the city of David, which is Zion. They also (Haydock) brought the Mosaic tabernacle from Gaboan, (Calmet; Josephus) and reposited both (Haydock) in the treasury of the temple, as they were now of no other service. Jeremias was authorized to take the ark, the tabernacle, and the altar of incense, in order to prevent their falling into the hands of the Chaldeans. He placed them in a cave, where they have never, perhaps, been discovered, 2 Machabees ii.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/8/1",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd2a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 8:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

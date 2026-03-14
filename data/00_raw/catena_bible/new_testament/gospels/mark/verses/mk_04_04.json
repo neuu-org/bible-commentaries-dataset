@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 4:4",
+  "verse_text": "Verse text for MK 4:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/4/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "As the sower fairly and indiscriminately disperses seed broadly over all his field, so does God offer gifts to all, making no distinction between rich and poor, wise and foolish, lazy or diligent, brave or cowardly. He addresses everyone, fulfilling his part, although knowing the results beforehand…. Why then, tell me, was so much of the seed lost. Not through the sower, but through the ground that received it—meaning the soul that did not listen…. Even though more seed would be lost than survive, the disciples were not to lose heart. For it is the way of the Lord never to stop sowing the seed, even when he knows beforehand that some of it will not respond. But how can it be reasonable, one asks, to sow among the thorns, or on the rock, or alongside the road. Maybe it is not reasonable insofar as it pertains only to seeds and earth, for the bare rock is not likely to turn into tillable soil, and the roadside will remain roadside and the thorns, thorns. But in the case of free wills and their reasonable instruction, this kind of sowing is praiseworthy. For the rocky soul can in time turn into rich soil. Among souls, the wayside may come no longer to be trampled by all that pass, and may become a fertile field. The thorns may be destroyed and the seed enjoy full growth. For had this not been impossible, this sower would not have sown. And even if no change whatever occurs in the soul, this is no fault of the sower, but of those who are unwilling to be changed. He has done his part. The Gospel of St. Matthew, Homily.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/4/4",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d18",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 4:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

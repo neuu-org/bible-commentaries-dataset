@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 9:2",
+  "verse_text": "Verse text for ACTS 9:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/9/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "A city of Syria, far away, for he had already inflicted persecution on the cities nearby.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/9/2",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabdf1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He fitly mentions Paul's zeal, and shows that in the very midst of his zeal he is drawn. Yet breathing out threatenings and slaughter, and not yet sated with the murder of Stephen, he was not yet glutted with the persecution of the Church, and the dispersion. Lo, this was fulfilled which was spoken by Christ, that they which kill you shall think they offer worship to God. John 16:2 He then in this wise did it, not as the Jews: God forbid. For that he did it through zeal, is manifest from his going abroad even to strange cities: whereas they would not have cared even for those in Jerusalem; they were for one thing only, to enjoy honor. But why went he to Damascus. It was a great city, a royal city: he was afraid lest that should be preoccupied. And observe his strong desire and ardor (and), how strictly according to the Law he went to work: he goes not to the governor, but to the priest. That if he found any of this way: for so the believers were called, probably because of their taking the direct way that leads to heaven. And why did he not receive authority to have them punished there, but brings them to Jerusalem. He did these things here with more authority. And mark on what a peril he casts himself. He was not afraid lest he should take any harm, but (yet) he took others also with him, that if, it says, he found any of this way, whether they were men or women— Oh, the ruthlessness. — he might bring them bound. By this journey of his, he wished to show them all (how he would act): so far were they from being earnest in this matter. Observe him also casting (people) into prison before this. The others therefore did not prevail: but this man did prevail, by reason of his ardent mind. And as he journeyed, he came near Damascus: and suddenly there shined round about him a light from heaven: and he fell to the earth, and heard a voice saying unto him, Saul, Saul, why do you persecute Me.",
+      "commentary_number": "2/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/acts/9/2",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b926d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": ", to be sure, at that time (for elsewhere our Discipline is called \"the Way\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/9/2",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723badec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 9:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

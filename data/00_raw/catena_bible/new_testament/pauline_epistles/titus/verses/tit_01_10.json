@@ -1,0 +1,58 @@
+{
+  "verse_reference": "TIT 1:10",
+  "verse_text": "Verse text for TIT 1:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ti/1/10",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "\"For there are \"he says, \"many unruly and vain talkers and deceivers: \"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/1/10",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbb5f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For there are also many. St. Paul here alludes principally to the Jews, who were of the circumcision, from whom St. Paul suffered much during the greater part of his life. They constantly enforced the necessity of the new converted Gentiles observing the law of Moses, and of their being circumcised, if they wished to be saved. There were many Jews of this description in Crete; to resist whom, St. Paul here tells Titus he ought to appoint bishops remarkable for their zeal and learning. (Josephus; Socrates, lib. ii. chap. 38. Hist. Eccles.)\nEspecially they who are of the circumcision; which shows who were chiefly the false teachers. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ti/1/10",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c027d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ignatius of Antioch",
+      "period": "AD108",
+      "content": "For there are some vain talkers",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/1/10",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbb5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured TIT 1:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

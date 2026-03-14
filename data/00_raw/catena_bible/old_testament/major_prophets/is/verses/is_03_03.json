@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 3:3",
+  "verse_text": "Verse text for IS 3:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/3/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Countenance. Septuagint, \"the admired counsellor \"(Haydock) who came into the king's presence.\nArchitect. 4 Kings xxiv. 14. (Calmet)\nEloquent. Literally, \"mystic. \"(Haydock)\nAquila and Symmachus, \"enchanter.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/3/3",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8d7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The captain of fifty, and the honorable man, and the counselor, and the skilled craftsman, and the eloquent orator. Tertullian of Carthage Consider whether what follows in the prophet has not received its fulfillment: “The Lord of hosts has taken away from Judah and from Jerusalem, among other things, both the prophet and the wise craftsman”; that is, his Holy Spirit, who builds the church, which is indeed the temple, and household and city of God. … And so in this manner the law and the prophets were until John, but the dews of divine grace were withdrawn from the nation.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/3/3",
+      "full_content_url": "https://catenabible.com/com/5e4f7f33c849cf49a740e1e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 3:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

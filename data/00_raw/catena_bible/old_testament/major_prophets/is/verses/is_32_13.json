@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 32:13",
+  "verse_text": "Verse text for IS 32:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/32/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Up. Being uncultivated for two years. This was still more the case during the captivity. (Calmet)\nHow. Septuagint, \"from every house joy shall be taken away, thou rich city. \"(Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/32/13",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea61",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "If those very persons, who amid the darkness of the present life shine bright by virtuous attainments—if they also cannot be void of contagion, with what guilt of wickedness are those bound, who still live after the flesh? If those persons cannot be free from sin who are already walking in the way of heavenly desires, what about those who still lie under the loads of sinful habits, who, abandoned to the gratifications of their fleshly part, still bear the yoke of rottenness? So Peter says, “And if the righteous scarcely be saved, where shall the ungodly and the sinner appear?” And it is said by Isaiah, “Upon the land of my people shall come up thorns and briars; how much more upon all the houses of joy in the joyous city.” The “house of joy in the joyous city” is the mind of the wicked, which neglects to regard the punishments that are destined to come, in the gratification of the flesh, and going away from itself, it revels in empty mirth.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/32/13",
+      "full_content_url": "https://catenabible.com/com/5e4f7fbac849cf49a740e439",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 32:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

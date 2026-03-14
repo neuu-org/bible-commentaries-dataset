@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 10:18",
+  "verse_text": "Verse text for 1KGS 10:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/10/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ivory. Hebrew, \"of the tooth \"(or horn) of elephants: people do not agree of which the ivory is formed. See Pliny ( viii. 3.) for the former sentiment, and for the latter, Varro vi. Ezechiel (xxvii. 15.) seems to unite both sentiments, calling it, \"horns of the tooth. \"(Haydock)\nIvory may, in effect, be wrought like horn.\nFinest. Hebrew, \"gold of Up has. \"This was the country whence it was brought; (Jeremias x. 9.) probably Colchis, where the river Phasis, or Phison, flows, Genesis ii. 11. (Calmet)\nThe Chaldean calls Up has, (in Jeremias) Ophir; and Huet supposes that Paz and Parvaim designate the same place, chap. ix. 28., and Job xxviii. 17. (Du Hamel)\nIn Paralipomenon, we only read, pure gold, which would suffer the ivory to appear in some places. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/10/18",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd2de",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 10:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

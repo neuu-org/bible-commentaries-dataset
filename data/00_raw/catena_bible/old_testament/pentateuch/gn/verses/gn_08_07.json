@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 8:7",
+  "verse_text": "Verse text for GN 8:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/8/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Did not return. The negotiation Not, is not to be found in any Hebrew copy now extant; though it is still retained by the Septuagint, and several Latin manuscripts, according to the testimony of Liranus. If we adhere, therefore, to the Hebrew text, we must translate it with St. Jerome, thus; It went forth, going and returning, (Egredicbatur exiens et revertens) sometimes repairing to the mountains, where it found carcasses to feed on, and at other times returning not unto the ark, but to rest upon the top of it. (Estius) (Challoner)\nOr receded farther from it; as the Hebrew may be explained, agreeably to the Vulgate, Septuagint, Syriac which admit the negation. (Calmet)\nTill, as long as the waters covered the earth, not that it returned to the ark afterwards. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/8/7",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc031",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 8:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

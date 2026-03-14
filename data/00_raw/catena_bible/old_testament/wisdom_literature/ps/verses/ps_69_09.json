@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 69:9",
+  "verse_text": "Verse text for PS 69:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/69/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Upon me. The disciples remembered that this had been written concerning Christ, who drove out the profaners of his temple, (John ii. 17.) and will not be less severe on those who dishonour the Church by their scandalous lives, or by propagating erroneous opinions. (Calmet)\nSt. Paul (Romans xv. 3.) doubted not but this passage was literally applicable to Christ, who has taught us to prefer the glory of God, and our neighbour's salvation before our own temporal advantages. (Berthier)\nThose who have less zeal, are not so much persecuted. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/69/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be160",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 69:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

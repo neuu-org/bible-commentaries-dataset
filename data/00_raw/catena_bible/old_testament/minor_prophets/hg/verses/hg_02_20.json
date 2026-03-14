@@ -1,0 +1,36 @@
+{
+  "verse_reference": "HG 2:20",
+  "verse_text": "Verse text for HG 2:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hg/2/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sprung up. Hebrew, \"in the granary \"or cave, magura, whence the African magaria, or huts, are derived. Chaldean and Septuagint, \"barn floor \"as it was commonly adjoining to these huts. Some have, \"in blade. \"But this seems to be the sense: the corn is not yet sown, nor the trees in blossom, yet I announce great fertility next year. He spoke in November, during which and the following month the seed was committed to the earth, in Palestine, as (Calmet) it was in Egypt, the wheat ripening in seven months, (Pliny, xviii. 7.) and being cut towards the end of June. (St. Jerome)\nAggeus probably composed the Psalm lxiv., to thank God for this fertility.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hg/2/20",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf576",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HG 2:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

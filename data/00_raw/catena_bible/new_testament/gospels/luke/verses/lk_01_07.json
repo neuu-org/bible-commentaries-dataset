@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 1:7",
+  "verse_text": "Verse text for LK 1:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Well stricken in years. He says this to show that John was born of them, not in the way of nature, but by the gift of God and by a miracle, like other eminent saints, as Isaac, Joseph, Samuel. S. Augustine (Serm. iii. on John the Baptist) says Elizabeth was barren in body but fruitful in virtues; her child-bearing was not taken away from her, but it was delayed, until the time of fleshly desire had passed away. . . . In short, when all that causes blame as regards the body was quenched, and they became altogether blameless, all that speaks of barrenness is gone; old age springs into new life, faith conceives, chastity brings forth, one greater than Prayer of Manasseh , one equal to the angels is born, the trumpet of heaven, the herald of Christ, the mystery of the Father, the messenger of the Song of Solomon , the standard-bearer of the heavenly King, the pardon of sinners, the correction of the Jews, the calling of the Gentiles, and, so to say, the uniting bond of the Law and Grace.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/7",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51ece",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

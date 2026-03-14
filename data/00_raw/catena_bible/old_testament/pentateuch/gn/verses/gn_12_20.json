@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 12:20",
+  "verse_text": "Verse text for GN 12:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/12/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Led him away: perhaps without allowing him time to vindicate his conduct, and with a degree of contumely, to show the king's displeasure; who durst not, however, injure Abram in his effects, nor suffer any of his subjects to hurt him. The holy patriarch received his wife untouched, and departed with joy. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/12/20",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc069",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "You would be right in applying to this just man those words that blessed David used of those who returned from the captivity in Babylon: “Though they sow in tears, they will reap in joy. They went their way and wept as they cast their seed, but in returning they will come in joy, carrying their sheaves aloft. ” Did you see his downward journey to be beset with worry and fear, with the fear of death heavy upon him. Now see his return marked by great prosperity and distinction. The just man now, you see, was an object of respect to everyone in Egypt and in Palestine. After all, who would have failed to show respect for the one who so enjoyed God’s protection and was accorded such wonderful care. Quite likely what befell the king and his household escaped no one’s attention. His purpose, you see, in permitting everything and in allowing the just man’s trials to reach such a point was that his endurance might appear more conspicuous, his achievement might win the attention of the whole world, and no one would be unaware of the good man’s virtue. Do you see, dearly beloved, the magnitude of the benefit coming from his trials. Do you see the greatness of the reward for his endurance. Do you see man and wife, advanced in age though they were, giving evidence of so much good sense, so much courage, so much affection for one another, such a bond of love. Let us all imitate this and never become dispirited or consider the onset of tribulations to be a mark of abandonment on God’s part or an index of scorn. Rather, let us treat it as the clearest demonstration of God’s providential care for us.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/12/20",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e519f9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 12:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

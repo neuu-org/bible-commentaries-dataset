@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2THES 3:7",
+  "verse_text": "Verse text for 2THES 3:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2thes/3/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "2 Thessalonians 3:7 For you yourselves know how you ought to follow us: for we behaved not ourselves disorderly among you; A teacher demonstrates great confidence if he uses his own good actions to reprove his disciples. And so Paul writes, “For yourselves know how you ought to imitate us. ” And he ought to be a teacher more of life than of the word. Let no one think that Paul says this because of a boastful heart. The necessity of the situation in Thessalonica drove him to speak this way, with a view to the advantage of the entire community.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2thes/3/7",
+      "full_content_url": "https://catenabible.com/com/583bb83d205c248f42e5308b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Nicholas of Lyra",
+      "period": "AD1349",
+      "content": "For you yourselves know: That is, knowing from experience.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2thes/3/7",
+      "full_content_url": "https://catenabible.com/com/575f0fb43c6effa740dddda1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2THES 3:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

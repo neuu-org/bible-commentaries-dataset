@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 2:10",
+  "verse_text": "Verse text for ROM 2:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/2/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Just as Paul mentioned three woes for unbelievers, so now he mentions three benefits for believers: genuine honor as sons of God, unchanging glory and peace. Those who live rightly may be quiet in the future, undisturbed by any commotion. For everyone who keeps himself from wrongdoing has a judge who will be favorable to him. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/2/10",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4d9d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Which Jews and Greeks is Paul talking about here? Those before Christ’s coming! For he has not yet gotten to the time of grace in the development of his argument but is still dwelling on earlier times…. For if there was no difference before, … how can there be any now? This is why he puts so much emphasis on this point. When referring here to Greeks, Paul does not mean those who worshiped idols but those who adored God, who obeyed the law of nature, who kept all the commandments without fail apart from the Jewish observances, which contribute toward godliness. Melchizedek was one of these people, and so were Job, the Ninevites and Cornelius. It is on works that punishment and reward depend, not on circumcision and uncircumcision. Paul has already said that the Gentile will not go unpunished, … and on this basis he said also that the Gentile would be rewarded. Now he shows that the law and circumcision are superfluous. For in this passage it is the Jews that he is mainly opposing.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/2/10",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4d9e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 2:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

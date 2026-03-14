@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1THES 5:11",
+  "verse_text": "Verse text for 1THES 5:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1thes/5/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you see how everywhere Paul puts the health of the community into the hands of each individual? “Exhorting one another daily,” he says, “while it is called today.” Do not then cast all of the burden on your teachers, and do not cast everything on those who have authority over you. You are able to edify one another. He says this in writing to the Thessalonians, “Edify one another, just as you are doing.” And again, “Comfort one another with these words.” If you are willing, you will have more success with one another than we can have. For you have been with one another a longer time. You know more about one another’s affairs. You are not ignorant of one another’s failings. You have more freedom of speech and love and intimacy. These are helpful for teaching…. You have more ability than we do to reprove and exhort. Furthermore, because I am only one person, but you are many, you will be able to be teachers to one another.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1thes/5/11",
+      "full_content_url": "https://catenabible.com/com/583bc355205c248f42e53183",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "You see, I wish and pray that you would all hold fast to right order as teachers, that you would not simply be listeners to what is said by us but also transmit it to others, casting your net for those still in error so as to bring them to the way of truth—as Paul says, “Edify one another,” and “With fear and trembling work out your own salvation.” In this way we will have the satisfaction of seeing the church grow in strength, and you will enjoy more abundant favor from above through the great care you show for your members. God, you know, does not wish Christians to be concerned only for themselves but also to edify others, not simply through their teaching but also through their behavior and the way they live. After all, nothing is such an attraction to the way of truth as an upright life—in other words, people pay less attention to what we say than to what we do.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1thes/5/11",
+      "full_content_url": "https://catenabible.com/com/583bc355205c248f42e53182",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1THES 5:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

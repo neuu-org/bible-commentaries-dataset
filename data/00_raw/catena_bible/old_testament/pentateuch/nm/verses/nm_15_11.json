@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 15:11",
+  "verse_text": "Verse text for NM 15:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/15/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thus\nLand. In this last verse, the Samaritan copy observes a more correct manner of punctuation than the Hebrew which is commonly rendered \"O congregation. \"(Houbigant)\nThe author of the Vulgate has preserved the sense, but not all the words of the original. The strangers here spoken of are the proselytes of justice, who kept all the law. Those of the gate, who lived in the land, uncircumcised, could only present holocausts, without libations, Leviticus xxii. 25. (Calmet)\n\"The many sacrifices (of the old law) prefigured this one sacrifice \"of the new. (St. Augustine, City of God x. 20.) Christ, represented by the oil, offers himself the victim, under the forms of bread and wine. (Du Hamel)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/15/11",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc782",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 15:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

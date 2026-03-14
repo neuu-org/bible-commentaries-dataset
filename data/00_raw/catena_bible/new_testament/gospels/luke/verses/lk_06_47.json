@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 6:47",
+  "verse_text": "Verse text for LK 6:47",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/6/47",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "He teaches that the foundation of the virtues is obedience of heavenly instructions, whereby this house of ours cannot be shaken by the flow of desires, by the assault of spiritual wickedness, by the rain of the world or the dark arguments of heretics.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/47",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e73ca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "In a certain place in the Gospel, the Lord says that the wise hearer of his word ought to be like a man who, wishing to build, digs rather deeply until he comes to bedrock. There without anxiety he establishes what he builds against the onrush of a flood, so that when it comes, rather it may be pushed back by the solidity of the building than that house collapse by the impact. Let us consider the Scripture of God as being a field where we want to build something. Let us not be lazy or content with the surface. Let us dig more deeply until we come to rock: “Now the rock was Christ.”",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/6/47",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e73c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "The Lord indicates what the true distinction between good and bad fruits is by continuing under another figure of speech. He says, “Everyone who comes to me and listens to my words and does them, I will show you who he is like. He is like a man building a house. ” Now this man building a house is the mediator between God and humankind, the man Christ Jesus, who deigned to build and consecrate a beloved and holy house for himself, namely, the church, in which to remain forever. “He dug deep, and laid the foundation upon rock,” for he strove to root out completely whatever base drives he found in the hearts of his faithful. When the traces of earlier habits and unnecessary thoughts had been cast out, he could have a firm and unshakable dwelling place in them. He himself is the rock upon which he laid the foundation for a house of this sort. Just as in building a house nothing is to be preferred to the rock on which the foundation is laid, so holy church has its rock, namely, Christ, concealed in the depths of its heart…. “When a flood came, the stream was dashed against that house and could not shake it, for it had been founded upon the rock. ” The explanation is obvious: the church is often struck by distressful situations but is not overthrown. If any believers are overcome by evils, if they yield, they surely did not belong to this house. If they had taken a stand founded on the rock of faith instead of on the sand of faithlessness, they would have been absolutely incapable of ever being shaken.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/6/47",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e73c8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 6:47",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

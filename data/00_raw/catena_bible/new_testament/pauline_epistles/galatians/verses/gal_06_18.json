@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GAL 6:18",
+  "verse_text": "Verse text for GAL 6:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/6/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "By this final word he has sealed the argument of the letter. For he does not say simply “with you,” as in the other letters, but “with your spirit.” He is leading them away from corrupted things and pointing everywhere to the benevolent work of God and reminding them of the grace that they have enjoyed. By this he is able to lead them away from the legalistic error in its entirety. For the receiving of the Spirit was not for the poverty of legalism but for righteousness according to the Spirit…. The concluding prayer and teaching work together, serving as a double fortress. The teaching reminds them of all the gracious benefits they have enjoyed and holds them all the more firmly in the teaching of the church. And this prayer, by invoking grace and persuading them to stand fast, does not allow their spirit to fall away.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/6/18",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c6686f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "By this last word he has sealed all that preceded it. He says not merely, with you, as elsewhere, but, with your spirit, thus withdrawing them from carnal things, and displaying throughout the beneficence of God, and reminding them of the grace which they enjoyed, whereby he was able to recall them from all their judaizing errors. For to have received the Spirit came not of the poverty of the Law, but of the righteousness which is by Faith, and to preserve it when obtained came not from Circumcision but from Grace. On this account he concluded his exhortation with a prayer, reminding them of grace and the Spirit, and at the same time addressing them as brethren, and supplicating God that they might continue to enjoy these blessings, thus providing for them a twofold security. For both prayer and teaching, tended to the same thing and together became to them as a double wall. For teaching, reminding them of what benefits they enjoyed, the rather kept them in the doctrine of the Church; and prayer, invoking grace, and exhorting to an enduring constancy, permitted not the Spirit to depart from them. And He abiding in them, all the error of such doctrines as they held was shaken off like dust.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/6/18",
+      "full_content_url": "https://catenabible.com/com/57558ddd3c6effa740dddb94",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 6:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

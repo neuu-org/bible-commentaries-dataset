@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2PET 1:1",
+  "verse_text": "Verse text for 2PET 1:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2pt/1/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In the justice (or by the justice) of our God and Saviour, Jesus Christ. As justice and sanctification are equally attributed to God and to Jesus Christ, it shows that the Son was equally and the same God with the Father. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/1/1",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03c1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "In this Epistle St. Peter says (chap. 3.), Behold this second Epistle I write to you: and before (chap. 1. 14,) Being assured that the laying away of this my tabernacle is at hand. This shews, that it was written a very short time before his martyrdom, which was about thirty-five years after our Lord's Ascension. In this Epistle he admonishes the faithful to be mindful of the great gifts they received from God and to join all other virtues with their faith. He warns them against false teachers, by describing their practices and foretelling their punishments. He describes the dissolution of this world by fire and the day of judgment.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2pt/1/1",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f38",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2PET 1:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

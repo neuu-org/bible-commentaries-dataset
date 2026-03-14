@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 17:14",
+  "verse_text": "Verse text for REV 17:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/17/14",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "chosen: He has well premised chosen, for \"many are called, but few chosen.\" <a",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/17/14",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c95",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "overcome: That the weakness of man might not fear the cruelty of the old enemy, he describes the beast which has seven heads, and is armed with the horns of a secular kingdom, as vanquished by Christ triumphant: and then, to denote that He is triumphant in His own, he has added the following.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/17/14",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c94",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "These shall fight with the Lamb. Their actions and affections being always led away with the love of this world, which is an enemy to Christ and his doctrine: but the Lamb, Christ, shall overcome them, and punish them, when he pleases: for he, Christ, God and man, is Lord of lords, and King of kings; and as St. John says again, (chap. xix. 16,) has written on his thigh, the King of kings, and Lord of lords, to signify to us his divinity, or divine nature. (Witham)\nAll these different people were either heathens or heretics, and of course were bitter enemies to the Catholic religion; but the Lamb overcame them, by turning their hearts, and converting them to Christianity.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/17/14",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c04c6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 17:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

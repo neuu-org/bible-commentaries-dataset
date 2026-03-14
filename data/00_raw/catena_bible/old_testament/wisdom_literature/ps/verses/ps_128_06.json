@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 128:6",
+  "verse_text": "Verse text for PS 128:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/128/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "For, \"if in this life only,\" saith the Apostle, \"we have hope in Christ, we are of all men most miserable. \" For what reason were the Martyrs condemned to beasts. What is that good. Can it be declared. by what means, or what tongue can tell it. or what ears can hear it. That indeed, \"Neither ear hath heard, nor hath it entered into man's heart:\" only let us love, only let us grow in grace: ye see, then, that battles are not wanting, and that we fight with our lusts. We fight outwardly with unbelieving and disobedient men; we fight inwardly with carnal suggestions and perturbations: we everywhere as yet fight. What sort of peace then is this. One from Jerusalem, for Jerusalem is interpreted, A vision of Peace. Thus then \"mayest thou see the good things that are of Jerusalem,\" and that, \"all thy life long-and mayest thou see,\" not only thy children, but, \"thy children's children. \" What meaneth, Thy children. Thy works which thou here dost. Who are thy children's children. The fruits of thy works. Thou givest alms: these are thy children: for the sake of thine alms thou receivest everlasting life, these are thy children's children. \"Mayest thou see thy children's children;\" and there shall be \"peace upon Israel\" (ver. 6), the last words of the Psalm.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/128/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66f3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Israel. This is best secured by a well-regulated and numerous people. (Berthier)\nThe good works, performed on earth, will be rewarded in heaven. (Worthington)\nWe shall rejoice in the spiritual children, whom we shall have begotten. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/128/6",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be498",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 128:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

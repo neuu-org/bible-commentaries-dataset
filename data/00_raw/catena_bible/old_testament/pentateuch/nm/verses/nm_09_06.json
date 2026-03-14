@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 9:6",
+  "verse_text": "Verse text for NM 9:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/9/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew, \"and there was men \"a solecism, rejected by the Samaritan and Arabic copies. (Houbigant) Man. That is, by having touched, or come near, a dead body, out of which the soul was departed. (Challoner) Such were forbidden to offer any sacrifice, Leviticus xxii. Yet they could not refrain from burying the dead. (Philo, de vita Mos. ) As, therefore, the action was far from being criminal, and they had partaken of the paschal lamb without restriction in Egypt, and heard that God required all to offer this sacrifice, under pain of excision, (ver. 13,) they reasonably wished to know how they were to act, particularly as the 14th of Nisan alone was appointed for this sacrifice, and they could not be purified in less than seven days. If the law, by which they were excluded from the camp, (chap. 2,) were already published, they consulted Moses by some friend. The Rabbins suppose, that those who buried Nadab and Abiu, are meant. (Calmet) The common people did not properly offer a sacrifice, though they might kill the victim.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/9/6",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc71e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Behold some who were unclean by occasion of the soul of a man: That is, by having touched or come near a dead body, out of which the soul was departed.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/9/6",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fbd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 9:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

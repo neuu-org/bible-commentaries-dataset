@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 19:9",
+  "verse_text": "Verse text for EX 19:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/19/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "The people then beheld the pillar of cloud, and it spoke to Moses. But who was the speaker? Obviously the pillar of cloud, which before appeared to the fathers in a corporeal form. And I have already shown that this was not directly and visibly the almighty God as such but the One whom we name as the Word of God, the Christ who was seen for the sake of the multitude of Moses and the people in a pillar of cloud, because it was not possible for them to see him like their fathers in human shape. For surely it was reserved for the perfect to be able to see beforehand his future incarnate appearance among men. And since it was impossible then for the whole people to bear it, he was seen now in fire in order to inspire fear and wonder, and now in a cloud, as it were in a shadowy and veiled form ruling them, as he was also seen by Moses for their sake. .",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/19/9",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52828",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cloud, to veil his majesty, while he spoke to Moses in the hearing of all. (Haydock)\nThen they began to place an entire confidence in their leader. (Maimonides)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/19/9",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3bd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 19:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

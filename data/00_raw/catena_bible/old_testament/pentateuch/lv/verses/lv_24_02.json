@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 24:2",
+  "verse_text": "Verse text for LV 24:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/24/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Command the children of Israel, that they bring unto you pure beaten olive oil for the light, to cause the lamps to burn continually. It is probable that this order was given while Beseleel was working at the tabernacle. (Calmet) The people were to furnish the necessary sacrifices, by the half sicle, Exodus xxx. 13, and by voluntary contributions on the three great festivals, on which no one was to appear empty-handed, Exodus xxiii. Some chose to put their contributions towards the temple in the treasury, Luke xxi. Oil: Hebrew, \"pure oil of the olive beaten, for light to\".",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/24/2",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc676",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 24:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

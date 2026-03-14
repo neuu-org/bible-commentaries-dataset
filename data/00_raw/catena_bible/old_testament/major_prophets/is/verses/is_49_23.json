@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 49:23",
+  "verse_text": "Verse text for IS 49:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/49/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And kings shall be your nursing fathers, and their queens your nursing mothers: they shall bow down to you with their face toward the earth, and lick up the dust of your feet; and you shall know that I am the LORD: for they shall not be ashamed that wait for me. The Persian kings favoured the captives. The greatest monarchs bow before the prelates of the Church, (Menochius) and kiss the Pope's toe. They venerate relics, (Haydock) and greatly enrich the Church.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/49/23",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb35",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Then they will carry on their sides or at the breast the sons of Zion, and they will carry her daughters on their shoulders—as for Lazarus and all the saints who rest on the breast of Abraham and the souls of believers, to whom the apostle Paul said, “I have given you milk to drink. ” Every day the queen [church] feeds Christ’s little ones and leads them to maturity; and people, no matter their age, sex and position, will adore Zion on account of him who dwells in it. For if Christ is the head of the church, the head is adored in the body. And if it can be said to some, “Exalt the Lord our God and adore his footstool,” not that a footstool is to be adored but that it is a means of showing the greatness of his feet, why not adore the church, which embraces the whole body of Christ. “They will lick the dust of your feet. ” This means that kings and princes will support the church in its progress with earthly works and wipe and lap up its word. … Through all this the church learns that it is to have no other lord than he whom they who await eternal glory will possess.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/49/23",
+      "full_content_url": "https://catenabible.com/com/5e88f347b1c7280cb341d1ad",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 49:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

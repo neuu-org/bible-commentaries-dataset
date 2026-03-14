@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 124:8",
+  "verse_text": "Verse text for PS 124:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/124/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10 ...\"Our help standeth in the Name of the Lord, who hath made heaven and earth\" (ver. 8). For if this were not our help, the snare would not indeed remain for ever; but when the bird was once taken, it would be crushed. For this life will pass away; and they who shall have been taken in by its pleasures, and through these pleasures have offended God, will pass away with this life. For the snare will be broken; be ye assured of this: all the sweetness of this present life will no longer exist, when the lot assigned to it hath been fulfilled; but we must not be enthralled by it, so that when the net is broken, thou mayest then rejoice and say, \"The snare is broken, and we are delivered.\" But lest thou think that thou canst do this of thy own strength, consider whose work thy deliverance is (for if thou art proud, thou fallest into the snare), and say, \"Our help standeth in the Name of the Lord, who hath made heaven and earth.\" ...",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/124/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66d7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 124:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

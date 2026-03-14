@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EST 5:7",
+  "verse_text": "Verse text for EST 5:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/5/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Money. Hebrew, \"the sum of money. \"Septuagint, \"ten thousand talents.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/5/7",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdadc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "This postponement of the petition is not due to a fault of laziness but must be attributed to the virtue of patience, clearly indicating that the reward of the righteous and the punishment of the sinners are reserved for the future. “Tomorrow,” in fact, must be interpreted as “the future,” as in that comforting sentence, “Do not worry about tomorrow.” And in Genesis Jacob says to Laban, “My justice will answer for me tomorrow.” And in Exodus, when the rules about the eating of the Passover lamb are given, it is added, “You shall let none of it remain until the morning.” Therefore when the day of future judgment comes and the entire human race, both righteous and sinners, is brought before the supreme Judge, then it will be revealed with which mind each person lived in this world. The righteous will be invited to reach the kingdom of the heavenly homeland through the sentence of this judge, and the sinners will be punished and expelled together with the devil into the torments of hell.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/5/7",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa3b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 5:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

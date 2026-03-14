@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 13:13",
+  "verse_text": "Verse text for 1CHR 13:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/13/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Douay Rheims 1609",
+      "period": "AD1609",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh 1 Chronicles 13:13 So David brought not the ark home to himself to the city of David, but carried it aside into the house of Obed-edom the Gittite. Douay Rheims 1609 And for this cause he brought it not unto himself, that is, into the city of David, but turned it away into the house of (a) Obededom the (b) Getheite. (a) Obededom was a Levite, (c. ) and therefore more meet to keep the ark: (b) Called a Getheite because he had dwelt in the town of Geth.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/13/13",
+      "full_content_url": "https://catenabible.com/com/590bf5639f61fbda40c5415a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Obededom. A Levite was judged more proper to guard the ark, chap. xv. 18.\nGethite. Because he had dwelt in Geth. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/13/13",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd6ac",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 13:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

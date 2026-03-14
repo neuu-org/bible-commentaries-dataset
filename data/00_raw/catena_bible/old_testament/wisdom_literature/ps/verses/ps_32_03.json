@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 32:3",
+  "verse_text": "Verse text for PS 32:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/32/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "3. \"Because I kept silence, my bones waxed old:\" because I made not with my mouth \"confession unto salvation,\" all firmness in mehas grown old in infirmity. \"Through my roaring all the day long\" (ver. 3): when I was ungodly and a blasphemer, crying against God, as though defending and excusing my sins.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/32/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6942",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Because I was silent That is, whilst I kept silence, by concealing, or refusing to confess my sins, thy hand was heavy upon me (Challoner)\nThe cry was then only an effect of vanity, like that of the Pharisee, full of his own merits; (St. Augustine; St. Jerome; Calmet) or David was silent till Nathan made him know his fault, which he afterwards ceased not to deplore. (Theodoret)\nIt is supposed that he had continued impenitent for above a year. But he might fell remorse during that time, ver. 5. (Berthier)\nCried. Hebrew, \"roared \"like a lion. (Calmet)\nBecause I acknowledged not my grievous sins, I was much afflicted. I prayed, but to little purpose. (Worthington)\nWishing to conceal the cause of my grief, (Calmet) I pined away, (Haydock; Lamentations iii. 4.) and suffered greatly, because I did not confess. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/32/3",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf88",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 32:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 15:13",
+  "verse_text": "Verse text for MK 15:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/15/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Mark, who studies brevity more than any of the Evangelists, has given a concise indication of Pilate’s desire and of his efforts to save the Lord’s life. For, after giving us the statement, “And they cried again, ‘Crucify him’” (which makes it clear that they had cried out before for Barabbas to be released), he has appended these words: “Then Pilate continued to say to them, “Why, what evil has he done?” Thus by one short sentence he has given us an idea of matters which took a long time for their transaction. .",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/13",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52ef8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 15:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 17:7",
+  "verse_text": "Verse text for JGS 17:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/17/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Another, is not in Hebrew or the Septuagint but it refers to the former young priest, the son of Michas, whose place he took.\nThereof. It is uncertain whether this be spoken of the city or of the man. Some think that this Levite's mother was of Juda, though his father was the son of Moses, chap. xviii. 30. (Calmet)\nHe was poor, as the people neglected to pay tithes, and he imitated their irreligion, being of a fickle temper. He was yet single, (ver. 10 though he married among the Danites, chap. xviii. 30. (Menochius)\nBeing a Levite, he is esteemed fitter for the priesthood; so Protestants receive with joy an apostate Catholic priest. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/17/7",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcdc9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 17:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

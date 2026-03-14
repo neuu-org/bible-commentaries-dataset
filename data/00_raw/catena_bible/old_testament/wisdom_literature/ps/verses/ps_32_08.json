@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 32:8",
+  "verse_text": "Verse text for PS 32:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/32/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I will instruct you and teach you in the way which you shall go: I will guide you with my eye. Augustine of Hippo 8. The answer of God: \"I will give thee understanding, and will set thee in the way in which thou shalt go;\" I will give thee understanding after cofession, that thou depart not from the way in which thou shouldest go; lest thou wish to be in thine own power. \"I will fix Mine Eyes upon thee\" (ver. 8); so will make sure upon thee My Love.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/32/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6947",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fix. Hebrew, \"consult with my eyes concerning thee. \"The Vulgate, better. (Calmet)\nProtestants marginal note, \"my eye shall be upon thee. \"(Haydock)\nGod thus engages to watch over, and direct his servant, (Genesis xliv. 21., and Jeremias xxiv. 6.; Calmet) giving him instruction, by means of chastisements. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/32/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf8d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 32:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

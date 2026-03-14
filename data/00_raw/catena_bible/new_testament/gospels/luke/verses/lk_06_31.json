@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 6:31",
+  "verse_text": "Verse text for LK 6:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/6/31",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Here is then a comprehensive precept, and an exhortation of life, all-embracing: \"As ye would that men should do unto you, do ye likewise to, them.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/31",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbca1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "So that, whatever was the ampler scope of His teaching, He received it all in His heritage of the nations. \"And as ye would that men should do to you, do ye also to them likewise.\".\nAnd, \"As ye would that men should do to you, do ye likewise so to, them.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/31",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbca2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Didache",
+      "period": "AD100",
+      "content": "And all things whatsoever thou wouldst should not occur to thee, thou also to another do not do.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/31",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbca3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "The Apostles were about to be sent out to preach and many persecutors and plotters awaited them. If the Apostles were fearful and dismayed by persecution, they might want to protect themselves from their persecutors by keeping silent and not teaching. If that happened, the radiant sun of the Gospel would be extinguished. In anticipation of this, the Lord exhorts the Apostles not to give way to defensive measures against their enemies, but instead bravely to endure all things, even insults and murderous plots. This is what He Himself did on the Cross, saying, Father, forgive them, for they know not what they do (Lk. To prove to the Apostles that this commandment to love ones enemies is possible to keep, He then says, \"What you want to be done to you, do the same to others; and be to others that kind of person you want others to be to you. \" If you want your enemies to be hard, unfeeling, and angry towards you, then be the same yourself to them. But if you want them to be kind and compassionate towards you, and not to remember wrongs, do not think that it is impossible for you yourself to be the same towards them. Do you see this natural law which is written in our hearts. That is why the Lord also said, In those days I will surely put My laws into their mind, and write them on their hearts (Jer. Then He adds another compelling reason to keep this commandment: if you love those who love you, you are like the sinners and the Gentiles; but if you love those who do evil to you, you are like God, Who is kind unto the unthankful and to the evil. Which do you desire—to be like sinners or to be like God. Do you see the divine teaching. First He persuaded you by means of the natural law: what you want to be done to you, do to others. Then He persuades you with the result and the reward—He promises that you will become like God.",
+      "commentary_number": "4/4",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lk/6/31",
+      "full_content_url": "https://catenabible.com/com/57eb0d50b0d44ee10cfac228",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 6:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 6:3",
+  "verse_text": "Verse text for 1KGS 6:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/6/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "“There was also a porch in front of the temple, twenty cubits in length to correspond with the width of the temple.” It had a door opposite the door of the temple and was ten cubits deep, facing the east. This porch represents the people belonging to holy church who precede the time of our Lord’s incarnation, yet were not empty of faith in his incarnation. This is [the meaning of] the door of the porch opposite the door of the temple, facing the east—that the faith of the people in Christ before his coming was the same as that of those who came after his arrival and that the hearts of all the faithful are illumined by the same light of the grace of the Orient.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/6/3",
+      "full_content_url": "https://catenabible.com/com/5e1b66ae8bc66721fe4ef861",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the porch in front of the temple of the house, twenty cubits was the length thereof, according to the breadth of the house; and ten cubits was the breadth thereof in front of the house. The porch was of the same height as the temple, though we read that it wa 120 cubits high, 2 Paralipomenon iii. But one word seems there to have been substituted for another, (Calmet) unless it might resemble a high tower. (Haydock) Before the porch were placed the two brazen pillars. The interior of it was highly adorned by Herod. (Josephus, Antiquities xv.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/6/3",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd26a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 6:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

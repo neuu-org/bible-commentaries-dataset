@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 1:5",
+  "verse_text": "Verse text for PRV 1:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/1/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Governments. And be fit to govern others, (Worthington) as well as himself. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/1/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be564",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "There are indeed many who know how so to control their outward advancement as by no means to fall inwardly thereby. Whence it is written, “God casts not away the mighty, seeing that he also himself is mighty.” And it is said through Solomon, “A man of understanding shall possess governments.” But to me these things are difficult, since they are also exceedingly burdensome, and what the mind has not received willingly it does not control fitly. Lo, our most serene lord the emperor had ordered an ape to be made a lion. And, indeed, in virtue of this order it can be called a lion, but a lion it cannot be made. Wherefore his piety must … himself take the blame of all my faults and shortcomings, having committed a ministry of power to a weak agent.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/1/5",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c836c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 1:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 104:23",
+  "verse_text": "Verse text for PS 104:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/104/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "30. What art thou doing, O man of God? thou, O Church of God? what art thou, O body of Christ, whose Head is in Heaven? what art thou doing, O man, His unity? \"Man,\" he saith, \"shall go forth to his work\" (ver. 23). Let therefore this man work good works in the security of the peace of the Church, let him work unto the end. For sometime there will be a sort of general darkening, and a sort of assault will be made, but in the evening, that is, in the end of the world: but now the Church doth work in peace and tranquillity; for \"man shall go forth to his work, and to his labour, unto the evening.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/104/23",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6539",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 104:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "verse_reference": "PHLM 1:5",
+  "verse_text": "Verse text for PHLM 1:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/phlm/1/5",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thy charity and faith in the Lord Jesus, and towards all the saints. In the Greek is towards Jesus Christ, and towards all the saints. By the saints he seems to mean, as elsewhere, all Christians; so that the sense may be, of thy faith towards Christ, and of thy charity towards all the saints or Christians. (Witham)",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/5",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c029c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Hearing of your love and faith, which you have toward the Lord Jesus, and toward all saints; If the question is asked—“How can we have the same faith in Christ Jesus and toward all the saints. ”—the answer is that you have love in Christ Jesus and toward the saints, and you have the same faith in Christ Jesus and toward the saints by a shared property…. It is because the same holiness is shared by the Lord and by his servants, as Old Testament usage shows. As long as we believe in the holiness of God, we shall see it in his true servants as well.",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/5",
+      "full_content_url": "https://catenabible.com/com/583ba9de205c248f42e53034",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "You have to love in Christ Jesus and towards the saints, and you have the same faith in Christ Jesus and towards the saint by a shared property.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/5",
+      "full_content_url": "https://catenabible.com/com/576218ce9fd295934bf12083",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Hearing, he says, of your love.\nThis is wonderful, and much greater than if being present he had seen it when he was present. For it is plain that from its being excessive it had become manifest, and had reached even to Paul. And yet the distance between Rome and Phrygia was not small. For he seems to have been there from the mention of Archippus. For the Colossians were of Phrygia, writing to whom he said, When this Epistle is read among you, cause that it be read also in the Church of the Laodiceans, and that you likewise read the Epistle from Laodicea. Colossians 4:16 And this is a city of Phrygia.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phlm/1/5",
+      "full_content_url": "https://catenabible.com/com/57eb0ef1b0d44ee10cfac70a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Stating the matter of his giving thanks and of his prayer, he shows what he asks when he prays for them. The matter of this was the needs and goods of Philemon, namely, both charity and faith. For without charity nothing avails and through it all things are had. 1 Corinthians 13:1: ‘If I should speak with the tongues of men and of angels, but do not have charity, I have become as sounding brass or a tinkling cymbal. ’ Again, without faith no one can love God, because he does not truly know God. He makes no mention of hope, because it is midway between and is understood in the others. But in whom should they have faith and charity. in our Lord Jesus. 1 Corinthians 16:22: ‘If any man does not love the Lord Jesus Christ, let him be anathema. ’ This is necessary, because from Christ more sweetly comes love for the members; because he who does not love the members, does not love the head. 20: ‘For how can he who does not love his brother, whom he sees, love God, whom he does not see. ’ And towards all the saints. Faith is based on doctrine insofar as it is manifested through Christ, ‘because no one has seen God’, John 31. 18; and, ‘You believe in God, believe also in me,’ John 14. We have Christ, therefore, through faith. Towards all the saints can be understood in two ways. In one way, because from the faith they have in Christ proceed the prayers made for the saints. Or, faith consists principally in the divinity as it is announced by Christ, and not only by Christ, but also by the saints. Matthew 28:19: ‘Go therefore and make disciples of all nations. ’ Therefore we ought to believe not only what was said by Christ but also what was said by the saints. Hebrews 2:3: ‘For it was first announced by the Lord and was confirmed unto us by those who heard him.",
+      "commentary_number": "5/5",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/phlm/1/5",
+      "full_content_url": "https://catenabible.com/com/576218ce9fd295934bf1206f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHLM 1:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

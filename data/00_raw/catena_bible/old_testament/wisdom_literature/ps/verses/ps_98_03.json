@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 98:3",
+  "verse_text": "Verse text for PS 98:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/98/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "3. \"He hath remembered His mercy to Jacob, and His truth unto the house of Israel\" (ver. 3). What meaneth this, \"He hath remembered His mercy and truth\"? He hath pitied, so that He promised; because He promised and showed His mercy, truth hath followed: mercy hath gone before promise, promise hath been fulfilled in truth. ...\n\n\"And His truth unto the house of Israel.\" Who is this Israel? That ye may not perchance think of one nation of the Jews, hear what followeth: \"All the ends of the world have seen the salvation of our God.\" It is not said, all the earth: but, \"all the ends of the world:\" as it is said, from one end to the other. Let no man cut this down, let no man scatter it abroad; strong is the unity of Christ. He who gave so great a price, hath bought the whole: \"All the ends of the world.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/98/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64d1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Israel. The prophets foretold the liberation of the Jew, and of mankind. The blessed Virgin Mary seems to allude to this passage, Luke i. 55. (Calmet)\nSome Jews were converted, Romans xi. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/98/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be30b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 98:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

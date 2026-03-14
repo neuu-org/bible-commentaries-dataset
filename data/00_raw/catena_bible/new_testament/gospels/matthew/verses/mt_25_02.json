@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 25:2",
+  "verse_text": "Verse text for MT 25:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/25/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "And five of them were wise, and five were foolish. Augustine of Hippo Every soul that enlivens a body is denoted by the number five, because it makes use of five senses. For there is nothing of which we have perception by the body except through this fivefold gate, either by sight, or hearing, or smelling, or tasting or touching. Whoever abstains from unlawful seeing, unlawful hearing, unlawful smelling, unlawful tasting and unlawful touching, by reason of blamelessness, is here called by the name of virgin.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/25/2",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e7151",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "It says that even of these, who were virgins and carrying lamps, some are wise and some foolish. How is this distinction made? By what clue do we tell the difference? Only by whether the oil is present or missing.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/25/2",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e7152",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": ": The wise virgins are those who, embracing the time available to them, were prepared at the first onset of the coming of the Lord. But the foolish were those who were lax and unmindful. They troubled themselves only over present matters and, forgetting what God said, did not direct their efforts toward hope for resurrection.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/25/2",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e7150",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 25:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 19:24",
+  "verse_text": "Verse text for 2SM 19:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/19/24",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Feet, which was very requisite in those countries, to prevent a disagreeable smell, for which the Jews were noted. (Martial iv. 4.)\nAmmianus (2) speaking of the emperor Marcus says, Cum Palestinam transiret, foetentium Juædorum et tumultuantium sæpe tædio percitur. Some have thought that this odour was removed by baptism. (Basnage, T. iii. p. 194.) Roman Septuagint adds, \"neither had he cut his nails, nor (made or) dressed his mustaches \"or upper lip. The chin, as far as the ears, was not shaved by the Jews. To cut all the hair was a mark of sorrow, no less than to neglect dressing it. See Leviticus xxi. 5. (Calmet)\nBy the external appearance of Miphiboseth, David might be convinced that he had indulged his grief for a long time; (Menochius) which might serve to remove the ill impressions which he had received against the helpless son of his friend Jonathan.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/19/24",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd1a6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 19:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JER 9:17",
+  "verse_text": "Verse text for JER 9:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/9/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Thus says the LORD of hosts, Consider you, and call for the mourning women, that they may come; and send for skillful women, that they may come: Wise, in composing or singing the Nænia, or mournful songs, recording the praises of the deceased. (Calmet) \"This custom still subsists in Judea: women go about with dishevelled hair and naked breasts, with mournful tunes, exciting all to tears. Jerome) Music was also used, Matthew ix. Thus feigned tears, at least, would supply the want of real ones.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/9/17",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723becb6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 9:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

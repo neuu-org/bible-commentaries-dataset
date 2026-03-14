@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 70:3",
+  "verse_text": "Verse text for PS 70:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/70/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "What followeth. \"Let them be turned away forthwith blushing, that say to me, Well, well\" (ver. Two are the kinds of persecutors, revilers and flatterers. The tongue of the flatterer doth more persecute than the hand of the slayer: for this also the Scripture hath called a furnace. Truly when the Scripture was speaking of persecution, it said, \"Like gold in a furnace it hath proved them\" (speaking of Martyrs being slain), \"and as the holocaust's victim it hath received them. \" Hear how even the tongue of flatterers is of such sort: \"The proving,\" he saith, \"of silver and of gold is fire; but a man is proved by the tongue of men praising him. \" That is fire, this also is fire: out of both thou oughtest to go forth safe. The censurer hath broken thee, thou hast been broken in the furnace like an earthen vessel. The Word hath moulded thee, and there hath come the trial of tribulation: that which hath been formed, must needs be seasoned; if it hath been well moulded, there hath come the fire to strengthen. Whence He said in the Passion, \"Dried up like a potsherd hath been My virtue. \" For Passion and the furnace of tribulation had made Him stronger.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/70/3",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6bae",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let them be turned back for a reward of their shame that say, Aha, aha. 'Tis well, 'tis well. Jerome renders it, vah. which is the voice of one insulting and deriding. Some understand it as a detestation of deceitful flatterers. (Challoner) In the New Testament, Well done, denotes applause. Jerome in Ezechiel vi. ) These predictions relate to the murderers of the Messias. (Berthier) In the 39th psalm, the Church prays for aid; and here David, persecuted by Absalom, or any of the just, lays before God his particular wants. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/70/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be179",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 70:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

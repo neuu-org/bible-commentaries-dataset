@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 1:1",
+  "verse_text": "Verse text for DT 1:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/1/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The eastern side of the Jordan is so called in Scripture, with reference to the promised land. (Menochius) Hebrew may mean also, \"on this side, or at the passage \"about Beth bara, \"the house of passage \"near which the Hebrews were encamped, and where Josue probably crossed over the Jordan, as it was the usual ford. Calmet seems to think that these two first verses have been inverted by Esdras, or interpolated, as he says Moses never crossed the Jordan, and certainly addressed the Hebrews near that river, at a great distance from the Red Sea: but the text does not assert the contrary. It only determines that the place where he harangued them, was a part of the wilderness, or the plains of Moab, over-against the Red Sea, which they had left when they came from Asiongaber, unless the term Suph, which signifies red, may be a proper name of the station Supha, near the torrent Zared, (Numbers xxi. 14,) as Calmet maintains. If this be admitted, this difficulty vanishes, for the camp of Israel was certainly over-against, and not even remote from this place. The other cities may have been in the environs, or Moses may have referred to the stations and places in the desert of Pharan, at Tophel, Laban, or Lebna, Haseroth, (Numbers xxxiii. 17,) where there is very much gold, (Septuagint, \"gold mines \"Hebrew, \"dizahab\") and Cades-barne. Lebna, Haseroth, and Cades-barne, were in the territory of the Idumeans, who dwelt to the south-west of the plains of Moab. Tophel and Dizahab are unknown (Calmet) as well as Laban, Haseroth, and Pharan, if they be not the names of encampments. Geographers vary so much in their descriptions of the road, which the Hebrews followed, and in maps of the adjacent countries, that it is now impossible to decide.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/dt/1/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc8d0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh These are the words which Moses spoke unto all Israel on this side of Jordan in the wilderness, in the plain over against Suph, between Paran, and Tophel, and Laban, and Hazeroth, and Dizahab. This Book is called DEUTERONOMY, which signifies a SECOND LAW, because it repeats and inculcates the ordinances formerly given on mount Sinai, with other precepts not expressed before. The Hebrews, from the first words in the book, call it ELLE HADDEBARIM.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/1/1",
+      "full_content_url": "https://catenabible.com/com/587e51f954b4f95416b2f14c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 1:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

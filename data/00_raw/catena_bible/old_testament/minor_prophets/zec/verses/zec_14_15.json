@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 14:15",
+  "verse_text": "Verse text for ZEC 14:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/14/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And so shall be the plague on the horse, on the mule, on the camel, and on the donkey, and on all the beasts that shall be in these tents, so shall this plague be. Shall be like this destruction. That is, the beasts shall be destroyed as well as the men; the common soldiers as well as their leaders. (Challoner) History does not specify the death of cattle, (Calmet) though in plagues this would inevitably follow; and the pagans complained that they were become more common since the propagation of the gospel. (Haydock) The reverses which the troops of Dioclesian, sustained, were to punish their enmity to religion.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/14/15",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf61b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Shall be like this destruction: That is, the beasts shall be destroyed as well as the men: the common soldiers as well as their leaders.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/14/15",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 14:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

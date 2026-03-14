@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 27:2",
+  "verse_text": "Verse text for LV 27:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/27/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Estimation. Hebrew is obscure, \"Whoever has separated, or made a singular vow; the souls to the Lord according to thy estimation. \"(Calmet)\nSeptuagint, \"shall vow as it were the price of a soul to the Lord. \"(Haydock)\nThe person or the beast shall belong to the Lord; but if it be redeemed, the priests shall fix a price, according to the following regulations. Whatever was vowed must be subject to these rules, or it shall remain for the service of the altar. The priests may sell it, if it be an impure animal. Those which were fit for sacrifice, were to be immolated, ver. 9 No change of them was allowed, lest a worse should ever be substituted for a better; (Calmet) and because God is better pleased with things that are offered to him by vow. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/27/2",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc6ad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 27:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

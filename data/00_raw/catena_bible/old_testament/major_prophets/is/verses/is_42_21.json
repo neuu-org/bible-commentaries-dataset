@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 42:21",
+  "verse_text": "Verse text for IS 42:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/42/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "He reports how they became the blind and dull by saying, “They see many things but do not observe.” These things were previously communicated [in Isaiah]: “Keep listening, but do not comprehend; keep looking, but do not understand. Make the mind of this people dull.” … You see that all these things he says about the people, he means concerning those of the circumcision. But “the Lord was pleased, for his righteousness’ sake, to magnify his praise.” And they surrendered to those who made war on their souls and became “a people who have been torn in pieces, plundered and trapped in a secret room” of their souls, “and in their own homes as well.” For these very reasons those who plotted with these thoughts that they hid from Christ were themselves caught in a “trap from which they could not be delivered,” there being no “rescuer” and none to say, “Release them.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/21",
+      "full_content_url": "https://catenabible.com/com/5e88f303b1c7280cb341d096",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 42:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

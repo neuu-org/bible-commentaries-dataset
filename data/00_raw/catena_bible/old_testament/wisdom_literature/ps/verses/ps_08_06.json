@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 8:6",
+  "verse_text": "Verse text for PS 8:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/8/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. Therefore was the son of man first visited in the person of the very Lord Man, born of the Virgin Mary. Of whom, by reason of the very weakness of the flesh, which the Wisdom of God vouchsafed to bear, and the humiliation of the Passion, it is justly said, \"Thou hast lowered Him a little lower than the Angels\" (ver. 5). But that glorifying is added, in which He rose and ascended up into heaven; \"With glory,\" he says, \"and with honour hast Thou crowned Him; and hast set Him over the works of Thine hands\" (ver. 6). Since even Angels are the works of God's hands, even over Angels we understand the Only-begotten Son to have been set; whom we hear and believe, by the humiliation of the carnal generation and passion, to have been lowered a little lower than the Angels.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/8/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6787",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 8:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

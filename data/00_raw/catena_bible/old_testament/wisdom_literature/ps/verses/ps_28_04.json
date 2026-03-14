@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 28:4",
+  "verse_text": "Verse text for PS 28:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/28/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "4. \"Give unto them according to their works\" (ver. 4). Give unto them according to their works, for this is just. \"And according to the malice of their affections.\" For aiming at evil, they cannot discover good. \"According to the works of their hands give Thou unto them.\" Although what they have done may avail for salvation to others, yet give Thou unto them according to the works of their wills. \"Pay them their recompense.\" Because, for the truth which they heard, they wished to recompense deceit; let their won deceit deceive them.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/28/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6908",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Give them according to their deeds, and according to the wickedness of their endeavors: give them after the work of their hands; render to them what they deserve. He speaks prophetically, (ver. ) or of spiritual enemies. (Berthier) \"If they do not understand by kindness, make them understand by torments. Jerome) He alludes to the calamities of the Babylonians, who had made such havoc, (Calmet) as well as to that of all who persecuted or rebelled against David. (Haydock) His zeal prompts him to approve of their chastisement. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/28/4",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf54",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 28:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 28:17",
+  "verse_text": "Verse text for MT 28:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/28/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And when they saw him, they worshiped him: but some doubted. They adored: but some doubted. This, says Theophylactus, need not be understood of the apostles, but of others, who had not seen Christ after his resurrection. It may also be expounded of those disciples who had doubted at the first, and particularly of St. Thomas the apostle. (Witham) These doubted not of the resurrection or divinity of Christ, but whether the person that appeared to them was really their Master, Jesus Christ. (Bible de Vence).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/28/17",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf8ec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And if some doubted, herein again admire their truthfulness, how they conceal not even their shortcomings up to the last day. Nevertheless, even these are assured by their sight.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/28/17",
+      "full_content_url": "https://catenabible.com/com/57eb0db7b0d44ee10cfac622",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 28:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

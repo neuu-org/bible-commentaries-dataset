@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 6:6",
+  "verse_text": "Verse text for 2KGS 6:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/6/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Swam. So; Demersam fluvio relevavit virga securim. (Tertullian, contra Marc.) The Fathers here remark a figure of the cross of Jesus Christ; the virtue of which, in baptism, reclaims the hardened sinner from the ways of vanity. (Tertullian, contra Judæos xiii.) (Calmet)\nThose who would explain the reason of every miracle, may here inform the infidel why recourse was had to a supernatural interference, in a matter apparently of such a trifling nature. They ask why God should cause the eyes of various pictures in Italy to move on a late occasion; and because they cannot assign a satisfactory reason, they boldly assert that all was an imposture. But this mode of argumentation is very delusive, if not impious. \"Who hath been his (God's) counsellor? \"(Romans xi. 34.) All that we have to do is to believe, when the proofs are of such a nature as to require our rational assent.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/6/6",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd457",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 6:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

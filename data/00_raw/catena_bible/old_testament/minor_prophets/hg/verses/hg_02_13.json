@@ -1,0 +1,36 @@
+{
+  "verse_reference": "HG 2:13",
+  "verse_text": "Verse text for HG 2:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hg/2/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "No, conformably to Leviticus vi. (Menochius) What the linen covered could not render other things sacred. The victim must come in immediate contact with them, to have this effect. (Haydock) Those who had touched the dead, rendered both holy and common things unclean for others. There were two sorts of sanctified meat: the victims for sin, which the priests on duty alone could eat, (Leviticus vii. ) and the peace-offerings, of which all who were clean might partake, Leviticus xix. The former alone sanctified what they touched. Both must be burnt if they touched any thing unclean, while ordinary food in the same predicament might be consumed by people in mourning (Calmet) That which touched a holy things was sanctified, (Leviticus vi. ) but that thing did not sanctify others; so the people, by touching the sacrifices, were only legally holy, and therefore their victims were not acceptable to the Lord as long as they did not comply with their duty of building his temple. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hg/2/13",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf571",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HG 2:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

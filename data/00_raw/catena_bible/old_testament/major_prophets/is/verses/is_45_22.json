@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 45:22",
+  "verse_text": "Verse text for IS 45:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/45/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "There is among them no true knowledge of the things to come, but rather they prophesy falsely, and with clownish talk and deception and trickery and nothing else. The God of the universe responds: If they prophesy rightly, they will come close and will know at the same time. For if they are able to prophesy rightly, then they will all be brought together as one. For their oracles came from many places. But some worked others into a frenzy and honored the unclean demons who were speaking falsehood. If they had been able to prophesy rightly, they would all be aware of what is to come and who from the very start made these things to be heard.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/45/22",
+      "full_content_url": "https://catenabible.com/com/5e88f327b1c7280cb341d11f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "Or as Symmachus puts it: “Run to me and be saved, all the extremities of the earth.” You see how he proclaims the catholic gospel to all the nations. - \"Commentary on Isaiah 2.29\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/45/22",
+      "full_content_url": "https://catenabible.com/com/5e88f327b1c7280cb341d11e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 45:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

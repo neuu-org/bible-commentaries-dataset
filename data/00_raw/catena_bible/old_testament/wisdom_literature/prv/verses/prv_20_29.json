@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 20:29",
+  "verse_text": "Verse text for PRV 20:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/20/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "It calls gray hair wisdom. For only then will the city be well ordered, only then will the administration of the holy church be conducted properly, when all the strong men pursue the necessary works and when the elders, endowed with greater prudence, meditate advantageously on what must be done. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/20/29",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8525",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hairs, and experience. They have a greater contempt of death and pleasures. (St. Ambrose, Hex. i. 8.)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/20/29",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be6d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 20:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

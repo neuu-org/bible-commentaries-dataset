@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 10:3",
+  "verse_text": "Verse text for MT 10:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/10/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Philip, and Bartholomew; Thomas, and Matthew the tax collector; James the son of Alphaeus, and Lebbaeus, whose surname was Thaddaeus; James, the son of Zebedee, called James the greater, put to death by Herod. ) He was brother to John the Evangelist. The other James was called the less, also James of Alpheus, and the brother of the Lord, bishop of Jerusalem, martyred there about the year 61. (Witham) Some take Bartholomew to be the same as Nathaniel. Bartholomew signifies son of Tholmew; and he might have been called Nathaniel, son of Thalmew. (Bible de Vence).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/10/3",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf704",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "After this, when he had said, Philip, and Bartholomew, he added, Thomas, and Matthew the Publican. Matthew 10:3\n\nBut Luke not so, but in the opposite order, and he puts him before Thomas.\n\nNext, James the son of Alphæus. For there was, as I have already said, the son of Zebedee also.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/10/3",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac3c2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 10:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

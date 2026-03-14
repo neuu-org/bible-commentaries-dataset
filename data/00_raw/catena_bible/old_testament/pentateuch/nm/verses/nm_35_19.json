@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 35:19",
+  "verse_text": "Verse text for NM 35:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/35/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Him, with impunity. If the judges have passed sentence, he shall be obliged to put it in execution, ver. 21, 31. (St. Augustine, q. 65.) (Estius)\nThe laws of Athens required also that a relation should put the murderer to death, though the deceased were even of servile condition. (Demost.)\nThose of Rome condemned the involuntary manslayer to retire for a year, and afterwards to appease some one of the relations, and to offer the sacrifices, and submit to the usual purifications. Even at the present day, the Persians and Arabs deliver the murderer to be slain by the kinsmen of the deceased, after sentence has been passed by the judges.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/35/19",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc8c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 35:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

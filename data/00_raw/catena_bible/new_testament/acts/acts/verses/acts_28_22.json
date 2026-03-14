@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 28:22",
+  "verse_text": "Verse text for ACTS 28:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/28/22",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "It is every where gainsayed. Here we observe one of the characters of the true religion. It is contradicted and spoken against. As singular as this may appear, it is however true. Jesus, the author of that religion, had foretold it should be so. If the world hateth me, it will hate you also. The situation of the Catholic religion in this country , at present, is something similar to what is related here of Christianity: and those who have the candour to inquire seriously into its merits, have generally the reward of being convinced and of believing in it. Christianity, like some plants, grows the better for being trodden upon. (Haydock)",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/28/22",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfec4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "and then forestalled him by showing their own sentiments. For as concerning this sect, it is known to us, that everywhere it is spoken against. And when they had appointed him a day, there came many to him into his lodging; to whom he expounded and testified the kingdom of God, persuading them concerning Jesus, both out of the Law of Moses and out of the Prophets, from morning till evening. And some believed the things which were spoken, and some believed not. ) They said not, we speak against it, but it is spoken against. Then he did not immediately answer, but gave them a day, and they came to him, and he discoursed, it says, both out of the Law of Moses, and out of the Prophets. And some believed, and some believed not. And when they agreed not among themselves, they departed, after that Paul had spoken one word, Well spoke the Holy Ghost by Esaias the prophet unto our fathers, saying, Go unto this people, and say, Hearing you shall hear, and shall not understand; and seeing you shall see, and not perceive: for the heart of this people is waxed gross, and their ears are dull of hearing, and their eyes have they closed; lest they should see with their eyes, and hear with their ears, and understand with their heart, and should be converted, and I should heal them.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/28/22",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9537",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Lucius Caecilius Firmianus Lactantius",
+      "period": "AD320",
+      "content": "But we desire to hear of you what you think: for as concerning this sect, we know that everywhere it is spoken against. Lucius Caecilius Firmianus Lactantius For if you afforded yourself a ready hearer in literature, which did nothing else than form the style, how much more teachable ought you to be in these true studies, which have reference even to the life. And I now profess to you, that I am hindered by no necessity of circumstance or time from composing something by which the philosophers of our sect.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/28/22",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baebd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 28:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

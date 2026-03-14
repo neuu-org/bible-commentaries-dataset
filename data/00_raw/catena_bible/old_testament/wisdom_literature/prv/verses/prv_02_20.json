@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 2:20",
+  "verse_text": "Verse text for PRV 2:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/2/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "It is clearly we, I say, who make rough the straight and smooth paths of the Lord with the wicked and hard rocks of our desires, who very foolishly abandon the royal road paved with apostolic and prophetic stones and made level by the footsteps of all the holy ones and of the Lord himself, and who pursue byways and brambly roads. Blinded by the seductions of present pleasures, we crawl along the dark and obstructed trails, our feet lacerated by the thorns of vice and our wedding garment in tatters, and we are not only pierced by the sharp needles of thorny bushes but also brought low by the stings of the poisonous serpents and the scorpions that lie in wait there. .",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/2/20",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c839d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 2:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

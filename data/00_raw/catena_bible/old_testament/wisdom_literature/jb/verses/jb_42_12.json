@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JB 42:12",
+  "verse_text": "Verse text for JB 42:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/42/12",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Asses. Septuagint, \"droves of\", which would greatly increase the number.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/42/12",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde39",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "We believe that this happened in history, but we hope that this may also happen mystically. The Lord blesses the new condition of Job more than the former, because, with regard to the receiving of the people of Israel into faith—while the present world progressively moves toward its end—the Lord comforts the pain of the holy church with an abundant gathering of souls. The more clearly it appears that the time of the present life approaches its end, the more the church will be enriched with the souls [of Jews].",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/42/12",
+      "full_content_url": "https://catenabible.com/com/5e1b62778bc66721fe4ef78a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "We believe that these things have taken place historically, we hope that they are to take place mystically. For the latter end of Job is blessed more than his beginning, because as far as concerns the admission of the people of Israel, when the end of the present world is pressing on, the Lord consoles the pain of Holy Church by a manifold ingathering of souls. For then she will be the more abundantly enriched, the more clearly it becomes known that the temporal condition of the present life is hurrying to its close. For the Psalmist had beheld the preachers of Holy Church enriched with the blessing of the latter times, when he said; They shall still be multiplied in a fruitful old age, and shall be well patient to announce. 92, 14] They are in truth multiplied in a fruitful old age, because, when their life is prolonged, their strength is ever carried on to a better condition, and the gains of their merits are increased by means of the increase of their age. But they are well patient to announce, because, when preaching heavenly truths, they endure adversities with greater firmness, the more abundantly they bring back benefits for their souls by their very endurance.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/42/12",
+      "full_content_url": "https://catenabible.com/com/5745d7e53c6effa740ddd47c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 42:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

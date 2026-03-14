@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DT 8:3",
+  "verse_text": "Verse text for DT 8:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/8/3",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "One who possesses the Word, who is almighty God, needs nothing and never lacks any of the things he desires, for the Word is an infinite possession and the source of all our wealth. However, someone may object and insist that he has often seen the just in need of food. This is rare and happens only where no one else is just. Besides, let him read the beautiful sentence, “It is not by bread alone that the just man lives, but by the Word of the Lord,” who is the true bread, the bread of heaven. The good man is never really in want as long as he keeps intact his adherence to faith in God. For he can ask for and receive whatever he needs from the Father of all, and he can enjoy whatever belongs to him, if only he obey his Son. Then too, he has this advantage, that he can be free from feeling any want. The Word, who acts as our educator, gives us riches. There is no need to envy the wealth of others with those who have gained freedom from want through him. He who possesses this sort of wealth will inherit the kingdom of God.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/8/3",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a30",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he humbled you, and allowed you to hunger, and fed you with manna, which you knew not, neither did your fathers know; that he might make you know that man does not live by bread only, but by every word that proceeds out of the mouth of the LORD does man live. Not in bread alone i. That God is able to make food of what he pleases for the support of man. (Challoner) Obedience to his law will ensure a happy life,.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/8/3",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc953",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Not in bread alone: That is, that God is able to make food of what he pleases for the support of man.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/8/3",
+      "full_content_url": "https://catenabible.com/com/587e51f954b4f95416b2f150",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 8:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

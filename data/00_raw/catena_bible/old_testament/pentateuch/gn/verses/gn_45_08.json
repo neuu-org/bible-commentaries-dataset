@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 45:8",
+  "verse_text": "Verse text for GN 45:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/45/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh So now it was not you that sent me here, but God: and he has made me a father to Pharaoh, and lord of all his house, and a ruler throughout all the land of Egypt. Joseph's brethren had no design of elevating him to so high a dignity; but God's will directed Pharao to appoint him his counsellor or prime minister. (Haydock) So the Roman emperors styled the prefects of the Prætorium, and the Caliphs their chief minister.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/45/8",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc255",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 45:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

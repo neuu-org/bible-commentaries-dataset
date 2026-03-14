@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 29:7",
+  "verse_text": "Verse text for EX 29:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/29/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then shall you take the anointing oil, and pour it upon his head, and anoint him. Pour, in the form of a cross or T, according to many of the Rabbin The inferior priests were anointed only on the hands. The Levites were sprinkled with oil, mixed with the blood of the victims. The custom of anointing prophets, priests, and kings, was peculiar to the Jews; as if to foreshow Christ, the great anointed of the Lord. Augustine; Psalm xliv. ; Daniel ix.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/29/7",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc461",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 29:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

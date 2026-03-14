@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 1:52",
+  "verse_text": "Verse text for 1KGS 1:52",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/1/52",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Solomon said, If he will show himself a worthy man, there shall not a hair of him fall to the earth: but if wickedness shall be found in him, he shall die. “Not one of his hairs shall fall to the ground,” that is, he shall not undergo any punishment of the guilty, if he proves to be innocent; but he will deserve capital punishment, if he is found to conspire against my sovereignty. Indeed, if he still aspires to take hold of the kingdom, he will be executed: punishment restrains that ambition that discipline could not bring under control.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/1/52",
+      "full_content_url": "https://catenabible.com/com/5e1b66ae8bc66721fe4ef83c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 1:52",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

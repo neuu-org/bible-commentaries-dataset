@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 25:21",
+  "verse_text": "Verse text for PS 25:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/25/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let integrity and uprightness preserve me; for I wait on you. Augustine of Hippo 21. \"The innocent and the upright have cleaved to me, for I have waited for Thee, O Lord\" (ver. The innocent and the upright, not in bodily presence only, as the evil, are mingled with me, but in the agreement of the heart in the same innocence and uprightness cleave to me: for I have not fallen away to imitate the evil; but I have waited for Thee, expecting the winnowing of Thy last harvest.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/21",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Adhered. Hebrew, \"innocence, have kept me. \"(Calmet)\nThose faithful subjects, who have accompanied me in my flight, stand guard to protect me. Requite them, O Lord, and grant peace to all my people. (Haydock)\nMy example encourages them to follow thy law, and they will be staggered, if thou grant not my request. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/21",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf36",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 25:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

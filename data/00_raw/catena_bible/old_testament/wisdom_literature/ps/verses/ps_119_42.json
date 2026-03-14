@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:42",
+  "verse_text": "Verse text for PS 119:42",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/42",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "43. \"And so shall I make answer,\" he saith, \"to them that reproach me with the word\" (ver. 42). It is doubtful whether it be \"reproach me with a word;\" or, \"I will answer with a word;\" but either signifieth Christ. They to whom Christ crucified is a stumbling-block or foolishness, reproach us with Him; ignorant that \"the Word was made flesh, and dwelt in us;\" the Word which \"was in the beginning,\" and \"was with God, and was God.\" But although they may not reproach us with the Word which is unknown unto them, because His Divinity is not known unto those by whom His weakness on the Cross is despised; let us nevertheless make answer of the Word, and let us not be terrified or confounded by their reproaches. For \"if they had known\" the Word, \"they would never have crucified the Lord of glory.\" ...Therefore, when the Psalmist had said, \"I will make answer unto them that reproach me with the word:\" he at once addeth, \"For my trust is in Thy words,\" which meaneth exactly, in Thy promises.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/42",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e662c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh So shall I have an answer for him that reproaches me: for I trust in your word. In any thing. Literally, \"the word \"that I Thus he stops their mouths, by professing his confidence in God. (Haydock) The Babylonians insultingly ask, Where is their God. If thou free me from captivity, I may reply that my hopes were not vain. (Calmet) This answer I will give boldly, if I obtain thy grace, which will strengthen my weakness. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/42",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:42",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

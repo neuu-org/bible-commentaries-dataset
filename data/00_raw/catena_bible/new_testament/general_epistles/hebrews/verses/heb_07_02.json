@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 7:2",
+  "verse_text": "Verse text for HEB 7:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/7/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "He is Melchizedek, \"King of peace\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/7/2",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb1bb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "King of justice, according to the signification of the word Melchisedech, and of peace, signified by the place Salem, of which he was king. By Salem is commonly expounded Jerusalem, though St. Jerome thinks it was a town in Samaria afterwards called Sichem. This king was also a priest of the Most High; i. of the true God. He blessed Abraham, after he had defeated Chodorlahomor and the other kings; (Genesis xiv. ) and Abraham gave him the tithes of all things which he had taken from his enemies. He is said (ver. ) to have been without father, without mother, without any genealogy, without beginning of days or end of life, inasmuch as we have no account in the Scripture of these particulars. He is said in Genesis to have brought out, inasmuch as he was a priest, that is, to have offered up a sacrifice to God of bread and wine. The apostle here shows two things, that Melchisedech was greater than Abraham, and that he is a figure of Christ, who is a priest for ever, according to the order of Melchisedech.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/7/2",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02e6",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 7:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

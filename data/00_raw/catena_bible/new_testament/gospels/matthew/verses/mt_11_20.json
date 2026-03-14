@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 11:20",
+  "verse_text": "Verse text for MT 11:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/11/20",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Our Savior laments Chorazin and Bethsaida, cities of Galilee, because after such great miracles and acts of goodness they did not repent. Even Tyre and Sidon, cities that surrendered to idolatry and other vices, are preferred to them. Tyre and Sidon are preferred for the reason that although they trampled down the law, still Chorazin and Bethsaida, after they transgressed natural and written law, cared little for the miracles that were performed among them. If we ask where it is written that our Lord performed miracles in Chorazin and Bethsaida, we read above: “And he went around to all the towns and villages, curing every infirmity” and the rest. Thus among the other towns and villages it must be judged that the Lord performed miracles in Chorazin and Bethsaida as well. .",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/11/20",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6ecc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then He proceeds to upbraid the cities now that wisdom has been justified; now that He has shown all to be fully performed. That is, having failed to persuade them, He now does but lament over them; which is more than terrifying. For He had exhibited both His teaching by His words, and His wonder-working power by His signs. But forasmuch as they abode in their own unbelief, He now does but upbraid.\n\nThen, to show you that they are not such by nature, He states also the name of the city out of which proceeded five apostles. For both Philip, and those two pairs of the chief apostles, were from thence. John 1:44",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/11/20",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac3f7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "After showing that He had done everything that He ought to have done, and they remained unrepentant, then He upbraids them.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/11/20",
+      "full_content_url": "https://catenabible.com/com/58a5ce5054b4f95416b2f6a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 11:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 26:26",
+  "verse_text": "Verse text for ACTS 26:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/26/26",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He shows, that (the king) knows all perfectly; at the same time, all but saying to the Jews, And ye indeed ought to have known these things— for this is the meaning of that which he adds, For this thing was not done in a corner. And Agrippa, said to Paul, ᾿ Εν ὀλίγῳ you persuade me to be a Christian. What is ἐ ν ὀλίγῳ? Within a little, παρὰ μικρόν . And Paul said, I could pray to God, καὶ ἐν ὀλίγῳ καὶ ἐν πολλᾥ, (that is) I could pray to God, for my part, not in little (but in much): he does not simply pray, he prays (not briefly, but) with largeness— that not only thou, but also all that hear me this day, were such as I am. Then he adds, except these bonds; and yet it was matter of glory; true, but looking to their notion of it, therefore says he, except these bonds.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/26/26",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94fe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Here he speaks of the Cross, of the Resurrection: that the doctrine had come to every part of the world. King Agrippa, he says, do you believe— he does not say, the Resurrection, but— the prophets?",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/26/26",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9507",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "If he was in heaven, when would he not see what was doing in Italy? For the Italian land is \"not in a corner.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/26/26",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baeb6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 26:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

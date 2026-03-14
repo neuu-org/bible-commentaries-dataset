@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 105:3",
+  "verse_text": "Verse text for PS 105:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/105/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"O sing unto Him, and play on instruments unto Him\" (ver. Praise Him both by word and deed; for we sing with the voice, while we play with an instrument, that is, with our hands. \"Let your talking be of all His wondrous works. Be ye praise in His holy Name\" (ver. These two verses may without any absurdity seem paraphrases of the two words above; so that, \"Let your talking be of all His wondrous works,\" may express the words, \"O sing unto Him;\" and what followeth, \"be ye praised in His holy Name,\" may be referred to the words, \"and play on instruments unto Him;\" the former relating to the \"good word\" wherewith we sing unto Him, in which His wondrous works are told; the latter to the good work, in which sweet music is played unto Him, so that no man may wish to be praised for a good work on the score of his own power to do it. For this reason, after saying, \"be ye praised,\" which assuredly they who work well deservedly may, he added, \"in His holy Name,\" since \"he that glorieth, let him glory in the Lord. This is to be praised in His holy Name. Whence we read also in another Psalm: \"My soul shall be praised in the Lord: let the meek hear thereof, and be glad;\" which here in a sense followeth, \"Let the heart of them rejoice that seek the Lord:\" for thus the meek are glad, who do not rival with a bitter jealousy those whom they imitate as already workers of good.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/105/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6546",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Glory. 2 Corinthians x. 17. (Eusebius)\nLiterally, \"be praised \"(Haydock) knowing to what an honor you have been raised, (Deuteronomy xxx. 7., and Jeremias ix. 23.) and live accordingly.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be34a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 105:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

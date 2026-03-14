@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 103:3",
+  "verse_text": "Verse text for PS 103:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/103/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Hear ye all His rewards. \"Who forgiveth all thy sin: who healeth all thine infirmities\" (ver. Behold His rewards. What, save punishment, was due unto the sinner. What was due to the blasphemer, but the hell of burning fire. He gave not these rewards: that thou mayest not shudder with dread: and without love fear Him. But thou art a sinner. Turn again, and receive these His rewards: He \"forgiveth all thy sin. Yet even after remission of sins the soul herself is shaken by certain passions; still is she amid the dangers of temptation, still is she pleased with certain suggestions; with some she is not pleased, and sometimes she consenteth unto some of those with which she is pleased: she is taken. This is infirmity: but He \"healeth all thine infirmities. \" All thine infirmities shall be healed: fear not. They are great, thou wilt say: but the Physician is greater. No infirmity cometh before the Almighty Physician as incurable: only suffer thou thyself to be healed: repel not His hands; He knoweth how to deal with thee. Be not only pleased when He cherisheth thee, but also bear with Him when He useth the knife: bear the pain of the remedy, reflecting on thy future health. Thou dost not endure in uncertainty: He who promised thee health, cannot be deceived. The physician is often deceived: and promiseth health in the human body. Why is he deceived. Because he is not healing his own creature. God made thy body, God made thy soul. He knoweth how to restore what He hath made, He knoweth how to fashion again what He hath already fashioned: do thou only be patient beneath the Physician's hands: for He hateth one who rejects His hands. This doth not happen with the hands of a human physician.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/103/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6513",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Diseases. He had described captivity as an illness, Psalm ci. (Calmet)\nGod graciously forgives sin, and removes bad habits. He preserves us from falling, and grants us the victory, with all our reasonable requests. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/103/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be322",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 103:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

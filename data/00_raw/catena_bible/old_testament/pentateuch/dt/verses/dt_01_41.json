@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 1:41",
+  "verse_text": "Verse text for DT 1:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/1/41",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then you answered and said unto me, We have sinned against the LORD, we will go up and fight, according to all that the LORD our God commanded us. And when you had girded on every man his weapons of war, you were ready to go up into the hill. Septuagint, \"in crowds. \"Arabic, \"quickly. \"Syriac, \"encouraging one another. \"Chaldean, \"impiously. \"(Calmet) The conduct of these people might seem to authorize all these interpretations. The Hebrew term occurs no where else.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/1/41",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc8df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 1:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

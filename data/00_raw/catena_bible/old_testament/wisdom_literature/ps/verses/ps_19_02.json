@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 19:2",
+  "verse_text": "Verse text for PS 19:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/19/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Day unto day utters speech, and night unto night shows knowledge. Augustine of Hippo 3. \"Day unto day uttereth word\" (ver. To the spiritual the Spirit giveth out the fulness of the unchangeable Wisdom of God, the Word which in the beginning is God with God. \"And night unto night announceth knowledge. \" And to the fleshly, as to those afar off, the mortality of the flesh, by conveying faith, announceth future knowledge.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/19/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6877",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Utterth, with great force and abundance, eructat.\nKnowledge of God. (Berthier)\nOur knowledge is always on the increase. (Abenezra)\nThe vicissitudes of day and night prove the wisdom of their author. (Eusebius)\nThey seem to sing in succession the praises of God. (Bellarmine)\nThis evinces the power of God, as the perpetual propagation of the gospel does that of Jesus Christ, whose Church will last till the end. (Worthington)\nAll the chief reformers acknowledged that there was no salvation out of the one true Church, and that the Church of Rome is such. (Nightingale, p. 263.) (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/19/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdef0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 19:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

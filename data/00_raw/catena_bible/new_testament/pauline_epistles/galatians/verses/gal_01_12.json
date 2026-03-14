@@ -1,0 +1,69 @@
+{
+  "verse_reference": "GAL 1:12",
+  "verse_text": "Verse text for GAL 1:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/1/12",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "For I neither received it of Prayer of Manasseh , neither was I taight it, but by the revelation of Jesus Christ. Viz, when I was carried by Him into the third heaven ( 2 Corinthians 12:1).",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/12",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52601",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Those who are taught by men, when they have been vehement and hot in the opposite cause, require time and much ingenuity for their conversion. But he who was so suddenly converted and was rendered clean and sober at the very peak of his madness had obviously received a divine vision and teaching.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/12",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c666f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "Do you see how he constantly affirms that he became God’s disciple, in contrast to the claim of those who imposed the circumcision upon the Galatians, arguing that those who become disciples of Christ, i.e. Peter and James and John, permit the circumcision, whereas he is a disciple of the disciples and, therefore, they should not pay attention to them rather than to him?",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/12",
+      "full_content_url": "https://catenabible.com/com/57558e003c6effa740dddbab",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pamphilus of Caesarea",
+      "period": "AD309",
+      "content": "Therefore he shows plainly that Jesus was not a [mere] man; and if he is not a man then without doubt he is God. .",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/12",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c666ef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 1:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

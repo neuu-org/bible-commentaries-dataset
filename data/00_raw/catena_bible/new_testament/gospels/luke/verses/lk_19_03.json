@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 19:3",
+  "verse_text": "Verse text for LK 19:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/19/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And he sought to see who Jesus was; and could not for the crowd, because he was little of stature. Cornelius a Lapide And he could not. But he was exalted in mind. Many of the heroes and saints were men of small stature, as I have shown in Zechariah 4:0 and Sirach 11:3 , on the words, \"The bee is small among flying things, but her fruit is the chief of sweetest things. \" It is in minimis that the supreme majesty of God, His glory, strength, and greatness, most clearly shine forth. \"The crowd,\" says S. Cyril, \"is the confusion of a multitude, which we must climb above, if we wish to see Christ.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/19/3",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52075",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And he sought to see. He took pains to see Jesus in person as he had heard of His reputation, from the fame of His virtues and miracles. For we wish to see great men and to know them in person. But Zacchæus, beside his natural wish, was impelled by one above nature, the inspiration of the Holy Spirit. He desired to see Jesus that he might be absolved of his sins by Him, and be justified and made holy. \"He wished,\" says S. Chrysostom in his Homily on Zacchaeus, \"to know by sight one whom he had known before in imagination, to see the face of Him whom he had seen before in mind, to look upon Him as present whom he had never seen do any works; that the love of Christ which he had conceived in his heart might be gratified to the full by the sight of his eyes.\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/19/3",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52074",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 19:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:54",
+  "verse_text": "Verse text for PS 119:54",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/54",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "54. \"Weariness hath held me; for the ungodly that forsake Thy law\" (ver. 53). \"Thy statutes have been my songs in the house of my pilgrimage\" (ver. 54). This is the low estate, in the house of mortality, of the man who so journeth away from Paradise and the Jerusalem above, whence one going down to Jericho fell among robbers; but, in consequence of the deed of mercy which was done him by that Samaritan, the statutes of God became his song in the house of his pilgrimage; although he was weary for the ungodly that forsook the law of God, since he was compelled to converse with them for a season in this life, until the floor be threshed. But these two verses may be adapted to the two clauses of the preceding verse, respectively.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/54",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6636",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Your statutes have been my songs in the house of my pilgrimage. Here on earth I am comforted with singing the praises of thy law, which makes the observers just. (Worthington) The captives would not give holy things to dogs: but, among themselves, they sung canticles, Psalm cxxxvi. (Calmet) (Colossians iii. , 1 Paralipomenon xxix. , and Hebrews xi. ) These pious exercises were opposed to the scandalous discourses of sinners.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/54",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be408",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:54",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

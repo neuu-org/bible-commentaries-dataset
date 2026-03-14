@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 30:1",
+  "verse_text": "Verse text for EX 30:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/30/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And you shall make an altar to burn incense upon: of acacia wood shall you make it. An altar to burn incense. This burning of incense was an emblem of prayer, ascending to God from an inflamed heart. See Psalm cxl. 2; Apocalypse v. 8, and viii. (Challoner) Nothing but incense was daily offered by the high priest upon this altar. On the day of expiation he touched the four corners with blood. It stood over-against the bread of proposition.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/30/1",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc476",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "An altar to burn incense: This burning of incense was an emblem of prayer, ascending to God from an inflamed heart. See Ps. 140. 2; Apoc. 5. 8, and 8. 4.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/30/1",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 30:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

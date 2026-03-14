@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 35:2",
+  "verse_text": "Verse text for PS 35:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/35/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Judge Thou, O Lord\" (saith he), \"them that hurt me, and fight Thou against them that fight against me\" (ver. \"If God be for us, who can be against us. \" And whereby doth God this for us. \"Take hold\" (saith he) \"of arms and shield, and rise up to my help\" (ver. A great spectacle is it, to see God armed for thee. And what is His Shield, what are His Arms. \"Lord,\" in another place saith the man who here also speaketh, \"as with the shield of Thy good-will hast Thou compassed us. \" But His Arms, wherewith He may not only us defend, but also strike His enemies, if we have well profited, shall we ourselves be. For as we from Him have this, that we be armed, so is He armed from us. But He is armed from those whom He hath made, we are armed with those things which we have received from Him who made us: These our arms the Apostle in a certain place calleth, \"The shield of Faith, the helmet of Salvation, and the sword of the Spirit, which is the Word of God. \" He hath armed us with such arms as ye have heard, arms admirable, and unconquered, insuperable and shining; spiritual truly and invisible, because we have to fight also against invisible enemies. If thou seest thine enemy, let thine arms be seen. We are armed with faith in those things which we see not, and we overthrow enemies whom we see not.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/35/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6977",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Arms. Hebrew magen, \"buckler \"of a smaller size (1 Kings xvii. 6, 7.) than the shield, (tsinna) which was used to cover the whole body. St. Jerome renders the latter word by has tam, \"the spear. \"(Calmet)\nBut this text speaks of defensive weapons.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/35/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdfb7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 35:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 2:7",
+  "verse_text": "Verse text for JN 2:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/2/7",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Jesus said unto them, Fill the water pots with water. And they filled them up to the brim. Cornelius a Lapide Jesus saith, &c. Chrysostom asks, \"But why did He not Himself fill the waterpots with water, and then turn it into wine. \" He gives the right answer, saying, in order that He might have them as witnesses to the miracle who had drawn the water, lest any fraud or trickery should be supposed. To the brim: lest, if any vacant space were left, Christ might have been supposed to have poured wine on the top of the water, which might have communicated the flavour of wine to the water underneath.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/2/7",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520f1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The ministers accomplish what is commanded, and by unspeakable might was the water changed into wine. For what is hard to Him Who can do all things? He that calleth into being things which are not, how will He weary, trans-ordering into what He will things already made? They marvel at the thing, as strange; for such are Christ's works to look upon. But the governor of the feast charges the bridegroom with expending what was better on the latter end of the feast, not unfitly, as appears to me, according to the narration of the story.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/2/7",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabe4d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Methodius of Olympus",
+      "period": "AD311",
+      "content": "They heard of the wine that, without previous culture, was ministered;",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/2/7",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb2e5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 2:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

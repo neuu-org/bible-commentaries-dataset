@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EST 9:1",
+  "verse_text": "Verse text for EST 9:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/9/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "As. Hebrew, \"(which is the month of Adar) when the king's command and edict drew near to be executed, in that day when the enemies of the Jews hoped to have power over them, (though it turned out that the Jews had dominion over those who hated them.) \"(Haydock)\nTo revenge The Jews, on this occasion, by authority from the king, were made executioners of the public justice, for punishing by death a crime worthy of death, viz., a malicious conspiracy for extripating their whole nation; (Challoner) so inscrutable are the judgments of God, who never wholly abandoned his people! The old Vulgate passes over the first 19 verses, with the 24th, 25th, and 28th. (Calmet)\nIn this whole history we cannot but admire the Providence of God. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/9/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdafc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now in the twelfth month, that is, the month Adar, on the thirteenth day of the same, when the king's command and his decree drew near to be executed, in the day that the enemies of the Jews hoped to have power over them, (though it was turned to the contrary, that the Jews had rule over them that hated them;) To revenge: The Jews on this occasion, by authority from the king, were made executioners of the public justice, for punishing by death a crime worthy of death, viz. , a malicious conspiracy for extirpating their whole nation.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/9/1",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9e98",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 9:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

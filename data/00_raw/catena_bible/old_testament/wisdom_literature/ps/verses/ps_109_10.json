@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 109:10",
+  "verse_text": "Verse text for PS 109:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/109/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let his children be continually vagabonds, and beg: let them seek their bread also out of their desolate places. The Romans forced the miserable Jews to pay taxes, and Domitian banished them from Rome, to live in a wood, where their furniture was only a basket and some hay, and their wives came to beg. Cophino fænoque relicto Arcanam Judæa tremens mendicat in aurem. (Juvenal, Sat. ) (Calmet) At the last siege, some of their bodies were ripped open, to discover the gold which they might have swallowed. (Josephus, Jewish Wars vi. ) See Deuteronomy xxiv. (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/109/10",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be397",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 109:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

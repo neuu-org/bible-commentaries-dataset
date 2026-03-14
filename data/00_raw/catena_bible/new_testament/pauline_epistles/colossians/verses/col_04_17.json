@@ -1,0 +1,47 @@
+{
+  "verse_reference": "COL 4:17",
+  "verse_text": "Verse text for COL 4:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/4/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "What St. Paul here addresses to Archippus, gives us reason to presume that he was then bishop of the Colossians, having succeeded Epaphras, who was then prisoner at Rome with St. Paul. (Bible de Vence)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/4/17",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c01b4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And say to Archippus, Take heed to the ministry which you have received in the Lord, that you fulfill it. Wherefore does he not write to him? Perhaps he needed it not, but only a bare reminding, so as to be more diligent.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/4/17",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddd03",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 4:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

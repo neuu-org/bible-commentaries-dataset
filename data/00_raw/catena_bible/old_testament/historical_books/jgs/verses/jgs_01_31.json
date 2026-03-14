@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 1:31",
+  "verse_text": "Verse text for JGS 1:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/1/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Neither did Asher drive out the inhabitants of Acco, nor the inhabitants of Sidon, nor of Ahlab, nor of Achzib, nor of Helbah, nor of Aphik, nor of Rehob: Accho. Hebrew haco. The Greeks not knowing the derivation of this word, supposed that the city was so called from aké, \"a remedy \"as they pretend that Hercules was cured in this place. It was also called Ptolemais, after the king of Egypt. The little river Belus, and the famous bed of sand so proper for making glass, were in the neighbourhood. The situation is unknown, unless it be Aleppo. They say it is the famous city of Berea.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/1/31",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bccb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 1:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

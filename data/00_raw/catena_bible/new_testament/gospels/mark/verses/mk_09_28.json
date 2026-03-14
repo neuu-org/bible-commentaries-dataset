@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 9:28",
+  "verse_text": "Verse text for MK 9:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Fasting is the weapon of choice for battling with the more dreadful demons. Should we be surprised if the expulsion of the spirit of iniquity requires the indwelling of the Holy Spirit? On Fasting",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/28",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52ddc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "The disciples were afraid they had lost the grace which the Lord had given them, and this was why they had not been able to cast out the demon. See that out of respect they approached the Lord privately. This kind—what kind? The kind which may make their abode in lunatics, or, in general, the whole race of demons, does not come out except through prayer and fasting. Both the one suffering, and the one about to heal, must fast. Both are necessary. Good sense dictates that the one suffering must fast. He must not only fast, but also pray; and he must not only pray, but also fast, for true prayer is rendered when it is yoked to fasting. When the one who prays is not weighed down by the effects of food, his prayer is not burdened and ascends easily.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/9/28",
+      "full_content_url": "https://catenabible.com/com/57eb0d50b0d44ee10cfac18a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

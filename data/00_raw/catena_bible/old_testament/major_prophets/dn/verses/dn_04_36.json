@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 4:36",
+  "verse_text": "Verse text for DN 4:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/4/36",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh At the same time my reason returned unto me; and for the glory of my kingdom, my honor and brightness returned unto me; and my counselors and my lords sought unto me; and I was established in my kingdom, and excellent majesty was added unto me. Well then, according to those who argue against the historical character of this account, all the angelic powers are going to seek out the devil again, and he will increase to such a degree of might, that the very one who formerly exalted himself against God is going to be greater than he was before his sin.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/36",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 4:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

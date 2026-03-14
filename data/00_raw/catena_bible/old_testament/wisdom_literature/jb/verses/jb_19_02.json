@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 19:2",
+  "verse_text": "Verse text for JB 19:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/19/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "The sayings of the holy man, as we have already often said, are to be understood as spoken sometimes in his own person, as sometimes in the voice of the Head and sometimes as a prefigurement of the universal church. Now the soul of the righteous is deeply distressed when people launch severe sentences against the good; they have not learned to lead good lives. By their words they claim righteousness for themselves, while in their actions they prove to be its enemies. To the friends of blessed Job, who bear the type of heretics, he rightly answers, “How long will you torment me and break me in pieces with words?” For good people are “broken into pieces” by the words of the wicked. They come out against them with words of the lips while they lie low either in a corrupt faith or in bad habits.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/19/2",
+      "full_content_url": "https://catenabible.com/com/5e1b60558bc66721fe4ef66e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "29. The sayings of the holy man, as we have already often said, are to be understood as spoken sometimes in his own person, sometimes in the voice of the Head, and sometimes in a figure of the Church Universal. Now the soul of the righteous is deeply distressed, when those persons launch severe sentences against the good, who have not learned to lead good lives, and by the words of the mouth claim righteousness to themselves, to which in practice they are enemies. Whence to the friends of blessed Job, who, as we have already often said, bear a type of heretics, himself rightly answers, How long will ye vex my soul, and wear me with words? For good men are ‘worn’ with the words of the wicked, when those swell out against them in words of the lips, who lie low either in a corrupt faith, or in bad habits.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/19/2",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd04d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 19:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

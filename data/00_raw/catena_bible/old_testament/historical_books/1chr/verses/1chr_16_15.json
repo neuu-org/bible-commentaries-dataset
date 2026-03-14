@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1CHR 16:15",
+  "verse_text": "Verse text for 1CHR 16:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/16/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "As it has been supposed by some that the book of Psalms merely consists of hymns to God and sacred songs and that we shall look in vain in it for predictions and prophecies of the future, let us realize distinctly that it contains many prophecies, far too many to be quoted now, and it must suffice for proof of what Isaiah to make use of two psalms ascribed to Asaph, written in the time of David. For Asaph was one of the temple musicians then, as is stated in the book of Chronicles, and was inspired by the divine Spirit to speak the psalms inscribed with his name.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/16/15",
+      "full_content_url": "https://catenabible.com/com/5e1b64748bc66721fe4ef79a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 16:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

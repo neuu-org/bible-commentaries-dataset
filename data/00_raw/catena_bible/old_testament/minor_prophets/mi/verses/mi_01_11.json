@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MI 1:11",
+  "verse_text": "Verse text for MI 1:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/1/11",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In the Hebrew, the beautiful place is expressed by the word Shaphir, which some take for the proper name of a city. (Challoner) It is thought that St. Jerome has given the sense of several proper names, (Calmet) or this has been done since in the Vulgate by some other. In the edition of his works, (A. 1533) we read, \"The dwelling of Saphir passes from you: she hath not come out who inhabits Sennan. The house of Asel shall receive \"(Haydock) Saphir or Diocesarea was a strong place (Josephus, Jewish Wars ii. ) of Galilee, where Saanan was also situated, Judges iv. Haetsel may denote \"the vicinity. \"(Calmet) People shall not attempt to comfort their neighbours, being themselves under the greatest alarms. (Haydock) Forth. That is, they that dwelt in the confines came not forth, but kept themselves within, for fear. Adjoining, viz. , Judea and Jerusalem, neighbours to Samaria, and partners in her sins, shall share also in her mourning and calamity: though they had pretended to stand by themselves, trusting in their strength. (Challoner) All the inhabitants shall be led into captivity naked.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mi/1/11",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4c3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The house adjoining: Viz., Judea and Jerusalem, neighbours to Samaria, and partners in her sins, shall share also in her mourning and calamity; though they have pretended to stand by themselves, trusting in their strength.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/1/11",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f29c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "She went not forth: that is, they that dwelt in the confines came not forth, but kept themselves within, for fear.-- Ibid.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/1/11",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f29b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 1:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

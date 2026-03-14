@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:20",
+  "verse_text": "Verse text for PS 18:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The LORD rewarded me according to my righteousness; according to the cleanness of my hands has he recompensed me. Augustine of Hippo 21. \"And the Lord shall reward Me according to My righteousness\" (ver. And the Lord shall reward Me according to the righteousness of My good will, who first showed mercy, before that I had the good will. \"And according to the cleanness of My hands He will recompense Me. \" And according to the cleanness of My deeds He will recompense Me, who hath given Me to do well by bringing Me forth into the broad place of faith.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/20",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6855",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Will reward. St. Jerome, \"hath rewarded \"(Calmet) yet the edition of 1533 reads retribuet. (Haydock)\nJustice, with respect to my enemies, whom I have not injured; (Calmet) or my sincere desire to serve God. (Theodoret)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/20",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bded4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

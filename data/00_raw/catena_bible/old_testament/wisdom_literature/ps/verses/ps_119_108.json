@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:108",
+  "verse_text": "Verse text for PS 119:108",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/108",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "107. \"Make the freewill offerings of my mouth well pleasing, O Lord\" (ver. 108): that is, let them please Thee; do not reject, but approve them. By the freewill offerings of the mouth are well understood the sacrifices of praise, offered up in the confession of love, not from the fear of necessity; whence it is said, \"a freewill offering will I offer Thee.\" But what doth he add? \"and teach me Thy judgments\"? Had he not himself said above, \"From Thy judgments I have not swerved\"? How could he have done thus, if he knew them not? Moreover, if he knew them, in what sense doth he here say, \"and teach me Thy judgments\"? Is it as in a former passage, \"Thou hast dealt in sweetness with Thy servant:\" presently after which we find, \"teach me sweetness\"? This passage we explained as the words of one who was gaining in grace, and praying that he might receive in addition to what he had received.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/108",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6667",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Free offerings of praise and thanks, (St. Augustine) or the works of supererogation, (St. Hilary, Theodoret) which are not commanded, though acceptable to God, (Worthington) and undertaken for the sake of greater perfection. (Calmet)\nThe evangelical counsels of voluntary poverty, are of this nature. Still we acknowledge that we are useless servants, (Luke xvii. 10.) with regard to God. We can give him nothing, which he has not first given us. Our piety will redound to our own advantage. (Haydock)\nThe psalmist may allude to his solemn engagement, (ver. 106.; Calmet) which he made with perfect freedom and willingness, though it was not a matter of choice. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/108",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be433",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:108",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

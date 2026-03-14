@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 51:3",
+  "verse_text": "Verse text for PS 51:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/51/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"For mine iniquity I acknowledge, and my delinquency is before me ever\" (ver. I have not put behind my back what I have done, I look not at others, forgetful of myself, I pretend not to pull out a straw from my brother's eye, when there isa beam in my eye; my sin is before me, not behind me. For it was behind me when to me was sent the Prophet, and set before me the parable of the poor man's sheep. For saith Nathan the Prophet to David, \"There was a certain rich man having very many sheep; but a poor man his neighbour had one little ewe sheep, which in his bosom and of his own food he was feeding: there came a stranger to the rich man, nothing from his flock he took, for the lithe ewe sheep of the poor man his neighbour he lusted;her he slew for the stranger: what doth he deserve. \" But the other being angry doth pronounce sentence: then the king, evidently knowing not wherein he had been taken, declared the rich man deserving of death, and that the sheep be restored fourfold. Most sternly and most justly. But his sin was not yet before him, behind his back was what he had done: his own iniquity he did not yet acknowledge, and therefore another's he did not pardon. But the Prophet, being for this purpose sent, took from his back the sin, and before his eyes placed it, so that he might see that sentence so stern to have been pronounced against himself. For cutting and healing his heart's wound, he made a lancet of his tongue.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/51/3",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a9a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Me. I do not forget it, but am covered with shame. (Calmet)\nSin is our greatest enemy, and continually cries for vengeance. (Haydock)\nWhile David did not confess, his sin lay heavy upon him. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/51/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be0ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 51:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 26:3",
+  "verse_text": "Verse text for PS 26:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/26/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "3. \"Prove me, O Lord, and try me\" (ver. 2). Lest, however, any of my secret sins should be hid from me, prove me, O Lord, and try me, making me known, not to Thee from whom nothing is hid, but to myself, and to men. \"Burn my reins and my heart.\" Apply a remedial purgation, as it were fire, to my pleasures and thoughts. \"For Thy mercy is before mine eyes\" (ver. 3). For, that I be not consumed by that fire, not my merits, but Thy mercy, whereby Thou hast brought me on to such a life, is before my eyes. \"And I have been pleasing in Thy truth.\" And since my own falsehood hath been displeasing to me, but Thy truth pleasing, I have myself been pleasing also with it and in it.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/26/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68eb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Truth. Before such a judge, I fear no calumny. I have always endeavoured to imitate these divine perfections. (Calmet)\nHebrew, \"I have walked constantly in thy truth \"which could not be without loving it. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/26/3",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf3a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 26:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

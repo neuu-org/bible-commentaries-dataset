@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 1:8",
+  "verse_text": "Verse text for EZ 1:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/1/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wings. Their arms were covered with feathers, and the hand appeared at the extremity; or they had four arms under the wings, chap. x. 8. They all came from the shoulders, so as to correspond with the four faced animal, ver. 6. (Calmet)\nOthers believe that each face had four wings, so that the animal would have sixteen. (Maldon at)\nIn Isaias ix. 2., the cherub has six wings. The form was variable, as there was nothing in nature similar. They were perhaps designed to represent the eternity and dominion of God over the whole creation, ver. 28. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ez/1/8",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befd1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 1:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

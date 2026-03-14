@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JB 18:18",
+  "verse_text": "Verse text for JB 18:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/18/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh He shall be driven from light into darkness, and chased out of the world. He is led ‘from light to darkness,’ when for honour in the present life, he is condemned to eternal punishments. And hence it is more plainly added, And translate him out of the world. For he is ‘translated out of the world,’ when upon the Judge above appearing, he is taken away from this world, in which he wickedly glories; and for this, that when the end of the world breaks in upon him, he is condemned with all his followers.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/18/18",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd049",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 18:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

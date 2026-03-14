@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 31:1",
+  "verse_text": "Verse text for IS 31:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/31/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Let our course take us to regions above, because it is better to ascend. Finally, as was read today, “Woe to them that go down to Egypt.” Surely it is not wrong to go to Egypt, but to change to the ways of the Egyptians, to change to the violence of their treachery and to the ugliness of their wantonness—this is wrong. He that changes in this way descends, and one who descends falls. Let us keep away, then, from the Egyptian who is a man, but [let us] not [keep away] from God. Even the king of Egypt himself fell under the dominion of his own vices and in comparison with him Moses was accounted a god, ruling over kingdoms and subjecting powers to himself. So we read that it was said to Moses: “I shall make you a god to Pharaoh.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/31/1",
+      "full_content_url": "https://catenabible.com/com/5e4f7fb9c849cf49a740e432",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Chariots. He continues to inveigh against this practice, chap. xxx. 16. (Calmet)\nSalmanasar will ruin the ten tribes. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/31/1",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea4f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 31:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

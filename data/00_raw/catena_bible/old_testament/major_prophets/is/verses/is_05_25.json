@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 5:25",
+  "verse_text": "Verse text for IS 5:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/5/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "“Therefore the anger of the Lord was kindled against his people.” He wanted them to be a people of his own and to be called as such, but this is not what they wanted. Because of this he gives a sign of approaching war and of a multitude of the slain that would fill the mountains with dead corpses. The whole country would become full of their dead. All this would happen to them at the hands of the enemy invaders. The enemies did not do this on their own; rather, God himself brought them about, drawing and leading their enemies to the siege of the accused Israelites.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/5/25",
+      "full_content_url": "https://catenabible.com/com/5e4f7f3ec849cf49a740e211",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Therefore is the anger of the LORD kindled against his people, and he has stretched forth his hand against them, and has stricken them: and the hills did tremble, and their dead bodies were as refuse in the midst of the streets. For all this his anger is not turned away, but his hand is stretched out still. After the ruin of Jerusalem, the people were led away. (Calmet) Grievous sins must be severely punished, as was that of the murderers of Christ. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/5/25",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8ff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 5:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

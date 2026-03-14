@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 13:9",
+  "verse_text": "Verse text for JB 13:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/13/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Or. Hebrew, \"Is it good that he should examine you, would you escape? \"(Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/13/9",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc0b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "39. Heretics shew God deceit in that they fabricate such things as cannot be pleasing to the very Being, in Whose behalf they say them. And whilst they set themselves as if to defend, they only offend Him, in that they are brought to the ground in [A.B.C.D.M. ‘fall into’] fighting against Him, Whom they appear by preaching to be serving. Hence it is said by the Psalmist, That Thou mightest still the enemy and the defender. [Ps. 8, 2] For every heretic is to Almighty God an ‘enemy and defender,’ for wherein he strives in his way to defend Him, therein he fights against His truth. But because nothing can escape God’s sight, He judges according to that in them, which they think within their heart, but not by their appearing without to be doing Him service. Therefore since by their frauds ‘as a man is deceived, God is not so deceived,’",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/13/9",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddcfca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 13:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

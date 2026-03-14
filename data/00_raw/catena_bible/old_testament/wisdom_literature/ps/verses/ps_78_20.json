@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 78:20",
+  "verse_text": "Verse text for PS 78:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/78/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"And they tempted God in their hearts, in order that they might seek morsels for their souls\" (ver. It is one thing to ask in believing, another thing in tempting. Lastly there followeth, \"And they slandered God, and said, Shall God be able to prepare a table in the desert. \"For He smote the rock, and the waters flowed, and torrents gushed forth: will He be able to give bread also, or to prepare a table for His people. Not believing therefore, they sought morsels for their souls. Not so the Apostle James doth enjoin a morsel to be asked for the mind, but doth admonish that it be sought by believers, not by such as tempt and slander God. \"But if any one of you,\" he saith, \"doth lack wisdom, let him ask of God, who doth give to all men abundantly, and doth not upbraid, and it shall be given to him: but let him ask in faith, nothing wavering. \" This faith had not that generation which \"had not directed their heart, and the spirit thereof had not been trusted with God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/78/20",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c3c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bread. Including all sorts of food. (Worthington)\nTable. Hebrew, \"flesh. \"It is true we have water and manna, but we want something more solid and agreeable. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/78/20",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be1ee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 78:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 11:40",
+  "verse_text": "Verse text for LK 11:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/11/40",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Also in the same place: \"He who made that which is within, made that which is without also. But give alms, and, behold, all things are pure unto you.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/11/40",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbdb0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "If, then, the Son was not ashamed to ascribe the knowledge of that day to the Father only, but declared what was true regarding the matter, neither let us be ashamed to reserve for God those greater questions which may occur to us. For no man is superior to his master.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/11/40",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbdae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "By him, He warns us \"to be ready \"for this reason, because \"we know not the hour when the Son of man shall come\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/11/40",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbdaf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 11:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

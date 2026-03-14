@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 14:9",
+  "verse_text": "Verse text for ROM 14:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/14/9",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "The creation was made by Christ the Lord, but because of sin it has become separated from its maker and taken captive. But God the Father sent his Son from heaven to earth to teach his creation what to do in order to escape the hands of its captors, so that his work should not perish. For this reason he allowed himself to be killed by his enemies, so that by going down to hell he could condemn sin, because he was killed as an innocent man, and liberate those whom the devil held there. Therefore, since he showed the way of salvation to the living and offered himself for them and also delivered the dead from hell, he is Lord of both the living and the dead. For he has turned the lost into his servants. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/14/9",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5310",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "And he renders the reason why the Son of God did these things, saying, \"For to this end Christ both lived, and died, and revived, that He might rule over the living and the dead.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/14/9",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbb19",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Look how Christ takes care of the dead. If he is concerned about the departed, it is clear that he will be concerned about the living as well. For nothing escapes his lordship…. Christ put down his own life for our salvation. Having gone to so much trouble and expense, he is not likely to consider us as being of no value.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/14/9",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5311",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Methodius of Olympus",
+      "period": "AD311",
+      "content": "The saint says at the end: The words, \"For to this end Christ both died, and rose, and revived, that He might be Lord both of the dead and living\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/14/9",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbb1b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 14:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

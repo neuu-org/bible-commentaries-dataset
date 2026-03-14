@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 13:9",
+  "verse_text": "Verse text for EX 13:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/13/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And it The festivals appointed by God and his Church, naturally remind us of the favours which we have received, and help us to meditate on the law. (Haydock)\nThe Jews, understanding the precept literally, write verses taken from this chapter, and Deuteronomy vi. and xi., upon parchment, and bind these tephilins, or phylacteries, on their forehead. But if these scrolls were requisite, why do they not also put them in their mouth and in their heart? Jesus Christ condemns the vanity of the Pharisees, who wore these bandages extremely large, Matthew xxiii. 5. The Mahometans teach their scholars, by writing the Coran upon a tablet, and exposing it to their view: (Calmet) a plan lately introduced in England with great success by Mr. Lancaster.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/13/9",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc35a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 13:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

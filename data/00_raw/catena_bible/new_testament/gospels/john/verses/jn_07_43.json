@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 7:43",
+  "verse_text": "Verse text for JN 7:43",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/7/43",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "So there was a division among the people because of Him. Some accusing Him of being an innovator, others excusing Him, and lauding Him as a Prophet.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/7/43",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e521da",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "To no purpose do they wrangle and are split into diverse opinions, some supposing that He is the Prophet, others the Christ. And the cause of their division, that they know not Christ, nor understand the accuracy of the Holy Scriptures: for else would they believing that none other is Jesus than the Prophet of the Law, have departed from their unseasonable dispute.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/7/43",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabf34",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 7:43",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

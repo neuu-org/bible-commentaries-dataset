@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 2:34",
+  "verse_text": "Verse text for DN 2:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/2/34",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You saw till a stone was cut out without hands, which struck the image upon its feet that were of iron and clay, and broke them to pieces. Hippolytus of Rome You saw till that a stone was cut. You saw, as it were, a stone cut without hands, and smiting the image upon its feet. For the human kingdom was decisively separated from the divine; with reference to which it is written, as it were cut. The stroke, however, smites the extremities, and in these it broke all dominion that is upon earth.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/2/34",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac131",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 2:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

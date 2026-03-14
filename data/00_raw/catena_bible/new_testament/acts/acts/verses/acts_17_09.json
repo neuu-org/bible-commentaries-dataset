@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 17:9",
+  "verse_text": "Verse text for ACTS 17:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/17/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "See how by giving security Jason sent Paul away: so that he gave his life (to the hazard) for him. (α) And brethren, etc.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/17/9",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b93fb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Peter of Alexandria",
+      "period": "AD311",
+      "content": "For after that they had been very burdensome to them for his name, and had troubled the people and the rulers of the city, \"having taken security \"he says, \"of Jason, and of the others, they let them go. And the brethren immediately sent away Paul and Silas by night unto Berea.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/17/9",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae6a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 17:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

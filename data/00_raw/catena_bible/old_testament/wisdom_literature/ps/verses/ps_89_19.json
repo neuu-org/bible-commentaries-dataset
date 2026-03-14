@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 89:19",
+  "verse_text": "Verse text for PS 89:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "19. \"Thou spakest sometime in vision unto Thy sons, and saidst\" (ver. 19). Thou spakest in thy vision. Thou didst reveal this to Thy Prophets. For this reason Thou spakest in vision, that is, in revelation: whence Prophets were called seers. They saw something within, which they were to speak without: and secretly they heard what they preached openly. Then \"Thou spakest in vision unto Thy sons, and saidst, I have laid help upon One that is mighty.\" Ye understand Who is meant by mighty? \"I have exalted One chosen out of the people.\" And Who is meant by chosen? One who, ye rejoice, is already exalted.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/89/19",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6ce5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then you spoke in a vision to your holy one, and said, I have laid help upon one that is mighty; I have exalted one chosen out of the people. Then, may relate to a distant time, when God chose Israel. (Menochius) Saints. Hebrew, \"merciful ones. \"Samuel, or Nathan, Septuagint, Arabic, have \"sons. \"The rest read \"saints. Jerome) People. As Moses had written, Deuteronomy xvii. (Calmet) This regards David, as a figure of the Messias, (Luke i. , and Ezechiel xxxiv. ; Berthier) in whom it was more fully verified, 2 Kings v. , and Acts xiii. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/19",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be298",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

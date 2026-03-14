@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 14:3",
+  "verse_text": "Verse text for 1KGS 14:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/14/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“At that time Abijah son of Jeroboam fell sick,” and [the king], being worried for the health of his son, sent his wife to the prophet Ahijah because he was confident that through the prayers of that holy man he would obtain from God, whom he had repudiated, the healing of his son. And he did not want the queen to appear [before the prophet] without a present against the custom of the ancestors. Therefore “she took ten loaves of bread,” that is, ten soldiers’ biscuits, “a jar of honey and dry fruits”: the Greek text has staphylas, that is, grapes, instead of dry fruits. He did not want her to offer a regal present, lest she might appear in her real nature.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/14/3",
+      "full_content_url": "https://catenabible.com/com/5e1b67d28bc66721fe4ef90d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And take with you ten loaves, and cakes, and a jar of honey, and go to him: he shall tell you what shall become of the child. Hebrew nikkudim, \"cakes full of holes\", Josue ix. (Calmet) Septuagint give a double translation, \"cakes and raisins. \"Arabic, \"fruits. \"Syriac adds \"dried. \"It was customary to make presents to the prophets, 1 Kings ix. (Calmet) But these were mean, that the woman might not be known. (Du Hamel) It is not said that Ahias deigned to receive them. Jerome in Mic.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/14/3",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd330",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 14:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

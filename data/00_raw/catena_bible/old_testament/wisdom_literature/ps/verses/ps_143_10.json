@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 143:10",
+  "verse_text": "Verse text for PS 143:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/143/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Teach me to do Thy will, for Thou art my God\" (ver. Glorious confession. glorious rule. \"For Thou,\" saith he, \"art my God. \" To another will I hasten to be re-made, if by another I was made. Thou art my all, \"for Thou art my God. \" Shall I seek a father to get an inheritance. \"Thou art my God,\" not only the Giver of mine inheritance, but mine Inheritance itself. \"The Lord is the portion of mine inheritance. \" Shall I seek a patron, to obtain redemption. \"Thou art my God. \" Lastly, having been created, do I desire to be re-created. \"Thou art my God,\" my Creator, who hast created me by Thy Word, and re-created me by Thy Word. \"Teach Thou me :\" for it cannot be that Thou art my God, and yet I am to' be mine own master. See how grace is commended to us. This hold fast, this drink in, this let none drive out of your hearts, lest ye have \"a zeal, of God, but not according to knowledge. \" Say then this: \"Thy good Spirit,\" not my bad one, \"Thy good Spirit shall lead me into the right land. \" For my bad spirit hath led me into a crooked land. And what have I deserved. What can be reckoned as my good works without Thy aid, through which I might obtain and be worthy to be led by Thy Spirit into the right land.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/143/10",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6794",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Teach me to do your will; for you are my God: your Spirit is good; lead me into the land of uprightness. I look for a favourable wind, like one at sea, in danger of suffering shipwreck, and I apply to God, to the Holy Spirit the Comforter. Even (Calmet) and not like this country, full of precipices. In Judea the right worship was observed. (Haydock) The penitent may rest assured, that God will free him from all perils, (Worthington) and bring him (Hebrew) \"into the land of rectitude \"which is heaven. The Holy Spirit is here represented as a distinct person.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/143/10",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be514",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 143:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

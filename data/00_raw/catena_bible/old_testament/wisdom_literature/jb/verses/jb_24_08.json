@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 24:8",
+  "verse_text": "Verse text for JB 24:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/24/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Stones, for their bed, though they be so wet. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/24/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdcd6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "‘The showers of the mountains’ are the words of the learned. Of which same ‘mountains’ it is delivered by the voice of Holy Church; I lifted up mine eyes unto the hills: and so those persons, ‘the showers of the mountains wet,’ in that the streams of the holy fathers fill them to the full. But as we have already said before, ‘the garment’ we take for the covering of good practice, with which a man is covered, that in the eyes of Almighty God the filthiness of his depravity should be clothed over. Whence it is written, Blessed are they whose transgression is forgiven, whose sin is covered. 32, 1] Whom do we understand by the title of ‘the stones’ but the strong ones within the bounds of Holy Church, to whom it is declared by the first shepherd; Ye also as lively stones are built up a spiritual house. 2, 5] And so those who on the grounds of their own practice have no reliance, fly to the protection of the holy Martyrs, at their sacred bodies set themselves to tears, and entreat, at their intercessions, to obtain pardon [a]. What then do these do by such self-abasement, but because they lack the covering of good practice ‘embrace the stones.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/24/8",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd0d4",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 24:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

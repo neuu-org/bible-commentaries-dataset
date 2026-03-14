@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JL 1:7",
+  "verse_text": "Verse text for JL 1:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jl/1/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "O wretched beings, who by going after the praises of men waste to themselves all the fruits of their labors, and while they aim to show themselves to the eyes of others, blast all that they do. When the evil spirits prompt them to boastfulness, taking them for a prey they strip bare their works, as we have said. Hence Truth, in setting forth by the prophet the rancor of our old enemies under the form of a particular people, says, “It has laid waste my vines and splintered my fig trees; it has stripped off their bark and thrown it down; their branches are made white.” .",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jl/1/7",
+      "full_content_url": "https://catenabible.com/com/5836709b8a58883142aa6a20",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JL 1:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

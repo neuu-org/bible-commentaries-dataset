@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 25:27",
+  "verse_text": "Verse text for LV 25:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/25/27",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then let him count the years of the sale thereof, and restore the overpayment unto the man to whom he sold it; that he may return unto his possession. An estimation shall be made of what the buyer would probably have gotten for the fruits of the land, till the year of jubilee, and that sum shall be given to him; (Calmet) or what benefit he has already derived from the land shall be computed; so that, if he purchased it for 100 sicles, and had received the value of 80, he should be content with the addition of 20 more, ver.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/25/27",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc68a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 25:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

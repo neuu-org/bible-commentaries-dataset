@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 1:16",
+  "verse_text": "Verse text for PRV 1:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/1/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "It is good for the … feet … that they be not swift to shed blood or to run to evil, but that they be prompted to run to the gospel and the prize of the high calling, and to receive Christ who washes and cleanses them. On Holy Baptism, Oration",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/1/16",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8384",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "It is not fair to be too hasty in casting out an offender but slow in receiving him when he returns; to be forward in cutting off but unmerciful when he is sorrowful and ought to be healed. For of such as these speaks the divine Scripture: “Their feet run to mischief; they are hasty to shed blood.” … Now the way of peace is our Savior Jesus Christ, who has taught us, saying, “Forgive, and you shall be forgiven. Give, and it shall be given to you,” that is, give remission of sins, and your offenses shall be forgiven you. .",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/1/16",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8383",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 1:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

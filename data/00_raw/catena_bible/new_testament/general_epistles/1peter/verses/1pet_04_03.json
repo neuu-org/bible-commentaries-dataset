@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1PET 4:3",
+  "verse_text": "Verse text for 1PET 4:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/4/3",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "For the time past of our life will suffice us to have done the will of the Gentiles, when we walked in licentiousness, lusts, excess of wine, reveling, carousing, and abominable idolatries: \"For \"says Peter, \"the time past of our life may suffice us to have wrought the will of the Gentiles, when we walked in lasciviousness, lusts, excess of wine, revellings, banquetings, and abominable idolatries. And to the Gnostic false opinion is foreign, as the true belongs to him, and is allied with him. Wherefore the noble apostle calls one of the kinds of fornication, idolatry,.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/4/3",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa71",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For the time past is sufficient As if he said, you who were Gentiles, have already lived too long in vices before your conversion; so that they who are not yet converted, admire at the change they see in you, make a jest of you, talk against you for your not running on with them in the same wicked and shameful disorders: but they shall render an exact account of all to the just Judge of the living and the dead. For as I told you before, in the last chapter, (ver. 19.) for this cause (i.e. because Christ is judge of all) he descended to the place where the souls of the dead were, and preached to them, shewing himself, their Redeemer, who judgeth and condemneth those who had lived according to the flesh, but gave life to those who had lived well, or done penance according to the spirit of God. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1pt/4/3",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03b2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Shepherd of Hermas",
+      "period": "AD150",
+      "content": "\"\"What, sir \"say I, \"are the evil deeds from which we must restrain ourselves? \"\"Hear \"says he: \"from adultery and fornication, from unlawful revelling,",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/4/3",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 4:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

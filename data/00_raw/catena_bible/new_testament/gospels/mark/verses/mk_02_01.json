@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 2:1",
+  "verse_text": "Verse text for MK 2:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/2/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Christ healeth one sick of the palsy, 14 calleth Matthew from the receipt of custom, 15 eateth with publicans and sinners, 18 excuseth his disciples for not fasting, 23 and for plucking the ears of corn on the Sabbath-day.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/2/1",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e3b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And again He entered into Capernaum after some days. A few MSS. read, after eight days.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/2/1",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e3c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "What does this mean, after some days. (Theophylact is here interpreting for his contemporary Greek reader of 1100 AD the somewhat difficult New Testament Greek phrase δι᾽ ἠμερῶν. ) It means, \"when several days had gone by. \" When Jesus had entered the house, the people heard that He was inside and all came running, hoping that it would be easy to meet Him there. The faith of those men was so great that they even made an opening in the roof through which they lowered the paralytic. Thereupon the Lord healed him, seeing the faith of those who carried him, or of the paralytic himself. For the paralytic would not have agreed to be carried if he himself had not believed that he would be healed. Many times the Lord healed the unbelieving sick on account of the faith of those who brought them. Similarly, He often healed the one brought to Him because of that man᾽s faith, despite the unbelief of those who brought him. First He forgives the sins of the sick man and then He cures the disease, since the most severe illnesses occur for the most part as a result of sins. So it is that the Lord said of the paralytic in John᾽s Gospel that it was as a result of sins that the man had been paralyzed (John 5:5-15). But the paralytic in John᾽s Gospel is not the same one mentioned here. For the man in John᾽s account had no one to help him, while this man had four. And that man was by the Sheep᾽s Pool; this man was in the house. And this one was in Capernaum, while the other was in Jerusalem, to name but a few differences. But know that the paralytic mentioned by Matthew (9:2-8) and the one mentioned here by Mark are one and the same.",
+      "commentary_number": "3/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/mk/2/1",
+      "full_content_url": "https://catenabible.com/com/57eb0d50b0d44ee10cfac184",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 2:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

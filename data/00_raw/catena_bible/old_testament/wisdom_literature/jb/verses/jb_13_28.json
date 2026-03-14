@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 13:28",
+  "verse_text": "Verse text for JB 13:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/13/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rottenness. Septuagint, \"an old vessel \"or skin, to contain wine (Calmet)\nMy condition might excite pity. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/13/28",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc19",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "For as a garment is eaten by the moth sprung out of itself, so man containeth rottenness in himself, whereby he consumeth, and that which he is, is that whereby he consumeth that he should not be. Which may be taken in another sense also, if it be said in the voice of man when tempted; And I as a rotten thing am to consume, as a garment that is moth eaten. For man ‘as a rotten thing consumeth,’ in that he is wasted by the corruption of his flesh. And because impure temptation springs up to him from no other source than from himself, like a moth, temptation consumes the flesh, as a garment from which it issues. For man contains in himself the occasion whence he is tempted. Therefore as it were ‘the moth consumeth the garment,’ whilst it proceeded from that very same garment. However, we ought to bear in mind that the moth digs its way through the garment without any sound, and it very often happens that thought pierces the mind in such a way, that the mind itself is not sensible of it, until after it has been pierced by its sting. Therefore it is well said that man ‘consumeth like a garment that is moth eaten,’ for sometimes we do not know the wounds of temptation, unless after we be pierced thereby within our souls.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/13/28",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddcfdd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 13:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

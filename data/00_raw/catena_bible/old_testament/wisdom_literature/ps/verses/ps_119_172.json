@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 119:172",
+  "verse_text": "Verse text for PS 119:172",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/172",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh My tongue shall speak of your word: for all your commandments are righteousness. Augustine of Hippo 169. But as he hath now learned, and praised God his Teacher, he next wisheth to teach. \"Yea, my tongue shall declare Thy word: for all Thy commandments are righteousness\" (ver. When he saith that he will declare these things, he becometh a minister of the word. For though God teach within, nevertheless \"faith cometh from hearing: and how do they hear without a preacher. \" For, because \"God giveth the increase,\" is no reason why we need not plant and water.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/172",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:172",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

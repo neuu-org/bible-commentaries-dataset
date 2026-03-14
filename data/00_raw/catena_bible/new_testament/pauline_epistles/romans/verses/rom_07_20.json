@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 7:20",
+  "verse_text": "Verse text for ROM 7:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/7/20",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Is the sinner compelled to sin by a power outside himself? Not at all. For it was by his own fault that these evil things began, for whoever binds himself to sin voluntarily is ruled by its law. Sin persuades him first, and when it has conquered him it takes control. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/20",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ff4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Consequenter subjunxit: \"Si autem quod nolo, hoc ego facio, non utique ego id operor, sed quod inhabitat in me peccatum: \"quod \"repugnans \"inquit, \"legi \"Dei et \"mentis meae, captivat me in lege peccati, quae est in membris meis. Miser ego homo, quis me liberabit de corpore morris hujus? \"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/20",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba06",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Here Paul clears both the flesh and the soul from responsibility for sin, putting all the blame on the actions themselves. For if the soul does not want to sin it is cleared of guilt, and if it does not perform the action itself the body too is let off the hook. Everything may thus be blamed on the evil moral choice. The essence of the soul and body and that of choice are not the same, for the first two are God’s works and the third is a motion from within ourselves which may go in whatever direction we choose to let it. Of course, willing is natural and Godgiven, but willing in this way is from us and depends on our own mind.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/7/20",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ff5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "-not the flesh in sin, for the house is not to be condemned with its inhabitant. He said, indeed, that \"sin dwelleth in our body.\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/20",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba07",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 7:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

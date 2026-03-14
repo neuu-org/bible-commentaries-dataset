@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 41:9",
+  "verse_text": "Verse text for EZ 41:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/41/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "House. Because these side-chambers were in the very walls of the temple all around: or it may also be rendered, (more agreeably to the Hebrew) so as to signify, that the thickness of the wall for the side-chambers within was the same as that of the wall without; that is, equally five cubits. (Challoner)\nProtestants, \"and that which was left, was the place of the side-chambers that were within. \"(Haydock)\nTo manifest a greater respect for God, the apartments of the priests were twenty-five cubits distant from the temple, (ver. 10.) and divided by a wall, which Josephus describes as three cubits high. (Antiquities viii. 2.) This wall was at the distance of five cubits from the temple. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ez/41/9",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf1f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 41:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

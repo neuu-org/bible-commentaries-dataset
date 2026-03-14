@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 17:13",
+  "verse_text": "Verse text for JB 17:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/17/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hell. Seol. The region of the dead. (Challoner)\nProtestants, \"grave. \"(Haydock)\nBut this text proves that there was a place of rest called hell. (Worthington)\nHe speaks here chiefly of the body. (Calmet)\nMors ultima linea rerum est. (Horace)\n\"Death is the end of all. \"(Haydock)\nIf I refrain from complaining, still I cannot expect to be restored to health.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/17/13",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "For the former Saints could undergo adversity, and yet could not, when brought out of the body, be at once freed from the regions of hell; in that He had not yet come, Who should descend thereinto without sin, that He might set free those, who were there bound by right of sin. And man then ‘made his bed in darkness,’ when he forsook the light of righteousness by consenting to the crafty Prompter: and whereas in those very regions of hell the souls of the righteous were kept imprisoned without torment, so that both on behalf of original sin they should still go down thereunto, and yet by light of their own deeds not undergo punishment; to have ‘made their bed in the darkness,’ in a manner, is to have prepared themselves rest in hell. For it was sad weariness [grave taedium] to the Elect, after the dissolution of the flesh, not yet to see the likeness of the Creator. Which wearisomeness blessed Job not improperly designates ‘darkness. ’ But whereas this came in the punishment of infirmity, he rightly adds that same infirmity.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/17/13",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd034",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 17:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

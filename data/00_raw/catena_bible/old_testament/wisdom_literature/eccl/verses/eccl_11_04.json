@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ECCL 11:4",
+  "verse_text": "Verse text for ECCL 11:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/11/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Reap. Those who are too circumspect in their alms-deeds, will often pass over such as stand in need, (St. Jerome) and people who reflect on the difficulties of a virtuous life, will never begin. (St. Gregory iii. Past. xvi., and Mor. xxvii. 5.)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/11/4",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be847",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "For what is expressed by the wind but the temptation of malignant spirits? And what are denoted by the clouds which are moved of the wind but the oppositions of bad people? The clouds, that is to say, are driven by the winds, because bad people are excited by the blasts of unclean spirits. He, then, that observes the wind sows not, and he that regards the clouds reaps not, because whosoever fears the temptation of malignant spirits, whosoever [fears] the persecution of bad people and does not sow the seed of good work now, neither does he then reap handfuls of holy recompense.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/11/4",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef25",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Isaac of Syria",
+      "period": "AD700",
+      "content": "Let not much wisdom become a stumblingblock to your soul and a snare before you; but trusting in God, manfully make a beginning upon the way that is filled with blood, lest always you be found wanting and naked of knowledge of God. For he who is fearful or watches the winds, sows not.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/11/4",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef26",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 11:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 2:22",
+  "verse_text": "Verse text for MT 2:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/2/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "But when he heard that Archelaus did reign in Judea in the place of his father Herod, he was afraid to go there: and, being warned of God in a dream, he turned aside into the district of Galilee: Theophylact of Ochrid Herod left three sons: Philip, Antipas, and Archelaus. He had directed Archelaus to be king, and the other two, tetrarchs. Joseph was afraid to go into the land of Israel, that is, Judea, because Archelaus was similar to Herod, his father. Antipas was the young Herod who slew the Forerunner. Galilee was not of the land of Israel, but of the Gentiles, and for this reason the Jews considered the Galileans an abomination.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/2/22",
+      "full_content_url": "https://catenabible.com/com/58a5ce5054b4f95416b2f5dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 2:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

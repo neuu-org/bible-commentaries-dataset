@@ -1,0 +1,69 @@
+{
+  "verse_reference": "GAL 3:26",
+  "verse_text": "Verse text for GAL 3:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/3/26",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/3/26",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb0d4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "For ye are all the children of God. Both Jews, who were under the law, and Gentiles, who were not, are become, by faith in Christ, children of God. The conjunction for is causal, and indicates the reason why we are not under the law as a pædagogue, viz, because we are the sons of God. Children are like slaves, S. Paul says, in chap. iv1 , nay, like the lower animals, in needing a pædagogue to enable them to resist the motions of sense. But those who by faith in Christ have left this state of childhood, and are become sons of God, have grown to man\"s estate. It would be, therefore, absurd for them to be made subject to the law as their pædagogue, as though they were still children. This would be as absurd, says Theophylact, as for a Prayer of Manasseh , when the day had dawned, to prefer a lamp to the sun. This is a rebuke to the Judaisers, which may be summarised thus: Christ is to us as a father to his grown-up sons. Why do you then go back to the pædagogy of the law. Why hold out your hand again like boys to the ferule. Not faith alone, but by faith manifested in baptism and other acts.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/3/26",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52638",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "The metaphor of inheritance refers to receiving eternal life. But how does this come about? By faith in Jesus Christ, when we believe in him, that he is the Son of God and that he himself saves us and that he has accomplished every mystery on our behalf. All these things are reported in the gospel. But what should be noticed here is that, while Paul is stating this fact, he addresses it to their persons, offering incentives to persuade them more readily. “You all,” he says, “are sons of God.” Before, he had said, “We are under a custodian.” Now as it were he names them anew, saying “You are sons of God”—but sons from faith in Christ Jesus. –.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/3/26",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c6678c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "What I say, then, is this, that that God is the object of faith who prefigured the grace of faith. But when he also adds, \".For ye are all the children of faith\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/3/26",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb0d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 3:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

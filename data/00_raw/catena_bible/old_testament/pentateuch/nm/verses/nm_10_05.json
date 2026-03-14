@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 10:5",
+  "verse_text": "Verse text for NM 10:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/10/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When you blow an alarm, then the camps that lie on the east side shall go forward. Longer, and with interruptions. Hebrew teruha, \"a signal \"an alarm. Septuagint, \"a loud cry of victory. \"Chaldean, \"the taratantara \"as Montanus translates, in allusion to the sound of the Hebrew word, (Calmet) or of the trumpets. When they were sounded with a variety of notes, or at different intervals, all knew that the camp was to break up, even though they had not been attentive to the motions of the cloud. Then Juda led the van, chap.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/10/5",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc727",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 10:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

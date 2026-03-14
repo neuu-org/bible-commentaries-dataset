@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 6:41",
+  "verse_text": "Verse text for LK 6:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/6/41",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "Since the great body of (the heretics) do not employ the counsel of the Lord, by having the beam in the eye,",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/41",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbcc2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Just as a good tree cannot produce evil fruit, so neither can truth generate heresy; and as a corrupt tree cannot yield good fruit, so heresy will not produce truth. Thus, Marcion brought nothing good out of Cerdon's evil treasure; nor Apelles out of Marcion's.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/41",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbcc1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "Those who are under the bishop will not be able to support and vindicate him: for they will say to him what is written in the Gospel, \"Why beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye? \"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/41",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbcc3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 6:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 2:3",
+  "verse_text": "Verse text for LAM 2:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/2/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Horn: beauty and power, (Haydock) the two kingdoms, the fortresses, (Calmet) and all their strength, denoted by horns. (Worthington)\nHand; refusing us protection, and aiding the Chaldeans.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/2/3",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bef74",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Herein Verse 3 is expressed the impotency for resisting. First is excluded human strength, or power. As said: \"all the might of Israel.\" For, Psalm 75(74):10 claims: \"All the horns of the wicked he will cut off, but the horns of the righteous shall be exalted.\"\n\nSecond is excluded any divine power. As Verse 3 continues: \"he has withdrawn from them his right hand in the face of the enemy.\" That is, like any defense by which (the Lord God) came down upon them. Psalm 74(73):ll so refers: \"Why dost thou hold back thy hand, why dost thou keep thy right hand in thy bosom?\"\n\nThird, Verse 3 concludes regarding the fire of Jacob on the earth. It says: \"he has burned like a flaming fire in Jacob, consuming all around.\" Also Isaiah 42:25 records: \"it set him on fire round about, but he did not understand; it burned him, but he did not take it to heart.\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/2/3",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d7f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 2:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

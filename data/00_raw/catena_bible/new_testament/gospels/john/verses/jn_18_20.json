@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 18:20",
+  "verse_text": "Verse text for JN 18:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/18/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "It were fruitless labour, Christ says, to search out as obscure what is universally known; and how can it be seemly, where full knowledge is present, to set up a pretence of ignorance. This is what Christ seems to us to say, with the object of releasing Himself from the charges that had been fabricated and maliciously devised against Him by the malice of the leaders of the people. But I think, also, that there is a suggestion of another meaning. For He says: I have spoken openly to the world; that is to say, the utterances given to you by the mediation of Moses come in types and shadows, and do not teach expressly the Will of God, but rather create a vision of the actual truth beyond themselves, and, wrapped up in the obscurity of the letter, do not completely reveal the knowledge of those things which are needful for us. I have spoken openly to the world; and, apart from riddles, and the shadow, as it were, of the form of that which is good, I set before you the right, and pointed out the straight path of piety towards God without any tortuous turnings. I spake to the world----not, He says, to the one nation of the Israelites; for if the things that are of Me are not yet known throughout the whole world, they will be so in due season. I ever taught in synagogues. We can scarcely fail to see what He means here. He reminds those of the Jews who were in His Presence, methinks, however reluctant, of prophecy which thus spoke concerning Him. For what said the Divine Isaiah, putting the words in Christ's mouth. I have not spoken in secret, in a dark place of the earth; and again: I have spread out My hands all the day unto a disobedient and rebellious people. For what else can \"not speaking in secret, in a dark place\" mean, but giving discourses openly, and speaking in places where there is no small concourse of hearers. Very well and appropriately He brings to their recollection the saying of the prophet, that they might learn that they are judging impiously that Messiah, Who was the due fulfilment of their hopes. For to the Jews belonged the promise, as Paul says.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/jn/18/20",
+      "full_content_url": "https://catenabible.com/com/57eb0c76b0d44ee10cfac096",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What then, said He nothing in secret? He did, but not, as they thought, from fear, and to make conspiracies, but if at any time His sayings were too high for the hearing of the many.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/18/20",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabc91",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 18:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

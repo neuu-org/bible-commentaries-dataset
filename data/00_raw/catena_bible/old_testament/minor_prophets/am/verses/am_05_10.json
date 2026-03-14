@@ -1,0 +1,47 @@
+{
+  "verse_reference": "AM 5:10",
+  "verse_text": "Verse text for AM 5:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/5/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "They, the wicked, could not endure Amos, (chap. vii. 12.) nor those who rebuked them.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/5/10",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf444",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "They take the two sons as types of two peoples, the elder Jewish, the younger Christian…. But if I show that the Jew does not fit the type represented by the elder son, it will be admitted, in consequence, that the Christian is not typified by the younger. Admittedly, the Jew is called a “son” and an “elder son” since he is first by adoption, and although he resents the Christian’s reconciliation with God his Father (this is a point which our opponents seize upon most eagerly), yet the statement “Behold, how many years I serve you and I have never transgressed your commandment” cannot be one which the Jew makes to the Father. For when was Judah not a transgressor of the law? “Hearing with the ear and not hearing, holding in hate him who reproves at the gates and scorning holy speech.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/5/10",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c20",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 5:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

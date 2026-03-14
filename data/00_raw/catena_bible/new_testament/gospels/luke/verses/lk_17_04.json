@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 17:4",
+  "verse_text": "Verse text for LK 17:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/17/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "And this, (the Naassene) says, is what is declared in Scripture, \"The just will fall seven times, and rise again.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/17/4",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbe99",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Thus teaches who forbids your refusing to bring back even your brother's cattle, if you find them astray in the road; much more should you bring back your erring brother to himself. He commands you to forgive your brother, should he trespass against you even \"seven times.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/17/4",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbe98",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 17:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

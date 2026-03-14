@@ -1,0 +1,80 @@
+{
+  "verse_reference": "LK 1:69",
+  "verse_text": "Verse text for LK 1:69",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/69",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "The kingdom of our Savior Christ is called also the horn of salvation, because all our bones are clothed with flesh, but the horn alone stretches beyond the flesh; so the kingdom of Christ is called the horn of salvation, as reaching beyond the world and the delights of the flesh. According to which figure David and Solomon were consecrated by the horn of oil to the glory of the kingdom.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/69",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9d59",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The word horn is used not only for power, but also for royalty. But Christ, Who is the Saviour that hath risen for us from the family and race of David, is both: for He is the King of kings, and the invincible power of the Father.",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/69",
+      "full_content_url": "https://catenabible.com/com/57eb0e34b0d44ee10cfac63c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "As Christ was born of the race of David, he is here called the horn of salvation in the house of David. As Isaias says, a vineyard is planted in the horn, chap. v.\nA powerful salvation. According to the letter both of the Latin and Greek text, a horn of salvation. But as it is generally agreed, that by horn, in the phraseology of the Scriptures, is understood strength and power, and that horn sounds awkwardly in English, and other languages, I hope it may be literally enough translated, a powerful salvation. (Witham)",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/69",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "As David says when discoursing on the causes of His birth: \"And He appointed a law in Israel, that another generation might know",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/69",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbbd4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now by a horn he means power, glory, and honor, deriving it metaphorically from the brute creatures, to whom God has given horns for defense and glory.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/69",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9d58",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:69",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

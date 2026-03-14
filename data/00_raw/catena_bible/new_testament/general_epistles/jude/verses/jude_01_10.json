@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JUDE 1:10",
+  "verse_text": "Verse text for JUDE 1:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jude/1/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "He means that they eat, and drink, and indulge in uncleanness, and says that they do other things that are common to them with animals, devoid of reason.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/10",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f61",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "These men blaspheme whatsoever things they know not, as it is the custom of false and ignorant teachers: and as to things which they know by their senses, in these they are corrupted, following, like brute beasts, their natural lusts and appetites. (Witham)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/10",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c0428",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JUDE 1:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

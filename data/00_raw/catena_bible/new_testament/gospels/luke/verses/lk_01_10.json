@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 1:10",
+  "verse_text": "Verse text for LK 1:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And the whole multitude were praying without. That is in the court outside the Holy place or Temple, which the priests alone, might enter. There were two courts; the inner one, of the priests, containing the altar of burnt-offering; and the outer one, of the people, who from it beheld the sacrifices offered by the priests: but the altar of incense which was in the Holy place they could not see.\nAt the time of incense. That is to say, when the priests burnt the incense; for according to the religious usage of all nations incense was burnt in the worship of God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/10",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51ed0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And all the . people were praying without: i.e. in that part of the temple called the court of the Israelites. For the Jews themselves were not permitted to enter into the first part of the tabernacle, called the holy, much less into the second part of it, called the holy of holies; the people then prayed, and performed their private devotions, in that division of the temple called the court of the Israelites, and were there waiting for the coming out of the priest Zacharias. (Witham)\nWe here see that the priest's functions profited the people, though they neither heard nor saw the priest, but only joined in intention with him; and so may the prayers of the priest in the Catholic Church, though offered up in an unknown tongue.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/10",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9d3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ROM 4:22",
+  "verse_text": "Verse text for ROM 4:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/4/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul claims that Abraham is worthy of this praise because although he knew that he could not do it himself, he strengthened his weakness by faith, so that he believed that with God’s help he could do what he knew was impossible by the laws of the universe. He was of great merit before God because he believed God over against his own knowledge, not doubting that because he was God he could do things which were impossible according to the world’s wisdom. Paul therefore urges the Gentiles to believe as firmly as Abraham did so that they might receive the promise of God and his grace without any hesitation, secure in the example of Abraham that the praise given to a believer increases if he believes what is incredible and seems to be foolish to the world. For the more foolish what he believes is thought to be, the more honor he will have, and indeed it would be foolish to believe it if it were said to occur without God. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/4/22",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ea2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 4:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

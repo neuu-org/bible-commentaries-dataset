@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 24:23",
+  "verse_text": "Verse text for NM 24:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/24/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Things, of which he is about to speak. The time is remote, but very dreadful, when the Assyrians shall be chastised, in their turn, as well as the Greeks and Romans, who shall have destroyed Assur, and even the most favourite nation of God. Balaam began by announcing the prosperity of the Hebrews, but he at last gives some comfort to Balac, by letting him know that they shall also be laid waste, as well as his kingdom, and the powerful nations around him. This is the condition of all human things! (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/24/23",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc824",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 24:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

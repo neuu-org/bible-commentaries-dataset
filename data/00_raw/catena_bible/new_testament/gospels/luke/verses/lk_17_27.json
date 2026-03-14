@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 17:27",
+  "verse_text": "Verse text for LK 17:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/17/27",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "After having compared his second coming to lightning, in order to show how sudden it will be, he next compares it to the days of Noe and Lot, to show that it will come when men least expect it; when, entirely forgetting his coming, they are solely occupied in the affairs of this world, in buying and selling He only mentions those faults which appear trivial, or rather none at all, (passing over the crimes of murder, theft) purposely to shew, that if God thus punishes merely the immoderate use of what is lawful, how will his vengeance fall upon what is in itself unlawful. (Ven. Bede)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/17/27",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb22",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 17:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

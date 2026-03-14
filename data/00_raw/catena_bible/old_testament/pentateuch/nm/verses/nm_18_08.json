@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 18:8",
+  "verse_text": "Verse text for NM 18:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/18/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the LORD spoke unto Aaron, Behold, I also have given you the duties of my heave offerings of all the hallowed things of the children of Israel; unto you have I given them as a portion to you, and to your sons, by an ordinance forever. Charge, as stewards or dispensers (Calmet) of what is offered to me; part of which I abandon to your use, as long as your republic shall subsist. (Menochius) First-fruits, or \"heave-offerings \"which comprised also the victims, first-born, over which the high priest had a general inspection. Hebrew, \"unction. \"Septuagint, \"as a reward \"or salary for your labour, in performing the duty of priest.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/18/8",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7ac",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 18:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

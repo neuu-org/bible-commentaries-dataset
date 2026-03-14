@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 15:9",
+  "verse_text": "Verse text for ACTS 15:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/15/9",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And put no difference between us and them, purifying their hearts by faith. From faith alone, he says, they obtained the same gifts. This is also meant as a lesson to those (objectors); this is able to teach even them that faith only is needed, not works nor circumcision. For indeed they do not say all this only by way of apology for the Gentiles, but to teach (the Jewish believers) also to abandon the Law. However, at present this is not said. Now therefore why do you tempt God, to put a yoke upon the neck of the disciples.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/15/9",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9387",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Why then, hearts are what one must everywhere look to. And it is very appositely said, God that knows the hearts bare them witness: as in the former instance, You, Lord, that know the hearts of all men. Acts 1:24 For to show that this is the meaning, observe what he adds, Put no difference between us and them. When he has mentioned the testimony borne to them, then he utters that great word, the same which Paul speaks, Neither circumcision avails anything, nor uncircumcision. 1 Corinthians 7:19 That he may make the two one in Himself. Ephesians 2:5 Of all these the seeds lie in Peter's discourse. And he does not say (between) them of the circumcision, but Between us, that is the Apostles, and them. Then, that the expression, no difference may not seem an outrage, After faith, he says— Having purified their hearts by faith",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/15/9",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9391",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "On Re-Baptism (Anonymous)",
+      "period": "AD300",
+      "content": "Even as Peter also subsequently most abundantly taught us about the same Gentiles, saying: \"And He put no difference between us and them, their hearts being purified by faith.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/15/9",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 15:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

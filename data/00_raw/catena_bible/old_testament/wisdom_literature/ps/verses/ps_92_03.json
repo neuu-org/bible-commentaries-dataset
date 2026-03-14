@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 92:3",
+  "verse_text": "Verse text for PS 92:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/92/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "5. \"Upon a psaltery of ten strings, with a song, and upon the harp\" (ver. 3). Ye have not heard of the psaltery of ten strings for the first time: it signifies the ten commandments of the Law. But we must sing upon that psaltery, and not carry it only. For even the Jews have the Law: but they carry it: they sing not. ...\"And upon the harp.\" This means, in word and deed; \"with a song,\" in word; \"upon the harp,\" in work. If thou speakest words alone, thou hast, as it were, the song only, and not the harp: if thou workest, and speakest not, thou hast the harp only. On this account both speak well and do well, if thou wouldest have the song together with the harp.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/92/3",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6d1e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Strings, upon. Hebrew, \"on the has or, and on the nabel, on the higaion with the cinnor. \"Yet the ten stringed instrument seems to have been the same with the psaltery, or nobol. (Haydock)\nBellarmine thinks and is redundant, and was not in the copies of the Septuagint, or it is only explanatory, as we know that the psaltery had ten strings, Psalm xxxii. 2., and cxliii. 9. (Menochius)\nThe matter is of small consequence. (Berthier)\nEusebius seems to insinuate, that instruments were not used in the Church of his time. (Calmet)\nThe observance of the commandments, and mortification, signified by the harp, are requisite. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/92/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 92:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

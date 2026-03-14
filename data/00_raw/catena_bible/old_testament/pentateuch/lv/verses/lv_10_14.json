@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 10:14",
+  "verse_text": "Verse text for LV 10:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/10/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the wave breast and heave shoulder shall you eat in a clean place; you, and your sons, and your daughters with you: for they are your due, and your sons' due, which are given out of the sacrifices of peace offerings of the children of Israel. Place, at home. The Septuagint translate, \"in the holy place \"understanding that these sacrifices for sin were to be eaten in the court of the tabernacle. Malvenda allows, that the children of the priests, and their wives, might come thither to eat the parts of the peace-offerings allotted to them. But of this there is no proof.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/10/14",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc581",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 10:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

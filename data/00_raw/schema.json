@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verse Commentary File",
+  "description": "Schema for a verse-level commentary JSON file from CatenaBible.com",
+  "type": "object",
+  "required": ["verse_reference", "commentaries"],
+  "properties": {
+    "verse_reference": {
+      "type": "string",
+      "description": "Verse reference in format 'BOOK CHAPTER:VERSE' (e.g., 'ACTS 1:1')"
+    },
+    "verse_text": {
+      "type": "string",
+      "description": "Text of the verse. May be placeholder 'Verse text for {REF}' in some files."
+    },
+    "scraped_with": {
+      "type": "string",
+      "description": "Extraction method description"
+    },
+    "extraction_date": {
+      "type": "string",
+      "description": "ISO date of extraction (e.g., '2025-09-11')"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "CatenaBible.com URL for this verse"
+    },
+    "commentary_status": {
+      "type": "string",
+      "enum": ["available", "not_available", "error", ""],
+      "description": "Whether commentaries were found for this verse"
+    },
+    "total_commentaries": {
+      "type": "integer",
+      "description": "Declared count of commentaries (may differ from actual array length)"
+    },
+    "full_content_fetched": {
+      "type": "integer",
+      "description": "Number of commentaries with full content successfully fetched"
+    },
+    "commentaries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["author", "content"],
+        "properties": {
+          "author": {
+            "type": "string",
+            "description": "Church Father or theologian name"
+          },
+          "period": {
+            "type": "string",
+            "description": "Historical period (e.g., 'AD735')"
+          },
+          "content": {
+            "type": "string",
+            "description": "Full commentary text"
+          },
+          "commentary_number": {
+            "type": "string",
+            "description": "Position in format 'N/TOTAL' (e.g., '1/12')"
+          },
+          "reading_time": {
+            "type": "string",
+            "description": "Estimated reading time"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "full_content_url": {
+            "type": "string"
+          },
+          "content_type": {
+            "type": "string",
+            "enum": ["full", "summary", "preview", ""],
+            "description": "'full' means complete text was fetched"
+          },
+          "extraction_method": {
+            "type": "string",
+            "enum": ["beautifulsoup", "firecrawl", ""],
+            "description": "Which scraper extracted this commentary"
+          }
+        }
+      }
+    },
+    "methodology": {
+      "type": "object",
+      "description": "Extraction methodology details (optional)"
+    }
+  }
+}

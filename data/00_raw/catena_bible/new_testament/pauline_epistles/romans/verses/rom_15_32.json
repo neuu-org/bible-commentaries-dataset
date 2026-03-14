@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ROM 15:32",
+  "verse_text": "Verse text for ROM 15:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/15/32",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Because Paul’s mind is dedicated to delivering the gifts, he wants their mind to respond to him by the judgment of God so that, having understood his love for them, they might with one accord give thanks to God on his behalf. For he was a great blessing to them, in that by his ministry many were made happy and are now praising God. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/32",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e538d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The word in the original signifies to combat with another, to teach us, that to beg the prayers of our friends will be of little assistance to us, if we do not join our prayer also, and labour, on our part, to the best of our power. (Calmet)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/32",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723bff80",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Note again Paul’s humility. He does not say that he wants to come in order to teach them but in order that he may be refreshed by them! Homilies on Romans",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/32",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e538e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 15:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

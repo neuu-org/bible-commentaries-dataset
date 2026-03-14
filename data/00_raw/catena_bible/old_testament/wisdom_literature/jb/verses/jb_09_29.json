@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 9:29",
+  "verse_text": "Verse text for JB 9:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/9/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Vain. Why have I endeavoured to repress my grief in silence? God does not forbid us to complain, but only to murmur. (Calmet)\nSeptuagint, \"Since I am wicked, why did I not die? \"(Haydock)\nShould a wretch be even suffered to live? (St. Chrysostom)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/9/29",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdbd2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "5. For if we be examined pity set aside, our work which we look to have recompensed with a reward is deserving of punishment. ‘Therefore the holy man shrinking under secret judgment, says, But if even so I be wicked, why, then, have I laboured in vain? Not that he repents of having laboured, but that it grieves him even amidst labours to be in uncertainty about the reward. But we must bear in mind that the Saints so doubt that they trust, and so trust that notwithstanding they do not slumber in security. Therefore because it is very often the case that the mind, even when bent upon right courses, is full of fears, it follows that after the good deed is done, deprecating tears be had recourse to, in order that the humility of entreaty may bear up the deserts of right practice to eternal rewards. But yet we must bear in mind that neither our life nor our tears have power to make us perfectly clean, so long as the mortal condition of our state of corruption holds us fast bound.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/9/29",
+      "full_content_url": "https://catenabible.com/com/57421a163c6effa740ddcf7d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 9:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

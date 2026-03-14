@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 13:23",
+  "verse_text": "Verse text for ACTS 13:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/23",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "This was done not suddenly, but after many promises of the prophets.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/23",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabe04",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This was no small thing that Christ should be from David. Then John bears witness to this: When John had first preached before His coming the baptism of repentance to all the people of Israel. And as John fulfilled his course, he said, Whom do you think that I am? I am not He. But, behold, there comes one after me, whose shoes of His feet I am not worthy to loose.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/23",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9336",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "(c) the name of David was dear to them; well then, is it not (a thing to be desired) that a son of his, he says, should be their king?— (b) then he adduces John: then again the prophets, where he says, By condemning they fulfilled, and again, All that was written: then the Apostles as witnesses of the Resurrection: then David bearing witness. For neither the Old Testament proofs seemed so cogent when taken by themselves as they are in this way, nor yet the latter testimonies apart from the former: wherefore he makes them mutually confirm each other. Men and brethren, etc.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/13/23",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b933c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JB 30:20",
+  "verse_text": "Verse text for JB 30:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/30/20",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“I have become like dust and ashes,” that is, I have been rendered contemptible to them as if I were dust, and I appear to be similar to vile mud. Emmanuel too, even though he was God, was thoughtlessly considered to be unworthy when he was clothed with flesh, so that the impure Jews said, “Even though you are a man, you make yourself God.” - \"Commentary on Job 30.19\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/30/20",
+      "full_content_url": "https://catenabible.com/com/5e1b60df8bc66721fe4ef6e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Not is supplied by Protestants in the second part of the verse from the first; (Haydock) as this construction is not unusual in the Hebrew. Septuagint, \"they have stood up, and have considered me \"(Calmet) to procure my entire ruin. (Haydock)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/30/20",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdd3e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Since Holy Church in the time of her persecution ‘stands’ by faith, and ‘cries’ by longings. But she is grieved that she is ‘not regarded’ as it were, when she sees her wishes under tribulations delayed. For by a high counsel, Almighty God, when His Saints are wrung tightly by the persecutions of adversaries, and when they cry with never ceasing entreaties that they may be set free, is wont to put off their voices in entreating Him, that their merits in suffering may be increased, in order that they may be the more heard in answer to merit, the more they are not heard quickly in answer to wishing. Whence it is elsewhere written, O my God, I cry in the day time, but Thou hearest not, and in the night season. 22, 2] And the very usefulness itself resulting from the delay of hearing is immediately added, when it is there brought in directly, And not for foolishness to me. Since for redoubling the wisdom of the Saints it is beneficial, that what is prayed for they receive slowly, that by delay desire may increase, and by desire the understanding may be augmented. But when the understanding is stretched to the full, there is opened a more ardent affection thereof towards God. And the affection is made large for obtaining the things of heaven, in proportion as it was long suffering in expecting. Yet in the midst of these things grief prompts the patience of the Saints to utterance, and whilst being delayed they gain ground, they dread lest their powers failing they should being despised be rejected.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/30/20",
+      "full_content_url": "https://catenabible.com/com/574392f23c6effa740ddd17f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 30:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

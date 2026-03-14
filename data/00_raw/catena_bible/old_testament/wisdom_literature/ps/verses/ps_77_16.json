@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 77:16",
+  "verse_text": "Verse text for PS 77:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/77/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "17. And he continueth how? \"The waters have seen Thee, O God, and they have feared and the abysses have been troubled\" (ver. 16). What are the waters? The peoples. What are these waters hath been asked in the Apocalypse, the answer was, the peoples. There we find most clearly waters put by a figure for peoples. But above he had said, \"Thou hast made known in the peoples Thy virtue.\" With reason therefore, \"the waters have seen Thee, and they have feared.\" They have been changed because they have feared. What are the abysses? The depths of waters. What man among the peoples is not troubled, when the conscience is smitten? Thou seekest the depth of the sea, what is deeper than human conscience? That is the depth which was troubled, when God redeemed with His arm. His people. In what manner were the abysses troubled? When all men poured forth their consciences in confession.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/77/16",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c2d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The waters saw you, O God, the waters saw you; they were afraid: the depths also were troubled. Jerome, \"in labour. \"(Haydock) Troubled. The dry land appearing, to let the Israelites pass. (Berthier) (Psalm cxiii. Jerome and the Jews understand this of the storm of Sinai. But most people suppose that the catastrophe at the Red Sea is described, when Moses insinuates, that a dreadful tempest overwhelmed the Egyptians, as it is here specified. See Josephus, ii.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/77/16",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be1dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 77:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

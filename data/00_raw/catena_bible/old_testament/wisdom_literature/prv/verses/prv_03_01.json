@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PRV 3:1",
+  "verse_text": "Verse text for PRV 3:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/3/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "What of this fact, that God in so many passages commands that all his precepts be kept and carried out. How can he command if there is no free choice. And what of that “blessed man” about whom the psalmist says that “his will has been according to the law of the Lord”. Does he not make it perfectly clear that it is by the will that a man takes his stand on the side of God’s law. Finally, there are many commandments that in one way or another refer by name to the will. For example, “Be not overcome by evil, but overcome evil with good. ” And there are similar passages, such as, “Do not become like the horse and the mule, who have no understanding”; and, “Do not cast off the counsels of your mother”; and, “Be not wise in your own conceit”; and, “Do not fall away from the correction of the Lord”; and, “Neglect not the law”; and, “Do not refrain from helping the needy”; and, “Plan no evil against your friends”; and, “Mind not the deceit of a woman”; and, “He would not understand that he might do well”; and, “They were unwilling to take correction. ” What do such numerous passages from the books of the Old Testament show, except that a person’s will is possessed of free choice. On Grace and Free Will.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/3/1",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c839f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Evagrius Ponticus",
+      "period": "AD399",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh My son, forget not my law; but let your heart keep my commandments: Those who forget the law are the ones who violate it; yet those who remember the law are the ones who live in accordance with the law. Likewise, those who observe the sayings of God are those who keep them, and those who destroy them are those who do not want to follow them. “For it is not the hearers of the law who are righteous before God, but it is the doers of the law who will be justified.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/3/1",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c839e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "My son. God speaks, or the master instructs his disciple, ver. 21. (Calmet)\nWe must remember and love instruction, and reduce it to practice. (Worthington)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/3/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be57d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 3:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

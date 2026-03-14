@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 6:24",
+  "verse_text": "Verse text for JN 6:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/6/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "These men follow Him, marvelling perchance at His miracles, yet not receiving any profit from them unto the duty of faith, but as though they were making some return to the Wonder-worker by merely bestowing on Him a not undesired praise. For this is a dreary disease of a mind and soul which is never accustomed to be led to the choice of what is profitable for her. The reason why this was so with them was, that they delighted solely in the pleasures of the flesh, and jumped eagerly at the meanest temporal food, rather than hasten after spiritual goods, and endeavour to gain what would support them to life eternal. This you will learn clearly by what follows too.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/6/24",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabee0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "When the people therefore saw that Jesus was not there, neither his disciples, they also took boats, and came to Capernaum, seeking Jesus. What else then could they suspect, save that He had arrived there crossing the sea on foot. For it was not possible to say that He had passed over in another ship. For there was one, says the Evangelist, into which His disciples entered. Still when they came to Him after so great a wonder, they asked Him not how He crossed over, how He arrived there, nor sought to understand so great a sign. But what say they.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/6/24",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabb1d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 6:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

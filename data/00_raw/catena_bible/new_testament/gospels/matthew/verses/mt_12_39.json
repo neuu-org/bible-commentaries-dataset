@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 12:39",
+  "verse_text": "Verse text for MT 12:39",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/12/39",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sign of Jonas. I will give no other sign than my death and resurrection, as then, though unwillingly, they will acknowledge me, and people will believe and be converted: so in John (Chap. viii.) it is said, When you shall have exalted the Son of man, then you shall know that I am he. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/12/39",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf752",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "An evil and adulterous generation seeks after a sign. Now what He says is to this effect: What marvel if you behave so to me who have been hitherto unknown to you when even to the Father, of whom you have had so much experience, you have done the very same. Forsaking Him, you have run unto the devils, drawing to yourselves wicked lovers. With this Ezekiel too was continually upbraiding them. Now by these sayings He signified Himself to be of one accord with His Father, and them to be doing nothing new; He was also unfolding their secrets, how with hypocrisy and as enemies they were making their demand. Therefore He called them an evil generation, because they have been always ungrateful towards their benefactors; because upon favors they become worse, which belongs to extreme wickedness. And He called it adulterous, declaring both their former and their present unbelief; whereby He implies Himself again to be equal to the Father, if at least the not believing Him makes it adulterous. One may say; was no sign given it. None was given to it on asking. For not to bring in them did He work His signs (for He knew them to be hardened), but in order to amend others. Either then this may be said, or that they were not to receive such a sign as that was. For a sign did befall them, when by their own punishment they learned His power. Here then He speaks as threatening, and with this very meaning obscurely conveyed: as if He said, innumerable benefits have I showed forth, none of these has drawn you to me, neither were ye willing to adore my power. You shall know therefore my might by the contrary tokens, when you shall see your city cast down to the ground, the walls also dismantled, the temple become a ruin; when you shall be cast out both from your former citizenship and freedom, and shall again go about everywhere, houseless and in exile. (For all these things came to pass after the cross. ) These things therefore shall be to you for great signs. And indeed it is an exceeding great sign, that their ills remain unchanged; that although ten thousand have attempted it, no one has been able to reverse the judgment once gone forth against them. All this however He says not, but leaves it to after time to make it clear to them, but for the present He is making trial of the doctrine of His resurrection, which they were to come to know by the things which they should afterwards suffer.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/mt/12/39",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac423",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 12:39",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

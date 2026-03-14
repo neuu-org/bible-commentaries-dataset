@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 15:1",
+  "verse_text": "Verse text for MK 15:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/15/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And immediately in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried him away, and delivered him to Pilate. Cornelius a Lapide Jesus brought bound, and accused before Pilate15 Upon the clamour of the common people, the murderer Barabbas is loosed, and Jesus delivered up to be crucified17 He is crowned with thorns, 19 spit on, and mocked: 21fainteth in bearing his cross: 27 hangeth between two thieves: 29 suffereth the triumphing reproaches of the Jews: 39 but confessed by the centurion to be the Son of God: 43and is honourably buried by Joseph.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/1",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51eb8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "It was customary with the Jews to bind and deliver over to the Roman governors those whom they had condemned in their own councils; but we must not suppose that this was the first time they bound Jesus; for, as St. John informs us, when first they apprehended him, they put manacles upon him. (Ven. Bede)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/1",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 15:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

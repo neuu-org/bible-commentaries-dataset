@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 11:24",
+  "verse_text": "Verse text for JGS 11:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/11/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Chamos. The idol of the Moabites and Ammonites. He argues from their opinion, who thought they had a just title to the countries which they imagined they had conquered by the help of their gods: how much more then had Israel an indisputable title to the countries which God, by visible miracles, had conquered for them. (Challoner)\nHebrew, \"And shall not we possess those (counties occupied by the people whom) the Lord our God has driven out from before us? \"(Haydock)\nThe Emim had been expelled by the people, Deuteronomy ii. 10. Chamos was the peculiar deity of Moab, (Numbers xxi. 29., and Jeremias xlviii. 46.; Calmet) and signifies \"as taking away. \"It is commonly supposed to be the sun. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/11/24",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Will you not possess that which Chemosh your god gives you to possess. So whomsoever the LORD our God shall drive out from before us, them will we possess. Chamos: The idol of the Moabites and Ammonites. He argues from their opinion, who thought they had a just title to the countries which they imagined they had conquered by the help of their gods: how much more then had Israel in indisputable title to the countries which God, by visible miracles, had conquered for them.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/11/24",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa022",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 11:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

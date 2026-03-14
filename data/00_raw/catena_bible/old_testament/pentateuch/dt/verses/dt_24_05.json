@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 24:5",
+  "verse_text": "Verse text for DT 24:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/24/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When a man has taken a new wife, he shall not go out to war, neither shall he be charged with any business: but he shall be free at home one year, and shall bring happiness to his wife whom he has taken. This indulgence was granted to those who had married a widow also. Hebrew, \"a new wife \"as she was new to him, (Haydock) which right he could not claim, if he only resumed the one whom he had divorced. ; Drusius) See chap.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/24/5",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bca54",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 24:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

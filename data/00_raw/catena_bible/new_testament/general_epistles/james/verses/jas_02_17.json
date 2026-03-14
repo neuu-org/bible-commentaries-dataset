@@ -1,0 +1,69 @@
+{
+  "verse_reference": "JAS 2:17",
+  "verse_text": "Verse text for JAS 2:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/2/17",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "I do not understand why the Lord said, \"If you want to enter into eternal life, keep the commandments,(Mt 19:17)\" and then mentioned the commandments relating to good behavior, if one is able to enter into eternal life without observing them. (On Faith and Works 15.25)",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/17",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f03",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Arles",
+      "period": "AD449",
+      "content": "Works give life to faith, faith gives life to the soul, and the soul gives life to the body.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/17",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f11",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Leo of Rome",
+      "period": "AD461",
+      "content": "While faith provides the basis for works, the strength of faith comes out only in works.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/17",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f25",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Symeon the New Theologian",
+      "period": "AD1022",
+      "content": "If we are ashamed to imitate Christ's sufferings, which he endured for us, and to suffer as he suffered, it is obvious that we shall not become partakers with him in his glory. If that is true of us, we are believers in words only and not in deeds.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/17",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f26",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 2:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

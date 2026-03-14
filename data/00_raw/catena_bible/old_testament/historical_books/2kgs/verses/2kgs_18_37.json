@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 18:37",
+  "verse_text": "Verse text for 2KGS 18:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/18/37",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "As I have already said, Sennacherib is a type of the devil, and this hypothesis is perfectly confirmed by the words that in this passage the Rabshakeh boastfully speaks against God when he makes false promises to the people, trying to take away from [God] the praise of his supreme power and giving assurance of a land of fertile soil and abundant crops in order to persuade them to abandon the region given to them by God and to move to the new dwelling places promised by the Assyrian. With a very similar artifice the accomplices and envoys of the devil endeavor to seduce a simple soul. And for this reason, in the first place, they try to uproot all the opinions that are inspired by divine providence.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/18/37",
+      "full_content_url": "https://catenabible.com/com/5e1b69a48bc66721fe4efa03",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rent, as was customary on such dismal occasions. Joakim is reprehended for not shewing this mark of consternation, when he heard the dreadful predictions of Jeremias, xxxvi. 24. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/18/37",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd523",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 18:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

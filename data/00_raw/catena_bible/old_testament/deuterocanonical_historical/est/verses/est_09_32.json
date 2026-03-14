@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 9:32",
+  "verse_text": "Verse text for EST 9:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/9/32",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "The fateful days in which God gives the victory over the enemies to his true confessors must never be forgotten but must be celebrated all over the world by every generation, because the remembrance of the future rest of souls and of the resurrection of the bodies on the day of judgment must be kept alive with firm hope among all the faithful. And no church of Christ in the whole world must be deprived of this religious celebration but, always remembering this truly saving rite, must be ready at any moment and make herself worthy of receiving future blessings so that what she now celebrates in this world with faith and hope she may possess there forever in true reality and eternal blessedness. In the meantime, while we journey as pilgrims, the zeal of the teachers and the admonishment of the church must lead us to follow the example of Esther and Mordecai in doctrine and zeal so that we may be always devout in observing this rite which is to be celebrated and performed.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/9/32",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa4f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 9:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

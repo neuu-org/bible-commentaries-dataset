@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 14:34",
+  "verse_text": "Verse text for MT 14:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/14/34",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For neither did they approach him as before, dragging him into their houses and seeking a touch from his hand and directions from him in words. But now in a far higher pattern, and with greater selfdenial and with a more abundant faith, they tried to win themselves a cure. By now the woman who had the issue of blood had taught them all to be constrained in seeking wisdom. And the Evangelist, also implying that at long intervals Jesus visited the various neighborhoods, said, “When the men of that place recognized him, they sent round to all that region and brought to him all that were sick.” Far from abolishing their faith, this interval of miracles had made it even greater and preserved it vigorously. The Gospel of Matthew, Homily",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/14/34",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6fad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For neither did they approach Him as before, dragging Him into their houses, and seeking a touch of His hand, and directions from Him in words; but in a far higher strain, and with more of self-denial, and with a more abundant faith did they try to win themselves a cure; for she that had the issue of blood taught them all to be severe in seeking wisdom.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/14/34",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac470",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "Jesus stayed for some time in Gennesaret, and the people recognized Him not only by sight but by the signs which He worked, and they showed fervent faith. So much so that they even desired to touch the hem of His garment, and indeed, when they did so, they were healed. You also, O reader, touch the edge of Christ's garment, which is the end of His sojourning in the flesh. For if you believe that He ascended, you will be saved. The garment means His flesh, and its hem, the end of His life on earth.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/14/34",
+      "full_content_url": "https://catenabible.com/com/57eb0d50b0d44ee10cfac206",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 14:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

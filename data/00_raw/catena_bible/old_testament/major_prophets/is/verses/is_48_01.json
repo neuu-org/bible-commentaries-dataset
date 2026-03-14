@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 48:1",
+  "verse_text": "Verse text for IS 48:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/48/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "He calls them the house of Jacob as not being worthy of the name of their forefather. Rather, “those called by the name Israel” are not really Israel, and those bearing that name are not called such here. And he adds, “and coming forth from the water of Judah. ” For they had nothing of the worthiness of the patriarchal soul, although they were descended from his fluid and bodily seed. For they were children only in the physical and carnal sense and not true children of the soul. But “Judah through the water” means the “kingly race” from David’s line that in the days of the prophets remained in Jerusalem. They were those who, being not truly worthy of these names, used “Jacob” and “Israel” and “Judah” falsely; for they were those who praised the name of the Lord and made mention of the God of Israel with only their lips and mouth. … For they did “not” take their oaths “in truth” if they were [at the same time] consulting oracles. But they even thought they were being loyal to the city which was dedicated to God when, in fact, they were resisting God and performing this hypocrisy.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/48/1",
+      "full_content_url": "https://catenabible.com/com/5e88f332b1c7280cb341d153",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Waters; people, (Apocalypse xvii. 15.; Haydock) or from the stock of Juda, Proverbs v. 15. (Calmet)\nHe claimed the sovereign power, but had not the fortitude or wisdom of Israel. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/48/1",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb18",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 48:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

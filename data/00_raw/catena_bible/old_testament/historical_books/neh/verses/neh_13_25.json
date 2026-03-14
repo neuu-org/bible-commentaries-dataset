@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NEH 13:25",
+  "verse_text": "Verse text for NEH 13:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/13/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Curse, or excommunicated them, (Calmet) the guilty parents. (Haydock)\nShaved. Hebrew and Septuagint, \"plucked off their hair \"by the roots, for greater torment. Sometimes quicklime was then sprinkled on the head, (Calmet) as adulterers were treated at Athens. Schol. Aristoph.\nKing Artaxerxes changed this punishment, and ordered that his officers should be forbidden to wear the tiara instead. Domitian caused the hair and beard of Apollonius to be shaven. (Phi lost. iii. 14.) (Calmet)\nThat they. Hebrew, \"Ye shall not\"",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/13/25",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda98",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 13:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 7:5",
+  "verse_text": "Verse text for 2SM 7:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/7/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "That Christ should be the house and temple of God, and that the old temple should cease, and the new one should begin. In the second book of Kings [Samuel]: “And the word of the Lord came to Nathan, saying, ‘Go and tell my servant David, Thus says the Lord, You shall not build me a house to dwell in; but it shall be, when your days are fulfilled, and you sleep with your fathers, that I will raise up your seed after you, which shall come from your body, and I will prepare his kingdom. He shall build me a house in my name, and I will raise up his throne forever; and I will be a father to him, and he shall be a son to me, and his house shall obtain faith, and his kingdom [will be] forever in my sight.’ ” Also in the Gospel the Lord says, “There shall not be left in the temple one stone upon another that shall not be thrown down.” And “After three days another shall be raised up without hands.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/7/5",
+      "full_content_url": "https://catenabible.com/com/5de46d0b8b87fe0847ee86e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 7:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

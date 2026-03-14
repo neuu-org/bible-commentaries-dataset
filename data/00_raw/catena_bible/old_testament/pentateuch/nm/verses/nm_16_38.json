@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 16:38",
+  "verse_text": "Verse text for NM 16:38",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/16/38",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sinners. These censers were sanctified or set apart for God's altar: 1. By the intention of those who used them, though contrary to his will; 2. by the exemplary vengeance which he exercised upon the rash pretenders to the priesthood; 3. by being a monument of their folly, and therefore placed, by God's order, upon the altar, to deter all others from imitating their conduct. Eleazar was commanded to take them up, and scatter the strange fire; that Aaron might not be defiled with touching the carcasses or ashes of the deceased, nor seem to exult in their death. (Calmet)\nGod was thus also pleased to manifest, that the children of Aaron, and not of the other Levites, should succeed him. (St. Augustine, q. 30.) (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/16/38",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc79b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 16:38",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

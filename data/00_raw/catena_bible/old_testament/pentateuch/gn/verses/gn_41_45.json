@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 41:45",
+  "verse_text": "Verse text for GN 41:45",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/41/45",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The saviour of the world. Tsaphenath pahneach. (Challoner)\nIn the Coptic language, which is derived from the Egyptian, Psotemphane is said to mean the saviour of the world. St. Jerome supposed this word was not Hebrew; and therefore he added, in the Egyptian tongue, though he knew it might be interpreted in Hebrew \"a revealer of secrets. \"(q. Heb.)\nPutiphare. Whether this person be the same with his old master, cannot easily be decided. Most people think he was not. See St. Chrysostom, 63. hom.\nPriest. None were esteemed more noble in Egypt.\nHeliopolis. Hebrew On, \"the city of the sun \"built on the banks of the Nile, about half a day's journey to the north of Memphis.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/41/45",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc222",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 41:45",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

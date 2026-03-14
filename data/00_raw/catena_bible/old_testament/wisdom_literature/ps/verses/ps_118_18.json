@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 118:18",
+  "verse_text": "Verse text for PS 118:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Nevertheless, let him point out to us, why the body of Christ, the holy Church, the people of adoption, suffered such indignities. \"The Lord,\" he saith, \"hast chastened and corrected me, but He hath not given me over unto death\" (ver. Let not then the boastful wicked imagine that aught hath been permitted to their power: they would not have that power, were it not given them from above. Oft doth the father of a family command his sons to be corrected by the most worthless slaves; though he designeth the heritage for the former, fetters for the latter. What is that heritage. Is it of gold, or silver, or jewels, or farms, or pleasant estates. Consider how we enter into it: and learn what it is. \"Open me,\" he saith, \"the gates of righteousness\" (ver 19). Behold, we have heard of the gates. What is within. \"That I may,\" he saith, \"go into them, and give thanks unto the Lord. \" This is the confession of praise full of wonder, \"even unto the house of God, in the voice of joy and confession of praise, among such as keep holiday:\" this is the everlasting bliss of the righteous, whereby they are blessed who dwell in the Lord's house, praising Him for evermore.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/118/18",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65ff",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Chastised me, severely. (Haydock)\nSeptuagint may also signify, \"has instructed me \"(Calmet) by means of tribulation. (Haydock)\nGod chastiseth as a parent, that his children may not perish eternally. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/18",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3d2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

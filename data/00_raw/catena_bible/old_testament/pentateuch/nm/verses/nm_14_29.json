@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 14:29",
+  "verse_text": "Verse text for NM 14:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/14/29",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Of such inflexibility were those youths of twenty years, who foretokened in figure God’s new people; they entered the land of promise; they, it is said, turned neither to the right hand nor to the left. Now this age of twenty is not to be compared with the age of children’s innocence, but if I mistake not, this number is the shadow and echo of a mystery. For the Old Testament has its excellence in the five books of Moses, while the New Testament is most refulgent in the authority of the four Gospels. These numbers, when multiplied together, reach to the number twenty: four times five, or five times four, are twenty. Such a people (as I have already said), instructed in the kingdom of heaven by the two Testaments—the Old and the New— turning neither to the right hand, in a proud assumption of righteousness, nor to the left hand, in a reckless delight in sin, shall enter into the land of promise. [There] we shall have no longer either to pray that sins may be forgiven to us or to fear that they may be punished in us. [We have] been freed from them all by that Redeemer, who, not being “sold under sin,” “has redeemed Israel out of all his iniquities,” whether committed in the actual life or derived from the original transgression.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/14/29",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52918",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 14:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

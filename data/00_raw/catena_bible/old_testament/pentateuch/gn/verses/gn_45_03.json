@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 45:3",
+  "verse_text": "Verse text for GN 45:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/45/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "And Joseph ordered all to withdraw so that he could be recognized by his brothers. For, even as Jesus said, he had not come except to the lost sheep that were the lost of the house of Israel. And lifting up his voice with weeping he said, “I am Joseph. Is my father still alive. ” This means, Jesus stretched out his hands to an unbelieving and contradicting people, for he did not seek an envoy or messenger but, as their very Lord, desired to save his own people. “I myself who spoke, I am here,” and “I was made manifest to those who sought me not; I appear to those who asked me not. ” What else did he cry out at that time but “I am Jesus”. When the leaders of the Jews tempted him and asked, “Are you the Son of God. ” he answered, “You say that I am,” and to Pilate he said, “You say that I am a king; in this I was born. ” And when the chief priest said, “I adjure you by the living God, that you tell us whether you are Christ, the Son of God,” Jesus responded, “You have said it. Nevertheless I say to you, hereafter you shall see the Son of man sitting at the right hand of the power and coming upon the clouds of heaven. ” This is what Joseph means when he says, “I am Joseph.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/45/3",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51c81",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "I cannot but be amazed here at this blessed man’s remarkable fortitude in putting up with the strain of concealing his identity to this point and not letting on. And [I] am particularly surprised at the way they could stand there and gape without their soul parting company with their body, without their going out of their mind or hiding themselves in the ground. “His brothers were unable to say anything to him in reply. They were dumbfounded.” No wonder! Aware of the way they had treated Joseph, of his position in comparison with theirs and realizing the high office he had attained, they feared for their very lives, so to say.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/45/3",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51c82",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 45:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

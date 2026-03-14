@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 16:10",
+  "verse_text": "Verse text for 2SM 16:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/16/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "11. Hath bid him curse. Not that the Lord was the author of Semei's sin, which proceeded purely from his own malice, and the abuse of his free-will; but that knowing and suffering his malicious disposition to break out on this occasion, he made use of him as his instrument to punish David for his sins. (Challoner)\nHe adored the justice of God; who is often said to do what he does not hinder, or what he only permits. (Estius)\nDavid is here a noble figure of Jesus Christ, excusing his executioners, (Haydock) and receiving the insults of the Jews, without complaining. (Calmet)\nIf Semei had not been guilty of sin, but acted according to God's will, he could not have been justly punished, 3 Kings ii. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/16/10",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd15e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Hath bid him curse: Not that the Lord was the author of Semei's sin, which proceeded purely from his own malice, and the abuse of his free will. But that knowing, and suffering his malicious disposition to break out on this occasion, he made use of him as his instrument to punish David for his sins.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/16/10",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0d6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 16:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

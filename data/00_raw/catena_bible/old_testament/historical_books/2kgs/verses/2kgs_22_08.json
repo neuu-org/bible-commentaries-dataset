@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 22:8",
+  "verse_text": "Verse text for 2KGS 22:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/22/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The book of the law, (that is, Deuteronomy. ; Challoner. Chrysostom, hom. in Matthew) or the Pentateuch. (Josephus) Achaz, Manasses, and Amon, had burnt (R. Solomon) as many copies as they could, (Haydock) but some zealous priests had concealed this copy, in a box, in the wall of the temple, (Lyranus) or in the treasury adjoining it. The very hand writing of Moses, containing the record of the covenant, (or the 28, 29, 30, and 31st chapters of Deuteronomy) which was placed in (Calmet) or beside the ark, was now happily discovered. (Haydock) It seems it had been misplaced, as the ark itself had been removed, 2 Paralipomenon xxiv. This venerable monument, and the dreadful menaces which it denounced, made the deepest impression upon all, as we should read the autographs of St. Matthew, with far greater respect and emotion than we do the printed copies. It is not at all probably that all the books of Scripture had been destroyed, as there were always some religious souls in both kingdoms; and if some kings had already made the impious attempt, (Haydock) of which, however, they are never accused in Scripture, they would not have been able to carry their malicious designs into effect. Josias had, before his 18th year, made many excellent regulations, conformably to the law, which was well understood, and carefully preserved by the priests and prophets, (Calmet) 2 Paralipomenon xvii. Scribes were generally chosen from among the Levites.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/22/8",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd561",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The book of the law: That is, Deuteronomy.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/22/8",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa085",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 22:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

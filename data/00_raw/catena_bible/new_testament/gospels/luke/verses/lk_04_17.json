@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 4:17",
+  "verse_text": "Verse text for LK 4:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/4/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And there was delivered unto Him (by the attendant) the book of the prophet Esaias. This was done by the counsel and direction of God, that Jesus might show from Isaiah that He was the-Messiah described by that prophet.\nAnd when He had opened the book, He found the place where it was written (Isa. lxi. i). Christ seems so to have opened the book that, without looking for it, He lighted upon this passage of Isaiah by the will and guidance of God. The Vulgate, \"as He unrolled the book,\" is better; and Vatablus, \"when He had unfolded;\" others, \"when He had spread out,\" for this is the meaning of the Greek Î±Ì‰Î½Î±Ï€Ï„ÏÎ¾Î±Î¶. For the books of the Hebrews were not divided into leaves, but consisted of one long piece of parchment which was rolled round a cylinder from beginning to end, as maps are nowadays. In order to read this parchment it was therefore necessary to unroll it, and spread it out.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/4/17",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f30",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "As he unfolded the book: and again, (ver. 20) when he had folded the book. Books at that time where not like our now-a-days, but were skins or parchments, rolled or folded up. (Witham)\nSome are of opinion that the Jews of Nazareth, having heard of the miracles and fame of Jesus, and that he was accustomed to teach in the synagogues, though he had never been instructed in any learning, when he rose to speak, purposely gave him the book of Isaias, which was esteemed the most difficult to be explained, in order to try his learning; though it is probable that it was done by the all-directing interposition of Divine Providence. (Maldonatus)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/4/17",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa31",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 4:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

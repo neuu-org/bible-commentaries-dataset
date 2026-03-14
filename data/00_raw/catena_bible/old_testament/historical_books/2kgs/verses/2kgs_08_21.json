@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 8:21",
+  "verse_text": "Verse text for 2KGS 8:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/8/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Seira, or Idumea, Genesis xiv. 6.\nDefeated. The Syriac and Arabic explain it in a contrary sense, as the Hebrew may well signify, and the sequel seems to prove, as the Edomites became independent. Hebrew, \"He rose. And attacked Edom that surrounded him, (with superior numbers) and the princes. and the people (of Israel) fled. \"But the text will also bear the sense of the Vulgate, which is conformable to 2 Paralipomenon xxi. 9., which does not say the people, though these words may be understood of the Edomites. Joram could not derive such advantage from his victory, as to reduce the nation under his obedience. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/8/21",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd481",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 8:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

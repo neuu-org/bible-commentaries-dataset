@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 96:9",
+  "verse_text": "Verse text for PS 96:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/96/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh O worship the LORD in the beauty of holiness: fear before him, all the earth. Augustine of Hippo 10. \"O worship the Lord in His holy court\" (ver. 9): in the Catholic Church; this is His holy court. Let no man say, \"Lo, here is Christ, or there. For there shall arise false prophets. \" Say this unto them, \"There shall not be left here one stone upon another, that shall not be thrown down. \" Ye are calling me to the whited wall; I adore my God in His holy court. \"Let the whole earth be moved before His face.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/96/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64bc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Moved. Hebrew, \"in labour \"(Isaias xxvi. 17.; Theodoret; Calmet) or \"fear ye before him all the earth. \"(Houbigant)\nIn Paralipomenon, the sentences are in a different order. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/96/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2fc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 96:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

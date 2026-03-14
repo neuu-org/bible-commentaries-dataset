@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 27:9",
+  "verse_text": "Verse text for ACTS 27:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/27/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The fast was now past. An annual fast. Some take it for the fast of the Ember-days, which Christians keep in December: but St. Chrysostom and others expound it of the Jewish fast of expiation, in their seventh month, Tisri, answering to our September or October. (Witham)\nMost interpreters understand this of the solemn fast of expiation, mentioned in Leviticus (xvi. 29. and xxiii. 27.) which fell about the end of September and beginning of October. At this time sailing on the Mediterranean is dangerous. Though this phrase is at present obscure to us, we must recollect that St. Luke was writing for Christians, who being for the most part converted Jews, easily understood the expression. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/27/9",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfeac",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "By the fast here, I suppose he means that of the Jews. For they departed thence a long time after the Pentecost, so that it was much about midwinter that they arrived at the coasts of Crete. And this too was no slight miracle, that they also should be saved on his account. Paul admonished them, and said unto them, Sirs, I perceive that this voyage will be with hurt and much damage, not only of the lading and ship, but also of our lives. Nevertheless the centurion believed the master and the owner of the ship, more than those things which were spoken by Paul. And because the haven was not commodious to winter in, the more part advised to depart thence also, if by any means they might attain to Phenice, and there to winter; which is an haven of Crete, and lies toward the southwest and northwest. And when the south wind blew softly, supposing that they had obtained their purpose, loosing thence, they sailed close to Crete. But not long after there arose against it a tempestuous wind, called Euroclydon. And when the ship was caught, and could not bear up into the wind, we let her drive (R. were driven.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/27/9",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9510",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 27:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

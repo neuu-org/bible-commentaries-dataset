@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 7:12",
+  "verse_text": "Verse text for PS 7:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/7/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Unless ye be converted,\" He says, \"He will brandish His sword\" (ver. The Lord Man Himself may be taken to be God's double-edged sword, that is, His spear, which at His first coming He will not brandish, but hideth as it were in the sheath of humiliation: but He will brandish it, when at the second coming to judge the quick and dead, in the manifest splendour of His glory, He shall flash light on His righteous ones, and terror on the ungodly. For in other copies, instead of, \"He shall brandish His sword,\" it has been written, \"He shall make bright His spear:\" by which word I think the last coming of the Lord's glory most appropriately signified: seeing that is understood of His person, which another Psalm has, \"Deliver, O Lord, my soul from the ungodly, Thy spear from the enemies of Thine hand. He hath bent His bow, and made it ready. \" The tenses of the words must not be altogether overlooked, how he has spoken of \"the sword\" in the future, \"He will brandish;\" of \"the bow\" in the past, \"He hath bent:\" and these words of the past tense follow after.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/7/12",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e671d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Except you. Hebrew, \"if he be not. \"Houbigant would read, \"God will not be turned aside. \"(Berthier)\n\"For him who does not change, he will sharpen his sword. \"(St. Jerome) (Haydock)\nGod threatens before he strikes, (Calmet) expecting amendment. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/7/12",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde86",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 7:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

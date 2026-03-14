@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 15:19",
+  "verse_text": "Verse text for ACTS 15:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/15/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wherefore I judge, and join my judgment with Peter. St. Chrysostom thinks that James had a special authority in the Council, as bishop of Jerusalem, and because of the great veneration, which those zealous for the Jewish law had for him: but his power was certainly inferior to that of St. Peter, who was head of all, as St. Chrysostom teacheth, hom. iii. on the Acts.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/15/19",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe06",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "that is, not to subvert: for, if God called them, and these observances subvert, we fight against God. And again, them which from the Gentiles, he says, do turn. And he says well, with authority, the my sentence is. But that we write unto them that they abstain from pollutions of idols, and from fornication— (b) and yet they often insisted upon these points in discoursing to them — but, that he may seem also to honor the Law (he mentions), these also, speaking (however) not as from Moses but from the Apostles, and to make the commandments many, he has divided the one into two (saying), and from things strangled, and from blood.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/15/19",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b93a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 15:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

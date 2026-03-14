@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 18:29",
+  "verse_text": "Verse text for JN 18:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/18/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "They shrank from the pollution, as they deemed it, of stones and walls, but Pilate went forth and inquired of them the reason of their coming to him, and required them to tell him the charges against the Captive they had brought unto him, judging the leaders of the Jews on the other hand. For, though he was a foreigner, he held in respect the ordinances of the Jews, and treated with consideration their prevailing customs. For he hastened out of the judgment hall, as was not his habit, expressing to the Jews by this significant action that their Law ought to be observed. They, being contrariwise minded to the Divine commandments, and paying very little heed to the Mosaic dispensation, were bringing about an unrighteous blood-shedding; while Pilate, who was outside the pale of the Law, inquired the charges, and investigated the accusations, they brought against Him, and pointed out to them, that it was absurd to chastise or exact a penalty from a Man Who had done no sin. And they, though they had nothing to say against Him, brought Him to Pilate, like a fierce robber. Well, then, was it said to the Synagogue of the Jews: Sodom has been justified by thee; and Christ Himself cries out, accusing the madness that the children of Israel here showed: Thou hast not done according to the judgments of the nations round about. And the saying is true; for the Greeks would not with defiled and unwashed hands have brought the usual sacrifices to the stones and blocks of wood they conceived to be gods, nor would they have destroyed one, unless it was in the most evil plight; but the Jews, though about to sacrifice the Passover to the true God, had their souls stained with the guilt of innocent blood, and were hastening to put to death unjustly Him Who was a stranger to all sin.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/jn/18/29",
+      "full_content_url": "https://catenabible.com/com/57eb0c76b0d44ee10cfac09c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "4. Do you see that he was free from fondness for rule and from malice? For seeing Jesus bound, and led by so many persons, he did not think that they had unquestionable proof of their accusation, but questions them, thinking it a strange thing that they should take for themselves the judgment, and then commit the punishment without any judgment to him. What then say they?",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/18/29",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabc97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 18:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

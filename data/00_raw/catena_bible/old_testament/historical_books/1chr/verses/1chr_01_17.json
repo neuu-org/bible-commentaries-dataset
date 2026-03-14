@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 1:17",
+  "verse_text": "Verse text for 1CHR 1:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/1/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hus and Hul were the immediate sons of Aram, as well as.Mosoch, or Mes; (Genesis x. 23.; Calmet) so that there seems to be here some transposition. (Du Hamel)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/1/17",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd5a7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "These people occupy the part of Asia from the river Euphrates to the Indian Ocean. Moreover, Elam is the one from whom the Elamite princes of Persia come. It has already been remarked before about Assur that he founded the city of Ninus. Arphaxad is the one from whom derive the Chaldeans, Lud from whom come the Lydians, and Aram from whom come the Syrians, whose mother-city is Damascus. Us, the founder of Trachonitis and Damascus, held sway between Palestine and Coele-Syria: as a result of this, the Septuagint in the book of job, where in Hebrew is written the land of Us, have translated the territory Ausitis or Usitis. Ul is the one from whom the Armenians come, and Gether the one from whom derive the Acarnanii or Carians. Finally Mes, instead of which the Septuagint have specified Mosoch, are nowadays called the Maeones. (St. Jerome on Hebrew Names)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/1/17",
+      "full_content_url": "https://catenabible.com/com/5879d89fdd1bb6dd3dba9f8e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 1:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

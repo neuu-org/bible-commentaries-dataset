@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 44:18",
+  "verse_text": "Verse text for IS 44:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/44/18",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The wise and eloquent people among the pagans are full of admiration for a well-turned phrase. One of their main preoccupations is with elegance of expression. They are filled with the greatest enthusiasm for good style and take great pride in verbal dexterity. The base material of their poets is merely lies fashioned in rhythms and meters for grace and harmony, but for truth they have little if any regard. I would say that they are sick from the lack of any true or proper notion of the nature and reality of God. … And God said of them through the voice of Isaiah, “Know that their hearts are dust and that they have erred. ” … As for the inventors of impure heresies, those profaners and apostates who have opened their mouths against the divine glory, “those who have uttered perverted things,” we could accuse them of having slipped in their madness as low as the foolish pagans; perhaps they have slipped even lower, for it would have been better never to have known the way of sacred truth than once to have known it, to have turned away from the sacred commandment that was handed on to them.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/44/18",
+      "full_content_url": "https://catenabible.com/com/5e88f318b1c7280cb341d0e5",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Covered. Septuagint, \"darkened. \"Are Catholics in the same predicament? (Chap. xl. 18.) (Haydock)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/44/18",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beaef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh They have not known nor understood: for he has shut their eyes, that they cannot see; and their hearts, that they cannot understand. Whatever is said about idols can also be referred to the leaders of heresies, who form likenesses of their teachings with a heart of deceitful artifice and worship those things that they know to be facsimiles … and abusing the untrained minds of the common people with dialectical skill, just as with axes and files, with lines and planes they form their gods. The sweet talkers beat with a hammer and embellish with the fineness of their speech.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/44/18",
+      "full_content_url": "https://catenabible.com/com/5e88f317b1c7280cb341d0e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 44:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

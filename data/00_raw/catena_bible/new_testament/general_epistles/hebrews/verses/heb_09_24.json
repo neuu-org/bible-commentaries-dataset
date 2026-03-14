@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 9:24",
+  "verse_text": "Verse text for HEB 9:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/9/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "In the Holy Spirit: for this flesh is the copy of the spirit. No one then who corrupts the copy, shall partake of the original.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/9/24",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb1cf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The Jews greatly prided themselves on the temple and the tabernacle. Wherefore they said, The temple of the Lord, The temple of the Lord, The temple of the Lord. Jeremiah 7:4 For nowhere else in the earth was such a temple constructed as this, either for costliness, or beauty, or anything else. For God who ordained it, commanded that it should be made with great magnificence, because they also were more attracted and urged on by material things. For it had bricks of gold in the walls; and any one who wishes may learn this in the second [book] of Kings, and in Ezekiel, and how many talents of gold were then expended. But the second [temple] was a more glorious building, both on account of its beauty, and in all other respects. Nor was it reverenced for this reason only, but also from its being One. For they were wont to resort there from the uttermost parts of the earth, whether from Babylon or from Ethiopia. And Luke shows this when he says in the Acts: There were dwelling there Parthians, and Medes, and Elamites, and the dwellers in Mesopotamia, in Judea and Cappadocia, in Pontus and Asia, Phrygia and Pamphylia, in Egypt and in the parts of Libya about Cyrene. Acts 2:5-10 They then who lived in all parts of the world assembled there, and the fame of the temple was great. What then does Paul do. What [he did] in regard to the sacrifices, that also he does here. For as there he set against [them] the death of Christ, so here also he sets the whole heaven against the temple.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/9/24",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac814",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 9:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

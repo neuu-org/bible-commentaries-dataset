@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 1:39",
+  "verse_text": "Verse text for 1KGS 1:39",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/1/39",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "You must know that this chrism is prefigured in the Old Testament. When Moses, conferring on his brother the divine appointment, was ordering him high priest, he anointed him after he had bathed in water, and thenceforward he was called “christ” [anointed], clearly after the figurative chrism. Again, the high priest, when installing Solomon as king, anointed him after he had bathed in Gihon. But what was done to them in figure was done to you, not in figure but in truth, because your salvation began from him who was anointed by the Holy Spirit in truth. Christ is the beginning of your salvation, since he is truly the “first handful” of dough and you “the whole lump.” And if the first handful is holy, plainly its holiness will permeate the lump.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/1/39",
+      "full_content_url": "https://catenabible.com/com/5e1b66ae8bc66721fe4ef83a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 1:39",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

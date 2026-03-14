@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 18:21",
+  "verse_text": "Verse text for ACTS 18:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/18/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And when he had landed at Cæsarea, and gone up, and saluted the Church, he went down to Antioch. And after he had spent some time there, he departed, and went over all the country of Galatia and Phrygia in order, strengthening all the disciples.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/18/21",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9437",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "for he was hastening to Cæsarea. And having arrived at Cæsarea, etc., passing through the region of Galatia and Phrygia, confirming all the disciples.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/18/21",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b943d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 18:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

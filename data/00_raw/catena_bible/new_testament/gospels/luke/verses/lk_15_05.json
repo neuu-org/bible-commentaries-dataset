@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 15:5",
+  "verse_text": "Verse text for LK 15:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/15/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And when he hath found it, he layeth it on his shoulders, rejoicing. Or as the Arabic renders it, \"He carries it on his shoulders joyfully,\" that he may the more quickly return it to the flock. In like manner on Christ \"was laid,\" as saith the prophet Isaiah , the iniquity of us all. \" Hence Gregory of Nyssa, writes in the Catena, \"When the shepherd had found the sheep, he did not punish it, he did not drive it to the fold, but placing it on his shoulder, and carrying it gently, he reunited it with the flock. \" Oh how wondrous is the meekness, clemency, and love of Christ our Lord. It was to represent this love to the faithful that Christ is depicted in our temples with the lost sheep on His shoulders, carrying it back to the flock, and it is related of the son of Charlemagne, that laying aside his royal state, he became a monk, and when employed in keeping sheep, followed to the letter the example set by the Good Shepherd: for humility and the imitation of Christ is in truth the glory of Christian kings.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/15/5",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5201e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 15:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JB 24:4",
+  "verse_text": "Verse text for JB 24:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/24/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Poor, by oppression, not allowing them to get their bread, or to walk on the same road. (Calmet)\nAnd have. Hebrew and Septuagint, \"the meek. Have hidden themselves together.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/24/4",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdcd2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "59. For by the term of ‘poverty,’ humility is very often denoted, and very often they that appear gentle and humble, if they have not learnt to maintain discretion, fall by the examples of other men. But there are some Heretics, who eschew to mix themselves with the multitudes, and seek the retirement of a life of greater privacy, and these very often with the bane of their persuasion poison those that they meet with the more, in proportion as by the claims of their life they the more seem deserving of respect.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/24/4",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd0d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Julian of Eclanum",
+      "period": "AD455",
+      "content": "“Times are not hidden from the Almighty. ” [Job] raises the same question he had discussed above, but now with a profession of faith. He says that he certainly knows that parts of his censorship in blotting out the merits of people follow the course of his justice, but, in the present situation, many things happen that seem to deny this judgment. With this impression in his mind he pursues the crimes of the wicked to the end of his speech. “Times are not hidden,” he says, “from the Almighty,” that is, in his knowledge dwells a full awareness of all our moments. It is as if he said, God does not ignore any time of our actions even as we change them constantly, yet we, who touch him with the devotion of our mind, ignore how many days of patience and deferment he hangs on our judgment. “Others removed the landmarks. ” It must be noticed, in this reproof of human vices, that they are weighed more lightly or more seriously according to their effect on the virtue of soul. Thus Job and his friends are affected in different ways by different vices; the friends only accuse the acts of inhumanity, whereas Job describes the crimes of iniquity, violence, robbery, lewdness, pride and impiety.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/24/4",
+      "full_content_url": "https://catenabible.com/com/5e1b60df8bc66721fe4ef6ad",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 24:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

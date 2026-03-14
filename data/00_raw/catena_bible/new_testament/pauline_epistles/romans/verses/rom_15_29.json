@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 15:29",
+  "verse_text": "Verse text for ROM 15:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/15/29",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "“The fullness of the blessing” refers to the miracles through which the blessing is confirmed. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/29",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5388",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "\"\"For I know \"says the apostle, \"that when I come to you, I shall come in the fulness of the blessing of Christ; \"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/29",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbb41",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I know, by the Spirit of God revealing it to me, that God will give a blessing to my labours, when I come to you. That I may be delivered from the unbelievers in Judea, from the unbelieving Jews, foreseeing the persecution he should there meet with. That I may be refreshed with you, have comfort by finding peace and union among you. (Witham)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/29",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723bff7f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul is speaking here either about alms or about good deeds. For blessing is a name he very commonly gives to alms.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/29",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5389",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 15:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 13:39",
+  "verse_text": "Verse text for ACTS 13:39",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/39",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The law of Moses was then imperfect. I show you its completion, by preaching to you Christ, whom it foretold. You would violate the law of Moses by opposing the new law, to which he leads you. (Tirinus)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/39",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfded",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Every one, he says: be who he may. For those (ordinances) are of no use, unless there be some benefit (accruing therefrom.) This is why he brings in forgiveness later: and shows it to be greater, when, the thing being (otherwise) impossible, yet this is effected. Who are His witnesses, he says, unto the people— the people that slew Him. Who would never have been so, were they not strengthened by a Divine Power: for they would never have borne such witness to blood-thirsty men, to the very persons that killed Him. But, He has raised up Jesus again: This day, he says, I have begotten you.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/13/39",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9345",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:39",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

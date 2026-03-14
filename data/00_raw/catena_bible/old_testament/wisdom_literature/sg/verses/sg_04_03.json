@@ -1,0 +1,36 @@
+{
+  "verse_reference": "SG 4:3",
+  "verse_text": "Verse text for SG 4:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/4/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Scarlet. Preachers of the gospel (St. Gregory) must speak with elegance, and have their lips dyed with the blood of Christ, and purified with coals from the altar. (Calmet)\nSo, if we may use the words of a living critic, who is sometimes accurate, \"a commentator ought to study at the foot of his crucifix, and write with ink drawn from the heart of Jesus. \"(Haydock)\nPomegranate. Plump and ruddy, representing the purity of the Church, and of virgins, who are its \"flower \"(St. Cyprian) and bring forth fruits of good works. (St. Augustine, de Virg.)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/4/3",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be883",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 4:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

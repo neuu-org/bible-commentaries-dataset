@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 16:6",
+  "verse_text": "Verse text for ACTS 16:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/16/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "They were forbidden by the Holy Spirit, to go, and preach at that time in the Lesser Asia . (Witham)\nForbidden. Why? Because they were not yet prepared to receive the gospel; or, perhaps, these provinces were reserved for St. John, as Bithynia was for St. Luke. (Menochius)\nSt. Leo compares this question to many others respecting the inscrutable judgments of God. Why did not the Son of God come into the world many ages before? Why did he suffer so many to die in ignorance? Why are there yet so many in infidelity? Why, in one family, does one believe and is converted, while another remains in darkness, and crime? Who shall account for the exercise he pleases to make of his rigour, or his mercy, when all were justly victims of the former? (St. Leo, de vocat. Gentium. lib. ii. chap. 2)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/16/6",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe11",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "having left Phrygia and Galatia, they hastened into the interior. For, it says, After they had come to Mysia, they assayed to go into Bithynia: but the Spirit suffered them not.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/16/6",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b93bd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 16:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

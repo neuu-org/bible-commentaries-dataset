@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 27:13",
+  "verse_text": "Verse text for NM 27:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/27/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "People, in limbo. (Menochius)\nHe was not buried in the grave of his ancestors, but on some part of Mount Abarim, called Nebo, Deuteronomy xxxiv. 1, 6. (Haydock)\nMoses, hoping that his sentence of exclusion from the promised land might be only a threat, had earnestly besought God to let him enter. But being forbidden to speak of the matter any more, he understood that it was as irrevocable as an oath, Deuteronomy iii. 26., and iv. 21. He turned, therefore, his whole solicitude to obtain of God some one, who might enjoy the honour and happiness of conducting the people, and putting them in possession of God's promises. He regards not flesh and blood on this occasion, (Philo, de caritate.; Salien,) but sets a noble pattern for all ecclesiastical superiors to imitate. (Du Hamel)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/27/13",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc852",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 27:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

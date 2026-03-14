@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 30:6",
+  "verse_text": "Verse text for PRV 30:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/30/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And not any thing contrary, Deuteronomy iv. 2., and xii. 32.\nLiar. Our Saviour condemned the false explanations of the Pharisees, as his Church does those of all heretics.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/30/6",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be782",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "You shall hate all hypocrisy; and whatever is pleasing to the Lord, that shall you do. By no means forsake the commands of the Lord. But you shall observe what things you have received from him, neither adding to them nor taking away from them. “For you shall not add unto his words, lest he convict you and you become a liar.” You shall confess your sins unto the Lord your God; and you shall not add unto them, that it may be well with you from the Lord your God, who wills not the death of a sinner but his repentance. .",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/30/6",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85c1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 30:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

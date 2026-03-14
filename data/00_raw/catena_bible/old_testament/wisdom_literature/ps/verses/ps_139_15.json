@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PS 139:15",
+  "verse_text": "Verse text for PS 139:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/139/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"My bone is not hid from Thee, which Thou hast made in secret\" (ver. \"His bone,\" he saith. What the people call ossum, is in Latin called os. This is the word in the Greek. For we might think the word os is here the one which makes in the plural ora, not os (short), which makes ossa. He saith then, I have a certain bone (ossum) in secret. For this word let us prefer to use; better is it that scholars find fault with us, than that the people understand us not. \"There is then,\" saith he, \"a certain bone of mine, within, hidden; Thou hast made within a bone for me in secret, yet is it not hidden from Thee. In secret hast Thou made it, but hast Thou therefore hidden it from Thyself. This my bone made by Thee in secret men see not, men know not: Thou knowest, who hast made. What \"bone\" then meaneth he, brethren. Let us seek it, it is \"in secret. \" But because as Christians we are speaking in the Name of the Lord to Christians, now we find what bone is of this kind. It is a sort of inward strength; for strength and fortitude are understood to be in the bones. There is then a sort of inward strength of the soul, wherein it is not broken. Whatever tortures, whatever tribulations, whatever adversities rage around, that which God hath made strong in secret in us, cannot be broken, yieldeth not. For by God is made a certain strength of patience, of which is said in another Psalm, \"But my soul shall be subjected to God, for of Him is my patience. Wherein dost thou glory. \"In tribulations, knowing that tribulation worketh patience. \" See how that strength is fashioned within in his heart: \"because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us. \" So is fashioned and made strong that hidden bone, that it maketh us even to glory in tribulations. But to men we seem wretched, because that which we have within is hidden from them. \"And my substance is in the lower parts of the earth. \" Behold, in flesh is my substance, yet have I a bone within, which Thou hast fashioned, such as to cause me never to yield to any persecutions of this lower region, where still my substance is. For what great matter is it, if an Angel be brave. This is a great matter, if flesh is brave. And whence is flesh brave, whence is an earthen vessel brave, save because in it is made a bone in secret.",
+      "commentary_number": "1/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/139/15",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6759",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bone. Hebrew, \"substance. \"\nAnd my. Hebrew, \"and curiously wrought. \"(Protestants) (Haydock)\nSeptuagint have read rather differently, and give a very good sense; \"and is my substance in? \"Most explain this also of the embryo. But it seems rather to refer to the corpse in the grave, Psalm lxii. 10. (Calmet) (Berthier)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/139/15",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "It is said also by those who treat of the nature and generation of animals, that the change of the blood into bone is something invisible and intangible, although in the case of other parts, I mean the flesh and nerves, the mode of their formation may be seen. And the Scripture also, in Ecclesiastes, adduces this, saying, As you know not the bones in the womb of her that is with child, so you shall not know the works of God. But from You was not hid even my substance, as it was originally in the lowest parts of the earth.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/139/15",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac171",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 139:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

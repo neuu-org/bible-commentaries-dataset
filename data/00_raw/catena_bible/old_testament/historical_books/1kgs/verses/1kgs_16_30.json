@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 16:30",
+  "verse_text": "Verse text for 1KGS 16:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/16/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Ahab the son of Omri did evil in the sight of the LORD above all that were before him. This is that Ahab who thought that he would make little progress in the new religion [i. , idolatry] if he worshiped only the gods introduced by Jeroboam. Therefore he established rites for Baal, the god of the Sidonians, built his temple in the royal city, erected altars and planted sacred groves. And these actions bitterly enraged the prophets and the other worshipers of the true God.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/16/30",
+      "full_content_url": "https://catenabible.com/com/5e1b67d28bc66721fe4ef91f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 16:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

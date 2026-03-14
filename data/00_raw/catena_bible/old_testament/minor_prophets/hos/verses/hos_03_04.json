@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HOS 3:4",
+  "verse_text": "Verse text for HOS 3:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/3/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Altar. Hebrew, \"statue \"matseba instead of mozbé, as (Haydock) others agree with St. Jerome, and there seems to have been no variation in his time.\nThera him. Images or representations, (Challoner) either good or bad. As the other things mentioned were good, such lawful images as were used in the temple must be meant, 3 Kings vii. 36. (Worthington)\nSt. Jerome explains it of cherubim. Septuagint, \"altar, priesthood, and manifestations (Urim) being wanting. \"(Haydock)\nYet some take it in a bad sense. The Jews adhere neither to God nor to idols. (Vatable)\nWhat misfortune, however, would the latter be? In exile the Jews were deprived of the exercise of their religion, and of their princes. (Calmet)\nBut this was only a figure of what they endured since they rejected Christ. (Origen, Philoc. i.; St. Jerome)\nThis wretched state will probably continue till they at last embrace the yoke of Christ, the true king of ages. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/3/4",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf352",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Theraphim: Images or representations.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/3/4",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4cc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 3:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

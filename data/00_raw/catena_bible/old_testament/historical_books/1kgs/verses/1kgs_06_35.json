@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 6:35",
+  "verse_text": "Verse text for 1KGS 6:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/6/35",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "[These symbols] have already been expounded above, because the same representations or carvings were wrought on the walls of the house and on the inner doors, and the meaning of the figures is obviously that the first door of the temple actually received the same representations and carvings and the same cherubim as the inner parts. The reason for this is that the same mysteries of faith, hope and charity, which the sublime and the perfect each grasp in a sublime manner and that all the elect in heaven fully understand in the divine vision, are handed on also in the instruction of the unlettered for each one to learn and confess, in as much as those who have been initiated into the mysteries sometimes also succeed in understanding what they have devoutly believed.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/6/35",
+      "full_content_url": "https://catenabible.com/com/5e1b67548bc66721fe4ef8bc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And carved Hebrew, \"and open flowers, (as ver. 32) and overlaid them with gold, fitted upon the sculpture \"(Haydock) so that the shape of every thing appeared.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/6/35",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd27e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 6:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 5:6",
+  "verse_text": "Verse text for HEB 5:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/5/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Some may perhaps wonder why St. Paul does not dwell more in this epistle on the eucharistic sacrifice; but until the Hebrews understood the bloody sacrifice on the cross, they could not be supposed to understand the unbloody sacrifice of the altar. The holy Fathers observe, that the sacrifice of Melchisedech, (Genesis xiv. ) offered in bread and wine, prefigured the unbloody sacrifice offered by Jesus Christ at his last supper. See Clement of Alexandria, lib. Cyprian, lib. ; Eusebius of Cæsarea, lib. Jerome, ad Marcel. Augustine, ep. Ambrose; St. Epiphanius; St. Chrysostom; apud Bellarmine, lib. Hence it follows, that the holy Eucharist is truly and properly a sacrifice as well as a sacrament, as the paschal lamb or passover of the old law was both a sacrament and sacrifice. For either our Saviour offered sacrifice at his last supper under the forms of bread and wine, or he cannot be called a priest forever according to the order of Melchisedech. For the different orders of priests are chiefly distinguished by their sacrifice; (see.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/5/6",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02da",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "As He says also in another place, You are a Priest forever after the order of Melchisedech. Unto whom now was this spoken?\n\nWho is after the order of Melchisedech? No other [than He]. For they all were under the Law, they all kept sabbaths, they all were circumcised; one could not point out any other [than Him].",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/5/6",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac7c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 5:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

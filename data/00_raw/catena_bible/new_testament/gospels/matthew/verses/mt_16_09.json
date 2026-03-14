@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 16:9",
+  "verse_text": "Verse text for MT 16:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/16/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you see intense displeasure? For nowhere else does He appear to have so rebuked them. Wherefore then does He so? In order again to cast out their prejudice about the meats. I mean that with this view, whereas then He had only said, Perceive ye not, neither understand? in this place, and with a strong rebuke, He says, O you of little faith.\n\nFor not everywhere is lenity a good thing. And as He used to allow them freedom of speech, so does He also reprove, by this variety providing for their salvation. And mark at once His reproof, how strong, and His mildness. For all but excusing Himself to them for His severe reproofs to them, He says, Do ye not yet consider the five loaves, and how many baskets ye took up; and the seven loaves, and how many baskets ye took up? And to this end He sets down also the numbers, as well of the persons fed as of the fragments, at once both bringing them to recollection of the past, and making them more attentive to the future.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/16/9",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac498",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Leniency is not always a good thing. Christ sometimes allows the disciples freedom for their opinions. At other times he reproves them. By this variable nurturing he provides for their salvation. Note how at the same time his reproof is strong and yet mild. For all but excusing himself to them for his severe reproofs to them, he says, “Do you not yet perceive. Do you not remember the five loaves of the five thousand, and how many baskets you gathered. Or the seven loaves of the four thousand, and how many baskets you gathered. ” He specifies the numbers and the fragments, so as to bring them to a clear recollection of what had just happened and making them more attentive to the future. And to teach you how great is the power of his reproof, and how it roused up their slumbering mind, hear what the Evangelist says. For Jesus having reproved them said no more but added this only: How is it that you fail to perceive that I did not speak about bread. Beware of the leaven of the Pharisees and Sadducees. Then they understood that he did not tell them to beware of the leaven of bread but of the teaching of the Pharisees and Sadducees. See how much good his admonition conveyed. For it both led them away from the Jewish food observances and, when they were remiss, made them more attentive and delivered them from the neglect of faith. So they were not afraid nor in alarm about having no food or about starving. The Gospel of Matthew, Homily.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/16/9",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6feb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 16:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

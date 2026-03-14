@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 6:1",
+  "verse_text": "Verse text for EST 6:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/6/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And. Instead of these two verses, the Septuagint place (Haydock) what we have chap. xv., with some small variation from the present account in Hebrew. But there is nothing incompatible with the truth. (Calmet)\nThe king might be at first displeased; but, seeing the effect which it had upon Esther, he might feel his former sentiments of love rekindle. (Calmet) (Tirinus)\nHouse, or inner apartment, chap. iv. 11. The throne was surprizingly magnificent, yet inferior to that of Solomon, 3 Kings x. 18. (Calmet)\nIt was formed of gold and precious stones, with a curtain over it of purple and other colours. (Athen. xi. 2.)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/6/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdae2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 6:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

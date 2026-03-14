@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 1:11",
+  "verse_text": "Verse text for ECCL 1:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/1/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Things. Otherwise we should read of similar events to those which we behold. The same cause naturally produces the same effect.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/1/11",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be7b4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "If oblivion has overtaken things which were, do not be surprised; for those that now are will also be veiled in oblivion. When our nature inclined to evil we became forgetful of the good; when we are set free again for the good, evil in turn will be veiled in oblivion. For I think this is the meaning of the text, in which he says, “There is no memory for the first, and indeed for those who come last there will be no memory of them.” It is as if he were saying that the memory of events which followed our blessed state at the beginning, through which humanity has come to be among evils, will be obliterated by what again supervenes at the end. For “there will be no memory of them with those who have come to be at the last.” That means, the final restoration will make the memory of evil things utterly vanish in our nature, in Jesus Christ our Lord, to whom be the glory forever and ever.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/1/11",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee23",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 1:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "verse_reference": "ACTS 8:9",
+  "verse_text": "Verse text for ACTS 8:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/8/9",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "And in a word, having injured many, and being supposed to be a god, he is both feared and honoured.\"",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/9",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723badd4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "And partly also by the assistance of demons perpetrating his villany, attempted to deify himself. (But) the man was a (mere) cheat, and full of folly, and the Apostles reproved him in the Acts.",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/9",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723badd3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Simon the Samaritan was that magician of whom Luke, the disciple and follower of the apostles, says, \"But there was a certain man, Simon by name, who beforetime used magical arts in that city, and led astray the people of Samaria, declaring that he himself was some great one, to whom they all gave heed, from the least to the greatest, saying, This is the power of God, which is called great. And to him they had regard, because that of long time he had driven them mad by his sorceries.\".\nAnd what shall I more say? It is not possible to name the number of the gifts which the Church,",
+      "commentary_number": "3/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/8/9",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723badd1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Observe another trial, this affair of Simon. Giving out, it says, that he was himself some great one. To whom they all gave heed, from the least to the greatest, saying, This man is the great power of God. And to him they had regard, because that of long time he had bewitched them with sorceries. But when they believed Philip preaching the things concerning the kingdom of God, and the name of Jesus Christ, they were baptized, both men and women. Then Simon himself believed also: and when he was baptized, he continued with Philip, and wondered, beholding the miracles and signs which were done. Now when the Apostles which were at Jerusalem heard that Samaria had received the word of God, they sent unto them Peter and John: who, when they had come down, prayed for them, that they might receive the Holy Ghost.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/8/9",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f25e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "For thenceforward Simon Magus, just turned believer, (since he was still thinking somewhat of his juggling sect; to wit, that among the miracles of his profession he might buy even the gift of the Holy Spirit through imposition of hands) was cursed by the apostles, and ejected from the faith.\nMany attempts were also wrought against the apostles by the sorcerers Simon and Elymas.\nOf these the first of all is Simon Magus, who in the Acts of the Apostles earned a condign and just sentence from the Apostle Peter.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/9",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723badd2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 8:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 20:15",
+  "verse_text": "Verse text for 2SM 20:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/20/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Works. Hebrew, a bank, or terrace against the city, and it stood in the trench; (Haydock) so that the town ditch was filled up, (Grotius) or terraces were raised, from which archers assailed the besieged. Joab made a ditch to defend his men from foreign assailants; and he had already taken the outward wall, so that the town could not hold out for any length of time.\nThe walls. St. Jerome thinks with battering rams: but they were not yet invented. (Calmet)\nThey undermined the walls, while some attempted to pull them down with hooks and ropes, chap. xvii. 13. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/20/15",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd1c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 20:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 9:33",
+  "verse_text": "Verse text for LK 9:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/9/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "It is good for us. It is not good, O Peter, for Christ to remain always. Should he have remained there, the promise he had made thee would never have been fulfilled. Thou wouldst never have obtained the keys of the kingdom of heaven, and the reign of death would not have been destroyed. Seek not for joys before the time, as Adam sought to be made like God. The time will come, when thou shalt for eternity behold him, and reign with him who is life and light. (Damasus, Orat. de Transfigurat. ) Three tabernacles. The Lord does appoint thee the builder, not of tabernacles, but of his whole Church. Thy disciples, thy sheep, have fulfilled thy desire, by erecting tabernacles for Christ and his faithful servants. These words of St. Peter, let us make were not spoken of himself, but by the prophetic inspiration of the Holy Spirit. Therefore it is added, he knew not what he said. Peter knew not what he said, because by proposing to make three tabernacles for these three personages, he improperly ranked together, the servants and their Lord, the creature and the Creator. (Titus Bostrensis).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/33",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa97",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Of the New? Well therefore does Peter, when recognizing the companions of his Christ in their indissoluble connection with Him, suggest an expedient: \"It is good for us to be here \"(good: that evidently means to be where Moses and Elias are); \"and let us make three tabernacles, one for Thee, and one for Moses, and one for Elias. But he knew not what he said.\".\nFor the latter voice was uttering a threat to a fed man, the former soothing a fasting one. Such is the prerogative of circumscribed food, that it makes God tent-fellow",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/9/33",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbd29",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 9:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

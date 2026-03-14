@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 104:22",
+  "verse_text": "Verse text for PS 104:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/104/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "29. \"The Sun hath arisen, and they get them away together, and lay them down in their dens\" (ver. 22). More and more as the Sun riseth, so that Christ is recognised by the round world, and glorified therein, do the lion's whelps get them away together; those devils recede from the persecution of the Church, who instigated men to persecute the house of God, by working in the sons of unbelief. Now that none of them dareth persecute the Church, \"the Sun hath arisen, and they get them away together.\" And where are they? \"And they lay them down in their dens.\" Their dens are the hearts of the unbelieving. How many carry lions crouching in their hearts? They burst not forth thence, they make no assault upon the pilgrim Jerusalem. Wherefore do they not so? Because the Sun is already risen, and is shining over the whole world.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/104/22",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6538",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 104:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

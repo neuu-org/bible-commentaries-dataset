@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 11:15",
+  "verse_text": "Verse text for MK 11:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/11/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "This account of the many sellers who were cast out of the temple was reported by all the Evangelists, including John, but in his case he introduces it in a completely different order…. John proceeds to tell us that he went up to Jerusalem at the season of the Jews’ passover, and when he had made a scourge of small cords drove out of the temple those who were selling in it. This makes it evident that this act was performed by the Lord not on a single occasion, but twice over. Only in the first instance was it recorded by John, but in the last by the other three.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/11/15",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e46",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "He scattered the fraudulent traders, and drove them all out, together with the things that had to do with the carrying on of trade. What, my beloved, do you suppose our Lord would do if he should discover people involved in disputes, wasting time gossiping, indulging in unseemly laughter, or engaged in any other sort of wicked actions? Remember: when he saw traders in the temple buying the sacrificial offerings meant to be made to him, he was prompt in getting rid of them. … These things should cause us great perturbation, beloved; we should dread them exceedingly with welldeserved fear, and carefully avoid them with painstaking diligence, lest he come unexpectedly and find something evil in us, as a result of which we should rightly be scourged and cast out of the church.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/11/15",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 11:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

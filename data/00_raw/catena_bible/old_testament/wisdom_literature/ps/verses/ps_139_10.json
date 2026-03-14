@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 139:10",
+  "verse_text": "Verse text for PS 139:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/139/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. Now listen who may bring us thither.The very same One whose face in wrath we wish to flee from. For what followeth? \"Even thither shall Thy hand conduct me, and Thy right hand lead me\" (ver. 10). This let us meditate on, beloved brethren, let this be our hope, this our consolation. Let us take again through love the wings we lost through lust. For lust was the lime of our wings, it clashed us down from the freedom of our sky, that is, the free breezes of the Spirit of God. Thence dashed down we lost our wings, and were, so to speak, imprisoned in the power of the fowler; thence \"He\" redeemed us with His Blood, whom we fled from to be caught. He maketh us wings of His commandments; we raise them aloft now free from lime. ...Needs then must we have wings, and needs must He conduct us, for He is our Helper. We have free-will; but even with that free-will what can we do, unless He help us who commandeth us?",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/139/10",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6754",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 139:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

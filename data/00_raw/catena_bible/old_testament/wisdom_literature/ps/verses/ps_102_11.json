@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 102:11",
+  "verse_text": "Verse text for PS 102:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/102/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "12. \"My days have declined like a shadow\" (ver. 11). ...He had said above, \"My days are consumed away like smoke;\" and he now saith, \"My days have declined like a shadow.\" In this shadow, day must be recognised; in this shadow, light must be discerned; lest afterward it be said in late and fruitless repentance, \"What hath pride profited us? or what good hath riches with our vaunting brought us? All those things are passed away like a shadow.\" Say at this season, all things will pass away like a shadow, and thou mayest not pass away like a shadow. \"My days have declined like a shadow, and I am withered like grass.\" For he had said above, \"my heart is smitten down, and I am withered like grass.\" But the grass bedewed with the Saviour's blood will flourish afresh. \"I have withered like grass;\" I, that is, man, after that disobedience; this I have suffered from Thy just judgment: but what art Thou?",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/102/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64f7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 102:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

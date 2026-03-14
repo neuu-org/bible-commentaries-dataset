@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 49:3",
+  "verse_text": "Verse text for PS 49:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/49/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "4. And what is it they are now to hear? \"My mouth shall speak of wisdom, and the meditation of my hear understanding\" (ver. 3). And this repetition is perhaps made, lest perchance if he had said only \"my mouth,\" thou shouldest suppose that one spake to thee who had understanding but in his lips. For many have understanding in their lips, but have not in their heart, of whom the Scripture saith, \"This people honoureth me with their lips, but their heart is far from me.\" What saith he then who speaketh to thee? when he hath said, \"My mouth shall speak of wisdom,\" in order that thou mayest know that what is poured forth from the mouth floweth from the bottom of the heart, he hath added, \"And the meditation of my heart of understanding.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/49/3",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a69",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 49:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

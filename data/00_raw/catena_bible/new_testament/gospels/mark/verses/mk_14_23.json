@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 14:23",
+  "verse_text": "Verse text for MK 14:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/14/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "And he took the cup, and when he had given thanks, he gave it to them: and they all drank of it. Ambrose of Milan Before the words of Christ, the chalice is full of wine and water; when the words of Christ have been added, then the blood in effect redeems the people. So behold in what great respects the expression of Christ is able to change all things. Then the Lord Jesus himself testified to us that we receive his body and blood. Should we doubt at all about his faith and testimony. The Sacraments.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/14/23",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52ecb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Giving thanks: the Syriac adds, He blessed.\nAnd they all drank of it, namely, after Christ had consecrated the chalice, saying, This is My blood, as it follows. There Isaiah , therefore, a prolepsis, or anticipation, which Mark makes use of to show that the disciples fulfilled the command of Christ. Drink ye all of it, as Matthew has, Matthew 26:28.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/14/23",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51eac",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 14:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

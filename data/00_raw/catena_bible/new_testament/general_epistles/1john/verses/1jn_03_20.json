@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1JN 3:20",
+  "verse_text": "Verse text for 1JN 3:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/1jn/3/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "For if our heart condemn us, God is greater than our heart, and knoweth all things. If we cannot conceal our hypocrisy from our own hearts, much less can we conceal it from God, who is greater and deeper even than our own heart, who is more intimately acquainted with it, and is nearer to it than we are ourselves. If thy conscience condemns thee, how much more will God, who rules over and judges thy conscience. \"If we cannot hide anything from our conscience,\" says Å’cumenius, \"how can we hide it from God who is ever present. \" \"Thou hidest thy conscience from Prayer of Manasseh ,\" says S. Augustine, \"hide it from God if thou canst. Let thy conscience bear thee witness, for it is of God. And if it is of God, do not boast of it before men, because the praises of men exalt thee not, nor do their reproofs bring thee down. Let Him see thee who crowneth thee: let Him, by whose judgment thou wilt be crowned. \" Diadochus says (de perf. ), \"The judgment of God is far above that of our conscience. \"Man will go down to his deep heart, and God will be exalted,\" that Isaiah , man will think many evils in the depth of his heart, but God will be deeper than it. But Lyra, Aquila, and Theodotion read iorem, will shoot at it. Thomas Anglicus merely applies the passage thus, If the sin of the heart is great, greater is God\"s compassion in forgiving. And God too is greater than our heart, because He alone satisfies the desires of our heart, and even overflows and surpasses them.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1jn/3/20",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e526bd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "And John says, \"By his own heart is each man condemned; \"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1jn/3/20",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba983",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1JN 3:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 31:44",
+  "verse_text": "Verse text for GN 31:44",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/31/44",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now therefore come, let us make a covenant, I and you; and let it be for a witness between me and you. Consider how Laban is gradually introduced to knowledge of God. The man who previously brought the charge of theft of his household gods against the good man and conducted such a close search now says, “Since there is no one capable of acting between us, in case anything happens later, let God act as witness between us to witness what is now being done by us. He is present, the one who sees everything, whose attention nothing can escape, who reads each person’s mind.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/31/44",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51be7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 31:44",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

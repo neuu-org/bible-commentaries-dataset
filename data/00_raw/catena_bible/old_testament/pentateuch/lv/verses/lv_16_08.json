@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 16:8",
+  "verse_text": "Verse text for LV 16:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/16/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Aaron shall cast lots upon the two goats; one lot for the LORD, and the other lot for the scapegoat. The emissary-goat: caper emissarius; in Greek, apopompaios; in Hebrew, Hazazel. The goat to go off, or as some translate it, the scape-goat. This goat, on whose head the high priest was ordered to pour forth prayers, and to make a general confession of the sins of the people, laying them all, as it were, on his head; and after that to send him away into the wilderness, to be devoured by wild beasts, was a figure of our Saviour, charged with all our sins, in his passion.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/16/8",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc5ec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "May I offer, moreover, an interpretation of the two goats which were presented on “the great day of atonement”? Do they not also prefigure the two natures of Christ? They were of like size and very similar in appearance, owing to the Lord’s identity of aspect. He is not to come in any other form. He had to be recognized by those by whom he was also wounded and pierced. One of these goats was bound with scarlet and driven by the people out of the camp into the wilderness, amid cursing, and spitting, and pulling and piercing, being thus marked with all the signs of the Lord’s own passion. The other, by being offered up for sins and given to the priests of the temple for meat, afforded proofs of his second appearance, when (after all sins have been expiated) the priests of the spiritual temple, that is, the church, are to enjoy the flesh, as it were, of the Lord’s own grace. The rest will deport from salvation without tasting it. .",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/16/8",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529d3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 16:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

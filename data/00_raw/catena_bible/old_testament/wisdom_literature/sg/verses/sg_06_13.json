@@ -1,0 +1,47 @@
+{
+  "verse_reference": "SG 6:13",
+  "verse_text": "Verse text for SG 6:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/6/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Turn to us, O peaceful soul, that you may show your glory to your sisters and that they may begin to console themselves with the security of your repose and happiness. Turn to us once only, that we may see you, and turn again and hasten with all speed to that great Jerusalem, the city of the saints. Or indeed, since Christ says this to the pious soul, he commands it to turn for a little while, that its glory and its future repose with the saints may be manifest to us, and then he commands it to hasten to the company of the saints on high.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/sg/6/13",
+      "full_content_url": "https://catenabible.com/com/5e4f7ddbc849cf49a740e122",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "these are thw words of the Church to the Jews, because for a long time they were imprisioned in a discordant religion. (St. Bede)\nShunamite: the word means 'made captive.' (Alcuin)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/6/13",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d37",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 6:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

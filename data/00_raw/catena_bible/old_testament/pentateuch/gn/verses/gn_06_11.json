@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 6:11",
+  "verse_text": "Verse text for GN 6:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/6/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The earth also was corrupt before God, and the earth was filled with violence. Augustine of Hippo Somebody may say to me, “Was Adam, created by God as the first man in the original state of the world, condemned for lack of faith or for sin. ” It was not incredulity but disobedience that was the cause for his condemnation and the reason why all his posterity are punished. Cain too was condemned, not for lack of faith but because he killed his brother. Why need I seek further proof when I read that this whole world was destroyed not for incredulity but for wickedness.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/6/11",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e5197d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The earth also was corrupt before God, and the earth was filled with violence. Because the sons of Seth were going into the daughters of Cain, they turned away from their first wives whom they had previously taken. Then these wives, too, disdained their own continence and now, because of their husbands, quickly began to abandon their modesty, which up until that time they had preserved for their husbands’ sake. It is because of this wantonness that assailed both the men and the women that Scripture says, “All flesh corrupted its path.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/6/11",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e5197c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 6:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

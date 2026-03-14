@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 2:14",
+  "verse_text": "Verse text for LV 2:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/2/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And if you offer a grain offering of your first fruits unto the LORD, you shall offer for the grain offering of your first fruits green ears of grain dried by the fire, even grain beaten out of full ears. Ambrose of Milan The sacrifice should consist of a gift, the newest of the new, or it should be dried or broken into pieces, or it should be unbroken. The “newest of the new” belongs to the early season of the year and is consistent with the nature of first fruits. Now it has been made clear to us that this refers to those who are renewed by the sacrament of baptism.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/2/14",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529a7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And break Hebrew has simply, \"corn beaten out (or ready to be beaten out) of full ears. \"(Haydock)\nThese were to be offered at the Passover. (Du Hamel)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/2/14",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc50d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 2:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

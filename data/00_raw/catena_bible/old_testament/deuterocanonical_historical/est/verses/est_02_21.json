@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 2:21",
+  "verse_text": "Verse text for EST 2:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/2/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bagathan, or Bagatha and Thara, chap. xii. 1. One of the chief counsellors was called Bagatha. (Haydock)\nBut these two were porters, (Calmet) or guards, of the king, (Septuagint; Grotius) or of the treasury. (Vatable)\nSome Greek copies and the Chaldean insinuate that they were displeased at the advancement of Mardochai. The latter supposes that they meant also to poison Esther. (Calmet)\nIt appears that they wished to make Aman king, (Menochius) and the detection was always resented by him, chap. xii. 6. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/2/21",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdabe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 2:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PHIL 4:17",
+  "verse_text": "Verse text for PHIL 4:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/4/17",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "“I am not in want,” Paul says, “nor do I ask for these things out of my own need. But you ought to practice benevolence simply in order that your abundance of benevolence may be for me the fruit of your good deeds…. When I either ask God on your behalf or give him thanks on your account, there is fruit for me in my prayer on your account, so long as I know that you are abounding in benevolence.”",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/17",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53538",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Wherefore also Paul says, \"I do not seek after a gift, but I seek after fruit.\"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/17",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb804",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "As he said above, Not that I speak in respect of want; that is stronger than this. For it is one thing, that he who is in want, should not seek, and another that he who is in want should not even consider himself to be in want. Not that I seek for the gift, he says, but I seek for the fruit, that increases to your account. Not my own. Do you see, that the fruit is produced for them? This say I for your sake, says he, not for my own, for your salvation. For I gain nothing when I receive, but the grace belongs to the givers, for the recompense is yonder in store for givers, but the gifts are here consumed by them who receive. Again even his desire is combined with praise and sympathy.\n\nWhen he had said, I do not seek, lest he should again render them remiss, he adds,",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/4/17",
+      "full_content_url": "https://catenabible.com/com/5755bff93c6effa740dddc14",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 4:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

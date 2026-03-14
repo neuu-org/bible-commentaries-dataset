@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 23:2",
+  "verse_text": "Verse text for GN 23:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/23/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "City. Hebrew, Cariath arbah, Josue xiv. 15.\nWhich is Hebron. Serarius thinks it took its name from the society (cherber) between Abraham and the princes of the city. Hebron the son of Caleb possessed it afterwards.\nCame from Bersabee, (Chap. xxii. 19.) or to the place where the corpse lay, at Arbee, which signifies four; as Adam, Abraham, Isaac, and Jacob, with their four wives, reposed there. (Calmet)\nAnd weep. In the middle of this word, in the printed Hebrew, there is left a small c; whence the Rabbins ridiculously infer, that Abraham wept but a short time. But the retaining of greater, less, suspended and inverted letters in the Hebrew Bible, can be attributed to no other cause than a scrupulous veneration even for the faults of transcribers. (Kennicott)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/23/2",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc0f6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Martin of Braga",
+      "period": "AD580",
+      "content": "A brother asked an old man, “What shall I do for my sins?” He replied, “He who desires to be free from his sins shall be freed from them by weeping, and he who wishes to build virtues in himself will build them by weeping. Even the Scriptures are composed of mourning, for our fathers said to their disciples, ‘Wail.’ There is no other way to life except this.” A brother asked an old man, “What shall I do, father?” He replied, “When Abraham entered the Promised Land, he first bought a tomb for himself, and near the tomb he made sure of land for a possession.” The brother said to him, “What is a tomb?” He answered, “A place of mourning and weeping.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/23/2",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51afc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 23:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 25:14",
+  "verse_text": "Verse text for PRV 25:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/25/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "Humility, then, is the teacher of all the virtues; it is the most firm foundation of the heavenly edifice; it is the Savior’s own magnificent gift. For a person may perform without danger of pride all the miracles that Christ worked if he strains after the meek Lord not because of his exalted signs but because of his patience and humility. But a person who itches to command unclean spirits, to bestow the gift of health on the sick, or to show some wondrous sign to the people is far from Christ even though he invokes the name of Christ in his displays, because by reason of his proud mind he does not follow the teacher of humility. … [Christ] did not say, “If you perform signs and mighty deeds,” but, “If you have love for one another. ” Certainly no one can observe this but the gentle and the humble. Therefore our forebears never considered those monks to be upright or free of the disease of vainglory who presented themselves as exorcists before men and who, in the midst of admiring crowds, proclaimed by a boastful display this grace that they had either deserved or arrogated to themselves. Hence, if someone does one of these things in our presence, we should think him praiseworthy not for his wonderful signs but for his splendid behavior, and we should not ask whether demons are subject to him but whether he possesses the parts of love that the apostle describes.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/25/14",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c857a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 25:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

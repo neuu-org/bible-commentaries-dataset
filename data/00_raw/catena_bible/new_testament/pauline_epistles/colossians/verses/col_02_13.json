@@ -1,0 +1,58 @@
+{
+  "verse_reference": "COL 2:13",
+  "verse_text": "Verse text for COL 2:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/2/13",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Having forgiven us, he says, all our trespasses, those which produced that deadness. What then? Did He allow them to remain? No, He even wiped them out; He did not scratch them out merely; so that they could not be seen. In doctrines [ordinances], he says. What doctrines? The Faith. It is enough to believe. He has not set works against works, but works against faith. And what next? Blotting out is an advance upon remission; again he says, And has taken it out of the way. Nor yet even so did He preserve it, but rent it even in sunder, by nailing it to His Cross. Having put off from himself the principalities and the powers, He made a show of them openly, triumphing over them in it. Nowhere has he spoken in so lofty a strain.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/2/13",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddcd2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "And you, being dead in your sins and the uncircumcision of your flesh, has he made alive together with him, having forgiven you all trespasses; Tertullian of Carthage Thanks to this simplicity of truth, so opposed to the subtlety and vain deceit of philosophy, we cannot possibly have any relish for such perverse opinions. Then, if God \"quickens us together with Christ, forgiving us our trespasses\". For unto this end was manifested the Son of God, to undo the works of the devil: \"for He has \"undone \"them withal, by setting man free through baptism, the \"handwriting of death \"having been \"made a gift of \"to him:.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/2/13",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baf04",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "And redeem them from the snare of the devil, and the ill-usage of the demons, and free them from every unlawful word, and every absurd practice and wicked thought; forgive them all their offences, both voluntary and involuntary, and blot out that handwriting which is against them,",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/2/13",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baf05",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 2:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

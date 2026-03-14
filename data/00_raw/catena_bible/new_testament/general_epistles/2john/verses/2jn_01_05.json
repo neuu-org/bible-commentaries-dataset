@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2JN 1:5",
+  "verse_text": "Verse text for 2JN 1:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/2jn/1/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And now, I beseech thee, Lady, &c. This must be referred to the end of the verse, that we love one another. I beseech thee, lady, to exercise thyself, and those who belong to thee, in mutual love. For this commandment of love is not recent and new, but delivered by Christ to me and the rest of the Apostles at the very beginning of the Gospel. Observe the modesty of S. John as something which ought to be imitated by Prelates, in that he says, I beseech thee, Lady, when he might have said, I command thee, 0 my daughter.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2jn/1/5",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e526d1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2JN 1:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

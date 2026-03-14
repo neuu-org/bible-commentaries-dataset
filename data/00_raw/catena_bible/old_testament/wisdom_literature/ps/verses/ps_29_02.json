@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 29:2",
+  "verse_text": "Verse text for PS 29:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/29/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "2. The Prophet speaks, \"Bring unto the Lord, O ye Sons of God, bring unto the Lord the young of rams\" (ver. 1). Bring unto the Lord yourselves, whom the Apostles, the leaders of the flocks, have begotten by the Gospel. \"Bring unto the Lord glory and honour\" (ver. 2). By your works let the Lord be glorified and honoured. \"Bring unto the Lord glory to His name.\" Let Him be made known gloriously throughout the world. \"Worship the Lord in His holy court.\" Worship the Lord in your heart enlarged and sanctified. For ye are His regal holy habitation.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/29/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6910",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Give unto the LORD the glory due unto his name; worship the LORD in the beauty of holiness. Hebrew, \"strength \"which we must acknowledge. (Haydock) The first design of sacrifice is to adore God in spirit. (Worthington) Holy court. Hebrew, \"in the holy beauty \"1 Paralipomenon xvi. Even the priests were obliged to remain in the court, where they adored God, as sitting upon the Cherubim, in the most holy place (Calmet) in the Catholic Church. (Worthington) External worship must be observed.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/29/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf5b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 29:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

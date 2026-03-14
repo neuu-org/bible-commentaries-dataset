@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 4:8",
+  "verse_text": "Verse text for LAM 4:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/4/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Coals. Hebrew, \"blackness. \"Septuagint, \"soot. \"(Haydock)\nThe people were naturally brown. Fasting and distress cause them to turn black, chap. v. 10., and Joel ii. 6. (Calmet)\nThey were so changed, that old acquaintances knew not one another. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/4/8",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befac",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Here is considered the shame following from their knowledge, as to a change of color, or complexion. As expressed in Verse 8: \"Now their visage is blacker than soot, they are not reco~ized in the streets; their skin has shriveled upon their bones, it has become as dry as wood.\" That is, due to a deprivation as to a shriveling of their skin, as said: \"their skin has shriveled upon their bones.\"\n\nAs the prophet Nahum declares: \"anguish is on all loins, all faces grow pale! Where is the lions' den, the cave of the young lions where the lion brought his prey, where his cubs were, with none to disturb?\" (Nah: 2:10-11). And Job says: \"my skin hardens, then breaks out afresh.\" (Job: 7:5).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/4/8",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9db6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 4:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

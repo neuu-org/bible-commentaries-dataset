@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 14:11",
+  "verse_text": "Verse text for REV 14:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/14/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "night: They say that the lion spares a prostrate man. But this beast is fiercer than a lion, and the more he is worshipped, so much the greater punishment does he inflict.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/14/11",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c62",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "receive: St. Augustine interprets the beast as the ungodly city, and the image of the beast as the likeness of a bird; of those, that is, who are Christians by a deceitful appearance; and the mark, as the note of guilt, which he says is worshipped, and is subject to him, and in agreement with him. <a",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/14/11",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c63",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 14:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

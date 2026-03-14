@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 13:9",
+  "verse_text": "Verse text for ACTS 13:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Then Saul, who also is Paul. This is the first time we find the apostle called Paul. Some, therefore, think it was given him when he converted this proconsul, Sergius Paulus. Others, that Saul being a Hebrew word, the Greeks, or rather the Romans, turned it into Paul. (Witham)\nThis is the first place in which this apostle is called Paul. He took this name out of respect to the illustrious convert he had made in the person of the proconsul, the governor of the island. (Menochius)\nOr, more probably, his former name, by a small change, was modelled into Paulus, which was a sound more adapted to a Roman ear. He begins to bear this name only, when he enters on his mission to the Gentiles. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/13/9",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfde2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "here his name is changed at the same time that he is ordained, as it was in Peter's case, — filled with the Holy Ghost, looked upon him, and said, O full of all guile and all villany, thou child of the devil:",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/9",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9322",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

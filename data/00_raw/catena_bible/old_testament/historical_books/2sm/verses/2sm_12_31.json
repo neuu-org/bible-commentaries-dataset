@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 12:31",
+  "verse_text": "Verse text for 2SM 12:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/12/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew, \"he put them under saws, and under rollers of iron, and under knives \"(Haydock) The Jews say that Isaias was killed by being sawed asunder; to which punishment St. Paul alludes, Hebrews xi. (Menochius) Brick-kilns, or furnaces, Psalm xx. (Muis) Daniel and his companions were thrown into the fiery furnace, Daniel iii. , and Esther xiii. (Calmet) Some condemn David of excessive cruelty on this occasion. (Tirinus; Sanctius) But the Scripture represents his conduct as irreproachable, except in the affair of Urias; (3 Kings xv. 5,) and at this distance of time, we know not the motives which might have actuated him to treat his enemy with such severity. The Ammonites had probably exercised similar cruelties on his subjects. See 1 Kings xi. , and Amos i. (Calmet) They had shamefully violated the law of nations, and had stirred up various kings against David. (Menochius) Salien blames Joab for what may seem too cruel. But, though he was barbarous and vindictive, we need not condemn him on this occasion, no more than his master; as we are not to judge of former times by our own manners. (Haydock) War was then carried on with great cruelty.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/12/31",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd110",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 12:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

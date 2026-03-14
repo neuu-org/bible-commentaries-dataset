@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 10:41",
+  "verse_text": "Verse text for ACTS 10:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/10/41",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "See whence he fetches his assurance of the resurrection. What is the reason that being risen he did no sign, but only ate and drank? Because the Resurrection itself was a great sign, and of this nothing was so much a sign as the eating and drinking. To testify, says he— in a manner calculated to alarm— that they may not have it in their power to fall back upon the excuse of ignorance: and he does not say, that He is the Son of God, but, what would most alarm them, that it is He which is ordained of God, to be the Judge of quick and dead.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/10/41",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 10:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

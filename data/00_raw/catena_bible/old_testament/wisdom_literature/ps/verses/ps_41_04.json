@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 41:4",
+  "verse_text": "Verse text for PS 41:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/41/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "5. But why this? Because He \"scourgeth every son whom He receiveth.\" Why this? Because to men sinning was it said, \"In the sweat of thy face shall thou eat bread.\" Therefore because all these chastisements, in which all our bed is turned in our infirmity, man ought to acknowledge that he suffers for sin; let him turn himself, and say what follows: \"I said, Lord, be merciful unto me; heal my soul, for I have sinned against Thee\" (ver. 4). O Lord, by tribulations do Thou exercise me; to be scourged Thou judgest every son whom Thou wilt receive, who sparedst not even the Only-Begotten. He indeed without sin was scourged; but I say, \"I have sinned against Thee.\" ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/41/4",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69ff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thee. Christ prays for his members, acknowledging their sins, (Worthington) which he had undertaken to expiate. The Fathers explain this of his prayer in the garden. (Calmet)\nHave we ever reflected on sin, which reduced the Lord of all, to such poverty and distress? (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/41/4",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be03c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 41:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

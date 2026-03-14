@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 2:13",
+  "verse_text": "Verse text for NEH 2:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/2/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "He wanders around inspecting the various parts of the devastated city and examines carefully in his mind how each of these should be repaired. Similarly, it is fitting for spiritual teachers also to get up regularly at night and inspect with careful scrutiny the state of the holy church while others are resting, so that they might vigilantly investigate how they might repair and rebuild through chastening those things that have been defiled or destroyed in it by the warfare of sins. Jerusalem’s wall lies in ruins, and the way of life of the faithful is soiled by earthly and base desires. The gates are consumed by fire when, as a result of their abandoning instruction in the truth, even those who ought to have been opening up the entrance of life to others also by teaching them now grow idle with the same laziness as everyone else and become slaves to temporal concerns.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/2/13",
+      "full_content_url": "https://catenabible.com/com/591a466e19aa35522bc7e347",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And I went out by night by the gate of the valley, even to the jackal's well, and to the refuse gate, and viewed the walls of Jerusalem, which were broken down; and the gates thereof were consumed with fire. Valley of Cedron, on the east, (Calmet) or west, near Calvary. (Menochius) (Tirinus) Dragon. Hebrew Tannin, or \"great fish \"which might be kept there, unless the fountain was famous for the appearance of some dragon, or the water proceeded from the mouth of a brazen one. Septuagint have read thanim, \"figs. \"The fountain of Siloe might have many names. (Calmet) Viewed. Septuagint, \"I walked upon the wall of Jerusalem, which these men are demolishing or clearing away \"(Haydock).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/2/13",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 2:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

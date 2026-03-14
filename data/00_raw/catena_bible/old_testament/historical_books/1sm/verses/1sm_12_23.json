@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1SM 12:23",
+  "verse_text": "Verse text for 1SM 12:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/12/23",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The Lord. For a pastor to neglect instruction, is not only detrimental to the people, but injurious to God. (Haydock)\nWay. None contributed more than Samuel to keep the people within due bounds, during the reign of Saul. (Calmet)",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/12/23",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bced7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Why is it that Moses and Samuel are preferred to all the other fathers in this matter of making requests if it is not that these two alone in the whole history of the Old Testament are said to have prayed earnestly even for their enemies? One of them the people attacked with stones, and yet he prayed to his Lord for those who were stoning him. The other was deposed from his position of leadership, and yet when he was asked to make supplication he yielded, saying, “Far be it from me that I should sin against the Lord by ceasing to pray for you.”",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/12/23",
+      "full_content_url": "https://catenabible.com/com/5de467b11f75ae05ba98cebf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What did Samuel profit Saul? Did he not mourn for him even to his last day, and not merely pray for him only? What did he profit the Israelites? Did he not say, “God forbid that I should sin in ceasing to pray for you”? Did they not all perish? Do prayers then, you say, profit nothing? They profit even greatly: but it is when we also do something. For prayers indeed cooperate and assist, but a man cooperates with one that is operating and assists one that is himself also working. But if you remain idle, you will receive no great benefit.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/12/23",
+      "full_content_url": "https://catenabible.com/com/5de467b11f75ae05ba98cebe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For he who loves Christ also loves his flock.… David in this way came to be king, having been seen first to be affectionately-minded toward them. So much indeed, though yet young, did he grieve for the people, as to risk his life for them, when he killed that barbarian. … And Samuel too was very affectionate; when it was that he said, “But God forbid that I should sin in ceasing to pray to the Lord for you.” In like way Paul also, or rather not in like way but even in a far greater degree, burned toward all his subjects.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/12/23",
+      "full_content_url": "https://catenabible.com/com/5de467b11f75ae05ba98cebd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 12:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

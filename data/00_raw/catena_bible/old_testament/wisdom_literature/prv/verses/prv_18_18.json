@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 18:18",
+  "verse_text": "Verse text for PRV 18:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/18/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "“The lot suppresses contentions and determines even between the mighty.” For it is better for God to decide in uncertainties of this kind than for people, whether he deigns to call the better ones to a share in his passion and to spare the weak, or to strengthen the former to bear these evils and to withdraw from this life those whose survival cannot be as beneficial to the church as theirs would be. It will be an unusual thing to proceed in this matter by drawing lots, but, if it is done, who will dare to judge it adversely? Surely, everyone but the envious or those ignorant of this appropriate quotation will praise it.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/18/18",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8501",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lot. Chap. xvi. 33. Septuagint, \"silence. \"(Calmet)\nBut Grabe substitutes \"lot. \"(Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/18/18",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be69c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 18:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

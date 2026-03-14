@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DN 10:21",
+  "verse_text": "Verse text for DN 10:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/10/21",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of truth, in the former sealed visions. (Calmet)\nYour prince. The guardian general of the Church of God, (Challoner) as he was of the synagogue. (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/10/21",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf329",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "He implies, \"I am that angel who presents thy prayers to God, and I have no other helper in petitioning God on your behalf except the archangel Michael, to whose charge the Jewish nation has been entrusted. And meanwhile the prince of the Greeks is engaged in a common effort with me at this particular time, contending against the prince of the Persians. We should review our ancient history and (A) consider whether |117 by any chance that was the date of the conquest of the Persians by the Greeks. According to the Vulgate edition (of the Septuagint), this same vision is reckoned as extending to the end of the book, that is, the vision which appeared to Daniel in the third year of Cyrus, King of the Persians. On the other hand, according to the Hebrew original, the ensuing sections are separate from this, and recorded in an inverted order. The causes for this phenomenon we have already mentioned; that is, the matters here recorded are related as having occurred in the first year of the Darius who overthrew Belshazzar, not in the third year of Cyrus.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/10/21",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd352",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "That is, this is the order which the words follow. The fulfilment is still in doubt. For even though thou dost beseech the Lord (701) and I present thy prayers to Him, yet the prince of the Persians takes his stand on the opposite side, and is unwilling that thy people be freed from captivity. But because the prince of the Greeks has come, and in the meantime is contending against the prince of the Persians, and also because I have Michael there as my assistant, I shall, during their mutual conflict, report to thee the coming events which God has foretold to me and has bidden me relate to thee. And let no one be disturbed by the question as to why mention is made of the prince of the Greeks or Hellenes rather than of the Macedonians, for Alexander, king of the Macedonians, did not take up arms against the Persians until he had first overthrown Greece and subjected it to his power.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/10/21",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd351",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 10:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

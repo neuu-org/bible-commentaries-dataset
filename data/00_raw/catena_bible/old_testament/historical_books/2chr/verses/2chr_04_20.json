@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2CHR 4:20",
+  "verse_text": "Verse text for 2CHR 4:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/2chr/4/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Douay Rheims 1609",
+      "period": "AD1609",
+      "content": "And Judas was gathered together to pray to our Lord: yea and all (b) came out of their cities to beseech him.\r\n(b) Example of pilgrimage to holy places, because it pleaseth God to hear the prayers of good people rather in one place then in another. ch. 6. 7. &c.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2chr/4/20",
+      "full_content_url": "https://catenabible.com/com/590bf6539f61fbda40c5418c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2CHR 4:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

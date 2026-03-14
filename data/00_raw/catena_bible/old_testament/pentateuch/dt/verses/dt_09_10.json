@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 9:10",
+  "verse_text": "Verse text for DT 9:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/9/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the LORD delivered unto me two tables of stone written with the finger of God; and on them was written according to all the words, which the LORD spoke with you in the mount out of the midst of the fire in the day of the assembly. Cyril of Jerusalem Moses anticipates the name of the ecclesia once again when he says of the tablets: “And on them were inscribed all the words that the Lord spoke to you on the mountain from the midst of the fire on the day of the assembly. ” It is as if he might have said more plainly: “you were called and gathered together.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/9/10",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a3c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 9:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

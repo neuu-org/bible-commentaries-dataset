@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 6:30",
+  "verse_text": "Verse text for 1KGS 6:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/6/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Inside and outside mean in the oracle and in the temple itself. Now we have said above that the evenness of the floor denoted the humble harmony of the holy brotherhood where, though there are Jews and Gentiles, barbarians and Scythians, freeborn and slaves, highborn and lowborn, they all boast of being brothers in Christ, all boast of having the same Father who is in heaven, for no one may doubt the perfectly harmonious humility of the heavenly citizens. The reason why Solomon overlaid the floor of the house with gold inside and outside is that our king of peace has filled the angels and the souls of the righteous in heaven perfectly and fully with the gift of love and has set apart the citizens of the same heavenly homeland who are in pilgrimage in this world from the baseness of the rest of mortals by the hallmark of love, saying, “By this shall all know that you are my disciples, if you have love one for another.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/6/30",
+      "full_content_url": "https://catenabible.com/com/5e1b67548bc66721fe4ef8b8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 6:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

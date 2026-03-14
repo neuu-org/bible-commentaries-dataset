@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 28:6",
+  "verse_text": "Verse text for ACTS 28:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/28/6",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "That he would suddenly fall down and die. It is not then by the natural situation and temper of the air, that this island has no venomous creatures. (Witham)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/28/6",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfec0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "They expected him, it says, to fall down dead: and again, having seen that nothing of the kind happened to him, they said, He is a god. Again viz. as in Acts 14:11, another excess on the part of these men. In the same quarters were possessions of the chief man of the island, whose name was Publius; who received us, and lodged us three days courteously. And it came to pass, that the father of Publius lay sick of a fever and of a bloody flux: to whom Paul entered in, and prayed, and laid his hands on him, and healed him.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/28/6",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9526",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But when he shook his hand, and flung off the beast, then they saw and were astonished. And the miracle did not take place suddenly, but the men went by the length of time, after they had looked a great while, so plainly was there no deceit, no haste here (συναρπαγή). Publius, it says, lodged them courteously",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/28/6",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b952d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 28:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

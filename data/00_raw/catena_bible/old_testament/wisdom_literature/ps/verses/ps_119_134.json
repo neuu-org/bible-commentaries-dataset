@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:134",
+  "verse_text": "Verse text for PS 119:134",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/134",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "133. But what meaneth this that he saith, \"O deliver me from the calumnies of men: so shall I keep Thy commandments\"? (ver. 134) ... Did not the holy people of God much the more gloriously keep the commandments among these very calumnies, when they were at their hottest in the midst of tribulations, when they yielded not to their persecutors to commit impieties? But, in truth, the meaning of these words is this: Do Thou, by pouring upon me Thy Spirit, guard me from being overcome by the terrors of human calumny, and from being drawn over to their evil deeds away from Thy commandments. For if Thou hast thus dealt with me, that is, if Thou hast in this manner delivered me by the gift of patience from their calumnies, so that I fear not the false charges they prefer against me; among those very calumnies I will keep Thy commandments.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/134",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6680",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Calumnies. That they may not cause me to abandon virtue. (St. Augustine)\nA person must be well grounded not to yield on such occasions, when he is exposed to ridicule, ver. 122. (Calmet)\nEven the psalmist dreaded this situation. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/134",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be448",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:134",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

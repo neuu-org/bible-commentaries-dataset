@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 14:3",
+  "verse_text": "Verse text for LK 14:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/14/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And Jesus answering spake unto the lawyers and Pharisees. Answering their thoughts and not their inquiry, for they had asked no question, but thought in their hearts that Christ would be acting unlawfully if He healed on the Sabbath day.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/14/3",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Is it lawful? Jesus knew their thoughts, and that they would blame him as a sabbath-breaker: yet he healed the man, and confounded them by the example and common practice of pulling an ass out of a pit on the sabbath-day. (Witham)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/14/3",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfaef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 14:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

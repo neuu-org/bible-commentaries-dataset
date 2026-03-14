@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 7:23",
+  "verse_text": "Verse text for GN 7:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/7/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "We read in the story of holy Noah how he miraculously escaped the flood which destroyed the impious by being preserved with his household in the ark. From this it is evident to everyone that the Lord who loves righteousness and hates iniquity knows how to deliver the pious from temptation and to punish the impious with the punishment they deserve…. Through spiritual understanding this same text is shown to be full of more sacred mysteries, when the ark is discerned to signify the catholic church; the water of the flood, baptism; the clean and unclean animals, those in the church both spiritual and carnal; the wood of the ark which was smooth and covered with pitch, the teachers who are stalwart as a result of their faith. .",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/7/23",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e51998",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "When the sacred text states that the entire earth was inundated, as the water reached a height of twentythree feet above the highest mountains, it is evident that God was not speaking to your land [that is, Israel] in particular but to all those who are faithful to him, for whom he has arranged a restful haven in Jerusalem. All the signs that accompanied the flood prove my assertion. For by the expression “by water and faith and wood” it is indicated that those who prepare themselves and repent of their sins shall escape the future judgment of God.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/7/23",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e51997",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 7:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

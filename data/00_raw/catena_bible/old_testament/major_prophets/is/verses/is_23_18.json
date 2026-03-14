@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 23:18",
+  "verse_text": "Verse text for IS 23:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/23/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "To seek out the exact form of the reading, I gave my attention to the translation of Aquila, which says, “And it will happen that its commerce and wages are consecrated to the Lord. ” Thus the Hebrew has, precisely, “commerce and wages” without the articles, not, according to the Septuagint, “the commerce and the wages,” by which it appears to mean all the commerce and all the wages. According to Aquila, “Its commerce and wages are consecrated to the Lord. ” Not its whole commerce or its whole wages, but a part of the commerce and a part of the wages are consecrated to the Lord. And this is what has been fulfilled in our day. For the church of God is established in the city of Tyre, as indeed in the rest of the nations, and many of the wages in it and what is stored up for business are offered to the church and consecrated to the Lord. The things that people bring, they offer in piety, not for themselves in order to enjoy the gifts offered to God but “for those who dwell before the Lord. ” (Namely, [these gifts are] for those who serve at the altar, “for the Lord had enjoined that those who preach the gospel should live by the gospel” and “those who serve at the altar share in the sacrificial offerings.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/23/18",
+      "full_content_url": "https://catenabible.com/com/5e4f7f8dc849cf49a740e372",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And her merchandise and her hire shall be dedicated to the LORD: it shall not be treasured nor laid up; for her merchandise shall be for them that dwell before the LORD, to eat sufficiently, and for fine clothing. Sanctified to the Lord. This alludes to the conversion of the Gentiles. (Challoner) Before, the Tyrians were great enemies to the Jews, 2 Esdras xiii. , and 1 Machabees v. Our Saviour wrought a miracle in favour of one of this country, Matthew v. , and Zacharias viii. (Calmet) Continuance. Literally, \"old age. \"Aquila, \"with changes of dress.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/23/18",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be9eb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 23:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

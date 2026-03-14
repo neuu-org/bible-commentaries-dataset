@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 42:38",
+  "verse_text": "Verse text for GN 42:38",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/42/38",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "After they had loaded their supplies, the [brothers] went up and related to their father the evils that they had endured on this trip and how they had become objects of ridicule in Egypt, having been falsely accused of spying in Egypt, and that they would not have escaped this suffering had it not been for Benjamin. While some of them were recounting these things to their father, the others were emptying their sacks, and behold, each one found his money in the opening of his sack. Jacob was full of grief because of all that had happened to them, but even more because of Simeon who was imprisoned. Although the brothers implored him daily to send Benjamin with them, Jacob would not assent because of his fear due to [what had happened to] Joseph. Then, when their grain had run out and all the children of his household were languishing from hunger, all his sons drew near and said to Jacob, “Spare Simeon for the sake of his children and be without your youngest son for a few days, lest Simeon’s wife be widowed of Simeon.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/42/38",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51c6d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he said, My son shall not go down with you; for his brother is dead, and he is left alone: if mischief befall him by the way in which you go, then shall you bring down my gray hairs with sorrow to the grave. Alone: the son of my beloved Rachel. (Haydock) To hell. That is, to that place where the souls then remained, as above, chap. 35, (Challoner) though with respect to his grey hairs, and body, it may signify the grave.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/42/38",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc237",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 42:38",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 14:11",
+  "verse_text": "Verse text for MT 14:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/14/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "His head was brought. How wonderful are the ways of the Almighty towards his servants! He permits them in this life to be afflicted, and to be given up to the will of the impious, because he knows this is good for them, and beneficial to their eternal salvation. We behold here St. John, the precursor of the Messias, who is declared by our Saviour to be the most distinguished personage ever born of woman, cast into prison, and, after a year's confinement, slain at the request of an impious vile adulteress. How can any one be heard to complain of the small trials to which he may be exposed for the faith of Christ, when he beholds so eminent a servant of God suffering so much in the same cause. (Denis the Carthusian)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/14/11",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf777",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 14:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

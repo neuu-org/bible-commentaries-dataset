@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 9:27",
+  "verse_text": "Verse text for LK 9:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/9/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Thus, if we wish not to fear death, let us stand where Christ is, so that he may say of us too, “There are some standing here that shall not taste death. ” It is not enough to stand unless the standing is where Christ is, for only those who can stand with Christ cannot taste death. It is therein lawful through the quality of the very word to ponder that those who are seen to have deserved the fellowship with Christ will not have even the perception of death. Surely the death of the body may be tasted by dedication; the life of the soul may be held by possession. But what is it to taste death. Unless, perhaps, bread may be death, just as bread is life. For there are those who eat the bread of sorrow; there are also the Ethiopian peoples who received the dragon as food. May it be far from us to devour the dragon’s poison, for we have the true Bread, that Bread which came down from heaven. He who keeps what is written eats that Bread. Thus there are those who will not taste death until they see the kingdom of God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/27",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e744a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Kingdom of God. This is generally understood of the transfiguration, in which Christ showed to the three disciples an essay of his glory. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/9/27",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa93",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 9:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1THES 5:20",
+  "verse_text": "Verse text for 1THES 5:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1thes/5/20",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But there is also another explanation. There were among them many indeed who prophesied truly, but some prophesied falsely. This also he says in the Epistle to the Corinthians, that on this account He gave the discernings of spirits. 1 Corinthians 12:10 For the devil, of his vile craft, wished through this gift of grace to subvert everything pertaining to the Church. For since both the demon and the Spirit prophesied concerning the future, the one indeed uttering falsehood, and the other truth, and it was not possible from any quarter to receive a proof of one or the other, but each spoke without being called to account, as Jeremiah and Ezekiel had done, but when the time came they were convicted, He gave also the discernings of spirits. Since therefore then also among the Thessalonians many were prophesying, glancing at whom he says, Neither by word, nor by epistle, as from us, as that the day of the Lord is now present 2 Thessalonians 2:2, he says this here. That is, do not, because there are false prophets among you, on their account prohibit also these, and turn away from them; quench them not, that is, despise not prophesyings. Do you see that this is what he means by, Prove all things. Because he had said, Despise not prophesyings, lest they should think that he opened the pulpit to all, he says, Prove all things, that is, such as are really prophecies; and hold fast that which is good. Abstain from every form of evil; not from this or that, but from all; that you may by proof distinguish both the true things and the false, and abstain from the latter, and hold fast the former. For thus both the hatred of the one will be vehement and the love of the other arises, when we do all things not carelessly, nor without examination, but with careful investigation.",
+      "commentary_number": "1/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/1thes/5/20",
+      "full_content_url": "https://catenabible.com/com/575712ed3c6effa740dddc6c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Shepherd of Hermas",
+      "period": "AD150",
+      "content": "On the doubters. Woe to those who hear these words, and despise them:",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1thes/5/20",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba9ef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Has already quenched and despised the thing which he destroys, and is unable to forbid what he has despised.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1thes/5/20",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba9f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1THES 5:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 32:52",
+  "verse_text": "Verse text for DT 32:52",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/32/52",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Into it. By repeating this reproach and judgment, God excited in his servant the most lively sentiments of repentance for his fault, Numbers xx. (Haydock)\nAaron had been deprived of the sight of this delightful country. If they had been labouring for its acquisition alone, the reflection must have been very cutting. But they had a better country in view, though they had greatly desired to enter into that land which was to be ennobled and purified by the birth and blood of the Son of God. (Haydock)\nHaving received the order from God in the evening, after Moses had taught his canticle to the people, he immediately set his house in order, and on the following morning he gave his last blessing to the tribes of Israel, and was attended by the chiefs to the foot of the mountain. (Salien)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/32/52",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb04",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 32:52",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 6:3",
+  "verse_text": "Verse text for MK 6:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/6/3",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Judas, and Simon. and are not his sisters here with us. And they took offense at him. Matthew relates that they asked: Is not this the son of the carpenter. It is not improbable that both questions were asked; it was certainly very natural to take him for a carpenter, who was the son of one. Augustine) They were scandalized at his lowly birth and humble parentage. Hence Jesus Christ takes occasion to expose the malice and envy of the Jews, in refusing him, and to show that the Gentiles would more esteem him. See Luke iv.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/6/3",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf93a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "Jesus came as the son of a carpenter. He was not physically attractive, just as the prophets had predicted of him. He was merely a carpenter, making ploughs and yokes, and instructing us by such symbols of righteousness to avoid an inactive life.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/6/3",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "I wait to hear what you understand thereby; for fear you may perhaps think some carpenter-king",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/6/3",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb6b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 6:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

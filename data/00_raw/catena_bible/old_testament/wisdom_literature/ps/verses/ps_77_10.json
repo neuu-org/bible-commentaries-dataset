@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 77:10",
+  "verse_text": "Verse text for PS 77:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/77/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. \"And I said.\" Now leaping over himself he hath said what? \"Now I have begun:\" (ver. 10), when I had gone out even from myself. Here henceforth there is no danger: for even to remain in myself, was danger. \"And I said, Now I have begun: this is the changing of the right hand of the Lofty One.\" Now the Lofty One hath begun to change me: now I have begun something wherein I am secure: now I have entered a certain palace of joys, wherein no enemy is to be feared: now I have begun to be in that region, where all mine enemies do not anticipate watches. \"Now I have begun: this is the changing of the right hand of the Lofty One.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/77/10",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c27",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Begun. By God's grace, I now perceive that my thoughts were wrong. (Worthington)\nI see that we are chastised on account of our sins; (Theodoret) but now I hope for better things. (Tirinus) (Genebrard)\nHebrew may have this (Berthier) and many other meanings. (Calmet)\nProtestants, \"I said this is my infirmity. But I will remember the years of right \"De Dieu, \"To pray, this is mine; to change the right hand, is of the most High. \"(Calmet)\nAll comfort and every good resolution must come from him. Challothi is derived from eel, by the Septuagint, and from chala, (Haydock) \"he is sick \"by others. Who will assert that the former are not the most ancient and learned interpreters? The sequel shows that the psalmist begins to entertain better hopes. (Berthier)\nNow have I begun to follow wisdom, and to amend my life. St. Anthony advised all to make this resolution every morning. (Tirinus)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/77/10",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be1d7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 77:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

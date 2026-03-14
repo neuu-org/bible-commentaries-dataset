@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 31:23",
+  "verse_text": "Verse text for NM 31:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/31/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Everything that can endure the fire, you shall make it go through the fire, and it shall be clean: nevertheless it shall be purified with the water of purification: and all that cannot endure the fire you shall make go through the water. Expiation, with which even the vessels which had been through the fire, were to be purified, or washed, as the Hebrew, Septuagint, observe. (Calmet) Moses perhaps gave this ordinance by word of mouth, on this occasion, (Menochius) though something similar be prescribed before, Leviticus vi.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/31/23",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc87b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 31:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

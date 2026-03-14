@@ -1,0 +1,47 @@
+{
+  "verse_reference": "AM 9:3",
+  "verse_text": "Verse text for AM 9:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/9/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "While the little one is nourished by the example of the one who from greatness descended to humility, the devil has lost what he held: because the proud held only the proud. When such an example of humility was displayed before them, people learned to condemn their own pride and to imitate the humility of God. Thus also the devil, by losing those whom he had in his power, has even himself been humbled; not chastened, but thrown prostrate. “You have humbled the proud like one that is wounded. ” You have been humbled and have humbled others. You have been wounded and have wounded others, for your blood as it was shed to blot the handwriting of sins could not but wound him. For what was the ground of his pride, except the bond that he held against us. This bond, this handwriting, you have blotted out with your blood. Him therefore you have wounded, from whom you have rescued so many victims. You must understand the devil wounded, not by the piercing of the flesh, which he has not, but by the bruising of his proud heart. “You have scattered your enemies abroad with your mighty arm.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/9/3",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c40",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Top, in woods, or caverns.\nSerpent. Fishes and sea monsters are so called.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/9/3",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf47f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 9:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

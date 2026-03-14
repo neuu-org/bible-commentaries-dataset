@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 114:8",
+  "verse_text": "Verse text for PS 114:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/114/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. \"Who turned the hard rock into standing waters, and the flint stone into springing wells\" (ver. 8). For He melted Himself, and what may be called His hardness to water those who believe on Him, that He might in them become \"a fountain of water gushing forth unto everlasting life;\" because formerly, when He was not known, He seemed hard. Hence they who said, \"This is an hard saying, who can bear it?\" were confounded, and waited not until He should flow and stream upon them when the Scriptures were revealed. The rock, that hardness, was turned into pools of water, that stone into fountains of waters, when on His resurrection, \"He expounded unto them, commencing with Moses and all the prophets, how Christ ought to suffer thus;\" and sent the Holy Ghost, of whom He said, \"If any man thirst, let him come unto Me, and drink.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/114/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65da",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 114:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 28:5",
+  "verse_text": "Verse text for MT 28:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/28/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "It is not yours to fear, who love Jesus Christ: let those rather fear, who through hatred have crucified Jesus. All such, if they do not repent of their wickedness, must have to undergo the greatest extremities of pain. (St. Chrysostom, hom. xc.)\nThose miscreants fear, because they have not charity, but fear not you; for I know you seek him that was crucified, who is risen, as he promised you. These affectionate women sought Jesus among the dead, who was then among the living. The recent storm of calamities had nearly overwhelmed their faith, and the weight of temptations had so enfeebled their understanding, that they came to seek the Lord of heaven as one dead among the dead. (St. Jerome)\nThe angel blushes not to style Jesus the crucified; for this is now the height and perfection of all good. By these glad tidings he endeavoured to expel their fears, speaking with a smiling countenance, as the messenger of the most joyful news. (St. Chrysostom, hom. xc.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/28/5",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf8e3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "After the resurrection came the angel. Wherefore then came he, and took away the stone. Because of the women, for they themselves had seen Him then in the sepulchre. Therefore that they might believe that He was risen again, they see the sepulchre void of the body. For this cause he removed the stone, for this cause also an earthquake took place, that they might be thoroughly aroused and awakened. For they had come to pour oil on Him, and these things were done at night, and it is likely that some also had become drowsy. And for what intent and cause does he say, Fear not ye. First he delivers them from the dread, and then tells them of the resurrection. And the ye is of one showing them great honor, and indicating, that extreme punishment awaits them that had dared to do, what the others had dared, except they repented. For to be afraid is not for you, he means, but for them that crucified Him. Having delivered them then from the fear both by his words, and by his appearance (for his form he showed bright, as bearing such good tidings), he went on to say, I know that you seek Jesus the Crucified. And he is not ashamed to call Him crucified; for this is the chief of the blessings.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/28/5",
+      "full_content_url": "https://catenabible.com/com/57eb0db7b0d44ee10cfac618",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 28:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

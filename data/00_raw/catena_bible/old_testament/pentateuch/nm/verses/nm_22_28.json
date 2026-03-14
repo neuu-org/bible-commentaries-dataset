@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 22:28",
+  "verse_text": "Verse text for NM 22:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/22/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Opened the mouth The angel moved the tongue of the ass, to utter these speeches, to rebuke, by the mouth of a brute beast, the brutal fury and folly of Balaam. (Challoner) St. Thomas Aquinas (ii. 105) says, an angel spoke by the mouth of the ass, in like manner as the devil did by that of the serpent, Genesis iii. Infidels deride this miracle, and some have thought that it was only in the imagination of Balaam, that this dialogue was formed. (Maimonides) St. Gregory of Nyssa, seems to think that the ass only brayed as usual, and that the soothsayer, being accustomed to augur from the voice of animals, understood its meaning. Peter says, the dumb beast. Speaking with man's voice, forbade the folly of the prophet, 2 Peter ii. God did not endue it with understanding on this occasion, but only formed, by its mouth, such sounds as might serve to repress the cruel folly of Balaam. But he was more stupid than the ass. \"Being accustomed, it seems, to such prodigies \"(monstris) and intent upon lucre, he paid no farther regard to such a wonderful transaction, but held conversation with his ass, without any emotion. Augustine, q. ) (Calmet) The pagan historians relate many instances of beasts and trees speaking; (Grotius) so that they object to this history, and to that of the serpent, with a very bad grace, as St. Cyril remarks, in his third book against Julian. (Haydock) They relate that the ass of Bacchus spoke to him, and the horse and elephant of Achilles and Porus addressed their respective masters, while the oaks of Dodona were famous for their oracles. (Calmet) The river Causus said, \"Hail, Pythagoras. \"(Porphyrius, cited by St. Cyril) (Haydock).",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/nm/22/28",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7ff",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Opened the mouth: The angel moved the tongue of the ass, to utter these speeches, to rebuke, by the mouth of a brute beast, the brutal fury and folly of Balaam.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/22/28",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fd9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 22:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

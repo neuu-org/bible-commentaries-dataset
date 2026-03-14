@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JAS 1:9",
+  "verse_text": "Verse text for JAS 1:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/1/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The brother of low condition. Literally, humble. See Luke i. 48. The sense is, that a Christian, of never so low and poor a condition, may glory, and rejoice even in his poverty, that he is not only the servant, but even the adoptive son of God. But the rich, in his being low. Some word must be here understood to make the sense complete. If we understand, let the rich man glory, it must be expounded by irony, by what follows, of his passing away like a flower. But others rather understand some other word of a different signification; as, let the rich man lament the low condition that he must come to; for he must quickly fade away like grass.\nThe beauty of the shape thereof perished. So the Hebrews say, the face of the heavens, the face of the earth (Witham)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jas/1/9",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c035f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 1:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

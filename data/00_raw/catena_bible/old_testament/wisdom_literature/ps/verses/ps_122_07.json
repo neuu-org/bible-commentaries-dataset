@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 122:7",
+  "verse_text": "Verse text for PS 122:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/122/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Peace be in thy strength\" (ver. O Jerusalem, O city, who art being built as a city, whose partaking is in \"The Same:\" \"Peace be in thy strength:\" peace be in thy love; for thy strength is thy love. Hear the Song of songs: \"Love is strong as death. \" A great saying that, brethren, \"Love is strong as death. \" The strength of charity could not be expressed in grander terms than these, \"Love is strong as death. \" For who resisteth death, my brethren. Consider, my brethren. Fire, waves, the sword, are resisted: we resist principalities, we resist kings; death cometh alone, who resisteth it. There is nought more powerful than it. Charity therefore is compared with its strength, in the words, \"Love is strong as death. \" And since this love slayeth what we have been, that we may be what we were not; love createth a sort of death in us. This death he had died who said, \"The world is crucified unto me, and I unto the world:\" this death they had died unto whom hesaid, \"Ye are dead, and your life is hid with Christ in God. \" Love is strong as death.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/122/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66bd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Strength. Fortifications, (Berthier) or army.\nTowers, or \"palaces. \"(Hebrew) (Jeremias xxxi. 23.) (Calmet)\nHe insists so much on the blessing of peace, because he foresaw that Jerusalem would one day neglect it, Luke xix. 42. Charity dwells in the towers or saints, (Berthier) and makes us resemble God. (St. Chrysostom, de Laud. S. Paul. iii.)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/122/7",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be47d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 122:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

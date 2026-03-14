@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2TIM 4:15",
+  "verse_text": "Verse text for 2TIM 4:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2tm/4/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "That is, he is hostile to us, and opposes us. He has not said, Revenge, punish, expel him, although by the grace given him he might have so done, but he does no such thing; nor does he arm Timothy against him, but only commands him to avoid him, leaving vengeance to God, and for the consolation of the weaker he has said that He will reward him, which is a prophecy rather than an imprecation. And that he says these things to prepare the mind of his disciple, is manifest also from what follows. But see how he mentions other of his trials.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2tm/4/15",
+      "full_content_url": "https://catenabible.com/com/575f0fe63c6effa740ddde7f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2TIM 4:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

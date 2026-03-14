@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MI 1:9",
+  "verse_text": "Verse text for MI 1:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/1/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Gate. That is, the destruction of Samaria shall be followed by the invasion of my people of Juda, and the Assyrian shall come and lay all waste even to the confines of Jerusalem. (Challoner)\nJuda received the worship of Baal from Israel. It shared in the punishment of that kingdom. The prophet alludes to the ravages of Sennacherib, ver 13. Yet Juda was much afflicted by Razin and Phacee, before that invasion: which caused Achaz to call in the aid of Theglathphalassar, 2 Paralipomenon xxviii., and 4 Kings xvi. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/1/9",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4c1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "It hath touched the gate: That is, the destruction of Samaria shall be followed by the invasion of my people of Juda, and the Assyrians shall come and lay all waste even to the confines of Jerusalem.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/1/9",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f297",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 1:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 11:1",
+  "verse_text": "Verse text for JO 11:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/11/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Jabin, \"the intelligent \"was perhaps the common name of the kings of Asor, the most powerful city in the northern parts of the country, (ver. 10.; Calmet) not far from the Cæsarea, (Menochius) which was built by Philip, where Lais stood before. (Haydock)\nJosue burnt Asor to the ground; but it was rebuilt by the Chanaanites, and a powerful king reigned here, and subjugated the Israelites, about 130 years after the death of Josue, Judges iv. 1. (Calmet)\nBeing the most interested in this warfare, Jabin assembled all the petty kings of the country as far as Dor, to resist the common enemy. (Haydock)\nHe was the generalissimo, (Grotius) and went to stop the progress of Josue, who had conquered the southern parts, and was making ready to march against the north.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/11/1",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcbc5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 11:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

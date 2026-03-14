@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 20:13",
+  "verse_text": "Verse text for ACTS 20:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/20/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Wherefore does the writer say where they came, and where they went to? To show in the first place that he was making the voyage more leisurely— and this upon human grounds— and sailing past (some): also (for the same reason he tells) where he made a stay, and what parts he sailed past; (namely,) that he might not have to spend the time in Asia.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/20/13",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9478",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "We often find Paul parting from the disciples. For behold again, he himself goes afoot: giving them the easier way, and himself choosing the more painful. He went afoot, both that he might arrange many matters, and by way of training them to bear a parting from him. And when he had joined us at Thasos, having taken him on board, we came to Mytilene; and having sailed thence on the morrow, we come over against Chios— then they pass the island— and on the next day we touched at Samos, and having stopped at Trogylium, on the following day we came to Miletus. For Paul had determined to sail by Ephesus, because he would not spend the time in Asia: for he hasted, if it were possible for him, to be in Jerusalem the day of Pentecost.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/20/13",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9473",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 20:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

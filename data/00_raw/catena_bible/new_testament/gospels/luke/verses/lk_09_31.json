@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 9:31",
+  "verse_text": "Verse text for LK 9:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/9/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And spake of his decease, Î­Î¾Î¿Î´Î¿Î½, departure, i. They spake of His death, that He should die upon the Gross. But the words may signify the victory which Christ was to win over death and sin and Satan. Allusion is made to the deliverance, the exodus of Israel from Egypt, and the destruction of Pharaoh and his host in the Red Sea, which is a type of the deliverance effected by Christ for His people. Cyril thinks that by exodus we must understand \"His passion\" and the Arabic version interprets the word by \"eventum,\" \"outcome:\" \"They spake of the outcome and the events connected with the sufferings and triumph which He was about to accomplish at Jerusalem. Some take the word to mean the excess of love and all virtues. For on the Cross was exhibited the excess and perfection of love, obedience, humility, patience, and every Christian virtue, inasmuch as Christ by the offering of Himself far exceeded the utmost limits of human virtue. This \"excessus\" then was an ecstasy of love, wherein Christ went as it were out of Himself to show the immensity of His love for God and men.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/31",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f94",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "They spoke of his decease, or his departure out of this world. St. Peter useth the same Greek word for his death. (2 Peter i. 15.) (Witham)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/9/31",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa96",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 9:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

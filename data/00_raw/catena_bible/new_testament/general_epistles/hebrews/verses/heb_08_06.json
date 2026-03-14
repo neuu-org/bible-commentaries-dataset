@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 8:6",
+  "verse_text": "Verse text for HEB 8:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/8/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But now has he obtained a more excellent ministry, by how much also he is the mediator of a better covenant, which was established upon better promises. But now Christ, the Messias, being come, hath ordained a more excellent ministry and priesthood, being the great Mediator betwixt God and man of a better and more excellent testament, accompanied with greater graces and blessings, and established with better and more ample promises, not of temporal blessings, as the former, but of eternal happiness.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/8/6",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But now has He obtained a more excellent ministry, by how much also He is the Mediator of a better covenant. You see (he means) how much better is the one ministration than the other, if one be an example and type, and the other truth [reality]. But this did not profit the hearers, nor cheer them. Therefore he says what especially cheered them: Which was established upon better promises. Having raised them up by speaking of the place, and the priest, and the sacrifice, he then sets forth also the wide difference of the covenant, having also said before that it was weak and unprofitable. See Hebrews 7:18 And observe what safeguards he lays down, when intending to find fault with it. For in the former place after saying, according to the power of an endless life Hebrews 7:16, he then said that there is a disannulling of the commandment going before Hebrews 7:18; and then after that, he set forth something great, saying, by which we draw near unto God. Hebrews 7:19 And in this place, after leading us up into Heaven, and showing that instead of the temple, we have Heaven, and that those things were types of ours, and having by these means exalted the Ministration [of the New Covenant], he then proceeds suitably to exalt the priesthood.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/8/6",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac7fb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 8:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

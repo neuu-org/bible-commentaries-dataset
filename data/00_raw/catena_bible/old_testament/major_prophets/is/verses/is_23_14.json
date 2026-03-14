@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 23:14",
+  "verse_text": "Verse text for IS 23:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/23/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "“Howl,” he says—he repeats it—“O you ships of Carthage, for your strength is laid waste. And it shall come to pass in that day, Tyre shall be abandoned;” and below, “but after seventy years, Tyre shall be as the song of a harlot.” Behold what words the prophet employs, and how he does not avoid the baseness of words of this kind. We ourselves sometimes avoid them, not because our tongue is more chaste than theirs, but our authority inferior. For very great is the force of words in the vivid exposition of such things, so that they who do not blush at their sins blush at least at the names of their sins. “Tyre shall be,” he says, “as the song of a harlot.” Beware, lest, when someone sees those dances being performed, and unseemly words being sung, he says, “Behold, Tyre has become the song of a harlot.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/23/14",
+      "full_content_url": "https://catenabible.com/com/5e4f7f8cc849cf49a740e36e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Furthermore, the Hebrews claim that Tarshish generally represents the sea, as in the psalms: “With a violent wind, you will destroy the ships of Tarshish,” that is, the sea, and in Isaiah: “Wail, ships of Tarshish. ” I recall speaking about this several years ago in a letter to Marcella. The prophet, therefore, was not seeking to flee to a specific place, but he was hastening to continue toward wherever it was the sea would take him. Indeed, a terrified fugitive is rightly more interested in seizing the first opportunity to sail than he is in selecting a place of refuge. This also we are able to say: he who thought that “God is known in Judea” only and that “his name is great in Israel” only, once he felt him in the waves of the sea, confessed and said, “I am a Hebrew, and I fear the Lord of heaven who made the sea and the dry land. ” But if he made the sea and the dry land, how can you who abandoned the dry land think it possible to avoid the Creator of the sea in the midst of the sea. At the same time, the salvation and conversion of the sailors taught him that the great multitude at Nineveh could also be saved by confessing like he did. We are able to say of our Lord and Savior that he left his native homeland, assumed flesh and, in a manner of speaking, fled from heaven and came to Tarshish. That is, [he came] to the sea of this world, about which it is said elsewhere: “This is the sea, great and vast, where there are creatures without number and animals both small and large. Ships navigate there with the dragon whom you formed to play in it.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/23/14",
+      "full_content_url": "https://catenabible.com/com/5e4f7f8cc849cf49a740e36f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 23:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

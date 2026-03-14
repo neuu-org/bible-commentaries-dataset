@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 1:7",
+  "verse_text": "Verse text for JGS 1:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/1/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Table, at different times. (Haydock)\nThese were probably princes of some cities of Chanaan, who had been conquered by the tyrant. He obliged them to feed, like dogs, of what he threw down from his splendid table. Thus Sesostris made the kings whom he had overcome, drag his chariot. Sapor forced the Emperor Valerian to serve as a footstool, when he got on horseback. Tamerlane fed Bajazet in a cage, like a wild beast. (Jovius) (Calmet)\nMe. So true is that Wisdom (xi. 17,) by what things a man sinneth, by the same also he is tormented. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/1/7",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcca7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 1:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 34:1",
+  "verse_text": "Verse text for DT 34:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/34/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Phasga was the highest part of Nebo, which was a summit of the Abarim mountains.\nDan. All the conquered countries east of the Jordan, as far as the source of that river, chap. xxxiii. 22., and Genesis xiv. 14. (Calmet)\nGod miraculously enabled Moses to see so far. (Worthington) Ver. 2. Nephthali, from Libanus to the lake of Genesareth. (Calmet)\nThe other three tribes occupied the greatest part of the country southward, as far as Idumea. (Haydock)\nSea. Hebrew, \"the sea behind \"or to the west; as, in determining the situation of places, the Jews looked towards the east. Moses took a view of all the countries which the people should possess, as far as the Mediterranean.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/34/1",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb22",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 34:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ECCL 2:18",
+  "verse_text": "Verse text for ECCL 2:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/2/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "If the whole earth is not worth the kingdom of heaven, surely he who has left a few fields leaves nothing, as it were; even if he has given up a house or much gold, he ought not to boast nor grow weary. Moreover, we should consider that if we do not relinquish these things for virtue’s sake, we leave them behind later when we die and often, as Ecclesiastes reminds us, to those to whom we do not wish to leave them. Why, then, do we not relinquish them for the sake of virtue, so that we may inherit a kingdom? Life of St.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/2/18",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee51",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 2:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

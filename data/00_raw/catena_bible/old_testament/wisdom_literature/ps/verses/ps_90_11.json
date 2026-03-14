@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 90:11",
+  "verse_text": "Verse text for PS 90:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/90/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"For who knoweth the power of Thy wrath: and for the fear of Thee to number Thine anger. It belongs to very few men, he saith, to know the power of Thy wrath; for when Thou dost spare, Thy anger is so far heavier against most men; that we may know that labour and sorrow belong not to wrath, but rather to Thy mercy, when Thou chastenest and teachest those whom Thou lovest, to save them from the torments of eternal punishment: as it is said in another Psalm, \"The sinner hath provoked the Lord: He will not require it of him according to the greatness of His wrath. \" With this also is understood, \"Who knoweth. \" Such is the difficulty of finding any one who knoweth how to number Thine anger by Thy fear, that he adds this, meaning that it is to the purpose that Thou appearest to spare some, with whom Thou art more angry, that the sinner may be prospered in his path, and receive a heavier doom at the last. For when the power of human wrath hath killed the body, it hath nothing more to do: but God hath power both to punish here, and after the death of the body to send into Hell, and by the few who are thus taught, the vain and seductive prosperity of the wicked is judged to be greater wrath of God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/90/11",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6d06",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Anger? God must punish actual sin severely, since he thus condemns mankind on account of original sin. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/90/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 90:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

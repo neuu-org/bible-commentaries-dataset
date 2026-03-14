@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PHIL 2:28",
+  "verse_text": "Verse text for PHIL 2:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/2/28",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "Why does Paul add the phrase “and I may be less anxious?” Because he has already said that Epaphroditus had ministered to his needs. He did not want it to appear as though he was sad to be sending him. Since Epaphroditus desired to be with them and since they are going to be glad if they see him, Paul could then be “less anxious.”",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/2/28",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e534d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Hearing of those whom we desire to be well never makes us so glad as actually seeing them, especially when the event exceeds our expectations. .",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/2/28",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e534d4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "I have sent him therefore the more diligently. What means more diligently? It is, without procrastination, without delay, with much speed, having bidden him lay all aside, and to go to you, that he might be freed from heaviness; for we rejoice not on hearing of the health of those we love, so much as when we see them, and chiefly so when this happens contrary to hope, as it was in the case of Epaphroditus.\n\nI have sent him therefore the more diligently, that when you see him again, you may rejoice, and that I may be the less sorrowful. How less sorrowful? Because if you rejoice, I too rejoice, and he too joys at a pleasure of such sort, and I shall be less sorrowful. He said not sorrowless, but less sorrowful, to show that his soul never was free from sorrow: for he who said, Who is weak, and I am not weak? Who is made to stumble, and I burn not? 2 Corinthians 11:29, when could such an one be free from sorrow? That is, this despondency I now cast off.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/2/28",
+      "full_content_url": "https://catenabible.com/com/5755bff83c6effa740dddbf7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 2:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

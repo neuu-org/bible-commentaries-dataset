@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 18:18",
+  "verse_text": "Verse text for 2SM 18:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/18/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "No son. The sons mentioned above, chap. xiv. 27, were dead when this pillar was erected; unless we suppose he raised this pillar before they were born: (Challoner) or meant this pillar to perpetuate his memory, when they should be no more. (Josephus, vii. 9.)\nThis author says that it was a pillar of marble; so that it is different from that which Doubdan (15) mentions, observing , that all who pass throw a stone at it. Thus was his vanity chastised!\nHand, work. So Martial (viii. 51.) says of a vial! Mentoris hæc manus est an, Polyclete, tua? (Menochius)\nThe same word is translated, triumphal arch, 1 Kings xv. 12. (G.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/18/18",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd18b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "No son: The sons mentioned above, chap. 14. 27, were dead when this pillar was erected: unless we suppose he raised this pillar before they were born.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/18/18",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0da",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 18:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

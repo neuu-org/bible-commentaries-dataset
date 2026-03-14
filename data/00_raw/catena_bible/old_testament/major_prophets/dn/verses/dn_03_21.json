@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 3:21",
+  "verse_text": "Verse text for DN 3:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/3/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Coats, or various coloured bandages for the thighs, used by men and women. Aquila and Th. retain the original term, Sarabarois. Chaldean, saraballa. (Calmet)\nCaps: \"tiaras. \"(Haydock)\nThe king alone wore them upright.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/3/21",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf29c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Instead of sarbal, \"trousers\" [actually this word probably meant \"mantle\" in the Aramaic] interpreted by Symmachus as anaxy-rides (\"trousers\"), Aquila and Theodotion read simply saraballa rather than the corrupt reading (E) sarabara. Now the shanks and shin-bones are called saraballa in the language of the Chaldeans [apparently erroneous information; the lexicons give only \"trousers\" or, preferably, \"mantle\"], and by extension of the same word it is applied to those articles of clothing which cover the shanks and shins, as if they were to be called \"shankies\" and \"shinnies\" (crurales et tibiales). \"Turban,\" however, is a Greek word, tiara [actually the Aramaic is karbela, \"cap\"] which has by usage become a Latin word also, and Virgil says of it (Aeneid, VII): \"Both scepter and sacred tiara. \" [Since tiara does not appear in the Aramaic original at all, the |40 comment upon it seems quite misleading to a public not having access to the original. Two other comments ought to be made about Jerome's treatment of this verse: a) he puts \"turbans\" before \"footgear\" (pattish) instead of after it as the original does; b) he has nevertheless consulted the original carefully, since he avoids the variant reading of the LXX, which latter substitutes \"upon their heads\" for the word \"footgear. \"] It was, however, a kind of skull-cap used by the Persian and Chaldean races.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/3/21",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2aa",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 3:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PS 89:1",
+  "verse_text": "Verse text for PS 89:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Understand, beloved, this Psalm, which I am about to explain, by the grace of God, of our hope in the Lord Jesus Christ, and be of good cheer, because He who promised, will fulfil all, as He has fulfilled much: for it is not our own merit, but His mercy, that gives us confidence in Him. He Himself is meant, in my belief, by \"the understanding of Aethan the Israelite:\" which has given this Psalm its title. You see then, who is meant by Aethan: but the meaning of the word is \"strong. \" No man in this world is strong, except in the hope of God's promises: for as to our own deservings, we weak, in His mercy we are strong. Weak then in himself, strong in God's mercy, the Psalmist thus begins: \"I will sing of Thy mercies, O Lord, for ever: with my mouth will I make known Thy truth unto all generations\" (ver. Let my limbs, he saith, serve the Lord: I speak, but it is of Thine I speak. \"With my mouth will I make known Thy truth:\" if I obey not Thee, I am not Thy servant: if I speak on my own part, I am a liar. To speak then from Thee, and in my own person, are two things: one mine, one Thine: Truth Thine, language mine. Let us hear then what faithfulness he maketh known, what mercies he singeth.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/89/1",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cd5",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The. Septuagint and Houbigant, \"Thy mercies, Lord. \"\nTruth. Notwithstanding our distress, I know thou wilt perform thy promises. (Calmet)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be288",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ezrahite. Septuagint, \"Israelite \"as in the former psalm. The Jews think that Ethan or Eman lived during the Egyptian bondage. But this psalm was rather composed by one of the captives at Babylon who bewails the destruction of the kingdom of Juda, under Sedecias. After he had detailed the promises of God, (ver. 39.; Calmet) David might write it in the person (Haydock) of Ethan, or Idithun, 1 Paralipomenon xxv., and 3 Kings. iv. 31. (Worthington)\nMost of the Fathers explain it of Christ's kingdom. See Psalm cxxxi. 11., and Jeremias xxxiii. 17. (Calmet)\nThe sceptre or administration of affairs was to continue in the tribe of Juda till his coming, as it really did, though kings were not always at the head of the people. (Berthier)",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/89/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be287",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

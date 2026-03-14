@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JB 42:5",
+  "verse_text": "Verse text for JB 42:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/42/5",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Seeth thee. Some have thought that God now manifested himself from the cloud. But all now agree that he only enlightened his understanding, and made known his designs more clearly.\nJob now perceived that he had spoken too boldly, in saying, Hear, and I will speak, ver. 4. The rest of this book is in prose.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/42/5",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde33",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "To hear is, with us, to adapt our ear, which is in one place, to a sound that comes from another. But with God, on the other hand, to whom nothing is external, hearing is properly for him to perceive our longings that are rising up beneath him. For us then to speak to God, who is acquainted with the hearts even of those that hold their peace, is not for us to utter what we think with the words of our throat but to long for him with eager desires. A person asks a question in order to be able to learn that of which he is ignorant; for a person to question God is to acknowledge that he is ignorant in his sight. But for God, to reply is for him to instruct with his secret inspirations the one who humbly acknowledges his ignorance.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/42/5",
+      "full_content_url": "https://catenabible.com/com/5e1b61cb8bc66721fe4ef784",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "5. By these words he doubtless plainly declares, that as far as sight is superior to hearing, so far does the progress also he had made through suffering differ from that which he was before. And because he had beheld more plainly the light of truth with the eye within, he more clearly discerned and beheld the darkness of his humanity.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/42/5",
+      "full_content_url": "https://catenabible.com/com/5745d7e53c6effa740ddd474",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 42:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

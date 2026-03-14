@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 19:48",
+  "verse_text": "Verse text for LK 19:48",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/19/48",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "All the people, as they heard him with so great attention. So Virgil said:\n-- pendetque iterum narrantis ab ore. (Witham)\nThe original Greek, exekremato autou akouon, shows how eagerly they catched the words that dropped from his sacred lips, all enraptured with the wisdom of his answers, and the commanding superiority of his doctrines. Seneca (Controv ix. 1.) uses a similar turn of expression: Ex vultu discentis pendent omnium vultus. The chief priests and rulers were all apprehension lest the people, who followed Jesus with such avidity, and who had conceived such high sentiments of his character, might prevent the execution of their murderous designs.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/19/48",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb3d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 19:48",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JON 2:2",
+  "verse_text": "Verse text for JON 2:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jon/2/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Prayed. He entertained these sentiments. (Sanct. xiv.)\nHe afterwards wrote them down. (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jon/2/2",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "LXX: similar. If Jonah is compared to the Lord, and his time of three days and three nights in the belly of the whale is a sign of the suffering of the Saviour, his prayer also ought to be a kind of prayer of the Saviour. Some people, I don't doubt, will find it difficult to believe that a man can spend three days and three nights in the belly of a whale, especially after a shipwreck. These people can either be religious or not. But if they have faith, they will believe this all the more: how three children thrown into a furnace of hot fire were so well protected that their clothes were not even singed; how the sea drew back on itself into two sides and held itself up like a wall to offer a route for the people who wanted to pass; how with all human moderation the anger of a lion that had been increased by hunger was taken by fear at the sight of his prey, and didn't want to touch it; and even other such miracles. If they do not have faith, let them read the fifteen books of Ovid's Metamorphoses, and all Greek and Latin history. Therein they will see Daphne changed into a bay-tree, or the sister of Phaeton changed into poplars; how Jupiter the highest god, was transformed into a swan, flowed in gold and became a raging bull, and other adventures where the ugliness of the stories attest the holiness of the divinity. They believe in these stories and say that everything is possible for one god. And while they believe these ugly stories and defend the absolute power of a god, they do not attribute this same power to honest deeds. With regard to these words: 'then Jonah prayed to the Lord his God out of the belly of the fish and said…' we understand that feeling that he is safe in the belly of the whale he does not despair of divine mercy and concentrates wholly on praying. For God, who had said, \"I am with him in his distress\", and when he calls to me, I will reply, \"I am here. \", came to his aid and he whose prayer had been answered was then able to say, \"in distress you have made me greater\".",
+      "commentary_number": "2/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/jon/2/2",
+      "full_content_url": "https://catenabible.com/com/5745fea33c6effa740ddd4f3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "God is not one who heeds the voice; rather, it is the heart which He hears and beholds. Even the speechless He hears, and the silent petition He will answer. Do the ears of God await a sound? If they did, how could Jonah’s prayer from the depths of the whale’s belly have made its way to Heaven, up through the organs of such a great beast from the very bottom of the sea, up through such a vast amount of water? As for those who pray in such a loud voice, what else will they attain but the annoyance of their neighbors? (Prayer Chapter 17)",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jon/2/2",
+      "full_content_url": "https://catenabible.com/com/574d127f3c6effa740ddd609",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JON 2:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

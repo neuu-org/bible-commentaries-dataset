@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 7:28",
+  "verse_text": "Verse text for ACTS 7:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/7/28",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you mark with what mildness he addresses them? He who had shown his wrath in the case of the other, shows his gentleness in his own case. But he that did his neighbor wrong thrust him away, saying, Who made you a ruler and a judge over us? Will you kill me, as you did the Egyptian yesterday? Mark; the very words which they said to Christ: Who made You ruler and judge over us? So habitual a thing was it for Jews to wrong (their benefactors) when in the act of receiving benefits! And again, mark the atrocious baseness: (μιαρίαν al. μοχθηρίαν, Sav. marg.) As you did the Egyptian yesterday! Then fled Moses at this saying, and was a stranger in the land of Midian, where he begot two sons.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/7/28",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f23a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 7:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

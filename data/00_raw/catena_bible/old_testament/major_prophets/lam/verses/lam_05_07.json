@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 5:7",
+  "verse_text": "Verse text for LAM 5:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/5/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Iniquities. This was the usual complaint of the Jews, (chap. xxxi. 29.) as if they had committed no offence themselves. If any virtuous people were involved in the common ruin, they bore it with resignation, and acknowledged that they had deserved it, 1 Esdras ix. 6., and 2 Esdras i. 6., and Esther xiv. 6., and Daniel iii. 29.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/5/7",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befbe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Here the people's slavery is exaggerated. So, first are viewed the conditions of those enslaved, as they are being punished for the sins of others. As said: \"Our fathers sinned, and are no more, and we bear their iniquities.\" Since our fathers have died: \"we bear their iniquities\", while sustaining their punishments.\n\nOn the contrary, the prophet Ezekiel claims: \"The word of the Lord came to me again: 'What do you mean by repeating this proverb concerning the land of Israel,\"The fathers have eaten sour grapes, and the children's teeth are set on edge\"? (Ezek 18:1-2). Solutions can then be declared. As in Exodus 20:5: \"for I the Lord your God am a jealous God, visiting the iniquity of the fathers upon the children to the third and fourth generation.\" And Deuteronomy 32:41 asserts: \"I will take vengeance on my adversaries, and will requite those who hate me.\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/5/7",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9dcb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 5:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

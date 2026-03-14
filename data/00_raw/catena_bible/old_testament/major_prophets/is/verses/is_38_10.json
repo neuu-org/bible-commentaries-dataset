@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 38:10",
+  "verse_text": "Verse text for IS 38:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/38/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hell. Sheol, or Hades, the region of the dead. (Challoner)\nHe was afraid to die without issue. (St. Jerome; ver. 12.)\nManasses was born three years later. (Calmet)\nThe king would naturally have died. (St. Augustine, de Gen. ad lit. vi. 17.) (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/38/10",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "“Thus, in desperation I said, ‘I will go to the gates of the netherworld,’ ” referring either to death by the common law of nature or to those gates from which the psalmist was liberated and therefore sings, “You who raise me from the gates of death, that I might declare all your praises in the gates of the daughter of Zion.” I believe that these are the same gates of the netherworld that did not prevail against Peter, who fell asleep in the fullness of his days. The saints complete their days, like Abraham, who “died full of years at an old age.” Sinners and the impious, however, die in the midst of their days, about which the psalmist also speaks: “Men of blood and deception will not complete half of their days.” For they neither perform works of virtue nor strive to amend their faults through penance. Hence, they will be led to the netherworld with their lives half finished and in the darkness of error.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/38/10",
+      "full_content_url": "https://catenabible.com/com/5e4f7fcfc849cf49a740e4a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 38:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

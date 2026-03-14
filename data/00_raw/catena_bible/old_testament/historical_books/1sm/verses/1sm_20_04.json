@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 20:4",
+  "verse_text": "Verse text for 1SM 20:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/20/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Soul, is often put for desire, Psalm xxvi. 12. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/20/4",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcf7e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Here some make the charge that the apostle has divided the human being into two parts, and that he states that a human’s combined essence conflicts with itself, and that the body has a contest with the soul. But this is clearly not so, for by “the flesh” he does not mean the body; if he did, what would be the sense of the clause immediately following, “for it lusts,” he says, “against the Spirit”? Yet the body does not move but is moved, is not an agent but is acted upon. How then does it lust, for lust belongs to the soul not to the body, for in another place it is said, “My soul longs,” and, “Whatever your soul desires, I will even do it for you” … and “So my soul pants.” Therefore when Paul says, “the flesh lusts against the Spirit,” he means that the flesh is not the human body but the depraved will, as where he says, “But you are not in the flesh, but in the Spirit,” and again, “Those who are in the flesh cannot please God.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/20/4",
+      "full_content_url": "https://catenabible.com/com/5de4681d1f75ae05ba98cf29",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 20:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

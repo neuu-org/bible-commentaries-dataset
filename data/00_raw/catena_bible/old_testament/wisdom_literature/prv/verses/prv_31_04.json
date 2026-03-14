@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 31:4",
+  "verse_text": "Verse text for PRV 31:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/31/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Give. Septuagint, \"Do all with counsel. By advice drink wine. Lords are inclined to anger; let them not drink wine. \"(Haydock)\nSolomon took this advice, Ecclesiastes ii. 3.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/31/4",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be793",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh It is not for kings, O Lemuel, it is not for kings to drink wine; nor for princes strong drink: The wine of the flesh does not cheer the heart of man but overpowers it and produces madness; it is written, in fact, that it is not for kings to drink wine. The apostle, too, writes that it is good not to eat meat and not to drink wine; yet we are told that wine gladdens the heart of man. This means, however, spiritual wine, by which, if one drinks, he immediately becomes inebriated. Homilies on the Psalms (Psalm ).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/31/4",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85d8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 31:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

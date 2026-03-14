@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JN 18:34",
+  "verse_text": "Verse text for JN 18:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/18/34",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "As no one, He says, has openly brought this charge against Me, whence proceeds your question? There can be no doubt that this trick proceeds from the malice of the Jews, and that they devised this cruel stratagem; for else you would not be, He says, at once judge and accuser. And Christ said this, wishing to bring it to the knowledge of Pilate that nothing that was unseen, and devised, and said in secret, could escape Him; and that, seeing that He was more than man, he might be more reluctant to minister to the cruelty of those who brought Him; and at the same time to teach him that he did very wrong in forcing Him, Who had been convicted of no crime, on the mere word of others to pay the penalty.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/18/34",
+      "full_content_url": "https://catenabible.com/com/57eb0c76b0d44ee10cfac0a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 18:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

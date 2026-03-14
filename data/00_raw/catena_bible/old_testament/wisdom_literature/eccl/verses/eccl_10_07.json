@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 10:7",
+  "verse_text": "Verse text for ECCL 10:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/10/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Didymus the Blind",
+      "period": "AD398",
+      "content": "Those who have come from paganism to the gospel—those who were slaves of desire, slaves of sin, slaves of the devil and of death—have become riders on horseback. About them it is said that, in the future, they will ride on divine words like on horses.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/10/7",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef09",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "By the name horse is understood temporal dignity, as Solomon witnesses, who says, “I have seen servants upon horses, and princes walking as servants upon the earth.” For everyone who sins is the servant of sin, and servants are upon horses when sinners are elated with the dignities of the present life. .",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/10/7",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef08",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 10:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

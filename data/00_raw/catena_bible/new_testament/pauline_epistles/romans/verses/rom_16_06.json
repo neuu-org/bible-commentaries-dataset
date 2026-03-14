@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ROM 16:6",
+  "verse_text": "Verse text for ROM 16:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/16/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "How can it be that yet another woman is honored and proclaimed victorious! We men are put to shame yet again. Or rather, we are not merely put to shame; we have a different honor conferred on us. For it is an honor to have such women as these among us, though we are put to shame in that we are left so far behind them. But if we come to know why they are so honored, we shall quickly overtake them. What does Paul mean when he says that he does not permit a woman to teach? He means to prevent a woman from coming forward publicly and preaching in the pulpit; he does not stop them from teaching altogether. If this were the case … how would Priscilla have come to instruct Apollos? … Mary worked hard among them, because along with teaching she performed other ministries besides…. The women of those days were more spirited than lions, sharing with the apostles their labors for the gospel’s sake.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/16/6",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 16:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

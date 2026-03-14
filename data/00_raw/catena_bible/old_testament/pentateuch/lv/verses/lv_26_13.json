@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 26:13",
+  "verse_text": "Verse text for LV 26:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/26/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I am the LORD your God, who brought you forth out of the land of Egypt, that you should not be their slaves; and I have broken the bands of your yoke, and made you walk upright. Upright; and be no longer bowed down with a heavy yoke, like oxen. \"I have broken the locks of your prison, and have set you at liberty \"Arabic. (Calmet) A Greek proverb says, \"Never was a slave's head right, but always crooked, like his neck. \"(Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/26/13",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc699",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 26:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

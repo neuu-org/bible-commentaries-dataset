@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 31:13",
+  "verse_text": "Verse text for PS 31:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/31/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "14. \"For I have heard the rebuking of many dwelling by in a circuit\" (ver. 13). For I have heard many rebuking me, in the pilgrimage of this world near me, following the circuit of time, and refusing to return with me to the eternal country. \"Whilst they were assembling themselves together against me, they conspired that they might take my soul.\" That my soul, which should by death easily escape from their power, might consent unto them, they imagined a device, whereby they would not suffer me even to die.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/31/13",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6933",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For I have heard the slander of many: fear was on every side: while they took counsel together against me, they devised to take away my life. They blame me to my face. Hebrew, \"fear on every side. \"(Haydock) But magor signifies also \"dwelling \"as well as \"fear \"and this dread arose only from the multitude of enemies. (Berthier) Life. I was proscribed by Saul, (1 Kings xix. ; Haydock) and they were only solicitous how to destroy me. (Calmet) They assembled to talk about my pretended (Haydock) faults, and to contrive my ruin, Jeremias xx. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/31/13",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf7d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 31:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

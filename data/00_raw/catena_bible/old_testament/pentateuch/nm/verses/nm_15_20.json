@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 15:20",
+  "verse_text": "Verse text for NM 15:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/15/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You shall offer up a cake of the first of your dough for a heave offering: as you do the heave offering of the threshingfloor, so shall you offer it up. Ambrose of Milan All the morally good emotions of your senses are the first fruits of the threshing floor of the soul in the same manner as grain is separated in an actual barn floor. On this barn floor the wheat and the barley are separated by a winnowing process from the chaff and from other impurities, while the solid parts, now rid of their lighter coating, settle on the floor. In a similar fashion our thoughts, when sifted, provide a solid food and pure nourishment for the exercise of virtue.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/15/20",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e5291a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Eat. Hebrew and Septuagint, \"of your dough. \"They elevated a part towards heaven, and gave it to the priest or Levite, who lived nearest them; and, in case none could be found, as at the present day, they were to burn it in honour of God. Tradition determines the quantity to be between a 40th and a 60th part. (St. Jerome in Ezec. xlv.) This they do every time they bake, according to Philo, and Leo of Modena, (2. 9,) though the law be not clear, and some might think it sufficient to give a part, the first time they baked with new flour.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/15/20",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc783",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 15:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

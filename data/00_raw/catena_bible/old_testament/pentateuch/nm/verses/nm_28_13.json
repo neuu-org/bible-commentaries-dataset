@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 28:13",
+  "verse_text": "Verse text for NM 28:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/28/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And a tenth of an ephah of flour mixed with oil for a grain offering unto one lamb; for a burnt offering of a sweet aroma, a sacrifice made by fire unto the LORD. An assaron, gomer, or chomer, which is the tenth part of an epha, as that is the tenth of a core or chomer, which is the largest Hebrew dry measure, containing 32 pecks and one pint English; so that the gomer would be equivalent to five pints. (Haydock) This quantity of flour accompanied each holocaust at the beginning of every month.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/28/13",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc85f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 28:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

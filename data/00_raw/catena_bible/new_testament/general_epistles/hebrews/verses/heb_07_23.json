@@ -1,0 +1,36 @@
+{
+  "verse_reference": "HEB 7:23",
+  "verse_text": "Verse text for HEB 7:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/7/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Many priests The apostle notes this difference between the high priests of the law, and our high priest, Jesus Christ: that they being removed by death, made way for their successors: whereas our Lord Jesus is a priest for ever, and hath no successor; but liveth and concurreth for ever with his ministers, the priests of the New Testament, in all their functions. Secondly, that no one priest of the law, not all of them together, could offer that absolute sacrifice of everlasting redemption, which our one high priest, Jesus Christ, has offered once and for ever. (Challoner)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/7/23",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02eb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 7:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 7:16",
+  "verse_text": "Verse text for PS 7:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/7/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "18. \"His toil shall be turned on his head, and his iniquity shall descend on his pate\" (ver. 16). For he had no mind to escape sin: but was brought under sin as a slave, so to say, as the Lord saith, \"Whosoever sinneth is a slave.\" His iniquity then will be upon him, when he is subject to his iniquity; for he could not say to the Lord, what the innocent and upright say, \"My glory, and the lifter up of my head.\" He then will be in such wise below, as that his iniquity may be above, and descend on him; for that it weigheth him down and burdens him, and suffers him not to fly back to the rest of the saints. This occurs, when in an ill regulated man reason is a slave, and lust hath dominion.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/7/16",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6720",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sorrow. The evil which he designed for me (Menochius) will fall on him, like an arrow shot upwards. (Calmet)\nCrown. Protestants, \"pate. \"(Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/7/16",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde89",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 7:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

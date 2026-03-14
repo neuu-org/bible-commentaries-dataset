@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MI 4:6",
+  "verse_text": "Verse text for MI 4:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/4/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Halteth, as the synagogue did, (3 Kings xviii. 21.) bringing nothing to perfection, (Hebrews vii. 19.) while the Gentiles were abandoned to idolatry. From both Christ chose his Church, Acts xxi. 20. (Calmet)\nThe Jews will be at last converted. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/4/6",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "Now it is obvious that no one can frighten or subdue us who believe in Jesus throughout the whole world. Although we are beheaded and crucified, and exposed to wild beasts and chains and flames, and every other means of torture, it is evident that we will not retract our profession of faith. The more we are persecuted, the more do others in everincreasing numbers embrace the faith and become worshipers of God through the name of Jesus. Just as when one cuts off the fruitbearing branches of the vine, it grows again and other blossoming and fruitful branches spring forth, so it is with us Christians. For the vine planted by God and Christ the Redeemer is his people. But the rest of the prophecy will be fulfilled at his second coming. The prophet Micah says, “In that day, says the Lord, I will gather her that is bruised, and will receive her that is cast out, and those whom I rejected. ” This indicates that you do not have the last word then when you and all other people, having the power, cast out every Christian not only from his own property but even from the whole world, for you allow no Christian to live.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mi/4/6",
+      "full_content_url": "https://catenabible.com/com/5838db9b205c248f42e52c61",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 4:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

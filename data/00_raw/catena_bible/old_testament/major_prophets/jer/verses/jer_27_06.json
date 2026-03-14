@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 27:6",
+  "verse_text": "Verse text for JER 27:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/27/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Beasts. The property of those people, or the most barbarous nations. (St. Jerome)\nHangmen and executioners may in the same sense be styled God's servants. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/27/6",
+      "full_content_url": "https://catenabible.com/com/5735e271ec4bd7c9723bedc0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "We have long felt that God is angry, yet we do not try to appease him. It is our sins that make the barbarians strong. It is our vices that vanquish Rome’s soldiers. As if there were here too little material for carnage, civil wars have made almost greater havoc among us than the swords of foreign foes. Miserable must those Israelites have been compared with whom Nebuchadnezzar was called God’s servant. Unhappy too are we who are so displeasing to God that he uses the fury of the barbarians to execute his wrath against us. Still, when Hezekiah repented, 185,000 Assyrians were destroyed in one night by a single angel. When Jehosaphat sang the praises of the Lord, the Lord gave his worshiper the victory. Again, when Moses fought against Amalek, it was not with the sword but with prayer that he prevailed. Therefore, if we wish to be lifted up, we must first prostrate ourselves.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/27/6",
+      "full_content_url": "https://catenabible.com/com/5e936148d87c4a70874ae2ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 27:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

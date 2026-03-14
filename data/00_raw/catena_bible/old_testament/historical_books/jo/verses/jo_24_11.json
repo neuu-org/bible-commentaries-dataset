@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JO 24:11",
+  "verse_text": "Verse text for JO 24:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/24/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "“And those who inhabited Jericho waged war against you.” One might well ask how this statement could be true, when they were merely protecting themselves by hiding behind the walls and closing the city gates. But this is spoken correctly, since the closing of gates to an enemy is a sign of warfare. For the inhabitants of Jericho did not send ambassadors to ask for terms of peace.… For a war does not always have one battle after another. Some wars have frequent battles, some a few, still others none. A war, however, is when there is a disagreement involving arms in some way.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/24/11",
+      "full_content_url": "https://catenabible.com/com/5de471458b87fe0847ee88ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew, \"the masters of Jericho \"which may denote either the king or the inhabitants. It is thought that people of the different nations were come to defend the city, or the text may signify that not only Jericho, but these different people, (Calmet) fought successively against the people of God, but all in vain. (Haydock) The fighting of the inhabitants of Jericho was only intentional; a miracle rendered all their efforts abortive. Yet this is called fighting in scripture (ver. 9,) as well as in other authors. \"We judge of actions by the intention, says St. Isidore: (Pelus. 289,) the person who intended to murder is punished, though he only inflicted a wound; and on the other hand, he who dills undesignedly receives a pardon. \"So Orion was said to have violated Diana, because he wished to do it; and Virgil, (Æneid viii. ) speaking of some who already thought they were in possession of the capital, says, Galli per dumos aderant, arcemque tenebant, \"they seized the citadel \"though they never entered it. (Calmet) Yet it is probable that the inhabitants of Jericho would defend themselves. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/24/11",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcc92",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 24:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

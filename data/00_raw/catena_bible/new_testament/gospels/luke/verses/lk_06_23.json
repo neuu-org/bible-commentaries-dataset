@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 6:23",
+  "verse_text": "Verse text for LK 6:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/6/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Rejoice in that day, and leap for joy: for, behold, your reward is great in heaven: for in like manner did their fathers unto the prophets. Tertullian of Carthage. He will have commanded either no martyrdoms at all, or those which must be understood in a sense different from the ordinary, being such a person as to urge no one to a risk of this kind as to promise no reward to them who suffer for Him, because He does not wish them to suffer; and therefore does He say, when setting forth His chief commands, \"Blessed are they who are persecuted for righteousness' sake, for theirs is the kingdom of heaven.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/23",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc83",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 6:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

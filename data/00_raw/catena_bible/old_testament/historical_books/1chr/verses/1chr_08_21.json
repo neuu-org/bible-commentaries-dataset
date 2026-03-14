@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 8:21",
+  "verse_text": "Verse text for 1CHR 8:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/8/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Douay Rheims 1609",
+      "period": "AD1609",
+      "content": "And David said to God: I have sinned exceedingly in that I would do this: I beseech thee take away (b) the iniquity of thy servant, because I have done foolishly.\r\n(b) King David was not without faith, nor hope, and yet was contaminate with iniquity, from which he prayed to be delivered.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/8/21",
+      "full_content_url": "https://catenabible.com/com/590bf5639f61fbda40c54162",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Semei; perhaps Sama, ver. 13. (Calmet)\nSeptuagint read, Samai. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/8/21",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd63a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 8:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

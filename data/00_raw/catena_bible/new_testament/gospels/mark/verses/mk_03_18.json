@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 3:18",
+  "verse_text": "Verse text for MK 3:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/3/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "We must not pass over the fact that Matthew had two names, for he was also called Levi, and that name too bears witness to the grace granted to him. Levi means “added” or “taken up,” signifying that he was “taken up” through being chosen by the Lord, and “added” to the number of the apostolic band. Mark and Luke generously chose to use this name alone, so as to not make glaringly conspicuous his former way of life, for he was now their companion in the work of the gospel. In setting down the list of the twelve apostles, they simply called him Matthew, not mentioning Levi. Matthew himself, on the other hand (in accord with what is written, “The just man is the first accuser of himself; his friend came and searched him out”), calls himself by his ordinary name when telling of being called from his taxcollector’s place, but adds pointedly “the publican”—“Thomas,” he says, “and Matthew the publican. ” In this way he offers to publicans and sinners greater confidence in securing their salvation.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/3/18",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d06",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 3:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

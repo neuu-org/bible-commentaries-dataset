@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 5:20",
+  "verse_text": "Verse text for JGS 5:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/5/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Stars, or angels, who are compared to the stars, and often fought for Israel, 2 Machabees x. (Vales, Philos. ) (Calmet) The favourable and malignant influences of the stars, which the Rabbins talk of, would here be nugatory, (Haydock) unless they might contribute to bring on rain. (Cajetan) Josephus ( v. ) informs us that a furious tempest of hail, met the enemy in the face, and rendered all their efforts useless. (Calmet) A similar instance of the divine protection was obtained by the prayers of the thundering legion, in the army of M. Aurelius; (Tertullian; Eusebius, Hist. ) and again, when Theodosius attacked the tyrant Eugenius, of which Claudian speaks, (in 3 Cons. ) \"Te propter gelid is Aquilo de monte procellis Obruit adversas acies, revolutaque tela Vertit in Auctores et turbine repulit hastas O nimium dilecte Deo, cui fundit ab antris Æolus armatas hiemes, cui militat æther Et conjurati veniunt ad classica venti. \"(Haydock) Courses. This miracle was of a different kind from that which proved so fatal to the enemies of Josue. (Lyranus) Septuagint Alexandrian, \"They fought with (meta) Israel \"for which Grabe puts, against Sisara.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/5/20",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd09",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 5:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

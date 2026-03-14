@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 18:16",
+  "verse_text": "Verse text for 2KGS 18:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/18/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh At that time did Hezekiah strip the gold from the doors of the temple of the LORD, and from the pillars which Hezekiah king of Judah had overlaid, and gave it to the king of Assyria. All must go to meet the exigencies of the state. (Grotius, Jur. ) The doors of temples and palaces were frequently adorned with the most precious metals, as Homer describes the palace of Alcinous; (Odyssey; H) and Tavernier (vii. ) speaks of some mosques in Persia, the doors of which are covered with plates of silver. See Josephus, Jewish Wars vi.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/18/16",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd514",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Of Hezekiah it is written, “And he did that which was right in the eyes of the Lord, according to all that David his father had done. He destroyed the high places, and broke the statues in pieces, and burned the groves and broke the brazen serpent that Moses had made. ” And again, “He trusted in the Lord the God of Israel, and after him there was none like him among all the kings of Judah who were before him. He stuck to the Lord, and departed not from him and kept his commandments, which the Lord commanded Moses, and the Lord was with him, and in all things to which he went forth, he behaved himself wisely. ” And, when Sennacherib, the king of the Assyrians, had taken all the cities of Judah, “Hezekiah sent messengers to him, to Lachish, saying, ‘I have sinned, depart from me, and all that you shall command of me, I will give. ’ And the king of the Assyrians put a tax on Hezekiah, king of Judah, of three hundred talents of silver and thirty talents of gold. And Hezekiah gave him all the money that was found in the house of the Lord and in the treasure houses of the king. At that time, he broke the doors of the temple of the Lord and the plates of gold and gave them all to the king of the Assyrians. ” Although such great demands were placed on him, Hezekiah did not hesitate, in the face of stern necessity, to give the Assyrian king all that he had consecrated to the Lord, and it is said to him, “I will protect this city for my own sake and for David my servant’s sake. ” Not for your sake, for you had already performed a noble deed when 185,000 soldiers of the Assyrian army were laid low and slaughtered by an angel.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/2kgs/18/16",
+      "full_content_url": "https://catenabible.com/com/5e1b69a48bc66721fe4efa02",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 18:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

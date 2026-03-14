@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 26:31",
+  "verse_text": "Verse text for EX 26:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/26/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "The temple was divided by a veil [hung across] the wall in the center [of the building], and the outer [section of this part of the] building was called the sanctuary; the inner [section], where the ark of the covenant was placed, was called the Holy of Holies. The church is in part on pilgrimage on earth, [away from] the Lord, and in part it reigns with the Lord in heaven. The wall [across the] center is understood [as indicating] heaven, and the ark of the covenant [as indicating] the Lord, who alone is conscious of the Father’s hidden mysteries and has passed into the inner reaches of heaven.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/26/31",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52893",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "A veil, to hang before the entrance of the tabernacle, at the east side, which had no boards. Within was the ark, ver. 33. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/26/31",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc436",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 26:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

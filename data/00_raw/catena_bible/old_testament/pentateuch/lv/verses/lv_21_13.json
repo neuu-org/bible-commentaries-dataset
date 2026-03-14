@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 21:13",
+  "verse_text": "Verse text for LV 21:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/21/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wife. Josephus says he could not divorce her. The Rabbins allow him only one wife at a time. It is said that Joiada had two. But that might be successively; and it is not certain that he was the high priest; (2 Paralipomenon xxiv. 3.; Calmet) though he has that title in the Vulgate, 2 Paralipomenon xxii. 11. (Haydock)\nHis wife must be an Isrealite. The Septuagint intimates, \"of his own race. \"But this is denied by others. He could not marry his brother's widow, (Selden) nor a girl under twelve and a half. \"The Egyptian priests marry only one, while others have as many wives as they please. \"(Diodorus i.) (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/21/13",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc648",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 21:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

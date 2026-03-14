@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 21:4",
+  "verse_text": "Verse text for JN 21:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/21/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "In many ways Scripture celebrates us, and describes us in manifold figures of speech, giving variety to the simplicity of the faith by diverse names Accordingly, in the Gospel, \"the Lord, standing on the shore, says to the disciples\"-they happened to be fishing-\"and called aloud, Children, have ye any meat? \"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/21/4",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb64f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "When the morning was come, &c. To show that this capture of fish was the result of His grace, not of their own industry. For (naturally) in the morning fish flee away from the light and the noise into the depths of the sea. They knew not. Because He appeared to them in another form, as He did to the Magdalene (cap. In sooth Christ desired to be recognised rather by the miraculous draught of the fish than by His (human) form; for this was more befitting incarnate God. Mystically: S. Gregory says, \"The sea signifies this present world, which, in the tumults of affairs and the corruptible waves of life, dashes against itself. But the solidity of the shore signifies the perpetuity of the everlasting rest. The disciples therefore as yet were engaged in the waves of this mortal life. But the Lord was now standing on the shore, towards which Peter, to whom the Church was specially committed, draws the fishes, showing to the faithful the stability of eternal peace. This he did by his preaching and his epistles. This he does still by daily signs and miracles.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/21/4",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e523af",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 21:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

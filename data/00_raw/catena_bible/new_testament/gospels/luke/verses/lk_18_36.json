@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 18:36",
+  "verse_text": "Verse text for LK 18:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/18/36",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The blind man must have understood that the sight of the blind cannot be restored by human means but requires, on the contrary, a divine power and an authority such as God only possesses. With God nothing whatsoever is impossible. The blind man came near to him as to the omnipotent God. How then does he call him the Son of David. What can one answer to this. The following is perhaps the explanation. Since he was born and raised in Judaism, of course, the predictions contained in the law and the holy prophets concerning Christ had not escaped his knowledge. He heard them chant that passage in the book of the Psalms, “The Lord has sworn in truth to David, and will not annul it, saying: ‘of the fruit of your loins I will set a king upon your throne. ’ ” The blind man also knew that the blessed prophet Isaiah said, “There will spring up a shoot from the root of Jesse, and from his root a flower will grow up. ” Isaiah also said, “Behold, a virgin will conceive and bring forth a son, and they will call his name Emmanuel, which being interpreted is, God with us. ” He already believed that the Word, being God, of his own will had submitted to be born in the flesh of the holy Virgin. He now comes near to him as to God and says, “Have mercy on me, Son of David. ” Christ testifies that this was his state of mind in offering his petition. He said to him, “Your faith has saved you. ” Commentary on Luke, Homily.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/18/36",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e75c7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "While he was asking who it was, they said to him, “Jesus, the Nazarene.” He knew that they were not saying that to him with love. He left what pertained to enemies and grasped hold of what pertained to friends. “Son of David, have mercy on me.” They were trying to prevent him, fearing that his eyes may be opened, and the Pharisees might recognize him and be irritated. Commentary on Tatian’s Diatessaron",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/18/36",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e75c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 18:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EST 3:6",
+  "verse_text": "Verse text for EST 3:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/3/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Counted. Septuagint, \"consulted how to exterminate all the Jews in the kingdom. \"\nAssuerus. Hebrew adds, \"the people of Mardochai.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/3/6",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdac4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "Nothing else is symbolized by the arrogant Haman than the opulence of the powerful of this world who take advantage of the benefits conceded to them by divine mercy. They despise allowing their neighbors, who are given to them as companions by nature, to have as sharers of such grace. Therefore they are guilty of striving to transfer to themselves the honor and reverence that are rightly due to God alone. And so they pursue with hatred all those who do not want to act according to such behavior or comply with it. They persecute them with afflictions and endeavor to put them to death. But the heavenly judge, “who regards the lowly, and perceives the haughty from far away, who knows the deceiver and he, who is deceived, makes the pain return upon the heads of the sinful, and their iniquity descends on their head. The sinful are caught in their own traps: the righteous will be freed from their anguish, the impious will be handed over in their stead.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/3/6",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa32",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 3:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

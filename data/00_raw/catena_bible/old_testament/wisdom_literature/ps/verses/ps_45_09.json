@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 45:9",
+  "verse_text": "Verse text for PS 45:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/45/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Upon Thy right hand did stand the Queen\" (ver. She which stands on the left is no Queen. For there will be one standing on \"the left\" also, to whom it will be said, \"Go into everlasting fire. \" But she shall stand on the right hand, to whom it will be said, \"Come, ye blessed of My Father, inherit the kingdom prepared for you from the foundation of the world. \" On Thy right hand did stand the Queen, \"in a vesture of gold, clothed about with divers colours. \" What is the vesture of this Queen. It is one both precious, and also of divers colours: it is the mysteries of doctrine in all the various tongues: one African, one Syrian, one Greek, one Hebrew, one this, and one that; it is these languages that produce the divers colours of this vesture. But just as all the divers colours of the vesture blend together in the one vesture, so do all the languages in one and the same faith. In that vesture, let there be diversity, let there be no rent. See we have \"understood\" the divers colours of the diversity of tongues; and the vesture to refer to unity: but in that diversity itself, what is meant by the \"gold\". Wisdom itself. Let there be any diversity of tongues you please, but there is but one \"gold\" that is preached of: not a different gold, but a different form of that gold. For it is the same Wisdom, the same doctrine and discipline that every language preaches. In the languages there is diversity; gold in the thoughts.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/45/9",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a3d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Kings' daughters were among your honorable women: at your right hand did stand the queen in gold of Ophir. Hebrew, \"in gold of Ophir. \"(Haydock) The Church is spotless, Ephesians v. The attendants of this glorious queen, are the nations converted, or Christian virgins. They are not the maids of Pharao's daughter, whose marriage was never commended. (Berthier) House. Paganism, and the observances of the old law. (Berthier) The Church, and every faithful soul, may be styled the daughter, as well as the spouse of Christ.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/45/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be073",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 45:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

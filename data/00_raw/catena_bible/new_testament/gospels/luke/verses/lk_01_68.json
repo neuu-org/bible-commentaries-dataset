@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 1:68",
+  "verse_text": "Verse text for LK 1:68",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/68",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Hear what Zechariah, prophesying and blessing God, said: “Blessed be the Lord God of Israel, for he has visited and redeemed his people.” Notice in these words that Zechariah was telling by way of prophecy, as if it had already come to pass, what he had foreseen in spirit had begun and would soon come to pass. By his appearance in the flesh our Lord visited us when we were distancing ourselves from him, and he chose to seek out and justify us when we were sinners. He visited us as a doctor visits an ill patient, and, in order to cure the ingrained sickness of our pride, he gave us the example of his own humility. He redeemed his people by giving us freedom, at the price of his own blood—we who had been sold into the slavery of sin and were committed to serving the ancient enemy. Therefore the apostle exhorts us, saying, “For you have been purchased at a great price. Glorify and carry God in your bodies.”",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/68",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e72cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "N the house of His servant David; as He spake by the mouth of His holy prophets, which have been since the world begun; salvation from our enemies, and from the hand of all that hate us; to perform the mercy",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/68",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbbd3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The sound of the horn represents the man of God in all his sovereignty. In Scripture, the horn properly signifies kingship and power, just as it is written: “He has raised up a horn of salvation for us.”",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/68",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e72ce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:68",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

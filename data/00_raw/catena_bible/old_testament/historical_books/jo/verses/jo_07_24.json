@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JO 7:24",
+  "verse_text": "Verse text for JO 7:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/7/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Joshua, and all Israel with him, took Achan the son of Zerah, and the silver, and the garment, and the wedge of gold, and his sons, and his daughters, and his oxen, and his donkeys, and his sheep, and his tent, and all that he had: and they brought them unto the valley of Achor. His sons Probably conscious to, or accomplices of the crime of their father, (Challoner) as he could hardly have concealed these things in the midst of his tent without their knowledge. (Menochius) But granting, with St. Augustine (q. 8,) that they were innocent of this crime, God, who is the sovereign arbiter of life and death, might order them out of the world, on this occasion, without injustice.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/7/24",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb88",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "His sons: Probably conscious to, or accomplices of, the crime of their father.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/7/24",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9feb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 7:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

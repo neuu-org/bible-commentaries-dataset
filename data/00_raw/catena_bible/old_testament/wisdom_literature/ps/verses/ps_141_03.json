@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 141:3",
+  "verse_text": "Verse text for PS 141:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/141/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And. Hebrew, \"keep guard at the door of my lips \"(Montanus) or \"on the poverty of\", (St. Jerome) that I may not speak too much, or imprudently; as I shall do, if left to myself. (Haydock)\nHoubigant rejects this version, which is very expressive. (Berthier) (Ecclesiasticus xxviii. 28.)\nHebrew dal is rendered \"elevation \"(Chaldean) and may here stand for \"a door. \"Nature has included the tongue within a double restraint of the teeth and lips, to counteract its too great volubility. (Theodoret)\nDavid prays that he may not be unguarded in his speech. He always spoke to Saul with the greatest respect, 1 Kings xxiv. 18. (Calmet)\nThe lips must be like a door, neither always open, when we ought to be silent, nor always shut, when we should confess our sins. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/141/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4fe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 141:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

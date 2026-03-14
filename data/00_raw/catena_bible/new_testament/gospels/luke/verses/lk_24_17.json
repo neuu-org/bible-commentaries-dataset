@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 24:17",
+  "verse_text": "Verse text for LK 24:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/24/17",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "You heard just now that the Lord Jesus, after rising from the dead, found two of his disciples on the road, talking to each other about all that had happened, and said to them, “What is this conversation you are having with each other, and why are you so sad. ” …So what is the benefit of this reading for us. A very considerable one, if we understand it rightly. Jesus appeared. They saw him with their eyes and did not recognize him. The Master was walking with them along the way, and he himself was the way. But they weren’t yet walking along the way. He found, you see, that they had wandered off the way. After all, when he had been with them before the passion, he had foretold everything: that he was going to suffer, to die and to rise again on the third day. He had foretold it all, but his death had erased it from their memories. They were so shattered when they saw him hanging on the tree that they forgot about his teaching. They did not expect him to rise, nor did they hold on to what he had promised.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/24/17",
+      "full_content_url": "https://catenabible.com/com/585b6d629ac03ecd4b8e76c8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And He said unto them, What manner of communications are these that ye have one to another, as ye walk and are sad? ÏƒÎºÏ…Î¸Î¶Ï‰Ï€Î¿Î¯, \"sullen\" in the sense of downcast. Christ knew whence their sadness arose, but asks them the cause, in order that He might remove it: \"As I followed I heard you speak of some one who was slain at Jerusalem; tell me therefore who he was, and how, and for what reason he was put to death.\"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/24/17",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520b2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "After Nero and Domitian … persecution was raised against us sporadically among the cities as a result of insurrection among the people. In this persecution we have learned that Simon [Symeon], the son of Clopas, whom we have shown to have been the second bishop of the church at Jerusalem, gave up his life by martyrdom. The witness of this is Hegisippus, whom we have already quoted. When relating about certain heretics, he goes on to show that Symeon was accused by them at this time and was tortured in many ways for a great many days because he was clearly a Christian. He astonished to the highest degree both the judge himself and those with him, and won for himself an end similar to the passion of the Lord.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/24/17",
+      "full_content_url": "https://catenabible.com/com/585b6d629ac03ecd4b8e76c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 24:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

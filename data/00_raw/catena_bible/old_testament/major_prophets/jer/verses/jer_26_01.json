@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 26:1",
+  "verse_text": "Verse text for JER 26:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/26/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Beginning, after Joakim had reigned some time, ver. 21.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/26/1",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bedb0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "This prophecy preceded in time the former prophecy, though it was given under the same king. For the former prophecy came in the fourth year of Jehoiakim, son of Josiah, king of Judah, but this one in the beginning of the same king’s reign, as Scripture records: “In the beginning of the reign of Jehoiakim, son of Josiah, king of Judah, this word came from the Lord.” The prophecies of history, therefore, as we have often noted before, are not necessarily composed in chronological order, since, in the present case, the prior and subsequent prophecies under one king were recorded in reverse sequence. But whoever is preparing to speak the word of the Lord needs to stand with Moses and to hear with the psalmist, “You stand in the house of the Lord, in the courts of the Lord our God.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/26/1",
+      "full_content_url": "https://catenabible.com/com/5e936147d87c4a70874ae2e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 26:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

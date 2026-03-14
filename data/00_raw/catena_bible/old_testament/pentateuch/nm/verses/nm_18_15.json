@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 18:15",
+  "verse_text": "Verse text for NM 18:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/18/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Every thing that opens the womb in all flesh, which they bring unto the LORD, whether it be of men or animals, shall be yours: nevertheless the firstborn of man shall you surely redeem, and the firstling of unclean animals shall you redeem. The Rabbins restrain this to the ass alone, which they pretend was deemed the only unclean animal by the Israelites, in Egypt, when this law was established; and Moses indeed specifies it alone, Exodus xiii. (Abenezra) But we cannot doubt but that camels, and all other unclean animals, were to be included, if the Hebrews kept them; (Calmet) and those which were rendered impure by some defect, were also to be redeemed. (Menochius).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/18/15",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7b1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Every only child is a firstborn child; but not every firstborn is an only child. A firstborn child is not only one after whom other children are also born but also one before whom no other child is born. “All that opens the womb,” says the Lord to Aaron, “of all flesh that are offered to the Lord, of men and beasts, shall belong to you; only the firstborn of men shall be redeemed with a price and the firstborn of beasts that are unclean.” The Word of God defined what was meant by a “firstborn.” “All,” it says, “that opens the womb.” Otherwise, if no child is a firstborn child but only one who subsequently has brothers, the firstborn are not due the priests until others are also born, lest perchance a child be an only child and not the firstborn child, in the event that no other child shall be born subsequently.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/18/15",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52932",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 18:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

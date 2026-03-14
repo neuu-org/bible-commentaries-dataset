@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 16:6",
+  "verse_text": "Verse text for 2KGS 16:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/16/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Juda. Literally, \"Jews \"Judæos, (Haydock) which is the first time we find this appellation. (Du Hamel)\nAila, or Elath, which had been taken by Ozias, chap. xiv. 22. (Menochius)\nIt seems never to have belonged to Syria, as it was too far from Damascus. Instead of Aram, we should therefore probably read Edom, which words in Hebrew are extremely similar, and have been often mistaken, (Judges xi. 17.; Calmet) particularly as we find that the Edomites took possession of the city. This latter word is indeed Syrians in Hebrew (Haydock)\nJosephus and others maintain that the Syrians seized and kept the place. But they were most likely only invited by the Idumeans to come to their assistance. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/16/6",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd4e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 16:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

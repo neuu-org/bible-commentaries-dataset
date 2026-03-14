@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 8:1",
+  "verse_text": "Verse text for EZ 8:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/8/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sixth of the prophet's captivity, (Calmet) in August, the year of the world 3411. (Usher) He had rested on his left or right side, whenever he slept during 430 days, and on the following had this vision. (Worthington) He was stationed in spirit at the northern gate leading to the court of the priests, and beheld the glory of God and the idol of jealousy. He saw the people, men and women, adoring idols, and priests worshipping the sun, chap. God rests on the gate of the temple, and orders a man to sign those who were to live, and six others to destroy the rest. The prophet prays, chap. God orders the man clothed in linen to take coals from the cherubim, and sprinkle them through the city. The throne goes to receive the Lord, chap. Ezechiel prophesies against many, at the eastern gate; and God informs him that the former captives shall return, but that the wicked at Jerusalem shall perish. His chariot then rests on the mountain to the east of the city. Thus his reasons for punishing the people become evident.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ez/8/1",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bf029",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 8:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

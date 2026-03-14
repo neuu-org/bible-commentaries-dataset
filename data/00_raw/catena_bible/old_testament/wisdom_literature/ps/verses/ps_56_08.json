@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 56:8",
+  "verse_text": "Verse text for PS 56:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/56/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"O God, my life I have told out to Thee\" (ver. For that I live hath been Thy doing, and for this reason I tell out my life to Thee. But did not God know that which He had given. What is that which thou tellest out to Him. Wilt thou teach God. Therefore why saith he, \"I have told out to Thee\". Is it perchance because it profiteth Thee that I have told out my life. And what doth it profit God. To the advantage of God it doth profit. I have told out to God my life, because that life hath been God's doing. In like manner as his life Paul the Apostle did tell out, saying, \"I that before was a blasphemer and a persecutor and injurious,\" he shall tell out his life. \"But mercy I have obtained. \" He hath told out his life, not for himself, but for Him: because he hath told it out in such sort, that in Him men believe, not for his own advantages, but for the advantages of Him. \"O God, my life I have told out to Thee. Thou hast put my tears in Thy sight. \" Thou hast hearkened to me imploring Thee. \"As also in Thy promise. \" Because as Thou hadst promised this thing, so Thou hast done. Thou hast said Thou wouldest hearken to one weeping. I have believed, I have wept, I have been hearkened unto; I have found Thee merciful in prommising, true in repaying.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/56/8",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6ae5",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I have. Protestants, \"thou tellest my wanderings: put thou my tears into thy bottle. Are they not in thy book? \"St. Jerome, \"thou hast numbered my most secret things: place my tears in thy sight \"(Haydock)\nSeptuagint render the sense clearer. (Berthier)\nGod has promised to relieve the distressed, who confided in him.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/56/8",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be0e5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 56:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 19:16",
+  "verse_text": "Verse text for LV 19:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/19/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Detracter, whisperer. Hebrew rakil, stands for both these terms. Some translate a parasite, a merchant, vilifying the goods of others to enhance the price of his own; or a spy, seeking to discover and laugh at others' faults.\nNeighbour; accusing him wrongfully, to the danger of his life; or lying in wait for him like an assassin. But strive rather to rescue those who are attacked. Those who neglect this duty, are responsible for the consequences, according to the Jews, (Selden, Jur. iv. 3,) and the laws of the Egyptians. (Diodorus 1.)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/19/16",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc61c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 19:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

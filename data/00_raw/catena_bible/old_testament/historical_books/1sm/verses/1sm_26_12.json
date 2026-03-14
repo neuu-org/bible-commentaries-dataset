@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 26:12",
+  "verse_text": "Verse text for 1SM 26:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/26/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh So David took the spear and the jar of water from Saul's head; and they got away, and no man saw it, nor knew it, neither awoke: for they were all asleep; because a deep sleep from the LORD was fallen upon them. Water, for refreshment, or for purifications. It is not necessary to have recourse to a miracle, (Calmet) though it must have been by a special providence that all continued in such a deep sleep, (Haydock) to give David an opportunity of manifesting his innocence. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/26/12",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcff7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 26:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

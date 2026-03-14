@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 33:18",
+  "verse_text": "Verse text for IS 33:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/33/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ones. These questions were put by the people, when the enemy approached; or they now rejoice that their severe masters were gone.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/33/18",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea74",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pachomius the Great",
+      "period": "AD348",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Your heart shall meditate the terror. Where is the scribe. where is the one who weighs. where is he that counts the towers. Pachomius the Great And if you want all these thoughts to diminish in you and not to have power over you, then recite in your heart without ceasing every fruit that is written in the Scriptures, having in yourself the resolution to walk in them, as it is written in Isaiah, “Your heart shall meditate on the fear”of the Lord, and all these things shall cease from you, little by little.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/33/18",
+      "full_content_url": "https://catenabible.com/com/5e4f7fbfc849cf49a740e452",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 33:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

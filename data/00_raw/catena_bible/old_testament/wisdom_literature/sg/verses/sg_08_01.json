@@ -1,0 +1,47 @@
+{
+  "verse_reference": "SG 8:1",
+  "verse_text": "Verse text for SG 8:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/8/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Song of Songs 8:1 O that you were as my brother, that nursed at the breasts of my mother. if I should find you outside, I would kiss you; yea, I would not be despised. you were like a brother to me: a reference to Christ according to his human nature nursed at my mother's breast: that is, the Virgin Mary, who is called not only the mother of Christ, but also the mother of the whole Church. This passage refers literally to Christ. (Nicholas of Lyra).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/8/1",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d40",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Song of Songs 8:1 O that you were as my brother, that nursed at the breasts of my mother. if I should find you outside, I would kiss you; yea, I would not be despised. The synagogue continues to pray for Christ's coming. (Worthington) Her request has been heard, and He has assumed our nature; so that we may receive from him all the marks of tenderness, and none but the carnal will show any signs of contempt. The spouse wishes to manifest her love without restraint, and to be delivered from the shame of sterility, (Calmet) or the Church desires to see Christ in heaven, and to praise him. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/8/1",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8ad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 8:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

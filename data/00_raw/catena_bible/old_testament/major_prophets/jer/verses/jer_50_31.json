@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 50:31",
+  "verse_text": "Verse text for JER 50:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/50/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Behold, I am against you, O you most proud, says the Lord GOD of hosts: for your day has come, the time that I will punish you. So the Chaldeans are often styled in the Psalms. (Calmet) The prophet addresses Nabuchodonosor, or rather Baltassar, (Menochius) under whom the city was taken, (Josephus) by Darius and Cyrus. He may be the Nabonides of Berosus, the question is so much perplexed. Yet \"we are convinced that Darius reigned at Babylon before Cyrus, and took the city after the death of Baltassar. \"(Calmet) Most commentators are of a different opinion.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/50/31",
+      "full_content_url": "https://catenabible.com/com/5735e271ec4bd7c9723bef20",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "I am to speak against persons who pride themselves on their eloquence; so, to begin with a text of Scripture, “Behold, I am against you, O proud one,” not only in your system of teaching but also in your hearing and in your tone of mind. For there are certain persons who have not only their ears and their tongues but even, as I now perceive, their hands too, itching for our words; who delight in profane babblings, and oppositions of science falsely so-called and arguments about words that tend to no profit; for so Paul, the preacher and establisher of the “Word cut short,” the disciple and teacher of the fishermen, calls all that is excessive or superfluous in discourse. But as to those to whom we refer, would that they, whose tongue is so verbose and clever in applying itself to noble and approved language, would likewise pay some attention to actions. For then perhaps in a little while they would become less sophistical and less absurd and strange acrobats of words, if I may use a ridiculous expression about a ridiculous subject.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/50/31",
+      "full_content_url": "https://catenabible.com/com/5e93616ed87c4a70874ae36e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 50:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

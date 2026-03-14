@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 8:18",
+  "verse_text": "Verse text for JO 8:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/8/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Stretch out the spear that is in your hand toward Ai; for I will give it into your hand. And Joshua stretched out the spear that he had in his hand toward the city. Shield, as Moses lifted up his hands, Exodus xvii. Some translate, \"dart, spear \"or \"sword. \"(Septuagint; Ecclesiasticus xvi. ) (Calmet) The buckler might be suspended on a spear, (Menochius) that it might be seen afar off (Worthington) by some appointed to keep watch on purpose.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/8/18",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb96",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 8:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

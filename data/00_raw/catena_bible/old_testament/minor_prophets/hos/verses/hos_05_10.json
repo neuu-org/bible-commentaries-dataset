@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HOS 5:10",
+  "verse_text": "Verse text for HOS 5:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/5/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bound. This was a capital crime, under Numa, and forbidden, Deuteronomy xix. 14. (Calmet)\nJuda hoped to seize what was abandoned. (St. Jerome)\nThey deferred doing penance, and removed the boundaries set by their fathers, (Theodoret; Calmet) the virtuous patriarchs, whom they would not imitate.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/5/10",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf36d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "As they that take up the bound: That is, they that remove the boundary, encroaching on the property of their neighbours: figuratively: going beyond the boundary of the laws of God.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/5/10",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4d2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 5:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

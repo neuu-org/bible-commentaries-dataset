@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EPH 4:23",
+  "verse_text": "Verse text for EPH 4:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/eph/4/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "We are not being renewed in our thinking process apart from the renewal of our spirits. Nor are we renewed in our spirits without thinking. We are being jointly renewed “in the spirit of our mind.” Hence as we sing psalms in the spirit, so we also sing them in our thoughts. As we pray in the spirit, so we also pray in our thoughts. The renewal of “the spirit of our mind” means that when the thought is clear and pure … then the spirit is rightly joined to it. They are so coupled as if by a cohesive glue that we no longer speak simply of spirit but of “the spirit of our mind. “ –.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eph/4/23",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c669a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "In order that no one may suppose that, whereas he speaks of old and new, he is introducing a different person, observe his expression, That ye be renewed. To be renewed is, when the selfsame thing which has grown old is renewed, changed from one thing into the other. So that the subject indeed is the same, but the change is in that which is accidental. Just as the body indeed is the same, and the change in that which is accidental, so is it here. How then is the renewal to take place? In the spirit of your mind, says he. Whosoever therefore has the Spirit, will perform no old deed, for the Spirit will not endure old deeds. In the spirit, says he, of your mind, that is, in the spirit which is in your mind.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eph/4/23",
+      "full_content_url": "https://catenabible.com/com/57558dcd3c6effa740dddabd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EPH 4:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

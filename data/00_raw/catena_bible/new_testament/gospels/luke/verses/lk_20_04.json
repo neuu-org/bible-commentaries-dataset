@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 20:4",
+  "verse_text": "Verse text for LK 20:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/20/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Jesus does not gratify them by a direct answer; they did not deserve it, because they only interrogated him through captious and improper motives. He only replies by casting on them the very difficulties with which they sought to entangle him. (Calmet)\nOur divine Redeemer proposes to the chief priests a question concerning St. John the Baptist, to show them how inconsistent was their uniform opposition to the ways of God. Because, though they believed in what was preached by St. John, (at least outwardly, through fear of the Jews) yet they would not believe him, or his doctrines, to whom St. John had given testimony, \"That he was the Lamb of God, that had come to take away the sins of the world. \"(Theophylactus)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/20/4",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb40",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Christ knew \"the baptism of John, whence it was.\".\nThe baptism announced by John formed the subject, even at that time, of a question, proposed by the Lord Himself indeed to the Pharisees, whether that baptism were heavenly, or truly earthly:",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/20/4",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf13",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 20:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

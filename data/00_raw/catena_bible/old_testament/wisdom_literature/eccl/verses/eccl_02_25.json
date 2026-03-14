@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ECCL 2:25",
+  "verse_text": "Verse text for ECCL 2:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/2/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "We exhort, therefore, the widows and orphans to partake of those things that are bestowed upon them with all fear and all pious reverence, and to return thanks to God who gives food to the needy, and to lift up their eyes to him. For, “Which of you shall eat, or who shall drink without him. For he opens his hand and fills every living thing with his kindness: giving wheat to the young men, and wine to the maidens, and oil for the joy of the living, grass for the cattle, and green herb for the service of men, flesh for the wild beasts, seeds for the birds, and suitable food for all creatures. ” Wherefore the Lord says, “Consider the fowls of heaven, that they sow not, neither do they reap nor gather into barns, and your Father feeds them. Are not you much better than they. Be not therefore solicitous, saying, What shall we eat. or what shall we drink. For your Father knows that you have need of all these things. ” Since you therefore enjoy such a providential care from him and are partakers of the good things that are derived from him, you ought to return praise to him that receives the orphan and the widow, to Almighty God, through his beloved Son Jesus Christ our Lord; through whom glory be to God in spirit and truth forever.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/2/25",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee52",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 2:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

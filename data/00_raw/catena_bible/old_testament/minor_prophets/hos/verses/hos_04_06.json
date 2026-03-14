@@ -1,0 +1,36 @@
+{
+  "verse_reference": "HOS 4:6",
+  "verse_text": "Verse text for HOS 4:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/4/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Silent. Septuagint, \"like those who had \"\nKnowledge. Jeroboam I had appointed unlawful priests, and some of the house of Aaron went over to him, and were excluded from officiating at Jerusalem, after the captivity, 1 Kings xii. 31., and Ezechiel xliv. 10. Knowledge is always expected of priests, Deuteronomy xvii. 8., and Malachi as ii. 7. (Gratian. dist. 38. c. omnes.) (Calmet)\nWhen the power of sacrificing is withdrawn, all spiritual functions cease, as sacrifice belongs properly to a priest. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/4/6",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf359",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 4:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

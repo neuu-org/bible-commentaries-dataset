@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1PET 2:8",
+  "verse_text": "Verse text for 1PET 2:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/2/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And, A stone of stumbling, and a rock of offense, even to them who stumble at the word, being disobedient: to which also they were appointed. Whereunto also they are set, or placed, i. by God's permission; not that God is the cause of their sins or damnation, (whose will is that every one be saved) but his justice has appointed and decreed punishments against those who, by their own wilful malice, refuse to believe and to follow his doctrine: their stumbling against this stone is wilful and obstinate.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/8",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Was it because Christ was both a rock and a stone? For we read of His being placed \"for a stone of stumbling and for a rock of offence.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/8",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa24",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 2:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

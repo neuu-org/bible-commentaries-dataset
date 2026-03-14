@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 15:33",
+  "verse_text": "Verse text for MK 15:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/15/33",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The Lord was crucified at the third hour by the tongues of the populace, at the sixth hour by the hands of the soldiers. When Pilate took his seat before the tribunal, it was “about the sixth hour,” or early in the sixth hour. When Jesus was nailed to the tree between two thieves, it was the end of the sixth hour. It was between the sixth and ninth hour that the sun was obscured and the darkness prevailed, as we have it jointly attested on the authority of the three Evangelists Matthew, Mark and Luke.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/33",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52f11",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "Note how clearly was fulfilled the prophecy of our Savior’s passion. It was to be a day in which “there shall be no light.” “From the sixth hour to the ninth hour there was darkness over all the earth.” … This was also fulfilled figuratively by his priestly persecutors, for among them came darkness, cold and ice, following upon their indignities to the anointed One. Their understanding also was darkened, so that the light of the gospel did not shine in their hearts, and their love to God grew cold. Then in the evening the light of the knowledge of the Christ arose, so that they who sat in darkness and the shadow of death saw a great light.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/15/33",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52f12",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "(and when did it \"shudder exceedingly \"except at the passion of Christ, when the earth also trembled to her centre, and the veil of the temple was rent, and the tombs were burst asunder?",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/33",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb768",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 15:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

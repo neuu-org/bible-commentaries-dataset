@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1SM 1:20",
+  "verse_text": "Verse text for 1SM 1:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/1/20",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Therefore it came to pass, when the time was come about after Hannah had conceived, that she bore a son, and called his name Samuel, saying, Because I have asked him of the LORD. About, at the expiration of the year, which term the ancients frequently allowed between the conception and the nativity, Genesis xviii. This name imports, asked of God. (Challoner) Some letters are omitted for the easier pronunciation, as the Hebrews would now write it, Saul-meel; (Calmet) or it may signify, \"God placed him \"sum-hal. (Tirinus) Shaal means, \"to ask. \"But Vatable thinks that Anna retained only the first letter. (Menochius).",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/1/20",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce35",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Let the men among us emulate her, let the women among us imitate her: the woman is teacher of both sexes. Those who are sterile, let them not despair; those who are mothers, let them bring up in this fashion the children they have borne; and let everyone emulate this woman’s faith in giving birth and zeal following the birth. I mean, what could reveal sounder values than the way she meekly and nobly put up in such a manner with an intolerable calamity and did not desist until she had escaped the disaster and discovered a remarkable and baffling outcome of the problem, finding no helper or ally here below. In fact, she experienced the Lord’s lovingkindness—hence she made her approach on her own and achieved what she wanted. That is to say, the remedy for that depression depended not on human help but on divine grace.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/1/20",
+      "full_content_url": "https://catenabible.com/com/5de467401f75ae05ba98ce69",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Samuel: This name imports, asked of God.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/1/20",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 1:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

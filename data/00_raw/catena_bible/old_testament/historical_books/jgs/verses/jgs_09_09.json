@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 9:9",
+  "verse_text": "Verse text for JGS 9:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/9/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But, would this advancement prove any disadvantage. The king is bound to give himself up wholly for the good of the public, so that he must frequently be full of anxiety and care. (Calmet) Use of. The olive-tree is introduced, speaking in this manner, because oil was used, both in the worship of the true God, and in that of the false gods, whom the Sichemites served. (Challoner) The pagans burnt lamps in honour of their idols, and anointed their statues: unguentoque lares humescere nigro. , contra Sym. ) They also anointed their military standards at Rome. (Pliny, xiii. ) The same author observes, that \"two sorts of liquor are very delightful to the bodies of men: wine to drink, and oil for the outside: intus vini, foris olei. ) Men use oil to strengthen and foment their bodies, as well as to give them light. (Calmet) It spiritually denotes the grace of God, which establishes the peace of the soul, as the fig-tree signifies the sweetness of God's law, producing good works, and the vine shows forth those noble actions, which are performed without the affection of outward show; and which are therefore, most agreeable both to God and to men. (Worthington) Promoted. Some translate the Hebrew, \"to put myself in motion for \"Syriac We might also render, \"which honoureth the gods, (or the judges) and men to come to be promoted among (or disquieted on account of) the trees.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/9/9",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd61",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Both gods and men make use of: The olive tree is introduced, speaking in this manner, because oil was used both in the worship of the true God, and in that of the false gods, whom the Sichemites served.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/9/9",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa01d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 9:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 11:35",
+  "verse_text": "Verse text for ROM 11:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/11/35",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "God himself devised all things, created all things and worked all things together. He is rich and had no need to receive anything from anyone else.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/11/35",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5233",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Prosper of Aquitaine",
+      "period": "AD455",
+      "content": "No good work comes from the dead; nothing righteous from the ungodly. Their whole salvation is gratuitous and is therefore the glory of God, so that he who glories may glory in him of whose glory he has stood in need.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/11/35",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5234",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 11:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

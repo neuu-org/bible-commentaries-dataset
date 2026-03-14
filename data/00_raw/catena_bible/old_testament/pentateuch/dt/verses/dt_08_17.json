@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 8:17",
+  "verse_text": "Verse text for DT 8:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/8/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Such a one is he who ascribes all his success to his own merits and hence, feeling selfassured, does not recognize his own errors which drag him with their extended rope afar. For, if he believes that his acquisition of property is due either to mere chance or to shrewd cunning, there is no occasion for him to feel undue pride in matters to which there is no glory attached, or where the labor results in nothing, or where there is evidence of shameless cupidity, which prescribes no limits in its pursuit of pleasure. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/8/17",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a36",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For me. Hebrew, \"hath procured me this wealth \"or strength, ver. 18.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/8/17",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc95c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 8:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "verse_reference": "COL 1:25",
+  "verse_text": "Verse text for COL 1:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/1/25",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "And again he says, \"According to the disposition of the grace of God which is given me, that ye may fulfil the word of God; the mystery which has been hid from ages and generations, which now is manifested to His saints: to whom God wished to make known what is the riches of the glory of this mystery among the nations.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/1/25",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baee7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "According to the dispensation of God; i.e. to the appointment of his divine providence. (Witham)",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/1/25",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0197",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ignatius of Antioch",
+      "period": "AD108",
+      "content": "Where is the boasting of those who are styled prudent? For our God, Jesus Christ, was, according to the appointment",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/1/25",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baee6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Either he means that Christ’s will was that after his departure we should step up to our special place in the dispensation, in order that we might not feel so deserted (since it is Christ himself who plays the necessary part of the one who suffers and is the ambassador from heaven). Or he means this, namely, for this end that he permitted me to be persecuted, that in my preaching I might gain belief. Or by “dispensation” he means that he required not deeds, nor actions, nor good works but faith and baptism. For you would not otherwise have received the word. “For you,” he says, “to fulfill the word of God.” He speaks of the Gentiles … for that the castaway Gentiles should have been able to receive such lofty doctrines was not ultimately Paul’s personal doing but proceeded from the dispensation of God.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/1/25",
+      "full_content_url": "https://catenabible.com/com/583f5795205c248f42e5335e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 1:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

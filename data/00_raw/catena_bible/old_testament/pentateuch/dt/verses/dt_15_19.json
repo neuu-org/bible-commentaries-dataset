@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 15:19",
+  "verse_text": "Verse text for DT 15:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/15/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Firstlings. Some belonged to the priests. Others, of which Moses speaks here, might be disposed of by the owners, chap. xii. 17. (Calmet)\nThus females, which came first, belonged to them, but they could not work with them; (Menochius) with such at least as were the best, and fattened for a religious feast. Sheep designed for this purpose were not to be shorn; or, as the original term means, their wool was not to be \"torn away. \"Bellon observes, that this is still the custom in some parts of the East, as it was formerly in Italy, according to Varro. Pliny ( viii. 48,) also remarks, that fleece was torn off in some places, (Calmet) and the same method is said to prevail still in Shetland. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/15/19",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9c2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Paterius",
+      "period": "AD606",
+      "content": "What did Moses mean by making this prohibition, except to forbid those who have begun to live aright to engage in human occupations. To plow with the firstborn of a cow is to display the beginnings of one’s conversion in carrying out public activities. To shear the firstborn of sheep is to strip the cover of secrecy from our first good works and display them to human eyes. Therefore we are forbidden to work with the firstlings of cattle. When we are kept from shearing the firstlings of the sheep, we should not act openly too quickly, even if we have begun some solid work. Since our life begins as something simple and innocuous, it is proper that we should not lay aside the covering of its privacy, lest it show itself naked to human eyes once the wool has been sheared. The firstlings of cattle and sheep are suitable only for divine sacrifices. Whatever we begin with that is strong, simple and innocent, we should offer on the altar of our hearts to the honor of the secret judge. And he without a doubt receives it more gladly if it has been hidden from men and not stained with any desire for praise. But often the beginnings of a new conversion are mixed with elements of a carnal life and hence should not become known too quickly. Otherwise, when the good that is acceptable is praised, the soul is deceived by praise and cannot grasp the evils that still lie concealed in it. Exposition of the Old and New Testament, Deuteronomy.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/15/19",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a4e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 15:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

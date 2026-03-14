@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 10:3",
+  "verse_text": "Verse text for 1SM 10:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/10/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thabor, very distant from the famous mountain (Calmet) in Zabulon. (Menochius)\nBethel. Where there was at that time an altar of God; it being one of the places where Samuel judged Israel, (Challoner) and which had always been considered as a place of devotion, since Jacob had his vision, Genesis xxviii. 19. It lay to the east of Gabaa, so that Saul might easily meet these pilgrims. (Calmet)\nWine, for libations, as the other things were for a sacrifice and feast, as well as for presents to the officiating priests.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/10/3",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcea9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Bethel: Where there was at that time an altar of God; it being one of the places where Samuel judged Israel.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/10/3",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 10:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 78:53",
+  "verse_text": "Verse text for PS 78:53",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/78/53",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "29. The Psalm proceedeth then after the commemoration of the plagues of the Egyptians (ver. 51) and saith, \"And He took away like sheep His people, and He led them through like a flock in the desert\" (ver. 52). \"And He led them down in hope, and they feared not, and their enemies the sea covered\" (ver. 53). This cometh to pass to so much the greater good, as it is a more inward thing, wherein being delivered from the power of darkness, we are in mind translated into the Kingdom of God, and with respect to spiritual pastures we are made to become sheep of God, walking in this world as it were in a desert, inasmuch as to no one is our faith observable: whence saith the Apostle, \"Your life is hidden with Christ in God.\" But we are being led home in hope, \"For by hope we are saved.\" Nor ought we to fear. For, \"If God be for us, who can be against us\" And our enemies the sea hath covered, He hath effaced them in baptism by the remission of sins.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/78/53",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Not, after they saw the Egyptians destroyed, whom they had feared greatly before. In the desert they enjoyed rest, while their enemies were in the utmost confusion, (Berthier) having lost their king. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/78/53",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be203",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 78:53",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

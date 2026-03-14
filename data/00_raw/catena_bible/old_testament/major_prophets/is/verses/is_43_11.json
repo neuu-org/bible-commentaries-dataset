@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 43:11",
+  "verse_text": "Verse text for IS 43:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/43/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "It has been sufficiently demonstrated that God exists and that his essence is incomprehensible. Furthermore, those who believe in sacred Scripture have no doubt that he is one and not several. For the Lord says at the beginning of his lawgiving, “I am the Lord your God, who brought you out of the land of Egypt. You shall not have strange gods before me. ” And again: “Hear, O Israel: the Lord your God is one Lord. ” And through the mouth of the prophet Isaiah: “I am,” he says, “the first God, and I am the last, and there is no God besides me. Before me there was no God, and after me there shall be none, and beside me there is none. ” And the Lord speaks thus to his Father in the holy Gospels: “This is eternal life: that they may know you, the only true God. ” With those who do not believe in sacred Scripture we shall reason as follows. The Divinity is perfect and without deficiency in goodness or wisdom or power. He is without beginning, without end, eternal, uncircumscribed; to put it simply, he is perfect in all things. Now, if we say that there are several gods, there must be some difference to be found among them. For if there is no difference at all among them, then there is one God rather than several. But if there is some difference, then where is the perfection. For if one should come short of perfection in goodness, or power, or wisdom, or time or place, then he would not be God. The identity of God in all things shows him to be one and not several.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/43/11",
+      "full_content_url": "https://catenabible.com/com/5e88f309b1c7280cb341d0ae",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 43:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

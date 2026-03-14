@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 66:1",
+  "verse_text": "Verse text for IS 66:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/66/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "House. This is a prophecy that the temple should be cast off. (Challoner)\nIsaias alludes to the return of the captives, as to a figure of the Church. They had flattered themselves with the idea of building a magnificent temple. God regards it not, as long as they follow their own wills and cherish pride. (Calmet)\nHe is pleased with the piety of his servants, which may be exhibited any where, though the temple is the most proper place. See Acts vii., and xiv. After the gospel, the sacrifices of the law became unlawful. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/66/1",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bebfe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 66:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

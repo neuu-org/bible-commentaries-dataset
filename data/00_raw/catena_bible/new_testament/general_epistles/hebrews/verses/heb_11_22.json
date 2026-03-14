@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 11:22",
+  "verse_text": "Verse text for HEB 11:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/11/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Concerning his bones. That is, that when the Israelites should leave Egypt, they should take with them his bones, to be buried in Chanaan with his ancestors. This shows he had faith on God's promises, that he would give the Israelites the land of Chanaan. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/11/22",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0331",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For some of the things here, the things present, are examples of patience only, and of enduring ill-treatment, and of receiving nothing good; for instance, what is mentioned in the case of Abraham, in the case of Abel. But others are [examples] of Faith, as in the case of Noah, that there is a God, that there is a recompense. (For Faith in this place is manifold, both of there being a recompense, and of awaiting it, not under the same conditions, and of wrestling before the prizes. ) And the things also which concern Joseph are of Faith only. Joseph heard that [God] had made a promise to Abraham, that He had engaged His word to you and to your seed will I give this land; and though in a strange land, and not yet seeing the engagement fulfilled, but never faltered even so, but so believed as even to speak of the Exodus, and to give commandment concerning his bones. He then not only believed himself, but led on the rest also to Faith: that having the Exodus always in mind (for he would not have given commandment concerning his bones, unless he had been fully assured [of this]), they might look for their return [to Canaan]. Wherefore, when some men say, 'See. Even righteous men had care about their sepulchers,' let us reply to them, that it was for his reason: for he knew that the earth is the Lord's and all that therein is. Psalm 24:1 He could not indeed have been ignorant of this, who lived in so great philosophy, who spent his whole life in Egypt. And yet if he had wished, it was possible for him to return, and not to mourn or vex himself. But when he had taken up his father there, why, did he enjoin them to carry up thence his own bones also. Evidently for this reason. Tell me, are not the bones of Moses himself laid in a strange land. And those of Aaron, of Daniel, of Jeremiah. And as to those of the Apostles we do not know where those of most of them are laid. For of Peter indeed, and Paul, and John, and Thomas, the sepulchers are well known; but those of the rest, being so many, have nowhere become known. Let us not therefore lament at all about this, nor be so little-minded. For whereever we may be buried, the earth is the Lord's and all that therein is. Psalm 24:1 Certainly what must take place, does take place: to mourn however, and lament, and bewail the departed, arises from littleness of mind.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/heb/11/22",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac849",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 11:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

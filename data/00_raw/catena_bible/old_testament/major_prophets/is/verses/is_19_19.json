@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 19:19",
+  "verse_text": "Verse text for IS 19:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/19/19",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The prophet Isaiah says this about Egypt: “In that day there will be an altar of the Lord in the land of the Egyptians and an inscription to the Lord at its border. It will be a sign forever to the Lord in the land of the Egyptians, for they will cry to the Lord against their assailants, and the Lord will send them a savior who will be determined to save them. And the Lord will be known to the Egyptians, and they will fear the Lord in that day and make sacrifices to him and promise vows to him and fulfill them. And the Lord will strike the Egyptians with plagues and heal them by his mercy, and they will turn to the Lord, and he will listen to them and heal them. ” What do they [i. , members of the Donatist sect] say to this. Why do they not share with the church what was foretold of the Egyptians. Or, if Egypt signifies the world by prophetic prefiguration, why are they not in communion with the church of the world. Consequently, they search the Scriptures and, against so many sure and clear witnesses through which the church of Christ is shown to be diffused throughout the entire world, they offer just one witness in an attempt to demonstrate that the church of Christ perished from all other peoples and remained only in Africa, as though from another beginning, not from Jerusalem but from Carthage, where they first elevated one bishop against another.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/19/19",
+      "full_content_url": "https://catenabible.com/com/5e4f7f85c849cf49a740e34d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Altar. If the Jews were forbidden to have any other than the one at Jerusalem, how can the prophet announce this as a blessing? Onias being excluded from the high priesthood, retired into Egypt, and obtained leave to build the temple Onion, in the Nome, though not in the city of Helipolis, above Bubaste, on the Nile, alleging that Isaias had foretold this event, and that one was already built at Leontopolis. (Josephus, Jewish Antiquities xii. 15., and xiii. 6.)\nBut we must allow with the fathers and Jews in the days of St. Jerome, that this prediction regarded the Messias, when altars might be lawfully erected in every nation. See Misna, tr. Moneuth, xiii. 10.\nMonument. The cross is set up wherever Christ is adored. (Calmet)\nThe Egyptians shall embrace Christianity, and St. Anthony of Thebes, shall live a holy (Worthington) and austere life. (Haydock)",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/19/19",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be9b4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "During the conflict between Antiochus the Great and the generals of Ptolemy, Judea, which lay between them, was rent into contrary factions, the one group favoring Antiochus and the other favoring Ptolemy. Finally the high priest, Onias, fled to Egypt, taking a large number of Jews along with him, and he was given by Ptolemy an honorable reception. He then received the region known as Heliopolis, and by a grant of the king, he erected a temple in Egypt like the temple of the Jews, and it remained standing up until the reign of Vespasian, over a period of 250 years. But then the city itself, which was known as the City of Onias, was destroyed to the very ground because of the war which the Jews had subsequently waged against the Romans. There is consequently no trace of either city or temple now remaining. But as we were saying, countless multitudes of Jews fled to Egypt on the occasion of Onias’s pontificate, and the land was filled with a large number from Cyrene as well. For Onias affirmed that he was fulfilling the prophecy written by Isaiah: “There shall be an altar of the Lord in Egypt, and the name [inscription] of the Lord shall be found in their territories. ” And so this is the matter referred to in this passage: “The sons of the transgressors of your people,” who forsook the law of the Lord and wished to offer blood sacrifices to God in another place than what he had commanded. They would be lifted up in pride and would boast that they were fulfilling the vision, that is, the thing that the Lord had enjoined. But they shall fall to ruin, for both temple and city shall be afterwards destroyed.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/19/19",
+      "full_content_url": "https://catenabible.com/com/5e4f7f85c849cf49a740e34c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 19:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

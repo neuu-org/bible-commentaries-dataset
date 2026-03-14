@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 2:16",
+  "verse_text": "Verse text for EX 2:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/2/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now the priest of Midian had seven daughters: and they came and drew water, and filled the troughs to water their father's flock. Hebrew cohen, (or cén,) means also a prince, as the Chaldean has it. When put in this manner, with the name of a place, it is generally taken in this sense. But formerly kings were also priests. Jethro served the true God, like Job, in the midst of a perverse generation, and offered sacrifice to him, when he joined the camp of the Israelites, Exodus xviii.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/2/16",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2c4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 2:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

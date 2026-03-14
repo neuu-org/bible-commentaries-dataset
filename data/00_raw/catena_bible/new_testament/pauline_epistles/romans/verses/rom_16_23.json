@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 16:23",
+  "verse_text": "Verse text for ROM 16:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/16/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "I think that this is the same Gaius to whom John wrote rejoicing in the love which he showed to the brethren by being always ready to meet their needs. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/23",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53d7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Gaius my host, and of the whole church, greets you. Erastus the treasurer of the city greets you, and Quartus a brother. When you hear that Gaius was Paul’s host, admire him not only for his generosity but also for his strictness of life. For if he were not worthy of Paul’s standards, the apostle would never have lodged there. Paul mentions Erastus’s title with the purpose of showing that the gospel had taken hold among the great as well as among the rest of the population…. To a man who hears the Word, riches are not a hindrance, nor the cares of government, nor anything else of that kind.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/23",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53d8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 16:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

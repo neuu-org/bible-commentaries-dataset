@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 25:6",
+  "verse_text": "Verse text for PS 25:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/25/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Remember, O LORD, your tender mercies and your lovingkindnesses; for they have been ever of old. Augustine of Hippo 6. \"Remember Thy compassions, O Lord\" (ver. Remember the works of Thy mercy, O Lord; for men deem of Thee as though Thou hadst forgotten. \"And that Thy mercies are from eternity. \" And remember this, that Thy mercies are from eternity. For Thou never wast without them, who hast subjected even sinful man to vanity indeed, but in hope; and not deprived him of so many and great consolations of Thy creation.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68d7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "World. God's truth or fidelity in performing his promises, and his tender mercies towards his people, are the motives most frequently urged. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/6",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf27",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 25:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

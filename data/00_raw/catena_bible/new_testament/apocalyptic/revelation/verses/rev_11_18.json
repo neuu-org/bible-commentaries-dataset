@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 11:18",
+  "verse_text": "Verse text for REV 11:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/11/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And the nations were angry, and your wrath is come, and the time of the dead, that they should be judged, and that you should give reward unto your servants the prophets, and to the saints, and them that fear your name, small and great; and should destroy them who destroy the earth. corrupted: This is the last woe. Therefore, concerning the seven angels sounding with the trumpet, he now recapitulates from the birth of the Lord, as about to say the same things in another manner, and more comprehensively.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/11/18",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c1f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And the nations were angry, and your wrath is come, and the time of the dead, that they should be judged, and that you should give reward unto your servants the prophets, and to the saints, and them that fear your name, small and great; and should destroy them who destroy the earth. dead: It agrees with the order, as we read in the Gospel, that first, indeed, all nations should be gathered together before the Judge, then that those on the right hand should be disposed in many mansions in the Kingdom of the Father, but that the ungodly should be driven out beyond the limits of the kingdom, to be burned in the accursed flames.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/11/18",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c1e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 11:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

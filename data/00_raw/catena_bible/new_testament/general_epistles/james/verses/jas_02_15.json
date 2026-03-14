@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JAS 2:15",
+  "verse_text": "Verse text for JAS 2:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/2/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "It is obvious that words alone are not going to help someone who is naked and hungry. Someone whose faith does not go beyond words is useless. Such faith is dead without works of Christian love which alone can bring it back to life.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/15",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9eed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Arles",
+      "period": "AD449",
+      "content": "These are the words of faith, spoken to those who know that there is only one God, who is the Father of all his children. True love has two sides to it- help for the body and help for the soul. Here James concentrates on the first of these because he is speaking especially to those who are rich.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/15",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f10",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 2:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

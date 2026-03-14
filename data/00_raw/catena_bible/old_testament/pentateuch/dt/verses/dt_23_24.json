@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 23:24",
+  "verse_text": "Verse text for DT 23:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/23/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When you come into your neighbor's vineyard, then you may eat your fill of grapes at your own pleasure; but you shall not put any in your vessel. Augustine of Hippo Let all the servants of God grant [the monks] permission to enter their fields whenever they wish and to depart when well fed and satisfied. This is according to the law given to the people of Israel that no one should arrest a thief in his fields unless he wished to take something away with him. Rather, the owner of the field should permit him who had touched nothing but what he had eaten to depart free and unpunished.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/23/24",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a73",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When you come into your neighbor's vineyard, then you may eat your fill of grapes at your own pleasure; but you shall not put any in your vessel. Hebrew, \"thou shalt not put into thy vessel \"or basket. This privilege is restrained by the Chaldean, to vintagers. But Josephus ( iv. 8,) extends it to all; and he says, that those who did not even invite travellers to partake of their grapes, and other fruit, were to be punished with 39 lashes.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/23/24",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bca51",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 23:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 78:17",
+  "verse_text": "Verse text for PS 78:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/78/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "12. And yet, \"they,\" like a generation crooked and embittering, \"added yet to sin against Him\" (ver. 17): that is, not to believe. For this is the sin, whereof the Spirit doth convict the world, as the Lord saith, \"Of sin indeed because they have not believed on Me.\" \"And they exasperated the Most High in drought,\" which other copies have, \"in a place without water,\" which is a more exact translation from the Greek, and doth signify no other thing than drought. Was it in that drought of the desert, or rather in their own? For although they had drank of the rock, they had not their bellies but their minds dry, freshening with no fruitfulness of righteousness. In that drought they ought the more faithfully to have been suppliant unto God, in order that He who had given fulness unto their jaws, might give also equity to their manners. For unto him the faithful soul doth cry, \"Let mine eyes see equity.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/78/17",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c3b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 78:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

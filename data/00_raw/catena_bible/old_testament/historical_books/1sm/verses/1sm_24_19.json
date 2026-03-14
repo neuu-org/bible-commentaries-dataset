@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 24:19",
+  "verse_text": "Verse text for 1SM 24:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/24/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "Not even this act of benevolence moved Saul, however. Again he gathered an army and again he set out in pursuit, until he was a second time apprehended by David in the cave where he more clearly revealed his own iniquity and made the virtue of David even more resplendent. Envy is the most savage form of hatred. Favors render those who are hostile to us for any other reason more tractable, but kind treatment shown to an envious and spiteful person only aggravates his dislike. The greater the favors he receives, the more displeased and vexed and ill-disposed he becomes.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/24/19",
+      "full_content_url": "https://catenabible.com/com/5de4687a1f75ae05ba98cf51",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "While the Lord taught through his apostles, the people of the Jews—or those in their midst who were predestined to eternal life—lifted up their voice to confess the truth which they had up until recently denied and sought to bury. They wore away the contaminations of original sin as they cleansed themselves with their tears befitting repentance. They confessed both the justice and the kindness of the Lord and recalled the faults caused by their own malice, for they themselves had ferociously handed over to death the author of every kindness, but he had been given over to death unjustly, although he was omnipotent and wished to save his killers and give them life rather than to destroy them.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/24/19",
+      "full_content_url": "https://catenabible.com/com/5de4687a1f75ae05ba98cf50",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 24:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

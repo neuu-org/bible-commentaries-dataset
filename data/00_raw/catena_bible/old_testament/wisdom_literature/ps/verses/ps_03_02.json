@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 3:2",
+  "verse_text": "Verse text for PS 3:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/3/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "2. \"O Lord, how are they multiplied that trouble me!\" (ver. 1). So multiplied indeed were they, that one even from the number of His disciples was not wanting, who was added to the number of His persecutors. \"Many rise up against me; many say unto my soul, There is no salvation for him in his God\" (ver. 2). It is clear that if they had had any idea that He would rise again, assuredly they would not have slain Him. To this end are those speeches, \"Let Him come down from the cross, if He be the Son of God;\" and again, \"He saved others, Himself He cannot save.\" Therefore, neither would Judas have betrayed Him, if he had not been of the number of those who despised Christ, saying, \"There is no salvation for Him in His God.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/3/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6489",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "His case is desperate. (Worthington) He must therefore be a criminal. This is the usual judgment of the world, though very false, as we have seen in the person of Job; for temporal punishments are frequently an effect of the divine clemency. Semei upbraided David on this occasion, as the Jews did Christ, 2 Kings xvi. , and Matthew xxvii. At the end of this verse, Hebrew adds, Selah, (Calmet) sle and Septuagint Dias alma, (Haydock) a word which is not much better understood. Houbigant therefore informs us that he has omitted it entirely, as the Vulgate seems to have done, except Psalm lxi. , where it is rendered, in æternum, \"for ever \"(Berthier) as St. Jerome expresses it semper, in his Hebrew version. It would perhaps be as well to leave the original term. (Haydock) It occurs seventy-one times in the psalms, and thrice in Habacuc. Some think it is a sign to raise the voice, or to pause, (Berthier) at the end of the lesson, before the psalter was divided. None, except Eusebius, asserts that it was inserted by the original authors, and it seems now to be useless. (Calmet, Dis.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/3/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde53",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 3:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

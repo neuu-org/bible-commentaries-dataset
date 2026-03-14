@@ -1,0 +1,80 @@
+{
+  "verse_reference": "ROM 7:2",
+  "verse_text": "Verse text for ROM 7:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/7/2",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "This law comes from the gospel, not from Moses or from human justice. For those who learned something from the guidance of nature and those who learned something from the law of Moses have both been made perfect by the gospel of Christ. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/2",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f99",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Note how this analogy is different from the subject it refers to. Paul says that the husband dies, so that the woman, freed from the law of her husband, can marry whomever she likes. Paul compares the soul to the woman and thinks of the husband as the passions of sin which work in our members to produce the fruits of death, which are the offspring worthy of such a marriage. The law is given not to take away sin nor to deliver us from it but to reveal what sin is before grace comes. The result is that those who are placed under the law are seized by an even stronger desire to sin and sin even more because of the trespass. But in making this triple analogy—the soul as the woman, the passions of sin as the man and the law as the law of the husband— Paul does not conclude that the soul is set free when its sins are put to death in the way that the woman is set free when her husband is dead. Rather, he says that the soul itself dies to sin and is set free from the law in order that it might belong to another husband, who is Christ. The soul has died to sin, but in a sense sin is still alive. Thus it happens that although desires and certain encouragements to sin remain in us, we do not obey or give in to them because wehave died to sin and now serve the law of God.",
+      "commentary_number": "2/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/7/2",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f9a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The apostle says that as long as a man lives in sin he lives under the law, just as the woman lives under her husband’s law as long as he is alive.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/2",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f9b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Callistus I of Rome",
+      "period": "AD222",
+      "content": "Wherefore the apostle says: \"The wife is bound by the law so long as her husband liveth; but if he be dead, she is loosed from the law of her husband.\"",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/2",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb9e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "If, however, the husband shall have died, she has been freed from (his) law, (so) that she is not an adulteress if made (wife) to another husband.\"",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/2",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb9e1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 7:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 109:21",
+  "verse_text": "Verse text for PS 109:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/109/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "21. \"O deliver me, for I am needy and poor\" (ver. 21). Need and poverty is that weakness, through which He was crucified. \"And my heart is disturbed within me.\" This alludeth to those words which He spoke when His Passion was drawing near, \"My soul is exceeding sorrowful, even unto death.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/109/21",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65a6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Within me. In the garden. Christ did penance for sin all his life. He wept over Jerusalem, Luke xix. 41. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/109/21",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be39f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 109:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

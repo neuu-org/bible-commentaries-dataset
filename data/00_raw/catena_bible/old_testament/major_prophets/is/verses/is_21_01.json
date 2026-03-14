@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 21:1",
+  "verse_text": "Verse text for IS 21:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/21/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The burden concerning the desert by the sea. As whirlwinds in the south pass through; so it comes from the desert, from a terrible land. The desert of the sea. So Babylon is here called, because from a city as full of people as the sea is with water, it was become a desert. (Challoner) After its fall, it was mostly inundated, chap. Media and Persia, which lay to the south, and were not so beautiful as the environs of Babylon.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/21/1",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be9be",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 21:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

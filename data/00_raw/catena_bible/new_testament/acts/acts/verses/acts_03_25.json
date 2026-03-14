@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 3:25",
+  "verse_text": "Verse text for ACTS 3:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/3/25",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Abraham's offspring is Christ; because from him came Isaac, from Isaac Jacob, from Jacob 12 sons, from these 12 the people of the Jews, from the people of the Jews the Virgin Mary, from her our Lord Jesus Christ. And what was promised to Abraham we find fulfilled among ourselves.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/3/25",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "You are the children . to you first God raising up his Son. He gives them encouragement, that not only the promise of sending the Messias was made to them, but that he came, and is to be preached to them: and that the blessings of his coming are first offered to them. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/3/25",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd45",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "You are the children of the prophets, and of the covenant which God made with our fathers, saying unto Abraham, And in your descendants shall all the families of the earth be blessed. You are sons of the prophets and of the testament which God has appointed for our fathers: “sons of the covenant;” that is, heirs. For lest they should think that they received this offer from the favor of Peter, he shows, that of old it was due to them, in order that they may the rather believe that such also is the will of God.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/3/25",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd80",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 3:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

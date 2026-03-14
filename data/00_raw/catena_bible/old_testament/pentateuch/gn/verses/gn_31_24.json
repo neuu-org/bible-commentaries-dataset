@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 31:24",
+  "verse_text": "Verse text for GN 31:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/31/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Speak not. Laban did not comply exactly, but he used no violence. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/31/24",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc180",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Wonderful is the Lord’s goodness. When God saw Laban bent on fighting and intent on conflict with the good man, he said as if to check his intention by word, “Watch yourself, lest you be guilty of evil words to Jacob. ” Don’t try even in word to harass Jacob, he is saying, but watch yourself; check this wicked assault of yours, repress your anger, rein in your seething thoughts and forbear harassing him even in word. Notice, I ask you, God’s loving kindness. Instead of bidding Laban return to his own place, he only directed him to deliver no harsh or severe words to the good man. What on earth was the reason for that. For the good man to learn in fact and by experience the degree of care he was accorded by God. You see, had Laban turned back, how would the good man or his wives have known this. Hence God allowed Laban to come and from his own lips to confess the words spoken to him by God. He did so that the good man might also gain greater enthusiasm for his journey and embrace it in confidence and that his wives might come to know how much care Jacob was accorded by the God of all and so reject their father’s deception and imitate the good man. They thus gained from the incident considerable instruction in knowing God. I mean, what came from Jacob was not so convincing as the words spoken by Laban, who was still a devotee of idols. After all, the testimony of infidels and opponents of religion always carries with it great power to convince. This in fact is a sign of God’s creative wisdom, when he turns the enemies of truth into the very witnesses to truth, who then by their own mouth fight on its side.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/gn/31/24",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51bde",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 31:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

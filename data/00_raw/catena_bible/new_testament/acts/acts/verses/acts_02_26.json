@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 2:26",
+  "verse_text": "Verse text for ACTS 2:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/2/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cassiodorus Senator",
+      "period": "AD585",
+      "content": "Because implies that the Lord stood at his right hand, and He testifies that delight has arisen in His thoughts and joy on His tongue. Perfect joy is that which is both conceived in a joyful heart and brought forth in eager speech. Just as He used the word moreover of His evils, so he repeated the word of His blessings, so that humanity might be thought to have received heavenly joys according to the measure of His human troubles. For He says that His joy has welled over His gladness because the suffering flesh which He took up for the salvation of all of us has corruption.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/2/26",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd6d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "For Thou shalt not leave my soul in hell, nor wilt Thou give Thine holy one to see corruption. Thou hast made known to me the paths of life, Thou wilt make me full of joy in Thy presence.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/2/26",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bad5d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 2:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

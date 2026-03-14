@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 105:24",
+  "verse_text": "Verse text for PS 105:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/105/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "15. Next is related what happened in Egypt. \"And He increased,\" he saith, \"His people exceedingly, and made them stronger than their enemies\" (ver. 24). Even the whole of this is briefly set forth, in order that the manner in which it took place may be afterwards related. For the people of God was not made stronger than their enemies the Egyptians, at the time when their male offspring were slain, or when they were worn out with making bricks; but when by His powerful hand, by the signs and portents of the Lord their God, they became objects of fear and of honour, until the opposition of the hardened king was overcome, and the Red Sea overwhelmed the persecutor with his army.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/105/24",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6552",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he increased his people greatly; and made them stronger than their enemies. Exceedingly. In 215 years, 600,000 warriors sprung from seventy people, (Calmet) or from seventy-five, as Septuagint and St. Stephen read, comprising eight wives, Jacob, and sixty-six of his descendants. Seventy might naturally produce two million and a half in such a space of time. But the Hebrews had been cruelly oppressed. God's blessing enabled them to increase as they did.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/24",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be358",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 105:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

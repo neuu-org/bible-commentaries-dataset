@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1COR 14:13",
+  "verse_text": "Verse text for 1COR 14:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/14/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Let him that speaketh . . . pray that he may interpret. Paul is here speaking of public prayer, in which one Prayer of Manasseh , even though a layman, inspired by the Holy Spirit, would offer up prayer in an audible voice before all, the others listening, and joining their prayers to his. This is the meaning, as appears from the following verses. But Chrysostom, Ambrose, and Anselm explain it thus: Let him pray that he may receive the gift of the interpretation of tongues, so as to make his own prayer intelligible to others.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/14/13",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e524bd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Pray that he may interpret. In order that he may be rendered more useful to the Church, as the martyrs, who prayed for those particular gifts they saw would be most useful for themselves, or their neighbours. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/14/13",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c001c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 14:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

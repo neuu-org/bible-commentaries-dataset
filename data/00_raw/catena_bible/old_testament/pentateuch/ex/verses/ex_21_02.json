@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 21:2",
+  "verse_text": "Verse text for EX 21:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/21/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh If you buy a Hebrew servant, six years he shall serve: and in the seventh he shall go out free for nothing. Servant, or slave. A man might sell himself and his children. But if they were females, under age, God prescribes how they are to be treated, ver. Six years: in case he were bought immediately after the expiration of the Sabbatic law: none could be detained for a longer period. If a person lost his liberty in the fourth year after the general release, he would recover it in the space of two or three years at latest. (Haydock) (Bonfrere).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/21/2",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "We read that every Hebrew keeps the same Passover, and that in the seventh year every prisoner is set free, and that at Jubilee, that is, the fiftieth year, every possession returns to its owner. All this refers not to the present but to the future. For being in bondage during the six days of this world, on the seventh day, the true and eternal sabbath, we shall be free. If we wish to be free, we will be free even while still in bondage in the world. If, however, we do not desire it, our ear will be bored in token of our disobedience. We shall, with our wives and children, remain in perpetual slavery if we prefer the flesh and its works to liberty.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/21/2",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52862",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 21:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

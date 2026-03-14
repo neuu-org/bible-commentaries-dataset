@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 120:7",
+  "verse_text": "Verse text for PS 120:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/120/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"With them that hated peace, I was peaceful\" (ver. But howsoever ye may hear, most beloved brethren, ye will not be able to prove how truly ye sing, unless ye have begun to do that which ye sing. How much soever I say this, in whatsoever ways I may expound it, in whatsoever words I may turn it, it entereth not into the heart of him in whom its operation is not. Begin to act, and see what we speak. Then tears flow forth at each word, then the Psalm is sung, and the heart doeth what is sung in the Psalm. Who are they who hate peace. They who tear asunder unity. For had they not hated peace, they would have abode in unity. But they separated themselves, forsooth on this account, that they might be righteous, that they might not have the ungodly mixed with them. These words are either ours or theirs: decide whose. The Catholic Church saith, Unity must not be lost, the Church of God must not be cut off. God will judge afterwards of the wicked and the good. This we also say: Love ye peace, love ye Christ. For if they, love peace, they love Christ. When therefore we say, Love ye peace, we say this, Love ye Christ. For the Apostle saith of Christ, \"He is our peace, who hath made both one. \" If Christ is therefore peace, because He hath made both one: why have ye made two of one. How then are ye peace-makers, if, when Christ maketh one of two, ye make two of one. But since we say these things, we are peace-makers with them that hate peace; and yet they who hate peace, when we spake to them, made war on us for nought.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/120/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66ae",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Peaceable. Hebrew, \"I spoke peaceable, and they warlike things. (St. Jerome)\nLiterally, \"I was peace, and when I spoke, they flew to war. \"(Haydock)\nCause. This is easily understood from the context, (Berthier) though not expressed in the original. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/120/7",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be46f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 120:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

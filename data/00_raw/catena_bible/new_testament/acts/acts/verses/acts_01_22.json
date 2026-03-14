@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 1:22",
+  "verse_text": "Verse text for ACTS 1:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/1/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He did not say, a witness of the rest of his actions, but a witness of the resurrection alone. For indeed that witness had a better right to be believed, who was able to declare, that He Who ate and drank, and was crucified, the same rose again. Wherefore it was needed that he should be a witness, not only of the time preceding this event, nor only of what followed it, and of the miracles; the thing required was, the resurrection. For the other matters were manifest and acknowledged, but the resurrection took place in secret, and was manifest to these only.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/1/22",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabced",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 1:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

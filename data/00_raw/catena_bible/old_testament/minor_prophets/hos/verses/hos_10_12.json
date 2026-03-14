@@ -1,0 +1,58 @@
+{
+  "verse_reference": "HOS 10:12",
+  "verse_text": "Verse text for HOS 10:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/10/12",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "So that we may know clearly what is meant by not having a share in the works which do not bear fruit, let us first inquire as to what sort of actions merit the attribute unfruitful—whether those only that are forbidden or such also are commendable but are not performed in good dispositions. In the Old Testament, the prophet, comparing the saints with the tree, says, “which shall bring forth its fruit in due season.” Solomon declares, “The work of the just is unto life, but the fruit of the wicked is sin”; and Hosea, “Sow for yourselves in justice, reap the fruit of life.”",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/10/12",
+      "full_content_url": "https://catenabible.com/com/5838db23205c248f42e52b2c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "Therefore, if you are concerned to attain to the light of spiritual knowledge not by the vice of empty boastfulness but by the grace of correction, you are first inflamed with desire for that blessedness about which it is said, “Blessed are the pure of heart, for they shall see God.” [Thus] you may also attain to that about which the angel said to Daniel: “Those who are learned shall shine like the splendor of the firmament, and those who instruct many in righteousness like the stars forever.” And in another prophet: “Enlighten yourselves with the light of knowledge while there is time.” .",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/10/12",
+      "full_content_url": "https://catenabible.com/com/5838db23205c248f42e52b2e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Sow to yourselves in righteousness, reap in mercy; break up your fallow ground: for it is time to seek the LORD, till he comes and rains righteousness upon you. Be careful, therefore, O bishop, to study the Word, that you may be able to explain everything exactly and that you may copiously nourish your people with much doctrine and enlighten them with the light of the law. For God says, “Enlighten yourselves with the light of knowledge, while we have yet opportunity.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/10/12",
+      "full_content_url": "https://catenabible.com/com/5838db23205c248f42e52b2d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 10:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

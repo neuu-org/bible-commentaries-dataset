@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 135:5",
+  "verse_text": "Verse text for PS 135:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/135/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "6. ...\"Because,\" says he, \"I know that the Lord is great, and our God is above all gods\" (ver. 5). If we should say to him, we ask thee, explain to us His greatness; would he not perchance answer us, He whom I see is not so very great, if He be able to be expounded by me. Let him then return to His works, and tell us. Let him hold in his conscience the greatness of God, which he has seen, which he has committed to our faith, whither he could not lead our eyes, and enumerate some of the things which the Lord hath done here; that unto us, who cannot see His greatness as he can, He may become sweet through the works of His which we can comprehend. ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/135/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e672c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Gods. Whatever is so esteemed by men. (St. Chrysostom)\nHe then proceeds to show the vanity of such false gods. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/135/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4c2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 135:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

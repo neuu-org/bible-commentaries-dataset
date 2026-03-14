@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 5:2",
+  "verse_text": "Verse text for DN 5:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/5/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The Hebrews hand down some such story as this: that up until the seventieth year, on which Jeremiah had said that the captivity of the Jewish people would be released (652) (a matter of which Zechariah also speaks in the first part o£ his book), Belshazzar had esteemed God's promise to be of none effect; therefore he turned the failure of the promise into an occasion of joy and arranged a great banquet, scoffing somewhat at the expectation of the Jews and at the vessels of the Temple of God. Punishment, however, immediately ensued. And as to the fact that the author calls Nebuchadnezzar the father of Belshazzar, he does not make any mistake in the eyes of those who are acquainted with the Holy Scripture's manner of speaking, for in the Scripture all progenitors and ancestors are called fathers. This factor also should be borne in mind, that he was not sober when he did these things, but rather when he was intoxicated and forgetful of the punishment which had come upon his progenitor, Nebuchadnezzar.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/5/2",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2d3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 5:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

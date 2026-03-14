@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 48:9",
+  "verse_text": "Verse text for PS 48:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/48/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. For when he had said, \"We have received Thy mercy in the midst of Thy people,\" he signified that there is a people not receiving the mercy of God, in the midst of whom some do receive the mercy of God: and then lest it should occur to men that there are so few, as to be nearly none, how did He console them in the words following? \"According to Thy Name, O God, so is Thy praise unto the ends of the earth\" (ver. 9). What is this? ...That is, as Thou art known through all the earth, so Thou art also praised through all the earth, nor are there wanting who now praise Thee through all the earth. But they praise Thee who live well. For, \"According to Thy Name, O God, so is Thy praise,\" not in a part, but \"unto the ends of the earth.\" \"Thy right hand is full of righteousness.\" That is, many are they also who shall stand at Thy right hand. Not only shall they be many who shall stand at Thy left hand, but there also shall be a full heap set at Thy right hand.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/48/9",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a61",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Temple. Naou. Septuagint, St. Ambrose, though the Vatican and Alexandrian copies have Laou, \"people \"with the Arabic, Ethiopic, St. Augustine (Haydock)\nIn the Church we receive many graces, (Calmet) even Christ himself, (St. Ambrose) to which those who refuse to be Catholics, can have no title. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/48/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be092",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 48:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 19:14",
+  "verse_text": "Verse text for LV 19:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/19/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You shall not curse the deaf, nor put a stumbling block before the blind, but shall fear your God: I am the LORD. The word Kophos, used by the Septuagint, means also the dumb, as these defects are generally found in the same person. Nothing can be more base, than to attack those who are unable to defend themselves. Solon forbids anyone \"to speak ill of the dead \"though he may receive an injury from his children. Those who undermine and ruin the reputation of the absent, are no less to be condemned.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/19/14",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc61b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "To speak evil of the deaf is to disparage one who is absent and does not hear. To put a block before the blind is to do a thing that is proper of itself but which affords an occasion of scandal to one who fails to understand the propriety of it.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/19/14",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 19:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

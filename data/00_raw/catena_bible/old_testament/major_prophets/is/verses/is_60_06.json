@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 60:6",
+  "verse_text": "Verse text for IS 60:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/60/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The multitude of camels shall cover your land, the young camels of Midian and Ephah; all they from Sheba shall come: they shall bring gold and incense; and they shall show forth the praises of the LORD. Abraham's grandson, who dwelt near his father, Madian, in Arabia, which was famous for camels. (Calmet) Saba. India mittit ebur, molles sua thura Sabæi. ) The Arabians embraced the gospel, but never brought their treasures to Jerusalem. (Calmet) The three kings came on swift beasts to adore Christ, and fulfilled his prophecy, Matthew ii. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/60/6",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bebb3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 60:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

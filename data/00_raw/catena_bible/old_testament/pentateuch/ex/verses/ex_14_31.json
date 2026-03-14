@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 14:31",
+  "verse_text": "Verse text for EX 14:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/14/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Israel saw that great work which the LORD did upon the Egyptians: and the people feared the LORD, and believed the LORD, and his servant Moses. Basil the Great But belief in Moses not only does not show our belief in the Spirit to be worthless, but, if we adopt our opponents’ line of argument, it rather weakens our confession in the God of the universe. “The people,” it is written, “believed the Lord and his servant Moses. ” Moses then is joined with God, not with the Spirit; and he was a type not of the Spirit but of Christ.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/14/31",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527e5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Israel saw that great work which the LORD did upon the Egyptians: and the people feared the LORD, and believed the LORD, and his servant Moses. The Hebrews would thus again be enriched by their spoils. (Calmet) Servant. Those who believe God, submit to the directions of his ambassadors. Jerome in Philemon 5. ) In this merited catastrophe of the Egyptians, which fixed the last seal to the mission of Moses, the fathers contemplate how God's servants are rescued by baptism, and by the merits of Jesus Christ, from Satan and from all sin. (1 Corinthians x. 1, 4; Origen, hom. ) (Haydock).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/14/31",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc373",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 14:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

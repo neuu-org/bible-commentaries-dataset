@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 22:15",
+  "verse_text": "Verse text for PS 22:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/22/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh My strength is dried up like a potsherd; and my tongue clings to my jaws; and you have brought me to the dust of death. Augustine of Hippo 16. \"My strength dried up as a potsherd\" (ver. My strength dried up by My Passion; not as hay, but a potsherd, which is made stronger by fire. \"And My tongue cleaved to My jaws. \" And they, through whom I was soon to speak, kept My precepts in their hearts. \"And Thou broughtest Me down to the dust of death. \" And to the ungodly appointed to death, whom the wind casteth forth as dust from the face of the earth, Thou broughtest Me down.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/22/15",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 22:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

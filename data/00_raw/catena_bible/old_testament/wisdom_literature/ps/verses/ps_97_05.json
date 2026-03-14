@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 97:5",
+  "verse_text": "Verse text for PS 97:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/97/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"The hills melted like wax at the presence of the Lord\" (ver. Who are the hills. Every high thing raising itself against God, at the deeds of Christ and of the Christians, trembled, yielded, and when I say, what hath been already said, \"melted,\" a better word cannot be found. \"The hills melted like wax at the presence of the Lord. \" Where is the elevation of powers. where the hardness of the unbelieving. The Lord was a fire unto them, they melted at His presence like wax; so long hard, until that fire was applied. Every height hath been levelled; it dareth not now blaspheme Christ: and though the Pagan believeth not in Him, he blasphemeth Him not; though not as yet become a living stone, yet the hard hill hath been subdued. \"At the presence of the Lord of the whole earth:\" not of the Jews only, but of the Gentiles also, as the Apostle saith; for He is not the God of the Jews alone, but of the Gentiles also. He is therefore the Lord of the whole earth, the Lord Jesus Christ born in Judaea, but not born for Judaea alone, because before He was born He created all men; and He who created, also new created, all men.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/97/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64c7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "All. Which is conformable to the Hebrew, though the Vulgate terra, means, \"all the earth \"melted. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/97/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be303",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 97:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

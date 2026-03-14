@@ -1,0 +1,47 @@
+{
+  "verse_reference": "AM 1:13",
+  "verse_text": "Verse text for AM 1:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/1/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Thus says the LORD; For three transgressions of the children of Ammon, and for four, I will not turn away its punishment; because they have ripped up the women with child in Gilead, that they might enlarge their border: Border. They pretended that Galaad belonged to them, Judges xi. David subdued Ammon; but after the division of the kingdom, they recovered their independence, and took occasion to commit these cruelties, while Israel had to contend with Syria. Jeremias (xlix. ) speaks of a later period.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/1/13",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf416",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "The [false teachers] are also to be admonished to consider well, how sacred Scripture is set up as a kind of lantern for us in the night of this life. When the words are not rightly understood, darkness is the result. And obviously, their perverse mind would not hurry them into a false understanding unless they were first inflated with pride. For while they think themselves wiser than others, they scorn to follow others in matters which these understand better. What is more, in order that they may extort from the untutored crowd a reputation for knowledge, they make every endeavor to discredit what these rightly understand and to confirm their own perverse views. Therefore, it is well said by the prophet, “They have ripped up the women with child of Gilead to enlarge their border. ” Now Gilead is interpreted as meaning “a heap of testimony. ” Since the whole congregation of the church together serves by its confession of it, as a witness to the truth, the church is not ineptly expressed as Gilead, for it witnesses to all truth concerning God by the mouth of all the faithful. But souls are said to be with child when they conceive an understanding of the Word by divine love, so that when they come to full term, they will bring forth the understanding conceived by them in showing forth their deeds. Again, “to enlarge the border” is to extend one’s own reputation. Thus “they ripped up the women with child of Gilead to extend their border”—that is to say, heretics by their perverse preaching slay the minds of the faithful who have already conceived some measure of the understanding of truth, and so they extend their reputation for knowledge. The hearts of little ones, already big with conception of the Word, they cleave with the sword of error, and thereby make a reputation, as it were, for their teaching. When, therefore, we endeavor to instruct these people not to entertain perverse views, we must first admonish them not to seek their own interests. For if the root of pride is cut away, the branches of false assertions become withered.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/am/1/13",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c04",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 1:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

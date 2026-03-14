@@ -1,0 +1,69 @@
+{
+  "verse_reference": "2COR 8:8",
+  "verse_text": "Verse text for 2COR 8:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/2cor/8/8",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul is not ordering the Corinthians to send money to those who are suffering want but encouraging them to do so, demonstrating that they have the right attitude toward God and others. In return for their generosity they will undoubtedly receive a reward. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/8/8",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e617e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "By occasion of the forwardness of others. I do not command, but seek to move you by the example of the Macedonians, who were so anxious to help the poor.\nAnd improve the sincerity of your love. I say this to make test of your love, sincerity, and goodness, and to stimulate you by others\" example. The Latin ingenium, which is the rendering of the Greek Î³Î½Î®ÏƒÎ¹Î¿Î½, does not here denote the good disposition of charity, as Anselm thinks, in which case the meaning would be: I say this, not to test and show that your charity has a good disposition, by its suggesting, dictating, and advising that you do this good deed without any order from me; but Î³Î½Î®ÏƒÎ¹Î¿Î½ denotes, not ingenium, but ingenuum, or an innate disposition. Again, the word for prove has the double idea of testing and then demonstrating. Maldonatus, indeed (Notæ Manusc.), renders it, \"longing to prove to others;\" for, as he says, the Greek verb here denotes not the effect but the affection.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2cor/8/8",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5258a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "I speak not by way of commandment. See how constantly he humors them, how he avoids offensiveness, and is not violent nor compulsory; or rather what he says has both these, with the inoffensiveness of that which is uncompelled. For after he had repeatedly exhorted them and had greatly commended the Macedonians, in order that this might not seem to constitute a necessity, he says, I speak not by way of commandment, but as proving through the earnestness of others, the sincerity also of your love. 'Not as doubting it,' (for that is not what he would here imply,) 'but to make it approved, display it and frame it unto greater strength. For I therefore say these things that I may provoke you to the same forwardness. And I mention their zeal to brighten, to cheer, to stimulate your inclinations. ' Then from this he proceeded to another and a greater point. For he lets slip no mode of persuasion, but moves heaven and earth in handling his argument. For he exhorted them both by other men's praises, saying, You know the grace of God which has been given in the Churches of Macedonia; and by their own, therefore that you abound in everything, in utterance and knowledge. For this has power to sting man more that he falls short of himself, than that he does so of others. Then he proceeds afterwards to the head and crown of his persuasion.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2cor/8/8",
+      "full_content_url": "https://catenabible.com/com/5751ab5f3c6effa740ddd9cc",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Notice how Paul humors them and avoids all offensiveness. He is not violent or compulsory in his tone, even though it is quite clear what he expects.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/8/8",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e617f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2COR 8:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

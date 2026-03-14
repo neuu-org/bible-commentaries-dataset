@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 32:31",
+  "verse_text": "Verse text for DT 32:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/32/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For their rock is not as our Rock, even our enemies themselves being judges. The Egyptians, Amalecites, had witnessed the miracles which God had now wrought for 40 years' time, in favour of his people. (Haydock) They knew also how the Israelites had been punished for their sins. (Menochius) Though they followed a false religion themselves, they could discern the beauty of the true one. (Worthington) Video meliora proboque Deteriora sequor.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/32/31",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcaf7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 32:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

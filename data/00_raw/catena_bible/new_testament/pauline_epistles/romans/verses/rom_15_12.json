@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 15:12",
+  "verse_text": "Verse text for ROM 15:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/15/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "In order to give the Gentiles greater assurance and a surer hope, Paul backs up God’s decree with many examples. Why is Christ said to be from the root of Jesse and not from the root of Boaz, a righteous man, or of Obed? It is because he is said to be the Son of David on account of the kingdom, and just as he was born of God to be king, so also he was born of David according to the flesh. Therefore, the root of Jesse is the tree of David, which bore fruit on the branch which is the Virgin Mary, who gave birth to Christ. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/15/12",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e535e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "And sometimes as about to hope and \"trust in the name\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/15/12",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbb32",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 15:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

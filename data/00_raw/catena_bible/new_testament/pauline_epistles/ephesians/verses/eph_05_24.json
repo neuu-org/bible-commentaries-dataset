@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EPH 5:24",
+  "verse_text": "Verse text for EPH 5:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/eph/5/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing. Here is Paul’s analogy: As the church takes its beginning from Christ and therefore is subject to him, so too does woman take hers from the man and is subject to him. There is a crucial difference, however, between Christ and the church as opposed to man and woman. The essential difference is that the woman is of the same nature as the man. The church, on the other hand, can participate in Christ in name but not in nature.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/5/24",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c66a03",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "As the church is subject to Christ. The Church then, according to St. Paul, is ever obedient to Christ: and can never fall from him, but remain faithful to him, unspotted and unchanged to the end of the world. (Challoner)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/5/24",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c014d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EPH 5:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

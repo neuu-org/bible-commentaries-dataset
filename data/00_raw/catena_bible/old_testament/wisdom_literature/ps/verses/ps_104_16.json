@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 104:16",
+  "verse_text": "Verse text for PS 104:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/104/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"The trees of the plain shall be satisfied\" (ver. 16): but with this grace, brought forth out of the earth. \"The trees of the plain,\" are the lower orders of the nations. \"And the cedars of Libanus which He hath planted. \" The cedars of Libanus, the powerful in the world, shall themselves be filled. The bread, and wine, and oil of Christ hath reached senators, nobles, kings; the trees of the plain are filled. First the humble are filled; next also the cedars of Libanus, yet those which He hath planted; pious cedars, religious faithful; for such hath He planted. For the ungodly also are cedars of Libanus; for, \"The Lord shall break the cedars of Libanus. \" For Libanus is a mountain: there are those trees, even according to the letter most long-lived and most excellent. But Libanus is interpreted, as we read in those who have written of these things, a brightness: and this brightness seemeth to belong to this world, which at present shineth and is refulgent with its pomps. There are the cedars of Libanus, which the Lord hath planted; those which the Lord hath planted shall be filled.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/104/16",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6533",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Field. Hebrew, \"of Jehova. \"Houbigant would substitute ssodi, \"field \"(Haydock) as this name of God is never used to denote \"high \"trees (Berthier)\nGod provides for the wants of all the creation, even of those things which seem less necessary to us. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/104/16",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be33c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 104:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

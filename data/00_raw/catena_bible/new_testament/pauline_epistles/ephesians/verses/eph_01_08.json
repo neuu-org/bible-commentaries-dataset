@@ -1,0 +1,58 @@
+{
+  "verse_reference": "EPH 1:8",
+  "verse_text": "Verse text for EPH 1:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/eph/1/8",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "The riches of God are heaped upon us in that he makes us something better than we were at the beginning of our existence. .",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/1/8",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c668ab",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In all wisdom and prudence; which may be either referred to the wisdom and prudence of God, the giver of grace, or to the gifts of wisdom and prudence bestowed upon the elect. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/1/8",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0117",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "That is to say, Making us wise and prudent, in that which is true wisdom, and that which is true prudence. Strange! What friendship! For He tells us His secrets; the mysteries, says he, of His will, as if one should say, He has made known to us the things that are in His heart. For here is indeed the mystery which is full of all wisdom and prudence. For what will you mention equal to this wisdom! Those that were worth nothing, it has discovered a way of raising them to wealth and abundance. What can equal this wise contrivance? He that was an enemy, he that was hated, he is in a moment lifted up on high. And not this only—but, yet more, that it should be done at this particular time, this again was the work of wisdom; and that it should be done by means of the Cross. It were matter of long discourse here to point out, how all this was the work of wisdom, and how He had made us wise. And therefore he repeats again the words,",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eph/1/8",
+      "full_content_url": "https://catenabible.com/com/57558dcd3c6effa740ddda71",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EPH 1:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

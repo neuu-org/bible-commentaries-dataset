@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 22:9",
+  "verse_text": "Verse text for PS 22:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/22/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10. \"Since Thou art He who drew Me out of the womb\" (ver. 9). Since Thou art He who drew Me, not only out of that Virgin womb (for this is the law of all men's birth, that they be drawn out of the womb), but also out of the womb of the Jewish nation; by the darkness whereof he is covered, and not yet born into the light of Christ, whosoever places his salvation in the carnal observance of the Sabbath, and of circumcision, and the like. \"My hope from My mother's breasts.\" \"My hope,\" O God, not from the time when I began to be fed by the milk of the Virgin's breasts; for it was even before; but from the breasts of the Synagogue, as I have said, out of the womb, Thou hast drawn Me, that I should not suck in the customs of the flesh.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/22/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 22:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

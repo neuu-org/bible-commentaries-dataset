@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 1:12",
+  "verse_text": "Verse text for ZEC 1:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/1/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The seventieth year; viz. , from the beginning of the siege of Jerusalem, in the ninth year of king Sedecias, to the second year of king Darius. These seventy years of the desolation of Jerusalem and the cities of Juda, are different from the seventy years of captivity foretold by Jeremias; which began in the fourth year of Joakim, and ended in the first year of king Cyrus. (Challoner) Of these Daniel (ix. The temple had also been destroyed now seventy years, (Worthington) and the angel prays, (Haydock) while the prophet begs that the people may be inspired to rebuild it. (Worthington) Michael takes occasion from the angels' report, to beseech the Lord to perfect what had been so well begun. He speaks not expressly of the temple, as Aggeus had prevailed on the people to commence that edifice. They had excused themselves that the time was not come, as they probably dated from the burning of the temple; though its desolation began with the siege, thirty months before. See Jeremias xxv.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/1/12",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf582",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then the angel of the LORD answered and said, O LORD of hosts, how long will you not have mercy on Jerusalem and on the cities of Judah, against which you have had indignation these threescore and ten years. The seventieth year: Viz. , from the beginning of the siege of Jerusalem, in the ninth year of king Sedecias, to the second year of king Darius. These seventy years of the desolation of Jerusalem and the cities of Juda, are different from the seventy years of captivity foretold by Jeremias; which began in the fourth year of Joakim, and ended in the first year of king Cyrus.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/1/12",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1b3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 1:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

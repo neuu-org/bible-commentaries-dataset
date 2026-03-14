@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HOS 14:8",
+  "verse_text": "Verse text for HOS 14:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/14/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Ephraim shall say, What have I to do any more with idols. I have heard him, and observed him: I am like a green cypress tree. In me is your fruit found. This may refer to the tree, or to God. The captives shall return, and be happy. But in a more sublime sense it refers to the nations which shall embrace the gospel. Libanus, or fragrant. Such wine was esteemed in which certain odoriferous herbs were infused, Canticle of Canticles vii. (Calmet) Libanus was also famous for generous wines. (Siconita 11.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/14/8",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf3d8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "Holy people have never testified that they attained by their effort the right path to travel on as they made their way to the increase and perfection of virtue. Rather they would plead to the Lord and say, “Direct me in your truth,” and, “Direct my way in your sight.” Another one declares that it is not by faith alone but also by experience and, as it were, in the very nature of things that he has seized upon this, [saying], “I have known, O Lord, that a person’s way is not in him, nor is it in a man to walk and to direct his own steps.” And the Lord himself says to Israel, “I will direct him like a green fir tree; from me your fruit has been found.” .",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/14/8",
+      "full_content_url": "https://catenabible.com/com/5838db23205c248f42e52b50",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 14:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

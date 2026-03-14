@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 9:4",
+  "verse_text": "Verse text for REV 9:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/9/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And it was commanded them that they should not hurt the grass of the earth, neither any green thing, neither any tree; but only those men who have not the seal of God in their foreheads. seal: They are said to have the seal of God on their foreheads who have it, as they ought to have; and the number of these was reckoned above, as being inviolate and fixed by the angel, who brought from the east the seal of the living God. For here he has been pleased to use the form of speech in which it is said, \"No man saith that Jesus is the Lord, but in the Holy Ghost,\" that is, perfectly and truly <a.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/9/4",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9bf2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "grass: He shews that the locusts are men, for they are not sent to the grass, but to men, for we understand locusts simply in this place.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/9/4",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9bf1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Nor any green thing. The Greek and Latin texts express it every green thing; meaning, that though the locusts, or the sects of Protestants, are allowed by the Almighty to seduce some of all sorts from the Church, yet that the generality of the faithful will be preserved unhurt. (Pastorini)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/9/4",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c046f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 9:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 7:1",
+  "verse_text": "Verse text for IS 7:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/7/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Achaz. This must be seventeen years later than the former prediction, 4 Kings xv. 37. The kings of Syria and Israel jointly attacked Juda, but were forced to raise the siege of Jerusalem. The next year they came separately, and committed the following ravages. The news of their junction threw all into confusion, ver. 2. Isaias was then sent to inform the king, that the designs of his enemies should not take effect. Yet the two kings obtained each a victory. But they could not dethrone Achaz, as they intended. (Calmet)\nPaine traduces this prophecy as a lie, asserting that they succeeded. What! did they make Tabeel king? ver. 6. The Israelites would not even keep the captives who had been taken, 2 Chronicles xxviii. 15. (Watson, let. 5.)\nAchaz had been made captive before. But now the Lord defeated the projects of his enemies, as he will the conspiracy of heretics against his Church. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/7/1",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be911",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 7:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

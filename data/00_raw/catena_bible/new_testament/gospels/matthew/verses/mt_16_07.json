@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 16:7",
+  "verse_text": "Verse text for MT 16:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/16/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Wherefore also He works another miracle, and then and not till then He reproves; I mean, He brings forward what they were reasoning in their hearts. But what were their reasonings? Because, so it is said, we have taken no bread. For as yet they were full of trepidation about the purifications of the Jews, and the observances of meats.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/16/7",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac496",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Note how intense is his displeasure. Nowhere else does he appear to have rebuked them so much. How does he do this? He is challenging their prejudices about food laws. Already he had said, “Are you still without understanding?” Now in this place, with a strong rebuke he says, “O men of little faith.” The Gospel of Matthew, Homily",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/16/7",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6fea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 16:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

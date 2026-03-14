@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 7:14",
+  "verse_text": "Verse text for LK 7:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/7/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And He came and touched the bier: and He said Young Prayer of Manasseh , I say unto thee, Arise. The bier, an open bier surely, as is common amongst the Jews.\nArise. Elijah, Elisha, and others restored the dead to life by means of prayer to God, but Christ at a word, as Lord of life and death, and therefore very God. He touched the bier, says Cyril, to show that his body was effectual for the salvation of men, for as iron heated in the fire does the work of fire, and kindles the chaff, so the flesh united to the Word gives life to mankind.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/7/14",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f55",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Here Christ shows that he raised the dead by his own power, and at his own command: I say to thee, arise. This shows that it is the voice of God that speaks; for the dead can hear the voice of him alone, according to St. John. Amen, I say to you, the hour cometh, and now is, when the dead shall hear the voice of the Son of God; and they who hear shall live. (St. John v. 25.) (Maldonatus)\nOur Saviour is not like Elias, weeping for the son of the widow of Sarepta; nor Eliseus, who applied his own body to the body of the dead child; nor Peter, who prayed for Tabitha: but he it is that calls the things that are not, as those that are; who speaks to the dead as to the living. (Titus Bostrensis)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/7/14",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa6c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 7:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

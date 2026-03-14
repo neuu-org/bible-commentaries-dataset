@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 11:13",
+  "verse_text": "Verse text for LV 11:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/11/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And these are they which you shall hold in abomination among the fowls; they shall not be eaten, they are an abomination: the eagle, and the vulture, and the osprey, The griffon. Not the monster which the painters represent, which has no being upon earth; but a bird of the eagle kind, larger than the common. (Challoner) Osprey. The sea or black eagle, which is very clear-sighted, and expert in catching fish. Pliny relates, (B. 3,) that it tries its young by making them look at the sun, and hurls them down if they refuse. But this seems fabulous.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/11/13",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc591",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The griffon: Not the monster which the painter represent, which hath no being upon earth; but a bird of the eagle kind, larger than the common.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/11/13",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f74",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 11:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

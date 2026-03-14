@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 47:12",
+  "verse_text": "Verse text for GN 47:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/47/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“He gave everybody rations individually,” the text says. What is meant by “everybody individually”? Enough for everyone. You see, it is customary with Scripture to refer to every person sometimes as a soul and sometimes as a body. As it said previously, “Jacob’s company traveling to Egypt numbered seventyfive souls” so as to describe seventyfive men and women, so here too “everybody individually,” that is, each person. Even though the whole of Egypt and Canaan was laid waste with famine, these people were comfortable through having a supply of grain flowing as if from a spring.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/47/12",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51cb4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 47:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

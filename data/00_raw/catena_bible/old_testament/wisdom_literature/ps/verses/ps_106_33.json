@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 106:33",
+  "verse_text": "Verse text for PS 106:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/106/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "26. \"And they angered Him at the waters of strife: so that Moses was vexed for their sakes\" (ver. 32); \"because they provoked his spirit, so that he spake doubtfully with his lips\" (ver. 33). What is spake doubtfully? As if God, who had done so great wonders before, could not cause water to flow from a rock. For he touched the rock with his rod with doubt, and thus distinguished this miracle from the rest, in which he had not doubted. He thus offended, thus deserved to hear that he should die, without entering into the land of promise. For being disturbed by the murmurs of an unbelieving people, he held not fast that confidence which he ought to have held. Nevertheless, God giveth unto him, as unto His chosen, a good testimony even after his death, so that we may see that this wavering of faith was punished with this penalty only, that he was not allowed to enter that land, whither he was leading the people. ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/106/33",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e657e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He distinguished with his lips. Moses, by occasion of the people's rebellion and incredulity, was guilty of distinguishing with his lips; when, instead of speaking to the rock, as God had commanded, he said to the people, with a certain hesitation in his faith, Hear ye rebellious and incredulous: Can we from this rock bring out water for you? Numbers xx. 10. (Challoner)\nFor thus doubting of God's will, he was temporarily punished, Deuteronomy i. 37. (Worthington)\nThe death of his sister, and the ingratitude and rebellion of the people disturbed him. (Theodoret) See Isaias lxiii. 10. Houbigant follows the Arabic, \"he delayed or hesitated. \"Yebatte means, \"he spoke rashly. \"Some refer this, (Berthier) to God. \"He reproached. That they\", (Menochius) which is not necessary, (Berthier) or he sentenced Moses to die. (Kimchi)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/106/33",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be380",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 106:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1CHR 11:27",
+  "verse_text": "Verse text for 1CHR 11:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/11/27",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Arorite, or Harodite, (2 Kings) to distinguish him from Shammah. Eliza, who follows in 2 Kings is here universally omitted, as he is supposed to have died soon, and to have been replaced by Zabad, (ver. 41.) who completes the number of 30. (Kennicott)\nPhalonite; not Paltite, as 2 Kings, where t has been formed of the two letters un. So Septuagint have read Adni, \"my lord \"perhaps correctly, (Kennicott) instead of Adan, \"any man's \"(1 Kings xvii. 32.) as the two letters might easily be mistaken for one. (Kennicott)\nHelles was the captain for the seventh month, as the following was for the sixth, and Abiezer for the ninth, chap. xxvii. 10. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/11/27",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd680",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 11:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

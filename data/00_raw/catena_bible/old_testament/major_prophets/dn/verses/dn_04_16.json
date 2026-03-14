@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 4:16",
+  "verse_text": "Verse text for DN 4:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/4/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hour. Chaldean shaha, (Haydock) implies \"a little while \"(Grotius) yet of some duration, not precisely like one of the modern hours. The prophet was silent, being troubled by the divine spirit, (Chap. x. 8.) at the view of impending misery; or unwilling to hurt the king's feelings, till he should urge him to speak. (Calmet)\nHe was sorry to denounce such calamities, yet must speak the truth. (Worthington)\nTrouble. Theodotion, \"make thee hurry. \"He perceived the prophet's anxiety, and encouraged him.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/16",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2c1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let his heart be changed from man's, and let a beast's heart be given unto him: and let seven times pass over him. Daniel silently understood that the dream was directed against the king, and his countenance showed forth the fear in his heart, and he felt sorry for the man who had conferred upon him the greatest of honor. And to avoid all appearance of taunting the king or glorying over him as an enemy, he only told him what he understood of the matter after he had begged to be excused.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/16",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f45f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 4:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

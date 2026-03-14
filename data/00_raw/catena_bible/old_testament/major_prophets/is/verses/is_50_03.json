@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 50:3",
+  "verse_text": "Verse text for IS 50:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/50/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Everything that is above us we call “heaven,” just as the winged things that are in the air are called “celestial” and the enemy powers are called “celestial” since they shuttle between heaven and earth.… Therefore, heaven is not covered up by a bag; but with the light of heaven closed off, the air that is underneath it becomes darkened with black clouds. We can interpret the heavens covered in darkness and concealed in a bag by saying that all are under sin and that the holy ones, too, need the mercy of God.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/50/3",
+      "full_content_url": "https://catenabible.com/com/5e88f34bb1c7280cb341d1bf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 50:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

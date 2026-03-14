@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 7:11",
+  "verse_text": "Verse text for PS 7:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/7/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"God the righteous judge, strong (in endurance) and long-suffering\" (ver. What God is judge, but the Lord, who judgeth the people. He is righteous; who \"shall render to every man according to his works. \" He is strong (in endurance); who, being most powerful, for our salvation bore even with ungodly persecutors. He is long-suffering; who did not immediately, after His resurrection, hurry away to punishment, even those that persecuted Him, but bore with them, that they might at length turn from that ungodliness to salvation: and still He beareth with them, reserving the last penalty for the last judgment, and up to this present time inviting sinners to repentance. \"Not bringing in anger every day. \" Perhaps \"bringing in anger\" is a more significant expression than being angry (and so we find it in the Greek copies); that the anger, whereby He punisheth, should not be in Him, but in the minds of those ministers who obey the commandments of truth through whom orders are given even to the lower ministries, who are called angels of wrath, to punish sin: whom even now the punishment of men delights not for justice' sake, in which they have no pleasure, but for malice' sake. God then doth not \"bring in anger every day,\" that is, He doth not collect His ministers for vengeance every day. For now the patience of God inviteth to repentance: but in the last time, when men \"through their hardness and impenitent heart shall have treasured up for themselves anger in the day of anger, and revelation of the righteous judgment of God, then He will brandish His sword.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/7/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e671c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Strong. Hebrew el, means also \"God threatening every day \"(Haydock) which must be a proof of his patience, as the Septuagint have intimated, since he could destroy at once. Thus numquid, must be rendered \"is he not? \"(Isaias xxvii. 7.) (Berthier)\nGod cannot but be displeased at every sin. He threatens the offender daily by secret remorse, or by his preachers and good books. (Haydock)\nBut he often defers punishment (Worthington) till death, when the measure of crimes is full. (St. Augustine)\nThis silence or delay is one of the most terrible of his judgments, (Haydock) and a mark of his great indignation. If he were, however, to strike every one as soon as he had committed sin, where should we be? \"He would soon be alone \"as a pagan observed of \"Jupiter, if he were presently to hurl his thunderbolts against every offender. \"(Calmet) See Val. Max. i. 2. (Ecclesiasticus v. 4.)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/7/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde85",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 7:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

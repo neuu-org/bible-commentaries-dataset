@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1TIM 4:5",
+  "verse_text": "Verse text for 1TIM 4:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/4/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "It is sanctified by the word of God, and prayer. That is, praying that they may not, by the abuse we make of them, be an occasion to us of sinning and offending God. (Witham)\nThe use of all kinds of meat is in itself good; but if it were not, it would become sanctified by the prayer which we usually pronounce over it, and by the word of Christ, who has declared that not that which enters the mouth defiles a man. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/4/5",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0214",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 4:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

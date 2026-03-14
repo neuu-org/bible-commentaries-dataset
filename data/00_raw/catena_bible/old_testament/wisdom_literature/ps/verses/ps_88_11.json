@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 88:11",
+  "verse_text": "Verse text for PS 88:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/88/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10. \"Shall one show Thy loving-kindness in the grave, or Thy faithfulness in destruction?\" (ver. 11). The word \"show\" is of course understood as if repeated, Shall any show Thy faithfulness in destruction? Scripture loves to connect loving-kindness and faithfulness, especially in the Psalms. \"Destruction\" also is a repetition of \"the grave,\" and signifies them who are in the grave, styled above \"the dead,\" in the verse, \"Dost thou show wonders among the dead?\" for the body is the grave of the dead soul; whence our Lord's words in the Gospel, \"Ye are like unto whited sepulchres, which indeed appear beautiful outward, but within are full of dead men's bones, and of all uncleanness. Even so ye outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/88/11",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 88:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

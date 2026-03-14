@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1TIM 3:11",
+  "verse_text": "Verse text for 1TIM 3:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/3/11",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul does not refer here to women deacons, since these are not allowed in the church. It is heretics who have such persons. The reference here is to women in general. .",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/3/11",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e635d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Women By the Greek again, sober, grave By these women are commonly understood such as had made a vow of not marrying, and who assisted at the baptism of women; (Witham) i.e. deaconesses, who were women charged with the assistance, and sometimes with the instruction, of persons of their own sex. (Bible de Vence)\nNot given to detraction, or calumnies, as in the Greek. A necessary admonition. (Witham)",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/3/11",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c020e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Some have thought that this is said of women generally, but it is not so, for why should he introduce anything about women to interfere with his subject? He is speaking of those who hold the rank of Deaconesses.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/3/11",
+      "full_content_url": "https://catenabible.com/com/575f0fd63c6effa740ddde00",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Some have thought that this is said of women generally, but it is not so, for why should he introduce anything about women to interfere with his subject? He is speaking of those who hold the rank of deaconesses.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/3/11",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e635c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 3:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

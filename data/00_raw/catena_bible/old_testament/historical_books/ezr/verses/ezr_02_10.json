@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EZR 2:10",
+  "verse_text": "Verse text for EZR 2:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/2/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And Shecaniah son of Jehiel, one of the descendants of Elam answered and said to Ezra, 'We have sinned against our God and have married foreign wives from the peoples of the land'. Josephus says that this Shecaniah was the first of the citizens of Jerusalem who himself, as was proper for a leader, immediately used his great authority to support Ezra's plan, both by acknowledging that the people had sinned as he himself had done and by urging that it was necessary for them to do penance after casting out their foreign wives along with the children who were born of them.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ezr/2/10",
+      "full_content_url": "https://catenabible.com/com/58fe623b543064d91d46c3a0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Quodvultdeus",
+      "period": "AD450",
+      "content": "Having arrived at Jerusalem, Ezra, inflamed with zeal for the Law, decided first of all to purify the people of their vices, since, as the prophet said, ―A wise king is the salvation of his people.‖ Having found the book of Moses, he showed, among other things, that the wrath of God was kindled against the people because they had married foreign wives against God‘s commandment. With severity, which was his strength, he convinced them to send back their wives and their children. No longer held back by carnal delights and wanting to propitiate God, they did what was commanded of them without hesitation. In this way they symbolized the Christian people, whom the first among all priests admonishes, ―If anyone leaves house, fields, wife or children because of my name, he will be repaid many times over here and will gain eternal life. (Matt. 19:29)‖[ THE BOOK OF PROMISES AND PREDICTIONS OF GOD 2.37.83]",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ezr/2/10",
+      "full_content_url": "https://catenabible.com/com/58fe623b543064d91d46c3a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 2:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

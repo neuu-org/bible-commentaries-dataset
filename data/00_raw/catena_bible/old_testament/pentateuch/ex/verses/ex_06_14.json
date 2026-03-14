@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 6:14",
+  "verse_text": "Verse text for EX 6:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/6/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "There is no doubt that this is a mysterious passage. The Scripture wishes to demonstrate the origin of Moses, because his action now required it. His descent began from the firstborn of Jacob, that is, Reuben, and then to Simeon, and then to Levi. It went no further, because Moses was descended from Levi. These men who are mentioned here had already been mentioned among the seventyfive men in whom Israel entered Egypt. For God did not want the first or the second tribe, but the third—that is, the tribe of Levi—to be the priestly tribe.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/6/14",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52763",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh These are the heads of their fathers' houses: The sons of Reuben the firstborn of Israel; Hanoch, and Pallu, Hezron, and Carmi: these are the families of Reuben. From this place to ver. 26, is written in a kind of parenthesis: the remainder of the chapter is a recapitulation of what had been said. (Calmet) Moses intends to give his own genealogy, and the state of affairs when he began to afflict Egypt. (Haydock) He mentions three tribes, which Jacob had rebuked, lest any one might think they had forfeited their title to some distinctive tribes. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/6/14",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2fb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 6:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

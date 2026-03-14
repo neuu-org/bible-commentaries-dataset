@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 20:34",
+  "verse_text": "Verse text for ACTS 20:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/20/34",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "These hands have furnished, by labouring to maintain myself (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/20/34",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe56",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Corinthians 9; 2 Corinthians 11 So then, it was not in Corinth only that they did this — they that corrupted the disciples, but in Asia as well. But he nowhere casts this up as a reproach to the Ephesians, when writing to them. And why? Because he did not fall upon any subject that obliged him to speak of this. But to the Corinthians he says, My boasting has not been stopped in the regions of Achaia. 2 Corinthians 11:10 And he does not say, You did not give to me; but, Silver, or gold, or apparel, I coveted not, that it might not seem to be their doing, that they had not given. And he does not say, From no man have I coveted the necessaries of life, that again it might not look like accusing them: but he covertly hints as much, seeing that he provided subsistence for others as well as himself. See how he worked with earnestness, night and day discoursing (to others), with tears warning each one of them.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/20/34",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b948e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 20:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

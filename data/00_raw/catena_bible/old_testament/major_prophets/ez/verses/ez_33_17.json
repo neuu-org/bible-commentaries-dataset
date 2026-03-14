@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 33:17",
+  "verse_text": "Verse text for EZ 33:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/33/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Yet the children of your people say, The way of the Lord is not equal: but as for them, their way is not equal. Equitable; as we are much more inclined to vice than to virtue. This argumentation is inconclusive, as God owes nothing to man; and what good the latter does, is an effect of his grace. The propensity to evil is no excuse, as man is still free. He is judged according to the dispositions in which he is found at the hour of death; yet we must not infer, that those who have spent their lives in sinning will be no worse treated than the person who dies guilty of a single crime.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ez/33/17",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf18e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 33:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

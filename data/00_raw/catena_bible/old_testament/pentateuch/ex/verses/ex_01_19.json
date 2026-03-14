@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 1:19",
+  "verse_text": "Verse text for EX 1:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/1/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Skilful Hebrew Caioth means midwives: or they are full of vigour, or bring forth alive, like brutes. By this allusion they not only excuse themselves, but seem also to enter into the king's sentiments of hatred and scorn for the Hebrews. (Menochius)\nWomen in Egypt, and in the eastern regions, are easily delivered, and hardly stand in need of any assistance. (Ludolf) (1 Kings iv. 19.) Perhaps, therefore, the midwives spoke truth, with regard to the generality of the Hebrew women. But they gave way to a lie of excuse, with regard to some, (ver. 17,) which St. Augustine would not allow, even to save all the Hebrew children. (contra Mend. 15.) It was not so easy to discover this delusion, as women in that country seldom appear in public; and hence Jochabed was enabled to hide Moses so long. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/1/19",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 1:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

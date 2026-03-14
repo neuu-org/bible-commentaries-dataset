@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 21:17",
+  "verse_text": "Verse text for MT 21:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/21/17",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And having viewed all about; (as we read in St. Mark xi. 11,) when the hour of evening was come, he went out of the city into Bethania, as usual, with the 12 apostles. Hence we may collect in how great poverty our Saviour lived, and how far he was from flattering the great ones of this world, since he could not find a friend to offer him his house for a night's repose, and to ease his fatigued members, but is obliged to go to Bethania, a small village, to the house of Martha and Mary. (St. Jerome)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/21/17",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf808",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Forasmuch then as there were many things to provoke them, from the multitude, from the casting out of the sellers, from the miracles, from the children, He again leaves them, giving room to the swelling passion, and not willing to begin His teaching, lest boiling with envy they should be the more displeased at His sayings.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/21/17",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac519",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "He departs from those who were unworthy and goes to Bethany, which means \"house of obedience.\" He goes from those who are disobedient to those who are obedient to Him, and among them He lodges. For He says, \"I will dwell and walk among them\" (II Cor. 6:16).",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/21/17",
+      "full_content_url": "https://catenabible.com/com/58a5ce5154b4f95416b2f760",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 21:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

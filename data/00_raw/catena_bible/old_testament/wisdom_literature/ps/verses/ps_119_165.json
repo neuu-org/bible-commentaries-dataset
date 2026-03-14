@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:165",
+  "verse_text": "Verse text for PS 119:165",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/165",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "163. \"Great is the peace,\" he saith, \"that they have who love Thy law: and there is no offence to them\" (ver. 165). Doth this mean that the law itself is not an offence to them that love it, or that there is no offence from any source unto them that love the law? But both senses are rightly understood. For he who loveth the law of God, honoureth in it even what he doth not understand; and what seemeth to him to sound absurd, he judgeth rather that he doth not understand, and that there is some great meaning hidden: thus the law of God is not an offence to him ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/165",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e669e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Peace, in their own conscience, (Worthington) and prosperity, without fear of danger. Not even death can disturb those who belong to God, Romans viii. 38. (Calmet)\nBut all things work together for their good, Romans viii. 28. (Haydock)\nThe perfect are not moved to imitate bad example, and the weak are not excused for so doing, as they ought to be constant. (Worthington)\nThe virtuous man is neither scandalized at the law, though he may not understand it perfectly, nor at the fall of those who had been most eminent for sanctity. (St. Augustine)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/165",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be463",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:165",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

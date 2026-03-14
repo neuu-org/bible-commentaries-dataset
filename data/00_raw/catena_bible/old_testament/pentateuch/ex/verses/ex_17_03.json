@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 17:3",
+  "verse_text": "Verse text for EX 17:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/17/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "What then does Scripture mention in what follows? “In their thirst for water, the people grumbled against Moses.” Perhaps this word that he said may seem superfluous, that the people thirsted for water. For since he said, “In their thirst,” what need was there to add “for water”? Thus indeed the ancient translation has it. Why did he add this, except because they thirsted for water when they should have thirsted for justice? “Blessed are they who hunger and thirst for justice”; and again, “thirst is my soul for the living God.” Many people are thirsty, both the just and sinners; the former thirst after justice, the latter after dissipation. The just are thirsty for God; sinners for gold. For this reason the people thirsted after water when they should have thirsted after justice.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/17/3",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5280f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 17:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

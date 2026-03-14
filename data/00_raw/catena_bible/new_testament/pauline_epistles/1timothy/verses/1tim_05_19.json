@@ -1,0 +1,80 @@
+{
+  "verse_reference": "1TIM 5:19",
+  "verse_text": "Verse text for 1TIM 5:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/5/19",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "In the first to Timothy: \"Against an eider receive not all accusation.\"",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/5/19",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bab18",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Against a priest. The word presbyter is commonly here expounded of bishops and priests; though St. Chrysostom understands it of men advanced in age.\nReceive not an accusation; i.e. do not sit as judge, nor hearken to such information. (Witham)",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/5/19",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0229",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "When a man is advanced in years, you must not be too ready to believe evil of him. His past life is itself a defense, and so also is his rank as an elder. Still, since we are human and sometimes in spite of the ripeness of our years fall into the sins of youth, if I do wrong and you wish to correct me, accuse me openly of my fault. Do not backbite me secretly.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/5/19",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e63e8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "May we then receive an accusation against a younger man, or against any one at all without witnesses? Ought we not in all cases to come to our judgments with the greatest exactness? What then does he mean? Do not so, he means, with any, but especially in the case of an elder. For he speaks of an elder not with respect to office, but to age, since the young more easily fall into sin than their elders. And it is manifest from hence that the Church, and even the whole people of Asia, had been now entrusted to Timothy, which is the reason why he discourses with him concerning elders.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1tm/5/19",
+      "full_content_url": "https://catenabible.com/com/575f0fd63c6effa740ddde22",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "May we then receive an accusation against a younger man or against any one at all without witnesses? Ought we not in all cases to come to our judgments with the greatest exactness? What then does he mean? Do not do this, he means, with any, but especially in the case of an elder. For he speaks of an elder not with respect to office but to age, since the young more easily fall into sin than their elders.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/5/19",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e63e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 5:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

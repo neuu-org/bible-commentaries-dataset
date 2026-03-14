@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1TIM 5:15",
+  "verse_text": "Verse text for 1TIM 5:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/5/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For some are already turned aside after Satan, by breaking the vows they had made. \"Yet it does not follow, (says St. Augustine in the same place ) that they who abstain not from such sins may marry after their vows. They might indeed marry before they vowed; but this being done, unless they keep them they justly incur damnation. \"\"Why is it, (says he again, on Psalm lxxv.) they made void their first faith? but that they made vows, and kept them not. But let not this (says he) make you abstain from such vows, for you are not to comply with them by your own strength; you will fall, if you presume on yourselves; but if you confide in him to whom you made these vows, you will securely comply with them. \"How different was the doctrine and practice of the first and chief of the late pretended reformers, who were many of them apostates after such vows? (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1tm/5/15",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0227",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But why, since some have fallen away, does he not say that much care is to be taken of them, that they may not fall into the error he has mentioned? Why has he commanded them to marry? Because marriage is not forbidden, and it is a safeguard to them. Wherefore he adds, that they give none occasion, or handle, to the adversary to speak reproachfully. For some are already turned aside after Satan. Such widows as these then he would have refused, not meaning that there should be no younger widows, but that there should be no adulteresses, that none should be idle, busy-bodies, speaking things that they ought not, that no occasion should be given to the adversary. Had nothing of this kind taken place, he would not have forbidden them.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1tm/5/15",
+      "full_content_url": "https://catenabible.com/com/575f0fd63c6effa740ddde1f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 5:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

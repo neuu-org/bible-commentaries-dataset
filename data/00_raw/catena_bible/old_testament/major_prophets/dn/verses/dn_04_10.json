@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DN 4:10",
+  "verse_text": "Verse text for DN 4:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/4/10",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "watcher: An early name for an angel. (Fr. Most)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/10",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f45e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Thus were the visions of my head in my bed; I saw, and behold, a tree in the midst of the earth, and its height was great. A vigilant angel, perhaps the guardian of Israel. (Challoner) Chaldean hir; (Haydock) whence Iris the messenger of the gods, is derived. Jerome) Theodotion retains eir. Jerome in Psalm lxxvi. The scholiast (Rom. ) says: \"the Septuagint render it an angel, the rest a watcher. \"These supernatural agents (Haydock) and saints are represented as judges, ver.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/10",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2bc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "It was not only of Nebuchadnezzar, King of the Chaldeans, but also of all impious men that the prophet says: \"I beheld the impious man highly exalted and lifted up like the cedars of Lebanon\" (Ps. [This is Ps. 37:35 in the English Bible, and preserves a different reading, taken over from the Septuagint, rather than the Hebrew reading: \". and spreading himself like a green tree in its native soil. \"] Such men are lifted up, not by the greatness of their virtues, but by their own pride; and for that reason they are cut down and fall into ruin. (647) Therefore it is good to follow the teaching of our Lord in the Gospel: \"Learn of Me, for I am meek and lowly in heart\" (Matt. But as for the fact that, according to Theodotion (p. 515), he mentions his kutos or height ---- or else his kureia (A), as he himself later renders it, that is to say, his dominion (a word we have translated as \"his appearance\") ---- those same detractors of the historicity of this passage slanderously assert that Nebuchadnezzar's dominion never possessed the entire world. He did not rule over the Greeks or barbarians, or over all of the nations in the north and west, but only over the provinces of the East; that is to say, over Asia, not over Europe or Libya. Consequently all these slanders require to be understood as attributable to the devil, for actually we ourselves should accept all this as spoken by way of hyperbole, having in view the arrogance of the impious king, who in Isaiah (chap. 14) makes as great a boast as this, claiming that he possesses the very heaven itself, and the whole earth besides, as if it were a nest full of birds' eggs.",
+      "commentary_number": "3/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/dn/4/10",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2c1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 4:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

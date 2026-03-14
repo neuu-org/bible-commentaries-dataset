@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 29:19",
+  "verse_text": "Verse text for PRV 29:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/29/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "In saying that “the servant will not be corrected by words,” [Solomon] did not order him to be left to himself but implied an admonition as to the means whereby he ought to be corrected. Otherwise he would not have said, “He will not be corrected by words,” but without any qualification, “He will not be corrected.” For in another place he says that not only the servant but also the undisciplined son must be corrected with stripes, and that with great fruits as the result. For he says, “You shall beat him with the rod and shall deliver his soul from hell,” and elsewhere he says, “He that spares the rod hates his own son.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/29/19",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85b6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 29:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JO 7:21",
+  "verse_text": "Verse text for JO 7:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/7/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "But human habits have so long applied themselves to this admiration of money that no one is thought worthy of honor unless he is rich. This is no new habit. No, this vice (and that makes the matter worse) grew long years ago in human hearts. When the city of Jericho fell at the sound of the priests’ trumpets and Joshua the son of Nun gained the victory, he knew that the valor of the people was weakened through love of money and desire for gold. For when Achan had taken a garment of gold and two hundred shekels of silver and a golden ingot from the spoils of the ruined city, he was brought before the Lord and could not deny the theft but admitted it.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/7/21",
+      "full_content_url": "https://catenabible.com/com/5de470b48b87fe0847ee8845",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh When I saw among the spoils a beautiful Babylonian garment, and two hundred shekels of silver, and a wedge of gold of fifty shekels weight, then I coveted them, and took them; and, behold, they are hid in the earth in the midst of my tent, and the silver under it. Hebrew, \"a robe of Sannaar, or of Babylon. \"This city was famous for embroidered, or painted robes, such as were worn by kings, Jonas iii. (Pliny, viii. ) Rule, or linget. No coin was yet used.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/7/21",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb87",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 7:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 2:12",
+  "verse_text": "Verse text for ECCL 2:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/2/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And I turned myself to behold wisdom, and madness, and folly: for what can a man do that comes after the king. even that which has been already done. Hebrew, \"For what man shall come after the king. \"Septuagint, \"after counsel. \"Many other versions may be given of this obscure text. Solomon stopt at human wisdom, without consulting the divine; or he asks who shall have greater facility to acquire knowledge than himself, or equal his works. (Calmet) Man's wisdom compared with God's is contemptible; though it be preferable to folly. (Menochius).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/2/12",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be7c4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "He therefore teaches what human wisdom is, that to follow the real wisdom—which he also calls counsel, which brings about what truly is and has substance, and is not thought of as among futile things—to follow that is the sum of human wisdom. But real wisdom and counsel, on my reckoning, is none other than the Wisdom that is conceived of as before the universe. It is that wisdom by which God made all things, as the prophet says, “by wisdom you made all things” and “Christ is the power of God and the wisdom of God,” by which all things came to be and were set in order. … When I saw these things, he says, and weighed, as in a balance, what is against what is not, I found that the difference between wisdom and folly was the same as one would find if light wer. e measured ag. ainst the dark. I think it is appropriate that he uses the analogy of light in the discernment of the good. Since darkness is in its own nature unreal (for if there were nothing to obstruct the sun’s rays, there would be no darkness), whereas light is of itself, perceived in its own essence, he shows by this analogy that evil does not exist by itself. [Instead evil] arises from deprivation of the good, whereas good is always as it is, stable and steadfast, and does not arise from the deprivation of anything which is prior to it. What is perceived as essentially opposed to good, is not; for what in itself is not, does not exist at all; for evil is the deprivation of being, and not something that exists. Thus the difference is the same between light and darkness and between wisdom and folly.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/2/12",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee4b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 2:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

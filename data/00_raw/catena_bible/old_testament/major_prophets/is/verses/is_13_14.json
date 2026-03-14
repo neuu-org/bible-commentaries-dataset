@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 13:14",
+  "verse_text": "Verse text for IS 13:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/13/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And it shall be as the hunted gazelle, and as a sheep that no man gathers up: every man shall return to his own people, and flee everyone into his own land. Eusebius of Caesarea In this way the word [Scripture] clearly shows the few who will be saved in the day of the ruin of those who are evil. Therefore, one cannot expect that all those who are uncircumcised and all of the Jewish nation, without exception, will receive the promises of God.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/13/14",
+      "full_content_url": "https://catenabible.com/com/5e4f7f76c849cf49a740e30e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Land. Baltassar shall be abandoned by his allies. Croesus had been already defeated, before Cyrus invested Babylon.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/13/14",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be968",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 13:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "TIT 3:9",
+  "verse_text": "Verse text for TIT 3:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ti/3/9",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Blessed is that servant [Paul] who can say: “I have fed you with milk and not with meat; for until now you were not able to bear it.” … Yet he—being so great a man and chosen by Christ for the care of his flock in order to strengthen the weak and to heal the sick—rejects immediately after a single admonition a heretic from the fold entrusted to him. This he does for fear that the taint of one erring sheep might infect the whole flock with a spreading sore. He further bids that foolish questions and contentions be avoided. Of the Christian Faith , Prologue –.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ti/3/9",
+      "full_content_url": "https://catenabible.com/com/583bbc53205c248f42e5310f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But avoid foolish questions, and genealogies, and contentions, and strivings about the law; for they are unprofitable and vain. “Contentions,” he means, with heretics. He would not have us labor to no purpose, where nothing is to be gained, for they end in nothing. For when a man is perverted and predetermined not to change his mind, whatever may happen, why should you labor in vain, sowing upon a rock, when you should spend your honorable toil upon your own people, in discoursing with them upon almsgiving and every other virtue.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/3/9",
+      "full_content_url": "https://catenabible.com/com/583bbc53205c248f42e53110",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "And \"unprofitable questions\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/3/9",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbb7e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured TIT 3:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

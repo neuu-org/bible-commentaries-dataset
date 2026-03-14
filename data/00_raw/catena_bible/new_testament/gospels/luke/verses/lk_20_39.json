@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 20:39",
+  "verse_text": "Verse text for LK 20:39",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/20/39",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Then certain of the scribes answering said, Teacher, you have well said. The Scribes, seeing the Sadducees thus silenced, seemed to side entirely with our Saviour saying: Master, thou hast said well. And, apprehensive of being exposed to a similar disgrace and discomfiture themselves, they were afraid to ask him any more questions. But this was only an apparent and false conformity; for they afterwards procured him to be put to death by the Romans. Thus mortal hatred or envy may indeed be smothered for a time, but can hardly ever be extinguished. (Theophylactus).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/20/39",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb49",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "They, indeed, who had caught the very force of His voice, and pronunciation, and expression, discovered no other sense than what had reference to the matter of the question. Accordingly, the Scribes exclaimed, \"Master, Thou hast well said.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/20/39",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf2e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 20:39",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

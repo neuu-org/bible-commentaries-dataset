@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GAL 4:30",
+  "verse_text": "Verse text for GAL 4:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/4/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Philosophers, then, are children, unless they have been made men by Christ. \"For if the son of the bond woman shall not be heir with the son of the free\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/4/30",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb10c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Nevertheless what saith the scripture? Cast out the bondwoman and her son. Although Abraham shrank from this proposal of Sarah, yet God approved it, and bade Abraham do as Sarah demanded, not only because her demand was lawful and right, but also because his action would be a type of future events. The rejection of Hagar and Ishmael would typify the rejection of the Jewish synagogue, and its exclusion from the blessings of the Church, for persecuting Christ and His followers. Allegorically, Christians, as freemen, are inheritors of Abraham\"s blessing, while the Jews are shut out from it, because they are envious bondmen, persecutors of Christian freemen, just as Ishmael was forbidden to share with Isaac the paternal roof. The bondman was driven away from the freeman.\n>",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/4/30",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52656",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 4:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

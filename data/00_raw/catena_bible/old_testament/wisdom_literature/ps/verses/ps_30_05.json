@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 30:5",
+  "verse_text": "Verse text for PS 30:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/30/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "6. \"For in His indignation is wrath\" (ver. 5). For He hath avenged against you the first sin, for which you have paid by death. \"And life in His will.\" And life eternal, whereunto you could not return by any strength of your own, hath He given, because He so would. \"In the evening weeping will tarry.\" Evening began, when the light of wisdom withdrew from sinful man, when he was condemned to death: from this evening weeping will tarry, as long as God's people are, amid labours and temptations, awaiting the day of the Lord. \"And exultation in the morning.\" Even to the morning, when there will be the exultation of the resurrection, which hath shone forth by anticipation in the morning resurrection of the Lord.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/30/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6920",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wrath, which is a short fury. (Menochius) (Isaias liv. 7.)\nHebrew, \"momentary is his indignation \"or rather, \"from his indignation comes destruction \"roga, as the Septuagint constantly (Haydock) agree, Job xx. 5., and Isaias xxviii. 12. (Calmet)\n\"The miseries which are inflicted, are in consequence of his indignation. \"(Prin. dis. Berthier)\nWe are not miserable unless we have deserved it. (St. Augustine)\nEven in chastising, God considers our welfare. (Worthington)\nHe takes no pleasure in our torments, but delights to crown us with life and happiness. (Haydock)\nEternal joys are the fruits of the short sorrows of this world, (Berthier) which is represented as one night or evening. (Haydock)\nA few moments ago Jerusalem expected nothing but destruction. Thus the apostles grieved till Christ rose again; (Calmet) and the life of the just is a constant vicissitude of sorrow and of comfort. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/30/5",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf68",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 30:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

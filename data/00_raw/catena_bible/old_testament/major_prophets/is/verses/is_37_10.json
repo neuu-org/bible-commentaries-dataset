@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 37:10",
+  "verse_text": "Verse text for IS 37:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/37/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The Rabshakeh, according to the will of the Lord, abandoned his blockade of Jerusalem and directed himself to his master, whom he knew to be heading to fight Libnah, having either deserted or captured Lachish. Sennacherib himself, hearing that Tirhakah the king of Ethiopia was waging war against him, went out to confront him but nonetheless also sent a messenger with letters to Hezekiah to frighten those men who had not yet begun. And just as he had said to the people, “Do not let Hezekiah seduce you,” so now he speaks the same blasphemy to the king, saying, “Do not let God deceive you. ” He made an example of the elders: because the gods of other lands were unable to deliver them from his hands, neither will Jerusalem be liberated. But in enumerating the other nations, he includes Hena and Ivvah, whom the Septuagint confused by saying Anavegava, using the Hebrew language to place the conjunction vaw between the two nations Hena and Ivvah, that it might appear to the ignorant to be one nation or city.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/37/10",
+      "full_content_url": "https://catenabible.com/com/5e4f7fccc849cf49a740e496",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 37:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

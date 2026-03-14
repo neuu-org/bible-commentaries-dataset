@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JAS 4:11",
+  "verse_text": "Verse text for JAS 4:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/4/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Detract not one another, (nor judge rashly) brethren. Though he spoke so much against the evils of the tongue, he gives them a special admonition against the vice of detraction, so common in the world, as also against rash judgments, which happen so frequently where there are dissensions and divisions. He that detracteth, judgeth, and rashly condemneth his brother, may be said to detract and judge the law, inasmuch as he seems to contemn and condemn the law, by which these sins are forbidden; when, instead of obeying and complying with the law, he rather takes upon himself to act as a judge, without fear of the law and of God, the only lawgiver, who is to judge all our actions, and who alone is able to destroy, or to free us and deliver us from the punishments we have deserved. (Witham)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jas/4/11",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0387",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 4:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

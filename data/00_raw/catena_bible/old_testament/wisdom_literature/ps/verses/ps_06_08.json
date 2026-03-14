@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 6:8",
+  "verse_text": "Verse text for PS 6:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/6/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10. Wherefore after the labour, and groaning, and very frequent showers of tears, since that cannot be ineffectual, which is asked so earnestly of Him, who is the Fountain of all mercies, and it is most truly said, \"the Lord is nigh unto them that are of a broken heart:\" after difficulties so great, the pious soul, by which we may also understand the Church, intimating that she has been heard, see what she adds: \"Depart from me, all ye that work iniquity; for the Lord hath heard the voice of my weeping\" (ver. 8). It is either spoken prophetically, since they will depart, that is, the ungodly will be separated from the righteous, when the day of judgment arrives, or, for this time present. For although both are equally found in the same assemblies, yet on the open floor the wheat is already separated from the chaff, though it be hid among the chaff. They can therefore be associated together, but cannot be carried away by the windtogether.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/6/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Iniquity, who have fostered my passions, (Berthier) or sought my ruin. I now perceive who were my true friends. (Calmet)\nLord. He is twice mentioned in the next verse, in honour of the blessed Trinity, as a German commentator remarks, after the ancient interpreters (Berthier) and Fathers. They have constantly had an eye to these grand truths, which are nevertheless proved by clearer passages of Scripture. (Haydock)\nDavid confides in God, as every true penitent may do, for protection. (Worthington)\nHe had also been assured of pardon by Nathan, the prophet. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/6/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde78",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 6:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

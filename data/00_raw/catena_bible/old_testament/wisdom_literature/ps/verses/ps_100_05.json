@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 100:5",
+  "verse_text": "Verse text for PS 100:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/100/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "13. \"For the Lord is pleasant\" (ver. 4). Think not that ye faint in praising Him. Your praise of Him is like food: the more ye praise Him, the more ye acquire strength, and He whom ye praise becometh the more sweet. \"His mercy is everlasting.\" For He will not cease to be merciful, after He hath freed thee: it belongeth to His mercy to protect thee even unto eternal life. \"His mercy,\" therefore, \"is to everlasting: and His truth from generation to generation\" (ver. 5). Understand by \"from generation to generation,\" either every generation, or in two generations, the one earthly, the other heavenly. Here there is one generation which produceth mortals; another which maketh such as are everlasting. His Truth is both here, and there. Imagine not that His truth is not here, if His truth were not here, he would not say in another Psalm: \"Truth is risen out of the earth;\" nor would Truth Itself say, Lo, I am with you alway, even unto the end of the world.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/100/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64e3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 100:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

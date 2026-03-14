@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 6:26",
+  "verse_text": "Verse text for LK 6:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/6/26",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Woe unto you when all men shall speak well of you, &c. When men, who for the most part are carnally minded, speak well of you as setters forth of that which is pleasing to their ears, for they hate the truth, and persecute those who rebuke vice and restrain the evildoer, but praise them who excuse iniquity, whom God abhors. Thus did their forefathers speak well of the false prophets of old, and therefore they all have entered into condemnation. I also condemn you inasmuch as ye follow after their example. This \"woe\" is the contrary to the blessing promised to the true prophets, who for the gospel\"s sake endure persecution, v22. Paul: \"If I pleased men, I should not be the servant of Christ. \" See Galatians 1:10. For he who preaches false doctrine and things pleasing to the carnal mind, causes his hearers to continue in wickedness and commit many sins, and therefore will receive greater damnation. Again, the preacher who seeks the applause rather than the conversion of his hearers, and looks upon this as the end and object of his ministry, will be condemned; because he sought to obtain the praise of men rather than to advance the glory of God, and made the vainglory of the world the one object of his life, thus destroying the souls of those committed to his care. Such were the false teachers whom Jeremiah and the other prophets so often were called upon to refute. \"The prophets prophesy falsely, and the priests bear rule by their means, and my people love to have it Song of Solomon ,\" Jeremiah 5:31.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/6/26",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f48",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wo to you, when men shall bless you. The ministers of the gospel must not value themselves, when they are applauded by men; for so did the fore-fathers of the Jews, formerly commend the false prophets, when they flattered the people, and spoke things that were pleasing to them. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/26",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "\"In the like manner \"says He.\n\"Woe unto you, when all men shall speak well of you! for so did their fathers to the false prophets.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/26",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc89",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 6:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

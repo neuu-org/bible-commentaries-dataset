@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 22:5",
+  "verse_text": "Verse text for JB 22:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/22/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Iniquities. He adduces no fresh arguments, but boldly taxes Job with many crimes, which a person in his station might have committed. He rashly concludes that he must have fallen into some of them at least. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/22/5",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdcb1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "4. Observe how from a deadened heart he came to idle words, and from idle words in the heinousness of lying he blazed out into insults. For these are the descents of increasing sin, that the tongue when not restrained should never there where it has fallen lie still, but be always descending to what is worse; but these things that are subjoined, because they are very plain taken after the history, do not need to be set forth after the letter.\n5. But whereas we have said that the friends of blessed Job bear the likeness of heretics, but that he himself bears the representing of Holy Church, the words of Eliphaz how they fit the falseness of heretics, let us now at once point out.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/22/5",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd0a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 22:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

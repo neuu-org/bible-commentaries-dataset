@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ROM 15:27",
+  "verse_text": "Verse text for ROM 15:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/15/27",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "In this way the believers among the Jews would rejoice at God’s providential saving of the Gentiles through their ministry. For these Gentiles, by giving themselves completely to the service of God and not caring at all about the things of this world, offered an example of good behavior to believers. Then too, the apostle wants us to be sympathetic and merciful so that we might feel obliged to give alms and to do good works with a willing heart, because whoever hopes for mercy from God must be merciful, in order to prove that he has some reason for his hope. For if a man is merciful, how much more is God! For this is the payment or reward, that those who receive mercy should be merciful. As the Lord said: “Blessed are the merciful, for God will be merciful to them.” Commentary on Paul’s Epistles.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/15/27",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5385",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 15:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

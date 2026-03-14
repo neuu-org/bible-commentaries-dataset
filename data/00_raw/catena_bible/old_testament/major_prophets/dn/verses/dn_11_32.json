@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 11:32",
+  "verse_text": "Verse text for DN 11:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/11/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "But in my opinion this will take place in the time of the Antichrist, when the love of many shall wax cold. It is concerning these people that our Lord says in the Gospel, \"Dost thou think that the Son of man, when He comes, will find faith upon the earth?\" Luke 18:8. (St. Jerome)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/11/32",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And such as do wickedly against the covenant shall he corrupt by flattery: but the people that do know their God shall be strong, and take action. And in Maccabees we read that there were some who, to be sure, pretended that they were custodians of |135 God's law, and later they came to terms with the Gentiles; yet the others adhered to their religion. But in my opinion this will take place in the time of the Antichrist, when the love of many shall wax cold. It is concerning these people that our Lord says in the Gospel, \"Dost thou think that the Son of man, when He comes, will find faith upon the earth. \" (Luke 18:8).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/11/32",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd36b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 11:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ROM 5:7",
+  "verse_text": "Verse text for ROM 5:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/5/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Christ died for the ungodly. Now if someone will hardly die for a righteous man, how can it be that someone should die for ungodly people? And if someone might dare to die for one good man (or not dare, since the phrase is ambiguous), how can it be that someone would dare to die for a multitude of the ungodly? For if someone dares to die for a righteous or good man, it is probably because he has been touched with some sort of pity or been impressed by his good works. But in the case of the ungodly, not only is there no reason to die for them, but there is plenty to move us to tears when we look at them! Commentary on Paul’s Epistles.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/5/7",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ec5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 5:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

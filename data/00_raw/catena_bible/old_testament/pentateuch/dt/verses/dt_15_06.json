@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 15:6",
+  "verse_text": "Verse text for DT 15:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/15/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For the LORD your God blesses you, as he promised you: and you shall lend unto many nations, but you shall not borrow; and you shall reign over many nations, but they shall not reign over you. Ambrose of Milan The Hebrew lent to the nations at interest. He did not himself receive doctrine from the people but handed it down. To him the Lord opened his treasury so that the rain of his word might make the nations to grow wet and so that he might become the prince among the nations, but he himself would have no prince over himself.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/15/6",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a4d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For the LORD your God blesses you, as he promised you: and you shall lend unto many nations, but you shall not borrow; and you shall reign over many nations, but they shall not reign over you. The Jews give a wrong interpretation to this passage, to authorize usury with regard to strangers. But God can never sanction injustice. He promises such riches to his people, if they be faithful, that they shall be in a condition to lend to many, without wanting themselves. (Calmet) Over thee. Hence the Jews submitted to a foreign yoke with so much reluctance. But they should have remembered to keep God's law.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/15/6",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9b9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 15:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

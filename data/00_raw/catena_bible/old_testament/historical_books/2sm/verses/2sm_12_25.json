@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 12:25",
+  "verse_text": "Verse text for 2SM 12:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/12/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he sent by the hand of Nathan the prophet; and he called his name Jedidiah, because of the LORD. Amiable to the Lord. Or beloved of the Lord. In Hebrew, Yedideya. (Challoner) Loved him, is not expressed in Hebrew, \"because of the Lord. \"(Haydock) Theodotion, \"in the word, or agreeably to, the order of the Lord. \"Solomon never went by the name which God here gives him, (Calmet) except in this place. (Menochius) It shows the gratuitous predilection which God had for him; but affords no proof of his predestination to glory, of which there is too much reason to doubt.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/12/25",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd10c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Amiable to the Lord: Or, beloved of the Lord. In Hebrew, Jedidiah.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/12/25",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 12:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

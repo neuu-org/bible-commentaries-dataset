@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 9:35",
+  "verse_text": "Verse text for MK 9:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/35",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "Let vanity be unknown among you. Let simplicity and harmony and a guileless attitude weld the community together. Let each remind himself that he is not only subordinate to the brother at his side, but to all. If he knows this, he will truly be a disciple of Christ.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/35",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52de1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "If you are in love with precedence and the highest honor, pursue the things in last place, pursue being the least valued of all, pursue being the lowliest of all, pursue being the smallest of all, pursue placing yourselves behind others. The Gospel of St. Matthew, Homily",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/35",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52de2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

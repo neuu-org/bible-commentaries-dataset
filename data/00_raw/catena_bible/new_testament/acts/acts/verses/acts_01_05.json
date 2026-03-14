@@ -1,0 +1,80 @@
+{
+  "verse_reference": "ACTS 1:5",
+  "verse_text": "Verse text for ACTS 1:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/1/5",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Therefore, when the Lord said John baptized with water, he did not continue with 'you shall baptize,' but with you shall be baptized with the Holy Spirit because neither the apostles nor their followers, who still baptize today in the Church, had the power to baptize except as John did, that is, with water. However, when the name of Christ is invoked, the interior power of the Holy Spirit is present, simultaneously purifies the souls and the bodies of those being baptized. This did not happen in the baptism of John- for the Spirit had not been given.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/1/5",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabcd4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Baptized with the Holy Spirit, that is, cleansed, and sanctified by the plentiful graces he shall pour upon you. (Witham)",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/1/5",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd16",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For now indeed He shows them that there is a difference between Him and John.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/1/5",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabce0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "On Re-Baptism (Anonymous)",
+      "period": "AD300",
+      "content": "And, unless I am mistaken, we have also explained what our Lord says: \"John indeed baptized with water, but ye shall be baptized with the Holy Spirit.\"",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/1/5",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bad3b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "For John's baptism provided neither spiritual grace nor forgiveness of sins, but the Lord's will forgive you and give you the Spirit in abundance.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/1/5",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabcf5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 1:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

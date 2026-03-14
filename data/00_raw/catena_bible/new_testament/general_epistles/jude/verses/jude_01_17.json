@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JUDE 1:17",
+  "verse_text": "Verse text for JUDE 1:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jude/1/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "spoken before by the apostles: Faith in this great offer had initially been communicated to the world first through the Lord himself, Jesus Christ, who was not only the herald but also the author of eternal salvation. It was subsequently confirmed by those who had been the witnesses of everything which he said and did during his life among men and women. Lest the preaching of these witnesses have too little weight, God himself confirmed their words with many different portents and miraculous signs and other amazing gifts, which that heavenly Spirit distributed to his followers in various ways, as seemed to God to be advantageous for the salvation of mankind. From all these things it was abundantly established that the whole of what was being done was not the product of human strength but of divine power. (Erasmus Heb 2)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jude/1/17",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f52",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Be mindful He now exhorts the faithful to remain steadfast in the belief and practice of what they had heard from the apostles, who had also foretold that in after times (literally, in the last time,) carried away, and enslaved by the pleasures of the senses. (Witham)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/17",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c042e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JUDE 1:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

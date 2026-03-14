@@ -1,0 +1,69 @@
+{
+  "verse_reference": "IS 42:24",
+  "verse_text": "Verse text for IS 42:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/42/24",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "In this part of the Lord’s Prayer, [Christ] shows that the enemy is powerless against us without God’s prior permission. During temptation, consequently, all our fear and devotion and attention should be focused on God, since evil has only such force as he himself permits. … Moreover, evil is given power over us according to our [willful] sins. As Isaiah writes, “Who gave Jacob up to the looters and Israel to the ponderers.” It was the Lord, against whom we sinned, in whose ways we would not walk and whose law we refused to obey. So he unleashed the fury of his anger against us. And again, when Solomon strayed from the precepts and paths of the Lord, it was recorded, “The Lord stirred up Satan against Solomon himself.”",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/24",
+      "full_content_url": "https://catenabible.com/com/5e88f304b1c7280cb341d098",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Who gave Jacob for a spoil, and Israel to the robbers. did not the LORD, he against whom we have sinned. for they would not walk in his ways, neither were they obedient unto his law. Eusebius of Caesarea Since God had been addressing people who could not hear him, he now speaks of them as helpless and weak. … For the outcome of the matter was no longer an issue but would be accomplished very soon. … He sent on them the fury of his anger, and battle overtook them. Those who were already wearied by war once more took it on themselves so as to hold on to Jerusalem and their rule over it. But war was unleashed on them, and not only in an external sense but also in that which afflicted their souls.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/42/24",
+      "full_content_url": "https://catenabible.com/com/5e88f304b1c7280cb341d099",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "We. Septuagint, \"they have sinned \"which seems preferable. (Haydock)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/42/24",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bead4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Philastrius of Brescia",
+      "period": "AD397",
+      "content": "But Scripture declares that these evils are not by nature made by God but rather come from causes dwelling within humans. Sins against the Lord are the source of trials and pressures of various persecutions that with God’s permission rise up against those sinning, as it is written, “who gives Israel up to the spoil.” Is it not the Lord against whom they sinned and his ways in which they did not want to walk? For Scripture elsewhere states that God did not make evil things. In the book of Genesis, which speaks of the creation of the world, it states that all God made was very good.… So evils are not naturally caused by God’s creating but by human will.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/24",
+      "full_content_url": "https://catenabible.com/com/5e88f304b1c7280cb341d09a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 42:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

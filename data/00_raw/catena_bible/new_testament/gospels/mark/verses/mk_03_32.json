@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 3:32",
+  "verse_text": "Verse text for MK 3:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/3/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "It is he who said that no one belongs to his family except those who do the will of his Father. To be sure, he graciously included Mary herself in this number, for she was doing the will of his Father. Thus he spurned the earthly name of his mother in comparison to heavenly kinship…. Do not be ungrateful, pay your duty of gratitude to your mother, repay earthly favors by spiritual ones, temporal by eternal ones. Letter , To Laetus.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/3/32",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d12",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The brethren of our Lord were not the children of the blessed Virgin: nor were they the sons of St. Joseph by a former wife, as some pretend; but in the Scripture language, and in this place, we understand by brethren the relatives of Mary and Joseph. (Ven. Bede)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/3/32",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf91e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 3:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

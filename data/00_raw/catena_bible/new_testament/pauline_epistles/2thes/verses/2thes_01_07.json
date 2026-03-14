@@ -1,0 +1,58 @@
+{
+  "verse_reference": "2THES 1:7",
+  "verse_text": "Verse text for 2THES 1:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2thes/1/7",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "But why instead of a stern reproof did our Lord speak a parable of persuasion to that Pharisee. He spoke the parable to him tenderly, that he, though stubborn and resistant, might unawares be enticed to correct his perversities. For the waters that are frozen by the force of a cold wind, the heat of the sun gently dissolves. So our Lord did not oppose him harshly, that he might not give occasion to the rebellious to rebel again…. Our Lord, then, did not employ harsh reproof, because his coming was of grace. He did not refrain from reproof, because his later coming will be of retribution. Even though he had come in humility, he nonetheless caused men to be afraid, because “it is a fearful thing to fall into his hands” when he shall come “in flaming fire. ” But our Lord most often helped others by way of persuasion than by reproof. For the gentle shower softens the earth and penetrates all through it. But violent rain binds and hardens the face of the earth, so that it does not receive it.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2thes/1/7",
+      "full_content_url": "https://catenabible.com/com/583bb83d205c248f42e5305b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Haimo of Auxerre",
+      "period": "AD865",
+      "content": "is revealed that is, manifestation.\nfrom heaven, coming to judge.\nwith the Angels of his virtue, just as he Himself says, \"When the Son of man will come, and all the angels with him.\" (Mt 25:31)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2thes/1/7",
+      "full_content_url": "https://catenabible.com/com/575f0fb43c6effa740dddd5f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thietland of Einsiedeln",
+      "period": "AD1000",
+      "content": "with a repose with us\nBeautifully do they say 'with us'; to the extent that they who were imitators of the apostles shall have fellowship with them in the Kingdom of Heaven. Therefore John says \"that you may have fellowship with us,\" (1Jn 1:3) And because this is rest, it is conferred not here, but in the future, to the saints.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2thes/1/7",
+      "full_content_url": "https://catenabible.com/com/575f0fb43c6effa740dddd57",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2THES 1:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

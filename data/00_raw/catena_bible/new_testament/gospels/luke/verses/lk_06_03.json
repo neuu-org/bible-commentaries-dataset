@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 6:3",
+  "verse_text": "Verse text for LK 6:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/6/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "And Jesus answering them said, Have you not read so much as this, what David did, when he was hungry, and they who were with him; Irenaeus of Lyons And therefore did the Lord say to those who were blaming His disciples because they plucked and ate the ears of corn, rubbing them in their hands, \"Have ye not read this, what David did, when himself was an hungered; how he went into the house of God, and ate the shew-bread, and gave to those who were with him; which it is not lawful to eat, but for the priests alone.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/6/3",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc72",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 6:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 69:36",
+  "verse_text": "Verse text for PS 69:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/69/36",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "33. Hear thou another thing also: \"for God shall save Sion\" (ver. 35). He restoreth His Church, the faithful Gentiles He doth incorporate with His Only-Begotten; He beguileth not them that believe in Him of the reward of His promise. \"For God shall save Sion; and there shall be builded the cities of Juda.\" These same are the Churches. Let no one say, when shall it come to pass that there be builded the cities of Juda? O that thou wouldest acknowledge the Edifice, and be a living stone, that thou mightest enter into Her. Even now the cities of Juda are being built. For Juda is interpreted confession. By confession of humility there are being builded the cities of Juda: in order that there may remain without the proud, who blush to confess. \"For God shall save Sion.\" What Sion? Hear in the following words: \"and the seed of His servants shall possess Her, and they that love His name shall dwell therein\" (ver. 36). ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/69/36",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6ba9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Therein. The succession of the Catholic Church is uninterrupted. (Worthington)\nThose who adhere to Christ by faith, hope, and charity, will be saved. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/69/36",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be177",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 69:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

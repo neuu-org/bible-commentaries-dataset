@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 11:52",
+  "verse_text": "Verse text for JN 11:52",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/11/52",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And not for that nation only, &c. It is expedient that Christ should die; not only for His and our nation, that Isaiah , for the Jews, but also for all the nations dispersed throughout the whole world, and who should believe in Him. For these are called children of God, not in actual fact, but in the foreknowledge and predestination of God; because, that is to say, they were hereafter to be, by the grace of God, faithful men and saints, and therefore sons of God. So SS. Augustine and Chrysostom. This is what Christ predicted in chap. x. ver16: Other sheep I have, which are not of this fold (not of the Jewish synagogue) them also I must bring, and there shall be one fold, and one Shepherd.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/11/52",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e522a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "The Lord sent apostles among all the nations, and he in like manner will send false apostles. The Saviour gathered together the sheep that were scattered abroad,",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/52",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb4ec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 11:52",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

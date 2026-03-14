@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ZEP 1:8",
+  "verse_text": "Verse text for ZEP 1:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/zep/1/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Victim. Hebrew, \"sacrifice. \"But Manuscript 1. Camb. has, \"in that day, says the Lord \"eeva nam being substituted for zebach, (Haydock) which is \"a very remarkable variation. \"In ver. 7, it has Jehovah Elohim printed Adonai Jehovah. (Kennicott)\nPrinces. After the death of Josias all fell to ruin. His sons were deposed, and led into captivity with the chief nobility and priests, who were richly adorned, and imitated the manners of idolaters, or kept the garments of the poor, Exodus xxii. 26., and Deuteronomy xxii. 5, 11 (Calmet)\nAll the posterity of Josias was afflicted. Joachaz died in Egypt; Joakim was harassed and put to death; Sedecias taken, and his eyes put out, when his children had been slain. Jechonias, or Joachin, was detained in prison at Babylon for a long time. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zep/1/8",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf538",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEP 1:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

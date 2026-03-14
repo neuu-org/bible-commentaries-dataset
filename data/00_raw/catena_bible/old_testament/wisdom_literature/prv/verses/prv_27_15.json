@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 27:15",
+  "verse_text": "Verse text for PRV 27:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/27/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "Solomon remarks that the same thing happens to the soul in a spiritual way when he says in other words, “Leaks drive a person out of his house on a stormy day.” Neatly, then, does he compare spiritual carelessness with a neglected roof, through which as it were certain tiny leaks of passion penetrate to the soul. If these little and insignificant leaks are let go unattended, they weaken the structure of the virtues, and afterward they pour in a heavy shower of sinfulness. As a consequence, on a stormy day—that is, in time of trial—the mind is expelled by the onrushing assault of the devil from the dwelling place of virtue, in which it had once reposed as if it were its own house when it maintained a careful watchfulness. .",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/27/15",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 27:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 122:2",
+  "verse_text": "Verse text for PS 122:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/122/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Our feet were standing in the courts of Jerusalem\" (ver. Consider what thou wilt be there; and although thou art as yet on the road, place this before thine eyes, as if thou wert already standing, as if thou wert alreadyrejoicing without ceasing among the Angels; as if that which is written were realized in thee: \"Blessed are they that dwell in Thy house; they will be alway praising Thee. \" \"Our feet stood in the courts of Jerusalem. \" What Jerusalem. This earthly Jerusalem also is wont to be called by the name: though this Jerusalem is but the shadow of that. And what great thing is it to stand in this Jerusalem, since this Jerusalem hath not been able to stand, but hath been turned into a ruin. Doth then the Holy Spirit pronounce this, out of the kindled heart of the loving Psalmist, as a great thing. Is not it that Jerusalem, unto whom the Lord said, \"O Jerusalem, Jerusalem, thou that killest the Prophets,\" etc. What great thing then did he desire; to stand among those who slew the Prophets, and stoned them that were sent unto them. God forbid that he should think of that Jerusalem, who so loveth, who so burneth, who so longeth to reach that Jerusalem, \"our Mother,\" of which the Apostle saith, that She is \"eternal in the Heavens.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/122/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66b8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Were. Hebrew also, \"shall \"Yet many of the Levites had officiated in the temple, 1 Esdras iii. 12.\nCourts, or gates, where justice was administered. (Calmet)\nWe may better (Haydock) rejoice in the Church, (Worthington) and in the prospect of heaven. (Haydock)\n\"At the news, it seemed as if our feet had been \"(Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/122/2",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be478",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 122:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

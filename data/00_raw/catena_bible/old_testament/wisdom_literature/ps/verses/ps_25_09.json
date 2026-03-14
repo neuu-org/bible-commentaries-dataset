@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 25:9",
+  "verse_text": "Verse text for PS 25:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/25/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The meek will he guide in justice: and the meek will he teach his way. Augustine of Hippo 9. \"He will guide the meek in judgment. \" He will guide the meek, and will not confound in the judgment those that follow His will, and do not, in withstanding It, prefer their own. \"The gentle He will teach His ways\" (ver. He will teach His ways, not to those that desire to run before, as if they were better able to rule themselves;but to those who do not exalt the neck, nor lift the heel, when the easy yoke and the light burden is laid upon them.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68da",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Mild. Only rebels are made the victims of justice. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/9",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf2a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 25:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

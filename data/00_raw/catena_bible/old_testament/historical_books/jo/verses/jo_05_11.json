@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 5:11",
+  "verse_text": "Verse text for JO 5:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/5/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And they did eat of the old grain of the land the next day after the passover, unleavened cakes, and parched grain on the very same day. Some pretend that the Hebrew means \"old corn. \"But the ancient interpreters take no notice of this restriction. The offering of corn was probably omitted on this occasion, as the Israelites had not cultivated the land. Septuagint, \"new corn. \"Hebrew, \"parched, on that same day. \"These last words are taken by the Septuagint as a part of the next sentence.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/5/11",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb68",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 5:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

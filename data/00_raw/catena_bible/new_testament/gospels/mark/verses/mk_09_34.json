@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 9:34",
+  "verse_text": "Verse text for MK 9:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/34",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But they held their peace: for on the way they had disputed among themselves, who should be the greatest. Augustine of Hippo Observe a tree, how it first tends downwards, that it may then shoot forth upwards. It fastens its root low in the ground, that it may send forth its top towards heaven. Is it not from humility that it endeavors to rise. But without humility it will not attain to higher things. You are wanting to grow up into the air without a root. Such is not growth, but a collapse. The Gospel of John, Sermon.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/34",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52de0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

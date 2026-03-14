@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 5:23",
+  "verse_text": "Verse text for JGS 5:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/5/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Where this land of Meroz was, which is here laid under a curse, we cannot find: nor is there mention of it any where else in holy writ. In the spiritual sense, they are cursed who refuse to assist the people of God in their warfare against their spiritual enemies. (Challoner) Eusebius seems to have thought that Merom, a body of water, and the village of Meroz (Haydock) were the same place, 12 miles from Sebaste. The inhabitants were surely under an obligation of assisting their brethren; and these, it appears, lived in the vicinity, and neglected their duty. Septuagint Alexandrian reads Mazor. Some stars are styled Mazzaroth, Job xxxviii. Angel, Michael; or the high priest, or Barac, Debbora See chap. (Calmet) Protestants, \"Curse ye Meroz, (said the angel of the Lord) curse ye bitterly the inhabitants thereof. Protestants, \"to the help of the Lord against the mighty. \"Septuagint, \"our helper is the Lord in the mighty warriors. \"He assists their endeavours, which would otherwise prove unsuccessful. (Haydock) The Jews thin that Barac cursed Meroz, the star or the angel of the Chanaanites, who protected Sisara. (Chaldean) See Serarius, q. Others say that he was an ally of that general, who was excommunicated by Barac, at the sound of 400 trumpets. But these opinions only deserve contempt.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/5/23",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd0b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Curse you Meroz, said the angel of the LORD, Curse you bitterly the inhabitants thereof; because they came not to the help of the LORD, to the help of the LORD against the mighty. Meroz: Where this land of Meroz was, which is here laid under a curse, we cannot find: nor is there mention of it anywhere else in holy writ. In the spiritual sense, they are cursed who refuse to assist the people of God in their warfare against their spiritual enemies.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/5/23",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa012",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 5:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

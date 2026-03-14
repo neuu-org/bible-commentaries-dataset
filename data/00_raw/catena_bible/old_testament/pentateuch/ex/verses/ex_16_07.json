@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 16:7",
+  "verse_text": "Verse text for EX 16:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/16/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Morning, when manna fell, as quails were brought the former evening, ver. 12 and 13. These fresh instances of protection, might convince them that they had not been imposed upon by Moses in leaving Egypt. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/16/7",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc38e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "“So, my friends,” I said, “I shall now show from the Scriptures that God has begotten of himself a certain rational power as a beginning before all other creatures. The Holy Spirit indicates this power by various titles, sometimes the glory of the Lord, at other times Son, or Wisdom, or angel, or God, or Lord or Word. He even called himself Commanderinchief when he appeared in human guise to Joshua, the son of Nun. Indeed, he can justly lay claim to all these titles from the fact that he performs the Father’s will and that he was begotten by an act of the Father’s will.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/16/7",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52804",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 16:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

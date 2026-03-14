@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 40:19",
+  "verse_text": "Verse text for IS 40:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/40/19",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Silver. Is God like these idols? (Haydock)\nWho knows not that the workman is better than they are? (Wisdom xiii. 11.) (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/19",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723beaad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "For if we consider the different nations in all the world, from ocean to ocean, that is, from the Indian Sea to Brittania, and from the Atlantic up to the northern ice cap where the waters congeal and fine amber is frozen, we see that every race of human being lives like locusts within it. … Are we not amazed at the relative smallness of human beings whose bodies are like locusts when you consider their minute movements in the grand scheme of things. … The Lord is the one who stretched out the heavens and increased them so that the multitude of angels could live above them and the human race could dwell below as a house fit to contain all the reasonable creatures he had made. … Greek and Roman history tells of so many kings. Where is that uncountable army of Xerxes. Where is the Israelite host in the desert. Where is the incredible power of kings. What shall I say about those long ago. For present examples teach us that leaders are next to nothing, and the rulers of the earth are considered empty. The princes and judges of the earth … are neither sown nor planted nor fixed with a stable root. They are carried off at the command of God in an instant and perish like the blade of grass taken by the wind and storm, just as it is written, “And I crossed over, and he was not there; I sought him, and his place was not found.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/40/19",
+      "full_content_url": "https://catenabible.com/com/5e88f280b1c7280cb341d02b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The workman melts a graven image, and the goldsmith spreads it over with gold, and casts silver chains. According to the moral sense we can say that the leaders of the heretics flourish, inventing different idols from their heart or by the charm of speech, which is what silver means, or by the splendor of gold, which appeals to the senses, or by the fine wood—these are the more vile teachings and are thought everlasting by those who invent them and are strengthened by dialectical skill lest they move and decay. Instead, they “stand fast” with a solid root.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/19",
+      "full_content_url": "https://catenabible.com/com/5e88f280b1c7280cb341d02a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 40:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

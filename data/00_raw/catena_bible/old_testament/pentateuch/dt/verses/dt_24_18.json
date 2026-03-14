@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 24:18",
+  "verse_text": "Verse text for DT 24:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/24/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But you shall remember that you were a slave in Egypt, and the LORD your God redeemed you from there: therefore I command you to do this thing. It is uncertain whether this refer to the preceding or to the following law. It may be applied to both, as the remembrance of the Egyptian slavery might teach God's people not to oppress, but rather to show mercy to those in distress. As the same thing is however repeated, ver. 22, it seems more probable that the present verse forbids any oppression.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/24/18",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bca5f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 24:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

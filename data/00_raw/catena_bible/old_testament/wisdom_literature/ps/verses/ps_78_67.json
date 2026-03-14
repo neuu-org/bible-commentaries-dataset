@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 78:67",
+  "verse_text": "Verse text for PS 78:67",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/78/67",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"And He smote His enemies in the hinder parts\" (ver. 66): those, to wit, who were rejoicing that they were able to take His Ark: for they were smitten in their back-parts. Which seemeth to me to be a sign of that punishment, wherewith a man will be tortured, if he shall have looked back upon things behind; which, as saith the Apostle, he ought to value as dung. For they that do so receive the Testament of God, as that they put not off from them the old vanity, are like the hostile nations, who did place the captured Ark of the Testament beside their own idols. And yet those old things even though these be unwilling do fall: for \"all flesh is hay, and the glory of man as the flower of hay. The hay hath dried up, and the flower hath fallen off:\" but the Ark of the Lord \"abideth for everlasting,\" to wit, the secret testament of the kingdom of Heaven, where is the eternal Word of God. But they that have loved things behind, because of these very things most justly shall be tormented. For \"everlasting reproach He hath given to them.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/78/67",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c4b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ephraim. Who had been preferred before his elder brother, and yet proved the most inclined to idolatry, ver. 9. (Haydock)\nThis tribe was deprived first of the ark, and then of the tabernacle, which were its greatest glory, and this strongly indicated the divine displeasure. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/78/67",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be20f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 78:67",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "verse_reference": "PHIL 3:16",
+  "verse_text": "Verse text for PHIL 3:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/3/16",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Lest anyone should presume to think this was not from God and revealed by God he therefore adds the words “what we have attained,” that we should think in accord with the apostles. That means that we should not overstep the rule of doctrine in understanding but accept what is commonly and humbly understood in the truth of the gospel.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/16",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53502",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Hold true with the affections of the mind and habits of living, so that one is able to be perfectly in the possession of righteousness when, advancing day by day along the direct road of faith, one has already become a perfect traveler on the road.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/16",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53503",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ignatius of Antioch",
+      "period": "AD108",
+      "content": "\"that ye all speak the same thing, being of one mind, thinking the same thing, and walking by the same rule of faith\"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/16",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb7e3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Only, whereunto we have attained. What means this? Let us hold fast, he says, that in which we have succeeded; love, concord, and peace: for in this we have succeeded. Whereto we have attained: to walk by the same rule, to mind the same thing. Whereunto we have attained, i.e. in this we have already succeeded. Do you see, that he wills that his precepts should be a rule to us? And a rule admits neither addition, nor subtraction, since that destroys its being a rule. By the same rule, i.e. by the same faith, within the same limits.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/16",
+      "full_content_url": "https://catenabible.com/com/5755bff93c6effa740dddc04",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 3:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 13:29",
+  "verse_text": "Verse text for ACTS 13:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Observe what a point he makes of showing that the (whole) thing was a (Divine) Dispensation. See, by saying what did they persuade men? (By telling them) that He was crucified? Why, what could be less persuasive than this? That He was buried— by them to whom it was promised that He should be salvation? That He who was buried forgives sins, yea, more than the Law (has power to do)? And (observe), he does not say, From which you would not but, from which you could not be justified by the Law of Moses.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/29",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9344",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Observe how Paul here is more vehement in his discourse: we nowhere find Peter saying this. Then too he adds the terrifying words: Beware therefore, lest that come upon you, which is spoken of in the prophets; Behold, you despisers, and wonder, and perish: for I work a work in your days, a work which you shall in no wise believe, though a man declare it unto you.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/29",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b933a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

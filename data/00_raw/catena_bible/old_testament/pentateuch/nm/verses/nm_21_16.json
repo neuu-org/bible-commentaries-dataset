@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 21:16",
+  "verse_text": "Verse text for NM 21:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/21/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Well. Hebrew Beer. (Haydock)\nThis station is not mentioned under the same name at least, chap. xxxiii. Probably the inhabitants had covered up this well with sand, and God having discovered it to Moses, he informed the princes, who pushed their staves down. Upon which the waters appearing, the people sung a hymn of thanksgiving and joy. Water is very scarce, and, of course, of course, of great value in those deserts, where, even still, the Arabs conceal their wells, and often fight to hinder passengers from taking any of the water. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/21/16",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 21:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

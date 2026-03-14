@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 14:44",
+  "verse_text": "Verse text for LV 14:44",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/14/44",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "But if [in a case of leprosy] after its rehabilitation and transformation, the priest again observes in that same house any of the old pocks or stains, may he pronounce it unclean and order its timbers and its stones and its whole structure to be torn down and cast forth into an unclean place. This is a type of the man, body and soul, who is transformed after baptism, that is to say, after the entrance of the priest, and then takes up once more the scabrous contaminations of the flesh. He is cast forth outside the city into an unclean place. That is to say, he is “given over to Satan for the destruction of the flesh.” .",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/14/44",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529cf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 14:44",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

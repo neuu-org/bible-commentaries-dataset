@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 13:17",
+  "verse_text": "Verse text for ACTS 13:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/17",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "'God chose' In preference to other peoples who worshipped other gods.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/17",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabe02",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then Paul stood up, and beckoning with his hand said, Men of Israel, and you that fear God, give audience. The God of this people of Israel chose our fathers, and exalted the people when they dwelt as strangers in the land of Egypt, and with an high arm brought He them out of it. Behold Barnabas giving place to Paul— how should it be otherwise. — to him whom he brought from Tarsus; just as we find John on all occasions giving way to Peter: and yet Barnabas was more looked up to than Paul: true, but they had an eye only to the common advantage. Then Paul stood up, it says—this was a custom of the Jews— and beckoned with his hand. And see how he prepares the way beforehand for his discourse: having first praised them, and showed his great regard for them in the words, you that fear God, he so begins his discourse. And he says not, You proselytes, since it was a term of disadvantage. The God of this people chose our fathers: and the people— See, he calls God Himself their God peculiarly, Who is the common God of men; and shows how great from the first were His benefits, just as Stephen does. This they do to teach them, that now also God has acted after the same custom, in sending His own Son; Luke 20:13: as (Christ) Himself (does) in the parable of the vineyard— And the people, he says, He exalted when it sojourned in the land of Egypt— and yet the contrary was the case: true, but they increased in numbers; moreover, the miracles were wrought on their account: and with an high arm brought He them out of it. Of these things (the wonders) which were done in Egypt, the prophets are continually making mention. And observe, how he passes over the times of their calamities, and nowhere brings forward their faults, but only God's kindness, leaving those for themselves to think over. And about the time of forty years suffered He their manners in the wilderness.",
+      "commentary_number": "2/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/acts/13/17",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9331",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Been known to God, and who had by Him been \"upraised\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/17",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae2e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

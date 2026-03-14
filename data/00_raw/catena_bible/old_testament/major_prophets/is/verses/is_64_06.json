@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 64:6",
+  "verse_text": "Verse text for IS 64:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/64/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Unclean: leper. (Grotius) (Leviticus xiii. That is, the works by which we pretended to make ourselves just. This is spoken particularly of the sacrifices, sacraments, and ceremonies of the Jews, after the death of Christ, and the promulgation of the new law. (Challoner) The justice which is under the law is stated uncleanness, when compared with evangelical purity, Philippians iii. \"If any one after the gospel. Would observe the ceremonies of the law, let him hear the people confessing that all that justice is compared to a most filthy rag. Jerome) The good works which are done by grace, and not by man alone, cannot be said to be of this description. They constitute the internal glory of man, and God will one day crown these his gifts. Of ourselves indeed we can do nothing, and the works of the Mosaic law will not avail, as St. Paul inculcates; but those works, point out the saint, which are preformed by charity with faith in Christ. This justice is not imputed only, but real; and shows where true faith exists, according to St. Thus the apostles explain each other. (Haydock) Woman. Septuagint, \"of one sitting down \"like Rachel, Genesis xxxi. Symmachus, \"lying-in. \"Aquila, \"of proofs. \"Grotius, \"like a plaster on a sore, which is thrown away. \"Such were Alcimus (Calmet) To practise (Haydock) the Jewish rites would now be sinful. (Menochius).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/64/6",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bebe8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "That is, the works by which we pretended to make ourselves just. This is spoken particularly of the sacrifices, sacraments, and ceremonies of the Jews, after the death of Christ, and the promulgation of the new law.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/64/6",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa0bd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 64:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

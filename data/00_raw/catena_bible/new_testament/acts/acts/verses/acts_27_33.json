@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 27:33",
+  "verse_text": "Verse text for ACTS 27:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/27/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Taking nothing. That is, without taking a full meal, but only a morsel now and then, and nothing to speak of. (Witham)\nThough St. Chrysostom understands these words in their full rigour, and therefore supposes them to have been supported by a miracle; yet is is not requisite to adhere to the severity of these words in the interpretation of them. Not having had time to prepare any regular meal during that time, they may justly be said to have taken nothing, though they had occasionally eaten a little now and then to support nature. Such exaggerations in discourse are common. Interpretes passim.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/27/33",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfeba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "(b) And how, say you, did they go without food, having taken nothing? How did they bear it? Their fear possessed them, and did not let them fall into a desire of food, being, as they were, at the point of extreme jeopardy; (f) but they had no care for food. Wherefore I pray you to take some meat: for this is for your health: for there shall not an hair fall from the head of any of you. And when he had thus spoken, he took bread, and gave thanks to God in presence of them all: and when he had broken it, he began to eat. Then were they all of good cheer, and they also took some meat,",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/27/33",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9515",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 27:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 2:2",
+  "verse_text": "Verse text for PS 2:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/2/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The kings of the earth set themselves, and the rulers take counsel together, against the LORD, and against his anointed, saying, Augustine of Hippo 1. \"Why do the heathen rage, and the people meditate vain things. \"The kings of the earth have stood up, and the rulers taken counsel together, against the Lord, and against His Christ\" (ver. It is said, \"why. \" as if it were said, in vain. For what they wished, namely, Christ's destruction, they accomplished not; for this is spoken of our Lord's persecutors, of whom also mention is made in the Acts of the Apostles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/2/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e647d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Kings. Herod and Pilate, (Worthington) who acted for the Roman emperor.\nPrinces, of the priests, (Haydock) Annas and Caiaphas. But all the rage of Gentiles and Jews against Christ was fruitless, (Worthington) and wicked, (Haydock) as the attempt of the surrounding nations to dethrone David was, in contradiction to the divine appointment. He is sometimes styled the Christ, or \"anointed of the Lord \"Psalm xix. 7. But the Chaldean has, \"to revolt from the Lord, and fight with his Messias. \"So that the ancient Jews agreed with us, (Calmet) and it would be \"rash to abandon the interpretation given by St. Peter. \"(St. Jerome)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/2/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde45",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 2:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

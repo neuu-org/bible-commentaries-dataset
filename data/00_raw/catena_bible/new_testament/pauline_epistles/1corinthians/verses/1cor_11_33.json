@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1COR 11:33",
+  "verse_text": "Verse text for 1COR 11:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/11/33",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul tells them to wait for one another so that they may make their offering together and serve one another. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/11/33",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5dda",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Necessarily, therefore, against those who have cast off shame and unsparingly abuse meals, the insatiable to whom nothing is sufficient, the apostle, in continuation, again breaks forth in a voice of displeasure: \"So that, my brethren, when ye come together to eat, wait for one another. And if any one is hungry, let him eat at home, that ye come not together to condemnation.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/11/33",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba832",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "And again: \"When ye come together to eat, wait one for another. If any is hungry, let him eat at home, that ye may not come together for judgment.\"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/11/33",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba833",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Thus, while their fear was yet at its height and the terror of hell remained, he chooses again to bring in also the exhortation in behalf of the poor, on account of which he said all these things; implying that if they do not this they must partake unworthily. But if the not imparting of our goods excludes from that Table, much more the violently taking away. And he said not, wherefore, when you come together, impart to them that need, but, which has a more reverential sound, wait one for another. For this also prepared the way for and intimated that, and in a becoming form introduced the exhortation.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/11/33",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd8ba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 11:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

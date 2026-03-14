@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 13:13",
+  "verse_text": "Verse text for DN 13:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/13/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "These words indicate that, with regard to food, the Jews are not in agreement with the Gentiles; but in their ideas and in all the other affairs of this world, they are of one mind and can agree with one another. - \"Commentary on Daniel 1.15.5\"",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/13/13",
+      "full_content_url": "https://catenabible.com/com/5dc254c81cb33762803d3edf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 13:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

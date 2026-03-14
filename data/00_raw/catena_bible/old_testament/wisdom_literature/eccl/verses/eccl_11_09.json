@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 11:9",
+  "verse_text": "Verse text for ECCL 11:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/11/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Eyes. He speaks ironically, (Calmet) or exhorts to spiritual joy and moderation. (St. Gregory, Mor. xxiv.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/11/9",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be84b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "One statement is introduced [by Solomon] through his impersonation of the weak, while the other is added from the dictates of reason, for he immediately discusses the dictates of reason and shows the advantage of a house of mourning. “For that is the end of every man,” he says, “and the living should take it to heart.” And again he writes, “Rejoice, O young man, while you are young.” While a little later he adds, “The dawn of youth is fleeting.” In criticizing what he has just recommended, he indicates clearly that the former pronouncement proceeded from carnal desires, while the latter was based on a true judgment.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/11/9",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef2b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 11:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

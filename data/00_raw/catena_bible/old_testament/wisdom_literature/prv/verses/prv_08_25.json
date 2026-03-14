@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 8:25",
+  "verse_text": "Verse text for PRV 8:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/8/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "Whether he is eternally begotten or not, I do not yet say, until I have looked into the statement, “Before all the hills he begets me” more accurately. But I cannot see the necessity of their conclusion. For if, as they say, everything that is to come to an end had also a beginning, then surely that which has no end had no beginning. What, then, will they decide concerning the soul or the angelic nature? If it had a beginning, it will also have an end; and if it has no end, it is evident that according to them it had no beginning. But the truth is that it had a beginning and will never have an end. Their assertion, then, that that which will have an end had also a beginning, is untrue. On the Son, Theological Oration ()..",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/8/25",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8448",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "He who was established before time was already begotten, not only before the earth but also before the mountains and the hills. And because wisdom is certainly referring to itself in this passage, it says more than is heard.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/8/25",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8446",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 8:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

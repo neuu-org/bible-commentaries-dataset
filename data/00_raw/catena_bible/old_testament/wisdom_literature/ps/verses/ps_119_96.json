@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:96",
+  "verse_text": "Verse text for PS 119:96",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/96",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Lastly, he next saith, \"I have seen an end of all consummation: but Thy commandment is exceeding broad\" (ver. For he had entered into the sanctuary of God, and had understood the end) Now \"all consummation\" appeareth to me in this place to signify, the striving even unto death for the truth, and the endurance of every evil for the true and chief good: the end of which consummation is to excel in the kingdom of Christ, which hath no end; and there to have without death, without pain, and with great honour, life, acquired by the death of this life, and by sorrows and reproaches. But in what he hath added, \"Thy commandment is exceeding broad;\" I understand only love. For what would it have profited him, whatever death impended over him, in the midst of whatsoever torment, to confess those testimonies, if love were not in the confessor. Broad therefore is the commandment of charity, that twofold commandment, whereby we are enjoined to love God and our neighbour. But what is broader than that, \"on\" which \"hang all the Law and the Prophets\".",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/96",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e665c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Perfection, of a worldly nature. (Haydock)\nAll have their limits. But God's law bindeth for ever, as the rewards and punishments are eternal. (Worthington)\nBroad. Charity, which extends both to God and our neighbour. (St. Augustine)\nThe law is above my comprehension, though I am able to discern its superiority over all created things. Some understand Jesus Christ, the end of the law; or martyrdom, the height of charity; or extreme distress, by the word perfection. (Berthier)\nLiterally, \"consummation. \"(Haydock)\nI have been exposed to the greatest misery: but thy law has set me at large, Sophonias i. 18. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/96",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be429",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:96",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

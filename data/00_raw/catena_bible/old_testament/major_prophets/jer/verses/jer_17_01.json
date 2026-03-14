@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JER 17:1",
+  "verse_text": "Verse text for JER 17:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/17/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The. Grabe (de Vit. p. 8.) observes that the four first verses were omitted in the Septuagint by some careless transcriber, long before the days of Origen, who restored them from the Hebrew and the other Greek versions. On such occasions his work was very useful; but the marks being soon neglected, great confusion ensued. (St. Jerome) (Kennicott, Dis. ii.)\nGrabe has restored these verses in his edition. (Haydock)\nEusebius (Dem. x.) and Theodoret acknowledged them; and Nobilius found the first verse thus expressed in many copies, (Calmet) as it is in Grabe: \"The sin of Juda is expressed in writing with a finger nail of adamant, cleaving to the breast of \"(Haydock)\nAltars, to appear more conspicuously to the latest times. This excited God's indignation. (Calmet)\nThese figurative expressions show the inveterate malice of the people. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/17/1",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bed29",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 17:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 53:4",
+  "verse_text": "Verse text for IS 53:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/53/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Surely he has borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten by God, and afflicted. Healing them by his own afflictions, Matthew viii. Sickness is an effect of sin, which Jesus came to destroy, 1 Peter ii. 24 Leper, who was bound to have his face covered, ver. , and Leviticus xiii. ) assures us that many Jews were converted by the perusal of this chapter, and particularly of this verse, which may be rendered \"as a God wounded and afflicted.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/53/4",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb5a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 53:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

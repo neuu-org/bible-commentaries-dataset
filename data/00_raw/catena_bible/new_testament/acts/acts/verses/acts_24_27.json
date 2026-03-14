@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 24:27",
+  "verse_text": "Verse text for ACTS 24:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/24/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But after two years Porcius Festus came into Felix' position: and Felix, willing to show the Jews a favor, left Paul bound. so that he not only coveted money, but also glory. How, O wretch, can you look for money from a man who preaches the contrary. But that he did not get it, is evident from his leaving him bound; he would have loosed him, had he received it. Of temperance, it says, he reasoned; but the other was hankering to receive money from him who discoursed these things. And to ask indeed he did not dare: for such is wickedness: but he hoped it. And when two years were completed, etc.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/24/27",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "See how close to the truth are the things written. But he sent for him frequently, not that he admired him, nor that he praised the things spoken, nor that he wished to believe, but why. Expecting, it says, that money should have been given him. Observe how he does not hide here the mind of the judge. Wherefore he sent for him, etc. And yet if he had condemned him, he would not have done this, nor have wished to hear a man, condemned and of evil character. And observe Paul, how, though reasoning with a ruler, he says nothing of the sort that was likely to amuse and entertain, but (he reasoned, it says,) of righteousness, and of the coming judgment, and of the resurrection. And such was the force of his words, that they even terrified the governor. This man is succeeded in his office by another, and he leaves Paul a prisoner: and yet he ought not to have done this; he ought to have put an end to the business: but he leaves him, by way of gratifying them. They however were so urgent, that they again besought the judge. Yet against none of the Apostles had they set themselves thus pertinaciously; there, when they had attacked, anon they desisted. So providentially is he removed from Jerusalem, having to do with such wild beasts. And they nevertheless request that he might be brought again there to be tried. Now when Festus had come into the province, after three days he ascended from Cæsarea to Jerusalem. Then the high priest and the chief of the Jews informed him against Paul, and besought him, and desired favor against him, that he would send for him to Jerusalem, laying wait in the way to kill him.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/24/27",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94db",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 24:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 16:31",
+  "verse_text": "Verse text for JGS 16:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/16/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then his brethren and all the house of his father came down, and took him, and brought him up, and buried him between Zorah and Eshtaol in the burying place of Manoah his father. And he judged Israel twenty years. Satan the tyrant outwitted Samson with a woman, the same tyrant outwitted Adam with a woman Samson had to grind at the mill, Adam had to labor wearily on the soil; Samson prayed to be released, whereas we pray to grow old in our misery. Blessed is he who delivered Samson, releasing him from the grinding. Samson is a type of the death of Christ the high priest Samson’s death returns prisoners to their towns, whereas the High Priest’s death has returned us to our heritage.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/16/31",
+      "full_content_url": "https://catenabible.com/com/5de46f398b87fe0847ee87c0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 16:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

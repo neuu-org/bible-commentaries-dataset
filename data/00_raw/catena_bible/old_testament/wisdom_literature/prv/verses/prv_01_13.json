@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 1:13",
+  "verse_text": "Verse text for PRV 1:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/1/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "There is one text in Proverbs so far from being obscure that its relationship to Christ and his possession, the church, can be grasped without any such trouble. Wicked men are speaking: “Let us unjustly hide away in the earth the just man, let us swallow him up alive like hell. Let us abolish his memory from the earth, let us lay hands upon his precious possession.” This is very like what the Lord Jesus himself, in one of the Gospel parables, puts into the mouths of the wicked vinedressers: “This is the heir; come let us kill him, and we shall have his inheritance.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/1/13",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8381",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "In the words of Solomon, “My son, let not sinners lead you astray, do not walk in their ways. Do not walk if they entice you saying: Come with us, let us share innocent blood: let us hide the just man in the earth unjustly, let us swallow him up alive as in hell.” This last passage is also a prophecy of the passion of the Lord. –.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/1/13",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8382",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 1:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

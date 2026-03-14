@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 4:20",
+  "verse_text": "Verse text for JO 4:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/4/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Galgal. It received its name afterwards, chap. v. 9. It lay in a direct line from Jericho to the Jordan eastwards, being ten stadia from the former, and fifty from the latter place. Josue had his camp here while he subdued the kings of Chanaan, (Calmet) as it had plenty of water and wood in its environs; (Menochius) though perhaps at this time, there were no houses. Saul was here recognized king of all Israel, 1 Kings xi. 14. Tertullian (contra Marc. iv.) supposes, that the twelve stones were placed on the ark, in arc am, which is not at all probable. (Calmet)\nBut they might be erected in its vicinity, and that may perhaps be the meaning of the author. (Haydock)\nR. Levi says the stones were placed near the ark, that all Israel might see them thrice a year. Josephus believes that an altar was formed of them.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/4/20",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 4:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

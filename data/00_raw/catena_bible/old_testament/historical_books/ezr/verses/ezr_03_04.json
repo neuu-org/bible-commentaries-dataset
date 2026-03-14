@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZR 3:4",
+  "verse_text": "Verse text for EZR 3:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/3/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And Zerubbabel, Joshua, and the rest of the leading men of the fathers of Israel said to them: 'It is not for you and for us that we should build a house to our God, but we alone will build to the Lord our God'. It is not for heretics to build the house of the Lord, which is the Church, from which they are proved to be strangers. Rather, it is only for those who, adhering to Christ the true king and priest, deserve to be called 'leading men of the fathers' because of their devout care towards those who yearn 'to see God', which is the meaning of the word 'Israel'.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ezr/3/4",
+      "full_content_url": "https://catenabible.com/com/58fe623b543064d91d46c35b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 3:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

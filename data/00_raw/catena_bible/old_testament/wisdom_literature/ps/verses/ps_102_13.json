@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 102:13",
+  "verse_text": "Verse text for PS 102:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/102/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "14. \"Thou shalt arise, and have mercy upon Sion: for it is time that Thou have mercy upon her\" (ver. 13). What time? \"But when the fulness of time was come, God sent forth His Son, made of a woman, made under the Law.\" And where is Sion? \"To redeem them that were under the Law.\" First then were the Jews: for thence were the Apostles, thence those more than five hundred brethren, thence that later multitude, who had but one heart and one soul toward God. Therefore, \"the time is come.\" What time? \"Behold, now is the accepted time: behold, now is the day of salvation.\" Who saith this? That Servant of God, that Builder, who said, \"Ye are God's building.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/102/13",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 102:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

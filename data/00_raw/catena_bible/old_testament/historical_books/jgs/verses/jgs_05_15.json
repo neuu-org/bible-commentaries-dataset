@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 5:15",
+  "verse_text": "Verse text for JGS 5:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/5/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew, \"he was sent on foot into the vale \"to contend with the 900 chariots of Sisara. Issachar boldly followed him in battle. They came down with such fury and speed, as if they were falling headlong down a precipice. (Haydock) Sisara presently turned his back, being affrighted with the apparition of angels, who probably fought at the head of Barac's troop. (Salien) Only three tribes exposed themselves to danger, while the rest were either engaged in civil broils, or in their usual employments. (Calmet) Divided. By this it seems that the valiant men of the tribe of Ruben were divided in their sentiments, with relation to this war; which division kept them at home within their own borders, to hear the bleating of their flocks. (Challoner) Hebrew may have different explanations, \"In the divisions (families) of Ruben, there are princes of a great heart \"renowned for their prudence and valour: or \"Ruben dwelt in his division, (or territory) there are chiefs \"(Calmet) Protestants, \"for the divisions of Ruben, there were great thoughts of heart. \"Bonfrere supposes that these disputes excited the surprise and observations of all.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/5/15",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd04",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the princes of Issachar were with Deborah; even Issachar, and also Barak: he was sent on foot into the valley. For the divisions of Reuben there were great resolves of heart. Divided against himself: By this it seems that the valient men of the tribe of Ruben were divided in their sentiments, with relation to this war; which division kept them at home within their own borders, to hear the bleating of their flocks.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/5/15",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa011",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 5:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

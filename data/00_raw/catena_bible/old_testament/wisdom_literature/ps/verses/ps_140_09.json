@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 140:9",
+  "verse_text": "Verse text for PS 140:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/140/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"The head of their going about, the toil of their own lips shall cover them\" (ver. Me, he saith, the shadow of Thy wings shall cover: for, \"Thou hast covered me in the day of battle. \" Them what shall cover. \"The head of their going about;\" that is, pride. What is, \"their going about\". How they go about and stand not, how they go in the circle of error, where is journeying without end. He who goeth in a straight line, beginneth from some point, endeth at some point: he who goeth in a circle, never endeth. That is the toil of the wicked, which is set forth yet more plainly in another Psalm, \"The wicked walk in a circle. \" But \"the head of their going about\" is pride, for pride is the beginning of every sin. But whence is pride \"the toil of their own lips\". Every proud man is false, and every false man is a liar. Men toil in speaking falsehood; for truth they could speak with entire facility. For he toileth, who maketh what he saith: he who wisheth to speak the truth, toileth not, for truth herself speaketh without toil.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/140/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6769",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Head. Hebrew also, \"poison \"(Berthier) or \"sum \"of their mischievous devices. (Worthington)\nLabour, or punishment. (Calmet)\nTheir subtle persuasions shall turn to their ruin. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/140/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4f7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 140:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "AM 8:10",
+  "verse_text": "Verse text for AM 8:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/8/10",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Baldness, the hair being cut in mourning, Job i. 20.\nSon, most afflicted, Zacharias xii. 10., and Jeremias vi. 26. (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/8/10",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf479",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Wonderworker",
+      "period": "AD270",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And I will turn your feasts into mourning, and all your songs into lamentation; and I will bring up sackcloth upon every waist, and baldness upon every head; and I will make it like the mourning of an only son, and its end as a bitter day. Gregory the Wonderworker Let us keep [the Feast of Annunciation] with psalms and hymns and spiritual songs. From ancient times Israel kept their festival, but then it was with unleavened bread and bitter herbs, of which the prophet says, “I will turn their feasts into afflictions and lamentation and their joy into shame. ” But our afflictions our Lord has assured us he will turn into joy by the fruits of repentance.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/8/10",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c3a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Lucius Caecilius Firmianus Lactantius",
+      "period": "AD320",
+      "content": "Suspended, then, and fastened to his cross Christ cried out to God the Father in a loud voice and willingly laid down his life. In that same hour there was an earthquake, and the veil of the temple that separated the two tabernacles was cut in two, and the sun was suddenly withdrawn, and from the sixth hour until the ninth hour there was darkness. The prophet Amos bears witness to this. “And it shall come to pass in that day, says the Lord, that the sun shall go down at midday, and the day shall be darkened of light. And I will turn your feasts into mourning and all your songs into lamentation.”",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/8/10",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c39",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 8:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

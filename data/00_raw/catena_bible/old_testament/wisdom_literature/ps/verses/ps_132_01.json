@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 132:1",
+  "verse_text": "Verse text for PS 132:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/132/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. It was right indeed, most beloved, that we should rather hear our Brother, my colleague, when present before all of us. And just now he refused not, but put us off; for he extorted from me that he might now listen to me, on the condition that I also may listen to him, for in charity itself we are all listening unto Him, who is our One Master in heaven. Attend therefore to the Psalm, entitled A Song of Degrees; considerably longer than the rest under the same title. Let us not therefore linger, save where necessity shall compel us: that we may, if the Lord permit, explain the whole. For ye also ought not to hear everything as men untaught; ye ought in some degree to aid us from your past listenings, so that it may not be needful that everything should be declared to you as though new.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/132/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6706",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Jesus Christ, (St. Hilary) or the pious king David, when he intended to build the temple. Solomon adopts some of the verses at his dedication, (ver. , and 2 Paralipomenon vi. ; Haydock) and some have attributed the psalm to him, to the captives, or to some prophet in the time of the Machabees, though the prophets then, in fact, appeared no longer. (Berthier) See Psalm xliii. , and xcviii. The Jews allow, that some verses regard the Messias, of whom the whole may be explained in a spiritual, (Calmet) or even in the second literal sense. (Berthier) It is usual for David, Moses, to speak of themselves in the third person. (Worthington) Meekness. Hebrew also, \"humility \"(Calmet) or \"affliction \"(St. Jerome) as the prophet might have all this in view. David gave abundant proofs of his humility (2 Kings vii. ; Berthier) and moderation, and was greatly afflicted all his life. (Haydock) Blessed are the meek, Matthew v. Christ has set before us his own example.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/132/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 132:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

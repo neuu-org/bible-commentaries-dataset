@@ -1,0 +1,47 @@
+{
+  "verse_reference": "RU 3:14",
+  "verse_text": "Verse text for RU 3:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ru/3/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "Some say that Noemi had not sinned herself, because she was seeking to revive the name of the dead man through the law of matrimony. However, the opposite seems rather to be true, because the method of looking for a husband here was not good (that is to say in the dark), and also because there was a closer relative than Booz, who ought to have been the first to be asked, and so someone would be hard done by unless his voluntarily ceded his rights in Law. It is on account of all this that Booz told Ruth that she should conceal what she did. Ruth however, who was newly converted to Judaism and did not know what the Law about matrimony required, nor about the means of going about it, except for what Noemi taught her, was totally excused. (Nicholas of Lyra Com Ruth)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ru/3/14",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9ce7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And she lay at his feet until the morning: and she rose up before one could recognize another. And he said, Let it not be known that a woman came into the floor. The next kinsman might otherwise allege this as a pretext for not marrying her, (Salien) as people are but too apt to suspect the worst, though nothing amiss had passed between them. (Haydock) Booz consulted his own as well as Ruth's reputation: for the apostle admonishes us to abstain from every appearance of evil, 1 Thessalonians v. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ru/3/14",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce21",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured RU 3:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

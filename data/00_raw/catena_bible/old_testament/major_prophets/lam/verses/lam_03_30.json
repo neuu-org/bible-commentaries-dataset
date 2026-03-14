@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 3:30",
+  "verse_text": "Verse text for LAM 3:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/3/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Him. We cannot verify this of the prophet as we can of Christ, (Matthew xxvi. 62.; Calmet) to whom this particularly refers. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/3/30",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bef97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "The condition of the person expecting is evaluated. First, regarding a height for contemplation: \"Let him sit alone in silence when he has laid it on him. \" Namely, that he be not impeded by turmoil within thought. Since, through such turmoil,\"he had laid it on him. \" That is, for a consideration of divine favors. As Hosea, the prophet concludes: \"Therefore, behold, I will allure her, and bring her into the wilderness, and speak tenderly to her. \" (Hos: 2:14). Besides, there is displayed turmoil through a rejection of the person expecting, while such a one awaits. It says: \"Let him sit alone in silence. \" Since, cast aside: \"when he has laid it on him. \" Second, the condition of the person expecting refers to humbleness of location. Saying: \"Let him put his mouth in the dustthere may yet be hope. \" Namely, while humbly speaking. Since Isaiah 29:4 reflects: \"Then deep from the earth you shall speak, from low in the dust your words shall come. \" Third, the condition of the person expecting can refer to their patience in tribulation. As expressed: \"Let him give his cheek to the smiter, and be filled with insults. \" That is, be prepared to give: \"his cheek to the smiter\". For the Apostle Matthew states: \"but if any one strikes you on the right cheek, turn to him the other also. \" (Mt: 5:39). Also: \"and be filled with insults\". Namely, a person should delight, as if being spared some fault by his own action. For, St Paul exclaims to the Romans: \"More than that, we rejoice in our sufferings, knowing that suffering produces endurance\". (Rorn: 5:3). And Isaiah 50:6 asserts: \"I gave my 'back to the smiters, and my cheeks to those who pulled out the beard.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/3/30",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d9d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 3:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

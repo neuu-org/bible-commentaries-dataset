@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 22:18",
+  "verse_text": "Verse text for MT 22:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/22/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ye hypocrites? Our divine Saviour knowing their malice, and that it was their wish in proposing this question, to render him odious to the people, or a suspicious character to the prince, answers them in these severe words. Another motive was, to let them see that the secrets of their inmost heart were open to him, and thus induce them to be converted from their wickedness; for, certainly, if they perceived that he could read their hearts, they must thence concluded that he was something more than human. This severe reprehension, according to St. Chrysostom, shews, that it is better for man that God should chastise him here in this life, than spare him here to chastise him hereafter. (To status)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/22/18",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf823",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What then says He? Why do you tempt me, you hypocrites? Do you see how He talks with them with more than usual severity? For since their wickedness was now complete and manifest, He cuts the deeper, first confounding and silencing them, by publishing their secret thoughts, and making it manifest to all with what kind of intent they are coming unto Him.\n\nAnd these things He did, repulsing their wickedness, so that they might not suffer hurt in attempting the same things again. And yet their words were full of much respect, for they both called Him Master, and bore witness to His truth, and that He was no respecter of persons; but being God, He was deceived by none of these things. Wherefore they also ought to have conjectured, that the rebuke was not the result of conjecture, but a sign of His knowing their secret thoughts.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/22/18",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac543",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 22:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

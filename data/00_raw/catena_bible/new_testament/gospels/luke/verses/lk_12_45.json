@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 12:45",
+  "verse_text": "Verse text for LK 12:45",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/12/45",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Of whom also did the Lord say: \"But if the evil servant shall say in his heart, My lord delayeth his coming, and shall begin to smite the man-servants and maidens, and to eat and drink and be drunken; the lord of that servant shall come in a day that he looketh not for him, and in an hour that he is not aware of, and shall cut him asunder, and appoint him his portion with the unbelievers.\".\nAnd again, \"But if the servant say in his heart, The Lord delayeth, and begin to beat his fellow-servants, and to eat, and drink, and to be drunken, his Lord will come in a day on which he does not expect Him, and shall cut him in sunder, and appoint his portion with the hypocrites.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/12/45",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbdfa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 12:45",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

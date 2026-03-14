@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 5:14",
+  "verse_text": "Verse text for 2KGS 5:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/5/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Clean. If bathing seven times in the Jordan had been an infallible remedy, there would soon have been no lepers in the land; and our Saviour plainly intimates that the cure was miraculous, Luke iv. 27. The leprosy of Naaman, though inveterate, was cured in an instant. To bathe in a rapid stream, is allowed to be very salutary for removing the diseases of the skin. (Calmet) (Vales. 38.)\nThe fathers discover in this miracle, a figure of the Gentiles called to the faith by the Synagogue, which is in servitude, Galatians iv. 25. Baptism cleanses us from all the seven capital sins, (Tertullian, contra Marc. 4.) so that no vestiges remain. (St. Ambrose) (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/5/14",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd44b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 5:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

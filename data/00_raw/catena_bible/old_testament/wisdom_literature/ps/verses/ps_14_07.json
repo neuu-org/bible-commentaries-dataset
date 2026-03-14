@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 14:7",
+  "verse_text": "Verse text for PS 14:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/14/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "8. \"Who will give salvation to Israel out of Sion?\" (ver. 7). Who but He whose humiliation ye have despised? is understood. For He will come in glory to the judgment of the quick and the dead, and the kingdom of the just: that, forasmuch as in that humble coming \"blindness hath happened in part unto Israel, that the fulness of the Gentiles might enter in,\" in that other should happen what follows, \"and so all Israel should be saved.\" For the Apostle too takes that testimony of Isaiah, where it is said, \"There shall come out of Sion He who shall turn away ungodliness from Jacob:\" for the Jews, as it is here, \"Who shall give salvation to Israel out of Sion?\" \"When the Lord shall turn away the captivity of His people, Jacob shall rejoice, and Israel shall be glad.\" It is a repetition, as is usual: for I suppose, \"Israel shall be glad,\" is the same as, \"Jacob shall rejoice.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/14/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6820",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sion; which God has chosen for his sanctuary. (Haydock)\nSalvation, or the Saviour, whom Jacob expected, Genesis xlix. (Berthier)\nThis Redeemer would fill all, both Jews and Gentiles, with joy, who should embrace his faith. (St. Augustine)\nThe prophet seems to foretell the restoration of the ten tribes to the kingdom of Judea, as it took place after the captivity. (Calmet, Diss.)\nBut he sighed for, and designated more particularly, (Haydock) the Saviour of the world; who would redeem man from the tyranny of the devil, to the great joy of those who strive to supplant every vice, and to contemplate God, (Worthington) as some interpret the names of Jacob and Israel. (Haydock)\nThe Gentiles will then be ingrafted into the stock of Abraham, (Menochius) into the true olive-tree, Romans xi. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/14/7",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdeb0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 14:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

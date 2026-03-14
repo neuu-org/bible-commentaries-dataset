@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 69:14",
+  "verse_text": "Verse text for PS 69:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/69/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Save Thou Me from the mire, that I may not stick\" (ver. From that whereof above he had spoken, \"Fixed I am in the clay of the deep, and there is no substance. \" Furthermore, since ye have duly received the exposition of that expression, in this place there is nothing further for you to hear particularly. From hence he saith that he must be delivered, wherein before he said that he was fixed: \"Save Thou Me from the mire, that I may not stick. \" And he explaineth this himself: \"Let Me be rescued from them that hate Me. \" They were themselves therefore the clay wherein he had stuck. But the following perchance suggesteth itself. A little before he had said, Fixed I am; now he saith, Save Thou Me from the mire, that I may not stick:\" whereas after the meaning of what was said before he ought to have said, Save Thou Me from the mire where I had stuck, by rescuing Me, not by causing that I stick not. Therefore He had stuck in flesh, but had not stuck in spirit. He saith this, because of the infirmity of His members. Whenever perchance thou art seized by one that urgeth thee to iniquity, thy body indeed is taken, in regard to the body thou art fixed in the clay of the deep: but so long as thou consentest not, thou hast not stuck; but if thou consentest, thou hast stuck. Let then thy prayer be in that place, in order that as thy body is now held, so thy soul may not be held, so thou mayest be free in bonds.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/69/14",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6b99",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Waters. Beneath which the Hebrews supposed hell was placed, Job xxvi. 5. (St. Hilary v. 39.)\nHe prays to be delivered from misery, (ver. 2.) and for a glorious resurrection. (Calmet)\nChrist could not be detained in limbo or in the grave. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/69/14",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be165",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 69:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

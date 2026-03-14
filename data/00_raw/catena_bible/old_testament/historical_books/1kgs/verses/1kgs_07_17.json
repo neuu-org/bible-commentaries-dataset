@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 7:17",
+  "verse_text": "Verse text for 1KGS 7:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/7/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "For the number seven is conventionally used to denote the grace of the Holy Spirit, as attested in the Apocalypse by John, who, after saying that he had seen “the lamb with seven horns and seven eyes,” went on to add, by way of explanation, “which are the seven spirits of God sent into the whole world.” This the prophet Isaiah more clearly explains when, speaking of the Lord who was to be born in the flesh, he says, “And the spirit of the Lord shall rest on him, the spirit of wisdom and of understanding, the spirit of counsel and of fortitude, the spirit of knowledge and of godliness. And he shall be filled with the spirit of the fear of the Lord.” The reason why there were seven rows of net in both capitals is that it was through the grace of one and the same septiform Spirit that the Fathers of both Testaments received the privilege of election.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/7/17",
+      "full_content_url": "https://catenabible.com/com/5e1b67548bc66721fe4ef8c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 7:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

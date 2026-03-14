@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZR 8:1",
+  "verse_text": "Verse text for EZR 8:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/8/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Nebuchadnezzar removes the Lord's vessels from Jerusalem when any unclean spirit snatches some of the faithful from the Church and strips them of the joy of inward peace; and he puts them in the temple of his god when he joins them to the fellowship of the reprobate who are the temple and city of the devil, namely the head of all evil ones, angels and men alike. But King Cyrus brings them forth and counts them out to the prince of Judah that they might be brought back to Jerusalem when our Lord, who is the heir of all things, frees from Satan's power those whom he has predestined to eternal salvation and presents them to the priests of the Church that they may be reconciled through penance. And it is well that it says that the vessels were counted out to the prince of Judah, because the Lord knows the number of his elect, nor does any one of his sheep perish when they confess his great and terrible name; for Judah is interpreted as 'confession'",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ezr/8/1",
+      "full_content_url": "https://catenabible.com/com/58fe623b543064d91d46c342",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 8:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

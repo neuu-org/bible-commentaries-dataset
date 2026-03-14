@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1TIM 3:10",
+  "verse_text": "Verse text for 1TIM 3:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/3/10",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "None could rightly be ordained a minister in the church if the apostle had said, “If any is without sin,” where he says, “If any is without crime”; or if he had said, “Having no sin,” where he says, “Having no crime.” Because many baptized believers are without crime, but I should say that no one in this life is without sin—however much the Pelagians are inflated, and burst asunder in madness against me because I say this: not because there remains anything of sin which is not remitted in baptism; but because by us who remain in the weakness of this life such sins do not cease daily to be committed, as are daily remitted to those who pray in faith and work in mercy. .",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1tm/3/10",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e635b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Orders, then, should be risen to in an orderly way; for he courts a fall who seeks to rise to the topmost heights of a place by steep ascents, disregarding the steps that lead to it.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/3/10",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e635a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Would it not be absurd that when a new servant is not entrusted with anything in a house till he has by long trial given proofs of his character, yet that one should enter into the church of God from a state of heathenism and be at once placed in a station of preeminence? Homilies on Timothy",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/3/10",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e6359",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 3:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

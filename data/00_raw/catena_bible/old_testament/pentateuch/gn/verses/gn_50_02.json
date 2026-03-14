@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 50:2",
+  "verse_text": "Verse text for GN 50:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/50/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Physicians, whose business it was to embalm dead bodies, with a composition of myrrh, in order to keep them from putrefaction, (Menochius) as the Egyptian mummies are treated. (Haydock) The entrails are taken out, by the embalmer during 30 days, and the body is left in salt and various drugs, for other 40, in all 70 days, as Herodotus informs us, (B. 86,) and as Moses here insinuates, ver. This was an honour peculiar to the kings. Before any person was buried, his praises were rehearsed; and it was lawful on this occasion to declare, what evil even the kings themselves had done; which sometimes caused them to be deprived of funeral honours. We have several funeral canticles preserved in Scripture: 2 Kings i. 33; 2 Paralipomenon xxxv. (Calmet) The Lamentations of Jeremias were perhaps of this nature, on the death of King Josias. The usual time for mourning among the Jews, was 30 days for people of eminence, (Numbers xx. ; Deuteronomy xxxiv. 8; Procopius) and seven for the rest, Ecclesiasticus xxii.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/50/2",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2a3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 50:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

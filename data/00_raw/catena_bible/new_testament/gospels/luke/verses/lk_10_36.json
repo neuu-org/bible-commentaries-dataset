@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 10:36",
+  "verse_text": "Verse text for LK 10:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/10/36",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Since no one is closer than he who tended to our wounds, let us love him as our Lord, and let us love him as our neighbor. Nothing is so close as the head to the members. Let us also love him who is the follower of Christ, let us love him who in unity of body has compassion on another’s need.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/10/36",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7490",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "God our Lord wished to be called our neighbor. The Lord Jesus Christ meant that he was the one who gave help to the man lying halfdead on the road, beaten and left by the robbers. The prophet said in prayer, “As a neighbor and as one’s own brother, so did I please.” Since the divine nature is far superior and above our human nature, the command by which we are to love God is distinct from our love of our neighbor. He shows mercy to us because of his own goodness, while we show mercy to one another because of God’s goodness. He has compassion on us so that we may enjoy him completely, while we have compassion on another that we may completely enjoy him.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/10/36",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e748f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "\"Which \"said He, \"of them was neighbour to him that suffered these things? \"and on his answering, \"He that showed mercy to him \"(replied),",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/10/36",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbd81",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves. The true meaning of the passage is this, Which of these three seems to thee to have acted as neighbour to the wounded man. and in this sense it was understood by the lawyer who answered, \"He that showed mercy upon him. \" Christ asked the lawyer which of the three by his actions showed that he looked upon the wounded man as a neighbour. For neighbour is a correlative term, and a man can only be a neighbour to a neighbour, just as a man can only be compassionate to one who needs pity. Hence Christ indicates the one by the other, and thus answers the lawyer\"s inquiry. Christ inverted His answer, in order to give an example of the perfection of brotherly love, so that the lawyer and all men might learn to imitate the Samaritan. Hence Jesus said, \"Go and do thou likewise,\" v37. So also in the parable of the two debtors, Christ asks, \"Which of them will love him most. Augustine, Bede, and all the Fathers.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/10/36",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fb4",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 10:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

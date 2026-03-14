@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PS 131:3",
+  "verse_text": "Verse text for PS 131:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/131/3",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "8. This Psalm therefore concludeth to this purpose: \"O Israel, trust in the Lord, from this time forth and even unto eternity\" (ver. 3). But the word seculum doth not always mean this world, but sometimes eternity; since eternity is understood in two ways; until eternity, that is, either evermore without end, or until we arrive at eternity. How then is it to be understood here? Until we arrive at eternity, let us trust in the Lord God; because when we have reached eternity, there will be no longer hope, but the thing itself will be ours.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/131/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6705",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Israel. This occurs in the preceding psalm. (Calmet)\nDavid encourages all to hope by his own experience. (Worthington)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/131/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let Israel hope in the LORD from this time forth and forever. Hilary of Poitiers But he does not demand this living bread from heaven for himself alone, he encourages all mankind to hope for it by saying: Let Israel hope in the Lord from henceforth and for evermore. He sets no temporal limit to our hope, he bids our faithful expectation stretch out into infinity. We are to hope for ever and ever, winning the hope of future life through the hope of our present life which we have in Christ Jesus our Lord, Who is blessed for ever and ever.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/131/3",
+      "full_content_url": "https://catenabible.com/com/574715f73c6effa740ddd55b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 131:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

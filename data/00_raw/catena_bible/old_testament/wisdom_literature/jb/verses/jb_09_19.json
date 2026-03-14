@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JB 9:19",
+  "verse_text": "Verse text for JB 9:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/9/19",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Equity. Hebrew, \"if judgment, who will appoint me a time \"(Haydock) or \"set me before him \"and undertake my defence? Who will dare to sit as judge between us?",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/9/19",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdbc8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "For He tries the counts of our lives, Who does not make them out by the testimony of another; in that He, Who is one day revealed as a strict inflicter of punishment, Himself was for long the silent witness of the sin. For it is on this account that the Prophet says, I am judge and witness. ] Hence he saith again, I have long time holden My peace; I have been still, and refrained Myself; now will I cry like a travailing woman. 42, 12] For a woman in travail casts forth with pain, what she has long borne in her womb with burthensomeness. And so after a long silence, like a travailing woman, the Lord utters His voice, in that what He now bears silently in Himself, He one day as it were reveals with pain in the avenging of the Judgment. But it deserves our enquiry; this righteous man, if any had ventured to give testimony in his behalf, would he have cleared him of guilt. And if no other gave testimony to him, then, at least, is he himself at all events of strength to offer testimony in his own behalf.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/9/19",
+      "full_content_url": "https://catenabible.com/com/57421a163c6effa740ddcf71",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh If I speak of strength, lo, he is strong: and if of justice, who shall set me a time to plead. “He will not let me catch my breath. ” That is, I am filled with a multitude of afflictions. “He has filled me with bitterness, for indeed he is superior in power. Who, then, shall resist his judgment. ” Job does not want to say simply that God is superior to him in power but also that God is able to do whatever he wants.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/9/19",
+      "full_content_url": "https://catenabible.com/com/5e1b5ed58bc66721fe4ef5fa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 9:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

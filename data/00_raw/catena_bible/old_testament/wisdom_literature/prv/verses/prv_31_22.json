@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 31:22",
+  "verse_text": "Verse text for PRV 31:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/31/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh She makes herself coverings of tapestry; her clothing is fine linen and purple. Ambrose of Milan The beauty of a good thing pleases the more, if it be shown under various aspects. For those are good things, whereof the texture of the priestly robe was the token, that is to say, either the Law or the church, which latter has made two garments for her spouse, as it is written—the one of action, the other of spirit, weaving together the threads of faith and works. On the Christian Faith , Introduction.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/31/22",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Tapestry, for the beds and floor.\nLinen, or cotton; byssus, Exodus xxv. 4.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/31/22",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be7a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 31:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

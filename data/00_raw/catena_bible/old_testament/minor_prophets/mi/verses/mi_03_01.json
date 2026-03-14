@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MI 3:1",
+  "verse_text": "Verse text for MI 3:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/3/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I. Hebrew and Septuagint, \"He, the Lord, said \"or, Micheas addressed the princes of both kingdoms, under Ezechias, ver. 12., and Jeremias xxvi. 18.\nTo know and practice, Osee vi. 3. (Calmet)\nBoth rich and poor strove to extort from each other. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/3/1",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And I said, Hear, I pray you, O heads of Jacob, and you rulers of the house of Israel; Is it not for you to know judgment. Indeed, the prophets repeatedly charged the people, saying, “Hear, you rulers of Sodom,” and “Your princes are faithless. ” And again Micah: “Is it not for you to know justice. ” In fact, everywhere they vehemently upbraided them. Will someone on that account find fault with God. Perish the thought. The fault, in truth, is with them. Moreover, what better proof could one offer that you do not know the law, than that of your failure to obey it. Homilies on John.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/3/1",
+      "full_content_url": "https://catenabible.com/com/5838db9b205c248f42e52c50",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 3:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

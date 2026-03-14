@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 11:29",
+  "verse_text": "Verse text for ACTS 11:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/11/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Who dwell in Judea. Most of the faithful in Jerusalem, who wished to live perfect lives, had sold their possessions, and placed the price in the hands of the apostles; and many others, who had not voluntarily relinquished their property, had probably lost most of it in the persecutions. Hence arose the particular distress of the brethren in Jerusalem, to relieve which the Gentiles made collections. It was meet, that they who had been made partakers of their spiritual goods, should now in time of need administer to them of their temporal substance. (Denis the Carthusian)\nImitate the alms of these primitive Christians, and make to yourselves provision against another life. Oh how many are now clothed in silks, and abound in pleasures, but are naked and void of every thing, that will bear examination on the day of judgment! (St. Chrysostom, hom. xxvi. in Act.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/11/29",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfdcd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then the disciples, every man according to his ability, determined to send relief unto the brethren who dwelt in Judea: Mark how the famine becomes to them the means of salvation, an occasion of almsgiving, a harbinger of many blessing. And (so it might have been) to you, one may say, if you were so minded, but you would not. But it is predicted, that they might be prepared beforehand for almsgiving. Unto the brethren which dwelt in Judæa; for they were enduring great hardships, but before this, they were not suffering from famine. Which also they did, and sent it to the elders by the hands of Barnabas and Saul.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/11/29",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b92ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 11:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

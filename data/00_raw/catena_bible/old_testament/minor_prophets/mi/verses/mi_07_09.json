@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MI 7:9",
+  "verse_text": "Verse text for MI 7:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/7/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "We sometimes bear illness as a punishment for sin intended for our conversion, “for whom the Lord loves,” says the Scripture, “he chastises. ” Again Scripture teaches, “Therefore are there many infirm and weak among you, and some have died. But if we would judge ourselves, we should not be judged, we are chastised by the Lord that we be not condemned with the world. ” Consequently, when we who belong to this class have recognized our transgressions, it may be fitting that we should simply bear in silence and without recourse to medicine all the afflictions which come to us, remembering the words of the prophet: “I will bear the wrath of the Lord because I have sinned against him. ” We should, moreover, give proof of our amendment by bringing forth fruits worthy of penance, remembering the words of the Lord: “Behold, you are made whole; sin no more, lest some worse thing happen to you. ” Sometimes also, when sickness afflicts us at the request of the evil one, our benevolent master may condescend to enter combat with him, treating him as if he were a mighty adversary and confounding his boasts by the heroic patience of his servants.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mi/7/9",
+      "full_content_url": "https://catenabible.com/com/5838db9b205c248f42e52c84",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 7:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

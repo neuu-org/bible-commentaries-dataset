@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 3:20",
+  "verse_text": "Verse text for ECCL 3:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/3/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "The resurrection as a fact is not to be rejected because of an exceptional situation. Yet, since all things earthly return and crumble into the earth, I wonder how there can be any doubt even concerning the instances noted. For the most part, the sea itself also casts up on neighboring shores whatever human bodies it has swallowed. And if this were not so, it surely would not be difficult for God to join what has been scattered and to unite again what has been dispersed. Could it be maintained for a moment that God, whom the universe and the silent elements obey and nature serves, did not perform a greater miracle in giving life to clay than in joining it together? On His Brother Satyrus",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/3/20",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee85",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "In order, indeed, that you may have the fullest and clearest assurance that what is the soul is in the usage of the Holy Scriptures also called spirit, the soul of a brute animal has the designation of spirit. And of course cattle have not that spirit which you, my beloved brother, have defined as being distinct from the soul. It is therefore quite evident that the soul of a brute animal could be rightly called “spirit” in a general sense of the term; as we read in the book of Ecclesiastes, “Who knows the spirit of the sons of men, whether it goes upward; and the spirit of the beast, whether it goes downward into the earth. ” In like manner, touching the devastation of the deluge, the Scripture testifies, “All flesh died that moved upon the earth, both of fowl, and of cattle, and of beast, and of every creeping thing that creeps upon the earth, and every man: and all things which have the spirit of life. ” Here, if we remove all the windings of doubtful disputation, we understand the term spirit to be synonymous with soul in its general sense. Of so wide a signification is this term, that even God is called “a spirit”; and a stormy blast of the air, although it has material substance, is called by the psalmist the “spirit” of a tempest. For all these reasons, therefore, you will no longer deny that what is the soul is called also spirit. I have, I think, adduced enough from the pages of Holy Scripture to secure your assent in passages where the soul of the very brute beast, which has no understanding, is designated spirit.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/3/20",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee86",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 3:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 21:4",
+  "verse_text": "Verse text for JGS 21:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/21/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Altar, within the tabernacle, to suffice for the number of victims as Solomon did; (3 Kings viii. 64.; Tirinus) or out of the court, by God's dispensation, as they were defiled with blood; (Numbers xxxi. 24.; Calmet) though this is not certain, as four months elapsed between the battle and the reconciliation of the remaining Israelites with their brethren: (chap. xx. 47.) so that during that interval, they might have committed the massacres in the different cities, and still have had time to be purified seven days, as the law required, before they could be allowed to enter the camp or the tabernacle. (Haydock)\nSome think that one altar was prescribed only during the sojournment in the desert. See Serarius. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/21/4",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcdf9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 21:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

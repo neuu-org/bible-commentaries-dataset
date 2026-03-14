@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 2:22",
+  "verse_text": "Verse text for JN 2:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/2/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "When therefore he was risen from the dead, his disciples remembered that he had said this unto them; and they believed the scripture, and the word which Jesus had said. Cornelius a Lapide When therefore He was risen, &c. They believed the Scripture, which foretold that Christ would rise from the dead. This, which they did not previously understand, they understood when they saw it actually fulfilled in the resurrection of Christ. Such a Scripture is that verse of the Psalm (xvi10), \"Thou shalt not leave My soul in hell, nor suffer Thine Holy One to see corruption.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/2/22",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520fc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But at the time when this was spoken, the Jews were perplexed as to what it might mean, and cast about to discover, saying,",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/2/22",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabaac",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 2:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

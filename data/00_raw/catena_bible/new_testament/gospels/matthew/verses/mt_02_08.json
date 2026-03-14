@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 2:8",
+  "verse_text": "Verse text for MT 2:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/2/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you see his extreme folly? Why, if you say these things in sincerity, wherefore do you inquire privily? But if intending to plot against Him, how is it you do not perceive, that from the fact of their being asked secretly the wise men will be able to perceive your craft? But as I have already said, a soul taken captive by any wickedness becomes more utterly senseless than any thing.\n\nAnd he said not, go and learn concerning the King, but concerning the young Child; for he could not even endure to call Him by the name of His dominion.\n\n4. But the wise men perceive nothing of this, by reason of their exceeding reverence (for they never could have expected that he could have gone on to so great wickedness, and would have attempted to form plots against a dispensation so marvellous): and they depart suspecting none of these things, but from what was in themselves auguring all that would be in the rest of mankind.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/2/8",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac2f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "He did not say, \"search for the king\" but \"search for the Child,\" for he could not endure even to utter Christ’s name. From this it is clear that he was in a rage against Christ.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/2/8",
+      "full_content_url": "https://catenabible.com/com/58a5ce5054b4f95416b2f5d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 2:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

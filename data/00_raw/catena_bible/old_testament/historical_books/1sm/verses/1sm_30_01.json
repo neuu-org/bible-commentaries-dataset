@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 30:1",
+  "verse_text": "Verse text for 1SM 30:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/30/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Day. It was distant from Aphec about 90 miles.\nSmitten, yet without killing any. (Calmet)\nWe may adore a merciful Providence, which prevented these barbarians from treating David's men as he had treated theirs, chap. xxvii. 11. (Salien, the year before Christ 1074.)\nHe would allow them to burn the city, that David might be roused to execute the divine vengeance upon them. (Theodoret)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/30/1",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd026",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 30:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

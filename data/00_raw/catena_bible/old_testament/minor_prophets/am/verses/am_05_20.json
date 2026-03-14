@@ -1,0 +1,47 @@
+{
+  "verse_reference": "AM 5:20",
+  "verse_text": "Verse text for AM 5:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/5/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Braulio of Zaragoza",
+      "period": "AD651",
+      "content": "I am pierced by one wound and tortured with much grief, the bond of bitterness does not permit the tongue to perform its function, and it is easier to weep than to talk. Lo, one affliction comes upon another affliction and contrition upon contrition, “as if a man were to flee from a lion, and a bear should meet him,” or howl at being struck by a scorpion, “and a snake should bite him,” so completely am I dejected and afflicted with the misery of sorrow. I confess, madam, that every time I try to write to you about the passing of our lady Basilla of blessed memory, I am overcome with bitterness and experience a dullness in my mind, a heaviness in my sense and slowness in my tongue, because while I was occupied with grief, my mind was moved by death.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/5/20",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c26",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This brings us to a conclusion on another matter of great importance. The observances regarding sacrifices, sabbaths, new moons, and all such things prescribed by the Jewish way of life of that day—they are not essential. Even when they were observed they could make no great contribution to virtue; nor when neglected could they make the excellent person worthless or degrade in any way the sanctity of his soul. People of old, while still on earth, manifested by their piety a way of life that rivals the way the angels live. Yet they followed none of these observances, they slew no beasts in sacrifice, they kept no fast, they made no display of fasting. They were so pleasing to God that they surpassed this fallen human nature of ours and, by the lives they lived, drew the whole world to a knowledge of God.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/5/20",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c27",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 5:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

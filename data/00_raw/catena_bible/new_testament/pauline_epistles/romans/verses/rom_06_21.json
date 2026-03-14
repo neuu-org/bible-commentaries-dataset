@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ROM 6:21",
+  "verse_text": "Verse text for ROM 6:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/6/21",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "What are the fruits of sin? Learning from them what a good life is we are ashamed by the way we lived so wickedly before. And it is not only that the opinion of the pagans is wicked but also the heresy which is found most of all in Phrygia, to which only a morally corrupt person would belong, in which there is no sacrament and Christian piety has died out. Behold a freedom full of sins and bound by wickedness, whose deeds have only shame as their reward and whose end is death! Our departure is the end of this life and its deeds, and either death or life will succeed it. But here the word death has a double meaning, for it shifts from one kind of death to another. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/6/21",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f8c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Death is the fellowship of the soul in a state of sin with the body, and life is separation from that sin.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/6/21",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f8a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "If even the recollection of your former slavery makes you ashamed, think how much more the reality of it would do so. You have gained in two ways—by being set free from your former shame and by having come to recognize your past life for what it was.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/6/21",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f8d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 6:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

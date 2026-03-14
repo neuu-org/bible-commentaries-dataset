@@ -115,9 +115,10 @@ EMPTY_ENRICHMENT = {
 
 
 class Enricher:
-    def __init__(self, model: str = "gpt-4o-mini"):
+    def __init__(self, model: str = "gpt-4o-mini", lang: str = "pt"):
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self.model = model
+        self.lang = lang
         self._last_call = 0.0
         self.stats = {
             "files": 0, "enriched": 0, "skipped": 0, "no_translation": 0,
@@ -173,14 +174,26 @@ class Enricher:
 
         return [{"comment_id": p["comment_id"], **EMPTY_ENRICHMENT} for p in payload], 0.0
 
-    def process_file(self, file_path: Path, overwrite: bool = False):
-        with file_path.open("r", encoding="utf-8") as f:
+    def process_file(self, input_path: Path, output_path: Path, overwrite: bool = False):
+        with input_path.open("r", encoding="utf-8") as f:
             data = json.load(f)
 
         comments = data.get("commentaries", [])
         if not comments:
             self.stats["files"] += 1
             return
+
+        # Check if output already exists with enrichment
+        if output_path.exists() and not overwrite:
+            with output_path.open("r", encoding="utf-8") as f:
+                existing = json.load(f)
+            existing_comms = existing.get("commentaries", [])
+            if existing_comms and all(
+                "ai_summary" in c for c in existing_comms if c.get("content_pt")
+            ):
+                self.stats["files"] += 1
+                self.stats["skipped"] += len(comments)
+                return
 
         to_enrich = []
         for idx, c in enumerate(comments):
@@ -221,11 +234,11 @@ class Enricher:
             self.stats["enriched"] += 1
 
         data["commentaries"] = comments
-        atomic_write_json(file_path, data)
+        atomic_write_json(output_path, data)
         self.stats["files"] += 1
 
     def discover_files(self, testament: str, book: str, max_files: int = 0) -> list:
-        base = REPO_ROOT / "data" / "02_translated_enriched" / testament
+        base = REPO_ROOT / "data" / "02_translated" / self.lang / testament
         files = []
         for p in sorted(base.rglob("verses/*.json")):
             if f"/{book.lower()}/" in str(p).lower().replace("\\", "/"):
@@ -234,17 +247,34 @@ class Enricher:
             files = files[:max_files]
         return files
 
+    def map_output(self, input_path: Path) -> Path:
+        """Map 02_translated/pt/... path to 03_enriched/pt/... path."""
+        s = str(input_path)
+        # Split after 02_translated/pt/ to get the relative path
+        marker = f"02_translated/{self.lang}"
+        alt_marker = f"02_translated\\{self.lang}"
+        if marker in s:
+            rel = s.split(marker, 1)[1]
+        elif alt_marker in s:
+            rel = s.split(alt_marker, 1)[1]
+        else:
+            rel = s.split("02_translated", 1)[1]
+        return REPO_ROOT / "data" / "03_enriched" / self.lang / rel.lstrip("/\\")
+
     def run(self, testament: str, book: str, max_files: int = 0, overwrite: bool = False):
         files = self.discover_files(testament, book, max_files)
         print(f"Enriching {len(files)} files ({testament}/{book}) with {self.model}")
+        print(f"  Input:  data/02_translated/")
+        print(f"  Output: data/03_enriched/")
 
         if not files:
             print("No translated files found. Run translate.py first.")
             return
 
         for fp in tqdm(files, desc="Enriching"):
+            out = self.map_output(fp)
             try:
-                self.process_file(fp, overwrite)
+                self.process_file(fp, out, overwrite)
             except Exception as e:
                 self.stats["errors"] += 1
                 err_log = LOG_DIR / "enrich_errors.log"
@@ -273,10 +303,11 @@ def main():
     parser.add_argument("--book", required=True, help="Book name (e.g., john, acts)")
     parser.add_argument("--max-files", type=int, default=0, help="Limit files")
     parser.add_argument("--model", default="gpt-4o-mini", help="OpenAI model")
+    parser.add_argument("--lang", default="pt", help="Language code (default: pt)")
     parser.add_argument("--overwrite", action="store_true", help="Re-enrich existing")
     args = parser.parse_args()
 
-    enricher = Enricher(model=args.model)
+    enricher = Enricher(model=args.model, lang=args.lang)
     enricher.run(args.testament, args.book, args.max_files, args.overwrite)
 
 

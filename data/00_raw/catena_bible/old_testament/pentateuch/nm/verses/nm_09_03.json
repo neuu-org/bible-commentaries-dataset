@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 9:3",
+  "verse_text": "Verse text for NM 9:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/9/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh In the fourteenth day of this month, at evening, you shall keep it in its appointed time: according to all its rites, and according to all its ceremonies , shall you keep it. Hebrew, \"between the two evenings \"Exodus xii. Septuagint, \"towards the evening, in its season, according to its law, and determination \"sugkrisin, (ver. 14,) suntaxin, \"arrangement \"in both places we have justifications. (Haydock) God's law is so called, because nothing can be done right without it. (Menochius) The merit of human actions depends on their conformity with the will of God; (Du Hamel) and when he gives directions, we must comply exactly.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/9/3",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc71c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 9:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

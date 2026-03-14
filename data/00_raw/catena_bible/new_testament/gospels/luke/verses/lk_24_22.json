@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 24:22",
+  "verse_text": "Verse text for LK 24:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/24/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Yea, and certain women also of our company made us astonished, who were early at the sepulcher; Cornelius a Lapide Yea, and certain women also of our company made us astonished (ÎµÌ‰Î¾Î­ÏƒÏ„Î·ÏƒÎ±Î½). For what the women had told inspired them with awe rather than fear, and, says Theophylact, \"overthrew their doubting and unbelief, whilst it strengthened their faith and hope in the resurrection of Christ. Their fear therefore struggled with their hope, and between the two they were undecided and in doubt.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/24/22",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 24:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 8:35",
+  "verse_text": "Verse text for JO 8:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/8/35",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Repeated. Coverdale's Bible has \"Josua caused it to be proclaimed. \"\"It is very common in Scripture to represent a person as doing that which is done by another, in his name and by his authority. \"(Kennicott)\nJosue might be in the midst to preside, (Calmet) or rather he would be along with the princes of the six tribes on Mount Garizim, ver. 30. (Haydock)\nThus the covenant entered into between God and the Israelites, was solemnly ratified when the latter first entered the promised land. The greatest part of those who had been present at Horeb had perished in the wilderness. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/8/35",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb9f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 8:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

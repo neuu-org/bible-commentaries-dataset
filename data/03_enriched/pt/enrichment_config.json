@@ -1,0 +1,36 @@
+{
+  "pipeline": "translate_and_enrich_commentaries_final.py",
+  "translation": {
+    "source_language": "en",
+    "target_language": "pt-BR",
+    "model": "gpt-4o-mini",
+    "glossary_terms": 14,
+    "strategy": "batch translation with theological glossary"
+  },
+  "enrichment": {
+    "model": "gpt-4o-mini",
+    "fields_generated": [
+      "ai_summary (one_sentence, abstract, key_points)",
+      "argumentative_structure (thesis, arguments, objections, conclusion)",
+      "theological_analysis (doctrines, traditions, church_fathers, theological_method, controversies)",
+      "spiritual_insight (theme, practical_reflection)"
+    ],
+    "system_prompt": "Teologo patristico especializado em exegese e analise historica dos Pais da Igreja"
+  },
+  "coverage": {
+    "as_of": "2026-03-14",
+    "total_enriched_files": 879,
+    "total_original_files": 31218,
+    "coverage_percent": 2.8,
+    "by_book": {
+      "acts": { "enriched": 865, "total": 1007, "percent": 85.9 },
+      "john": { "enriched": 14, "total": 879, "percent": 1.6 }
+    }
+  },
+  "cost_tracking": {
+    "model_pricing": {
+      "gpt-4o-mini": { "input_per_1M": 0.15, "output_per_1M": 0.60 }
+    },
+    "note": "Per-file cost tracked in enrichment_metadata.model within each file"
+  }
+}

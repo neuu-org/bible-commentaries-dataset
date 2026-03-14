@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 7:11",
+  "verse_text": "Verse text for MK 7:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/7/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The Lord himself discussed that commandment of the law which says: “Honor thy father and thy mother. ” He made it clear that it is to be interpreted not as mere words, which, while offering an empty show of honor to parents, might still leave them poor and their necessities unrelieved. Instead the honor of parents should focus on the actual provision of the necessities of life. The Lord commanded that poor parents should be supported by their children who would reimburse them back when they are old for all those benefits which they themselves received in childhood. The scribes and Pharisees instead were teaching children to honor their parents by saying: “It is corban, that is to say, a gift which I have promised to the altar and will present at the temple, where it will relieve you as much as if I were to give it to you directly to buy food. ” So it frequently happened that while father and mother were destitute, their children were offering sacrifices for the priests and scribes to consume. Letter , To Ageruchia.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/7/11",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d8d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 7:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

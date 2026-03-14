@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 9:27",
+  "verse_text": "Verse text for MK 9:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "As he revealed himself to him in the reality of his Godhead by his power to save, so he further exhibited to him the reality of his human nature by taking him by the hand. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/27",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52ddb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But Jesus took him by the hand, and lifted him up; and he arose. This person, whom the apostles had forbidden to work miracles in the name of Christ, believed indeed in Christ, but did not follow him, on account of the great poverty of the apostles: he was not perfect, nor had he left all things to follow Christ. The apostles therefore concluded, that such a one was not worthy to work miracles in the name of their divine Master. But for this indiscretion, Christ rebukes them, saying , do not (Tirinus).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/27",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf95f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

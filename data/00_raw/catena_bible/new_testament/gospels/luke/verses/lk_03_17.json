@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 3:17",
+  "verse_text": "Verse text for LK 3:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/3/17",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Through the sign of the fan, the Lord is said to have the right to distinguish merits. When the grain is winnowed on the threshing floor, the full grain is separated from the empty, the fruitful is separated from the worthless, as if by a weighing of a blowing breeze. So through this comparison, the Lord is manifest, because on the day of judgment, he separates the merits and fruits of solid virtue from the unfruitful shallowness of worthless ostentation and inadequate deeds, before he establishes the people of perfect merit in a heavenly home. For he who has deserved to be like him is the perfect fruit. The Lord is like the grain of wheat that has died. So he confers very many fruits on us, hated by chaff and no friend to worthless merits. And therefore, a fire that is not harmful by its nature will burn before him. For he who burns up the evils of wickedness adds to the radiance of goodness.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/3/17",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7339",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "\"For the fan is in the Lord's hand, by which the chaff due to the fire is separated from the wheat.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/3/17",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc34",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By the barn-floor is here prefigured the Church of Christ, in which many are called, but few are chosen. This perfect cleansing of the floor, as it is in the Greek, is performed both here when the wicked, on account of their open crimes, are excluded from the communion of the faithful by the Church; or, on account of their hidden sins, are after death by infinite justice chastised; but most especially at the end of the world, when the Son of man shall send his angels to gather from his kingdom all scandals. (Ven. Bede)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/3/17",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa27",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Whose fan is in his hand, and he will thoroughly purge his floor, and will gather the wheat into his barn; but the chaff he will burn with fire unquenchable. Irenaeus of Lyons They also maintain that John indicated the same thing when he said, \"The fan is in His hand, and He will thoroughly purge the floor, and will gather the wheat into His garner; but the chaff He will burn with fire unquenchable. and slaying the impious with the breath of His lips, and having a fan in His hands, and cleansing His floor, and gathering the wheat indeed into His barn, but burning the chaff with unquenchable fire.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/3/17",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc33",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 3:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

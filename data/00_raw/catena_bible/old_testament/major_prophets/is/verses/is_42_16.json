@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 42:16",
+  "verse_text": "Verse text for IS 42:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/42/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Blind captives, or converts to Christianity.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/42/16",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bead0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Leo of Rome",
+      "period": "AD461",
+      "content": "The apostle John teaches how this is fulfilled: “We know that the Son of God came and gave understanding to us, that we might know the truth and be in his true Son.” And again, “Let us love, therefore, since God first loved us.” By loving us, God restores us to be his image, so that he might find the form of his own goodness in us. He grants that we ourselves might work what he works, indeed setting light to our minds and causing us to burn with the fire of his love, in order that we love not only him but also the things that he loves.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/16",
+      "full_content_url": "https://catenabible.com/com/5e88f302b1c7280cb341d091",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 42:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

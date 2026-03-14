@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ROM 10:6",
+  "verse_text": "Verse text for ROM 10:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/10/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Impossible that he could attain to salvation who had fallen under the power of sin, the Son effected both these things, being the Word of God, descending from the Father, becoming incarnate, stooping low, even to death, and consummating the arranged plan of our salvation, upon whom",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/10/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba8b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 10:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

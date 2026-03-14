@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 77:15",
+  "verse_text": "Verse text for PS 77:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/77/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Thou hast redeemed in Thine arm Thy people\" (ver. \"With Thine arm,\" that is, with Thy power. \"And to whom hath the arm of the Lord been revealed. \" \"Thou hast redeemed in Thine arm Thy people, the sons of Israel and of Joseph. \" How as if two peoples, \"the sons of Israel and of Joseph\". Are not the sons of Joseph among the sons of Israel. He hath admonished us of some distinction to be made. Let us search out our spirit, perchance God hath placed there something-God whom we ought even by night to seek with our hands, in order that we may not be deceived-perchance we shall discover even ourselves in this distinction of \"sons of Israel and of Joseph. \" By Joseph He hath willed another people to be understood, hath willed that the people of the Gentiles be understood. Why the people of the Gentiles by Joseph. Because Joseph was sold into Egypt by his brethren. That Joseph whom the brethren envied, and sold him into Egypt, when sold into Egypt, toiled, was humbled; when made known and exalted, flourished, reigned. And by all these things he hath signified what. What but Christ sold by His brethren, banished from His own land, as it were into the Egypt of the Gentiles. There at first humbled, when the Martyrs were suffering persecutions: now exalted, as we see; inasmuch as there hath been fulfilled in Him, \"There shall adore Him all kinds of the earth, all nations shall serve Him. \" Therefore Joseph is the people of the Gentiles, but Israel the people of the Hebrew nation. God hath redeemed His people, \"the sons of Israel and of Joseph. \" By means of what. By means of the corner stone, wherein the two walls have been joined together.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/77/15",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c2c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Arm. Christ, (St. Jerome) or power, Deuteronomy v. 15.\nJoseph, who was in Egypt, while the rest of the family dwelt in Chanaan. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/77/15",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be1db",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 77:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

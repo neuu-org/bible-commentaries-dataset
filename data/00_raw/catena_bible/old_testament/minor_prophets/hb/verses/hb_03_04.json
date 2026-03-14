@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HB 3:4",
+  "verse_text": "Verse text for HB 3:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hb/3/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "What does the psalm have to say of the Savior? “As the beloved Son of unicorns.” Our beloved Lord and Savior is the Son of the unicorns, the Son of the cross, of whom Habakkuk sings, “Rays shine forth from beside him, where his power is concealed.” After this beloved Son was crucified, then, was fulfilled the prophecy of the psalm: “The voice of the Lord strikes fiery flames.” For when Christ had been baptized and the entire universe had been purified in his cleansing, the fire of hell was extinguished. On the Epiphany and Psalm , Homily",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hb/3/4",
+      "full_content_url": "https://catenabible.com/com/5839eeff205c248f42e52fd8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And his brightness was as the light; he had rays flashing out of his hand: and there was his power hidden. Horns: That is, strength and power, which, by a Hebrew phrase, are called horns. Or beams of light, which come forth from his hands. Or it may allude to the cross, in the horns of which the hands of Christ were fastened, where his strength was hidden, by which he overcame the world, and drove out death and the devil.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hb/3/4",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9ec6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HB 3:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

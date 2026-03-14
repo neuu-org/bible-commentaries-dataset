@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 5:7",
+  "verse_text": "Verse text for JO 5:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/5/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "The circumcision was given to Abraham before the law, after the blessings and after the promise, as a sign to set him and those born of him and those of his household apart from the Gentiles in whose midst he was living. And this is obvious, because, when Israel spent forty years alone by themselves in the desert without mixing with any other nation, all those who were born in the desert were not circumcised. However, when Joshua brought them across the Jordan, they were circumcised and a second law of circumcision was made. For, under Abraham a law of circumcision was given, and then it was inoperative for forty years in the desert. Then, after the crossing of the Jordan, God again gave the law for a second time, as is written in the book of Joshua, son of Nave [Nun]: “At that time the Lord said to Joshua: make knives of stone from the sharpest rock, and sitting down circumcise the second time the children of Israel”; and a little further on: “for during forty-two years Israel dwelt in the wilderness of Midbar, and for this reason very many were uncircumcised of the sons of the fighting men who had come out of Egypt, who had disobeyed the commandments of God and to whom he declared that they should not see the good land which he had sworn to give to their fathers, the land flowing with milk and honey. The children of these he made to succeed in their place whom Joshua circumcised because of their not having been circumcised in the way. ” Hence, circumcision was a sign by which Israel was set apart from the Gentiles among whom they lived.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/5/7",
+      "full_content_url": "https://catenabible.com/com/5de470658b87fe0847ee8818",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 5:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

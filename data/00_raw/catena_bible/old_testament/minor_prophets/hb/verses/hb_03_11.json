@@ -1,0 +1,36 @@
+{
+  "verse_reference": "HB 3:11",
+  "verse_text": "Verse text for HB 3:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hb/3/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Fulgentius of Ruspe",
+      "period": "AD533",
+      "content": "And the prophet Habakkuk proclaims the ascension of Christ and the strength of the ecclesiastical order under the titles of the sun and the moon: “The sun raised high its hands; the moon stood still in its exalted place.” So the heart of each of the faithful is not improperly called a spiritual sun terrace, because it is illumined for its salvation by the rays of that sun above. Therefore Rahab the harlot hid those spies of Joshua on the terrace of her house. That is, she kept them in the upper parts because of the deep love of a heart illumined by spiritual knowledge so that she might sing this prophetic word by the truth of her deed: “I treasure your word in my heart, so that I may not sin against you.” To Euthymius, On the Forgiveness of Sins.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hb/3/11",
+      "full_content_url": "https://catenabible.com/com/5839eeff205c248f42e52fdd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HB 3:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

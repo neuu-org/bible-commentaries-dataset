@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 5:21",
+  "verse_text": "Verse text for IS 5:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/5/21",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Conceits. Blind guides, Matthew xv. 14.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/5/21",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8fc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Woe unto them that are wise in their own eyes, and prudent in their own sight. Those of you who are over others, pay special attention to your neighbors, particularly to those who have not been entrusted to your care. You do not know what good may lie hidden even in those you see doing something wrong. Let each of you, then, strive to be great in virtue, but nonetheless let him know that he is not so in some degree. Otherwise he may proudly attribute his greatness to himself and lose whatever good he has; he might even be rejected because of his sin of pride.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/5/21",
+      "full_content_url": "https://catenabible.com/com/5e4f7f3ec849cf49a740e210",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Who is the greatest subverter of the people of God—he who, relying on the power of free choice, despises the help of the Creator and is satisfied with following his own will, or he who dreads to be judged by the details of the Lord’s commandments? - \"Against the Pelagians 2.7\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/5/21",
+      "full_content_url": "https://catenabible.com/com/5e4f7f3ec849cf49a740e20f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 5:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

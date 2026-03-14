@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 23:35",
+  "verse_text": "Verse text for PRV 23:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/23/35",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "A mind sleeps with no care to worry it, and [it] is beaten and feels no pain when it does not foresee impending evils and so, too, is unaware of those it has committed. It is drawn … yet without feeling it. It is attracted by the allurements of vices, and yet [it] does not arouse itself to its selfdefense. But at the same time it wishes to be awake in order to find wine, that is, though it is so weighed down in its languid sleep as not to keep watch over itself, nevertheless, it still tries to be awake to the cares of the world, so as ever to inebriate itself with pleasures. And when it is asleep to that whereto it should be vigilantly awake, it wishes to be awake to something else, in regard to which it might have been laudably asleep. .",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/23/35",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8566",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 23:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

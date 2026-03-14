@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:151",
+  "verse_text": "Verse text for PS 119:151",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/151",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Lastly, it followeth, \"Thou art nigh at hand, O Lord, and all Thy ways are truth\" (ver. Even in their troubles, it hath been a wontedconfession of the saints, to ascribe truth unto God, because they suffer them not undeservedly. So did Queen Esther, so did holy Daniel, so didthe three men in the furnace, so do other associates in their sanctity confess. But it may be asked, in what sense it is here said, \"All Thy ways are truth;\" since in another Psalm it is read, \"All the ways of the Lord are mercy and truth. \" But towards the saints, All the ways of the Lord are at once mercy and truth: since He aideth them even in judgment, and thus mercy is not wanting; and in having mercy upon them, He performeth that which He hath promised, so that truth is not wanting. But towards all, both those whom He freeth, and those whom He condemneth, all the ways of the Lord are mercy and truth; because where He doth not show mercy, the truth of His vengeance is displayed. For He freeth many who have not deserved, but He condemneth none who hath not deserved it.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/151",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6690",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Near. To reward or punish. We wander from thee, yet there is no place between. (St. Augustine, x. 26, 27.) (Berthier)\nGod is ever ready to hear our just requests. (Worthington)\nHis law may be easily known, Deuteronomy xxx. 11. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/151",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be457",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:151",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

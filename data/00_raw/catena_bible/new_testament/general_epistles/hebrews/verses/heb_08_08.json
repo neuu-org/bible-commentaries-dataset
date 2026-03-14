@@ -1,0 +1,69 @@
+{
+  "verse_reference": "HEB 8:8",
+  "verse_text": "Verse text for HEB 8:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/8/8",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "\"For we find in the Scriptures, as the Lord says: \"Behold, I make with you a new covenant, not as I made with your fathers in Mount Horeb.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/8/8",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb1c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For finding fault with them. It is not said here, blaming the law, says St. Chrysostom, which in itself was good, just, and holy, (see Romans vii. ) but blaming the breakers and transgressors of it; not but that men were saved in the time of the law, who by God's grace believed in their Redeemer that was to come, and lived well. And the mercies of God were so great, even towards sinners, that he made them a solemn promise, clearly expressed in the prophet Jeremias, (Chap. ) The days shall come, saith the Lord, and I will make a new covenant. Not according to the covenant (or not such a one) as I made to their fathers, at the time when I took them as it were by the hand to lead them out of. Egypt with signs and prodigies: I then made choice of them to be my people, but they were always transgressing against this testament, this covenant, which I had made with them: and for their transgressions I neglected them, punished them from time to time, and, what was the greatest punishment of all, permitted such ungrateful and obstinate offenders to run on in their own sinful ways to their own ruin.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/8/8",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02f4",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But inasmuch as they were forever making objections, he says, Behold. The days come, says the Lord, when I will make a new covenant with the house of Israel and with the house of Judah. He is not speaking of any old Covenant: for, that they might not assert this, he determined the time also. Thus he did not say simply, according to the covenant which I made with their fathers, lest you should say [it was] the one made with Abraham, or that with Noah: but he declares what [covenant it was], not according to the covenant which I made with their fathers in the Exodus. Wherefore he added also, in the day that I took them by the hand, to lead them out of the land of Egypt; because they continued not in My covenant, and I regarded them not, says the Lord. You see that the evils begin first from ourselves (they themselves first, says he, continued not in [the covenant]) and the negligence is from ourselves, but the good things from Him; I mean the [acts] of bounty. He here introduces, as it were, an apology showing the cause why He forsakes them.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/8/8",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac7fd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "A new testament; not such as I once gave their fathers in the day wherein I led them out from the land of Egypt.\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/8/8",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb1c4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 8:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 10:12",
+  "verse_text": "Verse text for DN 10:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/10/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "Your words were heard. Behold how much the piety of a righteous man avails, that to him alone, as to one worthy, things not yet to be manifested in the world should be revealed.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/10/12",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac151",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "(Vulgate: on account of thy words). On the twenty-fourth day of the first month, that is, of Nisan, after three weeks or twenty-one days had elapsed, he beheld this vision, and he heard from the angel that on the very |114 first day he had begun to pray and to afflict himself before God, his words had been heard and granted. The question arises why, if he had been heard, was the angel not sent (699) to him right away. Well, by reason of the delay an opportunity was afforded him of praying to the Lord at greater length, so that in proportion as his earnest desire was intensified, he might by his effort the more fully deserve to hear [or else: \"might deserve to hear more, i. , than he would otherwise\"]. And as for the angel's statement, \"And I have come in response to thy words,\" his meaning is this: \"After thou didst begin to invoke God's mercy by good works and tearful supplication and fasting, then I for my part embraced the opportunity of entering in before God and praying for thee.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/10/12",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd349",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 10:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "COL 3:6",
+  "verse_text": "Verse text for COL 3:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/3/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The children of unbelief are either those who perished in Noe's exterminated; for these also are called children of unbelief, in the epistle to the Hebrews, and their crimes were the same as those mentioned here. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/3/6",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c01a6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And covetousness, he says, which is idolatry. For which things' sake comes the wrath of God upon the sons of disobedience.\n\nBy many things he had been withdrawing them; by the benefits which are already given, by the evils to come from which we had been delivered, being who, and wherefore; and all those considerations, as, for instance, who we were, and in what circumstances, and that we were delivered therefrom, how, and in what manner, and on what terms. These were enough to turn one away, but this one is of greater force than all; unpleasant indeed to speak of, not however to disservice, but even serviceable. For which things' sake comes, he says, the wrath of God upon the sons of disobedience. He said not, upon you, but, upon the sons of disobedience.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/3/6",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddcdf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 3:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

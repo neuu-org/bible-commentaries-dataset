@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 34:2",
+  "verse_text": "Verse text for PS 34:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/34/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But wherefore doth man bless the Lord at all times. Because he is humble. What is it to be humble. To take not praise unto himself. Who would himself be praised, is proud: who is not proud, is humble. Wouldest thou not then be proud. That thou mayest be humble, say what is here written; \"In the Lord shall my soul be praised: the humble shall hear thereof and be glad\" (ver. Those then who will not be praised in the Lord, are not humble, but fierce, rough, lifted up, proud. Gentle cattle would the Lord have; be thou the Lord's jumentum; that is, be thou humble. He sitteth upon thee, He ruleth thee: fear not lest thou stumble, and fall headlong: that indeed is thy infirmity; but consider Who sitteth upon thee. Thou art an ass's colt, but thou carriest Christ. For even He on an ass's colt came into the city; and that beast was gentle. \"Be not ye as the horse or as the mule, which have no understanding. \" For horse and mule sometimes lift up their neck, and by their own fierceness throw off their rider. They are tamed with the bit, with bridle, with stripes, until they learn to submit, and to carry their master. But thou, before thy jaws are bruised with the bridle, be humble, and carry thy Lord: wish not praise for thyself, but praised be He who sitteth upon thee, and say thou, \"In the Lord shall my soul be praised; the humble shall hear thereof, and be glad.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/34/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6964",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Praised. Hebrew, \"glory \"Psalm xxxi. 11. (Haydock)\nOthers, seeing my treatment, will give praise to thee, the Author of all good, (Calmet) and I shall be praised while I serve thee. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/34/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdfa2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 34:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

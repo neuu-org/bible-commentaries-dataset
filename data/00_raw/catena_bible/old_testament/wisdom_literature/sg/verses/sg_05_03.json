@@ -1,0 +1,47 @@
+{
+  "verse_reference": "SG 5:3",
+  "verse_text": "Verse text for SG 5:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/5/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "put off my garment: that is any worldly inpediment. (Alcuin)\nbathed my feet: that is the feet of the soul, and the water is the Word of God. (St. Ambrose)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/5/3",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d29",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Song of Songs 5:3 I have put off my robe; how shall I put it on. I have washed my feet; how could I soil them. By this is designated the tunic, which was under most. (Haydock) Feet. People in that climate had their feet bare in the house, and even on journies only wore sandals: so that frequent washing was requisite, Genesis xviii. , and 1 Timothy v. These excuses were vain, and Christ would not regard them, Matthew xxv. , and Luke xii. (Theodoret) (Calmet) The care of souls brings on many external occupations, which contemplative men would decline. Gregory) (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/5/3",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be893",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 5:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

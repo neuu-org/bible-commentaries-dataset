@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 6:6",
+  "verse_text": "Verse text for 1KGS 6:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/6/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "In the Gospel where the Lord is tempted by the devil these floors are called the pinnacles of the temple. But we also read that the apostle James, the brother of the Lord, was lifted to the pinnacle of the temple from which to address the people. Whether it was the practice of teachers to deliver their address to the people standing around below them while they sat on these floors is something we find nowhere in the Scriptures. So what the mystery obviously means is that these three floors denote the corresponding number of levels of the faithful, namely, married people, those who practice continence and virgins, levels distinguished according to the loftiness of their profession but all of them belonging to the house of the Lord and intently clinging to him by reason of their fellowship in the same faith and truth.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/6/6",
+      "full_content_url": "https://catenabible.com/com/5e1b66ae8bc66721fe4ef864",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The lowest chamber was five cubits broad, and the middle was six cubits broad, and the third was seven cubits broad: for outside in the wall of the house he made narrowed ledges round about, that the beams should not be fastened in the walls of the house. This was done for greater respect, and that the walls might not be injured. Ezechiel (xli. 6,) counts 33 chambers on the three sides. Jerome seems to double that number; while Josephus acknowledges only 30. (Calmet) Salien has 42, or 14 in each story.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/6/6",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd26d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 6:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

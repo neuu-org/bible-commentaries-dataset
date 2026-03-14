@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 23:2",
+  "verse_text": "Verse text for IS 23:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/23/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Be still, you inhabitants of the coast; you whom the merchants of Sidon, that pass over the sea, have replenished. Athanasius the Apostolic Still, it was when humanity was in this state that the Word—the Son—came to seek and to find that which was lost. Even before he came, he tried to restrain us from such foolishness, crying out, “Don’t be like the horse and the mule which have no understanding and whose mouth must be held in with bit and bridle. ” And because his own people were careless and acted as the wicked did, Isaiah, praying in the Spirit said, “You are to me like merchants of Phoenicia.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/23/2",
+      "full_content_url": "https://catenabible.com/com/5e4f7f8bc849cf49a740e368",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Island. Tyre was originally surrounded with water. A communication with the land was made afterwards, Josue xix. 29. (Calmet) (Ezechiel xxvii.) (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/23/2",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be9e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 23:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

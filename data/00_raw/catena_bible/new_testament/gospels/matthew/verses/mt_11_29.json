@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 11:29",
+  "verse_text": "Verse text for MT 11:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/11/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Take up my yoke Fear not the yoke of Christ, for it is a yoke of the greatest sweetness. Be not disheartened when he mentions a burden, because it is a burden exceeding light. If then our Saviour says, that the way of virtue is exceeding narrow, and replete with difficulties and dangers, we must call to mind that it is so to the slothful only. Perform therefore with alacrity what is required, and then will all things be easy; the burden will be light, and the yoke sweet. (St. Chrysostom, hom. xxxix.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/11/29",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf736",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And how said He before, The gate is narrow and the way strait? Matthew 7:13 Whilst you are careless, while you are supine; whereas, if you duly perform His words, the burden will be light; wherefore also He has now called it so.\n\nBut how are they duly performed? If you have become lowly, and meek, and gentle. For this virtue is the mother of all strictness of life. Wherefore also, when beginning those divine laws, with this He began. Matthew 5:3 And here again He does the very same, and exceeding great is the reward He appoints. For not to another only do you become serviceable; but yourself also above all you refresh, says He. For you shall find rest unto your souls.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/11/29",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac3fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 11:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

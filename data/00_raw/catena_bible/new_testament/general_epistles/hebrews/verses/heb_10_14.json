@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 10:14",
+  "verse_text": "Verse text for HEB 10:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/10/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By one oblation he hath perfected or consummated for ever them that are sanctified, or justified, because this one oblation was sufficient to sanctify all men. He repeats this, to show them the excellency of Christ's sacrifice above those of the former law. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/10/14",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0314",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But this [man] after He had offered one sacrifice for sins for ever, sat down on the right hand of God, from henceforth expecting till His enemies be made His footstool. Hebrews 10:14-15 For by one offering He has perfected forever them that are sanctified. Whereof the Holy Ghost also is a witness to us. He had said that those [sacrifices] are not offered; he reasoned from what is written, [and] from what is not written; moreover also he put forward the prophetic word which says, sacrifice and offering You would not. He had said that He had forgiven their sins.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/10/14",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac81f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 10:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

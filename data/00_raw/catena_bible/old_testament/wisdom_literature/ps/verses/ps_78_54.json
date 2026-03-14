@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 78:54",
+  "verse_text": "Verse text for PS 78:54",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/78/54",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Mountain. Hebrew, \"term. \"Oros, with the soft spirit, means a mountain, (Berthier) and the Vulgate has taken it in this sense in both places, as the Greek accents and spirits are not of greater antiquity or consequence than the Hebrew vowel points. (Haydock)\nThe land of Chanaan was very different from that of Egypt, being full of mountains, Deuteronomy iii. 25., and Ezechiel xxxvi. 2. But Sion may be here meant.\nLine. Thus were lands measured, Josue xiii. 8., and xvii. 5. (Calmet)\nGod had made a particular choice of this hilly country for his people, (Worthington) and for the chief seat of religion. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/78/54",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be204",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 78:54",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

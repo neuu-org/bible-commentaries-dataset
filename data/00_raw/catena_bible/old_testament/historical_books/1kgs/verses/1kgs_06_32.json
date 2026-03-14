@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 6:32",
+  "verse_text": "Verse text for 1KGS 6:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/6/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Now all these items, that is, cherubim and palm trees and carvings in the adornment of the temple walls, have been set forth and explained above according to our ability. There is no need to go to the trouble of adding anything further. For the works of virtue that the church performs throughout the world in its holy and perfect members should be pursued with all diligence by those especially to whom the care of the faithful has been committed and the keys of the kingdom of heaven granted, so that to the extent that they rank higher than the rest, they should also excel them in merit of good actions. For they have the image of the cherubim engraved on them when they imitate, both in thought and action, the life of angels on earth insofar as mortals can. They resemble palm trees when they keep their minds ever steadfastly intent on the gifts of their heavenly reward. For it is with the palm that the hand of a victor is adorned. They have carvings in bold relief when they show to all who observe them the clearest proofs of good works, proofs that no one can misconstrue. And all these works are covered with sheets of gold when, as has often been said and must always be said, the brightness of love outshines the rest of the flowers of virtue, especially in the eminent members of the church.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/6/32",
+      "full_content_url": "https://catenabible.com/com/5e1b67548bc66721fe4ef8ba",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And carvings Hebrew, \"and flowers full-blown. \"The term anaglypha, denotes a sculpture in relievo, (Calmet) or projecting. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/6/32",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd27c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 6:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

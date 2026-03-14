@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 19:10",
+  "verse_text": "Verse text for EX 19:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/19/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "However, even the people had to be purified two or three days beforehand, so as to come clean to the sacrifice, as we read in the Old Testament. They even used to wash their clothes. If such regard was paid in what was only the figure, how much ought it to be shown in the reality! Learn then, priest and Levite, what it means to wash your clothes. You must have a pure body wherewith to offer up the sacraments. If the people were forbidden to approach their victim unless they washed their clothes, do you, while foul in heart and body, dare to make supplication for others? Do you dare to make an offering for them? Duties of the Clergy.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/19/10",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52829",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Go unto the people, and sanctify them today and tomorrow, and let them wash their clothes, Garments, with their bodies, as the Jews understand by this expression. They were also to abstain from their wives By which exterior practices, they were admonished of the interior purity which God required. All nations seem to have adopted similar observances of continence, washing themselves, and putting on their best attire, when they appeared before God. See Herodotus (Calmet).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/19/10",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3be",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 19:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1COR 5:13",
+  "verse_text": "Verse text for 1COR 5:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/5/13",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Take away. This passage is differently understood by commentators. By some it is understood thus: expel the evil one from among you, that is, the incestuous man. (Estius)\nBy others, it is understood to be spoken in a general sense, meaning, take away the evil of sin from among you. (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/5/13",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723bffbc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Corinthians 5:13 But them that are outside God judges. Therefore put away from among yourselves that wicked person. Paul uses an expression taken from the Old Testament, partly because he is hinting that the Corinthians will be great gainers in being freed from a kind of plague and partly to show that this kind of thing is no novelty but goes right back to the beginning. Even Moses the lawgiver thought that people like this should be cut off, but he did it with greater severity than is shown here. Moses would have had the man stoned, but Paul thinks only of trying to lead him to repentance.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/5/13",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5c33",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Since both in the destruction of the flesh and in the saving of the spirit there is, on His part, judicial process; and when he bade \"the wicked person be put away from the midst of them\".\nand, \"Thou shalt put away evil from among you.\".\nit will be in vain that we labour \"to put away evil from the midst of us; \"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/5/13",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba6e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 5:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

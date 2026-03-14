@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 85:4",
+  "verse_text": "Verse text for PS 85:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/85/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "4. And as these things are said of the future, though the sound of the words is past, it follows: \"Turn us, O God of our salvation\" (ver. 4). That which he had just related as if it were done, how prayeth he that it may be done, except because he wished to show that he had spoken as if of the past in prophecy? But that it was not yet done which he had said was done he showeth by this, that he prayeth that it may be done: \"Turn us, O God of our salvation, and turn away Thine anger from us.\" Didst thou not say before: \"Thou hast appeased all Thy anger, Thou has turned Thyself from Thy wrathful indignation\"? How then now sayest thou, \"And turn away Thine anger from us\"? The Prophet answereth: These things I speak of as done, because I see them about to be done: but because they are not yet done, I pray that they may come, which I have already seen.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/85/4",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6ca3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Restore us, O God of our salvation, and cause your anger toward us to cease. Bring back the remnant of thy people, dispersed through the world. Only a few returned under Cyrus; the rest came back by degrees principally during the reigns of Hystaspes and Alexander the Great. (Calmet, Diss. ) While we continue unconverted, we are objects of God's wrath. (Berthier) (Lamentations v. ) Our Saviour. Septuagint, \"of our salvations. Jerome, \"our Jesus. \"(Haydock) Saviour of mankind, mitigate thy wrath against us. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/85/4",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be25b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 85:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

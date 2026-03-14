@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 14:30",
+  "verse_text": "Verse text for PRV 14:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/14/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "While all our actions should be free from hidden malevolence, this is particularly the case in the selection of a bishop, whose life is the pattern for all his flock. Calm and pacific judgment is called for if you are to prefer to all his fellows a man who will be elected by all and who will heal all dissension. “The gentle man is the physician of the heart.” In the gospel the Lord declared himself the physician of the heart when he said, “They that are whole have no need of a physician, but they that are sick.”",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/14/30",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c84b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh A sound heart is the life of the flesh: but envy the rottenness of the bones. As a sound heart preserves the rest of the body, so a good intention often excuses from mortal sin, when the error is not gross. But envy corrupts the works which seem good, and which cannot bear a strict examination. Gregory, Mor. ) (Worthington) Envy ruins the health. ) Septuagint, \"a too sensible heart is the \"This is beautiful; but not quite conformable to the Hebrew.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/14/30",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be64d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 14:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

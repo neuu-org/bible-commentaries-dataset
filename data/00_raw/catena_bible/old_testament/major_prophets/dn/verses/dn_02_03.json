@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DN 2:3",
+  "verse_text": "Verse text for DN 2:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/2/3",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I know. Hebrew also, \"to know or understand what\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/2/3",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf279",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "I have dreamed a dream. The dream, then, which was seen by the king was not an earthly dream, so that it might be interpreted by the wise of the world; but it was a heavenly dream, fulfilled in its proper times, according to the counsel and foreknowledge of God. And for this reason it was kept secret from men who think of earthly things, that to those who seek after heavenly things heavenly mysteries might be revealed. And, indeed, there was a similar case in Egypt in the time of Pharaoh and Joseph.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/2/3",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac127",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "There remained in the king's heart only a shadow, so to speak, or a mere echo or trace of the dream, with the result that if others should retell it to him (628), he would be able to recall what he had seen, and they would certainly not be deceiving him with lies.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/2/3",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd27a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 2:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

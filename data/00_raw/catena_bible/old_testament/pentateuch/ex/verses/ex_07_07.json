@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 7:7",
+  "verse_text": "Verse text for EX 7:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/7/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Moses was fourscore years old, and Aaron fourscore and three years old, when they spoke unto Pharaoh. On the same basis, you would not be able to point to anyone of the past generations approaching a pregnant woman in the pages of Scripture. Only later, after the birth and weaning of the child, would you again find the wives in physical relations with their husbands. You will find that Moses’ father observed this point. He left a threeyear gap after Aaron’s birth before fathering Moses.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/7/7",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5276f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 7:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

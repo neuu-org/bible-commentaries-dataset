@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 18:5",
+  "verse_text": "Verse text for 2KGS 18:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/18/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh He trusted in the LORD God of Israel; so that after him was none like him among all the kings of Judah, nor any that were before him. Ezechias was remarkable for many excellent qualities. Yet we must not push these comparisons too far, contrary to the intention of the sacred writers. The same eulogium is given to Josias, (chap. ) and David seems to be preferred, chap. These three are particularly commended, Ecclesiasticus xlix. (Calmet) Their virtues were certainly different in some respects.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/18/5",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd50e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 18:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

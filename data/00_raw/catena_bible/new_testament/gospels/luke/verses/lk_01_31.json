@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 1:31",
+  "verse_text": "Verse text for LK 1:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And, behold, you shall conceive in your womb, and bring forth a son, and shall call his name JESUS. It may perhaps in the first instance of reflection, appear shocking to our ideas, that a God should dwell in a human body; but does not the sun emit its rays into all kinds of places, without any detriment to its purity. How much more would the Sun of justice, assuming a most pure body, formed of the purest blood of the spotless Virgin, not only remain free from every the least stain himself, but even impart additional sanctity to his virgin Mother. Thomas Aquinas).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/31",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Will not the angel's announcement also be subverted, that the virgin should \"conceive in her womb and bring forth a son? \"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/31",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbba8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

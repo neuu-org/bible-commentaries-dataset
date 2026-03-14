@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 35:30",
+  "verse_text": "Verse text for EX 35:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/35/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "For we are not wrong in saying just the same of Bezalel, that being entrusted by Moses with the building of the tabernacle, he became the constructor of those things there mentioned. He would not have taken the work in hand had he not previously acquired his knowledge by divine inspiration. He ventured upon the undertaking on Moses’ entrusting him with its execution. Accordingly the term entrusted suggests that his office and power in creation came to him as something adventitious, in the sense that before he was entrusted with that commission he had neither the will nor the power to act. But when he received authority to execute the works and power sufficient for the works, then he became the artificer of things that are, the power allotted to him on high being, as Eunomius says, sufficient for the purpose.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/35/30",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e528e8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 35:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

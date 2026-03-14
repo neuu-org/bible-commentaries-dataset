@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 140:3",
+  "verse_text": "Verse text for PS 140:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/140/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Who have imagined unrighteousnesses in their heart\" (ver. From them free me, from them let Thy hand be most powerful to deliver me. For easy is it to avoid open enmities, easy is it to turn aside from an enemy declared and manifest, while iniquity is in his lips as well as his heart; he is a troublesome enemy, he is secret, he is with difficulty avoided, who beareth good things in his lips, while in his heart he concealeth evil things. \"All the day long did they make war. \" What is, \"war\". They made for me what I was to fight against all the day. For from thence, from such hearts as these, ariseth all that the Christian fighteth against. Be it sedition, be it schism, be it heresy, be it turbulent opposition, it springeth not save from these imaginings which were concealed, and while they spake good words with their lips, \"all the day long did they make war. \" Ye hear words of peace, yet making war departeth not from their thoughts. For the words, \"all the day long,\" signify without intermission, throughout the whole time. \"They have sharpened their tongues like serpents\" (ver. If still thou seekest to make out the man, behold a comparison. In the serpent above all beasts is there cunning and craft to hurt; for therefore does it creep. It hath not even feet, so that its footsteps when it cometh may be heard. In its progress it draweth itself, as it were, gently along, yet not straightly. Thus then do they creep and crawl to hurt, having poison hidden even trader a gentle touch. And so it followeth, \"the poison of asps is under their lips. \" Behold, it is \"under\" their lips, that we may perceive one thing under their lips, another in their lips.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/140/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6763",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Serpent. So Plautus says, \"A double-tongued and wicked man is like a creeping beast \"in Persa. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/140/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4f3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 140:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

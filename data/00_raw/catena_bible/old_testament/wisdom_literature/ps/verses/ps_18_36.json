@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:36",
+  "verse_text": "Verse text for PS 18:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/36",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You have enlarged my path under me, that my feet did not slip. Augustine of Hippo 37. \"Thou hast enlarged my steps under me\" (ver. Nor shall the straits of the flesh hinder me; for Thou hast enlarged my love, working in gladness even with these mortal things and members which are under me. \"And my footsteps have not been weakened. \" And either my goings, or the marks which I have imprinted for the imitation of those that follow, have not been weakened.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/36",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6865",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Weakened, or tired. (Chaldean) (Haydock)\nI am now free from danger. All my enterprizes have succeeded, 2 Kings viii. 6., and 1 Paralipomenon xviii. 13. See Proverbs iv. 12. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/36",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdee2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

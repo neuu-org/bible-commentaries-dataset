@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 20:21",
+  "verse_text": "Verse text for MT 20:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/20/21",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "The literal sense of this is that the mother begged the Lord for the sake of her two sons. But the spiritual sense is deeper and full of symbolic significance: Think of the analogy as that between the disciples of John the Baptist and the apostles. Both [groups] suffered. Both [groups] were to die. They were the two sons of Israel who were struggling against the Pharisees. After John had suffered and died, some of his disciples came to inquire of the Lord. The supplication is that both [groups] of these callings might be equally treated in the kingdom, since both [groups] believed in the gospel of Christ.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/20/21",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e709c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "How then does this evangelist say, that their mother came to Him. It is probable both things were done. I mean, that they took their mother with them, with the purpose of making their entreaty stronger, and in this way to prevail with Christ. For in proof that this is true, as I say, and the request was rather theirs, and that being ashamed they put forward their mother, mark how Christ directs His words to them. But rather let us learn, first, what do they ask, and with what disposition, and whence they were moved to this. Whence then were they moved to this. They saw themselves honored above the rest, and expected from that they should obtain this request also. But what can it be they ask. Hear another evangelist plainly declaring this. For, Because He was near, it is said, to Jerusalem, and because they thought the kingdom of God should immediately appear, Luke 19:11 they asked these things. For they supposed that this was at the doors, and visible, and that having obtained what they asked, they would undergo none of the painful things. For neither for its own sake only did they seek it, but as though they would also escape the hardships.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/20/21",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac502",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "She said unto him, Grant that these my two sons may sit, the one on your right hand, and the other on the left, in your kingdom. Theophylact of Ochrid The sons of Zebedee, James and John, were thinking that if the Lord went to Jerusalem, He would rule over a temporal kingdom. For they heard Him say continually, \"We go up to Jerusalem. \" They fell, then, to human weakness and persuaded their mother to approach Him, as they themselves were afraid to approach openly. For they too approached secretly, as Mark says (Mk. 10:35), writing that James and John came to Him, meaning that they approached Him secretly and by themselves.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/20/21",
+      "full_content_url": "https://catenabible.com/com/58a5ce5154b4f95416b2f754",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 20:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 3:31",
+  "verse_text": "Verse text for LK 3:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/3/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Who was the son of Melea, who was the son of Menna, who was the son of Mattatha, who was the son of Nathan, who was the son of David, Cornelius a Lapide Which was the son of Nathan, which was the son of David. Some think that this Nathan was the prophet who reprehended David for his adultery with Bathsheba ( 2 Kings 12:1. ) So think Origen, N. de Lyra, Burgensis, Albertus Magnus, and also S. Augustine (bk. Augustine (Retract. ) rightly withdraws this theory, for this Nathan was born of David and Bathsheba when they were joined in lawful marriage, as appears from 2 Samuel 5:14 and 1 Chronicles 3:5.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/3/31",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f29",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 3:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

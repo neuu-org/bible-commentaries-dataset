@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 9:49",
+  "verse_text": "Verse text for LK 9:49",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/9/49",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And John answered and said, Master, we saw one casting, out devils in Thy name; and we forbad him, because he followed not with us, i.e. because he was not Thy disciple. For he thought that only the Apostles, to whom that power was given, were permitted to do this. Cyril and S. Ambrose remark, \"He thinks that he who does not render obedience, should not enjoy the benefit arising therefrom.\" S. John asks the question, because from his love he was the more zealous for his Master\"s honour.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/9/49",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f96",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "We forbade him. St. John having the most love for his Lord, and being particularly beloved by him, thought all were to be excluded from these gifts, who were not obedient to his divine Master. (St. Augustine)\nBut we must remember, that not the minister is the author of these miracles, but the grace which is in him, who performs these wonders by virtue of the power of Christ. (St. Cyril)\nHow wonderful is the power of Christ, who by his grace works miracles in the persons of the unworthy, and those that are not disciples; as men are sanctified by the priest, though the priest should not be in the state of grace! (Theophylactus)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/49",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa9b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 9:49",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

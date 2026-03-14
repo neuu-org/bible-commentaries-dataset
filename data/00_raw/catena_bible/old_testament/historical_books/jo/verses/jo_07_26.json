@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JO 7:26",
+  "verse_text": "Verse text for JO 7:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/7/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Achor. That is, trouble; (Challoner) in allusion to the name of Achar, as he is called in the Septuagint invariably, and in the Hebrew and Vulgate in the Book of Chronicles. (Haydock)\nThis heap of stones was thrown upon the ashes of the deceased, or perhaps at his person, while he was burning at the stake, as it is the custom still among the Turks. (Roger. ii. 7.) The king of Hai was treated in this manner, chap. viii. 29. See 2 Kings xviii. 17. The vale of Achor was on the road between Jerusalem and Jericho, where a small castle, at Adommim, was built to protect travellers from the insults of robbers, who infested that part, Luke x. 30., and chap. xv. 7.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/7/26",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb8a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Achor: That is, trouble.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/7/26",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 7:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

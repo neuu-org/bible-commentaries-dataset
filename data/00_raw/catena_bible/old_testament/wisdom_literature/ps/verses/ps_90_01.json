@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PS 90:1",
+  "verse_text": "Verse text for PS 90:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/90/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "2. \"Lord,\" he saith, \"Thou hast been our refuge from one generation to another\" (ver. 1): either in every generation, or in two generations, the old and new: because, as I said, he was the Minister of the Testament that related to the old generation, and the Prophet of the Testament which appertained to the new. Jesus Himself, the Surety of that covenant, and the Bridegroom in the marriage which He entered into in that generation, saith, \"Had ye believed Moses, ye would have believed Me: for he wrote of Me.\" Now it is not to be believed that this Psalm was entirely the composition of that Moses, as it is not distinguished by any of those of his expressions which are used in his songs: but the name of the great servant of God is used for the sake of some intimation, which should direct the attention of the reader or listener. \"Lord,\" he saith, \"Thou hast been our refuge from one generation to the other.\"",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/90/1",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cfe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. This Psalm is entitled, \"The prayer of Moses the man of God,\" through whom, His man, God gave the law to His people, through whom He freed them from the house of slavery, and led them forty years through the wilderness. Moses was therefore the Minister of the Old, and the Prophet of the New Testament. For \"all these things,\" saith the Apostle, \"happened unto them for ensamples: and they are written for our admonition, unto whom the ends of the world come.\" In accordance therefore with this dispensation which was vouchsafed to Moses, this Psalm is to be examined, as it has received its title from his prayer.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/90/1",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cfd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "God. This characterizes the Jewish legislator . (Berthier) (Deuteronomy xxxiii. 1.) (Du Hamel)\nDavid composed it in his was the author of the nine following psalms, (Calmet) which have no title in Hebrew. (Tirinus)\nBut St. Augustine thinks they would then have formed a part of the pentateuch. (Calmet)\nThe life of man was longer in the days of Moses than seventy or eighty years. (Bellarmine; ver. 10.)\nMoses cannot be the author of the 94th and 95th psalms. (Worthington)\nIn Psalm xcviii. 6., Samuel is mentioned, and it is not necessary to have recourse to the prophetic spirit. One of the descendants of Moses, during the captivity, may have been the author, (Calmet) or David may have predicted that event. (Haydock)",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/90/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 90:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

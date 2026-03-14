@@ -1,0 +1,36 @@
+{
+  "verse_reference": "AM 8:5",
+  "verse_text": "Verse text for AM 8:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/8/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Saying, When will the new moon be gone, that we may sell grain. and the sabbath, that we may set forth wheat, making the ephah small, and the shekel great, and falsifying the balances by deceit. Month: the first day was observed as a festival, Numbers x. (Haydock) At the expiration of the month usurers demanded their money. ; Aristophanes, Nub. ) Corn, to sell after the sabbatical year, when it was dearest. Sabbath also denotes all \"festivals. \"These misers think that there are too many. Having a large measure to buy, and a small one to sell again, Deuteronomy xxv. , and Proverbs xx.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/8/5",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf474",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 8:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

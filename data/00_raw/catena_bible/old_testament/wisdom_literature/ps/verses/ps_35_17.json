@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 35:17",
+  "verse_text": "Verse text for PS 35:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/35/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "20. \"Lord, when wilt Thou look on? Rescue My Soul from their deceits, My Darling from the lions\" (ver. 17). For to us the time is slow; and in our person is this said, \"When wilt Thou look on?\" that is, when shall we see vengeance upon those who insult us? When shall the Judge, overcome by weariness, hear the widow? But our Judge, not from weariness, but from love, delayeth our salvation; from reason, not from need; not that He could not even now succour us, but that the number of us all may be filled up even to the end. And yet out of our desire, what do we say? \"Lord, when wilt Thou look on? Rescue My Soul from their deceits, My Darling from the lions:\" that is, My Church from raging powers.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/35/17",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6984",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "One. Septuagint, \"daughter. \"Aquila, \"solitary \"monachen. Protestants, \"darling \"or my soul which is so desolate, Psalm xxi. 21. (Haydock)\nSo Christ said, Why hast thou abandoned me? (Matthew xxvii.) not affording me such consolation as other saints enjoy in their agony. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/35/17",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfc6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 35:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 18:32",
+  "verse_text": "Verse text for JN 18:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/18/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "That the saying of Jesus might be fulfilled which He spake signifying by what death He should die, viz. that He was to be delivered up to the Gentiles, and to be crucified by them. See John 12:32 and Matthew 20:18.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/18/32",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52371",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "They answer, that their purification, accomplished by the slaughter of the Paschal lamb (if any purification at all were possible for such murderers), stood in their way, and was, as it were, an overpowering obstacle to their shedding His innocent Blood. For, surely, they would have been very ready to commit the impious crime, and would not have needed the co-operation of any other. The Jewish mind was very prone to work every kind of evil deed, and to shrink from no atrocity; and to feel no shame at doing anything displeasing to God. They deemed it right for Pilate to lend them the service of his own cruelty, and to' imitate the fury of the Jews, and to minister to them on this occasion, and to be by them overruled, so as to partake of their madness. And this also they say, that Christ might be proved to speak truth, and to have foreknown what manner of death He would die, and to have foretold it to His holy disciples. For what spake He unto them. Behold, we go up to Jerusalem; and the Son of Man is betrayed unto the hands of sinners; and they shall crucify Him, and kill Him, and the third day He shall be raised up. It is requisite to make mention of this. For it was necessary that He should have this foreknowledge, that none might suppose that He, in Whose sight all things are naked and laid open, encountered His death involuntarily; but that men should believe that, of His own Will, He underwent the Cross on our behalf, and for our sakes.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/18/32",
+      "full_content_url": "https://catenabible.com/com/57eb0c76b0d44ee10cfac09f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 18:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

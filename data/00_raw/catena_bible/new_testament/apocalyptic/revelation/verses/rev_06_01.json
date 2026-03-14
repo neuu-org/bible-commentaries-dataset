@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 6:1",
+  "verse_text": "Verse text for REV 6:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/6/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I saw that the Lamb had opened one of the seven seals, or the first seal. The interpreters are much divided in expounding what is to be understood by the sealed up contents, and in applying them to such and such persecutions, persons, and events, by all which it appears that there is no certainty as to such applications and expositions, even of particular ancient fathers; though at the same time it is both certain and evident that many pretended interpretations, (that is, arbitrary inventions, from the private spirit of heretics) are both false and groundless, contradictory to the unexceptionable authority (to use Dr. 's words) of the primitive fathers, and inconsistent with the doctrine and belief of the Catholic Church, as I may have occasion to show that the ridiculous fable is of this number, of so many popes being antichrist, and the beast of this Apocalypse. I shall, for the satisfaction of the Christian reader, as I hinted in the preface of this book, give a short account of those expositions that are not improbable.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/6/1",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c0455",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "The first seal being opened, he says that he saw a white horse, and a crowned horseman having a bow. For this was at first done by Himself. For after the Lord ascended into heaven and opened all things, He sent the Holy Spirit, whose words the preachers sent forth as arrows reaching to the human heart, that they might overcome unbelief. And the crown on the head is promised to the preachers by the Holy Spirit. The other three horses very plainly signify the wars, famines, and pestilences announced by our Lord in the Gospel. And thus he says that one of the four living creatures said (because all four are one), Come and see. Come is said to him that is invited to faith; see is said to him who saw not. Therefore the white horse is the word of preaching with the Holy Spirit sent into the world. For the Lord says, This Gospel shall be preached throughout the whole world for a testimony to all nations, and then shall come the end.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/6/1",
+      "full_content_url": "https://catenabible.com/com/574f83293c6effa740ddd770",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 6:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

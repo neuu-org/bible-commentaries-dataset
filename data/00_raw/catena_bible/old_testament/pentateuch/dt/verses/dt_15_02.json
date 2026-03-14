@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 15:2",
+  "verse_text": "Verse text for DT 15:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/15/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Again. Hebrew does not mention friend. (Haydock)\n\"He shall not exact it, (or urge) his neighbour or his brother, because \"Whence Cajetan gathers, that debts might be demanded after the expiration of the seventh year, on which the products of the earth did not enable the Jews to pay any thing. Grotius also asserts, that perpetual debts might be required; and Menoch, includes things lent under the same regulation. But all debts became extinct as soon as the seventh year commenced; (ver. 9.; Calmet) at least they could not be demanded till it was expired; though things merely lent, might be taken back. (Du Hamel)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/15/2",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9b6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 15:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

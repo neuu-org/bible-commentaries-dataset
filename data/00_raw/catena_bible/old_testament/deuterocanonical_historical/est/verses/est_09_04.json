@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 9:4",
+  "verse_text": "Verse text for EST 9:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/9/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "“All the officials of the provinces, the satraps and the governors, and the royal officials were supporting the Jews.” Certainly the praiseworthy action of the holy teachers and the strength of their virtue have contributed great honor and respect to the multitude of the faithful. Therefore, in the Acts of the Apostles, in which we read how the first preachers of the gospel labored to teach the word of God and cared for it, it is written, “They devoted themselves to the apostles’ teaching and fellowship, to the breaking of bread and prayer. Awe came upon everyone, because many wonders and signs were being done by the apostles.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/9/4",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa4a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 9:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

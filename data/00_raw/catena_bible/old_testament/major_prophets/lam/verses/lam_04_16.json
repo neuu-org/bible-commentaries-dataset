@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 4:16",
+  "verse_text": "Verse text for LAM 4:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/4/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "They, the Jews; or rather the prophet thus describes the Chaldeans, chap. v. 12., and Deuteronomy xxviii. 50.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/4/16",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befb3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "So, as far as the infliction of punishment Verse 16 states: '\"The Lord himself\", by his fore-knowledge, \"has scattered them.\" That is, he disperses (Jews) among nations. As Psalm 55 (54):22 says: \"Cast your burden on the Lord, and he will sustain you; he will never permit the righteous to be moved.\"\n\nThirdly, an irreverence for their elders was blamed on them (the Jews), and their enemies regarded such irreverence. As said: \"No honor was shown to the priests, no favor to the elders.\" As Isaiah 3:5 says: \"the youth will be insolent to the elder, and the base fellow to the honorable.\" Or these can be words of the prophet against enemies (of the Jews).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/4/16",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9dbe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 4:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

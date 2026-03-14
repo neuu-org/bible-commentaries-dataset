@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ACTS 10:9",
+  "verse_text": "Verse text for ACTS 10:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/10/9",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Stated hours for prayer were appointed both in the old and new law. Cyprian writes: \"In celebrating their prayers, we find that the three children of Daniel observed the third, sixth, and ninth hour. Thus afterwards, at the third hour, the Holy Spirit descended upon the apostles, fulfilling the grace of our Lord's promise: at the sixth hour, Peter going up to the higher room of the house, was both by voice and sign from God instructed, that all nations should be admitted to the grace of salvation, of which he before doubted; and our Lord being crucified at the sixth hour, at the ninth washed away our sins by his blood. But to us, besides the seasons observed of old, the set times of praying are increased; for we must pray in the morning early, that the resurrection of our Lord may be celebrated by morning prayer; in the morning early will I stand before Thee, early in the morning wilt thou hear my voice. ) Towards the evening also, when the sun departeth, we must of necessity pray again. Jerome, writing to Eustochia, a virgin, and a religious, (ep. ) says, \"though the apostle bid us to pray always, and, to holy persons, their very sleep is prayer; yet we must have distinct hours for prayer, that if perhaps we be otherwise occupied, the very time may admonish us of our duty. The third, sixth, ninth hour, morning early, and evening, no man can be ignorant of.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/10/9",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfdb9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "in order that Peter should not be in perplexity too long. Peter went up upon the housetop, etc. Observe, that not even his hunger forced him to have recourse to the sheet. Rise, Peter, says the Voice, kill and eat.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/10/9",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92b2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "observe how the Spirit connects the times: no sooner than this, and no later, He Causes this to take place— Peter about the sixth hour went up upon the housetop to pray: that is, privately and quietly, as in an upper chamber. And he became very hungry, and would have eaten; but while they made ready, there fell upon him a trance.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/10/9",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": ", for prayer's sake \"at the sixth hour.\".\nHad, for the sake of taking food, gone up first on the roof to pray;",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/10/9",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723badff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 10:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

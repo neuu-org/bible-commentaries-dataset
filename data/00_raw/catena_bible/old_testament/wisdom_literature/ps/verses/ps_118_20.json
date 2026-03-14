@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 118:20",
+  "verse_text": "Verse text for PS 118:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "14. But consider how the gates of righteousness are entered into. \"These are the gates of the Lord\" he saith, \"the righteous shall enter into them\" (ver. 20). At least let no wicked man enter there, that Jerusalem which receiveth not one uncircumcised, where it is said, \"Without are dogs.\" Be it enough, that in my long pilgrimage \"I have had my habitation among the tents of Kedar:\" I endured even unto the end the intercourse of the wicked, but \"these are the gates of the Lord: the righteous shall enter into them.\"",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/20",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6600",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

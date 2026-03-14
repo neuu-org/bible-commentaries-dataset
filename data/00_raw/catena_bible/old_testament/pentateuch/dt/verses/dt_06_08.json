@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 6:8",
+  "verse_text": "Verse text for DT 6:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/6/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sign, or seal, (Canticle of Canticles viii. ; Calmet) attached to the ring which the Jews wore on their fingers, (Haydock) to seal their letters, after they were enveloped and tied with linen. The Jews have bandages of vellum on their hand, with sentences of the law inscribed upon them, (Calmet) as well as others upon their forehead; while many get the whole law, particularly the Book of Deuteronomy, by heart: for which purpose, the Rabbins inform us, there were above 400 schools and synagogues at Jerusalem, where the law of God was learnt and explained. The design of this injunction was not, however, to enforce the wearing of such bandages, as the Pharisees imagined, (Matthew xxiii. 5,) but to put all in mind that they ought to meditate frequently upon the commandments, (Tirinus) and regulate their lives by their direction. Septuagint adds a negation, but to the same import, \"it (the sign) shall not be removed from before thy eyes. \"(Haydock) Hebrew, \"they shall be as totaphoth, frontlets \"ornaments hanging between the eyes. (Exodus xiii. ; Calmet) \"Tephilim \"(Chaldean) or \"spectacles.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/6/8",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc938",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 6:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

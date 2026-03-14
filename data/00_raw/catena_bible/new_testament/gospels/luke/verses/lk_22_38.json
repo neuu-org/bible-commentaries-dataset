@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 22:38",
+  "verse_text": "Verse text for LK 22:38",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/22/38",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And they said, Lord, behold, here are two swords. They did not understand the mind and words of Christ clearly. He did not mean that they should buy swords, but He wished to show them the impending danger. Christ did not explain His meaning to the Apostles, but concealed it, saying, \"It is enough,\" meaning that Peter and the other Apostles might carry these swords, and even cut off Malchus\" ear, which He Himself afterwards restored and healed, showing that He was not compelled by force, but was urged by love, willingly and freely to suffer and die. Some think that they were not military swords, but rather large butchers\" knives, which the apostles used for the slaughtering, sacrificing, and disjointing of the Paschal Lamb. So S. Chrysostom, from whom I have said more on Matt. xxvii.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/22/38",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520a0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Behold here are two swords The disciples not understanding the hidden meaning of the words in the preceding verse, and thinking they should have need of swords against the attack of the traitor Judas, say, behold here two swords. (St. Cyril)\nBut if he had wished them to rely upon human aid, not even a hundred swords would have sufficed; but, if the power of man was unnecessary in their regard, even two swords are sufficient, and more than are wanted. (St. Chrysostom)\nEven two swords are sufficient testimony of our Saviour's having suffered spontaneously. One to show that the apostles had courage to contend for their Master, and that their Lord had the power of healing the servant, Malchus, who was maimed; the other, which was not drawn from its scabbard, shows that the apostles were withheld from doing in his defence as much as they could have done. (Ven. Bede)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/22/38",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb65",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 22:38",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

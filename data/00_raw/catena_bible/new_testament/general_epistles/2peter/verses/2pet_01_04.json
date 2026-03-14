@@ -1,0 +1,58 @@
+{
+  "verse_reference": "2PET 1:4",
+  "verse_text": "Verse text for 2PET 1:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2pt/1/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "By which are given unto us exceedingly great and precious promises: that by these you might be partakers of the divine nature, having escaped the corruption that is in the world through lust. Ner; and to Charidemus, a military commander; and to Simon, an equestrian; and to Per dices, a trader; and to Crobytus, a cook; and to Archelaus, a dancer; and to Homer, a poet; and to Pyrrho, a wrangler; and to Demosthenes, an orator; and to Chrysippus, a dialectician; and to Aristotle, a naturalist; and to Plato, a philosopher: so he who listens to the Lord, and follows the prophecy given by Him, will be formed perfectly in the likeness of the teacher-made a god going about in flesh.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/1/4",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac6a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Partakers of the divine nature. Divine grace infused into our souls, is said to be a partaking in the divine nature by an union with the spirit of God, whereby men are made his adoptive children, heirs of heaven (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/1/4",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "But if thou art desirous of also becoming a god, obey Him that has created thee, and resist not now, in order that, being found faithful in that which is small, you may be enabled to have entrusted to you also that which is great.\nwasted by disease. For thou hast become God:",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/1/4",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac6b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2PET 1:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

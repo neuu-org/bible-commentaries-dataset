@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 8:2",
+  "verse_text": "Verse text for 1KGS 8:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/8/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "The two weeks [of festivity] and the two solemn celebrations were accomplished by the people of the Lord with the greatest joy. The former prefigured the festivals of our church, which Christ began with the mystical dedication of his temple and the transferring of the flesh which he had assumed, to heaven; the latter foreshadowed the last day, the greatest of all solemn days, that will dawn for all saints after the resurrection of the flesh. And the distribution of the ministries and offices in the heavenly and everlasting temple will follow that day.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/8/2",
+      "full_content_url": "https://catenabible.com/com/5e1b67548bc66721fe4ef8d7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ethanim was afterwards called Tisri. (Haydock)\nUsher places the dedication on Friday, 30th October, the 8th of the seventh month. The people continued at Jerusalem till the 23rd. The feast of expiation fell on the 10th, (Haydock) during the octave of the dedication. After this, the feast of tabernacles commenced on the 15th, for other seven days. This was the year of jubilee; and Solomon had waited on purpose, that the people might have more leisure to attend on such a solemn occasion. (Calmet)\nBut on this we cannot rely. There might be other reasons for the delay; (See chap. vi. 38.) and one of the chief might be, a desire to perform this ceremony in the seventh or sabbatical month, which was honoured with more festivals than any other. It had just elapsed, before the temple was finished, in the preceding year. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/8/2",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd2a1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 8:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

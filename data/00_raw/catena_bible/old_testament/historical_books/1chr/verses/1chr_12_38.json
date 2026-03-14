@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1CHR 12:38",
+  "verse_text": "Verse text for 1CHR 12:38",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/12/38",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "“O Lord, deliver me from lying lip, from treacherous tongue”: not from another’s tongue but from my own. Another’s tongue does not injure me; my own is my enemy. Deliver me; deliver me from my own tongue. My tongue is a sword, and it is slaying my soul. I think that I am harming my enemy; I do not realize that I am killing myself. My adversaries may contradict me when I speak to them, but I shall speak peace. Their spirit may be hostile, but let our spirit be that of peacemakers. It is written in Paralipomenon: “The sons of Israel came to fight with peaceful heart.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/12/38",
+      "full_content_url": "https://catenabible.com/com/5e1b64748bc66721fe4ef797",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 12:38",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

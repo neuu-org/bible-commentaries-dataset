@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 13:37",
+  "verse_text": "Verse text for MT 13:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/13/37",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For whereas He Himself is the sower, and that of His own field, and out of His own kingdom He gathers, it is quite clear that the present world also is His.\n\nBut mark His unspeakable love to man, and His leaning to bounty, and His disinclination to punishment; in that, when He sows, He sows in His own person, but when He punishes, it is by others, that is, by the angels.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/13/37",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac44a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 13:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

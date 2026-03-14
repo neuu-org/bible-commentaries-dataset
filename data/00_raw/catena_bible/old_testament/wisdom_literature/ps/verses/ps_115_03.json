@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 115:3",
+  "verse_text": "Verse text for PS 115:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/115/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"As for our God, He is in heaven above\" (ver. Not in heaven, where they see the sun and moon, works of God which they adore, but \"in heaven above,\" which overpasseth all heavenly and earthly bodies. Nor is our God in heaven in such a sense, as to dread a fall that should deprive Him of His throne, if heaven were withdrawn from under Him. \"In heaven and earth He hath made whatsoever pleased Him. \" Nor doth He stand in need of His own works, as if He had place in them where He might abide; but endureth in His own eternity, wherein He abideth and hath done whatsoever pleased Him, both in heaven and earth; for they did not support Him, as a condition of their being created by Him: since, unless they had been created, they could not have supported Him. Therefore, in whatsoever He Himself dwelleth, He, so to speak, containeth this as in need of Himself, He is not contained by this as if He needed it. Or it may be thus understood: \"In heaven and in earth He hath done whatsoever pleased Him,\" whether among the higher or the lower orders of His people, He hath made His grace His free gift, that no man may boast in the merits of his own works.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/115/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65dd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 115:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

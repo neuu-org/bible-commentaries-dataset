@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 12:8",
+  "verse_text": "Verse text for LV 12:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/12/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "The Lord commanded in the law that those who could were to offer a lamb for a son or a daughter, along with a turtledove or a pigeon. But one who did not have sufficient wealth to offer a lamb should offer two turtledoves or two young pigeons. Therefore, the Lord, mindful in everything of our salvation, not only deigned for our sake to become a human being, though he was God, but also he deigned to become poor for us, though he was rich, so that by his poverty along with his humanity he might grant us to become sharers in his riches and his divinity.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/12/8",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lamb. This was the case of the blessed Virgin Mary: (Luke ii. 24,); so poor was she! (Menochius)\nIt seems difficult to conceive, how all the women of Palestine could present themselves before the tabernacle, 40 or 80 days after the childbirth. Perhaps the law regarded those only who lived in the neighbourhood. The priests explained to the rest what they had to do, whether they might defer bringing their offspring to the next great festival, or they might send it by another hand. We read that Anna came to the temple after she had weaned Samuel, 1 Kings i. 21. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/12/8",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc5af",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 12:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 9:41",
+  "verse_text": "Verse text for JGS 9:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/9/41",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ruma may be the same place as Arimathea, between Joppe and Lidda. (St. Jerome) (Menochius)\nBut this seems to be too remote from Sichem, (Haydock; Bonfrere) in the neighbourhood of which Abimelech halted, to give the citizens time to enter into themselves, (Calmet) and to open their gates to him without farther resistance. Gaal entered the city after his defeat: but was forced the next day to leave it by Zebul. Whereupon he was met by two divisions of Abimelech's army, which routed him, and pursued the fugitives, while the king marched straight to the city; and though he had a party within the walls, headed by Zebul, (Haydock) unless he was slain, (Calmet) the rest of the inhabitants made such a stout resistance, that the tyrant resolved to demolish the city, when he took it, at night. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/9/41",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd71",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 9:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

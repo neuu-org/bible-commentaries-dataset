@@ -1,0 +1,69 @@
+{
+  "verse_reference": "REV 20:11",
+  "verse_text": "Verse text for REV 20:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/20/11",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "A Treatise Against the Heretic Novatian",
+      "period": "AD255",
+      "content": "And I saw the dead, great and small, standing before the sight of the Lord's throne: and the books were opened; and another book was opened, which is (the book) of life: and every one was judged according to those things that were written in the book, according to their own works.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/20/11",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb8e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "From Thy presence the whole earth fleeth away,",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/20/11",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb8df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "For after the times of the kingdom, he says, \"I saw a great white throne, and Him who sat upon it, from whose face the earth fled away, and the heavens; and there was no more place for them.\"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/20/11",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb8dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "\"and there was found no place for them\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/20/11",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb8de",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 20:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

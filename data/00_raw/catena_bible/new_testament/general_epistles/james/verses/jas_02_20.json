@@ -1,0 +1,69 @@
+{
+  "verse_reference": "JAS 2:20",
+  "verse_text": "Verse text for JAS 2:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/2/20",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Holy Scripture should be interpreted in a way which is in complete agreement with those who understood it and not in a way which seems to be inconsistent to those who are least familiar with it. Paul said that a man is justified through faith without the works of the law, but not without those works of which James speaks. (On the Christian Life 13)",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/20",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f06",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Although the apostle Paul preached that we are justified by faith without works, those who understand by this that it does not matter whether they live evil lives or do wicked and terrible things, as long as they believe in Christ, because salvation is through faith, have made a great mistake. James here expounds how Paul's words ought to be understood. This is why he uses the example of Abraham, whom Paul also used as an example of faith, to show that the patriarch also performed good works in the light of his faith. It is therefore wrong to interpret Paul in such a way as to suggest that it did not matter whether Abraham put his faith into practice or not. What Paul meant was that no one obtains the gift of justification on the basis of merit derived from works performed beforehand, because the gift of justification comes only from faith.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jas/2/20",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9eef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Just as faith without works is dead, so the reverse is also true. Therefore let integrity in faith shine forth along with the glories of upright living. (Letters 55.2)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/20",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f28",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Oecumenius",
+      "period": "AD990",
+      "content": "According to James, someone who thinks that it is possible to believe without acting accordingly is out of his mind.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/20",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9efa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 2:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

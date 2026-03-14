@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 11:4",
+  "verse_text": "Verse text for DN 11:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/11/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And when he shall stand up, his kingdom shall be broken, and shall be divided toward the four winds of heaven; but not to his posterity, nor according to his dominion which he ruled: for his kingdom shall be plucked up, even for others besides these. Besides the four kingdoms of Macedonia, Asia Minor, Syria, and Egypt, the kingdom of the Macedonians was torn asunder among other rulers of less prominence and among petty kings. The reference here is to Perdiccas and Craterus and Lysimachus, for Cappadocia, Armenia, Bithynia, Heracleia, Bosphorus and various other provinces withdrew themselves from the Macedonian power and set up various kings for themselves.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/11/4",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd358",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "After Alexander his kingdom was divided towards the four (p. 559) winds, namely to the east, the west, the south, and the north. In Egypt, that is in the south, |120 Ptolemy the son of Lagos was the first to become king. In Macedonia, that is in the west, the Philip who was also called Aridaeus, a brother of Alexander, became king. The king of Syria and Babylon and the remoter regions, that is, the east, was Seleucus Nicanor. Antigonus was king of Asia Minor and Pontus and of the other provinces in that whole area, that is, in the north. So much for the various regions of the world as a whole; but from the standpoint of Judea itself, the north would be Syria and the south would be Egypt. And as for the statement, \"But not unto his own posterity,\" the implication is that Alexander would have no children, but rather, his kingdom would be rent asunder and fall to others who were not of his family, except of course for Philip, who kept Macedonia. Nor would it be according to the power of him who had borne rule, for the kingdom became feebler by division into four parts, for they constantly fought among themselves and raged with internecine fury.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/11/4",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd357",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 11:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "verse_reference": "PS 26:1",
+  "verse_text": "Verse text for PS 26:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/26/1",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Judge me, O LORD; for I have walked in my integrity: I have trusted also in the LORD; therefore I shall not slide. Augustine of Hippo 2. \"Judge me, O Lord, for I have walked in my innocence\" (ver. Judge me, O Lord, for, after the mercy which Thou first showedst me, I have some desert of my innocence, the way whereof I have kept. \"And trusting in the Lord I shall not be moved. \" And yet not even so trusting in myself, but in the Lord, I shall abide in Him.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/26/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68ea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. It may be attributed to David himself, not the Mediator, the Man Christ Jesus, but the whole Church now perfectly established in Christ.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/26/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "OF David Himself.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/26/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68e8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew and the most correct copies of the Septuagint, have only \"Of David. \"(Haydock) The Complutensian and Aldine editions add indeed A psalm. But these form no rule, as the Vatican Septuagint is allowed to be the best. (Berthier) The others may, however, be consulted, as in some instances they may be preferable. (Haydock) This psalm might be composed to counteract the calumnies propagated against David, while he lived among the Philistines; (Theodoret; Flaminius) or it may contain the sentiments of the captives, as well as the two following canticles. (Calmet) The Church, (St. Augustine) or any afflicted soul, may thus appeal to the justice of God, (Berthier) and particularly the sacred ministers, when they are going to appear before him. Only those whose conscience reproaches them with nothing, can hold this language. God is a just and unerring judge. (Calmet) Weakened. Hebrew also \"slide \"(Protestants) or \"stagger. \"(Symmachus) I am confident that my enemies will have no advantage over me.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/26/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf38",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 26:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 6:10",
+  "verse_text": "Verse text for LV 6:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/6/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the priest shall put on his linen garment, and his linen trousers shall he put upon his flesh, and take up the ashes which the fire has consumed with the burnt offering on the altar, and he shall put them beside the altar. The priest who offers the holocaust is the Lord who is himself accustomed to kindle in us the fire of his charity and through it to make the sacrifices of our good actions acceptable to himself. And he is clothed in linen garments when he does these things because, in order that he may excite us to works of virtue, he sets before us the examples of his own incarnation, passion and death, which can be signified by linen, as we have frequently said.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/6/10",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529b2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 6:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

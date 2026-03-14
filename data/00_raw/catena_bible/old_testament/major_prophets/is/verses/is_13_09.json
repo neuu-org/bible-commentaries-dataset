@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 13:9",
+  "verse_text": "Verse text for IS 13:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/13/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Desolate. This was effected in the course of many centuries. (Calmet)\nThe building of Seleucia caused Babylon to be deserted. (Pliny, vi. 27.)\nHence we know not at present where it was situated.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/13/9",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be964",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Behold, the day of the LORD comes, cruel both with wrath and fierce anger, to lay the land desolate: and he shall destroy its sinners out of it. For there will be none to stand by, none to rescue, nowhere the face of Christ, so mild and calm. But as those who work in the mines are delivered over to certain cruel people and see none of their friends but those only that are set over them, so will it be then also: or rather not so, but even far more grievous.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/13/9",
+      "full_content_url": "https://catenabible.com/com/5e4f7f76c849cf49a740e30c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 13:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

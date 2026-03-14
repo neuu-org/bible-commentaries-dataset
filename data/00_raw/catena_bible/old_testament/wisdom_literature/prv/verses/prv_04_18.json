@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 4:18",
+  "verse_text": "Verse text for PRV 4:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/4/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Day. They are children of light, (John xii. 35.) and give edification, always advancing in virtue. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/4/18",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be598",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "The person who removes himself from all hatred and fleshly odor and rises above all low and earthbound things, having ascended higher than the whole earth in his aforementioned flight, will find the only thing that is worth longing for. Having come close to beauty, he will become beautiful himself. Through his participation in the true light, he will himself be in a state of brightness and illumination. For just as at night the multitudinous glowing objects of the air which certain people call “shooting stars” … just as this earthly air, when it is forced upwards by the wind, becomes lightlike, being changed in the clarity of the ether, so it is with the mind of man. After leaving this muddy and dusty life, it is purified through the power of the Spirit, becomes lightlike, and is mixed with the true and lofty purity, and glows and is filled with rays and becomes light in accordance with the promise of the Lord who declared that the just will shine like the sun.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/4/18",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c83d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 4:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

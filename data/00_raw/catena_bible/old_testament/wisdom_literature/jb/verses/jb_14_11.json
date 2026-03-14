@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 14:11",
+  "verse_text": "Verse text for JB 14:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/14/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sea. There would be no supply of rain for the fountains. (Ecclesiastes i. 7.) All would continue dry: so when the blood is once gone, life is at an end. See 2 Kings xiv. 14. (Calmet)\nThe water cannot go back. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/14/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc22",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "The mind of man is the sea, and the thoughts of his mind, as it were, a wave of the sea; which sometimes swell in anger, are made calm by grace, and from hatred run out in bitterness; but when man dieth, ‘the waters of the sea fail,’ in that according to the words of the Psalmist, In that very day his thoughts perish. 146, 4] And again it is written concerning the dying soul, Also their love, and their hatred, and their envy shall perish together. 9, 6] Thus ‘the river being emptied drieth up,’ in that, when the soul is withdrawn, the body remains empty. For the lifeless body is as it were the empty channel of a river, wherein it is to be marked with an attentive eye that the present life, i. the time while the soul stays in the body, is likened to the sea and to a river, for the water of the sea is bitter, of a river sweet. And because we that are living here are at one time under the influence of certain bitternesses, and at another time are seen to be serene and gentle with sweetness, the course of the present life is set forth by the similitude of the sea and a river.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/14/11",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddcfe9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 14:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

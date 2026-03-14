@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 2:12",
+  "verse_text": "Verse text for REV 2:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/2/12",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "sword: He has fitly mentioned first His judicial power, for He was to assign rewards to the victors, and punishment to the transgressors. <a",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/12",
+      "full_content_url": "https://catenabible.com/com/5862e9b5dd1bb6dd3dba9b8d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Pergamos: Pergamos is interpreted, \"dividing their horns,\" for by his judgement he made a distinction between the virtues of the faithful and the perfidy of the Nicolaitans, that \"the horns of the sinners might be broken, and the horns of the righteous one exalted.\"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/12",
+      "full_content_url": "https://catenabible.com/com/5862e9b5dd1bb6dd3dba9b8c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "To the Angel of the Church of Pergamus. This Church is exhorted to do penance, and reprehended, as the seat or throne of Satan. It is only said, that the bishop lives where this satanical seat is, that he had not denied the faith, even under the persecution, when St. Antipas suffered martyrdom, of whom see Tillemont in the persecution under Domitian, tom. 119, and note 523; and Bollandus, April 11th; though the acts themselves be not of great authority. Thou hast them that hold the doctrine of the Nicolaites, which is compared to that of Balaam, who taught Balac to cast a scandal before the children of Israel, by which they were seduced by the women of the Moabites, and fell into the sin of fornication and idolatry. (Numbers xxiv. ) To him that overcometh, I will give the hidden manna; a happiness in heaven, which the eye hath not seen And a white stone, with a new name written, as a mark of the happiness promised to all those who shall conquer. An allusion to the custom of giving a white stone to those that were tried and acquitted, and also to persons promoted to a dignity; and a black stone to such as were found guilty. See Acts xxvi. (Witham) This new name is the eternal recompense, unknown and despised by world lings, but esteemed by the faithful, who know the excellence of the rewards promised by God.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/2/12",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c043e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 2:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

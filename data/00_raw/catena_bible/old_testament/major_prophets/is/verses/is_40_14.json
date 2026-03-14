@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 40:14",
+  "verse_text": "Verse text for IS 40:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/40/14",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "“Yet to us there is but one God, the Father, of whom are all things, and we to him; and one Lord Jesus Christ, through whom are all things, and we through him. ” … The apostle says according to the prophecy of Isaiah, “Who has known the mind of the Lord, or who has been his counselor. ” And he added, “For him and through him and in him are all things,” which Isaiah said of the artificer of all, as you have it. “Who has measured the water with his hand, and the heaven with his palm. ” And the apostle has added, “For of him and through him and in him are all things. ” What is “of him”. That the nature of all things is of his will, and he is the author of all things that come into existence. “Through him” means what. That establishment and continuance are seen to have been bestowed on all things through him. “In him” means what. That all things by a certain wonderful desire and ineffable love look on the Author of their lives and the minister of their graces and functions, according to what is written: “The eyes of all hope in you,” and “You open your hand and fill every living creature with your good pleasure.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/40/14",
+      "full_content_url": "https://catenabible.com/com/5e88f27eb1c7280cb341d025",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh With whom took he counsel, and who instructed him, and taught him in the path of justice, and taught him knowledge, and showed to him the way of understanding. Basil the Great “Who has known the mind of the Lord or who rather has been his counselor. ” This passage is not merely a rhetorical question. If it were, “who” could not possibly refer to anyone. Rather, the use of “who” indicates a rare personage. … All these questions … have the same answer: “For the Father loves the Son and shows him all that he himself is doing.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/14",
+      "full_content_url": "https://catenabible.com/com/5e88f27fb1c7280cb341d027",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Symmachus translated, “Who has prepared the Spirit of the Lord and who has shown to him the man of his counsel. With whom has he entered into counsel and has given him understanding and has taught him the path of justice and instructed him in knowledge and has shown the way of wisdom to him. ” In this translation it appears more clearly that the one whom the Spirit prepared or founded is he about whom the apostle says, “The Lord is the Spirit” and “On him the Spirit rested, the Spirit of wisdom and understanding. ” And further on, “The Spirit of the Lord is on me, wherefore he has anointed me. ” For the same Spirit of the Lord is “the man of his counsel,” in whom “dwelled all richness of divinity in bodily manner. ” With that one he entered into counsel about whom we said above, “wonderful counselor,” and in Proverbs it is written, “God founded the earth with wisdom; he prepared the heavens with foresight. ” Moreover, the Septuagint said, “Who has known the mind of the Lord and who has been his counselor,” meaning it to be understood that the mind and reason and sense of God through which all things were made and without whom nothing was made is he about whom it is sung in the Psalms, “The heavens were prepared by the Word of the Lord, and all their power by the Spirit of his mouth.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/40/14",
+      "full_content_url": "https://catenabible.com/com/5e88f27eb1c7280cb341d026",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 40:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

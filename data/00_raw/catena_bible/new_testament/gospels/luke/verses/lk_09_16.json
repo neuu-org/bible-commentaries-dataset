@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 9:16",
+  "verse_text": "Verse text for LK 9:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/9/16",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "This bread which Jesus breaks is truly the mystical Word of God and a discourse about Christ which is increased while it is distributed. From a few discourses, he ministered abundant nourishment to all peoples. He gave discourses to us like loaves that are doubled when they are poured forth from our mouths. That bread in an incomprehensible fashion is visibly increased when it is broken, when it is distributed, when it is eaten without any understanding of how it is provided…. Truly, Christ’s gifts seem small but are very great. They are not bestowed on one person but on peoples, for the food grew in the mouth of those who ate it. This food seemed to be for bodily nourishment but was taken for eternal salvation. ,",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/16",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7437",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "There is also a mystery in that the people who eat are satisfied. The apostles minister to them. The sign is given of hunger satisfied forever because one who has received the food of Christ will never hunger again. The future distribution of the Lord’s body and blood is based in the ministry of the apostles. It is already there in the miracle in the way five loaves are multiplied for five thousand people. It is clear that the people were satisfied not with a little but with an abundance of food.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/9/16",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7439",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "The order of the mystery is preserved everywhere. The first healing is bestowed on wounds through the remission of sins. Then the nourishment of the heavenly table abounds, although this multitude is not yet refreshed with stronger foods, nor do hearts hungry for more solid faith feed on the body and blood of Christ. He says, “I gave you milk to drink, not meat. For you then were not strong, nor are you yet. ” The five loaves are like milk, but the more solid meat is the body of Christ, and the stronger drink is the blood of the Lord. Not immediately at first do we feast on all foods, nor do we drink all drinks. “First drink this,” he says. Thus there is a first, then a second thing that you drink. There is also a first thing that you eat, then a second, and then a third. At first there are five loaves, then there are seven. The third loaf is the true body of Christ. So, then, let us never abandon such a Lord. He agrees to bestow on us nourishment according to the strength of each, lest either too strong a food oppress the weak or too meager a nourishment not satisfy the strong.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/9/16",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7438",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 9:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

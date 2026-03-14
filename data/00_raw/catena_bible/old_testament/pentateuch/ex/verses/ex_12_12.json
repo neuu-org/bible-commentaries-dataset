@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 12:12",
+  "verse_text": "Verse text for EX 12:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/12/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "First-born, often denotes the most beloved; or, when spoken of those under oppression, the most miserable. (Isaias xiv. 30; Psalm lxxxvii. 27.) Moses observes, (ver. 30,) that every house had one dead, which would not probably be true of the first-born, taken in a literal sense; but where there was no child, there the most dear and honourable person was cut off, Habacuc iii. 13, 14.\nGods, idols, whose statues some assert were overthrown (St. Jerome, ep. ad Fabiol.; Eusebius, præp. ix. ult.); or sacred animals, which were adored by the Egyptians; (Origen) or the word may imply that the princes and judges of the land would be mostly destroyed. (Calmet)\nForbes observes, that by the destruction of the first-born, all the proper sacrifices, and priests of Egypt, were destroyed.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/12/12",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc345",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Isodore of Seville",
+      "period": "AD636",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For I will pass through the land of Egypt this night, and will smite all the firstborn in the land of Egypt, both man and beast; and against all the gods of Egypt I will execute judgment: I am the LORD. Isodore of Seville In what follows, “on their gods I shall pass judgment,” the Hebrews affirm that on the night on which the people departed, all the temples in Egypt were destroyed, either by an earthquake or by a bolt of lightning. But we say, spiritually, that when we depart from Egypt, the idols of error take flight and the whole culture of perverse dogmas is crushed. Questions on the Old Testament, Exodus.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/12/12",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527b3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 12:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

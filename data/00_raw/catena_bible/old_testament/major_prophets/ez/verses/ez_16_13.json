@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 16:13",
+  "verse_text": "Verse text for EZ 16:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/16/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Linen. Hebrew mossi, ver. 11. (Haydock)\nChaldean understands these ornaments to pertain to the tabernacle, which was set up in the wilderness.\nOil, enjoying a most fertile country, (Calmet) and the noblest sacrifices. (Haydock)\nAnd wast The kingdom had subsisted 1500 years. (Calmet)\nSeptuagint omit this, for fear of giving umbrage to the Egyptians, according to St. Jerome, as if they could be ignorant of this circumstance. (Calmet)\nGrabe supplies, \"thou wast directed to the kingdom. \"(Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ez/16/13",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bf07f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 16:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 16:7",
+  "verse_text": "Verse text for ROM 16:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/16/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "They were Paul’s kinsmen in flesh and in Spirit, as the angel said to Mary: “Behold, your kinswoman Elizabeth.” Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/7",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53a7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Greet Andronicus and Junias, my kinsmen, and my fellow prisoners, who are of note among the apostles, who also were in Christ before me. It was the greatest of honors to be counted a fellow prisoner of Paul’s…. Think what great praise it was to be considered of note among the apostles. These two were of note because of their works and achievements. Think how great the devotion of this woman Junia must have been, that she should be worthy to be called an apostle. But even here Paul does not stop his praise, for they were Christians before he was.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/7",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 16:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

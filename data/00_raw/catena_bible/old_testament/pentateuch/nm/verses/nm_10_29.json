@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 10:29",
+  "verse_text": "Verse text for NM 10:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/10/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I will give it to you: come with us, and we will do you good: for the LORD has spoken good concerning Israel. Hobab; probably the brother of Sephora, and son of Raguel or Jethro, who had departed, leaving this son for a guide to Moses. Though God directed the marches of the Hebrews, he would not have them to neglect human means. The Hebrew clothen, and Greek gambros, are not more determinate, as they signify either father, son, or brother-in-law (see Exodus ii. ; Calmet); or in general a relation. Jerome) (Du Hamel).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/10/29",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc730",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "We can better persuade proud men to do what is useful if we say that their setting out will profit us rather than them, or if we say that improvement will profit us rather than them and ask that the cost be on our account, not theirs. For pride is easily turned to good if it can be adapted to the profit of others. Thus Moses, with God guiding him, advanced through the desert with a column of cloud going before him. When he wished to draw his relative Hobab away from his life with the Gentiles and subject him to the lordship of almighty God, he said, “We are going to the place that the Lord will give us. Come with us, so that we can do you good, for the Lord has promised good to Israel. ” When Hobab answered, “I will not go with you but will return to my land, where I was born,” Moses added, “Do not leave us. You know where we should make camp in the desert, and you will be our guide. ” Moses’ mind was not limited by ignorance of the route. For knowledge of the Deity had made him familiar with prophecy. The column had gone before him. Familiar speech had taught him about all things interiorly, through careful conversation with God. But this prudent man, speaking to a proud listener, asked Hobab to give him help. Moses needed Hobab as a guide along the way, so that he could be Hobab’s guide in life. So Moses acted so that the proud listener, as he urged the better way on him, would become more devoted to him if he were thought to be indispensable. He thought he outranked Moses, who asked him for help, and thus yielded to Moses’ words as Moses entreated him. Exposition of the Old and New Testament, Numbers.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/nm/10/29",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e528fd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 10:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

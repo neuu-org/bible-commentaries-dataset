@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 11:31",
+  "verse_text": "Verse text for DN 11:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/11/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And forces shall appear on his part, and they shall defile the sanctuary fortress, and shall take away the daily sacrifice, and they shall set up the abomination that makes desolate. They shall place there the abomination, etc: The idol of Jupiter Olympius, which Antiochus ordered to be set up in the sanctuary of the temple: which is here called the sanctuary of strength, from the Almighty that was worshipped there. (Challoner) But we on our side contend that all these things took place in a preliminary way as a mere type of the Antichrist, who is destined to seat himself in the Temple of God, and make himself out to be as God.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/11/31",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Instead of \"arms,\" (E) another writer has rendered it as \"seed,\" so as to imply (p. 569) descendants and progeny. But those of the other viewpoint claim that the persons mentioned are those who were sent by Antiochus two years after he had plundered the Temple in order to exact tribute from the Jews, and also to eliminate the worship of God, setting up an image of Jupiter Olympius in the Temple at Jerusalem, and also statues of Antiochus himself. These are described as the abomination of desolation, having been set up when the burnt offering and continual sacrifice were taken away. But we on our side contend that all these things took place in a preliminary way as a mere type of the Antichrist, who is destined to seat himself in the Temple of God, and make himself out to be as God. The Jews, however, would have us understand these things as referring, not to Antiochus Epiphanes or the Antichrist, but to the Romans, of whom it was earlier stated, \"And war galleys shall come,\" whether Italian or Roman, \"and he shall be humbled. \" Considerably later, says the text, a king, Vespasian, shall emerge from the Romans themselves, who had come to Ptolemy's assistance and threatened Antiochus. It is his arms or descendants who would rise up, namely his son Titus, who with his army would defile the sanctuary and remove the continual sacrifice and devote the temple to permanent desolation. By the terms siim (Siyyim) and chethim (Kittiym), which we have rendered as \"galleys\" and \"Romans,\" the Jews would have us understand \"Italians\" and \"Romans.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/11/31",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd36a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 11:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

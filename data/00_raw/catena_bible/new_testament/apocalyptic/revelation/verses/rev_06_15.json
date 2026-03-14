@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 6:15",
+  "verse_text": "Verse text for REV 6:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/6/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "kings: The \"kings\" we take to be those who are powerful. For he will have persons of every degree and condition to be understood. Besides, who will then be kings except the persecutor alone?",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/6/15",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9bcc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And the kings of the earth, and the great men, and the rich men, and the generals , and the mighty men, and every slave, and every free man, hid themselves in the dens and in the rocks of the mountains; hid: While all the weak at that time seek to be strengthened by the examples of the highest in the Church, and to be fortified by their counsels, protected by their advice, and sheltered by their prayers, they entreat the very mountains to fall upon them with a feeling of compassion. For \"the high mountains are a refuge for the hinds, and the rocks for the hedgehogs. \" <a.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/6/15",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9bcd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 6:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

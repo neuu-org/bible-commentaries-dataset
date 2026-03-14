@@ -1,0 +1,69 @@
+{
+  "verse_reference": "MK 15:42",
+  "verse_text": "Verse text for MK 15:42",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/15/42",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Scripture again witnesses that the space of those three days did not imply whole days in their entirety. Rather the first day is counted as whole from its last part, and the third day is itself also counted as a whole from its first part; but the intervening day, i.e., the second day, was absolutely whole with its twentyfour hours, twelve of the day and twelve of the night. For he was crucified first by the voices of the Jews in the third hour, when it was the sixth day of the week. Then he hung on the cross itself at the sixth hour, and yielded up his spirit at the ninth hour. ,",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/15/42",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52f21",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Because it was the Parasceve, that Isaiah , the day before one Sabbath. The Greek Isaiah , which is the Prosabbatum. For Parasceve is the came as Preparation. Friday was so called because food and things needful for the Sabbath were prepared upon it. Hence it was called the Proverbs -Sabbath, i.e, the day before, or the vigil of the Sabbath. (Top)\n>",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/42",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51ebb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And now when the evening was come, because it was the preparation, that is, the day before the sabbath, Ven. Bede thinks the word parasceve is derived from the Greek paraskeue, signifying a preparation. It was the day before the sabbath, on which the Jews were accustomed to prepare two meals, one for the parasceve, and another for the sabbath; the Jews not being allowed to dress any meat on the latter day, on account of its great solemnity. The Jews learnt this word of the Greeks, who lived among them in Jerusalem.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/42",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9c2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "Yesterday the lamb was slain, and the door posts sprinkled with his blood, while Egypt mourned for her firstborn. But the destroying angel and his sacrificial knife, fearful and terrifying, passed over us, for we were protected by the precious blood. This day we have wholly departed from Egypt, and from Pharaoh, its cruel tyrant, and his oppressive overseers. We are freed from laboring with bricks and straw, and no one forbids us celebrate the festival of our passing over, our pasch, and to celebrate not with the leaven of malice and wickedness but with the unleavened bread of sincerity and truth. … Yesterday I was crucified with Christ; today I am glorified with him. Yesterday I died with him; today I am given life with him. Yesterday I was buried with him; today I rise again with him. .",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/15/42",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52f20",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 15:42",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

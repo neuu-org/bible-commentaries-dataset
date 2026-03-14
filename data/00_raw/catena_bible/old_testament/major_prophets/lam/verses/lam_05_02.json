@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 5:2",
+  "verse_text": "Verse text for LAM 5:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/5/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Aliens. The Idumeans seized and kept possession of the southern parts.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/5/2",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Verse 2 considers the people's affliction. First, in general, second by going down to particular persons. As expressed in Verse 11: \"Women are ravished in Zion, virgins in the towns of Judah.\"\n\nAs to the people's affliction in general are two ideas. First is excluded those things by which ~ople are sustained against miseries. Namely, as to their possessions, passed over to enemies control. As Verse 2 states: \"Our inheritance has been turned over to strangers, our homes to aliens.\" Also, as Chapter 1:10 says: \"The enemy has stretched out his hands over all her precious things.\" And, Jeremiah 6:12 states: \"Their houses shall be turned over to others, their fields and wives together.\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/5/2",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9dc6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 5:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

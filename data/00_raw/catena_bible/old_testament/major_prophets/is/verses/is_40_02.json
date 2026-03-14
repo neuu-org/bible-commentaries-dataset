@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 40:2",
+  "verse_text": "Verse text for IS 40:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/40/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Speak tenderly to Jerusalem, and cry unto her, that her warfare is accomplished, that her iniquity is pardoned: for she has received of the LORD'S hand double for all her sins. Ambrose of Milan There is also another type of consolation to those who remove heavy punishments, as you have it written in the book of Isaiah: “Comfort, comfort my people,” says the Lord. “Priests, speak to the heart of Jerusalem, comfort it, for its humiliation is complete, its sin is removed, for it has received from the Lord’s hand double for its sins. ” Although faith was lacking, punishment makes good; those who are not absolved by the praise of merits are relieved by the removal of punishments.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/2",
+      "full_content_url": "https://catenabible.com/com/5e88f270b1c7280cb341cff2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Evil. Hebrew and some Latin copies have, \"warfare. \"\nDouble. A rigorous chastisement, Apocalypse xviii. 6. (Calmet)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/2",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723beaa2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Speak tenderly to Jerusalem, and cry unto her, that her warfare is accomplished, that her iniquity is pardoned: for she has received of the LORD'S hand double for all her sins. Gregory the Theologian How is it that some receive at the Lord’s hand double for their sins and the measure of their wickedness is doubly filled up, as in the correction of Israel, while the sins of others are removed by a sevenfold compensation. What is the measure of the Amorites that is not yet full. And how is the sinner either acquitted or chastised again, acquitted perhaps, because reserved for the other world, chastised because healed thereby in this.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/2",
+      "full_content_url": "https://catenabible.com/com/5e88f270b1c7280cb341cff1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 40:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 72:11",
+  "verse_text": "Verse text for PS 72:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/72/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "13. \"The kings of Tharsis and the isles shall offer gifts, the kings of the Arabians and of Saba shall lead presents\" (ver. 10). This no longer requireth an expounder but a thinker; yea it doth thrust itself upon the sight not only of rejoicing believers, but also of groaning unbelievers-except perchance we must inquire why there hath been said, \"shall lead presents.\" For there are wont to be led those things which can walk. For could it by any means have been spoken with reference to the sacrifice of victims? Far be it that such \"righteousness\" should arise in His days. But those gifts which have been foretold as to be led, seem to me to signify men, whom into the fellowship of the Church of Christ the authority of kings doth lead: although even persecuting kings have led gifts, knowing not what they did, in sacrificing the holy Martyrs. \"And there shall adore Him all kings of the earth, all nations shall serve Him\" (ver. 11).",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/72/11",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6bd1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 72:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

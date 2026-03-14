@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 14:9",
+  "verse_text": "Verse text for ZEC 14:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/14/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "It is clear that this passage refers to the glorious time of the Maccabees when, after the idolatry that Antiochus had introduced had been rejected, all of Judea embraced the cult of the one God. At the same time, the things which you see here to be foreshadowed were fulfilled and perfected by Christ. Therefore the prophet calls summer the very happy time of the manifestation of Christ to the whole world, because Nisan aptly represents the end of the winter month and the beginning of the fruitful summer. On the other hand, he calls winter the night, which constantly oppresses the devil, after the birth of Christ. Again the words “as it was in the ancient times” appear to be suitable to the day, which brought salvation to Moses and the children of Israel. Indeed, it opened a splendid summer for them, whom it carried safe and uninjured through the sea, while it generated a sorrowful winter to the Egyptians by submerging and suffocating their army. On that day the Lord will be one and his name one. What I said to refer to the time of the Maccabees and the dominion of the Jews was brought to its completion all over the world, when, after the promulgation of the gospel of Christ, the whole world believed in him and recognized that he is God and the true king.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/14/9",
+      "full_content_url": "https://catenabible.com/com/5838db41205c248f42e52bb8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "One Lord. The apostles justly gave this title to Christ, John xiii. 14. He is possessed of all power, Matthew xxviii. 18., and Philippians ii. 10. Pastors are all subject to him. (Calmet)\nThe Pope styles himself, \"servant of the servants of God \"since St. Gregory's time. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/14/9",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf615",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 14:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 6:12",
+  "verse_text": "Verse text for 2SM 6:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/6/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And it was told king David, saying, The LORD has blessed the house of Obed-edom, and all that pertains unto him, because of the ark of God. So David went and brought up the ark of God from the house of Obed-edom into the city of David with gladness. Or companies of musicians. (Challoner) This sentence is not found in Hebrew nor in St. Jerome's version. (Calmet) The Vatican and Alexandrian Septuagint have, \"David brought the ark of the Lord from the house of Obeddara, into the city of David, with joy; (13) and there were seven choirs with him, taking up the ark, and the sacrifice, a calf and lamb; (14) and David played on tuneful organs before the Lord; and David had on a beautiful stole.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/6/12",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd0b0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Choirs: Or companies of musicians.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/6/12",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 6:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

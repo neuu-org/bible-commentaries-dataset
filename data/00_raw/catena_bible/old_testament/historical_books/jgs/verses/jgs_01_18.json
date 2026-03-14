@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 1:18",
+  "verse_text": "Verse text for JGS 1:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/1/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Gaza These were three of the principal cities of the Philistines, famous both in sacred and profane history. They were taken at this time by the Israelites; but as they took no care to put garrisons in them, the Philistines soon recovered them again, (Challoner) or perhaps the villages and territory were only seized by Juda; the cities being too well defended. Josue had not attacked them, Josue xii. Josephus says that only Ascalon and Azotus, in the plain, fell into the hands of the Israelites; and the Roman Septuagint reads with a negation, (Calmet) which is inserted by Grabe in his edition as an interpolation, or as a peculiarity of the Alexandrian manuscripts, \"and Juda did possess Gaza with its dependencies, and Ascalon. and Accaron. and Azotus, with its fields around. \"(Haydock) The situation of Gaza, Ascalon and Accaron in the plain, would seem to secure them from being captured, ver. Augustine and Procopius admit the negation. But the original and all the versions reject it, so that the children of Juda must have had possession of these cities at least for a short time. (Calmet) See chap. , and 1 Kings vi. (Menochius).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/1/18",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bccaf",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Gaza: These were three of the principal cities of the Philistines, famous both in sacred and profane history. They were taken at this time by the Israelites: but as they took no care to put garrisons in them, the Philistines soon recovered them.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/1/18",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa007",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 1:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

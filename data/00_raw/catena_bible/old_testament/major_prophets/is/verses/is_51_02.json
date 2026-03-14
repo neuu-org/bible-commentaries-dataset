@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 51:2",
+  "verse_text": "Verse text for IS 51:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/51/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Alone, and gave him children when he was grown old, and Sara barren. I can surely save you likewise. (Calmet)\nThe example of these great progenitors is set before the Jews. Thus St. Paul says: Remember your prelates, Hebrews xiii. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/51/2",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb3f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "For the divine voice says somewhere in the prophecy of Isaiah, “Consider Abraham, your father, and Sarah, who gave you birth.” Scripture gives this admonition to those who wander outside virtue. Just as at sea those who are carried away from the direction of the harbor bring themselves back on a course by a clear sign, on seeing either a beacon light raised up high or some mountain peak coming into view, in the same way Scripture by the example of Abraham and Sarah may guide again to the harbor of the divine will those adrift on the sea of life with a pilotless mind.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/51/2",
+      "full_content_url": "https://catenabible.com/com/5e88f350b1c7280cb341d1d8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 51:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

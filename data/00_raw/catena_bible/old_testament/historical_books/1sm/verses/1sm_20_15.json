@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1SM 20:15",
+  "verse_text": "Verse text for 1SM 20:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/20/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But also you shall not cut off your kindness from my house forever: no, not when the LORD has cut off the enemies of David every one from the face of the earth. It is a curse upon himself, if he should not be faithful to his promise. That is, revenge it upon David's enemies, and upon me, if I shall fail of my word given to him. (Challoner) The Hebrew and several Latin manuscripts stop at earth; and what follows, is not found in some Greek and Latin editions. (Calmet) Enemies. May God punish David's enemies, and me among the rest. (Menochius).",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/20/15",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcf87",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Require it: That is, revenge it upon David's enemies, and upon me, if I should fail of my word given to him.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/20/15",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f10c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "May he take away Jonathan: It is a curse upon himself, if he should not be faithful to his promise.-- Ibid.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/20/15",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f10b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 20:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

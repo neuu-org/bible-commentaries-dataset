@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 1:2",
+  "verse_text": "Verse text for DT 1:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/1/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cades-barne. All the distance between Horeb and the Jordan, by Mount Seir, on the road to Cades-barne, might have been travelled in eleven days' time, being about 300 miles; or the Hebrews were so long in going thither, Numbers xxxiii. (Calmet) It was to punish the Israelites for their frequent rebellions, that they were condemned to wander in that wilderness forty years. (Du Hamel) They might have entered the promised land, when they first came to Cades-barne, from Mount Horeb, (Numbers xiii. 1, 27,) which, even by the circuitous road of Mount Seir, would not have taken them above eleven days. He mentions this to remind them of their folly. Perhaps all the aforesaid places may have been between Horeb and Cades-barne, as Bonfrere maintains that Laban was in the neighbourhood of Sinai, where Moses first received the law which he is now going to explain. His discourse turns upon the chief occurrences of the forty years' journey; and hence, these are the words, (ver. 1,) may refer not only to what he was going to say, but also to the commands which he had already notified to the Israelites, from the passage of the Red Sea till the station Abelsetim, upon the banks of the Jordan, Numbers xxxvi. (Haydock) Deuteronomy contains a recapitulation of the law, and therefore it was to be read aloud to all the people on the feast of tabernacles, every seventh year; and the new kings, or rulers of the Hebrews, were commanded to transcribe it, and every day read some part for the rule of their conduct, chap.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/1/2",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc8d1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 1:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

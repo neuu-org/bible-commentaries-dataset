@@ -1,0 +1,58 @@
+{
+  "verse_reference": "2COR 13:6",
+  "verse_text": "Verse text for 2COR 13:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/2cor/13/6",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul is calling them to a knowledge of the faith and an upright life. Once they have recognized the authority of the apostle and his worth in God’s sight, they will start to be concerned about themselves. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/13/6",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e626d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "2 Corinthians 13:6 But I trust that you shall know that we are not counterfeits. Cornelius a Lapide But I trust that ye shall know that we are not reprobates. Not rejected by Christ, and deprived of His grace, and so mean and inglorious. You see indeed the opposite: you see Christ working powerfully in me, converting the Gentiles, punishing the rebellious, approving all that I do, cooperating with me, and giving me a successful issue in all things, so making me well known through all Achaia, nay through all the world.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/13/6",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e525f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I trust that we have not fallen from the state in which we were, but that we continue to exercise our ministry and to use the power which he has given us. Though I do not wish to find you guilty of any sins which may oblige me to use this power over you. I rather wish in this respect to have no authority whatever over you, to be as it were an outcast or reprobate, that you may never feel the power that God hath given me for the punishment of the wicked. (St. Chrysostom)\nReprobates. That is, without proof, by having no occasion of shewing our power in punishing you. (Challoner)",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2cor/13/6",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c00c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2COR 13:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

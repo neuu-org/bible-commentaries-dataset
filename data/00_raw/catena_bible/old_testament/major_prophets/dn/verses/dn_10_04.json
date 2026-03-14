@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 10:4",
+  "verse_text": "Verse text for DN 10:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/10/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Ezekiel also had seen a great vision beside a river, the Chebar (Ez. 1). And it was by the stream of the Jordan that the heavens were opened to the gaze of our Lord and Savior and also to John the Baptist (Matt. 3). (C) Therefore those critics should leave off their foolish objections who raise questions about the presence of shadows and symbols in a matter of historical truth and attempt to destroy the truth itself by imagining that they should employ allegorical methods to destroy the historicity of rivers and trees and of Paradise [mentioned in Scripture].",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/10/4",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd341",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 10:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

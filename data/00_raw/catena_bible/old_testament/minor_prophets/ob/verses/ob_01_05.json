@@ -1,0 +1,47 @@
+{
+  "verse_reference": "OB 1:5",
+  "verse_text": "Verse text for OB 1:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ob/1/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "If thieves came to you, oh, how you would be silenced! Everything would be open for plunder because of the overwhelming fear, until [the plunderers] have stolen enough [riches] for themselves, for they are people of insatiable and consuming greed. If grape gatherers came to you—that is, if plunderers invaded you with open violence—what would you do? Would you not at least strive to have the gleanings of the vineyard remain to you? But you strive in vain against the Chaldeans, the invaders of your dominions. Therefore he refers to them [the Edomites] by adding how Esau has been pillaged, his treasures searched out. He prophesies that the people of Esau had to be pillaged by the Chaldeans with incredible zeal and then even deported to captivity. Nebuchadnezzar of Babylon fulfilled this prediction after he thouroughly destroyed Edom and moved its inhabitants elsewhere. .",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ob/1/5",
+      "full_content_url": "https://catenabible.com/com/5839ec83205c248f42e52f82",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cluster. (Jeremias xlix. 9.) The Chaldeans take all, and remove the people, ver. 7.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ob/1/5",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf48c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured OB 1:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HOS 5:1",
+  "verse_text": "Verse text for HOS 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "For indeed the shepherds drink most pure water, when with a right understanding they imbibe the streams of truth. But to foul the same water with their feet is to corrupt the studies of holy meditation by evil living. And truly the sheep drink the water fouled by their feet, when any of those subject to them follow not the words that they hear but only imitate the bad examples that they see. Thirsting for things said but perverted by the works observed, they take in mud with their draughts, as from polluted fountains. Hence also it is written through the prophet, “A snare for the downfall of my people are evil spirits.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/5/1",
+      "full_content_url": "https://catenabible.com/com/5838db23205c248f42e52af8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "O priests: What is said of priests in this prophecy is chiefly understood of the priests of the kingdom of Israel; who were not true priests of the race of Aaron; but served the calves at Bethel and Dan.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/5/1",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

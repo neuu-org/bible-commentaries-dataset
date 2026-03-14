@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 35:20",
+  "verse_text": "Verse text for PS 35:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/35/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew adds lo, \"not. \"But it may be better explained as an interrogation. \"Have they not spoken. \", as the enemies used deceit. (Houbigant) (Berthier) Earth. This word is omitted in the Roman Septuagint, St. Augustine But Theodoret reads it, and it is in all the other Greek interpreters, and in the Arabic and Syriac. (Calmet) Hebrew, \"they devise deceitful matters against them that are quiet (righe, divided) in the land. \"(Protestants) or \"in the plunder of the earth they devise deceit. Jerome) (Haydock) They appear friendly, but when alone they talk to the earth, like people in deep study and full of passion. (Calmet) This terrestrial anger is the source of much evil. (Berthier) The Jews and Herodians said, Master, designing to inveigle our Saviour, Matthew xxii. The priests and Pharisees also accused him boldly, and instigated the people to demand his crucifixion. (Worthington) They were split into parties, and invaded those who were the reverse of passionate. (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/35/20",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfc9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 35:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 8:1",
+  "verse_text": "Verse text for 2SM 8:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/8/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Tribute. Aquila, and probably St. Jerome, translated, \"cubit. \"Others suppose that Amma, or Meteg-ama, is some unknown place, which David wrested from the hands of the Philistines. It is hardly probable that the Israelites would have paid the latter tribute till the 20th year of his reign, (Calmet) or even till the 12th. (Salien)\nHe might now force them to pay tribute. (St. Jerome) (Haydock)\nPerhaps a letter may have been transposed, and instead of Meteg, we should read, \"Geth, the mother \"or metropolis, and its dependencies; (1 Paralipomenon xviii. 1.) or \"he took Metec, (Numbers xxxiii. 28.) and its mother \"Geth, which reconciles the two passages. Chaldean, \"he deprived them of the advantage of the rivulet. \"Septuagint, \"David took the separated \"place, (Serarius) or the city of Geth. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/8/1",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd0ca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 8:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

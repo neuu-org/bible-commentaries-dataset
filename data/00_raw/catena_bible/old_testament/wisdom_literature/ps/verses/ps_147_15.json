@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 147:15",
+  "verse_text": "Verse text for PS 147:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/147/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Who sendeth forth His Word to the earth\" (ver. Behold, on earth we toil, weary, fainting, sluggish, cold: when should we be raised up to the fat of wheat that satisfieth, did not He send His Word to the earth, whereby we were weighed down, to the earth, whereby we were hindered from returning. His Word, He deserted us not even in the wilderness, He rained manna from heaven. \"Who sendeth forth His Word to the earth;\" and to earth His Word came. or what is His Word. \"Even unto swiftness His Word runneth. \" He said not, \"His Word is swift,\" but, \"His Word runneth even unto swiftness. \" Let us understand, my brethren: He could not have chosen a better word. He who is hot grows hot by heat, he who is cold grows cold by cold, he who is swift becometh swift by swiftness. To what degree then doth it run. \"Even to swiftness. \" Increase as much as you will the swiftness of the Word, and say, It is as swift as this or that, as birds, as the winds, as the Angels; is any of these as great as swiftness itself, \"even unto swiftness\". What is swiftness itself, brethren. It is everywhere; it is not in part. This belongeth to the Word of God, not to be in part, to be everywhere by Himself the Word, whereby He is \"the Power of God and the Wisdom of God,\" before He had taken flesh upon Him. If we think of God in the Form of God, the Word equal to the Father, this is the Wisdom of God, of which is said, \"It reacheth from one end to the other mightily. \" What mighty speed. \"It reacheth from one end to the other mightily.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/147/15",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67c5",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Speech. Rain, (Kimchi) Jesus Christ, (St. Augustine) or the gospel, (St. Hilary; St. Jerome) which was presently propagated over all the earth, Romans x. 18. (Worthington)\nGod's commands are instantly obeyed. (Haydock)\nNo sooner did he speak to Saul, but he was converted, Acts ix. 4., and Hebrews iv. 12. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/147/15",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be549",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 147:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 9:13",
+  "verse_text": "Verse text for JGS 9:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/9/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cheereth God and men. Wine is here represented as agreeable to God, because he had appointed it to be offered up with his sacrifices. But we are not obliged to take these words, spoken by the trees in Joatham's parable, according to the strict rigour of divinity; but only in a sense accommodated to the design of the parable expressed in the conclusion of it. (Challoner) The same word, Elohim, which is translated God may also signify any powerful man, as in ver. (Haydock) Yet wine may be said to cheer God, in the same figurative sense, as the odour of victims is sweet and delightful to him. (Calmet) He is pleased with the devotion of men, and requires these things as a testimony of their love and fidelity. (Haydock) Joatham might speak according to the notions of the idolaters, who thought that their gods really fed on ambrosia and nectar, and were pleased with the smell of victims and of perfumes. That wine cheereth the heart of man needs no proof, Psalm ciii. Tunc veniunt risus, tunc pauper cornua sumit. Tunc dolor et curæ rugaque frontis abit.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/9/13",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd63",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Cheereth God and men: Wine is here represented as agreeable to God, because he had appointed it to be offered up with his sacrifices. But we are not obliged to take these words, spoken by the trees, in Joatham's parable, according to the strict literal sense: but only in a sense accomodated to the design of the parable expressed in the conclusion of it.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/9/13",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa01e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 9:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

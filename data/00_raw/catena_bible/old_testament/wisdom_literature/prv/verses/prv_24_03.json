@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 24:3",
+  "verse_text": "Verse text for PRV 24:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/24/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Deceit. Poison. He wishes to discover thy secret.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/24/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be719",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Through wisdom is a house built; and by understanding it is established: [Solomon] calls Christ wisdom, intelligence and reason. The house is [Christ’s] church which he built and whose storerooms he filled with every kind of precious and splendid riches. The storerooms are the hearts of those who believe in Christ and live in imitation of him—those hearts, I mean, which abound in goodness in thoughts, words and deeds. For this reason, they are made worthy of eternal blessedness. Commentary on the Proverbs of Solomon, Fragment–.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/24/3",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8567",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 24:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

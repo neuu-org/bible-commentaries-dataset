@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 12:12",
+  "verse_text": "Verse text for MT 12:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/12/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "How much then is a man better than a sheep. Therefore it is lawful to do well on the sabbath days. Theophylact of Ochrid He shows that for love of money and so as not to lose a sheep they would set aside the sabbath, but they could not tolerate that the sabbath be set aside so that a man might be healed. By this He shows that they were not only lovers of money and cruel men, but even despisers of God. For they hold the sabbath in contempt so as not to suffer the loss of a sheep, and yet without mercy they condemn the healing of a man.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/12/12",
+      "full_content_url": "https://catenabible.com/com/58a5ce5054b4f95416b2f6b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 12:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

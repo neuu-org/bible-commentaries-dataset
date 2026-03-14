@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 13:20",
+  "verse_text": "Verse text for HEB 13:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/13/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Who brought, or raised from the dead, the great pastor of the sheep, of all the faithful, Jesus Christ, in the blood of the everlasting testament: in the testament that is to last for ever, not for a time, like the former testament made to the people of Israel. These words, in the blood, may either be joined with brought from the dead his son, as man, by the merits of his blood, which he had shed on the cross, as it is said in Philippians ii. 8. Or they may be joined with the great pastor, and then the sense will be, that God raised Jesus Christ, who, by his blood shed on the cross, became the great shepherd of all the faithful. Working in you by his grace every good work (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/13/20",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0356",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now the God of peace, that brought again from the dead our Lord Jesus, that great shepherd of the sheep, through the blood of the everlasting covenant, Again he bears high testimony to them. For that is made perfect which having a beginning is afterwards completed. And he prays for them which is the act of one who yearns for them. And while in the other Epistles, he prays in the prefaces, here he does it at the end. Working in you, he says, that which is well-pleasing in His sight through Jesus Christ, to whom be glory for ever and ever.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/13/20",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac88a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 13:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

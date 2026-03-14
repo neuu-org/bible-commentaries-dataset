@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 6:9",
+  "verse_text": "Verse text for ROM 6:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/6/9",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "When death first had dominion over Christ, it was only with his consent.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/6/9",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f53",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Though Christ is now risen from the dead, and death has no more power over him, yet living in himself immortal and incorruptible he is again immolated for us in the mystery of the holy sacrifice. Where his body is eaten, there his flesh is distributed among the people for their salvation. His blood no longer stains the hands of the godless but flows into the hearts of his faithful followers.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/6/9",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4f54",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "And again, \"Knowing that Christ, rising from the dead, dieth no more: \"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/6/9",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb9ce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "In taking upon Him manhood, He gave a testimony in the world, wherein also having suffered, He freed us by His blood from sin; and having vanquished hell, He was the first who rose from the dead and \"death shall have no more dominion over Him.\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/6/9",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb9d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 6:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

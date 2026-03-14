@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 20:26",
+  "verse_text": "Verse text for MT 20:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/20/26",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And not as before, so now also does He check them. For whereas before He brings little children into the midst, and commands to imitate their simplicity and lowliness; here He reproves them in a sharper way from the contrary side, showing that such a feeling as this is that of heathens, I mean, to love the first place. For the passion is tyrannical, and is continually hindering even great men; therefore also it needs a severer stripe. Whence He too strikes deeper into them, by comparison with the Gentiles shaming their inflamed soul, and removes the envy of the one and the arrogance of the other, all but saying, Be not moved with indignation, as insulted. For they harm and disgrace themselves most, who on this wise seek the first places, for they are among the last. For matters with us are not like matters without. 'For the princes of the Gentiles exercise dominion over them,' but with me the last, even he is first.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/20/26",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac507",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 20:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

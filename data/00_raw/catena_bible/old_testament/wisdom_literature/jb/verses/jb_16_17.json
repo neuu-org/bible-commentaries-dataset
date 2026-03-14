@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 16:17",
+  "verse_text": "Verse text for JB 16:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/16/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Dim. Hebrew and Septuagint, \"covered with the shadow of death \"(Haydock) greatly impaired. Some have almost lost their sight by weeping; and death seemed ready to close Job's eyes. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/16/17",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc4d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "25. He suffered without the wickedness of His hand; Who did no sin, neither was guile found in His mouth, [1 Pet. 2, 22] and yet endured the pain of the Cross for our redemption. Who only above all others ‘made pure prayers to God,’ in that even in the very anguish of His Passion He prayed in behalf of His persecutors, saying, Father, forgive them, for they know not what they do. [Luke 23, 24] For what can be described, what can be conceived more pure in prayer, than when the mercifulness of intercession is vouchsafed even those, from whose hands pain is undergone? Whence it was brought to pass, that that Blood of our Redeemer, which His persecutors in raging had spilt, afterwards in believing they drank, and proclaimed Him to be the Son of God.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/16/17",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd022",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 16:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

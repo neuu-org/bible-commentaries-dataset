@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 8:12",
+  "verse_text": "Verse text for REV 8:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/8/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The third part of the sun was smitten. This may signify a third part of men killed in those wars, or (according to the opinion that refers all to antichrist's time) that in those days the sun and moon shall not give above a third part of their light. (Witham)\nHere we behold a noble figure of the Church, which whilst in its most flourishing state, like the sun, is suddenly obscured, and a third part extinguished by the heresy and schism of the Greeks, under Photius, which began in 866, and infected all orders of Christians, clergy and laity, princes and individuals, signified by the sun, moon, and stars. (Pastorini)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/8/12",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c046a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jacob Bar-Salibi",
+      "period": "AD1171",
+      "content": "'On this Caius said that, just as in the Flood the heavenly bodies were not taken away and suddenly submerged, thus also is it to be in the end, as it is written [St. 37] ; and Paul says, When they shall say, Peace and safety, destruction shall come upon them [1 Thess. But Hippolytus says, in reply to this objection of the heretic: Before the Flood there was none of these signs, inasmuch as the Flood was partial; and the heavenly bodies were not removed, inasmuch as the general end had not arrived : but when heaven and earth are about to pass away [St. 35], it must needs be that by little and little their splendour shall perish. And to this Joel testifies : Before him verily the earth shall be confounded and the heavens shaken, and the sun and moon shall be darkened, and the stars their light shall set [Joel ii. And our Lord said, in the Book of Luke, And there shall be signs in the sun and moon and stars, and on the earth distress of nations, and the powers which are in |401 heaven shall be shaken [St. And as to this, that He sent a manifest token, it is with regard to the non-perception of the unbelieving that He signifies. And as to the text, When they shall say Peace, destruction shall come upon them, it is with regard to the Jews that He signifies, that they expect to possess their land and to be able to live in peace, and forthwith Christ appears and they are put to shame.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/8/12",
+      "full_content_url": "https://catenabible.com/com/574f831e3c6effa740ddd758",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 8:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

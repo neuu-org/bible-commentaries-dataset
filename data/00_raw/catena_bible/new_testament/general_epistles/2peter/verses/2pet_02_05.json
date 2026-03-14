@@ -1,0 +1,58 @@
+{
+  "verse_reference": "2PET 2:5",
+  "verse_text": "Verse text for 2PET 2:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2pt/2/5",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Before the law, Adam spoke prophetically in respect to the woman, and the naming of the creatures; Noah preached repentance;",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/2/5",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac77",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "And spared not the ancient world, but saved Noah the eighth person, a preacher of righteousness, bringing in the flood upon the world of the ungodly; Let us turn to every age that has passed, and learn that, from generation to generation, the Lord has granted a place of repentance to all such as would be converted unto Him. Noah preached repentance, and as many as listened to him were saved. every age that has passed, and learn that, from generation to generation, the Lord has granted a place of repentance to all such as would be converted unto Him.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/2/5",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac76",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Noah also, uncircumcised-yes, and inobservant of the Sabbath-God freed from the deluge.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/2/5",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac78",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2PET 2:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

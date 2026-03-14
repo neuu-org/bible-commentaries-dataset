@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 2:26",
+  "verse_text": "Verse text for ROM 2:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/2/26",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Faith in Christ is the righteousness of the law…. From this it is clear that if a Gentile believes in Christ he becomes a son of Abraham, who is the father of faith. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/2/26",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ddd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Gentiles become members of the house of Israel when their uncircumcision is counted for circumcision, inasmuch as they do not display the righteousness of the law by the cutting of the flesh but keep it in charity of heart.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/2/26",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4dde",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Shall not his uncircumcision (Literally, his præputium ) be reputed for circumcision? Nonne præputium illius in circumcisionem reputabitur? e peritome sou akrobustia gegonen. A translation may adhere to the letter too much; this seems literal enough. (Witham)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/2/26",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfee8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Look how clever Paul is. He does not say that the uncircumcision overcomes circumcision (for that would have angered the Jews who read his letter) but that the uncircumcision has become circumcision. Next he asks what circumcision really is, and he says that it is welldoing, whereas uncircumcision is evildoing. Having moved the uncircumcised who does good deeds over to the circumcised and having pushed the circumcised man who leads a corrupt life into the ranks of the uncircumcised, Paul states his preference for the physically uncircumcised.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/2/26",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ddf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 2:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

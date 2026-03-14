@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 61:1",
+  "verse_text": "Verse text for IS 61:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/61/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "To name Christ is to confess the whole, for it is to point to God [The Father] who has anointed the Son; and to the Son who has been anointed, and to the unction itself, which is The Spirit. This accords with Peter’s teaching in Acts: ‘God anointed Jesus of Nazareth with the Holy Spirit (Acts 10.38) and with the teaching of Isaiah: ‘The Spirit of the Lord is upon me, because the Lord has anointed me’ [Isaiah 61.1]. The Psalmist simply says, ‘Therefore God, your God, has anointed you with the oil of gladness’ (Ps 45.7).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/61/1",
+      "full_content_url": "https://catenabible.com/com/634750186cf26c0018269d9c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew adds, \"God. \"Adonai seems to have been inserted to prevent the pronunciation of Jehovah, (Kennicott) which alone occurs in the Septuagint, Arabic, and in St. (Haydock) Thus Elohim may have been substituted for Jehovah, Genesis xxii. 14, \"Abraham called the name of that place Jehovah jireh, because he had said that day on the mount: Jehovah will provide \"a victim, even Jesus Christ in the same place. Perhaps no part of the Bible is \"so absurdly translated \"as this, (Kennicott) by Protestants. (Haydock) St. Luke follows the Septuagint in his quotation, only instead of to preach a, he has an explanation, to set at liberty them that are bruised. Isaias may here speak of himself, (Chaldean) yet only as a figure of Christ. The Jews admit that the Messias is meant. Christ had received the Holy Spirit at the Jordan, John i. He performed these works, (Luke vii. ) particularly addressing his discourse to the meek and poor, Sophonias iii. , and Zacharias xi. , and 1 Corinthians i. (Calmet) He was not anointed with oil, like Aaron, but with the Holy Spirit; so that of his fullness others must receive, Acts x. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/61/1",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bebc0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 61:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

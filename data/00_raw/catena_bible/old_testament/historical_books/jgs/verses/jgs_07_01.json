@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 7:1",
+  "verse_text": "Verse text for JGS 7:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/7/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fountain. The same also called Areth, as the copies of the Septuagint and of St. Jerome vary. (Bonfrere)\nHarad, or \"of trouble \"either because the Madianites were filled with terror at the approach of Gedeon, or because so many of his soldiers returned home through fear. (Menochius)\nPerhaps it may be the same which is called the fountain of Jezrael, near which Saul encamped, 1 Kings xxix. 1. (Calmet)\nAdrichomius places it on the south of Gelboe, which is called the high hill. (Menochius)\nHebrew, \"on the north side of them, by the hill of More, in the vale. \"(Haydock)\nJezrael was between Gelboe to the south, and Hermon to the north. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/7/1",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd32",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 7:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

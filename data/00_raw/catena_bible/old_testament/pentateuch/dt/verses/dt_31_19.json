@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 31:19",
+  "verse_text": "Verse text for DT 31:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/31/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This canticle, which will be given in the following chapter. Hence this law, (ver. 9,) may comprise not only what had gone before, but also the remaining part of the book of Deuteronomy. This Moses would write before his death, and deliver entire, with the preceding books, to be kept with the utmost care, by the priests, as a testimony to remind all of what had happened in past ages, and what would befall the transgressors of God's law. (Haydock) The canticle, containing an abridgment of the book of Deuteronomy, (Calmet) as the latter did of the whole law, was to be copied out more frequently, (Haydock) and committed to memory. Some suppose that Moses and Josue are here ordered to see this put in execution. Others think that Moses gives this commission to the priests. Hebrew, \"put it in their mouths, (Calmet) that this song may be a witness for me against \"God foresaw that the Israelites would prove rebellious; but he leaves them without excuse, as they could not plead ignorance. (Haydock) This testimony against them was written in the form of a canticle, that it might be more easily remembered. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/31/19",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcad8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 31:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

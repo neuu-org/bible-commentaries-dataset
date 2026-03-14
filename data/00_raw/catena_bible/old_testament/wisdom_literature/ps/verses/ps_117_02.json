@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 117:2",
+  "verse_text": "Verse text for PS 117:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/117/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. \"O praise the Lord, all ye heathen: praise Him, all ye nations\" (ver. 1). These are the courts of the Lord's house, this all His people, this the true Jerusalem. Let those rather listen who have refused to be the children of this city, since they have cut themselves off from the communion of all nations. \"For His merciful kindness is ever more and more towards us: and the truth of the Lord endureth for ever\" (ver. 2). These are those two things, loving-kindness and truth, which in the CXVth Psalm I admonished you should be committed to memory. But \"the merciful kindness of the Lord is ever more and mere towards us,\" since the furious tongues of hostile nations have yielded to His Name, through which we have been freed: \"and the truth of the Lord endureth for ever,\" whether in those things which He promised to the righteous, or in those which He hath threatened to the ungodly.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/117/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65f3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For his merciful kindness is great toward us: and the truth of the LORD endures forever. Praise you the LORD. Remaineth is not in Hebrew. Mercy and truth confirm us. (Haydock) The psalmist acknowledges that he also stands in need of them, and St. John assures us, that grace and truth came by Jesus Christ. (Berthier) No promise had been made to the Gentiles (Worthington) by the law; though they were all included in the original promise, Genesis iii. (Haydock) God hath withdrawn them from idolatry, to impart to them his mercies.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/117/2",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3c6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 117:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

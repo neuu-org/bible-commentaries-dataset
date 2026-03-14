@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 16:2",
+  "verse_text": "Verse text for PS 16:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/16/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "2. Now He saith as follows; \"Preserve me, O Lord, for in Thee have I hoped\" (ver. 1): \"I have said to the Lord, Thou art my God, for Thou requirest not my goods\" (ver. 2): for with my goods Thou dost not look to be made blessed.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/16/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6829",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh O my soul, you have said unto the LORD, You are my Lord: my goodness reaches not to you; I have. Hebrew, \"Thou, my soul, hast said. Jerome agrees with us. Hebrew, \"my good is not above thee. \"I can desire nothing greater. (Berthier) Aquila and Vatable seem to have the same idea as the Septuagint. We reap all the profit from our piety. (Calmet) The redemption was entirely for man's benefit, (Worthington) though it gave the greatest glory to God. (Haydock) Since God, therefore, wants nothing, I will show my kindness (Bellarmine) to the poor.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/16/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdeb7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 16:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

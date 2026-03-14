@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 8:17",
+  "verse_text": "Verse text for JER 8:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/8/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Charm. The Chaldeans will not be moved to pity (Menochius) by any words. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/8/17",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beca6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For, behold, I will send serpents, adders, among you, which will not be charmed, and they shall bite you, says the LORD. You should know that the disease of envy is harder to cure than any other. I would say that someone tainted by its poison is almost beyond healing. This is the plague described figuratively by the prophet: “See, I will send you serpents against which there are no incantations, and they will bite you. ” The bites of envy are quite rightly compared by the prophet with the lethal poison of the basilisk.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/8/17",
+      "full_content_url": "https://catenabible.com/com/5e9360fdd87c4a70874ae1bd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 8:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

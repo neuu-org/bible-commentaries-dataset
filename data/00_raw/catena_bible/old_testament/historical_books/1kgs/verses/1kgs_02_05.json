@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 2:5",
+  "verse_text": "Verse text for 1KGS 2:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/2/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "These instructions given by David to his son, with relation to Joab and Semei, proceeded not from any rancour of heart, or private pique; but from a zeal for justice: that crimes so public and heinous might not pass unpunished. (Challoner) David and Solomon esteemed themselves, in a manner, defiled, as long as these continued unpunished, ver. Joab had behaved to David with great insolence, after the death of Absalom. (Haydock) He had lately sided with Adonias. (Menochius) But what touched the good old king more particularly, were the treacherous murders of two great generals, who had put themselves under his protection, and were endeavouring to promote his welfare. Only the fear of greater commotions had hitherto prevented David from bringing his nephew to public execution, as the people expected. He deemed it requisite to remind his successor of this obligation, when his power should be sufficiently strong, that the impunity of such daring offenders might not destroy the commonwealth. (Haydock) Peace. Pretending affection. Joab had treated Abner and Amasa as the worst of enemies, and their blood had stained his garments. (Menochius).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/2/5",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd21e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Moreover you know also what Joab the son of Zeruiah did to me, and what he did to the two captains of the armies of Israel, unto Abner the son of Ner, and unto Amasa the son of Jether, whom he slew, and shed the blood of war in peace, and put the blood of war upon his belt that was about his loins, and in his shoes that were on his feet. Joab: These instructions given by David to his son, with relation to Joab and Semei, proceeded not from any rancour of heart, or private pique; but from a zeal for justice, that crimes so public and heinous might not pass unpunished.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/2/5",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa031",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 2:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 2:3",
+  "verse_text": "Verse text for PRV 2:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/2/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "God’s wisdom … [works] “in many forms and many ways” through technical skill, scientific knowledge, faith, prophecy; it shows us its power to our benefit, because “all wisdom comes from the Lord and is with him to all eternity,” as the wisdom of Jesus puts it. “For if you call for practical wisdom and perception at the top of your voice, if you seek it as you would a treasure of silver, and if you track it down ardently, then you will realize the meaning of reverence for God and you will grasp the perception of God. ” The prophet spoke to distinguish this from the philosophic approach to perception. He is teaching us with great dignity and solemnity to search it out in order to progress toward reverence for God. So he opposed to it perception made in reverence for God, alluding to revealed knowledge in these words: “For God grants wisdom from his mouth together with perception and practical wisdom, and stores up help for the righteous. ” When people are made righteous by philosophy, they have stored help for themselves and inward perception which leads to reverence for God.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/2/3",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8394",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 2:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

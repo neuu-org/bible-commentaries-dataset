@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JGS 7:2",
+  "verse_text": "Verse text for JGS 7:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/7/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The people that are with you are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, my own hand has saved me. Lest Israel By this we see that God will not choose for his instruments in great achievements, which depend purely on his grace, such as, through pride and self-conceit, will take the glory to themselves. (Challoner) Yet Gedeon had only 32,000 to encounter 135,000 fighting men; so that if all had remained with him, they would each had to engage above four men, ver. (Menochius).",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/7/2",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd33",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Lest Israel: By this we see that God will not choose for his instruments in great achievements, which depend purely on his grace, such as, through pride and self conceit, will take the glory to themselves.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/7/2",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa014",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Salvian the Presbyter",
+      "period": "AD429",
+      "content": "Against the Midianites, also, who, as the book of Judges relates, had filled all places like locusts, Gideon was ordered to lead a few men into battle. It was not that he did not have many in his army, but that he was forbidden to lead many into battle, lest the multitude might claim for itself some share of the victory. Hence, when he had gathered thirty thousand armed fighters, the Lord spoke thus to him: “the people with you are too many, and the Midianites shall not be given into their hands. ” What happened next. He left only three hundred fighters to the man who was about to fight against countless thousands of barbarians. Indeed, he ordered the line of soldiers to be reduced to the smallest number in order that their fewness would not permit them to realize any credit from the prosecution of the divinely waged war. Why the Lord acted thus, he himself very clearly stated, saying, “lest Israel glory against me and say, ‘I am saved by my own strength. ’ ” Let them hear, I say, let all the unjust and the presumptuous hear. Let all the powerful hear what God says when he says, “Lest Israel glory against me and say, ‘I am saved by my own strength. ’ ” I say, let them hear, all those who hurl blasphemies and statements contrary to the above, let them who place their hope in human beings hear these things. God says that all who presume they can be liberated by their own strength speak against him.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/7/2",
+      "full_content_url": "https://catenabible.com/com/5de46f028b87fe0847ee8775",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 7:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

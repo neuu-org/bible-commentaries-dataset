@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 18:19",
+  "verse_text": "Verse text for 1KGS 18:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/18/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“Have all Israel assemble for me at Mount Carmel.” Now, it is amazing how the king obeyed Elijah, who asked him for a general gathering of the people; and how also the people obeyed him humbly, even though he bitterly reproached them for their evil actions. It is also amazing how his request was granted, when he asked to be allowed to fight against the prophets of Baal. It is certain that they could not find a way to avoid meeting him, and they even looked for him, if it is true what some of the doctors say. And we also know that in our days false and deceiving people do the same. Therefore they thought that the prophets of Baal would make an altar in which they would have someone, who, at their sign, would set the fire and destroy the wood and the bull that were on the altar. And since they were confident in this scheme, they came to the fight, confident of the expected victory and in order to provoke Elijah.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/18/19",
+      "full_content_url": "https://catenabible.com/com/5e1b68098bc66721fe4ef936",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fifty, attached to Baal, and fed by the king; while the prophets of the groves, or of Astarte, lived at the queen's expense. They imitated the lives of the true prophets, to delude the people.\nCarmel was long after famous fo the worship of Apollo, who was the same with Baal, or the sun, Josue xix. 26. (Calmet)\nNo mention is made of rain: but it was understood that it would be given, when the people should assemble to hear God's determination. (Menochius)\nAchab durst not therefore refuse to convoke them. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/18/19",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd385",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 18:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

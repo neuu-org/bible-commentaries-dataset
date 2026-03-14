@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 4:20",
+  "verse_text": "Verse text for DN 4:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/4/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "The height, that is, of the tree, is his thoughts and the pride of his spirit. Its leaves is his army. Its fruits are his nobles. The cattle and beasts, and in the branches thereof the fowls of the air are the nations and kingdoms that he has subdued. All flesh ate of it because the silver and gold that were for the benefit of people were coined by his mint. A holy watcher is one of the angels. Its branches is his dominion. Its stumps and roots is said because his sovereignty will last until his return. The band of iron and of brass, among the grass are the words because when he is in the desert and feeds on vegetables, his sovereignty will stay with him in this manner, like something with iron and bronze.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/4/20",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f460",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "He explains the truth without insulting the king, (p. 516) so as to avoid appearing to charge the king with sinful pride, but rather with overweening greatness.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/20",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2c5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 4:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

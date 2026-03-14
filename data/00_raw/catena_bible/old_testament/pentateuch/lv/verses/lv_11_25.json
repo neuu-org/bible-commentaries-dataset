@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 11:25",
+  "verse_text": "Verse text for LV 11:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/11/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Necessary. To prevent the obstruction of the road, or the infection of the air. (Menochius)\nWhen any person touched these carcasses, he was obliged to wash his clothes immediately, and still to refrain from touching any thing sacred till sun-set. (Estius)\nIf a dog chanced to die in the house of an Egyptian, all the family shaved their hair and began to mourn. The food and wine in the house could no longer be used. (Eusebius, præp. ii. 1.) They adored the dog. But other nations, which did not adore animals, esteemed those unworthy of sacred things who had touched a carcass, though they invoked their gods by slaying beasts, as Porphyrius remarks. (Eusebius, præp. v. 10.) They put off their shoes when they enter certain temples, for the same reason. Scortea non ulli fas est inferre sacello\nne violent puros exanimata Deos.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/11/25",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc59b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 11:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

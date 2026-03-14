@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 30:30",
+  "verse_text": "Verse text for GN 30:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/30/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“I call you to witness my labors,” he is saying. “I mean, you know how I did my best with good grace and how, after taking charge of your poor creatures, I made them grow into a vast herd through my attention and vigilance.” Then, to show his godly attitude, he added, “The Lord, you see, has blessed you in my coming. So isn’t it high time for me to build a house of my own?” You yourself know that after my arrival grace from on high increased your prosperity. So now, since I too have made every effort on my part with good grace in discharge of my service and the grace of God has become manifest, it is only fair that I too should build a house for myself.” Now, what is the meaning of “build a house for myself”? It means, to live now in freedom and to pay attention to a house of one’s own.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/30/30",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51bd0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 30:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 16:5",
+  "verse_text": "Verse text for PRV 16:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/16/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hand. And he seems to be very quiet, chap. xi. 21. Septuagint, \"but he who putteth his hand in hands unjustly, to make a contract, is \"\nThe, is taken from the Roman Septuagint and occurs before, chap. xv. 27.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/16/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be66b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Everyone that is proud in heart is an abomination to the LORD: though they join hand in hand, none shall be unpunished. Nothing so estranges from the mercy of God and gives over to the fire of hell as the tyranny of pride. If we possess this within us, all our life becomes impure, even if we practice chastity, virginity, fasting, prayer, almsgiving, or any virtue whatsoever. “Every proud man,” Scripture says, “is an abomination to the Lord. ” Therefore, let us check this puffing up of the soul, and let us cut out this tumor, if we wish to be pure and be rid of the punishment prepared for the devil.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/16/5",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c84d1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 16:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

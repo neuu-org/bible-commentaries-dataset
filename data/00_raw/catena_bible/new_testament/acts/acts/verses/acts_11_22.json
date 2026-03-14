@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 11:22",
+  "verse_text": "Verse text for ACTS 11:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/11/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What may be the reason that, when such a city received the word, they did not come themselves? Because of the Jews. But they send Barnabas. However, it is no small part of the providential management even so that Paul comes to be there. It is both natural, and it is wisely ordered, that they are averse to him, and (so) that Voice of the Gospel, that Trumpet of heaven, is not shut up in Jerusalem. Do you mark how on all occasions, Christ turns their ill dispositions to needful account and for the benefit of the Church? Of their hatred to the man, He availed Himself for the building up of the Church. But observe this holy man— Barnabas, I mean— how he looked not to his own interests, but hasted to Tarsus. Who, when he came, and had seen the grace of God, was glad, and exhorted them all, that with purpose of heart, they would cleave unto the Lord. For he was a good man, and full of the Holy Ghost, and of faith: and much people was added unto the Lord.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/11/22",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 11:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

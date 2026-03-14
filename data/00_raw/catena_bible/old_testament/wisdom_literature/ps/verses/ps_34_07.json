@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 34:7",
+  "verse_text": "Verse text for PS 34:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/34/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "As the Prophet testifieth, \"The poor man cried, and the Lord heard him\" (ver. He teacheth thee how thou mayest be heard. Therefore art thou not heard, because thou art rich. Lest haply thou say, thou criedst and wast not heard, hear wherefore; \"The poor man cried, and the Lord heard him. \" As poor cry thou, and the Lord heareth. And how shall I cry as poor. By not, if thou hast aught, presuming therefrom upon thy own strength: by understanding that thou art needy; by understanding that so long art thou poor, as thou hast not Him who maketh thee rich. But how did the Lord hear him. \"And saved him out of all his troubles. \" And how saveth He men out of all their troubles. \"The Angel of the Lord shall send round about them that fear Him, and shall deliver them\" (ver. So it is written, brethren, not as some bad copies have it, \"The Lord shall send His Angel round about them that fear Him, and He shall deliver them:\" but thus, \"The Angel of the Lord shall send round about them that fear Him, and shall deliver them. \" Whom called He here the Angel of the Lord, who shall send round about them that fear Him, and shall deliver them. Our Lord Jesus Christ Himself is called in Prophecy, the Angel of the great Counsel, the Messenger of the great Counsel; so the Prophets called Him. Even He then, the Angel of the great Counsel, that is, the Messenger, shall send unto them that fear the Lord, and shall deliver them. Fear not then lest thou be hid: wheresoever thou hast feared the Lord, there doth that Angel know thee, who shall send to succour thee, and shall deliver thee.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/34/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6968",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Encamp: Literally, \"send. \"\nThis is explained of Jesus Christ, by St. Augustine and St. Jerome. Hebrew and Septuagint (parembalei) intimate that the angel himself shall encamp round God's servants, so that no evil shall come near them.\nOne angel is here represented as equal to a great army. A Protestant commentator observes, that David attributed his escape to the protection of an angel, and was very thankful for it. We see, therefore, what advantages we may derive from the blessed spirits? What then should hinder us from addressing our prayers to them?",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/34/7",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdfa7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 34:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

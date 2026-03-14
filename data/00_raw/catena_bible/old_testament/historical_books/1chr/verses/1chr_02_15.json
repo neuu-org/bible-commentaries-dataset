@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1CHR 2:15",
+  "verse_text": "Verse text for 1CHR 2:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/2/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Seventh. Syriac and Arabic add, \"Eliu, (chap. xxvii. 18.) and the eighth David. \"It appears, in effect, the Isai had eight sons, and that David was the youngest, 1 Kings xvi. 10., and xvii. 12. The Rabbins suppose that one was only adopted, namely, Jonathan, the son of Samma, noted for his prudence and valour, 2 Kings xiii. 3., and xxi. 21. (Calmet)\nOne might die in his youth, and be therefore omitted, (Tirinus) as he had done nothing memorable. (Du Hamel)\nThe Scripture does not always specify the full number. (Abulensis)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/2/15",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd5ba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 2:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

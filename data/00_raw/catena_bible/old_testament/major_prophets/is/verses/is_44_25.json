@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 44:25",
+  "verse_text": "Verse text for IS 44:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/44/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Mad. That people may be no longer deluded.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/44/25",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beaf2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Remember that the “heart of humanity is ashes,” according to the estimate of God, and that “the very wisdom of the world is foolishness.” … Then, if the heretic seeks refuge in the depraved thoughts of the vulgar or the imaginations of the world, I must say to him, “Part company with the heathen, O heretic!” For although you are all agreed in imagining a God, yet while you do so in the name of Christ, so long as you deem yourself a Christian, you are a different person from a heathen. So give the nonbeliever back his own view of things, since he does not himself learn from yours. Why lean on a blind guide, if you have eyes of your own? Why be clothed by one who is naked, if you have put on Christ?",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/44/25",
+      "full_content_url": "https://catenabible.com/com/5e88f31ab1c7280cb341d0ee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 44:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

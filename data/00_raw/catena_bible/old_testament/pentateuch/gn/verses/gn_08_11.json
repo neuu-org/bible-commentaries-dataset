@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 8:11",
+  "verse_text": "Verse text for GN 8:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/8/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The secular powers often and for a long time spare the wicked from corporal punishment and relieve some of them from their harassments, but the hearts of holy men never have any respite until the end of the world from the sinful conduct of men. It is thus we have the fulfillment of what the apostle said, as I cited it, that “all who will live godly in Christ suffer persecution.” Their suffering is more bitter in proportion to its inwardness. This is so until a man passes over the deluge where the ark shelters the raven and the dove.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/8/11",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e519a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the dove came in to him in the evening; and, lo, in her mouth was a plucked off olive leaf: so Noah knew that the waters were abated from off the earth. Green leaves. The olive tree preserves its verdure and grows even at the bottom of the Red sea, and other seas in the East. (Pliny, Natural History xii. ) Many other trees and seeds will live for a long time under the waters. (Calmet) This tender branch of the olive seems to agree better with the spring than autumn; whence Tirinus infers, that the deluge began and ended in spring.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/8/11",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc033",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 8:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

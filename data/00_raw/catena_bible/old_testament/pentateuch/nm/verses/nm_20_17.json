@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 20:17",
+  "verse_text": "Verse text for NM 20:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/20/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "So in the case of one of us, if he leans to either side, whether from vice or ignorance, no slight danger of a fall into sin from vice or ignorance, no slight danger of a fall into sin is incurred, both for himself and those who are led by him. But we must really walk in the king’s highway and take care not to turn aside from it either to the right hand or to the left, as the Proverbs say. For such is the case with our passions, and such in this matter is the straight path of the good shepherd, if he is to know properly the souls of his flock, and to guide them according to the methods of a pastoral care which is right and just and be worthy of our true Shepherd. Oration (In Defense of His Flight to Pontus)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/20/17",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e5293e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 20:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

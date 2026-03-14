@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 6:30",
+  "verse_text": "Verse text for JER 6:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/6/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aphrahat the Persian Sage",
+      "period": "AD345",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Rejected silver shall men call them, because the LORD has rejected them. Aphrahat the Persian Sage Daniel said, “The saints of the most High shall receive the kingdom. ” What shall we say concerning this. Have the children of Israel received the kingdom of the most High. Or has that people come on the clouds of heaven. This has passed away from them. For Jeremiah said concerning them, “Call them rejected silver, for the Lord has rejected them. ” Again he said, “He will not again regard them. ” And Isaiah said concerning them, “Pass by. Approach not the defiled.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/6/30",
+      "full_content_url": "https://catenabible.com/com/5e9360f2d87c4a70874ae193",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Rejected silver shall men call them, because the LORD has rejected them. Irenaeus of Lyons Jeremiah says, “I set watchmen over you. Hear the sound of the trumpet. They said, We will not listen. Therefore the Gentiles have heard, and they who feed the flocks in them. ” It is therefore one and the same Father who planted the vineyard, who led forth the people, who sent the prophets, who sent his own Son and who gave the vineyard to those other husbandmen that render the fruits in their season.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/6/30",
+      "full_content_url": "https://catenabible.com/com/5e9360f2d87c4a70874ae194",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 6:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

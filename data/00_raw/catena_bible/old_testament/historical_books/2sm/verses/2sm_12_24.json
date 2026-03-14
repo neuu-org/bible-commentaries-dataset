@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 12:24",
+  "verse_text": "Verse text for 2SM 12:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/12/24",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And David comforted Bath-sheba his wife, and went in unto her, and lay with her: and she bore a son, and he called his name Solomon: and the LORD loved him. She had partaken in his affliction and repentance. The Jews say that David told her the divine oracle, which is mentioned 3 Kings i. , that her next son should succeed to the throne. Salien (the year of the world 3000) supposes that he was conceived in May, two months after the death of Bethsabee's first-born, and came into the world about the time of the Passover. Solomon, \"the pacific. \"See 1 Paralipomenon xxii. (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/12/24",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd10b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 12:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

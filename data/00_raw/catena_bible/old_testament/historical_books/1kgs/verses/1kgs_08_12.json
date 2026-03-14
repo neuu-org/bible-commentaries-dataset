@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 8:12",
+  "verse_text": "Verse text for 1KGS 8:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/8/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cloud. He alludes to Leviticus xvi. 2. (Menochius)\nGod had so frequently appeared in this manner, that Solomon was authorized to consider it as the symbol of his presence, Exodus xiv. 19., xxiv. 16., and xl. 32., and Psalm xvii. 12. This luminous cloud filled the whole temple, to convince all that the Lord was pleased with the devotion of the king, and of his people. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/8/12",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd2a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 8:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

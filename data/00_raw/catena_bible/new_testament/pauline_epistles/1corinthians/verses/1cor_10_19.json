@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1COR 10:19",
+  "verse_text": "Verse text for 1COR 10:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/10/19",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "What say I then? that the idol is anything, &c. By no means: for the idol and that offered to it are nothing, have no influence or power. See viii4.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/10/19",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52473",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "What then? do I say He puts this objection, as if it were contradictory to what he had taught before, (chap. viii. ver. 4.) that an idol is nothing but he answers this objection by saying that all things, that is, all meats are lawful in themselves, but not always expedient, nor edifying, when they give scandal to weak brethren, or when the infidels themselves think that such as eat things offered to idols, join with them in honouring their idols. (Witham)\nThe meaning of this passage is: whilst I advise you to abstain from eating of any thing consecrated to idols, I do not advise you as supposing that these offerings have any power in themselves to defile your souls, in the same manner as by eating of the body and blood of Christ we receive strength to overcome our spiritual enemies. St. Paul here anticipates an objection that might be made by some to whom he was writing. (Estius)",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/10/19",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723bfff3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "As if he had said, Now these things I affirm, and try to withdraw you from the idols, not as though they could do any injury or had any power: for an idol is nothing; but I wish you to despise them. And if you will have us despise them, says one, wherefore do you carefully withdraw us from them? Because they are not offered to your Lord.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/10/19",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd891",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Would to God that no \"heresies had been ever necessary, in order that they which are; approved may be made manifest!\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/10/19",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba7df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 10:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

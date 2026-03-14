@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 3:28",
+  "verse_text": "Verse text for MK 3:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/3/28",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "It is not that this was a blasphemy which under no circumstances could be forgiven, for even this shall be forgiven if right repentance follows it.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/3/28",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d11",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Verily I say unto you, All sins shall be forgiven unto the sons of men, and blasphemies whatever they shall blaspheme: Cyprian of Carthage And again He has said, \"All sins shall be forgiven unto the sons of men, and blasphemies; but he that shall blaspheme against the Holy Spirit shall not have forgiveness, but is guilty of eternal sin. Also according to Mark: \"All sins shall be forgiven, and blasphemies, to the sons of men; but whoever shall blaspheme against the Holy Spirit, it shall not be forgiven him, but he shall be guilty of eternal sin.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/3/28",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb69c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "He is the subject, not the object, of hallowing, apportioning, participating, filling, sustaining. We share in him; he shares in nothing. He is our inheritance, he is glorified, counted together with Father and Son. He is a dire warning to us, the “finger of God.” The Spirit is, like God, a “fire.” This means that the Holy Spirit is of the same essential nature as the Father. The Spirit is the very One who created us and creates us anew through baptism and resurrection. The Spirit knows all things, teaches all things, moves where and when and as strongly as he wills. He leads, speaks, sends, and separates those who are vexed and tempted. He reveals, illumines, gives life, or better said, he is himself light and life. He makes us his temple, he sanctifies, he makes us complete. He both goes before baptism and follows after it. All that the Godhead actively performs, the Spirit performs. Oration , On the Holy Spirit",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/3/28",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d10",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 3:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

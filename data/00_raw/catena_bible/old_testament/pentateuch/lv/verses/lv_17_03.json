@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 17:3",
+  "verse_text": "Verse text for LV 17:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/17/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "If he kill That is, in order to sacrifice. The law of God forbids sacrifices to be offered in any other place but at the tabernacle or temple of the Lord: to signify that no sacrifice would be acceptable to God, out of his true temple, the one, holy, Catholic Apostolic Church. (Challoner)\nOn other occasions, many believe that the blood of oxen, sheep, and goats, was to be poured out in honour of God by the priest, who received a part of each, Deuteronomy xviii. 3 and xii. 15, 22. (Theodoret, q. 23.) Perhaps this law regards the time when the Hebrews sojourned in the desert; and that of Deuteronomy has a reference to those times when they should obtain possession of Chanaan. (Calmet)\nWe read of some private people, like Manue and Elias, who offered sacrifice at a distance from the tabernacle. But this was done by a particular inspiration of God, who dispensed with his own law. (St. Augustine, q. 56.) (3 Kings xviii. 23 and Judges xiii. 19.) (Menochius) See Josue viii. 31.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/17/3",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc5f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "If he kill: That is, in order to sacrifice. The law of God forbids sacrifices to be offered in any other place but at the tabernacle or temple of the Lord; to signify that no sacrifice would be acceptable to God, out of his true temple, the one holy, catholic, apostolic church.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/17/3",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f7a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 17:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

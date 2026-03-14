@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 12:14",
+  "verse_text": "Verse text for NM 12:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/12/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Answered him. The force of this reply must be very obvious. If a father had been so irritated by his daughter, as to show his indignation in the strongest manner, (see Job xxx. 65,) she would surely keep out of sight for a time: and can she complain, if I, who have been more injured in the person of my minister, exclude her from society seven days, after having covered her with the leprosy as with spittle. (Calmet) The excommunication, in the Christian Church, bears some resemblance with this exclusion. Mary did not undergo all the legal purifications, (Leviticus xxxiv. ) as the miraculous cure dispensed her from them. (Menochius) Origen (hom. 7,) and other Fathers, explain the mystery of this historical event. Moses, taking to wife the Ethiopian, represents Christ calling the Gentiles, which excites the murmurs of the synagogue. Mary shows the deformity of the latter religion at the present day, without head or sacrifice. The encomiums bestowed upon the Jewish legislator, belong in a still stricter sense to Jesus Christ, the mildest of men, fully acquainted with all the secrets of God, and the most faithful in all his house. mansion xiv.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/12/14",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc757",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 12:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

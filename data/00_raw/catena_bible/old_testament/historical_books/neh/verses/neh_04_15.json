@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 4:15",
+  "verse_text": "Verse text for NEH 4:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/4/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "These things are also always done in the spiritual edifice. For the unwearied enemy lies in waiting with his unclean companions (namely, malicious spirits and people) who constantly endeavor to impede and, insofar as they can, to assault the works of the faith and virtues whenever we are incautious, and they attempt to kill the mind of the faithful with the sword of depraved suggestion. But against these we must, according to the apostle, take up the armor of God, “so that” we may be able to “resist on the evil day and stand perfect in all things. ” Now it is well said that he stationed the people “behind the wall in a circuit” with weapons so that, surrounded by a troop of armed men, the builders might press on in building the wall with a freer and securer hand. For the grades of the faithful are divided up: some build up the church by adorning it with good works on the inside, while others, armed with the weapons of sacred reading, keep vigilant for heretics who attack the same church. The former in religious devotion strengthen their neighbors in the truth of the faith, while the latter wage a necessary battle against the weapons of the devil or of the vices with which they struggle to assault this same faith and with pastoral solicitude repel the wolves lying in ambush from the Lord’s sheepfold.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/4/15",
+      "full_content_url": "https://catenabible.com/com/591a466e19aa35522bc7e350",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "In the spiritual edifice too, if we are always clothed with the apostolic armor, the stratagem of the devil and his angels who desire to subdue us will be foiled.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/4/15",
+      "full_content_url": "https://catenabible.com/com/591a466e19aa35522bc7e351",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 4:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

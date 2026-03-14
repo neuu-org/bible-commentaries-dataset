@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ACTS 3:15",
+  "verse_text": "Verse text for ACTS 3:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/3/15",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Now the Jews deserved to be punished all the more, because they did not know Christ the Creator, either by nature or by the law. He is our head. At God's behest we recognize Him as the author of our life. And to this gift God adds the Gentiles, indiciating that we have been saved by the grace of God.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/3/15",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "The Father of truth, who sent forth to us the Saviour and Prince of in corruption,",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/3/15",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bad77",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The Author of Life:\nIt follows that the Life He had was not from another. The prince (or author) of evil would be he that first brought forth evil; the prince or author of murder, he who first originated murder; so also the Prince (or Author) of Life must be He Who has Life from Himself.\n\nWhom God has raised from the dead:\nIn these words he establishes the doctrine of the Resurrection.\n\nto whom we are witnesses:\nBefore, when he affirmed that He was risen, he adduced the testimony of David; now, having said it, he alleges the College of Apostles. Whereof we are witnesses, he says.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/3/15",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd7b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "The Author of Life:\nHe is Author of Life in 2 ways, first, is by teaching it by word; the second is by impressing it upon our hearts",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/3/15",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd91",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 3:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

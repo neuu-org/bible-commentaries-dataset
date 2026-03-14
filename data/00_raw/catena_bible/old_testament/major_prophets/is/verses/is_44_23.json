@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 44:23",
+  "verse_text": "Verse text for IS 44:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/44/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Procopius of Gaza",
+      "period": "AD528",
+      "content": "He calls “depths” what he once called “mountains.” They excel in works and words.… For there is a great difference between grace and the law, since the law threatens punishments to those who transgress and calls out a command for repentance. Yet these heralds of grace, rejoicing, cry out proclaiming to the world the forgiveness of sins and justification by faith and the imparting of the Holy Spirit and the radiance of sonship [adoption], as well as the kingdom of heaven and the hope which will not pass away—good things beyond imagining.…\nThe heralds of grace rejoice because Israel has been redeemed and the Son of God glorified. He is their kinsman by nature yet truly God. This moves the earth and its parts to praise. God, who has redeemed Jacob and Israel, will be glorified, or, as in the other translations, “He will be glorified in Israel.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/44/23",
+      "full_content_url": "https://catenabible.com/com/5e88f319b1c7280cb341d0ea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 44:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

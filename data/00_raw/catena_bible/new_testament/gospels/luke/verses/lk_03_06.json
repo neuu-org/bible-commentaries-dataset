@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 3:6",
+  "verse_text": "Verse text for LK 3:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/3/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "And all flesh did see the salvation of God, even of the Father: for He sent the Son to be our Saviour. And in these words by \"flesh,\" man generally is to be understood, that is, the whole human race. For thus all flesh shall see the salvation of God: no longer Israel only, but all flesh. For the gentleness of the Saviour and Lord of all is not limited, nor did He save one nation merely, but rather embraced within His net the whole world, and has illuminated all who were in darkness. And this is what was celebrated by the Psalmist's lyre, \"All the nations whom Thou hast made shall come and worship before Thee, O Lord.\" While at the same time the remnant of the Israelites is saved, as the great Moses also long ago declared, saying, \"Rejoice ye nations with His people.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/3/6",
+      "full_content_url": "https://catenabible.com/com/57eb0e34b0d44ee10cfac650",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This text is given according to the Septuagint.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/3/6",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa1d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 3:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

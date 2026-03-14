@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 11:8",
+  "verse_text": "Verse text for HEB 11:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/11/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By faith he that is called Abraham He commends his faith, who believing God, left his own country, lived in Chanaan as in a strange country, waiting for the promise and for a city, whose builder and maker is God; i.e. for an habitation in the kingdom of heaven. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/11/8",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c032a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "By faith Abraham, when he was called to go out into a place which he should later receive for an inheritance, obeyed; and he went out, not knowing where he went. [By faith]: for (tell me) whom did he see to emulate. He had for father a Gentile, and an idolater; he had heard no prophets; he knew not whither he was going. For as they of the Hebrews who believed, looked to these [patriarchs] as having enjoyed blessings innumerable, he shows that none of them obtained anything as yet; all are unrewarded; no one as yet received his reward. He escaped from his country and his home, and went out not knowing whither he went.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/11/8",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac83b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 11:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

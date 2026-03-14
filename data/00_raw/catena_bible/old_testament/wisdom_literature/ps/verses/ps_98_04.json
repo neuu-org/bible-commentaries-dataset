@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 98:4",
+  "verse_text": "Verse text for PS 98:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/98/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "4. Because they have seen, then, \"Make a joyful noise unto the Lord, all ye lands\" (ver. 4). Ye already know what it is to make a joyful noise. Rejoice, and speak. If ye cannot express your joy, shout ye; let the shout manifest your joy, if your speech cannot: yet let not joy be mute; let not your heart be silent respecting its God, let it not be mute concerning His gifts. If thou speakest to thyself, unto thyself art thou healed; if His right hand hath healed thee for Him, speak thou unto Him for whom thou hast been healed. \"Sing, rejoice, and make melody.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/98/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64d2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 98:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

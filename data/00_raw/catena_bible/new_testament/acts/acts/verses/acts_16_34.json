@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 16:34",
+  "verse_text": "Verse text for ACTS 16:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/16/34",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And when he had brought them into his house, he sat food before them, and rejoiced, believing in God with all his house. this was the token of his having believed— that he was released of all. What worse than a jailer, what more ruthless, more savage. He entertained them with great honor. Not, because he was safe, he made merry, but, having believed God. (a) Believe in the Lord, said the Apostle: therefore it is that the writer here says, Having believed. — (d) Now therefore, it says, depart, and go in peace.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/16/34",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b93ea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 16:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

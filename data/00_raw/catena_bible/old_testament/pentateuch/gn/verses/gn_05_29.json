@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 5:29",
+  "verse_text": "Verse text for GN 5:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/5/29",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Noe means consolation, or repose. After he had beheld the most dreadful catastrophe or disturbance that ever happened in the world, he settled mankind once more in the friendship of God, and merited a blessing both for himself and for the whole earth. He gave, likewise, comfort to all, by useful inventions in agriculture, and in the art of making wine. He saw an end of the distractions caused by the wicked sons of Cain, and became the restorer of a new world: in a word, he was the progenitor of the Messias , who is the King of Peace, and our only solid comfort. (Menochius) (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/5/29",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc01a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 5:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

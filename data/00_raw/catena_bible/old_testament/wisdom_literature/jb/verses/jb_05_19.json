@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 5:19",
+  "verse_text": "Verse text for JB 5:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/5/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In six, mentioned below; (Menochius) or in many, indefinitely. (Calmet)\nBoth during the six days of (Menochius) life, and at death, God's grace delivers us. (St. Gregory) (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/5/19",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdb88",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "43. For what is denoted by the number ‘six,’ which is followed by ‘the seventh,’ saving the labour and course of the present life? For God, finishing all things on the sixth day, created man, and God rested on the seventh day; and this same seventh day is without an evening, for there is no longer any end to close the rest that followeth. When all things, then, are completed, the rest followeth, in that after the good works of the present life, the recompense of eternal rest follows. Therefore ‘in six troubles the Lord delivers us,’ that ‘no evil may touch us in the seventh,’ in that by the training of His fatherly pity, He exercises us with the labours of the present life, but at the coming of the Judge, He hides us from the scourge, that He may then bring us out the more sure for His salvation, in proportion as we are now scored the more cruelly with scourges. And immediately reckoning up with fitness both the ills of the present life, and the aids of Protection from above.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/5/19",
+      "full_content_url": "https://catenabible.com/com/57421a163c6effa740ddcf10",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 5:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

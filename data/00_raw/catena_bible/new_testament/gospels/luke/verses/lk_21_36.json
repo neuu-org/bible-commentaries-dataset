@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 21:36",
+  "verse_text": "Verse text for LK 21:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/21/36",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Watch therefore, and pray always, that you may be accounted worthy to escape all these things that shall come to pass, and to stand before the Son of man. Cornelius a Lapide Watch ye therefore, and pray always, that ye may be accounted worthy to escape all these things that shall come to pass, and to stand bore the Son of man. The Arabic has, \"That you may be strengthened in flight. \" Stand before the Son of Man. So Wisdom of Solomon 5:1 \"They shall stand with great constancy. \" \"To those therefore who give themselves up to vigils, prayers, and good works, that day shall not be a snare, but a festival,\" says Theophylact.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/21/36",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52095",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Always, that ye may be accounted worthy to escape all those things, and to stand before the Son of man; \"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/21/36",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf59",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 21:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

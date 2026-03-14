@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 7:3",
+  "verse_text": "Verse text for NEH 7:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/7/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Guardians of souls must not be appointed from recent converts or from the common crowd but from those who, freed by the grace of God from the battle of vices, have already trained themselves to keep their mind in Jerusalem (that is, in the “vision of serene peace”) and who can say with the apostle, “But our dwelling is in heaven. ” About this people is well said that they appointed “each in his own turn,” namely, so that when their course has been completed and they have been removed from this light, others may immediately be chosen in their place to rule over the faithful; and that there may at no time be a shortage of those who make an effort to keep watch on behalf of the peace of the holy church “because of nighttime fears,” since the truth of prophetic words, in which it is said to the same church, “In the place of your fathers, sons are born to you,” runs continuously to the end of the age. It is also well added, “and each opposite his own house. ” For the guardianship of the holy church is duly achieved only if everyone shows concern for all the faithful but makes a particularly diligent effort to take care of those over whom he has been put in charge by God’s authority.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/7/3",
+      "full_content_url": "https://catenabible.com/com/591a466e19aa35522bc7e35d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sun. Literally, \"the heat of the sun \"or perfect daylight. (Haydock)\nThey. Syriac and Arabic, \"while it was still day \"(Calmet) or the sun shone. Before dusk the gates were shut, to prevent any improper person from entering. (Haydock)\nHouse, on the walls. (Calmet)\nThese things protect a city; as grace a guard over the senses, and watchfulness do the soul. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/7/3",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda1a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 7:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

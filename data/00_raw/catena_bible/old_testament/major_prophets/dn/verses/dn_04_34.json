@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DN 4:34",
+  "verse_text": "Verse text for DN 4:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/4/34",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And at the end of the days I Nebuchadnezzar lifted up my eyes unto heaven, and my understanding returned unto me, and I blessed the most High, and I praised and honored him that lives forever, whose dominion is an everlasting dominion, and his kingdom is from generation to generation: I From this place some commentators infer, that this king became a true convert, and dying not long after, was probably saved. (Challoner) (Josephus, Jewish Antiquities 10. ) This is the last act of his which is recorded. If he had lived much longer, he would probably have restored the Jews. (Worthington) But the time decreed by heaven for their liberation was not yet arrived.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/34",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "If we accept this expression in the Scriptures, \"From generation to generation,\" as simply for what it is, then it unquestionably means \"for all time to come. \" But if, on the other hand, \"generation and generation\" signifies (as we have often asserted) two generations, that of the Law and that of the Gospel, the question comes up as to how Nebuchadnezzar would have known of the unrevealed secrets (\"sacraments\") of God. [The original for \"from generation to generation\" is \" 'im dar wedar,\" i. , \"with generation and generation,\" which Jerome renders as \"in generatione et generatione\" or \"in generation and generation. \" Undoubtedly the idea of the original is distributive or successive: \"unto each successive generation. \" Jerome's explanation of this characteristic Semitic phrase as an occult reference to the two dispensations of the Old and New Testaments seems very farfetched. ] But perhaps we might say this, that after he raised his eyes towards heaven and received back his former estate and exalted and blessed the ever-living God, he would not have failed to know this secret also.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/4/34",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2ce",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And at the end of the days I Nebuchadnezzar lifted up my eyes unto heaven, and my understanding returned unto me, and I blessed the most High, and I praised and honored him that lives forever, whose dominion is an everlasting dominion, and his kingdom is from generation to generation: Had he not raised his eyes towards heaven, he would not have regained his former intelligence. Moreover, when he says that his intelligence returned to him, he shows that he had lost not his outward appearance but only his mind.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/34",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 4:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

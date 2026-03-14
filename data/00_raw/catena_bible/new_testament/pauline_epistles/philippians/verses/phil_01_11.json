@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PHIL 1:11",
+  "verse_text": "Verse text for PHIL 1:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/1/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Along with good teaching he prays that they might have an upright life, and not simply upright but truly filled with the fruits of righteousness. He is not speaking here of a kind of uprightness or virtue that tries despairingly to grow without Christ. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/11",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53408",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And not merely upright, but filled with the fruits of righteousness. For there is indeed a righteousness not according to Christ, as, for example, a moral life. Which are through Jesus Christ to the glory and praise of God. Do you see that I speak not of my own glory, but the righteousness of God; and oftentimes he calls mercy itself too righteousness; let not your love, he says, indirectly injure you, by hindering your perception of things profitable, and take heed lest you fall through your love to any one. For I would indeed that your love should be increased, but not so that you should be injured by it. And I would not that it should be simply of prejudice, but upon proof whether I speak well or no. He says not, that you may take up my opinion, but that you may prove it. He does not say outright, join not yourself to this or that man, but, I would that your love should have respect to what is profitable, not that you should be void of understanding. For it is a foolish thing if you work not righteousness for Christ's sake and through Him. Mark the words, through Him. Does he then use God as a mere assistant. Away with the thought. Not that I may receive praise, says he, but that God may be glorified.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/1/11",
+      "full_content_url": "https://catenabible.com/com/5755bff83c6effa740dddbcd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 1:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 146:3",
+  "verse_text": "Verse text for PS 146:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/146/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Put not your trust in princes\" (ver. Brethren, here we receive a mighty task; it is a voice from heaven, from above it soundeth to us. For now through some kindof weakness the soul of man, whensoever it is in tribulation here, despaireth of God, and chooseth to rely on man. Let it be said to one when set in some affliction, \"There is a great man, by whom thou mayest be set free;\" he smileth, he rejoiceth, he is lifted up. But if it is said to him, \"God freeth thee,\" he is chilled, so to speak, by despair. The aid of a mortal is promised, and thou rejoicest; the aid of the Immortal is promised, and art thou sad. It is promised thee that thou shalt be freed by one who needeth to be freed with thee, and thou exultest, as at some great aid: thou art promised that Liberator, who needeth none to free Him, and thou despairest, as though it were but a fable. Woe to such thoughts: they wander far; truly there is sad and great death in them. Approach, begin to long, begin to seek and to know Him by whom thou wast made. For He will not leave His work, if He be not left by His work.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/146/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67b1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Put not your trust in princes, nor in the son of man, in whom there is no help. From the body, which shall be consigned to the earth from which it was taken, Ecclesiastes xii. Man, (Calmet) or each of the princes, (Haydock) with respect to the body. (Worthington) It does not refer to the spirit, which in Hebrew is feminine. (Calmet) It is the want of faith, which causes people to confide in great ones, rather than in Providence. Augustine) Thoughts. Projects of ambition (Calmet).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/146/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be538",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 146:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

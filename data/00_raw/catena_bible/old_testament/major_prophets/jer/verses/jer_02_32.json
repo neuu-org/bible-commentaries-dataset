@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JER 2:32",
+  "verse_text": "Verse text for JER 2:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/2/32",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "It is the virgin Mary of whom God by the mouth of Jeremiah speaks, saying, “Can a maid forget her ornaments or a bride her attire?” Concerning her we read of a great miracle in the same prophecy—that a woman should compass a man and that the Father of all things should be contained in a virgin’s womb. - \"Against Jovinianus 1.32\"",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/2/32",
+      "full_content_url": "https://catenabible.com/com/5e9360d7d87c4a70874ae131",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 2:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

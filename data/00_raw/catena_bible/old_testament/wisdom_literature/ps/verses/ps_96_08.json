@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 96:8",
+  "verse_text": "Verse text for PS 96:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/96/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Ascribe unto the Lord glory unto His Name\" (ver. Not unto the name of man, not unto your own name, but unto His ascribe worship. Confession is a present unto God. O heathen, if ye will enter into His courts, enter not empty. \"Bring presents. \" What presents shall we bring with us. The sacrifice of God is a troubled spirit: a broken and a contrite heart,\"O God, shalt not Thou despise. \" Enter with an humble heart into the house of God, and thou hast entered with a present. But if thou art proud, thou enterest empty. For whence wouldest thou be proud, if thou wert not empty. For if thou wast full, thou wouldest not be puffed up. How couldest thou be full. If thou weft to bring a present, which thou shouldest carry to the courts of the Lord. Let us not retain you much longer: let us run over what remaineth. Behold the house increasing: behold the edifice pervade the whole world. Rejoice, because ye have entered into the courts; rejoice, because ye are being built into the temple of God. For those who enter are themselves built up, they themselves are the house of God: He is the inhabitor, for whom the house is built over the whole world, and this \"after the captivity. \" \"Bring presents, and come into His courts.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/96/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64bb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Give unto the LORD the glory due unto his name: bring an offering, and come into his courts. Hebrew Mincha, \"the oblation \"of flour, (Haydock) which denotes the blessed Eucharist, and the spiritual sacrifices of prayer (Menochius) Victims shall cease, but the pure oblation shall continue among the Gentiles, Malachi as i. (Berthier) Courts. This shows that their conversion is predicted, since they could not otherwise come thither.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/96/8",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2fb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 96:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

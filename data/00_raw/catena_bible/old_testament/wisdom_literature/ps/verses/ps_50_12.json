@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 50:12",
+  "verse_text": "Verse text for PS 50:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/50/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Who can explain, who expound that which is said to Him in another Psalm, \"For my goods Thou needest not\". He hath said that He needeth not from us any necessary thing. \"If I shall be hungry, I will not tell thee\" (ver. He that keepeth Israel shall neither hunger nor thirst, nor be weary, nor fall asleep. according to thy carnality I speak: because thou wilt suffer hunger when thou hast not eaten, perhaps thou thinkest even God doth hunger that He may eat. Even though He shall be hungry, He telleth not thee: all things are before Him, whence He will He taketh what is needful for Him. These words are said to convince little understanding; not that God hath declared His hunger. Though for our sake this God of gods deigned even to hunger. He came to hunger, and to fill; He came to thirst, and give drink; He came to be clothed with mortality, and to clothe with immortality; He came poor, to make rich. For He lost not His riches by taking to Him our poverty, for, \"In him are all the treasures of wisdom and knowledge hidden. \" \"If I shall be hungry, I will not tell thee. For Mine is the whole world, and the fulness thereof. \" Do not then labour to find what to give Me, without whom I have what I will.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/50/12",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a87",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 50:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

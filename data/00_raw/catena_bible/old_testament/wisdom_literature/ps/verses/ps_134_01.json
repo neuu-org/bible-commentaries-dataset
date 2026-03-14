@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 134:1",
+  "verse_text": "Verse text for PS 134:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/134/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Canticle. David composed it for the Levites going on duty, (Haydock) or Solomon for the dedication of the temple. The people might use it on the last day of the three great festivals; or the Levites are exhorted to watch carefully. They may excite each other, (ver. 2.; Calmet) as all Christians should do, 1 Peter ii. 9. (Berthier)\nIn the courts, seems to be taken from Psalm cxxxiv. 2., (Calmet) as it is not in Hebrew. (St. Hilary)\nThe court of the people was divided for the men and women, and perhaps there was a separate place for the priests, and for the Levites, in the court of allotted to them, where the latter kept watch. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/134/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4bb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 134:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

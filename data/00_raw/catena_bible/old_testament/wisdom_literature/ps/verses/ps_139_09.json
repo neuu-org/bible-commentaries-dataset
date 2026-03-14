@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 139:9",
+  "verse_text": "Verse text for PS 139:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/139/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"If I go up,\" saith he, \"to heaven, Thou art there: if I go down to Hades, Thou art present\" (ver. At length, miserable runaway, thou hast learnt, that by no means canst thou make thyself far from Him, from whom thou hast wished to remove far away. Behold, He is everywhere; thou, whither wilt thou go. He hath found counsel, and that inspired by Him, who now deigneth to recall him. If by sinning I go down to the depths of wickednesses, and spurn to confess, saying, \"Who seeth me\" (for \"in Hades who shall confess to Thee. \" ) there also Thou art present, to punish. Whither then shall I go that I may flee from Thy presence, that is, not find Thee angry. This plan he found: So will I flee, saith he, from Thy Face, so will I flee from Thy Spirit; from Thy avenging Spirit, Thy avenging Face thus will I flee. \"If I take again my wings right forward, and abide in the utmost parts of the sea\" (ver. So can I flee from Thy Face. If he will flee to the utmost part of the sea from the Face of God, will not He from whom he fleeth be there. For what are \"the utmost parts of the sea,\" but the end of the world. Thither let us now flee in hope and longing, with the wings of twofold love; let us have no rest, save in \"the utmost parts of the sea. \" For if elsewhere we wish for rest, we shall be hurled headlong into the sea. Let us fly even to the ends of the sea, let us bear ourselves aloft on the wings of twofold love; meanwhile let us flee to God in hope, and in faithful hope let us meditate on that \"end of the sea.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/139/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6753",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In the morning. Shachar is so rendered by St. Jerome. (Haydock)\nSome would understand \"the black eagle \"(Lyranus) or the east, (Origen) or aurora. The poets assign wings to the sun, Malachi as iv. 2. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/139/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 139:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

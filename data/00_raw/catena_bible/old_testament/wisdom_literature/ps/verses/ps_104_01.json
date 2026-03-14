@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 104:1",
+  "verse_text": "Verse text for PS 104:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/104/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Himself. Complutensian Septuagint adds, \"a psalm on the creation \"(Haydock) as this is the subject; but there is no title in the original. (Berthier) The psalm contains \"a divine and natural philosophy \"(Eusebius) respecting the creation and providence. Plato has written something similar in his Timæus, (Calmet) though this comparison is indecent. (Berthier)\nThe imitation is no disparagement, however, to this divine word, and we may surely notice the concord between the inspired and profane writers. (Haydock)\nThis psalm seems to be a continuation of the preceding one. (Calmet)\nGreat. Literally, \"magnified \"in the same sense as we say, hallowed be thy name, praying that God may be honoured by all his creatures; (Haydock) though He cannot increase in holiness (St. Augustine)\nWe become acquainted with his greatness, by considering his works. (Calmet)\nPraise. Literally, \"confession \"(Haydock) Hebrew, \"glory. \"(Calmet)\nThou art entitled to all praise. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/104/1",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be32f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 104:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

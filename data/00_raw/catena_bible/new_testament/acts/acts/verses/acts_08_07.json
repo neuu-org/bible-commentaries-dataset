@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 8:7",
+  "verse_text": "Verse text for ACTS 8:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/8/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "for this was a manifest miracle:— not as the magicians did: for the other (Simon), it is likely, bound (men with spells)—and many, it says, that were palsied and lame were healed. There was no deceit here: for it needed but that they should walk and work. And to him they all gave heed, saying, This (man) is the Power of God.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/7",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f264",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For this was a manifest miracle:— not as the magicians did: for the other (Simon), it is likely, bound (men with spells)—and many, it says, that were palsied and lame were healed. There was no deceit here: for it needed but that they should walk and work.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/7",
+      "full_content_url": "https://catenabible.com/com/57ec81edb0d44ee10cfac942",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 8:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

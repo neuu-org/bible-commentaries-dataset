@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NEH 4:16",
+  "verse_text": "Verse text for NEH 4:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/4/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Their. Hebrew, \"my servants \"(Menochius) half of whom only wrought, while the rest stood guard. If we adhere to the Vulgate, we must suppose that Nehemias altered his first plan, and ordered almost all to be ready to fight or to labour, as occasion might require, ver. (Calmet) In. \"Over, (Haydock) or behind all the family of Juda \"(Vatable) encouraging the people by word, and sometimes by example. (Tirinus) (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/4/16",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 4:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

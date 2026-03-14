@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 19:33",
+  "verse_text": "Verse text for ACTS 19:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/19/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This Alexander, why did he wish to plead? Was he accused? No, but it was to find an opportunity, and overturn the whole matter, and inflame the anger of the people. But when they knew that he was a Jew, all with one voice about the space of two hours cried out, Great is Diana of the Ephesians.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/19/33",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9467",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But when they knew that he was a Jew, all with one voice about the space of two hours cried out, Great is Diana of the Ephesians.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/19/33",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b945a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 19:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

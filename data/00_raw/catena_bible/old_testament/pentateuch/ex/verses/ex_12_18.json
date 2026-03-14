@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 12:18",
+  "verse_text": "Verse text for EX 12:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/12/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Unleavened bread. By this it appears, that our Saviour made use of unleavened bread, in the institution of the blessed Sacrament, which was on the evening of the paschal solemnity, at which time there was no unleavened bread to be found in Israel.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/12/18",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc34a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Unleavened bread: By this it appears, that our Saviour made use of unleavened bread, in the institution of the blessed sacrament, which was on the evening of the paschal solemnity, at which time there was no leavened bread to be found in Israel.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/12/18",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f195",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 12:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

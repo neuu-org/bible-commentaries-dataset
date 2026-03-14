@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 32:10",
+  "verse_text": "Verse text for DT 32:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/32/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "As far as I can see, Scripture is undoubtedly presenting a picture of the educator of children and describing the guidance he imparts. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/32/10",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He found. Septuagint and Chaldean, \"he gave him what was sufficient, in the desert land. \"God made a choice of a nation destitute of every thing, that they might confess with gratitude that they had received all from him. (Calmet)\n\"Taught him \"both by \"instructions \"and by various \"chastisements. \"Septuagint, epaideusen. (Haydock)\nThe space of forty years was necessary (Calmet) to eradicate the propensity to evil, and the corrupt manners of the Hebrews, who were therefore conducted through a wilderness, where they might not be contaminated by the company of other nations, (Haydock) but might have leisure to meditate on the law of God. (Calmet)\nEye, with the utmost care. (Menochius)\nHe protected those whom he had chosen out of pure mercy. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/32/10",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcae5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 32:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

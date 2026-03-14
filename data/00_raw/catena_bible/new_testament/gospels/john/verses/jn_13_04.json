@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 13:4",
+  "verse_text": "Verse text for JN 13:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/13/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He riseth from supper; that is, after supper was done, or ended, as it is here said, (ver. 2. and 1 Corinthians xi. 25.) girded himself like a servant, to wash and wipe the feet of his apostles. (Witham)\nIf we compare the text of the four evangelists, it will appear that the washing of the feet preceded the institution of the blessed Eucharist, of which St. John is silent. (Bible de Vence)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/13/4",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfc88",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "2. Observe how not by the washing only, but in another way also He exhibits humility. For it was not before reclining, but after they had all sat down, then He arose. In the next place, He does not merely wash them, but does so, putting off His garments. And He did not even stop here, but girded Himself with a towel. Nor was He satisfied with this, but Himself filled (the basin), and did not bid another fill it; He did all these things Himself, showing by all that we must do such things, when we are engaged in well doing, not merely for form's sake, but with all zeal. Now He seems to me to have washed the feet of the traitor first from its saying,",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/13/4",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabc0e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "Afterward He puts water into a bason; and as we were sitting at meat, He came and washed the feet of us all, and wiped them with the towel.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/13/4",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb515",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 13:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

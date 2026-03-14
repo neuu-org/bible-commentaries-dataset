@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2TIM 4:4",
+  "verse_text": "Verse text for 2TIM 4:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2tm/4/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This he foretells, not as willing to throw him into despair, but to prepare him to bear it firmly, when it shall happen. As Christ also did in saying, They will deliver you up, and they will scourge you, and bring you before the synagogues, for My name's sake. Matthew 10:17 And this blessed man elsewhere says, For I know this, that after my departures shall grievous wolves enter in among you, not sparing the flock. 511 xx. 29 But this he said that they might watch, and duly use the present opportunity.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2tm/4/4",
+      "full_content_url": "https://catenabible.com/com/575f0fe63c6effa740ddde75",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2TIM 4:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

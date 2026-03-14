@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 11:30",
+  "verse_text": "Verse text for ROM 11:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/11/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Paul shows that both Jews and Gentiles were guilty of the same thing and that they were likewise cleansed by one and the same grace. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/11/30",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5223",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "As you also in times past did not believe God, but now have obtained mercy through their unbelief, which was an occasion of God's sending his preachers to you: but the cause of your salvation is God's mercy.\nThat they also may obtain mercy. That is, God has permitted their incredulity, that being a greater object of pity, he may show greater mercy in converting them by the free gift of his grace.\nFor God hath concluded all, that is, has permitted at different times, both Gentiles and Jews, to fall into a state of unbelief, that the salvation of all may be known to come, not from themselves, but as an effect of his mercy and grace. (Witham)\nHe hath found all nations, both Jews and Gentiles, in unbelief and sin; not by his causing, but by the abuse of their own free-will; so that their calling and election are purely owing to his mercy. (Challoner)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/11/30",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bff56",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 11:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

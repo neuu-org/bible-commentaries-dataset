@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 58:11",
+  "verse_text": "Verse text for PS 58:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/58/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh So that a man shall say, Verily there is a reward for the righteous: verily he is a God who judges in the earth. Hebrew Elohim shophetim. Both are in the plural, which has induced many to suppose that angels, are meant; yet the plural is sometimes used, when speaking of the true God, Genesis xx. , and Josue xxiv. (Calmet) Houbigant translates, \"gods \"which he explains of the pastors of the Church, or \"judges. \"The reward of virtue, and punishment of vice, are very important truths. Let us wait till the time of harvest, and all will be in its proper place.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/58/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be0f4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "But since there is a time when the righteous shall rejoice, and sinners shall meet the end foretold for them, we must with all reason fully acknowledge and declare that God is inspector and overseer of all that is done among men, and judges all who dwell upon earth. It is proper further to inquire whether the prophecy in hand, which quite corresponds and fits in with those preceding it, may describe the end. When Hippolytus dictated these words, the grammarian asked him why he hesitated about that prophecy, as if he mistrusted the divine power in that calamity of exile. The learned man calls attention to the question why the word διαγραsubjunctive mood, as if silently indicating doubt. Hippolytus accordingly replied:— You know indeed quite well, that words of that form are used as conveying by implication a rebuke to those who study the prophecies about Christ, and talk righteousness with the mouth, while they do not admit His coming, nor listen to His voice when He calls to them, and says, He that has ears to hear let him hear; who who have made themselves like the serpent and have made their ears like those of a deaf viper, and so forth. God then does, in truth, take care of the righteous, and judges their cause when injured on the earth; and He punishes those who dare to injure them.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/58/11",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac169",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 58:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

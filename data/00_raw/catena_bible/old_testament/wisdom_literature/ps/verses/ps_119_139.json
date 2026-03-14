@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:139",
+  "verse_text": "Verse text for PS 119:139",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/139",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "137. But what is it that followeth: \"My zeal hath caused me to pine\" (ver. 139); or, as other copies read, Thy zeal? Others have also, \"The zeal of Thy house:\" and, \"hath eaten me up,\" instead of, \"hath caused me to pine.\" This, as it seems to me, has been considered as an emendation to be introduced from another Psalm, where it is written, \"The zeal of Thy house hath eaten me up:\" a text quoted also, as we know, in the Gospel. The two words, however, \"hath caused me to pine,\" and \"hath eaten me up,\" are somewhat like. But the words, \"my zeal,\" which most of the copies read, occasion no dispute: for what wonder is it if every man pineth away from his own zeal? The words read in other copies, \"Thy zeal,\" signify a man zealous for God, not for himself: but there is no difficulty in using \"my\" in the same sense ...The Psalmist's jealousy is therefore also to be understood in a good sense: for he addeth the cause, and saith, \"Because mine enemies have forgotten Thy words.\" ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/139",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6684",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh My zeal has consumed me, because my enemies have forgotten your words. Septuagint, \"thy zeal. \"The just are animated with the zeal of God, like St. The enemies here mentioned were the Israelites, who attacked David, and not the Babylonians, who never knew God's law, or apostate captives, since we do not find that they attempted to injure Daniel (Berthier) Many, however, both at Ninive and Babylon prevaricated, Tobias i.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/139",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be44d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:139",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

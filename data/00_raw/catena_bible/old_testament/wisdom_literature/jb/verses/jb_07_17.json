@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 7:17",
+  "verse_text": "Verse text for JB 7:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/7/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Magnify him, or put him to such severe trials. He is not worthy of thy attention. (Calmet)\nHebrews ii. 6. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/7/17",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdbaa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "God magnifieth man, in that He enriches him with the bountiful gift of reason, visits him with the inspiration of grace, exalts him with the greatness of imparted virtue; and whereas he is nothing in himself, yet through the bounty of His lovingkindness He vouchsafes to him to be a partaker of the knowledge of Himself. And the Lord ‘setteth His heart upon man’ so magnified, in that after His gifts He brings forth judgment, weighs merits with exactness, rigidly tries the weights of life, and exacts punishment from him afterwards the more strictly, in proportion as He prevents him here more bounteously by the benefit bestowed. So then let the holy man view the immensity of the Supreme Majesty, and recall the eye of reflection to his own frailty. Let him see that flesh cannot comprehend that which Truth through the Spirit teaches concerning Himself. Let him see that man's spirit, even when it is lifted up, is not able to bear the Judgment, which God holds over it, on a trial of strict recompensing, and let him say, What is man, that Thou shouldest magnify him. and that Thou shouldest set Thine heart upon him. As though he cried out in plain words, saying, ‘Man is magnified with a spiritual gift, but yet he is flesh, and after Thy gifts, Thou takest strict account of his ways; yet if he be judged with pity set aside, the weight that rests over him from Thine exactness, not even the spirit that is raised to righteousness has strength to sustain, seeing that though Thy gifts draw him out beyond his own compass, yet at the inquest of Thy strict scrutiny his own frailty contracts him.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/7/17",
+      "full_content_url": "https://catenabible.com/com/57421a163c6effa740ddcf48",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 7:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

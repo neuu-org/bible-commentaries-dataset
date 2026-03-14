@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 11:14",
+  "verse_text": "Verse text for JER 11:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/11/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“Why do not Christians obtain all things in prayer?” Because they fail for many causes. They often ask things inexpedient. Why are you surprised, if this is the case with some, when even Paul heard: “My grace is sufficient for you, because my strength is perfected in weakness” … What if they pray against people who have hurt them, seeking for compensation and vengeance? This kind of thing is forbidden, for, “pray,” he said, “for your enemies.” … To Jeremiah he also said, “Do not pray for this people, for I will not hear you,” not wishing to stop Jeremiah from praying (for he earnestly longs for our salvation) but to terrify them. Thus the prophet, seeing this, did not cease praying.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/11/14",
+      "full_content_url": "https://catenabible.com/com/5e93610bd87c4a70874ae1f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Therefore pray not you for this people, neither lift up a cry or prayer for them: for I will not hear them in the time that they cry unto me for their trouble. They ask for a mercy it is impossible for them to receive since they have sins for which they have not repented. They cannot receive this mercy—not if they ask for it themselves, or even if the request is made by others who are stronger in their relationship with God. When Jeremiah was praying for the Jews, the Lord in fact said, “Do not pray for this people, because I will not hear you.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/11/14",
+      "full_content_url": "https://catenabible.com/com/5e93610bd87c4a70874ae1f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 11:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

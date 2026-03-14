@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 38:16",
+  "verse_text": "Verse text for PS 38:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/38/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"For I said, Let not mine enemies ever rejoice over me. And when my feet slip, they magnify themselves against me\" (ver. Again He returns to the infirmity of His Body: and again the Head takes heed of Its \"feet. \" The Head is not in such a manner in Heaven, as to forsake what It has on earth; He evidently sees and observes us. For sometimes, as is the way of this life, our feet are \"turned aside,\" and they slip by falling into some sin; there the tongues of the enemy rise up with the bitterest malignity. From this then we discern what they really had in view, even while they kept silence. Then they speak with an unsparing harshness; rejoicing to have discovered what they ought to have grieved for. \"And I said, Lest at any time my adversaries should rejoice over me. \" I said this indeed; and yet it was perhaps for my correction that Thou hast caused them to \"magnify themselves against me, when my feet slipped;\" that is to say, when I stumbled, they were elated, and said many things. For pity, not insult, was due from them to the weak; even as the Apostle speaks: \"Brethren, if a man be overtaken in a fault, ye which are spiritual restore such an one in the spirit of meekness;\" and he combines the reason why: \"considering thyself also, lest thou also be tempted. \" Not such as these were the persons of whom He speaks: \"And when my feet slipped, they rejoiced greatly against me;\" but they were such as those of whom He says elsewhere: \"They that hate me will rejoice if I fall.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/38/16",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69d0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For I said, Hear me, lest otherwise they should rejoice over me: when my foot slips, they magnify themselves against me. On this account I turn to thee, and entreat thee not to suffer my enemies to gain the victory. (Worthington) My humble and earnest prayer is another motive of confidence. My enemies is not expressed in Hebrew. (Calmet) I decline saying any thing in my own defence, lest I should offend God. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/38/16",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be013",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 38:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

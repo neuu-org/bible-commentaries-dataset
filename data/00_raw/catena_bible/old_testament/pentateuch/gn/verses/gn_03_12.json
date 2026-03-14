@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 3:12",
+  "verse_text": "Verse text for GN 3:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/3/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "Once again Adam failed to confess his fault, laying the blame on the woman who was like him: \"The woman with whom you provided me gave me of the Tree and I ate. [ Gen. 3:12 ] I myself did not approach the Tree, nor was it my hand which presumed to stretch out for the fruit.\" This is why the Apostle too says, \"Adam himself did not sin, but Eve transgressed the commandment.\" [ I Tim. 2:14 ] But if He gave you a wife, Adam, He gave her as a helper and not as a harmer, as someone who receives instructions, rather than as one who gives orders.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/3/12",
+      "full_content_url": "https://catenabible.com/com/574218613c6effa740ddce59",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 3:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "verse_reference": "GAL 4:28",
+  "verse_text": "Verse text for GAL 4:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/4/28",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Now we, brethren, as Isaac was, are the children of promise. Since he was born of one barren through age—not according to the flesh, but according to the promise of God.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/4/28",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52654",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "As Paul does also testify, saying that we are children of Abraham because of the similarity of our faith, and the promise of inheritance.\nThus also the apostle says in the Epistle to the Galatians: \"But ye, brethren, as Isaac was, are the children of the promise.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/4/28",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb10b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "One might ask how he speaks of the Galatians, whom he had called fools. He accused them of starting in the Spirit and finishing in the flesh. When the apostle called them “sons of promise” in the way that Isaac was, he meant that he did not completely despair of their salvation and judged that they would return again to the Spirit, in which they had begun, and become sons of the free woman. .",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/4/28",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c667e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "It is not merely that the Church was barren like Sarah, or became a mother of many children like her, but she bore them in the way Sarah did. As it was not nature but the promise of God which rendered Sarah a mother, [for the word of God which said, At the time appointed I will return unto you, and Sarah shall have a son, Genesis 18:14 this entered into the womb and formed the babe,] so also in our regeneration it is not nature, but the Words of God spoken by the Priest, (the faithful know them,) which in the Bath of water as in a sort of womb, form and regenerate him who is baptized. Wherefore if we are sons of the barren woman, then are we free. But what kind of freedom, it might be objected, is this, when the Jews seize and scourge the believers, and those who have this pretence of liberty are persecuted. For these things then occurred, in the persecution of the faithful. Neither let this disturb you, he replies, this also is anticipated in the type, for Isaac, who was free, was persecuted by Ishmael the bondman.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gal/4/28",
+      "full_content_url": "https://catenabible.com/com/57558ddd3c6effa740dddb65",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 4:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

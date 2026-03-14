@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 16:7",
+  "verse_text": "Verse text for JB 16:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/16/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But. Hebrew, \"If I speak\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/16/7",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "8. How this accords with the person of blessed Job, there is no one that is ignorant; but if it be drawn into a type of Holy Church, she both when she speaks ‘has not her grief assuaged,’ since she does not see the wicked amended by her speaking; and ‘when she holds her peace, her grief does not depart from her;’ in that though she turns away and holds her peace, this very circumstance of her being silent she laments the more, in that while she is silent, she sees the sin of the wicked grow to a height.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/16/7",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd017",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 16:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

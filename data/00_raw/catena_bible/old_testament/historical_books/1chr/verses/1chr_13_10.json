@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 13:10",
+  "verse_text": "Verse text for 1CHR 13:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/13/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Douay Rheims 1609",
+      "period": "AD1609",
+      "content": "Saul therefore died for his iniquities, for that he (a) transgressed the commandment of our Lord which he had commanded,\r\n(a) He offered Sacrifice on an Altar without warrant. 1. Reg. 13. And destroyed not the Amalakites, as he was commanded. 1. Reg. 15.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/13/10",
+      "full_content_url": "https://catenabible.com/com/590bf5639f61fbda40c54157",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Wherefore if to transgress the Sabbath, and to touch the falling Ark, drew down the wrath of God so signally as to deprive the offender of even a momentary respite, shall he who corrupts unutterably awful doctrines find excuse and pardon? Assuredly not. A want of zeal in small matters is the cause of all our calamities; and because slight errors escape fitting correction, greater ones creep in. As in the body, a neglect of wounds generates fever, mortification, and death; so in the soul, slight evils overlooked open the door to graver ones. (St. John Chrysostom Commentary on Gal 1:7)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/13/10",
+      "full_content_url": "https://catenabible.com/com/5879d89fdd1bb6dd3dba9fa2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 13:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

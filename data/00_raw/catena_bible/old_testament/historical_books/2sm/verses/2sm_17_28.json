@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 17:28",
+  "verse_text": "Verse text for 2SM 17:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/17/28",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Beds, with all the necessary furniture, coverlets Roman Septuagint, \"ten beds, with fur on both sides. \"\nTapestry. Some would translate, \"bottles \"(Chaldean) or \"cauldrons \"(Roman Septuagint) but other editions agree with the Vulgate.\nVessels. These are necessary, as much as things of greater magnificence. Precious metals were then rarely used in the kitchen.\nPulse, (cicer) or \"parched peas. \"Hebrew kali, is thus twice translated, as it had been rendered parched corn. It signifies any thing \"parched. \"The ancients made great use of such food in journeys, as the Ethiopians and Turks do still. (Athen. ii. 13.; Busbec. iii.; Bellon. ii. 53.) (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/17/28",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd17d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 17:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

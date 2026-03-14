@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 2:1",
+  "verse_text": "Verse text for DT 2:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/2/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sea, encamping again at Mosera. When they were at Asiongaber, they were ordered to go to the north, by the mountains of Idumea or of Seir. Being arrived at Cades, they attempted to penetrate into Chanaan, by the road of the spies, but were repulsed. Upon which they asked leave of the Idumeans to pass through their country, lying south of the Dead Sea, but could not obtain permission, and God would not suffer them to force a passage, but ordered them to go round their territories, Numbers xx., and xxi. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/2/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc8e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 2:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

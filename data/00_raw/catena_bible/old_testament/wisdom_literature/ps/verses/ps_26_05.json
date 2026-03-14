@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 26:5",
+  "verse_text": "Verse text for PS 26:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/26/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I have hated the congregation of evildoers; and will not sit with the wicked. Augustine of Hippo 5. \"I have hated the congregation of evil doers. \" But to arrive at this council of vanity, congregations of evil doers are formed, which I have hated. \"And I will not sit with the ungodly\" (ver. And, therefore, with such a council, with the ungodly, I will not sit, that is, I will not place my consent. \"And I will not sit with the ungodly.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/26/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 26:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

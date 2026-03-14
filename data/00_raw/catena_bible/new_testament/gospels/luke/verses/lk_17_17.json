@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 17:17",
+  "verse_text": "Verse text for LK 17:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/17/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And Jesus answering said, Why do not the nine, equally with this Samaritan, return and acknowledge their cure, and give Me thanks? In truth the nine were rejoiced at their cure, and went to the priests, that they might be declared to be clean, and restored to the society of men, thinking wholly of themselves, and caring very little for the glory of Jesus.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/17/17",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52059",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "The miracle was performed in the district of Samaria, to which country also belonged one of the lepers.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/17/17",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbea6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 17:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

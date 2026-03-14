@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 23:30",
+  "verse_text": "Verse text for ACTS 23:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/23/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "See how the letter speaks for him as a defence— for it says, I found nothing worthy of death, but as accusation against them (rather) than against him. About to have been killed of them: so set upon his death were they. First, I came with the army, and rescued him: then also I brought him down unto them: and not even so did they find anything to lay to his charge: and when they ought to have been stricken with fear and shame for the former act, they again attempt to kill him, insomuch that again his cause became all the more clear. And his accusers, he says, I have sent unto you: that at the tribunal where these things are more strictly examined, he may be proved guiltless.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/23/30",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94d4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 23:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

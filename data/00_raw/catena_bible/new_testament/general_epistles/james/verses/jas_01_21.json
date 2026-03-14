@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JAS 1:21",
+  "verse_text": "Verse text for JAS 1:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/1/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "All uncleanness. The Greek shows that hereby is meant a sordid, filthy uncleanness, infecting and defiling the soul.\nThe engrafted word. The word and doctrine of Christ, by the labours of his preachers, and chiefly by his divine grace engrafted and fixed in your souls. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/1/21",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0366",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "Therefore put away all filthiness and extreme wickedness, and receive with meekness the engrafted word, which is able to save your souls. others from joining them laughed both at those who framed these falsehoods, and at the disguise itself and at popular opinion and I confess that I both boast and with all my strength strive to be found a Christian; not because the teachings of Plato are different from those of Christ, but because they are not in all respects similar, as neither are those of the others, Stoics, and poets, and historians. For each man spoke well in proportion to the share he had of the spermatic word.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/1/21",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb236",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 1:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

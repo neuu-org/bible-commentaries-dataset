@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 9:13",
+  "verse_text": "Verse text for GN 9:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/9/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "My rain bow. This had been from the beginning; but it was not before appointed for a sign that the earth should no more be destroyed by water. It is styled God's bow, on account of its beauty and grandeur. (Menochius) (Ecclesiasticus xliii. 12.)\n\"As the rain-bow, which makes its appearance in the clouds, borrows all its effulgence from the sun, so those only who acknowledge the glory of Christ in God's clouds, and do not seek their own glory, will escape destruction in the deluge \"St. Augustine, contra Faust. ii. 21.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/9/13",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc040",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 9:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

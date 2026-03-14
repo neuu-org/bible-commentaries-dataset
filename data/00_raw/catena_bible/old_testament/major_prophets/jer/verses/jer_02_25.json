@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 2:25",
+  "verse_text": "Verse text for JER 2:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/2/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Foot, and the parts which modesty covers. My exhortations are slighted. (Calmet)\nDespair opens the door to every sort of impurity, Ephesians iv. 19. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/2/25",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bec30",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Nothing makes God as angry as when people from despair of better things cling to those that are worse. Indeed, this despair in itself is a sign of unbelief. One who despairs of salvation can have no expectation of a judgment to come. For if he dreaded such, he would by doing works prepare to meet his Judge. Let us hear what God says through Jeremiah: “Withhold your foot from a rough way and your throat from thirst,” and again, “shall they fall, and not arise? Shall he turn away, and not return?”",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/2/25",
+      "full_content_url": "https://catenabible.com/com/5e9360d5d87c4a70874ae12a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 2:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

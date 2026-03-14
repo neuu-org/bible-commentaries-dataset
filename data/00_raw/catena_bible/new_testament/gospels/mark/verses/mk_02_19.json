@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 2:19",
+  "verse_text": "Verse text for MK 2:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/2/19",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "From the time that the incarnation of our Savior was first promised to the patriarchs, it was always awaited by many upright souls with tears and mourning— until he came. From that time when, after his resurrection, he ascended to heaven, all the hope of the saints hangs upon his return. It was at the time when he was keeping company with humanity that his presence was to be celebrated. Then it would have been unfitting to weep and mourn. For like the bride, she had him with her bodily whom she loved spiritually. Therefore the bridegroom is Christ, the bride is the church, and the friends of the bridegroom and of the marriage are each and every one of his faithful companions. The time of his marriage is that time when, through the mystery of the incarnation, he is joining the holy church to himself. Thus it was not by chance, but for the sake of a certain mystical meaning that he came to a marriage ceremony on earth in the customary fleshly way, since he descended from heaven to earth in order to wed the church to himself in spiritual love. His nuptial chamber was the womb of his virgin mother. There God was conjoined with human nature. From there he came forth like a bridegroom to join the church to himself.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/2/19",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52cf3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "Can the children of the bridechamber fast while the bridegroom is present? Why should they keep a bodily fast who are effectively cleansed by the Word, who came in bodily form as visible Word? The time of his sojourning among us was not one of mourning, but gladness. Oration , On the Son",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/2/19",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52cf2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Palladius of Antioch",
+      "period": "AD390",
+      "content": "It is better to drink wine in moderation than to drink water in excess. Some who are holy drink wine in moderation. Some who squander water immoderately may be depraved and pleasureloving. So it appears to me. Do not therefore ascribe blame or praise to the eating of food as such, or to the drinking of wine, but rather to those who make proper or improper use of food and drink. Recall Joseph who in patriarchal times drank wine with the Egyptians and was in no way injured in his judgment, having taken heed to the admonitions of his conscience. But then compare the sorrier examples of Pythagoras, Diogenes and Plato, and with them also the Manichaeans, and other sects of philosophers, who did not heed these admonitions. Some of them came to such a pitch of sensuality or pride that they even forgot the God of the universe and worshiped lifeless images. So the blessed Apostle Peter and those who were with him did not hesitate to receive wine and make use of it. It was just because of this that our Lord’s detractors actively reproached the redeemer of all and their teacher, and made complaints against him, saying, “Why do not your disciples fast like John. ” Lausiac History.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/2/19",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52cf1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 2:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

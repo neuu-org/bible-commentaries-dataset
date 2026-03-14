@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 7:12",
+  "verse_text": "Verse text for MK 7:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/7/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "The condemnation of those who have knowledge yet do not put their knowledge into practice is more severe. Even sin committed in ignorance is not without risk.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/7/12",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d8e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Christ says, “Care for the poor”; Mammon says, “Take away even those things the poor possess.” Christ says, “Empty yourself of what you have”; Mammon says, “Take also what they possess.” Do you see the opposition, the strife between them? See how it is that one cannot obey both, but must reject one? … Christ says, “None of you can become my disciple if you do not give up all your possessions”; Mammon says, “Take the bread from the hungry.” Christ says, “Cover the naked”; the other says, “Strip the naked.” Christ says, “You shall not turn away from your own family, and those of your own house”; Mammon says, “You shall not show mercy to those of your own family. Though you see your mother or your father in want, despise them.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/7/12",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d8f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 7:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 30:6",
+  "verse_text": "Verse text for IS 30:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/30/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The burden concerning the beasts of the south: into the land of trouble and anguish, from where come the lioness and the lion, the viper and fiery flying serpent, they will carry their riches upon the backs of young donkeys, and their treasures upon the humps of camels, to a people that shall not profit them. This title seems unnecessary, and may be added by some Jew, (chap. ) though the Chaldean and others explain it, \"They carry on their beasts, presents to the south \"to the nations of Arabia and Egypt, infested with lions The rest of the prophecy is against the Jews, who cannot well be styled beasts of the south. (Calmet) Basilisk. The ibis devours many serpents on their flight from Arabia into Egypt. (Herodotus ii.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/30/6",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea37",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 30:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

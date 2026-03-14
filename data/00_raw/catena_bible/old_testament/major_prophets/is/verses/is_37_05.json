@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 37:5",
+  "verse_text": "Verse text for IS 37:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/37/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "“When the servants of King Hezekiah came to Isaiah.” … Again he does not use the title of prophet, maintaining the humility with which he began. And Isaiah anticipated them, for he had heard of their departure from the king by the same Spirit from which he also learned of future events. Then he tells them what they ought to reply to their master, humbled in fidelity of conscience: “Say to your master, who is your master, that my Lord says this: ‘Do not be afraid of the words with which not you but I am blasphemed. I will not foretell everything that I am about to do to the king of Assyria, lest I appear to be throwing my weight around, but the spirit which will be given to them is that of the adversary, not of God.’ ”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/37/5",
+      "full_content_url": "https://catenabible.com/com/5e4f7fccc849cf49a740e494",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 37:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

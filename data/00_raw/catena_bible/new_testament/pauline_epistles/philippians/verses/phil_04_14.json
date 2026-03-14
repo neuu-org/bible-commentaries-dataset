@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PHIL 4:14",
+  "verse_text": "Verse text for PHIL 4:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/4/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In communicating; i.e. contributing to relieve my wants. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/14",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0189",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "If Paul had disdained their relief, they would inevitably have become more lax. To prevent this, see how he treats the matter. What he has said may have distressed them, but what he is yet to say will give them a new zeal for life…. How had they shared his trouble? By … “suffering for Christ.” … He does not refer simply to their giving but to their being partakers in Christ. This shows that the blessings are theirs insofar as they become partakers in Christ. He does not refer to his troubles being lightened but to his troubles being shared. This is much more personal. –.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/4/14",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53533",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 4:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

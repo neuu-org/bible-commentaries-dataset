@@ -1,0 +1,36 @@
+{
+  "verse_reference": "SG 2:10",
+  "verse_text": "Verse text for SG 2:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/2/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Arise. He sings under the window, to ver. 16.\nMy dove, is taken from the Septuagint. (Calmet)\nChrist invites his spouse to approach, though he shows not himself as yet; and orders his pastors to root out heresies, ver. 25. (Worthington)\nShe is ever faithful, and rejoices in him, 2 Corinthians xi. 2., Matthew ix. 15., and Ephesians v. 26. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/2/10",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be871",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 2:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

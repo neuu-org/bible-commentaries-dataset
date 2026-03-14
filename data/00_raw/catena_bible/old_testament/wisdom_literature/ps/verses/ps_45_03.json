@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 45:3",
+  "verse_text": "Verse text for PS 45:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/45/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Gird Thy sword upon Thy thigh, O most Mighty\" (ver. What is meant by \"Thy sword, but \"Thy word\". It was by that sword He scattered His enemies; by that sword he divided the son from the father, \"the daughter from the mother, the daughter-in-law from the mother-in-law. \" We read these words in the Gospel, \"I came not to send peace, but a sword. \" And, \"In one house shall five be divided against each other; three against two, and two against three;\" i. \"the father against the son, the daughter against the mother, the daughter-in-law against the mother-in-law. \" By what \"sword,\" but that which Christ brought, was this division wrought. And indeed, my brethren, we see this exemplified daily. Some young man is minded to give himself up to God's service; his father is opposed to it; they are \"divided against each other:\" the one promises an earthly inheritance, the other loves an heavenly; the one promises one thing, the other prefers another. The father should not think himself wronged: God alone is preferred to him. And yet he is at strife with the son, who would fain give himself to God's service. But the spiritual sword is mightier to separate them, than the ties of carnal nature to bind them together. This happens also in the case of a mother against her daughter; still more also in that of a daughter-in-law against a mother-in-law. For sometimes in one house mother-in-law and daughter-in law are found orthodox and heretical respectively. And where that sword is forcibly felt, we do not dread the repetition of Baptism. Could daughter be divided against mother; and could not daughter-in-law be divided against mother-in-law.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/45/3",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a37",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Mighty. (Potentissime) Erasmus (Apol. con. Sutor.) complains, that he could not learn, whether this was a noun or an adverb, without consulting the originals. (Amama)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/45/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be06d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 45:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

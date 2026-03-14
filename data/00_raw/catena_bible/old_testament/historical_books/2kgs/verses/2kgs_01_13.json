@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 1:13",
+  "verse_text": "Verse text for 2KGS 1:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/1/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Again. This third captain is commonly supposed to be Abdias, (3 Kings xviii. 3.) though without much reason. (Calmet)\nJohn of Jerus, (c. 15) says he left the court, and became a disciple of Elias, and a prophet. (Menochius)\nBut he is very different from the prophet, whose writings are still extant. (Calmet)\nThe report of the two miracles had come to his ears, and filled him with fear. (Menochius)\nDespise not. Hebrew, \"let my life.be precious in thy sight \"1 Kings xxvi. 21., and Psalm cxv. 15.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/1/13",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd400",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 1:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

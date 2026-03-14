@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 7:1",
+  "verse_text": "Verse text for DT 7:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/7/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Destroyed. So the Vulgate often expresses the Hebrew term, which signifies, \"to cast out. \"\nSeven. Ten are mentioned, Genesis xv. 9; but some of the less powerful nations were either mixed with the others, or were exterminated. The Hevites are omitted in the passage of Genesis, and sometimes no notice is taken of the Gergezite or the Pherezite. The latter had been already conquered by Moses, as well as the Raphaim and Amorrhites, over whom Og and Sehon ruled, chap. iii. 5. (Calmet)\nIt seems, however, that some of the same nations, on the other side of the Jordan, remained to be subdued, and that any one of them was naturally too strong for the Hebrews, ver. 7. Hence the latter might be convinced, that their victories were to be attributed to God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/7/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc93d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "These are the seven nations whose lands the Lord promised to give to the children of Israel when they left Egypt. We must accept the fact that, according to the apostle, all the things that happened to them in a figure were written for our instruction…. The reason that they are said to be much more numerous is that there are more vices than virtues. Therefore in the list they are counted as seven nations, to be sure, but when it is a question of destroying them they are said to be innumerable. –.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/7/1",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a2e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 7:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

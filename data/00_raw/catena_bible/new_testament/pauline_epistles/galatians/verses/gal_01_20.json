@@ -1,0 +1,69 @@
+{
+  "verse_reference": "GAL 1:20",
+  "verse_text": "Verse text for GAL 1:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gal/1/20",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Now the things which I write unto you, behold, before God, I lie not. Augustine of Hippo He certainly swears, and what oath could be more sacred. But an oath is not against the commandment when the “evil cause” is not in the swearer but in the incredulity of him to whom he is forced to swear. For we understand from this that what the Lord meant in prohibiting oaths was that everyone, so far as in him it lies, should not swear the oaths that many do, having the oath on their lips as though it were something lofty and elegant.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/20",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c66709",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Now the things which I write unto you, behold, before God, I lie not. Cornelius a Lapide Before God I lie not. Vatablus paraphrases this verse: \"What I write unto you, behold I write before God—I lie not;\" and Theophylact agrees with him. But Ambrose and Augustine think that before God is a formal oath—I call God to witness. The Apostle asserts that he had not seen the other Apostles so strenuously that no one might be able to say that he had visited them in secret, and had not been taught by God (Jerome).",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/20",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52609",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Or perhaps this could be taken in a deeper sense, that “what I say to you is before God, that is, worthy of God’s countenance. And why worthy of God’s countenance? Because I do not lie.” .",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/20",
+      "full_content_url": "https://catenabible.com/com/584233c025973d7a18c6670a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Observe throughout the transparent humility of this holy soul; his earnestness in his own vindication is as great as if he had to render an account of his deeds, and was pleading for his life in a court of justice.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gal/1/20",
+      "full_content_url": "https://catenabible.com/com/57558ddd3c6effa740dddb0a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GAL 1:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 69:11",
+  "verse_text": "Verse text for PS 69:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/69/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "14. \"And I have set sackcloth my garment\" (ver. 11). Already before we have said something of the sackcloth, from whence there is this, \"But I, when they were troubling Me, was covering myself with sackcloth, and was humbling My Soul in fasting. I have set sackcloth for My garment:\" that is, have set against them My flesh, on which to spend their rage, I have concealed My divinity. \"Sackcloth,\" because mortal the flesh was: in order that by sin He might condemn sin in the flesh. \"And I have set sackcloth my garment: and I have been made to them for a parable,\" that is, for a derision. It is called a parable, whenever a comparison is made concerning some one, when he is evil spoken of. \"So may this man perish,\" for example, \"as that man did,\" is a parable: that is, a comparison and likeness in cursing. \"I have been made to them,\" then, \"for a parable.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/69/11",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6b96",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hair-cloth. The sacred humanity, which being torn, let out the price of our redemption. (St. Augustine) (Menochius)\nI mourned for my country (Calmet)\nChrist was clothed in derision, with a soldier's straight purple garment. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/69/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be162",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 69:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

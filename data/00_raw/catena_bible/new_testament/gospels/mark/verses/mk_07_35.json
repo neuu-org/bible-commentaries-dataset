@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 7:35",
+  "verse_text": "Verse text for MK 7:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/7/35",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Lucius Caecilius Firmianus Lactantius",
+      "period": "AD320",
+      "content": "He thereby declared that it would shortly come to pass, that those who were destitute of the revealed truth would both hear and understand the majestic words of God. Accordingly you may truly call those deaf who do not hear the heavenly things which are true, and worthy of being performed. He loosed the tongues of the dumb. They spoke plainly—a power worthy of admiration even in its ordinary operation. But there was also contained in this display of power another meaning. It would shortly come to pass that those who were previously ignorant of heavenly things, having received the instruction of wisdom, might soon speak God’s own truth.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/7/35",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52da0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 7:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "verse_reference": "TIT 2:7",
+  "verse_text": "Verse text for TIT 2:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ti/2/7",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "As far as we are concerned, our consciences are all that matters. As far as you are concerned, our reputation among you ought not to be tarnished but influential for good. Mark what I’ve said, and make the distinction. There are two things, conscience and reputation; conscience for yourself, reputation for your neighbor. Those who, being clear in their consciences, neglect their reputations, are being cruel; especially if they find themselves in this position. The apostle writes about this to his disciple: “Showing yourself to all around you as an example of good works.”",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/7",
+      "full_content_url": "https://catenabible.com/com/583bbc53205c248f42e530e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In gravity: to which is added in the Protestant translation sincerity, from some Greek copies; but it is left out by Dr. Wells, as being not in the best Greek manuscripts nor is it in the Amsterdam edition, (1711.) (Witham)",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/7",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0288",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "Finally, Paul instructed Titus, whom he addresses directly about attaining perfection in the practice of the true religion, in this admonition: “Show yourself in all respects a model of good deeds, and in your teaching show integrity, gravity and sound speech that cannot be censured, so that an opponent may be put to shame, having nothing evil to say of us.” This teacher of the Gentiles and the chosen leader of the church, conscious of Christ who spoke and dwelt within him, knew that the plague of a deadly eloquence would rise up against him…. For this reason, he wished the bishop to possess learning, the consciousness of the faith and the knowledge of argument that would withstand godless lying and insane objections.",
+      "commentary_number": "3/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ti/2/7",
+      "full_content_url": "https://catenabible.com/com/583bbc53205c248f42e530e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Let the elder women, he says, teach the younger, but do you yourself exhort young men to be soberminded. And let the luster of your life be a common school of instruction, a pattern of virtue to all, publicly exhibited, like some original model, containing in itself all beauties, affording examples whence those who are willing may easily imprint upon themselves any of its excellences.",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/7",
+      "full_content_url": "https://catenabible.com/com/576210d59fd295934bf12019",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Peter of Alexandria",
+      "period": "AD311",
+      "content": "For considering not his own advantage but the advantage of many, that they might be saved, he judged it more necessary than his own rest to remain with the brethren, and to have a care for them; who also would have him that teacheth to be \"in doctrine\"",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/7",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbb6b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured TIT 2:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

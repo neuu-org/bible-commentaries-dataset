@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 22:15",
+  "verse_text": "Verse text for JB 22:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/22/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wicked. Alexandrian Septuagint, \"just. \"But Grabe substitutes unjust; (Haydock) as otherwise, Eliphaz would argue against his own principles: unless just be put ironically for hypocrites. (Calmet)\nWilt thou imitate the ancient giants, before the deluge? (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/22/15",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdcb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "13. As the ‘way’ of our Redeemer is humility, so the way of the world is pride. And so wicked men tread the way of the world, in that by the desires of this world they walk in self-exaltation.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/22/15",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd0ad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 22:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 8:7",
+  "verse_text": "Verse text for JB 8:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/8/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "62. But if it is counsel within the soul that he calls ‘the habitation of righteousness,’ the leaders of false opinions promise afflicted Catholics ‘the habitation of their righteousness at peace,’ in that if they draw them to their own views, then indeed they hold their peace from opposition. For those who have let themselves be drawn into that which is wrong, are the more lulled to rest in temporal peace, in proportion as they are parted the wider from eternal peace. Moreover they promise that the riches of understanding shall be increased to all that follow them. And hence it is added, Insomuch that though thy beginning was small, yet thy latter end shalt greatly increase. Then because they do not easily obtain credit to their words, in that their life is often shewn to be worthy of contempt, they put forward the opinions of the Fathers of old, and turn the right line they take into a proof of their own erring way.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/8/7",
+      "full_content_url": "https://catenabible.com/com/57421a163c6effa740ddcf50",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Olympiodorus of Alexandria",
+      "period": "AD570",
+      "content": "Bildad says, “I suggest you pray to the Lord with all your devotion and diligence. Everything else should come after your prayers.” This is what “be early” means. And if you are true and empty of any deceit and falseness, God will give you back a condition of life and a status worthy of a righteous person. You will enjoy an abundance of goods as great as you possessed earlier. Notice how Bildad demonstrates in this part of his discourse of praise his belief that the happiness of the righteous is found in the material goods of worldly life.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/8/7",
+      "full_content_url": "https://catenabible.com/com/5e1b5ed58bc66721fe4ef5e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 8:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

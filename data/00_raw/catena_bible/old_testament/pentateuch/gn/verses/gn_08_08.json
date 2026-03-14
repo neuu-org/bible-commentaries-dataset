@@ -1,0 +1,69 @@
+{
+  "verse_reference": "GN 8:8",
+  "verse_text": "Verse text for GN 8:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/8/8",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Also he sent forth a dove from him, to see if the waters were abated from off the face of the ground; Ambrose of Milan The oil is not for the synagogue, since it does not possess the olive and did not understand the dove that brought back the olive branch after the flood. For that dove descended afterwards, when Christ was being baptized and dwelt with him, as John brought witness in the Gospel saying, “I saw the Spirit descending from heaven as a dove, and it remained upon him.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/8/8",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e519a0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "It is not difficult to see why everlasting peace is signified by the olive branch that the dove, returning, brought back to the ark. For we know that the smooth surface of oil is not readily hindered by a different liquid. And the olive tree itself is forever in leaf. .",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/8/8",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e5199f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "After [the raven] he sent a dove, and it came to him in the evening, carrying in its mouth an olive branch with green leaves. You are paying attention, I believe, and with your intellect you anticipate me as I speak. The olive branch with green leaves is the grace of the Holy Spirit, rich in the words of life, the fullness of which rests upon Christ, [as] the psalm says, “God, your God, has anointed you with the oil of gladness above your fellows. ” Concerning this gift given to Christ’s fellows, John speaks: “You have the anointing from the holy one, and you know all things. ” And by a most beautiful conjunction the figure is in agreement with the fulfillment—a corporeal dove brought the olive branch to the ark which was washed by the waters of the flood; the Holy Spirit descended in the form of a corporeal dove upon the Lord when he was baptized in the waters of the Jordan. Not only the human beings but also the living things which the ark contained, and also the very wood from which the ark was made, prefigure us members of Christ and of the church after our reception of the washing of the waters of regeneration. Through the anointing of the sacred chrism may we be signed with the grace of the Holy Spirit, and may he deign to keep it inviolate in us who himself gave it [to us], Jesus Christ our Lord who with the almighty Father in the unity of the same Holy Spirit lives and reigns for all ages.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/8/8",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e519a1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Maximus of Turin",
+      "period": "AD423",
+      "content": "Christ is a dove because he commands his holy ones to be as doves when he says, “Be simple as doves.” But the prophet speaks of what Christ the dove is when, in his person, he describes his return to heaven after his suffering: “Who will give me wings like a dove, and I shall fly away and be at rest?” When Christ the Lord, therefore, initiated the sacraments of the church a dove came down from heaven. I understand the mystery, and I recognize the sacrament. For the very dove that once hastened to Noah’s ark in the flood now comes to Christ’s church in baptism.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/8/8",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e519a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 8:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

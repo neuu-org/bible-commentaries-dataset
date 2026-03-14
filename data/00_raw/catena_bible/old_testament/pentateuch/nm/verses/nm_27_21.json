@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 27:21",
+  "verse_text": "Verse text for NM 27:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/27/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For him. Hebrew adds, \"according to the judgment of Urim. \"See Exodus xxviii. 30. Nothing better shows the theocracy of the Hebrews, as Josephus styles it, (contra Apion, 2,) than this order for the chief magistrate in civil affairs, to consult and be guided by God's minister, and by the sentence which he should pronounce in his name. Till the reign of David, at least, we find few wars undertaken, without consulting God: (Calmet) and the Rabbins assert, that the kings could not declare any war of their own accord, without the consent of the high priest and Sanhedrim. (Selden, Syned. iii. 12.) Saul lost his crown and life for not complying with the injunctions of God, which were communicated to him by the prophet Samuel. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/27/21",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc857",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 27:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZR 8:15",
+  "verse_text": "Verse text for EZR 8:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/8/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And I gathered them together to the river that runs to Ahava; and there abode we in tents three days: and I viewed the people, and the priests, and found there none of the sons of Levi. This river (ver. ) runs through the territory of the same name, called Hava; (4 Kings xvii. ) the people of which exchanged places with the Israelites. Esdras makes a circuit to prevail on some of the latter to return with him, unless he began his journey from Susa. Babylon comprises all that country. (Calmet) None there, who were not priests, ver. (Lyranus) (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ezr/8/15",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 8:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

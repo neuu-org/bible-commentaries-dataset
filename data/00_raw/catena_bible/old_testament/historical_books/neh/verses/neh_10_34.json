@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NEH 10:34",
+  "verse_text": "Verse text for NEH 10:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/10/34",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And we cast the lots among the priests, the Levites, and the people, for the wood offering, to bring it into the house of our God, according to our fathers' houses, at times appointed year by year, to burn upon the altar of the LORD our God, as it is written in the law: Wood. The Nathinites had performed this office till the captivity. But not their numbers were too small. (Calmet) The people therefore brought the wood. The Levites, with the Nathinites, carried it into the temple, and the priests laid it upon the altars; all being regulated by lots. (Lyranus) Hence the feast called Xylophoria, was instituted about the month of August, as we may gather from Josephus. The Rabbins say that the priests cut the wood, from March till the 15th of July.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/10/34",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda53",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 10:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

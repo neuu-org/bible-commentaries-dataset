@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 19:40",
+  "verse_text": "Verse text for LK 19:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/19/40",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "For besides the visions of the night, by day also, the innocent age of boys is among us filled with the Holy Spirit, seeing in an ecstasy with their eyes, and hearing and speaking those things whereby the Lord condescends to warn and instruct us.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/19/40",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf07",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The stones. This is a proverb, as if he had said: God has resolved to glorify me this day, in order to fulfil the prophecies. Nothing can hinder the execution of his decrees; if men were silent, he would make even the stones to speak. (Calmet)\nAt the crucifixion of our Redeemer, when his friends were silent through fear, the very stones and rocks spoke in his defence. Immediately after he expired, the earth was moved, the rocks split, and the monuments of the dead opened. (Ven. Bede)\nNor is it any wonder if, contrary to nature, the rocks bespeak the praises of the Lord, since he was even praised by a multitude, much more insensible than the rocks themselves, in crucifying him only a few days after, whom they now salute with Hosannahs of joy. (St. Ambrose)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/19/40",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb39",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 19:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

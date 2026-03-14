@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 12:17",
+  "verse_text": "Verse text for MT 12:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/12/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then so that you might not be troubled at the events and their strange frenzy, Jesus reminded them of the prophet who had predicted them. For so great was the accuracy of the prophets that they did not omit even these little matters. But they foretold his travels, changes of place and the intent with which he would act, that we might learn that they spoke by the Spirit. If human secrets cannot be easily discerned, how much more difficult it is to discern Christ’s purpose, except when the Spirit reveals it to us. The Gospel of Matthew, Homily",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/12/17",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6ef2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 12:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

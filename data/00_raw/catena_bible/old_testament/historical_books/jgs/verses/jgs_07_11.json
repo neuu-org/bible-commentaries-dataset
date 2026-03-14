@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 7:11",
+  "verse_text": "Verse text for JGS 7:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/7/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Servant. Thus he confessed that he was not entirely free from fear himself, ver. 5, 10. (Haydock)\nThe most courageous feel less alarm, when they have a companion, (Menochius) as Diomede observed, when he desired that one or two might accompany him in the attempt to explore the enemy's camp. (Homer, Iliad x.)\nArms. The greatest part of this immense crowd of people, who came to plunder, neglected the laws of war; as the Israelites had not dared, for a long time, to oppose them. A select number of 135,000 men in arms was destined to keep them in order, and to protect them. Among these Gedeon insinuated himself, to know how they were encamped, and what sentiments they entertained. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/7/11",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd38",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 7:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 20:33",
+  "verse_text": "Verse text for ACTS 20:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/20/33",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He takes away that which is the root of evils, the love of money. Silver, or gold, he says. He says not, I have not taken, but, not even coveted. No great thing this, but what follows after is great. Yea, you yourselves know, that these hands have ministered unto my necessities, and to them that were with me. I have showed you all things, how that so laboring, you ought to support the weak.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/20/33",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b948b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 20:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

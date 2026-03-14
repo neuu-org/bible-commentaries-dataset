@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 24:37",
+  "verse_text": "Verse text for LK 24:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/24/37",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But they were terrified and frightened, and supposed that they had seen a spirit. Cornelius a Lapide But they. supposed that they had seen a spirit. Because of Jesus\" sudden appearance in their midst although the doors were shut. Ambrose says, \"Although Peter believed in the resurrection, yet it was but natural that he should be terrified and affrighted when he saw that the Lord had the power of suddenly presenting Himself in bodily form, in a place guarded by closed doors, and despite of obstructing walls.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/24/37",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520c4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The apostles thought they saw a Spirit, either good or bad, that had taken the form of Jesus, and was come to deceive them. For that they did not doubt spirits appeared, we have abundant proofs throughout the whole New Testament: and our Saviour, instead of combating this opinion, seems rather to have confirmed it on more than one occasion. Augustine thinks it cannot, without temerity, be denied, that there are occasional apparitions of angels, of demons, and the souls of the dead. (Calmet) This, however, will not justify the credulity of many ignorant and weak people, who think that nobody can die, but their spirit is sure to appear; much less will it justify the superstitious observations of unusual occurrences, which are so commonly reported to happen, as significant of a departed soul. These occurrences are rare; nor should we suppose that the Almighty would be willing to suspend or change the established laws of nature without a sufficient cause, viz. some known good either to the departed soul, or surviving friends.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/24/37",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb78",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "My hands and my feet, that it is I myself; for a spirit hath not bones, as ye see me have.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/24/37",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbfc7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 24:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

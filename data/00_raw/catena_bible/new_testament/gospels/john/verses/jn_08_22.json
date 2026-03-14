@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 8:22",
+  "verse_text": "Verse text for JN 8:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/8/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Then said the Jews, &c. The officers made a wiser inquiry ( John 7:35), Will He go to the dispersion of the Gentiles? But the Pharisees, blinded by their hatred, thought He had no way of escape but by killing Himself. Wherever He may go, we will follow Him up. If He goes to the Gentiles, we will drag Him back. He must therefore mean that He will kill Himself, so as to escape our hands. A presumptuous and foolish thought, suggested, however, by their malice. He might have withdrawn Himself from them in various ways, as He had already done. But He meant that He would go up to heaven, whither the Pharisees could not come. But His words, says S. Augustine, referred not to His going to death, but to where He was going afterwards.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/8/22",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e521f7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What then does Christ? To remove their suspicion, and to show that such an act is sin, He says,",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/8/22",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabb71",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 8:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

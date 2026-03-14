@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:19",
+  "verse_text": "Verse text for PS 119:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Open Thou mine eyes. and I will consider wondrous things of Thy law\" (ver. What he addeth, \"I am a lodger upon earth\" (ver. 19): or, as some copies read, \"I am a sojourner upon earth, O hide not Thy commandments from me,\" hath the same meaning. Here an important question ariseth respecting the soul. For the words, I am a sojourner, or lodger, or stranger upon earth, cannot scent to have been said in reference to the body, since the body derives its origin from the earth. But in this most profound question I dare not define anything. For if it might justly have been said in respect of the soul (which God forbid we should suppose derived from the earth), \"I am a lodger,\" or \"stranger upon earth;\" or in reference to the whole man, since he was at one time an inhabitant of Paradise, where he who spake these words was not; or, what is more free from all controversy, if it be not every man who could say this, but one to whom an everlasting country hath been promised in heaven: this I know, \"that the life of man on earth is a temptation;\" and that \"there is a heavy yoke upon the sons of Adam. \" But it pleaseth me more to discuss the question in accordance with this construction, that we say we are tenants or strangers upon earth, because we have found our country above, whence we have received a pledge, and where when we have arrived we shall never depart. Those whose conversation is in heaven, as far as they abide here conversant, are in truth strangers. Let them pray therefore that the commandments of God may not be hidden from them, whereby they may be freed from this temporary sojourn, by loving God, with whom they will be for evermore; and by loving their neighbour, that he may be there where they also themselves will be.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/119/19",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6619",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Earth. At Babylon, or in the world, which is a pilgrimage, (Calmet) and I am unacquainted with the roads. (Menochius)\nThe latter sense is much better, 2 Corinthians v. 6., and Hebrews xi. 10. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/19",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3eb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

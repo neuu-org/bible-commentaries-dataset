@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 13:28",
+  "verse_text": "Verse text for ACTS 13:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/28",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "That the ancients imposed the names of received animals upon certain specified stars, for the purpose of knowing them better, not from any similarity of nature; for what have the seven stars, distant one from another, in common with a bear, or the five stars with the head of a dragon?-in regard of which Aratus",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/28",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae31",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And when they had fulfilled all that was written of Him.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/28",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9343",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "On all occasions we find them making a great point of showing this, that the blessing is peculiarly theirs, that they may not flee (from Christ), as thinking they had nothing to do with Him, because they had crucified Him. Because they knew Him not, he says: so that the sin was one of ignorance. See how he gently makes an apology even on behalf of those (crucifiers). And not only this: but he adds also, that thus it must needs be. And how so? By condemning Him, they fulfilled the voices of the prophets. Then again from the Scriptures. And when they had fulfilled all that was written of Him, they took Him down from the tree, and laid Him in a sepulchre. But God raised Him from the dead. And He was seen many days of them which came up with Him from Galilee to Jerusalem, who are His witnesses unto the people—",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/13/28",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9338",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

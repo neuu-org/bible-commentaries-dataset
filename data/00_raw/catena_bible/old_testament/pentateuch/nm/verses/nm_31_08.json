@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 31:8",
+  "verse_text": "Verse text for NM 31:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/31/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Recem; by which name Petra, the capital of Arabia Petrea, is known. This petty king probably took his title from this city, over which he presided. (Calmet)\nAll the five had been, perhaps, tributary to Sehon, Josue xiii. 21. (Haydock)\nSur, the wretched parent of Cozbi, chap. xxv. 15. (Calmet)\nBalaam. Some think he was a native of Madian, though he had resided in Mesopotamia. He had either stopped in this country, or hearing of the calamities of the Hebrews, had returned to receive the reward of his pernicious counsel. Thus he was overtaken by God's just judgment, and he fell into the pit which his avarice had dug for him, chap. xxiv. 25. (Haydock)\nProbably he was busy with his incantations; for this sort of men is generally cowardly. He had no sword, chap. xxii. 29. (Salien)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/31/8",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc873",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Peter Chrysologus",
+      "period": "AD450",
+      "content": "The soothsayer Balaam set up a scandal for the people of Israel when he went to meet their warriors, not with men in armor but with women arrayed in all their finery. He hoped to make the men drop their arms for debauchery, change their triumph into disgrace, bring the avengers of guilt into guilt themselves and—to put it briefly—to profane all their holiness into depravity. As a result of it all, when Moses was meting out punishment, he sentenced Balaam thus: “Kill Balaam the soothsayer, because he set up a stumbling block before the children of Israel.”",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/31/8",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52967",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 31:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

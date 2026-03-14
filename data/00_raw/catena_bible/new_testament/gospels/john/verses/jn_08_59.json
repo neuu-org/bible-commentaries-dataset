@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 8:59",
+  "verse_text": "Verse text for JN 8:59",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/8/59",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "They see not the truth (in that they are verily both liars themselves, and have a liar for their father, as the Saviour saith) but are angry at no vexing thing. Supposing that they ought to contend for the glory of their forefather as though wronged, they were kindled thereby unto no seasonable anger, albeit they ought to have known the force of the things said and who it was Who thus speaks: but turning aside unto most unreasonable and beast-befitting madness, they endeavour to aim at Him with stones, as though they had not sufficiently offended Him by their already much railing, or were drawing upon themselves by their folly some small wrath. Hot therefore and most foolish is the attempt of the Jews, but it passes not into act out of season, for the time of His Passion was yet to come. Christ hides Himself, not retreating beneath walls, not interposing ought else before His Body, but by the power of His Godhead rendering Himself invisible to them who seek Him. And it was not enough to escape their notice but He also goeth forth of the temple, limning to us a sort of type herein of things spiritual. For to them that love Him He is manifest always (as it is said, Blessed are the pure in heart, because they shall see God) but hastens away from those who are prone to fight against God, and is seen of none who behave impiously, nor yet loveth to be with after a sort and to dwell with them that persecute Him, but rather doth He depart from them and removeth, taking away with Him all joy, and leaving bare of graces from Him those by whom He is evil entreated, in regard (I mean) of their wishing to do Him wrong, and of the attempts of the impious ones, even though Christ shews all things to be vain, by His unspeakable might bringing to nought the unholy daring of those who transgress against Him.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/jn/8/59",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabf78",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "And as He was capable of being handled and touched, so again did He, in a non-apprehensible form, pass through the midst of those who sought to injure Him.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/8/59",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb488",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 8:59",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

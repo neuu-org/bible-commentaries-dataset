@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DN 8:2",
+  "verse_text": "Verse text for DN 8:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/8/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Castle; some read \"city. \"Here the kings had a palace; and Hystaspes generally resided in it. Nabuchodonosor seems to have subdued Elam. Cyrus had it for his share; but Darius, the Mede, appears from Eschylus to have plundered Susa again. Daniel probably spent the latter part of his life in this city. (Calmet)\nGate, or \"stagnant water \"(paludem. ver. 3.; Haydock) though most understand the river Euleus, on the side of Susiana. The prophets often sought retired places, chap. x. 4., and Ezechiel i. 1. (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/8/2",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2fe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "(Vulgate: \"city of Elam\"). Or else we may render, as Symmachus has translated it, \".. .in the city of Elam,\" from which of course the region took its name, just as the Babylonians were named from Babylon. So also the Elamites were thus named from Elam, in consequence of which the Septuagint translates it: \"the region of Elamais.\" And Susis [that is, \"Susa\"] is the chief city of the region of the Elamites, and there, according to Josephus' account (A), Daniel erected a lofty tower fashioned of square blocks of marble, and of such outstanding beauty that it seems newly built even up to the present day. There also the remains of the kings of the Persians and Medes lie buried, and the custodian or sacristan and priest of that locality is a Jew. \"While I was in the castle at Susa. ...\" Not that the city itself is a castle, for as we have stated, it is a chief city of great power; but rather that the city is so solidly built that it looks like a castle.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/8/2",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd314",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Instead of this Aquila translated:\". . .over the Ubal of Ulai\"; Theodotion rendered: \"above Ubal\"; Symmachus: \"above the swamp of Ulai\"; the Septuagint: (B) \"above the gate of Ulai.\" But it should be understood that Ulai is the name of a place, or else of a gate, just as there was in Troy a gate called the Skaia [\"Western\"], and among the Romans there is one called Carmentalis. In each case the name has originated from special circumstances. [Actually the Hebrew word \" 'uwbal\" is a common noun |84 meaning \"canal\"; the proper translation would be: \"I was by the Ulai Canal.\"]",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/8/2",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd315",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 8:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

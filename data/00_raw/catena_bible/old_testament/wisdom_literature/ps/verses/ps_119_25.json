@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:25",
+  "verse_text": "Verse text for PS 119:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"My soul cleaveth to the pavement: O quicken Thou me according to Thy word\" (ver. What meaneth, \"My soul cleaveth to the pavement, O quicken Thou me according to Thy word\". If we look upon the whole world as one great house, we see that the heavens represent its vaulting, the earth therefore will be its pavement. He wisheth therefore to be rescued from earthly things, and to say with the Apostle, \"Our conversation' is in heaven. \" To cling therefore to earthly things is the soul's death; the contrary of which evil, life is prayed for, when he saith, \"O quicken Thou me. The body itself also, because it is of the earth, is reasonably understood by the word pavement; since, because it is still corruptible and weigheth down the soul, we justly groan while in it, and say unto God, \"O quicken Thou me. \" For we shall not be without our bodies when we shall be for evermore with the Lord; but then because they will not be corruptible, nor will they weigh down our souls, if we view it strictly, we shall not cleave unto them, but they rather unto us, and we unto God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/25",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e661e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Pavement. Hebrew, \"dust \"(Berthier) weighed down by concupiscence, (St. Augustine) and infected by the union with the body. (St. Ambrose)\nThe just, in great distress, beg to be delivered, conformably to God's promise. (Worthington) (Wisdom ix. 15., and Romans vii. 24.)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/25",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

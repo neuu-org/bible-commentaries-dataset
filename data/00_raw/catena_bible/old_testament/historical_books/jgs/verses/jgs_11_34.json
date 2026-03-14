@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 11:34",
+  "verse_text": "Verse text for JGS 11:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/11/34",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Daughter. It seems the vow had been kept secret, as no precautions were taken to prevent the affliction of the general; (Calmet) and indeed to have done so, would have been injurious to God's providence, and childish in Jephte, as he meant to offer whatever should come to meet him. It would have been very mean, and contrary to the meaning of the vow, for him to procure something for which he had no great value, to present itself. (Haydock)\nDances, as it was customary on such occasions, 1 Kings xviii. 6.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/11/34",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd9f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 11:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 12:9",
+  "verse_text": "Verse text for REV 12:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/12/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "They set forth, indeed, the name of Christ Jesus as a sort of lure, but in various ways they introduce the impieties of Simon; and thus they destroy multitudes, wickedly disseminating their own doctrines by the use of a good name, and, through means of its sweetness and beauty, extending to their hearers the bitter and malignant poison of the serpent, the great author of apostasy.\nAnd at that time, indeed, the apostate angel, having effected the disobedience of mankind by means of the serpent, imagined that he escaped the notice of the Lord; wherefore God assigned him the form",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/12/9",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb899",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "And, for every one hurt by such snakes-that is, his angels.\nKeeping watch over the omens of their own (future) penalty, in company with the (old) dragon",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/12/9",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb89a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 12:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

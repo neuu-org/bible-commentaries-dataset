@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 31:17",
+  "verse_text": "Verse text for NM 31:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/31/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of children. Women and children, ordinarily speaking, were not to be killed in war, Deuteronomy xx. But the great lord of life and death was pleased to order it otherwise in the present case, in detestation of the wickedness of this people, who by the counsel of Balaam, had sent their women amongst the Israelites on purpose to draw them from God. (Challoner) Only those who were under twelve would be thus reserved; and as their tender minds might yet receive the impressions of virtue, by a proper education, they might, one day, be married by some of the Hebrews. The boys were all slain, either because they might be inclined to resent the injury done to their relations, or because they were all consecrated to Beelphegor; the first-born to be his priests, the rest to be victims, if necessary, to avert any evil. For \"the heathens in cold blood \"says Paine, \"offered their children in sacrifice to Baalpeor. \"It was on this account, that the killing of all the first-born in Egypt, was felt so terribly, as the people could not lawfully approach their gods. (Forbes) Moses did not reserve the girls for the purpose of debauchery, as Paine ignorantly pretends; for that was contrary to his own laws, nor did he wantonly kill the innocent, which he also strictly forbade, and which he would have been still more afraid to do, if he had been an impostor. But he preserved the lives of those girls who might be presumed innocent, and who might live to do good, while he took the revenge of the Lord (ver. 3,) upon the rest.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/31/17",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc879",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now therefore kill every male among the little ones, and kill every woman that has known man by lying with him. Of the children: Women and children, ordinarily speaking, were not to be killed in war, Deut. But the great Lord of life and death was pleased to order it otherwise in the present case, in detestation of the wickedness of this people, who by the counsel of Balaam, had sent their women among the Israelites on purpose to draw them from God.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/31/17",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fdd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 31:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

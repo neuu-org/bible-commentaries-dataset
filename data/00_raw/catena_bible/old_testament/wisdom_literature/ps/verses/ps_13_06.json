@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 13:6",
+  "verse_text": "Verse text for PS 13:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/13/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "6. \"But I have hoped in Thy mercy\" (ver. 5). Because this very thing, that a man be not moved, and that he abide fixed in the Lord, he should not attribute to self: lest when he glories that he hath not been moved, he be moved by this very pride. \"My heart shall exult in Thy salvation;\" in Christ, in the Wisdom of God. \"I will sing to the Lord who hath given me good things;\" spiritual good things, not belonging to man's day. \"And I will chant to the name of the Lord most high\" (ver. 6); that is, I give thanks with joy, and in most due order employ my body, which is the song of the spiritual soul. But if any distinction is to be marked here, \"I will sing\" with the heart, \"I will chant\" with my works; \"to the Lord,\" that which He alone seeth, but \"to the name of the Lord,\" that which is known among men, which is serviceable not for Him, but for us.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/13/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6817",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 13:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

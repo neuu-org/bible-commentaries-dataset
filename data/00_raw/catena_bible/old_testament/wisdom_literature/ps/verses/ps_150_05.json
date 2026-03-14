@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 150:5",
+  "verse_text": "Verse text for PS 150:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/150/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Spirit. Wind instrument, (Menochius) or man, who is bound to praise God, even more than the angels, as Christ has assumed his nature, and will bring him to sing with them Alleluia. (Worthington)\nLet \"all that breathes \"praise, (Berthier) including every living creature, (Calmet) as well as the celestial spirits. (Haydock)\nAlleluia is not in Septuagint, Syriac But it is in the Hebrew, and no word could answer better for a conclusion of the psalms, which are almost wholly employed in the divine praises. This ought to be our occupation both on earth, and in heaven. Amen. (Calmet)\nPope Damasus, A.D. 380, ordered the Glory, to be added to each of the psalms, as it has been since observed. (Worthington)\nAn apocryphal psalm, concerning David encountering Goliath, occurs in many Greek and Latin copies; but it is of no authority. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/150/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be560",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 150:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

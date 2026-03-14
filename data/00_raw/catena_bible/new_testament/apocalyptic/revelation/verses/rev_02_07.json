@@ -1,0 +1,69 @@
+{
+  "verse_reference": "REV 2:7",
+  "verse_text": "Verse text for REV 2:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/2/7",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "overcometh: The \"tree of life\" is Christ, by the vision of Whom in the celestial paradise, and in the present body of the Church, holy souls are refreshed. THE CHURCH OF SMYRNA <a",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/7",
+      "full_content_url": "https://catenabible.com/com/5862e9b5dd1bb6dd3dba9b84",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "He that has an ear, let him hear what the Spirit says unto the churches; To him that overcomes will I give to eat of the tree of life, which is in the midst of the paradise of God. ear: He indicates that he writes for all the churches the things which he addresses to them individually; for it was not the Church of the Ephesians alone, which, if it did not repent, was to be removed from its place; nor was Satan's seat at Pergamos alone, and not rather in every place. In like manner also, the other things of the several churches are common to every church.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/7",
+      "full_content_url": "https://catenabible.com/com/5862e9b5dd1bb6dd3dba9b83",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Also in the same place: \"He who shall overcome I will give him to eat of the tree of life, which as in the paradise of my God.\"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/7",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb829",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Methodius of Olympus",
+      "period": "AD311",
+      "content": "Who, after the creation of the earth and the firmament, was formed out of clay? And how shall he be admitted to be \"the tree of life \"who was cast out for his transgression,",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/7",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb82a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 2:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

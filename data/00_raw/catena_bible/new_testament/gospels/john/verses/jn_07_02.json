@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JN 7:2",
+  "verse_text": "Verse text for JN 7:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/7/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But the Jews\" feast of Tabernacles was at hand. They kept it for seven days, living in booths, hastily constructed of branches of trees, in memory of the forty years\" wandering in the wilderness. The Syriac version for Scenopegia reads Conopea quite wrongly. For these were mosquito curtains, not booths. Abulensis (in Leviticus 23:34) gives a most erroneous derivation of ÏƒÎºÎ·Î½Î¿Ï€Î·Î³Î¯Î±, and Plutarch from not knowing Hebrew was equally wrong in regarding this feast as merely a Bacchanalian orgy, mistaking also the meaning of Sabbath.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/7/2",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e521b5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 7:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

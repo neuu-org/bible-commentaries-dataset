@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 22:10",
+  "verse_text": "Verse text for 1SM 22:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/22/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Consulted. Some think this was a falsehood, as it is not mentioned before. (Hugo)\nbut Achimelech does not deny the fact, ver. 15. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/22/10",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcfa8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "I am taught through these words that whenever understanding guides my life like it did the life of the great David, that this carries me through to the end of the victory. And then I grieve especially for Doeg, the tyrant of my salvation, whenever I am in the house of the priest and when the attendant of the mules plots against me secretly because he no longer has the power to come to grips with me face to face, by informing the one who thirsts for my blood that I am staying with the priest. It’s obvious what the mules represent, which this Edomite has charge over. He tends that sterile nature which has no room for God’s blessing that sets fruitfulness in the creature in the beginning by saying “increase and multiply. ” Multiplication in evil, like the continuation of the species of mules, is not of God. As the animal is always begun anew, this sterile nature of the creature is produced by trickery and is achieved underhandedly by means of the nature itself. But the goal intended by the Word is obvious in what has been said. For if everything that the Lord made was very good, and the mule is not part of what was made in creation, it is obvious that “mule” has been used by the story to indicate evil. Its existence does not come from God, and it lacks the ability to propagate in order to make its characteristic nature endure. As the mule is unable to maintain its nature by itself, so evil lacks the ability to remain forever or preserve itself. Like with mules, another evil comes into being when it is created by another, when what is noble and splendid in our nature, and perhaps also haughty, sinks to the desire for a union which is ass-like and irrational. That foreigner Doeg, then, who became the messenger to Saul against David, the herdsman of the sterile herd of mules, is the wicked angel who draws the human soul to evil through the various passions of sin. Whenever he sees that the soul is in the house of the true priest, being unable to strike it with the kicks of the mules, he informs the ruler of wickedness, “the spirit which is at work in the sons of disobedience.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/1sm/22/10",
+      "full_content_url": "https://catenabible.com/com/5de4681d1f75ae05ba98cf3a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 22:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 15:29",
+  "verse_text": "Verse text for MT 15:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/15/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And Jesus departed from there, and came near unto the sea of Galilee; and went up into a mountain, and sat down there. Now he goes to the mountain awaiting those who are diseased. The lame are brought up the mountain. They are no longer merely touching the edge of his garment. They have advanced a higher step. They are being brought to his feet. Therein they are showing their faith doubly, first by struggling up the mountain even though lame, then by wanting nothing else but only to be cast at his feet. The Gospel of Matthew, Homily.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/15/29",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6fd3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now He goes about Himself, now sits awaiting the diseased, and has the lame brought up unto the mountain. And no longer do they touch so much as His garment, but advance a higher step, being cast at His feet: and they showed their faith doubly, first, by going up into the mountain though lame, then by wanting nothing else but to be cast at His feet only.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/15/29",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac489",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 15:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

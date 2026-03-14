@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JB 42:1",
+  "verse_text": "Verse text for JB 42:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/42/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Because this is the last book of this work, and since, the more difficult places having been treated, those which remain are less obscure, it seems good to run through it with less attention and care. For as if we had traversed a mighty ocean, we now gain sight of the shore, and lowering the sails of our intention, are not borne along with the same force as before, but yet we still hold our way from the impulse of the former blast. The storm of our anxiety has, so to speak, abated, but its violence, through now moderated, yet still wafts us on to our station on the shore. After then the Lord had shewn to His faithful servant how strong and crafty is Leviathan His enemy, while He carefully disclosed his strength and craft, blessed Job replied to both.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/42/1",
+      "full_content_url": "https://catenabible.com/com/5745d7e53c6effa740ddd470",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 42:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

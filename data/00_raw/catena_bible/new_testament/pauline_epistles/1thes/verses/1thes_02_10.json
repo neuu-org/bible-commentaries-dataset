@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1THES 2:10",
+  "verse_text": "Verse text for 1THES 2:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1thes/2/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Thessalonians 2:10 You are witnesses, and God also, how holy and just and unblamable was our behavior among you that believe: You are witnesses. We must necessarily conclude that the apostle speaks this not from vain glory, or personal vanity; but in the just right of defending his own character against the aspersions of enemies, and lest the faith of any might be staggered by the calumnies. In such cases self-praise is not only lawful, but frequently an imperative duty, if confined within the limits of truth.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1thes/2/10",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c01bf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "On this account he frequently addresses them as witnesses. For you are witnesses, he says, and God also; God was worthy to be believed, but this other was that which most fully assured them. For that indeed was uncertain to those who were ignorant of it; but this was without doubt to all. For do not enquire whether it was Paul who said these things. Much beyond what was necessary he gives them assurance. Wherefore he says, You are witnesses, and God also, how holily and righteously and unblamably we behaved ourselves toward you that believe. It was proper to praise them again. On this account he sets these things before them, which were sufficient to persuade them. For he that stood there in want, and did not receive anything, would much more not receive anything now. How holily, says he, and righteously and unblamably we behaved ourselves toward you that believe.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1thes/2/10",
+      "full_content_url": "https://catenabible.com/com/575712ed3c6effa740dddc3c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1THES 2:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

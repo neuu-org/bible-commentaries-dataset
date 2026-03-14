@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 20:30",
+  "verse_text": "Verse text for MT 20:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/20/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Two blind men. ) when he seems to relate the same passage, mentions but one, called Bartimeus; perhaps because he was the more famous of the two. (Witham) These were very opportunely presented to our Lord, that they might go up to Jerusalem with him, after they had received sight from his divine hands, and appear there as witnesses of the divinity of his mission. Chrysostom, hom. lxvi, in Matt. ) We may here consider, if the blindness of the body be looked upon as a very great misfortune, how much greater must be the darkness of the soul. The former is only a privation of the light of day, the other is a privation of the light of grace and glory. The light of this world, though a great blessing, is enjoyed in common with the brute creation; it serves only to distinguish material objects. The light which Christ communicates to the soul, enables us to know God and his sacred truths, as revealed to his holy Catholic Church; it elevates us above all inferior creatures, it dissipates the spiritual darkness caused by sin and our unruly passions, and conducts us to the true light of eternal glory. Oh what unspeakable joy must then fill and overwhelm the elect, when in the light of God they see light itself, the bright countenance of their loving and beloved Father. _ tum creaturis. Besides the Fathers, who did not read vobis in the text, show by their expositions, that they took the sense to be the same, and no ways favourable to the Arians. Augustine, lib. non est meum dare, ac si diceretur, non est humanæ potestatis hoc dare, ut per illud intelligatur hoc dare, per quod Deus est æqualis Patri See St. Cyril in Thesauro assert. Epiphanius hær.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/mt/20/30",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf7fb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And, behold, two blind men sitting by the wayside, when they heard that Jesus passed by, cried out, saying, Have mercy on us, O Lord, you son of David. But let us keep to the things set before us, and let us listen to these blind men, who were better than many that see. For neither having a guide, nor being able to see Him when come near to them, nevertheless they strove to come unto Him, and began to cry with a loud voice, and when rebuked for speaking, they cried the more. For such is the nature of an enduring soul, by the very things that hinder, it is borne up.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/20/30",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac50a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 20:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

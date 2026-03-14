@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 5:4",
+  "verse_text": "Verse text for MK 5:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/5/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Lucius Caecilius Firmianus Lactantius",
+      "period": "AD320",
+      "content": "“Neither could anyone tame him.” Give me a reprobate who is impetuous, foulmouthed and overbearing. With few words the Lord will render him as gentle as a lamb. Give me one who is covetous, avaricious, grasping. The Lord will restore him to liberality, and he will dispose of his resources bountifully of his own hand. Show me one who trembles at the idea of pain and of death, and soon I will show you one who has learned to disdain crosses, flames and the bull of Perillus. Even one who is sensual, adulterous and gluttonous can be made sober, chaste and abstinent. .",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/5/4",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d41",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 5:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

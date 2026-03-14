@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 11:5",
+  "verse_text": "Verse text for JER 11:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/11/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Amen. Septuagint, \"So be it. \"(Haydock)\nThou hast fulfilled thy engagements.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/11/5",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beccf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Not only did God send Jeremiah into Egypt, but also Ezekiel into Babylon. They did not refuse to go. When they found their Master loved the people exceedingly, they continued themselves to do so as well. It is as if a right-minded servant were to take compassion on an intractable son when he saw the father grieving and lamenting about him. What was there that they did not suffer for them? They were sawn asunder, they were driven out, they were reproached, they were stoned, and they underwent numberless grievances. After all of this, they would run back to them.… For the people of the Jews, Jeremiah has composed Lamentations in writing. And when the general of the Persians had given him liberty to dwell securely and with perfect freedom, wherever he pleased, he preferred the affliction of the people and their hard endurance in a strange land above living at home.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/11/5",
+      "full_content_url": "https://catenabible.com/com/5e93610ad87c4a70874ae1f4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 11:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 20:6",
+  "verse_text": "Verse text for ACTS 20:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/20/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And we sailed away from Philippi after the days of unleavened bread, and came unto them at Troas in five days; where we abode seven days. For it seems to me that he made a point of keeping the feasts in the large cities. From Philippi, where the affair of the prison had taken place. This was his third coming into Macedonia, and it is a high testimony that he bears to the Philippians, which is the reason why he makes some stay there. And upon the day of the week, when the disciples came together to break bread, Paul preached unto them, ready to depart on the morrow; and continued his speech until midnight.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/20/6",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9470",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 20:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

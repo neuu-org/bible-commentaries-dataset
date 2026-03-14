@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 129:7",
+  "verse_text": "Verse text for PS 129:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/129/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But what saith he of them. The next words are, \"Let them be even as the grass of the house tops: that withereth before it be plucked up\" (ver. The grass of the house tops is that which groweth on house tops, on a tiled roof: it is seen on high, and hath not a root. How much better would it be if it grew lower, and how much more joyfully would it bloom. As it is, it riseth higher to a quicker withering. It hath not yet been plucked up, yet hath it withered: not yet have they received sentence from the judgment of God, and already they have not the sap of bloom. Observe their works, and see that they have withered. The reapers will come, but they fill not their sheaves from these. For the reapers will come, and will gather the wheat into the barn, and will bind the tares together, and cast them into the fire. Thus also is the grass of the house tops cleared off, and whatever is plucked from it, is thrown into the fire; because it had withered even before it was plucked up. The reaper filleth not his hands thence. His next words are, \"Whereof the reaper filleth not his hand; neither he that bindeth up the sheaves his bosom\" (ver. And, \"the reapers are the angels,\" the Lord saith.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/129/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66fa",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 129:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

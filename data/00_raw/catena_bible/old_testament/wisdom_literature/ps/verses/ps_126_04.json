@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 126:4",
+  "verse_text": "Verse text for PS 126:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/126/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "7. \"Turn our captivity, O Lord, as the torrents in the south\" (ver. 4). Consider, my brethren, what this meaneth. ...As torrents are turned in the south, so turn our captivity. In a certain passage Scripture saith, in admonishing us concerning good works, \"Thy sins also shall melt away, even as the ice in fair warm weather.\" Our sins therefore bound us. How? As the cold bindeth the water that it run not. Bound with the frost of our sins, we have frozen. But the south wind is a warm wind: when the south wind blows, the ice melts, and the torrents are filled. Now winter streams are called torrents; for filled with sudden rains they run with great force. We had therefore become frozen in captivity; our sins bound us: the south wind the Holy Spirit hath blown: our sins are forgiven us, we are released from the frost of iniquity; as the ice in fair weather, our sins are melted. Let us run unto our country, as the torrents in the south. ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/126/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66e3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "South. As the Egyptians hope for the overflowing of the Nile; (Hammond) or as the south wind melts the snow, so as to make the Jordan overflow its banks. (Theodoret)\nThe return of our brethren will be as agreeable to us as water to a thirsty soil. (Chaldean) (Muis)\nMake them come quickly, and in great numbers, Isaias lx. 3., and lxvi. 12. (Calmet)\nEsdras brought back some, and Nehemias others, from Babylon. (Berthier)\nThe ten tribes returned from Assyria later, and by degrees, (Calmet, Diss.) if at all. Those who arrived first at Jerusalem pray for the rest. (Berthier)\nThe prophet foreseeing this event, desireth its perfect and speedy accomplishment, (Worthington) though it were scarcely to be expected, no more than (Haydock) a copious torrent in the south. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/126/4",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be48d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 126:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

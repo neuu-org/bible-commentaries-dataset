@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 5:1",
+  "verse_text": "Verse text for IS 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "My cousin. So the prophet calls Christ, as being of his family and kindred, by descending from the house of David. (Challoner) (Menochius)\nHebrew and Septuagint, \"beloved. \"Dod may also mean a near relation. (Calmet)\nIsaias being of the same tribe, sets before us the lamentations of Christ over Jerusalem, Luke xix. 41. (Worthington)\nThe Hebrews had canticles of sorrow, as well as of joy. The prophet thus endeavours to impress more deeply on the minds of the people what he had been saying. The master of the vineyard is God himself, ver. 7. (Calmet)\nHill. Literally, in the horn, the son of oil. (Challoner)\nThe best vines grew among olive and fig trees. (Doubdan 21.)\nSeptuagint, \"in a horn, (mountain) in a fat soil. \"(Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/5/1",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8eb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

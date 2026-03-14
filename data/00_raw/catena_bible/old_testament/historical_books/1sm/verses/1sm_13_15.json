@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 13:15",
+  "verse_text": "Verse text for 1SM 13:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/13/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Samuel. Piscator suspects that we ought to read Saul, as no mention is made of the prophet in the sequel of this war, and he is never consulted. (Calmet)\nJosephus says he returned home. (Haydock)\nBut all the versions are conformable to the text: and Samuel went with the king and his 600 soldiers, to Gabaa, (Calmet) that he might not appear to retain any ill-will towards Saul, and that his followers might not be quite dispirited, as they knew that he had the thunderbolts of heaven in his hand; and if he was with them, they had nothing to fear from the myriads of their opponents. His presence was very seasonable, for they had to cut their way through the enemy. (Salien)\nAnd the. Benjamin. All this is omitted in Hebrew, Chaldean, and in many Greek and Latin copies. (Calmet)\nIt is found in the Alexandrian and Vatican Septuagint.\nIn the hill, is a translation of Gabaa, which alone occurs in those editions. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/13/15",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcee4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 13:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

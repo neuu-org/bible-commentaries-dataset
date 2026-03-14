@@ -1,0 +1,47 @@
+{
+  "verse_reference": "SG 7:2",
+  "verse_text": "Verse text for SG 7:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/7/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "“Your navel is like a round bowl, not wanting tempered wine. Your belly is like a heap of wheat, set about with lilies. Your neck is like a tower of ivory. Your eyes are a pool in Heshbon.” The good navel of the soul, capable of receiving all virtues, is like a bowl, fashioned by the author of faith himself. For in a bowl wisdom has mixed her wine, saying, “Come, eat my bread and drink the wine which I have mingled for you.” This navel, therefore, fashioned with all the beauty of the virtues, does not lack mixed wine. His belly also was filled not only with the wheaten food of justice, as it were, but also with that of grace, and it bloomed with sweetness like a lily.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/sg/7/2",
+      "full_content_url": "https://catenabible.com/com/5e4f7ddbc849cf49a740e126",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Small, too, are the navel and belly of the soul that ascends to Christ. Therefore it is praised in the words of the spouse, who says, “Your navel is like a round bowl never wanting wine, your belly is like a heap of tiny wheat among lilies.” It is polished by all kinds of learning, and it is a spiritual draught never failing in fullness and in the knowledge of heavenly secrets. The belly of the soul is mystic, like the navel, and it receives not only strong food to strengthen hearts but sweet and fragrant food by which it is delighted. Perhaps Moses meant that this sacrilege needs to be atoned for by many pious prayers.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/sg/7/2",
+      "full_content_url": "https://catenabible.com/com/5e4f7ddbc849cf49a740e125",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 7:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 13:51",
+  "verse_text": "Verse text for MT 13:51",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/13/51",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "Jesus said unto them, Have you understood all these things. They say unto him, Yea, Lord. Hilary of Poitiers He spoke not to the crowds but to the disciples, and he gave fitting witness to those who understood the parables. He compared them with a householder, for they understood the teaching of his storeroom of things new and old. He referred to them as scribes because of their knowledge, for they understood the new and old things—that is, in the Gospels and in the law. He brought forth both of these on behalf of the same householder and from the same storeroom.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/13/51",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6f6b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Having then uttered all this, and concluded His discourse in a tone to cause fear, and signified that these are the majority of cases (for He dwelt more on them).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/13/51",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac450",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 13:51",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

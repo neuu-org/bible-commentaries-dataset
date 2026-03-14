@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 3:12",
+  "verse_text": "Verse text for DN 3:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/3/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "(the Vulgate reads: \"those men of thine have despised the decree, O king\"). To a certain extent their statement amounts to this: \"Those captives and slaves whom thou hast preferred before us and hast made to be governors have lifted themselves up in pride and despise thine orders, not serving thy gods, and not worshipping the golden statue thou hast set up.\" The assertion we made at the commencement of the commentary on the vision is more abundantly proved in this passage, namely that the gods of Nebuchadnezzar were not to be identified with the golden statue which he had ordered to be erected for the worship of himself, for in what follows the king himself says:",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/3/12",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2a0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 3:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

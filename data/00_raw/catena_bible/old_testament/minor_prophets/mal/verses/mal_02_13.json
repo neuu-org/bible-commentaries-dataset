@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MAL 2:13",
+  "verse_text": "Verse text for MAL 2:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mal/2/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And this have you done again, covering the altar of the LORD with tears, with weeping, and with crying out, because he regards not the offering any more, or receives it with good will at your hand. With tears; viz. , by occasion of your wives, whom you have put away, and who came to weep and lament before the altar. (Challoner) Though divorces were tolerated, (Matthew xix. ) the more virtuous did not approve of them, particularly when a wife was put away who had been married in youth. Perhaps this corruption had crept in, like others, (Calmet) owing to the people's commerce with strangers.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mal/2/13",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf636",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "With tears: Viz., by occasion of your wives, whom you have put away: and who came to weep and lament before the altar.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mal/2/13",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9ee0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MAL 2:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

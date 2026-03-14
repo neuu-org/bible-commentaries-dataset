@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 2:6",
+  "verse_text": "Verse text for 1KGS 2:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/2/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Do therefore according to your wisdom, and let not his gray head go down to the grave in peace. This word hell doth not signify the place or state of damnation; but the place and state of the dead. (Challoner) It would have been a great scandal if this murderer had died quietly in his old age. Joab had rendered great services to his uncle, for which he had been rewarded. He had been at the head of the armies 40 years. His great age rendered him now less formidable; particularly as the nation enjoyed peace.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/2/6",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd21f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "To hell: This word hell doth not here signify the place or state of damnation; but the place and state of the dead.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/2/6",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa032",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 2:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

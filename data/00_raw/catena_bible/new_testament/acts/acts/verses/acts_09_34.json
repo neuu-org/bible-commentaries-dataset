@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 9:34",
+  "verse_text": "Verse text for ACTS 9:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/9/34",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But before discourse, before exhortations, he says to the lame man himself, Jesus Christ makes you whole. This word he believed in any wise, and was made whole. Observe how unassuming he is: for he said not, In the Name, but rather as a sign he narrates the miracle itself, and speaks as its Evangelist. And having seen him, it says, all that dwelt in Lydda, and Saron, turned unto the Lord.— Now there was at Joppa, etc.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/9/34",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b929e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And why did he not wait for the man's faith, and ask if he wished to be healed? In the first place, the miracle served for exhortation to many: hear then how great the gain. And all that dwelt at Lydda and Saron saw him, and turned to the Lord.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/9/34",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b9294",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 9:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 2:10",
+  "verse_text": "Verse text for EX 2:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/2/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Moses, or Moyses, in the Egyptian tongue, signifies one taken or saved out of the water. (Challoner)\nMo, signifies water in the Egyptian tongue; Mosse, \"he drew out \"in Hebrew. Philo believes that the princess feigned him to be her own child. Moses denied that he was, and would not take advantage of this adoption, Hebrews xi. 24. He was grown up, and had been well instructed by his parents, ver. 9. He afterwards became well versed in all the sciences, (Acts vii. 22,) rejecting what was idle and superstitious. Josephus assures us he became a great conqueror. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/2/10",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2c0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Moses: Or Moyses, in the Egyptian tongue, signifies one taken or saved out of the water.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/2/10",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f17c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 2:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

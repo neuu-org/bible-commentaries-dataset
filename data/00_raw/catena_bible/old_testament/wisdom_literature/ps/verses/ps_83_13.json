@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 83:13",
+  "verse_text": "Verse text for PS 83:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/83/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. But what follows? \"My God, make them like unto a wheel\" (ver. 13). This is fitly taken as meaning that they should be constant in nothing that they think; but I think it may also be rightly explained, make them like unto a wheel, because a wheel is lifted up on the part of what is behind, is thrown down on the part of what is in front; and so it happens to all the enemies of the people of God. For this is not a wish, but a prophecy. He adds: \"as the stubble in the face of the wind.\" By face he means presence; for what face hath the wind, which has no bodily features, being only a motion, in that it is a kind of wave of air? But it is put for temptation, by which light and vain hearts are hurried away.\n\n10. This levity, by which consent is easily given to what is evil, is followed by severe torment; therefore he proceeds:-",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/83/13",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c8b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 83:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

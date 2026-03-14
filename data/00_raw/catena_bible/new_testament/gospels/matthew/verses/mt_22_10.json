@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 22:10",
+  "verse_text": "Verse text for MT 22:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/22/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Both bad and good. Christ had before told the Jews that harlots and publicans should, in preference to them, inherit the kingdom of heaven, and that the first should be last, and the last first, which preference of the Gentiles, tormented the Jews more than even the destruction of their city. (St. Chrysostom, hom. lxx.)\nGood and bad, persons of every tribe, tongue, people, nation, sex and profession, without any exception of persons or conditions. Hence it is evident that the Church of God doth not consist of the elect only; and, that faith alone, without the habit of charity and good works, will not suffice to save us. (Bristow)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/22/10",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf81d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "Since the previous servants, Moses and those with him, and the prophets, did not persuade them, He sends out other servants, the apostles, and they call the Gentiles who do not walk in the true way but are divided, some here, some there, separated into many ways and doctrines. Indeed, they are to be found along the lanes off from the highways, that is, in great error, delusion, and deviation. They were even at odds among themselves, and were not in the true way, but along the exits, which are the evil doctrines that they taught. For they were not all content with the same doctrines, but some with these and some with those. But perhaps an even better explanation is this: the highway is the life and the manner in which each person lives; the lanes exiting from the highway are doctrines. The pagan Greeks, then, travel along evil highways, that is, they lead reprehensible lives, and from these evil lives they have turned off into godless doctrines, setting up shameful gods as patrons of their own passions. So as the apostles went forth from Jerusalem to the Gentiles, they gathered all together, both evil and good, that is, those filled with every wickedness and also those less wicked whom He calls good by comparison to the others.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/22/10",
+      "full_content_url": "https://catenabible.com/com/58a5ce5154b4f95416b2f76b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 22:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

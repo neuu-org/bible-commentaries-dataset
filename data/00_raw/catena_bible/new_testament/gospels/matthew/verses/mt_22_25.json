@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 22:25",
+  "verse_text": "Verse text for MT 22:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/22/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Although, as I have said before, it was a fiction, in my judgment at least. For the third would not have taken her, when he saw the two bridegrooms dead; or if the third, yet not the fourth or the fifth; and if even these, much more the sixth or the seventh would not have come unto the woman, but have shrunk from her. For such is the nature of the Jews. For if now many have this feeling, much more then had they; when at least, even without this, they often avoided marrying in this way, and that when the law was constraining them. Thus, at any rate, Ruth, that Moabitish woman, was thrust off to him that was further off from her kindred; and Tamar too was thus compelled to obtain, by stealth, seed from her husband's kinsman.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/22/25",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac54a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 22:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

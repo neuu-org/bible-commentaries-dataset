@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 6:15",
+  "verse_text": "Verse text for JGS 6:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/6/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The meanest in Manasses Mark how the Lord chooses the humble (who are mean and little in their own eyes) for the greatest enterprises. (Challoner)\nHebrew and Septuagint literally, \"My millenary is poor, or lowly \"This term means a great family, from which many others spring, or a city inhabited by such. Bethlehem was of this description in Juda, Micheas v. 2. Ephra and the family of Abiezer were not the first in Manasses. Grotius observes, that Gedeon and Cincinnatus were called to the highest offices, when they least expected it.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/6/15",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd20",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The meanest in Manasses: Mark how the Lord chooseth the humble (who are mean and little in their own eyes) for the greatest enterprises.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/6/15",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa013",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 6:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

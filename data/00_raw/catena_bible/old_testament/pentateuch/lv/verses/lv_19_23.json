@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LV 19:23",
+  "verse_text": "Verse text for LV 19:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/19/23",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The first-fruits. Præputia, literally their fore-skins: it alludes to circumcision, and signifies that for the first three years the trees were to be as uncircumcised, and their fruit unclean; till the fourth year their increase was sanctified and given to the Lord, that is, to the priests. (Challoner)\nIn some countries, people take off the buds to strengthen the tree. (Calmet)\nThe fruit, during the three first years, is not esteemed so good or wholesome; and therefore, it could not with propriety be presented to God. (Philo de Creatione.)\nUnclean. Hebrew, \"three years shall it be as uncircumcised unto you; it shall not be eaten. \"(Haydock)",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/19/23",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc622",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "Fruitbearing trees are works that bring forth virtues. We circumcise trees when we are suspicious of how weak our first efforts are and do not approve of the first fruits of our work. We call the fruit that grows unclean and do not take it as our food. When the first fruits of good works are praised, it is proper that this fruit should not feed the soul of the worker. Otherwise the praise we receive is plucked, and the fruit of our work is eaten out of season. So one who receives praise from a human mouth for a virtue just undertaken eats the fruit of a tree he has planted before its time. Truth said this through the psalmist: “It is vain for you to rise before dawn; rise up after you have sat down. ” To rise before dawn is to rejoice in the night of this present life, before the clear light of eternal rewards appears. We should first sit down and then rise up rightly, because whoever does not willingly humble himself now will not be exalted in the glory to come. Exposition of the Old and New Testament, Leviticus.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/19/23",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529e1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And when you shall come into the land, and shall have planted all manner of trees for food, then you shall count the fruit thereof as unclean: three years shall it be as unclean unto you: it shall not be eaten of. Firstfruits: Proeputia, literally, their foreskins; it alludes to circumcision, and signifies that for the first three years the trees were to be as uncircumcised, and their fruit unclean: till in the fourth year their increase was sanctified and given to the Lord, that is, to the priests.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/19/23",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f7e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 19:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 72:12",
+  "verse_text": "Verse text for PS 72:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/72/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But while he is explaining the reasons why so great honour is paid Him by kings, and He is served of all nations: \"because He hath delivered,\" he saith, \"the needy man from the mighty, and the poor man, to whom was no helper\"(ver. This needy and poor man is the people of men believing in Him. In this people are also kings adoring Him. For they do not disdain to be needy and poor, that is, humbly confessing sins, and needing the glory of God and the grace of God, in order that this King, Son of the King, may deliver them from the mighty one. For this same mighty one is he who above was called the Slanderer: whom mighty to subdue men to himself, and to hold them bound in captivity, not his virtue did make, but men's sins. The same is himself also called strong; therefore here mighty also. But He that hath humbled the slanderer and hath entered into the house of the strong man to bind him and to spoil his vessels, He \"hath delivered the needy and the poor man. \" For this neither the virtue of any one could accomplish, nor any just man, nor any Angel. When then there was no helper, by His coming He saved them Himself.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/72/12",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6bd2",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 72:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

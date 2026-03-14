@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 14:5",
+  "verse_text": "Verse text for LK 14:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/14/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And He answered them, saying, Which of you, &c. \"If,\" says Bede, \"ye hasten on the Sabbath to pull an ox or an ass out of the pit into which he has fallen, consulting not the good of the animal, but your own avarice, how much more ought I to deliver a man who is much better than a beast?\" He adds also, \"they were not to violate the Sabbath by a work of covetousness, who were arguing that He did so by a work of charity.\" And again, in a mystical sense, the ox and the ass represent the wise and the foolish, or the Jew oppressed by the burden of the Law and the Gentile not subject to reason. For the Lord rescues from the pit of concupiscence all who are sunk therein.\"\nS. Augustine also (Lib. ii, Qust. Evang.) says, \"He has aptly compared the dropsical man to an animal which has fallen into a ditch (for he is troubled by water), as He compared that woman whom He loosed, to a beast which is let loose to be led to water.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/14/5",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52001",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By this example Christ convicts his adversaries, as guilty of sordid avarice, since, in delivering beasts from the danger of perishing on the sabbath-day, they consult only their own advantage, whilst he was only employed in an act of charity towards his neighbour; an action they seemed so warmly to condemn. (Ven. Bede)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/14/5",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfaf0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 14:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

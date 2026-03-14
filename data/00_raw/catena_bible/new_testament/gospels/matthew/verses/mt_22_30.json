@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 22:30",
+  "verse_text": "Verse text for MT 22:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/22/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "As the angels. Not in every respect, for the body shall be likewise raised with the soul, whilst the angels are pure spirits: but in this we shall be like unto angels, we shall be endowed with immortality, and impassibility; and our joys, like those of the angels, shall be wholly spiritual. (Jansenius)\nIf not to marry, nor to be married, be like unto angels, the state of religious persons, and of priests, is justly styled by the Fathers an angelic life. (St. Cyprian, lib. ii. de discip. et hab. Virg. sub finem.) (Bristow)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/22/30",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf827",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And by these words He declared how great a thing the resurrection is; and that moreover there is a resurrection, He proves. And indeed this too was demonstrated at the same time by what He had said, nevertheless over and above He adds again to His word by what He says now. For neither at their question only did He stop, but at their thought. Thus when they are not dealing with great craft, but are asking in ignorance, He teaches even over and above, but when it is of wickedness only, not even to their question does He answer.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/22/30",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac54e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 22:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

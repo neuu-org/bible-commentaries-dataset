@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:49",
+  "verse_text": "Verse text for PS 18:49",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/49",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "50. \"For this cause will I confess to Thee among the Gentiles, O Lord\" (ver. 49). For this cause shall the Gentiles confess to Thee through Me, O Lord. \"And I will sing unto Thy Name.\" And Thou shall be more widely known by My good deeds.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/49",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6872",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Therefore will I give thanks unto you, O LORD, among the nations, and sing praises unto your name. Paul (Romans xv. ) adduces this to prove the vocation of the Gentiles. (Calmet) We cannot doubt but the great things announced in this psalm pertain to Christ. (Berthier) We see the completion of this prophecy, as there is no Christian nation which does not use the psalms of David to praise God. (Theodoret) This practice is very common (Pref. ; Worthington) in all places where either Jews or Christians are found.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/49",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdeec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:49",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

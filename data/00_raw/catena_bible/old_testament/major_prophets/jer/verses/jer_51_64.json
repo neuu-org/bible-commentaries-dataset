@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 51:64",
+  "verse_text": "Verse text for JER 51:64",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/51/64",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aphrahat the Persian Sage",
+      "period": "AD345",
+      "content": "And with regard to Babylon Jeremiah said, Babylon shall fall and shall not rise. And behold! To this day it continues in desolation and will do so forever. - \"Demonstrations 21.6\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/51/64",
+      "full_content_url": "https://catenabible.com/com/5e936174d87c4a70874ae37a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sink. The angel did the like; (Apocalypse xviii. 21.; Calmet) and the Phoceans, leaving their country, swore that they would return no more till a piece of red hot iron, which they threw into the sea, should swim. (Herodotus i. 165.)\nThus, was added by the compiler. Septuagint omit the sentence, as what relates to Babylon is placed chap. xxviii. in their copies. (Calmet)\nYet Grabe puts it in a different character. (Haydock)\nJeremias wrote a great deal, after the 4th year of Sedecias, ver. 59. (Calmet)\nHe here finished his predictions against Babylon. (Worthington)\nThis does not mean that he did not write the next chapter, (Menochius) as Cappel allows, (Houbigant) though this may still be doubted. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/51/64",
+      "full_content_url": "https://catenabible.com/com/5735e271ec4bd7c9723bef53",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 51:64",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

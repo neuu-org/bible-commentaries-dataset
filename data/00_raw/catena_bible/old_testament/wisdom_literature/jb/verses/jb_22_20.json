@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 22:20",
+  "verse_text": "Verse text for JB 22:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/22/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Their. Hebrew, \"our. \"(Calmet)\n\"Whereas our substance is not cut down. \"(Protestants) (Haydock)\nBut the Septuagint and Chaldean agree with the Vulgate, which gives a better sense.\nFire, which consumed Sodom (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/22/20",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdcbd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "19. For here the wicked are erected, in that they are lifted up in bad deeds. For they both do wickedly, and yet for their wicked deeds they are not stricken. They sin and thrive, they add to their sins, and multiply earthly good. But ‘their erecting is cut down’ then, when they are either dragged from the present life to destruction, or from the sight of the Eternal Judge to the eternal burning of hell. Which people, though here they quit their dead flesh, yet that same in the resurrection they receive again, that together with that flesh they may burn, in which flesh they did their sin. For as their sin was in mind and body, so the punishment shall be in spirit and flesh alike. Therefore, whereas not even that shall be quit of torment to them, which here they leave dead, it is rightly said now, the remnant of them the fire hath consumed.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/22/20",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd0b2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 22:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

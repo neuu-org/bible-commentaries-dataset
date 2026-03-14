@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 21:14",
+  "verse_text": "Verse text for IS 21:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/21/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Water. To neglect this was to be accessary to another's death, in those dreary regions, chap. xvi. 3., and Deuteronomy xxiii. 2.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/21/14",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be9ca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Again, by bread is set forth the instruction of heavenly doctrine, as is said by the prophet, “You who dwell in the land of the south, meet with bread him that is flying away.” For they dwell in the land of the south who, placed within [the] holy church, are breathed upon by the love of the Spirit from on high. But he is flying who is wishing to escape from the evils of this world. He then who dwells in the land of the south should meet with bread him that is flying; that is, he who is already full of the Holy Spirit within the church should console with words of instruction the one who is endeavoring to escape from his evil ways.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/21/14",
+      "full_content_url": "https://catenabible.com/com/5e4f7f89c849cf49a740e35d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 21:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

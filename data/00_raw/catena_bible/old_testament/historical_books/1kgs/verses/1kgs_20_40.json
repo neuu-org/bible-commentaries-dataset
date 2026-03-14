@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 20:40",
+  "verse_text": "Verse text for 1KGS 20:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/20/40",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Decreed. Thou must either die or pay the money. (Menochius)\nThus the king pronounced sentence against himself, as David had done, 2 Kings xii. 1., and xiv. 4. The Rabbins assert, that Achab had received an express order from God to destroy and subjugate all the Syrians. He ought, at least, to have been consulted, as he had given the enemy into the hands of the Israelites; (Calmet) and thus insinuated, that he would have them punished, (ver. 28.; Rupert v. 13.) for restricting his power to the hills. (Tirinus)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/20/40",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd3c1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 20:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

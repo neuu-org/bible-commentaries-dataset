@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 9:27",
+  "verse_text": "Verse text for EST 9:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/9/27",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "Very often people’s evil schemes turn out differently than they had hoped and the trap they had placed to capture others ensnares them, as the Scripture confirms, “The wicked are ensnared in their traps. And whoever digs a pit will fall into it.” Therefore also Haman, who prefigures the enemies of the church, was obligated to suffer the death that he had prepared for Mordecai. The lot cast into the urn represents the machinations of the human mind; but the result of such machinations entirely depends on divine judgment. Therefore it is said through Solomon, “The lot is cast into the lap, but the decision is the Lord’s alone.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/9/27",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa4e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 9:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 8:45",
+  "verse_text": "Verse text for LK 8:45",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/8/45",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But if I speak the truth, ye believe Me not. His argument stands thus, \"Whosoever believeth a lie is a son of the devil. And ye believe a lie, and are therefore sons of the devil.\" But \"if\" may mean \"because,\" as some Greek and Latin copies read. And so it would mean, \"Because I speak the truth in truly reproving your sins, and truly asserting myself to be the Messiah, and prove this by miracles, yet ye will not believe Me because ye will not give up your sins, and will not believe what I say and teach, but rather believe the devil who persuades you that I am a false prophet, and my miracles are mere sleight of hand.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/45",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f81",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "All denied that they had designedly touched him, though, on account of the pressure of the crowd, many unwillingly touched him. (Menochius' Commentaria.)Ver. 48. In the Greek, have confidence. Ver. 49. Para tou archisunagogou, which some interpret, from the house of the ruler. (Menochius)\nIn vain do you trouble him. (Menochius)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/8/45",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa8d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "The Lord desires to show the womans faith to all the people so that they might become imitators of her, and also so that Jairus might have good hope for his daughter. Therefore He makes manifest what had happened in secret and asks who it was that touched Him. Peter, being bold, scolds the Lord for His question, saying, \"So many people throng Thee, and yet sayest Thou, Who touched Me. \" But he did not understand what the Lord was asking. The Lord was inquiring, \"Who touched Me with faith. \" and not simply, \"Whose hand touched Me. \" Just as one man has ears with which he hears, while another has ears but does not hear, so also one man touches with faith, while another may draw near but his heart is far away. The Lord knows that it was the woman, but He asks the question, as I have said, in order to reveal her faith and to give hope to the ruler of the synagogue. He asks, and thus draws attention to the woman. For I perceive that power is gone out of Me, He says, and rightly so. The prophets did not have power that went out from them; instead, they worked miracles by the grace of God. But Jesus is the source of every good thing and the source of all power, and He indeed has power that goes out from Him. The Lord grants the woman a double healing: He first heals her sickness and then dispels the fear from her trembling soul by saying, Daughter, take courage.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/45",
+      "full_content_url": "https://catenabible.com/com/57eb0d50b0d44ee10cfac232",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 8:45",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

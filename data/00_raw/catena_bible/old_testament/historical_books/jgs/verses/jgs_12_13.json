@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 12:13",
+  "verse_text": "Verse text for JGS 12:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/12/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And after him Abdon the son of Hillel, a Pirathonite, judged Israel. Josephus reads \"the son or servant of Helon \"whom some have confounded with Ahialon, though contrary to the Hebrew. (Calmet) The author supposes that Abdon reigned in peace. But it seems that he and the two others preceding him in the government of the people, were forced to purchase rest by paying tribute. (Salien, in the year before Christ 1193.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/12/13",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcdae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 12:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

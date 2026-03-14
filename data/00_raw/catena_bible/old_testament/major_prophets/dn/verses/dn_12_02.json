@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 12:2",
+  "verse_text": "Verse text for DN 12:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/12/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "There will be a resurrection. Some will rise to glory, others to eternal shame. Will all persons rise at this time? It says that many will rise. The word for many is the odd Hebrew <rabbim>, which means the all who are many. (Fr. Most)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/12/2",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4b3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And many of them that sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt. Hippolytus of Rome These shall awake to everlasting life. That is, those who have believed in the true life, and who have their names written in the book of life. And these to shame. That is, those who are attached to Antichrist, and who are cast with him into everlasting punishment.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/12/2",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac157",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 12:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

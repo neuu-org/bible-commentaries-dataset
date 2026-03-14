@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 8:3",
+  "verse_text": "Verse text for LK 8:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/8/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And Joanna, the wife of Chuza, Herod\"s steward (manager or treasurer, according to the Arabic version) and Susanna and many others which ministered unto Him of their substance. For they were rich, and grateful to their deliverer, and therefore sought to further His preaching, and to spread the faith.\nSo SS. Plautilla, Priscilla, and many other rich and noble matrons ministered unto SS. Peter, Paul, Clement, and other Roman Pontiffs, and other orders of the clergy.\nAnd Susanna , an illustrious woman who, healed by Christ, had become His disciple. Her name in the Hebrew signifies \"a lily.\" On, account of the sweet radiance of a heavenly life (Interlinear Gloss), and the golden fervour of her inward affection. Bede.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/3",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f6c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The wife of Chusa, Herod's steward. Literally, his procurator, as in the Rheims translation. The Greek signifies one that provides for another, or manages his concerns. The same word is used, Matthew xx. 8. and Galatians iv. 2. (Witham)\nThe Greek word is epitropou. It was the custom of the Jews, says St. Jerome, that pious women should minister of their substance, meat, drink, and clothing, to their teachers going about with them. But as this might have given cause of scandal among the Gentiles, St. Paul mentions that he allowed it not. (1 Corinthians ix. 5. 12.) They thus ministered to our Lord and his apostles of their worldly substance, from whom they received spiritual riches.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/3",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa7a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 8:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

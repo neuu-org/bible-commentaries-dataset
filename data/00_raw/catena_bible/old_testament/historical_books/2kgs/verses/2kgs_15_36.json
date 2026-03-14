@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 15:36",
+  "verse_text": "Verse text for 2KGS 15:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/15/36",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“In the second year of King Pekah son of Remaliah of Israel, King Jotham son of Uzziah of Judah began to reign.” After rising to power in that year, Jotham administered the government [of Judah] for sixteen years, earning great praise. While the second book of the Annals has shown all the feats illustriously accomplished by him, the Scripture never reproaches him in this passage for any error, except for his toleration of the high places, which was a fault common to all the most praised kings of Judah. In the first place, he strengthened Jerusalem with new fortifications and built towers and castles in desert places. He conquered the Ammonites, who were perpetual enemies of the Jews, and ordered them for the future to pay the kings of Judah an annual tribute.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/15/36",
+      "full_content_url": "https://catenabible.com/com/5e1b69868bc66721fe4ef9f3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 15:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

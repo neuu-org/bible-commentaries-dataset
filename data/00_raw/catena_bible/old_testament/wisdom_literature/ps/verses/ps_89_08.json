@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 89:8",
+  "verse_text": "Verse text for PS 89:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"O Lord God of Hosts, who is like unto Thee. Thy truth, most mighty Lord, is on every side\" (ver. Great is Thy power Thou hast made Heaven and earth, and all things that in them are: but greater still is thy loving-kindness, which has shown forth Thy truth to all around Thee. For if Thou hadst been preached only on the spot where Thou didst deign to be born, to suffer, to rise again, to ascend; the truth of that promise of God would have been fulfilled, to confirm the promises made unto the fathers: but the promise, \"that the Gentiles may glorify God for His mercy,\" would not have been fulfilled, had not that truth been explained, and diffused to those around Thee from the spot where Thou didst deign to appear. On that spot Thou didst thunder out of Thy own cloud: but to scatter rain upon the Gentiles round about, Thou hast sent other clouds. Truly in Thy power hast Thou fulfilled what Thou hast said, \"Hereafter shall ye see the Son of Man sitting on the right hand of power, and coming in the clouds of Heaven.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/89/8",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cdc",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Truth. He often praises this attribute, as if to excuse himself for asking, why God had debased the throne of David? (Calmet)\nGod cannot be divested of this perfection. (Du Hamel)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/8",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be28f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

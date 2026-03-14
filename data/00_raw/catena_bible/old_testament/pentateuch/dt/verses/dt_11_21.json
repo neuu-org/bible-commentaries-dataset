@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 11:21",
+  "verse_text": "Verse text for DT 11:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/11/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh That your days may be multiplied, and the days of your children, in the land which the LORD swore unto your fathers to give them, as the days of heaven upon the earth. Earth, as long as the world shall endure. The psalmist (Psalm lxxxviii. 30,) expresses the duration of the reign of the Messias nearly in the same terms. See Baruch i. (Calmet) If the Jews had continued faithful to God, and had submitted to the Messias, they might never have been banished from their country.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/11/21",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc984",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 11:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "HB 1:16",
+  "verse_text": "Verse text for HB 1:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hb/1/16",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "The entire life of the saints is engaged in this war, for there happens in them what is written: “The flesh lusts against the spirit, and the spirit against the flesh. ” They, indeed, fight, but they are not overcome. What shall I say about wicked, carnal and dissipated souls who do not struggle but are carried along in subjection. Because they follow willingly, and of their own accord [they] devote themselves to wicked deeds. With such souls the devil does not condescend to fight at all, because they never or only with difficulty oppose his counsels. But with the saints he has daily struggles, because it is written of him, “His food is rich. ” This, I repeat, is the life of the saints, and in this war people are always in danger until they die. But what are the saints going to say at the end, that is, in the triumph of victory. “O death, where is your victory. ” This will be the word of the triumphant. “O death, where is your sting. The sting of death is sin,” and death arises from its consequences. Sin is like a scorpion: it stings us, and we are dead. But when is it that we may say, “O death, where is your victory. ” This is not promised to us in this life but at the resurrection. Then it will be granted to the saints neither to wish to sin nor to be able to do so at all.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hb/1/16",
+      "full_content_url": "https://catenabible.com/com/5839eeff205c248f42e52fb7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Therefore they sacrifice unto their net, and burn incense unto their dragnet; because by them their portion is luxurious, and their food plentiful. Drag, adoring his own arms and prowess, (Sanct. ) like Mezentius and Capaneus: Dextra mihi Deus, (Virgil, Æneid x. ) Te voco, te solum, superum contempt or, adoro. ) Guevare thinks fishes were adored, as they were among the Syrians. Nabuchodonosor attributed all to his own genius, or to Bel, whose statue he set up, Daniel iii. (Calmet) Victorious nations thus honour themselves and not God.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hb/1/16",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf51c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Martin of Braga",
+      "period": "AD580",
+      "content": "Although, in general, this inflation of pride attacks many people, there are none who have to fear it more than those who have reached the perfection of virtues of the spirit or copious riches and highest offices in the flesh. It becomes all the greater in their cases, because the one who shows pride is greater. It is not content to destroy lowly and common people, but it is also present in the wiles of the greatest. The higher their rank, the deeper their fall. Hence Scripture also has this to say about the same spirit of pride: “And his food,” it says, “is rich. ” It attacks people who are select and lofty. It suggests to them that they are great, that they need nothing, that whatever they do, think or say is all due to their wisdom and their prudence. If something turns out well for them under God’s direction, they straightaway claim that it was due to their own strength and their own industry, and they shout, “I did this,” “I said it,” “I thought it,” and as if everyone were stunned, they seize the glory of God and offer themselves to be admired in his likeness. By a righteous sentence, God withdraws his protection from them, as the apostle says, “He has given them up to a reprobate sense, so that they do not do or think what is fitting,” because, when they recognize the providence of God in all matters, they do not magnify God or offer thanks, but they boast of themselves and turn aside in their own idle thoughts. Though they claim to be wise, they are foolish; though they boast that they are firm, unconquered, powerful, they are weak, conquered and powerless.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hb/1/16",
+      "full_content_url": "https://catenabible.com/com/5839eeff205c248f42e52fb8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HB 1:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PRV 8:23",
+  "verse_text": "Verse text for PRV 8:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/8/23",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "Since the heretics, reading the next verse, take a perverse view of that also, because it is written, “He founded me before the world,” namely, that this is said of the Godhead of the Word and not of his incarnate presence, it is necessary, explaining this verse also, to show their error. It is written, “The Lord in Wisdom founded the earth; if then by wisdom the earth is founded, how can he who founds be founded? Indeed, this too is after the manner of proverbs.… He says not, “Before the world he founded me as Word or Son,” but simply, “He founded me,” to show again, as I have said, that not for his own sake but for those who are built upon him does he here also speak, after the way of proverbs. –.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/8/23",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8444",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Didymus the Blind",
+      "period": "AD398",
+      "content": "[Solomon] says, “He laid down both the cause and foundation of creation.” Also it is written, “He created all things in himself, and he is before all things.” And the Lord says as well, “I am the beginning of the creation of God.” Indeed, desiring to be the foundation of the church, he submitted to becoming human so that the church might be constituted firmly in him. Desiring to give existence to creation, he adjusted himself to its rule by introducing the relationship we mentioned above, when he was made the beginning and cause of future things. However, it says, even if he was created according to these things, still “God begat me before everything,” the very one who is his Son. Commentary on the Proverbs of Solomon, Fragment",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/8/23",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8445",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Up. Hebrew, \"anointed. \"Septuagint, \"he founded. \"Christ was appointed to be the foundation, on which we must be built. (St. Athanasius iii. Orat.)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/8/23",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be5d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 8:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

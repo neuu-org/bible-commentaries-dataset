@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 2:13",
+  "verse_text": "Verse text for REV 2:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/2/13",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Antipas: Some understand a martyr who suffered at Pergamos, others the Lord Christ, who even now is put to death by the unbelieving, so far as in them lies. <a",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/13",
+      "full_content_url": "https://catenabible.com/com/5862e9b5dd1bb6dd3dba9b8f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "I know your works and where you dwell, even where Satan's throne is: and you hold fast my name, and have not denied my faith, even in those days when Antipas was my faithful martyr, who was slain among you, where Satan dwells. seat: I approve indeed of thy patience, because although thou dwellest among the reprobate, thou dost not honour Me in name alone, as called Christian, but with perfect faith, even in the time of a persecution unto death. But I do not approve of this, that I see seducing teachers even in thee.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/13",
+      "full_content_url": "https://catenabible.com/com/5862e9b5dd1bb6dd3dba9b8e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Also to the angel of the church in Pergamus (mention was made) of Antipas,",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/13",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb831",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 2:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

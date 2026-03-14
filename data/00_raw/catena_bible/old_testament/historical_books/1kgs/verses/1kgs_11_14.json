@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 11:14",
+  "verse_text": "Verse text for 1KGS 11:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/11/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "The adversary has no power against us unless God has previously permitted it, in order that all our fear and devotion and obedience may be turned to God, since in temptations nothing is permitted evil, unless the power is granted by God.… Moreover, power is given to evil against us according to our sins, as it is written: “Who has given Jacob for spoil and Israel to those who despoiled him? Has not God, against whom they have sinned and were unwilling to walk in his ways and to hear his law, even poured out upon them the indignation of his fury?” And again when Solomon sinned and departed from the precepts and the ways of the Lord, it is set down: “And the Lord stirred up the adversary against Solomon himself.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/11/14",
+      "full_content_url": "https://catenabible.com/com/5e1b67d28bc66721fe4ef8f5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Adversary. Hebrew Satan. Nothing of this kind could molest him, while he continued faithful, chap. v. 4. But now he sees the arm of God stretched out, pressing him to repent.\nAdad. Septuagint Ader. Josephus says that this prince solicited Pharao to let him return into his own country, after the death of Joab: but was prevailed upon to desist from the attempt, till the affairs of Solomon began to decline. He then endeavoured to get possession of the country; but, being repelled by the strong garrisons of the Hebrews, he went and joined Razar, (Hebrew Razon) who had revolted against Aderezer; and made inroads into the dominions of Solomon consented, at the entreaty of Pharao, that Adad should reign over Idumea, on his paying tribute; and that the latter attempted to throw off the yoke. (Salien)\nBut these particulars are uncertain, and Idumea was subject to the kings of Juda till the days of Joram, 2 Paralipomenon xxi. 8. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/11/14",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd2f1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 11:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "AM 3:8",
+  "verse_text": "Verse text for AM 3:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/3/8",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "“Lord, you have been our refuge. ” Therefore we have recourse to you. Our healing shall be from you, for our evil is from ourselves. Because we have abandoned you, you have abandoned us to ourselves. May we therefore be found in you, for in ourselves we had been lost. ” Why, my brethren, should we doubt that the Lord will make us gentle if we submit ourselves to be tamed by him. You have tamed the lion, which you did not create. Will your Creator be unable to tame you. What is the source of your power to tame such savage beasts. Are you their equal in bodily strength. By what power then have you been able to tame such huge beasts. The socalled beasts of burden are wild by nature, for if untamed they could not be endured. But because you are not accustomed to see them except when handled by men and under the curb and control of men, you might think that they were born tame. At any rate, consider the savage beasts. The lion roars; who does not fear. And yet, whence your knowledge of the fact that you are more powerful. Not in bodily strength but in the inner reason of the mind. You are more powerful than a lion, because you have been made to the image of God. The image of God tames a wild beast. Is God unable to tame his own image.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/3/8",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c11",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "National calamity is traced to national sin, specially to neglect of the poor.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/3/8",
+      "full_content_url": "https://catenabible.com/com/5745e16f3c6effa740ddd496",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The lion has roared, who will not fear. the Lord GOD has spoken, who can but prophesy. Cyril of Alexandria In other words, he is saying, if by the roaring of the lion, the strongest of wild animals, a person would not be so unfeeling and insolent as not to feel the impact of terror, how could it be that when God speaks in His great might and bids them proclaim what they have been told, they would not be in fear of the bidder.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/3/8",
+      "full_content_url": "https://catenabible.com/com/5745e16f3c6effa740ddd495",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 3:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 96:5",
+  "verse_text": "Verse text for PS 96:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/96/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew elilim, \"diminutive gods, (Haydock) nothings, (Calmet) vain things. \"(Montanus) (1 Paralipomenon) We have idols, as Protestants read here. These were in fact, either devils, or vain imaginations of men. Paul says, we know that an idol is nothing in the world, 1 Corinthians viii. They cannot claim self-existence, and if the true God were not to support those creatures, the sun, which have been the objects of adoration, they would presently cease to be. (Haydock) This most plausible species of idolatry is therefore refuted, since the Lord made the heavens. (Calmet) The Creator alone can be considered as God; the devils prompt the people to adore other things. (Worthington) It would appear but a small praise for the Lord to be feared above all gods, (Haydock) if they were \"nothing. \"Hence the Septuagint have used the word devils, to signify, that these potent, but maleficent beings, which the pagans adored, were infinitely beneath God, and worse than nothing.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/96/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 96:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

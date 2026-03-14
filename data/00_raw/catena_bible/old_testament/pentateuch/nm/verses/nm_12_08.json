@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 12:8",
+  "verse_text": "Verse text for NM 12:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/12/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "As I started to say, it is shown later in the book of Numbers that even what he asked was granted to his desire, for thereby the Lord rebuked the sister of Moses for her obstinacy. The Lord appeared to the other prophets in visions and dreams but to Moses plainly and not by riddles. He added the words “And he saw the glory of the Lord.” Why then did God make such an exception of him, if not perhaps that he considered him such a ruler of his people, so faithful a minister of his whole house, that he was worthy, even then, of that contemplation, so that, as he desired, he saw God as he is—a contemplation promised to all his sons at the end of life? Letter",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/12/8",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e5290f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 12:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

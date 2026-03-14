@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 21:34",
+  "verse_text": "Verse text for ACTS 21:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/21/34",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And some cried one thing, some another, among the multitude: and when he could not know the certainty for the tumult, he commanded him to be carried into the barracks. Into the castle. Neither the Latin nor the Greek word signifies a castle, but rather a camp, or a place walled, or with a trench about it. It is true, we may here understand the tower, called Antonia; but within its court might be tents for soldiers, where there was so great a number: for we see that Lysias could send away 470 with St. Paul, besides those that might stay behind.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/21/34",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe65",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And some cried one thing, some another, among the multitude: and when he could not know the certainty for the tumult, he commanded him to be carried into the barracks. But the tribune having come down delivered him, and commanded him to be bound with two chains: (hereby) appeasing the anger of the people. And when he could not know the certainty for the tumult, he commanded him to be carried into the castle. And when he came upon the stairs, so it was, that he was borne of the soldiers for the violence of the people. For the multitude of the people followed after, crying, Away with him.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/21/34",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 21:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

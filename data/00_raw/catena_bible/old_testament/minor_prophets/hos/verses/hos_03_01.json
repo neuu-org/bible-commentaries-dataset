@@ -1,0 +1,36 @@
+{
+  "verse_reference": "HOS 3:1",
+  "verse_text": "Verse text for HOS 3:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/3/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Woman. This second woman denotes the penitent Israel, yet not quite reconciled. The people in captivity are separated both from her idols and from God, though the latter still retains an affection for them. Osee does not marry this woman, but gives his word. We must not urge the parable too far. He acts as a figure of the Lord, who has received an outrage. (Calmet)\nGrace is still offered to sinners, whose persons are never hated by God. (Worthington)\nHusks. Septuagint, \"cakes made with grapes \"for idols. (Theodoret; St. Jerome)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/3/1",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf34f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 3:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

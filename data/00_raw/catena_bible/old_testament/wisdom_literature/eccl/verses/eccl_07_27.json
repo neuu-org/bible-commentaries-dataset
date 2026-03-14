@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ECCL 7:27",
+  "verse_text": "Verse text for ECCL 7:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/7/27",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Behold, this have I found, says the preacher, adding one thing to another, to find out the reason: Her. He speaks by experience, (St. Jerome) as none perhaps ever fell more terribly victims of impure love. (Calmet) Though a plurality of wives was then permitted, Solomon did wrong in marrying strangers; and in suffering himself to be deluded by them, so as to erect temples to their respective idols. (Haydock) All the attractions of women are replete with danger, and can only be overcome by God's grace, and by flight, 1 Corinthians iv. , and Proverbs vii.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/7/27",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be80e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 7:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

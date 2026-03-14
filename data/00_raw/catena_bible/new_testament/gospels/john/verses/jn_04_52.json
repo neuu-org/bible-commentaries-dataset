@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 4:52",
+  "verse_text": "Verse text for JN 4:52",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/4/52",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "He asked therefore, &c. \"He studies to be informed concerning the hour,\" says Cyril, \"to see if it coincides with the time when the Saviour\"s favour was bestowed upon him.\"\nYesterday, at the seventh hour: this was an hour after noon, when, the child being healed, the servants had immediately set out to tell the glad news to the father. But they could not reach him on the same day. They travelled therefore the rest of that day, and all through the night, and came to him the next morning, for, as we have said, Capharnaum was fourteen leagues or hours distant from Cana.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/4/52",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5214d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Then inquired he of them the hour when he began to mend. And they said unto him, Yesterday at the seventh hour the fever left him. Cyril of Alexandria He enquires of them the hour of the turn for the better of the sick child, to prove whether it coincides with the time of the grace. When he had learnt that thus it was, and no otherwise, he is saved with his whole house, attributing the power of the miracle to the Saviour Christ, and bringing to Him a firmer faith as a fruit of thank-offering for these things.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/4/52",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabea9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 4:52",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

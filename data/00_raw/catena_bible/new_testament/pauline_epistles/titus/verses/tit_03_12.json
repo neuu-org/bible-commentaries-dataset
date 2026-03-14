@@ -1,0 +1,36 @@
+{
+  "verse_reference": "TIT 3:12",
+  "verse_text": "Verse text for TIT 3:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ti/3/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "When I shall send Artemas unto you, or Tychicus, be diligent to come unto me to Nicopolis: for I have determined there to winter. When I shall send Artemas unto you, or Tychicus; be diligent to come unto me to Nicopolis. What do you say. After having appointed him to preside over Crete, do you again summon him to yourself. It was not to withdraw him from that occupation, but to discipline him the more for it. For that he does not call him to attend upon him, as if he took him everywhere with him as his follower, appears from what he adds: For I have determined there to winter. Now Nicopolis is a city of Thrace.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/3/12",
+      "full_content_url": "https://catenabible.com/com/576210d59fd295934bf1202c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured TIT 3:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 6:8",
+  "verse_text": "Verse text for REV 6:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/6/8",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And I looked, and behold a pale horse: and his name that sat on it was Death, and Hades followed with him. And power was given unto them over the fourth part of the earth, to kill with sword, and with hunger, and with death, and with the living creatures of the earth. four (the fourth part): Behold the madness of Arius, which arose from Alexandria, and reached as far as the Gallic ocean, and pursued the godly, not only with a famine of the word of God, but also as wild beasts, with a material sword. Another version has translated it, \"the fourth part,\" because the three evil horses, confident in their rider, the devil, attack the fourth, the horsemen of the Church.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/6/8",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9bc2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And I looked, and behold a pale horse: and his name that sat on it was Death, and Hades followed with him. And power was given unto them over the fourth part of the earth, to kill with sword, and with hunger, and with death, and with the living creatures of the earth. pale: Heretics who assume the garb of Catholics, are worthy to have death abide in their midst, and they draw after them the army of the lost. For the devil and his servants are, by a metonymy, called death and hell. It may also be taken simply, that there eternal punishment follows those who here are spiritually dead.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/6/8",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9bc1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "That is, it was waiting for the devouring of many unrighteous souls. This is the pale horse.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/6/8",
+      "full_content_url": "https://catenabible.com/com/574f83293c6effa740ddd775",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 6:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

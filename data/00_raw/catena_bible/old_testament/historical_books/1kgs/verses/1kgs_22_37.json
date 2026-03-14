@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 22:37",
+  "verse_text": "Verse text for 1KGS 22:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/22/37",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "You see, not all the humiliations with which Elijah had threatened Ahab were accomplished, thanks to [the king’s] profound repentance, nor was Ahab’s corpse devoured by birds or wild beasts. Instead he was brought to the royal palace in Samaria, and there, after being celebrated with regal magnificence, was solemnly buried. Ahab died in that battle, which Micaiah had predicted to be fatal and deadly to him, even though he did not die on the battlefield but was taken away from there and survived for several hours, before he finally died in the evening. Therefore it seems clear that the dogs were not prevented from licking the blood that flowed on that day and night from his wound.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/22/37",
+      "full_content_url": "https://catenabible.com/com/5e1b68098bc66721fe4ef96e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 22:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

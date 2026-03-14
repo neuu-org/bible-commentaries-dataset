@@ -1,0 +1,80 @@
+{
+  "verse_reference": "MK 13:25",
+  "verse_text": "Verse text for MK 13:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/13/25",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "And the stars of heaven shall fall, and the powers that are in heaven shall be shaken. Augustine of Hippo When impious persecutors rage beyond measure, and when the fortune of this world seems to smile upon them and fear leaves them and they say: “Peace and security,” then the stars shall fall from heaven and the powers of heaven shall be moved, when many who seemed to shine brilliantly with grace will yield to the persecutors and will fall, and even the strongest of the faithful will be shaken. Letter , To Hesychius.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/25",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e8e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "What wonder is it, that human beings should be troubled at this judgment, the sight of which makes the very angelic powers tremble? What will the upper parts of the house do when the pillars underneath begin to shake? Exposition on the Gospel of Mark.",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/25",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e92",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "The stars at the day of judgment will seem to be dark, not by any failure of their own luster, but in consequence of the increase of the true light throwing them into the shade. .",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/25",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e8f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Wonderworker",
+      "period": "AD270",
+      "content": "The powers above—the angels guarding the universe—will be put into action in that storm and tumult of all things. Powerful men will stop. Laboring women will also stop and flee into the dark places of their houses.",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/25",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e91",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "If you examine this whole passage of Scripture from the inquiry of the disciples down to the parable of the fig tree, you will find that it makes sense at every point in connection with the coming of the Son of Man. He will bring both sorrow and joy. The Son of Man is coming in the midst of both calamities and promises, both the grief of nations and the longing of the saints. He is the common element in both. He who is common to both will end the one by inflicting judgment on the nations, and will commence the other by fulfilling the longings of the saints.",
+      "commentary_number": "5/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/13/25",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e90",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 13:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

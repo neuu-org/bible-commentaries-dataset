@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 79:7",
+  "verse_text": "Verse text for PS 79:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/79/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Lastly, there followeth, \"For they have eaten up Jacob, and his place they have made desolate\" (ver. How we should view\" the place\" of Jacob, must be understood. For rather the place of Jacob may be supposed to be that city, wherein was also the Temple, whither-unto the whole of that nation for the purpose of sacrifice and worship, and to celebrate the Passover, the Lord had commanded to assemble. For if the assemblies of Christians, letted and suppressed by persecutors, has been what the Prophet would have to be understood, it would seem that he should have said, places made desolate, not place. Still we may take the singular number as put for the plural number; as dress for clothes, soldiery for soldiers, cattle for beasts: for many words are usually spoken in this manner, and not only in the mouths of vulgar speakers, but even in the eloquence of the most approved authorities. Nor to divine Scripture herself is this form of speech foreign. For even she hath put frog for frogs, locust for locusts, and countless expressions of the like kind. But that which hath been said, \"They have eaten up Jacob,\" the same is well understood, in that many men into their own evil-minded body, that is, into their own society, they have constrained to pass.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/79/7",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c59",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Former iniquities, which we and our fathers have committed. The Hebrews generally pray for the remission of their parent's faults, Lamentations v. 7., Baruch iii. 5., and Daniel ix. 5. (Calmet)\nBut here the penitents' own transgressions may be meant. (Berthier)\nGod is ready to pardon such. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/79/7",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be21a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 79:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

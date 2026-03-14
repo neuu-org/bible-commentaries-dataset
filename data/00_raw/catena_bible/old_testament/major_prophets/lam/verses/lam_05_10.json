@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LAM 5:10",
+  "verse_text": "Verse text for LAM 5:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/5/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Our skin was black like an oven because of the terrible famine. Then is considered in Verse 10 the effects of famine. As stated: \"our skin is hot as an oven. \" That is, dried up by hunger. And: \"with the burning heat of famine. \" As if being obsessed, and fleeing the famine, the people suffered a long time. Like the prophet Hosea 7:6 says: \"For like an oven their hearts burn with intrigue. \" And Job: 19:20: \"My bones cleave to my skin and to my flesh, and I have escaped by the skin of my teeth.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/5/10",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9dce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 5:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

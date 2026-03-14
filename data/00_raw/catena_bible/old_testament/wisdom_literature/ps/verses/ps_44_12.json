@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 44:12",
+  "verse_text": "Verse text for PS 44:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/44/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. \"Thou hast sold Thy people for no price\" (ver. 12). For we see whom Thou hast made over; what Thou hast received, we have not seen. \"And there was no multitude in their jubilees.\" For when the Christians were flying before the pursuit of enemies, who were idolaters, were there then held any congregations and \"jubilees\" to the honour of God? Were those Hymns chanted in concert from the Churches of God, that are wont to be sung in concert in time of peace, and to be sounded in a sweet accord of the brotherhood in the ears of God?",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/44/12",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a26",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Reckoning. Protestants, \"thou dost not increase thy wealth by their price. \"(Haydock)\nThou art eager to get quit of them, as of the vilest slaves. (Theodoret; Grotius) (Isaias l. 2., and lii. 3.) Exchange. Some copies of the Septuagint read allalagmasi, \"jubilations \"with the Ethiopic. (St. Augustine)\nWhile others have more correctly allagmasi, like the Vulgate. There were none to purchase, so that thou hast given the people for nothing. (Calmet)\nAt the last siege of Jerusalem, the Jews, who had sold (Worthington) or bought Christ for thirty pieces of money, (Haydock) were themselves sold for the smallest price; thirty being given for one penny. See Josephus, Jewish Wars. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/44/12",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be060",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 44:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

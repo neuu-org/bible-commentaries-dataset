@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MAL 3:6",
+  "verse_text": "Verse text for MAL 3:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mal/3/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Change. Hebrew also, (Haydock) \"hate or recommence. \"I do not strike the fallen. Did I spare Sennacherib? Have I not protected the posterity of Jacob? How then can you say that I am indifferent about human affairs? (Calmet)\nConsumed. Septuagint, \"you depart not from the sins of your fathers. You have rejected my\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mal/3/6",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf640",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "He does not need those things that are from him, through him and to him; neither he who is the origin, nor he who is the designer, nor he who embraces all things. He is outside of the things that are within; he is the Creator of those that have been made; and he himself is never in want of his own possessions. Nothing is before him, nothing is from anywhere else, nothing is outside of him. What growth in fullness is therefore wanting to him that God may yet be all in all in the course of time. Or whence shall he procure it outside of whom there is nothing, but nothing in the sense that he always is. And by what kind of an increase is he himself to be made complete who always exists and outside of whom there is nothing. Or by what kind of growth is he to be changed who says, “I am, and I change not,” since there is no opportunity for a change or any cause that will enable him to make progress. Nor is there anything prior to eternity or anything else besides God in his relationship with God. Hence God will not be all in all through subjection of the Son, nor will any cause make him perfect from whom, through whom and in whom every cause exists. He remains, therefore, as he is, always God, and he does not stand in need of improvement who is always that which he is from himself and to himself.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mal/3/6",
+      "full_content_url": "https://catenabible.com/com/5838db61205c248f42e52be9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MAL 3:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

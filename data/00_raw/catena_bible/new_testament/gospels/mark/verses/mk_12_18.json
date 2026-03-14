@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 12:18",
+  "verse_text": "Verse text for MK 12:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/12/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "They put to him the strongest case they could to impair his credibility. They fashioned a contorted argument to pursue the question which they had initiated. Their deceptive inquiry concerned the flesh, whether or not it would be subject to marriage after the resurrection. They assumed the case of a woman who had married seven brothers, so as to make it doubtful as to which of them she should be restored. Now, let the gist both of the question and the answer be kept steadily in view, and the discussion is settled at once in this way: The Sadducees indeed denied the resurrection, while the Lord affirmed it. In affirming it, he reproached them as being both ignorant of the Scriptures— which declare the resurrection—and disbelieving of the power of God as able to raise the dead. He then spoke without ambiguity of the dead being raised.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/12/18",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e59",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Then came unto him the Sadducees, who say there is no resurrection; and they asked him, saying, Tertullian of Carthage Their specious inquiry concerned the flesh, whether or not it would be subject to marriage after the resurrection; and they assumed the case of a woman who had married seven brothers, so that it was a doubtful point to which of them she should be restored. Of her so many husbands; nor is any (husband) awaiting her to put her to confusion. For the purpose of raising up seed to his brother; and this may happen repeatedly to the same person, according to that crafty question of the Sadducees;.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/12/18",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb72b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 12:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

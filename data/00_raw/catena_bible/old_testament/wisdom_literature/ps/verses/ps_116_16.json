@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 116:16",
+  "verse_text": "Verse text for PS 116:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/116/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. Let therefore the slave purchased at so great a price confess his condition, and say, \"Behold, O Lord, how that I am Thy servant: \"I am Thy servant, and the son of Thine handmaid\" (ver. 16). ...This, therefore, is the son of the heavenly Jerusalem, which is above, the free mother of us all. And free indeed from sin she is, but the handmaid of righteousness; to whose sons still pilgrims it is said, \"Ye have been called unto liberty;\" and again he maketh them servants, when he saith, \"but by love serve one another.\" ...Let therefore that servant say unto God, Many call themselves martyrs, many Thy servants, because they hold Thy Name in various heresies and errors; but since they are beside Thy Church, they are not the children of Thy handmaid. But \"I am Thy servant, and the son of Thine handmaid.\" \"Thou hast broken my bonds asunder.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/116/16",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65ef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh O LORD, truly I am your servant; I am your servant, and the son of your handmaid: you have loosed my bonds. Basil the Great But now I am returning and running back to my original Lord, and I acknowledge my enslavement of old. You have broken through my bonds [Ps 115. You freed me from the bonds of sin by descending into hell and releasing humanity when it was in the bonds of death and detained in the inescapable prisons of hell.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/116/16",
+      "full_content_url": "https://catenabible.com/com/6334edbe643f2b001bc00794",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 116:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

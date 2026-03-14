@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 116:19",
+  "verse_text": "Verse text for PS 116:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/116/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "14. \"In the courts,\" he saith, \"of the Lord's house\" (ver. 19). What is the Lord's house, the same is the Lord's handmaid: and what is God's house, save all His people? It therefore followeth, \"In the sight of all His people.\" And now he more openly nameth his mother herself. For what else is His people, but what followeth, \"In the midst of thee, O Jerusalem\"? For than that which is returned grateful, if it be returned from peace, and in peace. But they who are not sons of this handmaid, have loved war rather than peace. ...",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/116/19",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 116:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JER 44:30",
+  "verse_text": "Verse text for JER 44:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/44/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Enemies. Herodotus (ii. 161, 169.) informs us that Apries reigned fortunately twenty-five years, when he lost many of his men fighting against the Cyreneans, and was dethroned by Amasis, and strangled by his subjects. Usher (the year of the world 3433) suspects that Amasis was assisted and confirmed by Nabuchodonosor, and he might thus fulfill the prophecies, chap. xliii. 11., and Ezechiel xxix. Josephus (Antiquities x. 11.) and Berosus (contra Apion i.) assert, that Nabuchodonosor defeated and slew the king of Egypt, though Herodotus is silent on this subject, his account being communicated by the Egyptian priests, and full of fables. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/44/30",
+      "full_content_url": "https://catenabible.com/com/5735e271ec4bd7c9723beeb0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 44:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 105:22",
+  "verse_text": "Verse text for PS 105:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/105/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"The king sent and loosed him, the prince of the peoples, and let him go free\" (ver. The \"king\" is the same as \"the prince of the peoples:\" he \"loosed\" him from his bonds \"and let him go free\" from his prison. \"He made him lord also of his house: and ruler of all his substance\" (ver. \"That he might inform his princes like unto himself, and teach his old men wisdom\" (ver. The Greek hath, \"and teach his elders wisdom. \" Which might altogether be rendered to the letter thus; \"Might inform his princes like unto himself, and make his eiders wise. \" The word translated old men being presbyters or elders, not gerontas, old men: and to teach wisdom being from the Greek to sophize, which cannot be rendered by a single word in Latin, and is from the word sophia, wisdom, different from prudence, which is in Greek phronesis. Yet we do not read this in the high elevation of Joseph, as we read not of fetters in his low estate. But how could it happen that so great a man, the worshipper of the One True God, whilst in Egypt, should have been intent upon the nourishing of bodies, and the government of carnal matters only, and have felt no anxiety for souls, and how he could render them better. But those things are written in that history, which, according to the intention of the writer, in whom was the Holy Spirit, were judged sufficient for signifying future events in that narration.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/105/22",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6550",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Instruct. Hebrew, \"bind \"by precepts or chains, (Berthier) as he had all power.\nWisdom. Joseph was considered as the oracle of Egypt, and the prime minister. (Calmet)\nWe cannot doubt but he would strive to undeceive the people with regard to many superstitions. (Theodoret) (St. Augustine)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/22",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be356",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 105:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

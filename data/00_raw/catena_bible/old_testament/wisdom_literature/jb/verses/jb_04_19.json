@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 4:19",
+  "verse_text": "Verse text for JB 4:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/4/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Foundation. Children of Adam, whose bodies are taken from the dust. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/4/19",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdb7d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hesychius of Jerusalem",
+      "period": "AD433",
+      "content": "In truth, to be faultless is not easy for human beings. Faultlessness is beyond human possibilities. The order of the angels is itself subject to such weakness. This is what Eliphaz says, “Even in his servants God puts no trust.” It is evident that God “puts no trust” in the righteous—like you, who have trusted yourself—because he knows the weakness of their nature and how easily their flesh falls. The fallen angels give God a reason not to trust in them, those whom “he charges with error.” He has driven them away from the former honor of their rank and has reduced them to a lower position because they had evil thoughts against God. But if it is so for them, who even though they have a weak nature live nonetheless in the heights among the virtuous powers, and if it is so for angels who in their own nature were above us, what will we say about our own human condition, one even more subject to sin?",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/4/19",
+      "full_content_url": "https://catenabible.com/com/5e1b5e528bc66721fe4ef5af",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 4:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

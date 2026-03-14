@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:141",
+  "verse_text": "Verse text for PS 119:141",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/141",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "139. \"I am young, and of no reputation; yet do I not forget Thy righteousnesses:\" not as my enemies, who \"have forgotten Thy words\" (ver. 141). The younger seems to grieve for those older than himself who had forgotten the righteousnesses of God, while he himself had not forgotten. For what meaneth, \"I am young, yet do I not forget\"? save this, Those older than me have forgotten. For the Greek word is newtero, the same as that used in the words above, \"Wherewithal shall a young man cleanse his way?\" This is a comparative, and is therefore well understood in its relation to some one older. Let us therefore here recognize the two nations, who were striving even in Rebecca's womb; when it was said to her, not from works, but of Him that calleth, \"The elder shall serve the younger.\" But the younger saith here that he is of no reputation: for this reason he hath become greater: since \"behold, they that were first are last, and they that were last first.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/141",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6686",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I am small and despised: yet do I not forget your precepts. The Fathers explain this of David, who was preferred before his brothers; and of the Gentiles, who were chosen by Jesus Christ. (Worthington) It may refer to Daniel, who was enabled to prophesy very soon, or to the disciples, for whom this psalm was composed, (Calmet) whether Solomon, or any of the faithful. (Berthier) The just are often judged to be ignorant by the worldly wise; but they follow the law, the true wisdom. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/141",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be44f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:141",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

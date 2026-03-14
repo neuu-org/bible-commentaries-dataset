@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 89:25",
+  "verse_text": "Verse text for PS 89:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "25. \"I will set His hand also in the sea\" (ver. 25): that is, He shall rule over the Gentiles; \"and His right hand in the floods.\" Rivers run into the sea: avaricious men roll onwards into the bitterness of this world: yet all these kinds of men will be subject to Christ.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/25",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6ceb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rivers. Of his kingdom there shall be no end, Luke i. 33., and Zacharias ix. 10. (Haydock)\nEvery nation shall adore him. David extended his conquests over all Arabia, and from the Pelusium to the Euphrates. (Calmet)\nIn this sense, the text may be applied to him, though it belongs more to Christ. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/25",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be29b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

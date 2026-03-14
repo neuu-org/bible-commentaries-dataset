@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 22:9",
+  "verse_text": "Verse text for EX 22:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/22/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For all manner of trespass, whether it be for ox, for donkey, for sheep, for clothing, or for any manner of lost thing, which another challenges to be his, the cause of both parties shall come before the judges; and whom the judges shall condemn, he shall pay double unto his neighbor. Hebrew, \"thing lost, which another challengeth. and whom the judges condemn, he \"If the person who had deposited a thing, pretended that the one produced was not the same, or not equally good, and failed in proving the charge, he was liable to pay double its value.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/22/9",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 22:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

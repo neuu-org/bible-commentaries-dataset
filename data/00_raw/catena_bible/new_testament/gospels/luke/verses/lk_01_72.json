@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 1:72",
+  "verse_text": "Verse text for LK 1:72",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/72",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "But let no one, hearing that the Lord had sworn to Abraham, be tempted to swear. For as when the wrath of God is spoken of, it does not signify passion but punishment; so neither does God swear as man, but His word is in very truth expressed to us in place of an oath, confirming by an unchangeable sentence what He promised.\nBut let no one, hearing that the Lord had sworn to Abraham, be tempted to swear. For as when the wrath of God is spoken of, it does not signify passion but punishment; so neither does God swear as man, but His word is in very truth expressed to us in place of an oath, confirming by an unchangeable sentence what He promised.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/72",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9d5f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Christ is mercy and justice: for we have obtained mercy through Him, and been justified, having washed away the stains of wickedness through faith that is in Him.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/72",
+      "full_content_url": "https://catenabible.com/com/57eb0e34b0d44ee10cfac63d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "To remember his holy covenant, i.e. of his promise, or of the covenant made with Abraham, that he would bless all nations in his seed. (Witham)\nAt the coming of Christ, Abraham, Isaac and Jacob were made partakers of his mercy. For, we cannot suppose that they who saw his day, and were glad, should not participate in the fruit of his coming; since St. Paul says: he maketh peace through the blood of the cross, both to the things that are on earth, and the things that are in heaven. (Colossians i. 20.) (Origen, hom. x.)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/72",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophilus of Antioch",
+      "period": "AD184",
+      "content": "The grace of Christ extends even to those who are dead, because through Him we shall rise again, not only we, but they also who have been dead before us. He performed His mercy also to our forefathers in fulfilling all their hopes and desires. Hence it follows, And to remember his holy covenant, that covenant, namely, wherein he said, Blessing, I will bless you, and multiplying, I will multiply you. For Abraham was multiplied in all nations, who became his children by adoption, through following the example of his faith. But the fathers also, seeing their children enjoy these blessings, rejoice together with them, just as if they received the mercy in themselves. Hence it follows, The oath which he swore to our father Abraham, that he would grant to us.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/72",
+      "full_content_url": "https://catenabible.com/com/5735df9fec4bd7c9723b9d5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:72",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

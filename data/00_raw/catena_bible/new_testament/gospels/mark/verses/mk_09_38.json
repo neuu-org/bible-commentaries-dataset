@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 9:38",
+  "verse_text": "Verse text for MK 9:38",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/38",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "His situation was in some ways parallel to that of one who, while not yet embracing the sacraments of Christ, nevertheless esteems the Christian name so far as even to welcome Christians and accommodate oneself to their service for this very reason and no other—that they are Christians. This is the type of person of whom it was said that he would not lose his reward. This does not mean, however, that such individuals ought prematurely to imagine themselves quite safe and secure simply on account of this kindness which they cherish toward Christians, while at the same time remaining uncleansed by Christ’s baptism, and not thereby incorporated into the unity of his body. Such persons are now already being guided by the mercy of God in such a way that they may also come to receive these loftier gifts, and so depart this present world in safety. Such persons assuredly are more profitable servants even before they become a part of the body of Christ, than those who, while already bearing the Christian name and partaking in the sacraments, recommend courses of action which are only fitted to drag others along with them into eternal punishment.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/9/38",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52de5",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "There may be something catholic outside the Church catholic. The name of Christ could exist outside the congregation of Christ, as in the case of the man casting out devils in Christ’s name. There may by contrast exist pretenses within the church catholic, as is unquestionably the case of those “who renounce the world in words and not in deeds,” and yet the pretense is not catholic. So as there may be found in the church catholic something which is not catholic, so there may be found something which is catholic outside the church catholic. On Baptism, Against the Donatists ().",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/9/38",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52de6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And John answered him, saying, Teacher, we saw one casting out demons in your name, and he followed not us: and we forbade him, because he followed not us. Cornelius a Lapide But Jesus said, Do not forbid him, for there is no man that doth a miracle in My name, and can soon (Gr. Ï„Î¬Ï‡Î±, i. e, easily) speak ill of Me. Do not hinder him in a good work, and one that honours Me; because even if he does not follow Me, yet he is doing the selfsame thing which you do, that is to say, he is celebrating My name, and he is making it known to men by casting out devils. Wherefore he does nothing that is against My name, but rather propagates and glorifies it.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/38",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e87",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:38",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

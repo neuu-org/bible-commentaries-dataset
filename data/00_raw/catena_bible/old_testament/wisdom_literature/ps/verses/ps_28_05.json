@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 28:5",
+  "verse_text": "Verse text for PS 28:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/28/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "5. \"For they have not had understanding in the works of the Lord\" (ver. 5). And whence is it clear that this hath befallen them? From this forsooth, \"for they have not had understanding in the works of the Lord.\" This very thing, in truth, hath been, even now, their recompense, that in Him whom they tempted with malicious intent as a Man, they should not recognise God, with what design the Father sent Him in the Flesh. \"And the works of His hands.\" Nor be moved by those visible works, which are laid out before their very eyes. \"Thou shalt destroy them, and not build them up.\" Let them do Me no hurt, nay, nor again in their endeavour to raise engines against My Church, let them aught avail.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/28/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6909",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The works, (in opera.) The preposition seems redundant, though (Haydock) it was probably in both places, to insinuate that attention is requisite. The Jews perished, because they would not know the things that were for their peace, Luke xix. 42. Their city in ruins, is an emblem of the sinner's utter destruction.\nThou shalt. Hebrew, \"he will. \"(Berthier)\nThe Chaldeans gave supreme honour to idols, neglecting the true God. Their punishment was at hand. (Kimchi) (Calmet)\nIgnorance will prove no excuse, when people might be informed. God will save none, without their co-operation. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/28/5",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf55",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 28:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

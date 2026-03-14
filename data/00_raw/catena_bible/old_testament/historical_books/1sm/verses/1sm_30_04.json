@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 30:4",
+  "verse_text": "Verse text for 1SM 30:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/30/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "When the Lord came among his elect and the catholic teachers and saw the towers and roofs which once gleamed but now lay razed to the ground by the firebrand of heretical talk, he first moved his father with his prayers that the church be restored (as was fitting for him to do) and then he immediately attended to the undertaking of restoring it. The teachers lament the churches and souls entrusted to them, which they had begotten for God and nourished by the help but which had become corrupted from the simplicity of their faith when Christ’s help was delayed for a time. This corresponds to how David’s wives and children were led away captive, when his arrival was delayed for a time. But if his grace and aid had been present, they would not have been able to seize everything.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/30/4",
+      "full_content_url": "https://catenabible.com/com/5de4687a1f75ae05ba98cf76",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Tears. Hebrew, \"till they had no more power to weep. \"(Menochius)\nSee Lamentations ii. 11. Cicero exclaims, Hei mihi! consumptis enim lachrymis, infixus tamen hæret in corde dolor. (Phil. ii.)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/30/4",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd027",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 30:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

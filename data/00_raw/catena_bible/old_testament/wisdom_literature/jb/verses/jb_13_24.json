@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 13:24",
+  "verse_text": "Verse text for JB 13:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/13/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "59. Man enjoyed the light of inward contemplation in Paradise, but by gratifying himself as he departed from himself, he lost the light of the Creator, and fled from His face to the trees of Paradise, seeing that, after his sin, he dreaded to see Him, whom he had used to love. But mark, after sin he is brought into punishment, but from punishment he returns to love, because he finds out what was the consequence of his transgression, and that face, which he feared in sin, being awakened to a right sense, he seeks afresh by punishment, that he may henceforth flee the darkness of his blind condition, and shrink with horror from this alone, that he does not behold his Creator. Pierced with which longing the holy man exclaims, Wherefore hidest Thou Thy face, and takest me for Thine enemy? ‘since, if Thou didst regard me as a friend, Thou wouldest not deprive me of the light of Thy vision.’ And going on, he adds the fickleness of the human heart.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/13/24",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddcfd9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Why, Job says, do you not act clearly? Why do you not say, See, this is the reason why I punish you? It is no small consolation for those who are chastised to know the reason for their punishment. That is why Job says, “Make me know my transgressions,” but God will not let him know. - \"Commentary on Job 13.24–25b\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/13/24",
+      "full_content_url": "https://catenabible.com/com/5e1b5f908bc66721fe4ef637",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 13:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

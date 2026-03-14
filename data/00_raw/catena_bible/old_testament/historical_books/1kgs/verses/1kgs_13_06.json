@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 13:6",
+  "verse_text": "Verse text for 1KGS 13:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/13/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "But when in the temple of our God, that wicked king Jeroboam took away the gifts that his father had laid up and offered them to idols on the holy altar, did not his right hand, which he stretched, wither, and his idols, which he called on, were not able to help him? Then, turning to the Lord, he asked for pardon, and at once his hand, which had withered by sacrilege, was healed by true religion. So complete an example was there set forth in one person, both of divine mercy and wrath, when he who was sacrificing suddenly lost his right hand but when penitent received forgiveness.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/13/6",
+      "full_content_url": "https://catenabible.com/com/5e1b67d28bc66721fe4ef903",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thy God. He does not say my, being conscious that he had abandoned his service. (Menochius)\nBefore. We may be surprised that God thus heals a man, whose heart was not changed, ver. 33. (Estius)\nBut miracles do not always work a conversion. Pharao, Saul, and Achaz beheld them in vain: only one of the ten lepers returned to give thanks, Luke xvii. 17. This miracle rendered Jeroboam still more inexcusable. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/13/6",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd320",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 13:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

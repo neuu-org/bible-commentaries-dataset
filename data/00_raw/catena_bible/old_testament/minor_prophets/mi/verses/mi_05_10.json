@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MI 5:10",
+  "verse_text": "Verse text for MI 5:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/5/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And it shall come to pass in that day, says the LORD, that I will cut off your horses out of your midst, and I will destroy your chariots: Horses. Some understand this, and all that follows to the end of the chapter, as addressed to the enemies of the Church. But it may as well be understood of the converts to the Church, who should no longer put their trust in any of these things. (Challoner) God will protect his people, so that horses and fortifications will be unnecessary.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/5/10",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "I will take away thy horses: Some understand this, and all that follows to the end of the chapter, as addressed to the enemies of the church. But it may as well be understood of the converts to the church: who should no longer put their trust in any of these things.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/5/10",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f2af",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 5:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

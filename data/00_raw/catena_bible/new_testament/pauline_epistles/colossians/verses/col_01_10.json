@@ -1,0 +1,69 @@
+{
+  "verse_reference": "COL 1:10",
+  "verse_text": "Verse text for COL 1:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/1/10",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "That you might walk worthy of the Lord, fully pleasing, being fruitful in every good work, and increasing in the knowledge of God; Augustine of Hippo We are commanded to do good when it says: “Decline from evil and do good,” but we pray to do good when it says: “We cease not to pray for you, asking,” and among other things that Paul asks he mentions: “That you may walk worthy of God in all things pleasing, in every good work and good word. ” As then we acknowledge the part played by the will when these commands are given, so let him acknowledge the part played by grace when these petitions are offered.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/1/10",
+      "full_content_url": "https://catenabible.com/com/583f5795205c248f42e532f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "For there is an instruction of the perfect, concerning which Paul writes to the Colossians: “We don’t stop praying for you, asking that you may be filled with the knowledge of his will in all wisdom and spiritual understanding.”… On the one hand, there are the mysteries which were hid till the time of the apostles and were delivered by them as they received from the Lord; these, concealed in the Old Testament, were manifested to the saints. And, on the other hand, there is “the riches of the glory of the mystery in the Gentiles,” which is faith and hope in Christ; which in another place he has called the “foundation.”",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/1/10",
+      "full_content_url": "https://catenabible.com/com/583f5795205c248f42e532f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Worthy of God: axios tou kuriou. So St. Ambrose and the Greek doctors; or thus, worthily, pleasing God, and this not by faith only, but fruitful in every good work. (Ibid.)\nGod, in all things pleasing him. This is the construction of the Latin by the Greek. (Witham)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/1/10",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c018f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "That you might walk worthy of the Lord, fully pleasing, being fruitful in every good work, and increasing in the knowledge of God; Here he speaks of life and its works, for so he does also everywhere: with faith Paul always couples conduct…. Summarily, Paul states, we pray that you may lead a life of virtue, worthy of your citizenship, and may stand firmly, being strengthened as it is reasonable to be strengthened by God. For this reason Paul does not yet focus upon doctrines, but dwells upon life.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/1/10",
+      "full_content_url": "https://catenabible.com/com/583f5795205c248f42e532f7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 1:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "AM 7:8",
+  "verse_text": "Verse text for AM 7:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/7/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "Jesus would lead his detractors to the point of judging themselves, saying, “What do the vinedressers deserve. ” They decided concerning themselves, saying, “Let him destroy the evil ones with evil. ” Then he explained this, saying, “Have you not read that ‘the stone which the builders rejected has become the head of the corner. ’ ” What stone. That which is known to be lead. For see, he has said, “I am setting a plumb line in the midst of the sons of Israel. ” To show that he himself was this stone, he said concerning it, “Whoever knocks against that stone will be broken to pieces, but it will crush and destroy whomever it falls upon. ” The leaders of the people were gathered together against him and wanted his downfall because his teaching did not please them. But he said, “It will crush and destroy whomever it falls upon,” because he had resisted idolatry, among other things. For “the stone that struck the image has become a great mountain, and the entire earth has been filled with it. ” Commentary on Tatian’s Diatessaron.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/7/8",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c34",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Plaster. Septuagint, \"I will no more pass over it \"the adamantine wall. I will hide their faults no longer. (Haydock)\nThis third vision alluded to the distress of the ten tribes, 4 Kings xv. 20. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/7/8",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf469",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 7:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

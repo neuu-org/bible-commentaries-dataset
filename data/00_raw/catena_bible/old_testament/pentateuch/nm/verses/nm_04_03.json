@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 4:3",
+  "verse_text": "Verse text for NM 4:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/4/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thirty. Moses speaks of those who had to carry the sacred vessels. Those of 25 years old might perform some offices; (chap. viii. 24,) and even at 20, they began to serve the tabernacle, in the reign of David, (1 Paralipomenon xxiii. 24,) the fatigue being then diminished, and the splendour of religion increasing. The Septuagint read 25 instead of 30, in this and all other places, and some think that the Hebrew should be so too. The time for the admission of priests to their more august functions is not specified, but was determined by themselves to be at least 20 years of age. (Outram, Sacrif. i. 7.)\nTo stand. This was the ordinary posture of the priests in the temple. The king alone was allowed to sit. (Maimonides)\nHebrew, \"all that enter into the host, or army, to do the work in the tabernacle of the assembly \"shall be of a competent age and strength. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/4/3",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc6dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 4:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

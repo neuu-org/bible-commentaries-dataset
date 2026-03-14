@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 130:8",
+  "verse_text": "Verse text for PS 130:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/130/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "8. \"For with the Lord there is mercy, and with Him is plenteous redemption\" (ver. 7). Admirable! This could not have been better said in its own place, on account of the words, \"From the morning watch.\" Wherefore? Because the Lord rose again from the morning watch; and the body ought to hope for that which went before in the Head. But, lest this thought should be suggested: The Head might rise again, because It was not weighed down with sins, there was no sin in Him; what shall we do? Shall we hope for such a resurrection, as went before in the Lord, whilst we are weighed down by our sins? But see what followeth: \"And He shall redeem Israel from all his sins\" (ver. 8). Though therefore he was weighed down with his sins, the mercy of God is present to him. For this reason, He went before without sin, that He may blot out the sins of those that follow Him. Trust not in yourselves, but trust from the morning watch. ...",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/130/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6700",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 130:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

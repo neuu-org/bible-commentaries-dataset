@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 37:31",
+  "verse_text": "Verse text for PS 37:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/37/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"The law of his God is in his heart\" (ver. Lest haply thou shouldest think him to have that on his lips, which he hath not in his heart, lest thou shouldest reckon him among those of whom it is said, \"This people honour Me with their lips, but their heart is far from Me. \" And of what use is this to him. \"And none of his steps shall slide. \" The \"word of God in the heart\" frees from the snare; the \"word of God in the heart\" delivers from the evil way; \"the word of God in the heart\" delivers from \"the slippery place. \" He is with thee, Whose word departeth not from thee. Now what evil doth he suffer, whom God keepeth. Thou settest a watchman in thy vineyard, and feelest secure from thieves; and that watchman may sleep, and may himself fall, and may admit a thief. But \"He who keepeth Israel shall neither slumber nor sleep. \" \"The law of his God is in his heart, and none of his steps shall slide. \" Let him therefore live free from fear; let him live free from fear even in the midst of the wicked; free from fear even in the midst of the ungodly. For what evil can the ungodly or unrighteous man do to the righteous. see what follows.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/37/31",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69b6",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Supplanted. The devil shall have no advantage over the just, (Calmet) who aim constantly at perfection. (Origen)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/37/31",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdffb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 37:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

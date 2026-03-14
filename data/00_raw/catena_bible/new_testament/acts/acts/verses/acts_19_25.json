@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 19:25",
+  "verse_text": "Verse text for ACTS 19:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/19/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "then he brought the danger home to them, that we are in danger of falling from this our craft into starvation. Moreover ye see and hear, that not alone at Ephesus, but almost throughout all Asia, this Paul has persuaded and turned away much people, saying that they be no gods, which are made with hands: so that not only this our craft is in danger to be set at naught; but also, that the temple of the great goddess Diana should be despised, and her magnificence should be destroyed, whom all Asia and the world worships. And when they heard these sayings, they were full of wrath, and cried out, saying, Great is Diana of the Ephesians.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/19/25",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9454",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 19:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

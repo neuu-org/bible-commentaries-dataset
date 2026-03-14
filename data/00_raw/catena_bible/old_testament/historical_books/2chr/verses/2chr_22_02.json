@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2CHR 22:2",
+  "verse_text": "Verse text for 2CHR 22:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/2chr/22/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Forty-two Diverse Greek Bibles read twenty-two, agreeably to 4 Kings viii. , (Challoner) with the Syriac and Arabic. The Roman (Calmet) and Alexandrian Septuagint have \"twenty. \"(Haydock) Ochozias was the youngest son, and his father died at forty years of age, chap. (Calmet) Others would date from the birth of Amri, (Broughton) or of Athalia. But it is most probable that we should read 22, as 4 Kings. (Calmet) The contradiction has so much perplexed the commentators, that Walton (prol. 36) puts it among the quædam apora; and De Dieu says, \"I would rather plainly confess that this difficulty is to us inexplicable. \"The error here, \"is plainly owing to a mistake of one of the Hebrew numeral letters \"c, being put instead of m, which was formerly more similar than it is now. \"In Origen's Hexapla, one of the Greek copies (probably that found in Caracalla's time) reads here cb, by rendering the number 22, eikosi kai duo, all which proofs make the mistake indubitable, and strongly recommend this method of correcting it. \"(Kennicott) Mariana, Tirinus, had already suggested this plan, (Haydock) which is very plausible. (Du Hamel) Ochozias might reign twenty years with his father, and only one alone, 4 Kings viii. (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2chr/22/2",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd872",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Forty-two: Divers Greek Bibles read thirty-two, agreeably to 4 Kings 8. 26.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2chr/22/2",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fb3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2CHR 22:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

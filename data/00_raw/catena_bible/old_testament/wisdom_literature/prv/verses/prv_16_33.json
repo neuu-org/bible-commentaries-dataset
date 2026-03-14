@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 16:33",
+  "verse_text": "Verse text for PRV 16:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/16/33",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lord. So the apostles had recourse to them, (Acts i. 26.) as the Cophts and Nestorians still do when there is a dispute about the election of a patriarch. (Renaudot iv. Perpet. i. 7. and 9.)\nThis mode may settle disputes, chap. xviii. 18. But we must not have recourse to it, except where the Church permits, lest we become the dupes of an idle curiosity. (Calmet)\nNothing happens by chance. (St. Augustine, City of God v. 9.)\nSeptuagint, \"all things come into the breast of the unjust; but all just things proceed from the Lord. \"(Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/16/33",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be67c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 16:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

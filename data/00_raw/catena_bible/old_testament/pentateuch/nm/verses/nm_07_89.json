@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 7:89",
+  "verse_text": "Verse text for NM 7:89",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/7/89",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And when Moses was gone into the tabernacle of meeting to speak with him, then he heard the voice of one speaking unto him from off the mercy seat that was upon the ark of testimony, from between the two cherubim: and he spoke unto him. Oracle of God, whose majesty appeared, in the form of a bright cloud, upon the propitiatory, or mercy-seat. (Haydock) Moses is allowed to enter in quality of God's messenger, to announce his will to the people; or perhaps he heard the mandates of God, standing without the veil.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/7/89",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc70f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "What does it mean that Moses often enters the tabernacle and comes out, except that he, whose mind is raised up in contemplation, must go out to deal with the affairs of the weak. Inside he contemplates the mysteries of God. Outside he bears the burdens of carnal persons. And Moses, who always has recourse to the tabernacle in matters of doubt and consults the Lord in the ark of the covenant, undoubtedly offers an example to officeholders. When in their public lives they are unsure of what to decide, they should always ponder in their minds, as in the tabernacle. They would seek advice, as it were, at the ark of the covenant, if they study the pages of sacred Scripture in their hearts when they deal with a doubt. Truth himself, manifested to us by taking on our humanity, devoted himself to prayer on the mountain and performed miracles in the cities. Thus he showed good pastors a model to imitate. They should desire what is highest in contemplation but care for the needs of the weak by their compassion. Charity rises up to the heights in a marvelous way when it mercifully turns to the depths of the neighbor’s needs. When it descends in kindness to the lowest, it returns in vigor to the highest. Exposition of the Old and New Testament, Numbers.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/7/89",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e528f8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 7:89",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

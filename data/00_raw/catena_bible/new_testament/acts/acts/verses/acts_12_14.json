@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 12:14",
+  "verse_text": "Verse text for ACTS 12:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/12/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And when she knew Peter's voice, she opened not the gate for gladness, but ran in, and told how Peter stood before the gate. This too is well done, that they likewise may not be amazed by seeing him at once, and that they may be incredulous, and their minds may be exercised. But ran in, etc. just as we are wont to do, she was eager to be herself the bringer of the good tidings, for good news it was indeed. And they said unto her, You are mad: but she constantly affirmed that it was even so: then said they, It is his Angel.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/12/14",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b930a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 12:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

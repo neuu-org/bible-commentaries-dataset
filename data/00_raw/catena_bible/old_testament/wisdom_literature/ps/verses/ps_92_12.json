@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 92:12",
+  "verse_text": "Verse text for PS 92:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/92/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The grass withereth, the flower of sinners dieth away: what of the righteous. \"The righteous shall flourish like a palm tree\" (ver. The ungodly are green as grass; \"The righteous shall flourish like a palm tree. \" By the palm tree he signifieth height. Possibly he had also this meaning in the palm, that in its extremities it is beautiful: so that thou mayest trace its beginning from the earth, its end in its topmost branches, wherein its whole beauty dwelleth. The rough root appeareth in the earth, the beautiful foliage toward the sky. Thy beauty too, then, shall be in the end. Thy root is fixed fast: but our root is upward. For our root is Christ, who hath ascended into heaven. Humbled, he shall be exalted; \"he shall spread abroad like a cedar in Libanus. \" See what trees he spoke of: the righteous shall flourish like a palm-tree: and shall spread abroad like a cedar in Libanus. When the sun hath gone forth, doth the palm-tree wither. Doth the cedar die. But when the sun hath been glowing for some hours, the grass drieth up. The judgment, therefore, shall come, that sinners may wither, and the faithful flourish.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/92/12",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6d25",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Palm-tree. Septuagint phoinix, means also a \"Phoenician, or the Phoenix \"bird, of which the ancients have said so much, Job xxix. 18., (Calmet) and of which Tertullian, (de Res. xiii.) and St. Ambrose, (de fid. Res.) seem to understand this passage. (Amama)\nBut it must be explained in the sense of the Vulgate, as the Hebrew Tamar evinceth. This tree, and the cedar, were the most famous in those countries; the former for its fruit, and the latter for buildings and duration. The palm-tree will shoot forth again, after it has been cut down or burnt, (Pliny, xiii. 14.) so the just will rise up from oppression. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/92/12",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 92:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1TIM 4:16",
+  "verse_text": "Verse text for 1TIM 4:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/4/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "I think not that I counted trivial counsel concerning continence; following it, a man will not repent thereof, but will save both himself and me who counselled.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/4/16",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bab02",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Take heed, he says, unto yourself, and unto the doctrine: continue in them. That is, take heed to yourself, and teach others also. For in so doing you shall both save yourself and them that hear you. It is well said, You shall save yourself. For he that is nourished up in the words of sound doctrine, first receives the benefit of it himself. From admonishing others, he is touched with compunction himself. For these things are not said to Timothy only, but to all. And if such advice is addressed to him, who raised the dead, what shall be said to us. Christ also shows the duty of teachers, when He says, The kingdom of heaven is like an householder, who brings forth out of his treasure things new and old. Matthew 13:52 And the blessed Paul gives the same advice, that we through patience and comfort of the Scriptures might have hope. Romans 15:4 This he practiced above all men, being brought up in the law of his fathers, at the feet of Gamaliel, whence he would afterwards naturally apply to reading: for he who exhorted others would himself first follow the advice he gave. Hence we find him continually appealing to the testimony of the prophets, and searching into their writings. Paul then applies to reading, for it is no slight advantage that is to be reaped from the Scriptures. But we are indolent, and we hear with carelessness and indifference. What punishment do we not deserve. That your profiting may appear, he says, to all. Thus he would have him appear great and admirable in this respect also, showing that this was still necessary for him, for he wished that his profiting should appear not only in his life, but in the word of doctrine.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/1tm/4/16",
+      "full_content_url": "https://catenabible.com/com/575f0fd63c6effa740ddde11",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 4:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

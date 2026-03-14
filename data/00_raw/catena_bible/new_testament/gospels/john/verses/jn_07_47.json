@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 7:47",
+  "verse_text": "Verse text for JN 7:47",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/7/47",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "The Pharisees therefore answered, Are ye also deceived? \"They were Christ\"s implacable enemies,\" says Nonnus. \"When they ought to have felt compunction, and to change their opinion,\" says Chrysostom, \"they accuse the officers. But in mild terms, for fear they also should at the last fail them.\" But they ought to have asked what there was so wonderful in Jesus\" words. But they took care not to do that, by their blind and obstinate hatred against Him. S. Cyril enforces it thus, \"We may pardon the multitude for being deceived, but how could ye, who are our officers, and infected with the same incredulity with ourselves, how could you be so quickly led astray as to believe in Him?\"",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/7/47",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e521de",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "It seems likely that the officers were more strongly Jewish, and ever cleaving to the Pharisees and sharing their common mind, and ever soused with the words of their rulers, were persuaded to think the same with them, as being ever with them. But when they came, no ways bringing the Lord, but astonishment-stricken beyond their expectation, and late and only now marvelling at Him Whom they ought not to have hated at the beginning, and thinking that all the rest ought to be persuaded by them: they say with a kind of deep anguish, Have YE also been deceived. And understand how this saying is replete with a sort of despair of any hope as regards the people. For as though the rest of the multitude had already been deceived, so many as were not over-stable, they put forth their fear as to the officers. For the remaining multitude (says it) of the common people who are not versed in the sacred Scriptures, nor yet fortified by cleaving to us, let it be granted (if so be) to them to be joined to Him with inconsiderate impulses, and easily-caught to agree to what He hath said and done: but whence hath this error been admitted by you too. how have yourselves also been deceived. what was it drew you off from your love to us, albeit withered in equal unbelief with us. something like this does the Pharisees' word seem to tell us.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/7/47",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabf38",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "They still speak them fair, and do not express themselves harshly, dreading lest the others should entirely separate themselves, yet nevertheless they give signs of anger, and speak sparingly. For when they ought to have asked what He spoke, and to have marveled at the words, they do not so, (knowing that they might have been captivated,) but reason with them from a very foolish argument;",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/7/47",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabb62",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 7:47",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

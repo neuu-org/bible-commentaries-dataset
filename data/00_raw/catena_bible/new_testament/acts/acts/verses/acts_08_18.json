@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ACTS 8:18",
+  "verse_text": "Verse text for ACTS 8:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/8/18",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "For now I have learned in very deed that you are a prophet of the true God, and therefore you alone know the secret and hidden things of men.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/18",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baddc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Simon . offered them money. From hence it is called the sin of simony, to buy, sell, or give money for benefices, and spiritual things. It was vanity that made Simon desire this power. (Witham)\nHence to give or receive money in exchange, or as a price for any spiritual good whatever, is justly esteemed sinful. It is called simony, from the name of the person, who was first engaged in this sin. (Haydock)\nSimon acts the part of a tempter to the apostles, and wishes to draw them into prevarication, by offering money for what was above all price, and of what they were not the proprietors, but the dispensers. (St. Clement of Rome)",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/8/18",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd96",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He offered them money. (v. 18, 19.) What? Had he seen the others doing this? Had he seen Philip? Did he imagine they did not know with what mind he came to them?",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/18",
+      "full_content_url": "https://catenabible.com/com/57ec81edb0d44ee10cfac949",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": ", and a vain remorse that he and his money must perish together,",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/18",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723badda",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 8:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 25:4",
+  "verse_text": "Verse text for EX 25:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/25/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Scarlet twice dyed. Aquila and Symmachus have transparent. This colour is often confounded with purple, as our Saviour's robe is styled scarlet by St. Matthew xxvii. 28, and purple by St. John xix. 2. It was dyed with a worm called shani in Hebrew. (St. Jerome, ep. ad Fabiol.)\nFine linen, byssus. Hebrew shésh, \"of six folds \"or it may mean cotton, which was highly esteemed by the ancients; (Arabic version; Herodotus) and it is not probable that Moses would have passed over it unnoticed. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/25/4",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc41b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Scarlet cloth, twice dyed, was to be offered to adorn the tabernacle so that our love of God and neighbor might have the color of love in God’s sight. That person truly loves himself who loves his Creator completely. Scarlet cloth is twice dyed when a soul is set on fire toward itself and its neighbor as a result of its love of truth.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/25/4",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52886",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 25:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

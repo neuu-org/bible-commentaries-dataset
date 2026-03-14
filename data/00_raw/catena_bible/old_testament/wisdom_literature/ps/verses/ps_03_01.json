@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PS 3:1",
+  "verse_text": "Verse text for PS 3:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/3/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "A Psalm OF David, When HE Fled From The Face OF Abessalon His Son.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/3/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6487",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The words, \"I slept, and took rest; and rose, for the Lord will take me up,\" lead us to believe that this Psalm is to be understood as in the Person of Christ; for they sound more applicable to the Passion and Resurrection of our Lord, than to that history in which David's flight is described from the face of his rebellious son. And, since it is written of Christ's disciples, \"The sons of the bridegroom fast not as long as the bridegroom is with them;\" it is no wonder if by his undutiful son be here meant that undutiful disciple who betrayed Him. From whose face although it may be understood historically that He fled, when on his departure He withdrew with the rest to the mountain; yet in a spiritual sense, when the Son of God, that is the Power and Wisdom of God, abandoned the mind of Judas; when the Devil wholly occupied him; as it is written, \"The Devil entered into his heart,\" may it be well understood that Christ fled from his face; not that Christ gave place to the Devil, but that on Christ's departure the Devil took possession. Which departure, I suppose, is called a flight in this Psalm, because of its quickness; which is indicated also by the word of our Lord, saying, \"That thou doest, do quickly. \" So even in common conversation we say of anything that does not come to mind, it has fled from me; and of a man of much learning we say, nothing flies from him. Wherefore truth fled from the mind of Judas, when it ceased to enlighten him. But Absalom, as some interpret, in the Latin tongue signifies, Patris pax, a father's peace. And it may seem strange, whether in the history of the kings, when Absalom carried on war against his father; or in the history of the New Testament, when Judas was, the betrayer of our Lord; how \"father's peace\" can be understood. But both in the former place they who read carefully, see that David in that war was at peace with his son, who even with sore grief lamented his death, saying, \"O Absalom, my son, would God I had died for thee. \" And in the history of the New Testament by that so great and so wonderful forbearance of our Lord; in that He bore so long with him as if good, when He was not ignorant of his thoughts; in that He admitted him to the Supper in which He committed and delivered to His disciples the figure of His Body and Blood; finally, in that He received the kiss of peace at the very time of His betrayal; it is easily understood how Christ showed peace to. His betrayer, although he was laid waste by the intestine war of so abominable a device. And therefore is Absalom called \"father's peace,\" because his father had the peace, which he had not.",
+      "commentary_number": "2/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/3/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6488",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh LORD, how are they increased that trouble me. many are they that rise up against me. Let me know the enormity of my sins. All Israel follows Absalom, 2 Kings xv. So all rose up against Christ. (Worthington) The Church was assailed on all sides, (Calmet) and every soul must live in expectation of battle from innumerable enemies. Hebrew also, (Haydock) \"How are they multiplied. \"(Houbigant) David is surprised at the sudden change, and adores the depth of God's judgments, which had been denounced unto him, 1 Kings xii.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/3/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde52",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 3:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

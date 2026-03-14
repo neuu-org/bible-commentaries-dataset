@@ -1,0 +1,69 @@
+{
+  "verse_reference": "JAS 2:5",
+  "verse_text": "Verse text for JAS 2:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/2/5",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "It is by choosing the poor that God makes them rich in faith, just as he makes them heirs of the kingdom. It is rightly said that he chose this faith in them, since it was in order to bring it about that he chose them.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/5",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9eff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Arles",
+      "period": "AD449",
+      "content": "Some people say that this is meant to be a comfort to the poor who have been thrown out of the houses of the rich or who dwell in inferior accommodations. Even if they are poor in material things, they may be rich in faith.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/5",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f09",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Oecumenius",
+      "period": "AD990",
+      "content": "When poor people are not preoccupied with the things of the world, when they come to faith, they often become more energetic and more determined to work at it than rich people do.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/5",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9ef5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Salvian the Presbyter",
+      "period": "AD429",
+      "content": "Hearken, my beloved brethren, Has not God chosen the poor of this world rich in faith, and heirs of the kingdom which he has promised to them that love him. Salvian the Presbyter The apostle's testimony is a very serious matter. Do the nobility think that they are immune from his strictures, because he referred only to the rich and not to the noble as well. But there is so great an overlap between these two groups in practice that it makes little difference which one of them the apostle was speaking about. His words certainly apply to both.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/5",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f16",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 2:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 6:22",
+  "verse_text": "Verse text for 2KGS 6:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/6/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For thou. Hebrew, \"Dost thou kill? \"If those who have surrendered themselves in battle be often spared, though they might be slain by the strict laws of war, how much less ought these men to be treated with such severity? (Calmet)\nSicut bellantiresistenti violentia redditur: ita victo vel capto misericorida jam debetur. (St. Augustine, ep. 1. ad Bonif.) (Grotius)\nAnd water, all necessary provisions. (Worthington)\nThese men were suffered to live that they might relate the wonders of God. (Theodoret, q. 20.)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/6/22",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd460",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 6:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

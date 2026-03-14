@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 22:4",
+  "verse_text": "Verse text for GN 22:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/22/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "The fact that he arrived at the place of sacrifice on the third day is shown to represent the mystery of the Trinity. That the third day should be accepted in the sense of a promise or mystery of the Trinity is found frequently in the sacred Books. In Exodus we read, “We will go a three days’ journey into the wilderness.” Again, upon arriving at Mount Sinai it is said to the people, “Be sanctified, and be ready for the third day.” When Joshua was about to cross the Jordan, he admonished the people to be ready on the third day. Moreover, our Lord arose on the third day. We have mentioned all this because blessed Abraham on the third day came to the place that the Lord had showed him.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/22/4",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51ad1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 22:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 13:24",
+  "verse_text": "Verse text for NM 13:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/13/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The place was called the Valley of Eshcol, because of the cluster of grapes which the children of Israel cut down from there. Later on, a sacred vine put forth a cluster of grapes that was prophetic. To those who had been led by the Educator to a place of rest after their wanderings it was a sign, for the great cluster of grapes is the Word crushed on our account. The Word desired that the “blood of the grape” be mixed with water as a symbol that his own blood is an integral element in salvation.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/13/24",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52912",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Septuagint, \"vale. Hebrew, \"one cluster. \" Two men, Josue and Caleb; (St. Maximus) though the Rabbins say they carried nothing. Lever, or staff, suspending it thus, in order that it might not be crushed. In that valley, Doubdan (i. 21,) was assured by the religious, that clusters, weighing twelve pounds, might still be found. Pliny (Natural History. 1,) says, there are some in Africa, larger than a male infant. ) describes some in Carmania, two cubits high. Forster saw a religious man at Nuremberg, who had lived eight years in Palestine, and assured him that two men could hardly carry a bunch of grapes, such as grew in the vale of Hebron: (Calmet) but this may seem to be an hyperbole. (Haydock) Lucas (T. 310,) assures us, that he had seen a bunch at Damascus, weighing above forty pounds. The Fathers here contemplate Jesus Christ, suspended between the two testaments, the synagogue and the Church: the juice, or blood of the grape, (Genesis xlix. , and Deuteronomy xxxii. 14,) denotes his passion. Bernard in Cant.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/13/24",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc761",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 13:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

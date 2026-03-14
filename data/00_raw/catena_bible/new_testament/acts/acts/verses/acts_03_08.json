@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 3:8",
+  "verse_text": "Verse text for ACTS 3:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/3/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Erasmus of Rotterdam",
+      "period": "AD1536",
+      "content": "And leaping and praising God:\nTo conceal the kind deeds of God is a matter of ingratitude; to attribute them to human endeavor is impiety.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/3/8",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd84",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Observe how restless he is, in the eagerness of his delight, at the same time shutting the mouths of the Jews. Also, that he leaped, was to prevent the suspicion of hypocrisy; for after all, this was beyond the possibility of deception. For if previously he was totally unable to walk, even when hunger pressed hard (and indeed he would not have chosen to share with his bearers the proceeds of his begging, if he had been able to manage for himself), this holds still more in the present case. And how should he have feigned in behalf of those who had given him no alms? But the man was grateful, even after his recovery. And thus on either side his faith is shown, both by his thankfulness, and by the recent event.\n\nAnd leaping and praising God:\nnot admiring them, but God that wrought by them. The man was grateful.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/3/8",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd76",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 3:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

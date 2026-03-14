@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 14:19",
+  "verse_text": "Verse text for GN 14:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/14/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Blessed him, as his inferior, and received tithes of him, Hebrews iv. 7. This shows the antiquity of the practice of supporting God's priests by tithes.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/14/19",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc07d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He not only blessed him but also praised God. In the words “blessed be Abraham by God the most high, who created heaven and earth,” he also highlighted to us God’s power as distinguished from his creatures. If he in fact is God, Creator of heaven and earth, those worshiped by human beings would not be gods; Scripture says, remember, “Let those gods perish who did not make heaven and earth.” The text reads, “Blessed be God, who delivered your enemies into your hands.” Notice, I ask you, how he not only celebrates the just man but also acknowledges God’s assistance. After all, without grace from above he could not have prevailed over the might of those besetting him. “Who delivered your enemies,” the text says, namely, he it is who caused everything, he it is who rendered the strong powerless, he it is who brought down the armed hordes through those unarmed. From that source is the grace coming forth that provides you with such power.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/14/19",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51a20",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 14:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

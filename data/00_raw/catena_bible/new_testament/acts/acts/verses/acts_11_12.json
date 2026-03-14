@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 11:12",
+  "verse_text": "Verse text for ACTS 11:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/11/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And the Spirit bade me go with them, nothing doubting. Moreover these six brethren accompanied me, and we entered into the man's house: Do you mark that it is to the Spirit the enacting of laws belongs. And these also accompanied me— nothing can be more lowly, when he alleges the brethren for witnesses. — these six men, and we entered into the man's house: and he showed us how he had seen an angel in his house, which stood and said unto him, Send men to Joppa, and call for Simon, whose surname is Peter; who shall tell you words, whereby thou and all your house shall be saved.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/11/12",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92db",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 11:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

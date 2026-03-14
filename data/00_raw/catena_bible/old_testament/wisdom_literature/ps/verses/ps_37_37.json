@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 37:37",
+  "verse_text": "Verse text for PS 37:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/37/37",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Keep innocency\" (ver. 37); keep it even as thou usedst to keep thy purse, when thou wert covetous; even as thou usedst to hold fast that purse, that it might not be snatched from thy grasp by the thief, even so \"keep innocency,\" lest that be snatched from thy grasp by the devil. Be that thy sure inheritance, of which the rich and the poor may both be sure. \"Keep innocency. \" What doth it profit thee to gain gold, and to lose innocence. \"Keep innocency, and take heed unto the thing which is right. \" Keep thou thine eyes \"right,\" that thou mayest see \"the thing which is right;\" not perverted, wherewith thou lookest upon the wicked; not distorted, so that God should appear to thee distorted and wrong, in that He favours the wicked, and afflicts the faithful with persecutions. Dost thou not observe how distorted thy vision is. Set right thine eyes, and \"behold the thing that is right. \" What \"thing that is right\". Take no heed of things present. And what wilt thou see. \"For there is a remainder for the man that maketh peace. \" What is meant by \"there is a remainder\". When thou art dead, thou shall not be dead. This is the meaning of \"there is a remainder. \" He will still have something remaining to him, even after this life, that is to say, that \"seed,\" which \"shall be blessed. \" Whence our Lord saith, \"He that believeth on Me, though he die, yet shall he live;\" -\"seeing there is a remainder for the man that maketh peace.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/37/37",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69bd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Remnants, or rewards. (Worthington)\nHebrew acharith, \"the reward \"(Pagnin) \"the last end of man is peace \"(Montanus; Haydock) or \"the posterity (ver. 38.) of such a man shall be happy. \"(Calmet)\n\"There are future things for the peaceful. \"(Symmachus)\nThe expectations of the just are not confined to this world. They have something laid up for heaven, whereas the wicked have nothing. (Haydock)\nThese lose all by death; and the thought makes them take refuge in the foolish hope of being annihilated. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/37/37",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be001",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 37:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

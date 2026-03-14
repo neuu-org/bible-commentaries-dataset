@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 9:39",
+  "verse_text": "Verse text for MK 9:39",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/39",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "We ought not be disturbed because some who do not belong or do not yet belong to this temple, that is, among whom God does not or does not yet dwell, perform some works of power, as happened to the one who cast out devils in the name of Christ. Although he was not a follower of Christ, Christ ordered that he be allowed to continue because it gave a valuable testimony of his name to many…. The centurion Cornelius also saw the angel that was sent to him to say that his prayers had been heard and his alms accepted, even before he was incorporated into this temple by regeneration. Letter , To Dardanus",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/9/39",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52de7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But Jesus said, Forbid him not: for there is no man who shall do a miracle in my name, that can soon after speak evil of me. Augustine of Hippo Some who are intent on severe disciplinary principles which admonish us to rebuke the restless, not to give what is holy to dogs, to consider a despiser of the church as a heathen, to cut off from the unified structure of the body the member which causes scandal, so disturb the peace of the church that they try to separate the wheat from the chaff before the proper time. Blinded by this error, they are themselves separated instead from the unity of Christ.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/39",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52de8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "For he that is not against you is for you. This Prayer of Manasseh , therefore, is not your adversary, in that he does the same that you do. He stands on your side. He helps you; he does not oppose you.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/39",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e88",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:39",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

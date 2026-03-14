@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1CHR 6:31",
+  "verse_text": "Verse text for 1CHR 6:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/6/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The singing. Hebrew, \"the hands or places of the canticle \"the two tribunes on each side of the altar. Heman presided over the band in the middle, while Asaph directed those on the right, and Ethan those on the left, ver. 33, 39, and 44. (Calmet)\nPlaced. Hebrew, \"rested \"as before David's time it had been carried about. He erected a tabernacle for it on Sion, and directed the Levites to attend in order, (chap. xxv.) so that some should be present every day (Menochius) to honour God, both by instruments and vocal music, while the priests performed their sacred functions with the utmost decency.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/6/31",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd618",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 6:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

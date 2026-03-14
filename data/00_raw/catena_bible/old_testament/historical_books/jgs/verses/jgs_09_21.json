@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 9:21",
+  "verse_text": "Verse text for JGS 9:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/9/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Jotham ran away, and fled, and went to Beer, and dwelt there, for fear of Abimelech his brother. Hebrew, Bar or Beera, \"the well. \"There was a place of this name in the tribe of Ruben, where the Israelites encamped, Numbers xxi. Bersabee, in the tribe of Juda, was another famous well, and it is probable that Joatham would retire to some distant place. (Haydock) St. Jerome mentions a Bera, eight miles north of Eleuthero polis; and Maundrell speaks of another, about 21 miles from Sichem, on the road to Jerusalem. The dominion of Abimelech did not extend far.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/9/21",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd68",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 9:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

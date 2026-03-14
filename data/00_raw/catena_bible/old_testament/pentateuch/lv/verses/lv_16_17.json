@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 16:17",
+  "verse_text": "Verse text for LV 16:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/16/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Out. Even the other priests were excluded from the tabernacle. The high priest placed incense on the censer as soon as he entered within the veil, and prayed for all blessings, in few words, that the people might not be uneasy, fearing lest something had befallen him. This was the form: \"Be pleased to grant, O Lord our God, that this year may be warm and rainy, that the sovereign power may abide in the house of Juda, that thy people may not be deprived of any of the necessaries of life; and hear not the petitions of travellers \"(which are commonly vain and selfish) of \"of sinners \"as others translate. (Calmet)\nThose who were forbidden to be present on this occasion, might have made the same objections as Protestants do against the law of the Church, which prescribes a language not commonly understood by all, in the administration of her sacraments. Have either any reason to be offended? (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/16/17",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc5f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 16:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

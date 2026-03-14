@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 8:48",
+  "verse_text": "Verse text for LK 8:48",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/8/48",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "The Jews answered and said, &c. They used to say it, though it is written nowhere else. But why did they call Him a Samaritan. ) Because He associated with the Samaritans. ) Because He came from Galilee, which was near Samaria. ) Because the Samaritans were partly Jews and partly Gentiles, and Christ seemed to them to be the same as bringing in a new faith and religion; and He thus seemed to be mixing up the traditions of the elders with the Gospel. ) And lastly, because He seemed to be making a schism, like the Samaritans. A Samaritan was, moreover, a term of reproach. And has a devil. ) Because they said He cast out devils through Beelzebub, the chief of the devils. ) Because He made Himself God, transferring to Himself the glory due to God, as Lucifer strove to do. So Leontius. Our Lord so understood it, and answered, \"I seek not My own glory. ) Thou art mad, like lunatics, and those possessed with devils (see x20 , and vii20). This was an atrocious blasphemy. How wondrous, then, the patience of Christ. For He answered,.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/48",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f84",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Here, then, is a God who is not merciful by nature, but in hostility! Yet, if we find that such was the merit of this woman's faith, that He said unto her, Thy faith hath saved thee.\".\nWhen Christ approved of the faith of this woman, which simply rested in the Creator, He declared by His answer to her,",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/8/48",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbd08",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 8:48",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

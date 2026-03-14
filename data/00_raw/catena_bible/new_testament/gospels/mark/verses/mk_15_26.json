@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 15:26",
+  "verse_text": "Verse text for MK 15:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/15/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "It was written on a board, or rather on parchment fixed to a board, (as Leipsius informs us) expressing the cause why he was crucified, viz. because he was the King of the Jews. And, indeed, Pilate himself was fully persuaded that he was the Messiah promised to the Jews: and though he knew him to be innocent, he connived the more at his death through fear lest he might attempt something against the Roman empire, if he were permitted to continue. At the same time, by putting up his cause, he wished to revenge himself of the Jews, for their importunity and obstinacy in compelling him, partly against his will, to condemn him to death. For what could be more ignominious to the Jews than to see their king crucified at their own request, and for no other reason than because he was their king, and they did not wish him to reign over them. Thus did they receive the king for whose coming they had so long sighed, and from whom they had expected delivery from the Roman yoke, and the subjugation of the whole world to their own power.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/15/26",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9be",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "He was not hailed as the king of glory by the angels until he had been censured on the cross as “King of the Jews.” … You owe your life to him as a debt for these favors. So try as best you can to be accountable to him in the same way that he became accountable for you. Or, be not crowned with flowers at all if you cannot bear the thorns, because with flowers you cannot be crowned.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/26",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52f0b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 15:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

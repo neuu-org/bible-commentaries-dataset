@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 11:13",
+  "verse_text": "Verse text for ZEC 11:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/11/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Cast it unto the potter: a princely price that I was valued at by them. And I took the thirty pieces of silver, and cast them to the potter in the house of the LORD. The statuary. The Hebrew word signifies also a potter, (Challoner) and this seems to be the true meaning, Matthew xxvii. The prophet is ordered to bring, thus to indicate what should be done by the traitor. (Calmet) Septuagint, \"cast them into the crucible to see if it (the metal) be good, as I have been tried by them.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/11/13",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf5f4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The statuary: The Hebrew word signifies also a potter.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/11/13",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 11:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

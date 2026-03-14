@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 11:11",
+  "verse_text": "Verse text for 2SM 11:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/11/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ark. Most people suppose that the ark and the priests were before Rabba, as they seem to have been present in all expeditions of consequence. (Menochius) (Calmet)\nBut, at any rate, the ark was covered with skins or veils, even in the tabernacle at Gabaon, or at Sion. (Haydock)\nThing. He binds himself by an oath not to gratify his natural inclinations, that the king might desist from pressing him any farther. (Salien)\nBut David resolves to endeavour to make him forget his oath, during the moments of intoxication. The valour and temperance of Urias, and divine Providence, render all his craft useless; and a concatenation of crimes cannot hide the original offence. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/11/11",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd0f4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 11:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

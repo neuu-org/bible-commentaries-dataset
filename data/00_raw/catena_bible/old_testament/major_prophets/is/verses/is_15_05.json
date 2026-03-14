@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 15:5",
+  "verse_text": "Verse text for IS 15:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/15/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh My heart shall cry out for Moab; his fugitives shall flee unto Zoar, to Eglathshelishiyah: for by the ascent of Luhith with weeping shall they go up; for in the way of Horonaim they shall raise up a cry of destruction. A charitable heart will grieve for the misfortune of an enemy. (Worthington) I shall join in the general lamentations, though Moab has always been so great an enemy of Israel. (Calmet) Septuagint, \"the heart of Moab cries in itself to Segor. \"(Haydock) We will retire thither. (Chaldean) Bars. Protestants, \"his fugitives shall \" Heifer. Strong and ungovernable. Hebrew, \"to Heglath and to Shelishia for\", though we may as well adhere to the Vulgate, Septuagint.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/15/5",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be983",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 15:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 25:6",
+  "verse_text": "Verse text for ACTS 25:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/25/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And when he had tarried among them more than ten days, he went down unto Caesarea; and the next day sitting on the judgment seat commanded Paul to be brought. with all his haste: they so drove, so hurried him. While as yet he had not got acquainted with the Jews, nor experienced the honor paid to him by them, he answered rightly: but now that he had been in Jerusalem ten days, he too wants to pleasure them (by sacrificing Paul to them): then, also to receive Paul, Will you, says he, be judged there of these things by me.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/25/6",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But after they came down, they immediately made their accusations shamelessly and with more vehemence: and not having been able to convict him on grounds relating to the Law, they again according to their custom stirred the question about Cæsar, being just what they did in Christ's case. For that they had recourse to this is manifest by the fact, that Paul defends himself on the score of offenses against Cæsar. And when he had come, the Jews which came down from Jerusalem stood round about, and laid many and grievous complaints against Paul, which they could not prove. While he answered for himself, Neither against the law of the Jews, neither against the temple, nor yet against Cæsar, have I offended anything at all. But Festus, willing to do the Jews a pleasure, answered Paul, and said, Will you go up to Jerusalem, and there be judged of these things before me?",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/25/6",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 25:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

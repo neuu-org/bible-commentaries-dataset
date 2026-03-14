@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 21:20",
+  "verse_text": "Verse text for ACTS 21:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/21/20",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "How many thousands. In the Greek, how many ten thousands. (Witham)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/21/20",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe5f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Two reasons— the number of them, and their views. For neither had they been few, would it have been right to despise them: nor, if they were many and did not all cling to the law, would there have been need to make much account of them. Then also a third cause is given: And they all, it says, have been informed of you— they say not,have heard, but κατηχήθησαν, that is, so they have believed, and have been taught, that you teach apostasy from Moses to all the Jews which are among the Gentiles, by telling them not to circumcise their children, neither to walk after the customs.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/21/20",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "On account of \"supposititious false brethren; \"and leading certain \"shaven men \"into the temple",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/21/20",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae9d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 21:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

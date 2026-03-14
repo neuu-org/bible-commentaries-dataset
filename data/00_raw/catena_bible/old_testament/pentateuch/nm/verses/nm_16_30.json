@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 16:30",
+  "verse_text": "Verse text for NM 16:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/16/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "See Psalm liv. , and Proverbs i. \"They were consigned to the tomb before they were dead \"(St. ,) while their impenitent souls were buried in hell. The souls of their infant children, which had no share in the rebellion, might be exempted from the latter part of their punishment. (Calmet) If some have the rashness to blame the severity of this judgment of God, let them show the disparity between it and the various other accidents occasioned by earthquakes, which involve millions of such \"smiling infants \"in destruction; or, if they do not infer from these misfortunes, that the laws of nature are unjust; neither ought they to conclude that the religion, delivered by God to Moses, was an imposture, or that the Jewish legislator was cruel. He continued a silent spectator of this transaction, which he was informed by the Spirit would surely take place, and could not be averted by his intercession, which had before rescued the less guilty multitude, ver. (Haydock) \"They descend into hell alive; that is, feeling their own perdition, who, imitating Core. Separate from the Church, and presently fall into heresy. Augustine, ep.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/16/30",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc797",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 16:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

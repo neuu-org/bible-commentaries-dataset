@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 4:47",
+  "verse_text": "Verse text for JN 4:47",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/4/47",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "When he heard that Jesus came out of Judea into Galilee, he went unto him, and besought him that he would come down, and heal his son: for he was at the point of death. Cornelius a Lapide When he had heard, &c. The nobleman having heard the fame of Christ, that He healed all sick persons whatsoever, proceeded from Capharnaum to Cana, to ask Jesus, who was staying there, to come back with him to Capharnaum, to heal his son. This was a journey of fourteen hours, or leagues, and therefore long and difficult. Wherefore he had little faith in Jesus, says S. Gregory, since he did not think He could save unless He were corporeally present.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/4/47",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52144",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The nobleman cometh as to One able to heal, but he understandeth not yet that He is by Nature God: he calleth Him Lord, but giveth not at all the true dignity of Lordship. For he would have straightway fallen down and besought Him, not that he should by all means come to his house, and go down with him to the sick lad; but should rather with authority and God-befitting command drive away the sickness that fell on him. For what need for Him to be present to the sick, whom He could easily heal, even absent? how was it not utterly without understanding to suppose that He is superior to death, and in no wise to hold Him God Who is filled with God-befitting Power?",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/4/47",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabea4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This person certainly was of royal race, or possessed some dignity from his office, to which the title noble was attached. Some indeed think that this is the man mentioned by Matthew Matthew 8:5, but he is shown to be a different person, not only from his dignity, but also from his faith. That other, even when Christ was willing to go to him, entreats Him to tarry; this one, when He had made no such offer, draws Him to his house. The one says, I am not worthy that You should come under my roof; but this other even urges Him, saying, Come down ere my son die. In that instance He came down from the mountain, and entered into Capernaum; but here, as He came from Samaria, and went not into Capernaum but into Cana, this person met Him. The servant of the other was possessed by the palsy, this one's son by a fever.\n\nAnd he came and besought Him that He would heal his son: for he was at the point of death. What says Christ?",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/4/47",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabaeb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 4:47",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

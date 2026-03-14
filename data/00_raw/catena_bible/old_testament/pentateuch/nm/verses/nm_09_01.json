@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 9:1",
+  "verse_text": "Verse text for NM 9:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/9/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The Lord. The 15 first verses might be placed at the head of this book. God gave orders to celebrate the first passover in the desert, about the 14th of the first month, in the second year of liberty, soon after the consecration of the tabernacle. (Calmet)\nThis is the only passover which the Jews are recorded to have celebrated during the 40 years' sojournment; as they were not allowed to celebrate it, without having circumcised all the males of their family, (Exodus xii. 43,) which they could not do in the wilderness (His cuni) being uncertain how soon they would have to remove by the direction of God. (Haydock)\nFirst month. Hence, Moses does not always observe the order of time, as he spoke (chap. i.) of what happened in the second month. (Du Hamel)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/9/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc71a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 9:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 32:11",
+  "verse_text": "Verse text for JB 32:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/32/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Disputing. Hebrew, \"searching out words \"or arguments. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/32/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdd69",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "As far as regards the literal meaning, Elihu proves to us, when he speaks, how proudly he remained silent. For when he says, “For I waited for your words, and I was thinking that you would say something,” he plainly shows that he remained silent, while the aged were speaking, with the desire of judging rather than with the wish of learning from them. Though these expressions are even a better description of the conduct of proud people, who, when at length brought within holy church, are accustomed to looking at its opponents to consider not so much the years of their age as the intention of their words. Regardless of how much older the heretics may be than these same haughty people, they boldly overbear those persons in whose words they reprove false doctrine.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/32/11",
+      "full_content_url": "https://catenabible.com/com/5e1b61688bc66721fe4ef700",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 32:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

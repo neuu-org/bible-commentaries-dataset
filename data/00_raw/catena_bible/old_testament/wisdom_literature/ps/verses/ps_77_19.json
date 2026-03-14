@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 77:19",
+  "verse_text": "Verse text for PS 77:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/77/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "19. \"Thy way is in the sea\" (ver. 19). But now Thy way was in the Holy One, now \"Thy way is in the sea:\" because the Holy One Himself is in the sea, and with reason even did walk upon the waters of the sea. \"Thy way is in the sea,\" that is, Thy Christ is preached among the Gentiles. ...\"Thy way is in the sea, and Thy paths in many waters,\" that is, in many peoples. \"And Thy footsteps will not be known.\" He hath touched certain, and wonder were it if it be not those same Jews. Behold now the mercy of Christ hath been so published to the Gentiles, that \"Thy way is in the sea. Thy footsteps will not be known.\" How so, by whom will they not be known, save by those who still say, Christ hath not yet come? Why do they say, Christ hath not yet come? Because they do not yet recognise Him walking on the sea.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/77/19",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c2f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Known. The waters resumed their usual course, Hebrews iii. 15. The wheels of the enemy might be discerned long after. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/77/19",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be1df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 77:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

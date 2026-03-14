@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 13:24",
+  "verse_text": "Verse text for MK 13:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/13/24",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "But in those days, after that tribulation, the sun shall be darkened, and the moon shall not give her light, Ambrose of Milan As in its monthly eclipse, the moon, by reason of the earth coming between it and the sun, disappears from view, so likewise the holy church, when the vices of the flesh stand in the way of the celestial light, can no longer borrow the splendor of its divine light from the sun of Christ…. Also the stars, that is, leaders surrounded by the praise of their fellow Christians, shall fall, as the bitterness of persecution mounts up.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/24",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e8d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In the day of judgment the luminaries of heaven shall be darkened, not by the privation of their light, but by the approach of the true light of the world, i.e. the great Judge. And what cause for wonder can there be, that man should be terrified at the thoughts of the last day, when the angelic powers shall tremble; or, how will these mortal habitations of ours stand the shock, when the very pillars of heaven shall be moved? what will the tender osier suffer, when the lofty cedars of Paradise bend their head! (Ven. Bede)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/24",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf99b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "But in those days, after that tribulation, the sun shall be darkened, and the moon shall not give her light, Victorinus of Pettau We must not inordinately fix upon the chronology of what is said in Scripture, because frequently the Holy Spirit, having spoken of the end of the last times, then returns again to address a previous time, and fills up what had before been left unsaid. Nor must we look for a specific chronology in apocalyptic visions, but rather follow the meaning of those things which are prophesied.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/24",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e8c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 13:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

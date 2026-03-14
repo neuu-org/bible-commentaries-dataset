@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 13:22",
+  "verse_text": "Verse text for MK 13:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/13/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "The more the Adversary rages, the more error deceives. Senselessness makes its pretenses, envy inflames, covetousness makes blind, impiety depraves, pride puffs up, discord exasperates, anger hurries headlong…. Let the brethren beware of these things, for “I have told you all things beforehand.” Avoid such people. Drive them away from your side and your ears, as if their mischievous conversation were the contagion of death…. It is an enemy of the altar, a rebel against Christ’s sacrifice, who offers the faithful faithlessness, who is a disobedient servant, an impious son, a hostile brother, who despises bishops, who forsakes the elders, who dares to set up another altar to make another prayer with prohibited words, to profane the truth of the Lord’s offering. Treatises, On the Unity of the Church",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/13/22",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e8b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 13:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

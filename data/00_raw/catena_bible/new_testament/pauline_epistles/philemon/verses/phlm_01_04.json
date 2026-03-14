@@ -1,0 +1,80 @@
+{
+  "verse_reference": "PHLM 1:4",
+  "verse_text": "Verse text for PHLM 1:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/phlm/1/4",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Now Paul shifts to his own voice alone [i.e., not speaking for Timothy and himself] and speaks solely to Philemon. .",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/4",
+      "full_content_url": "https://catenabible.com/com/583ba9de205c248f42e53033",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Now Paul shifts to his own voice alone, not speaking for Timothy, and speaks solely to Philemon.",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/4",
+      "full_content_url": "https://catenabible.com/com/576218ce9fd295934bf12082",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For if others obtain the things they ask, much more Paul. If as an esteemed figure of authority, he was worthy to obtain, much more when he comes in all humility and asks a thing not pertaining to himself but in behalf of another.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/4",
+      "full_content_url": "https://catenabible.com/com/583ba9de205c248f42e53032",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He does not immediately at the commencement ask the favor, but having first admired the man, and having praised him for his good actions, and having shown no small proof of his love, that he always made mention of him in his prayers, and having said that many are refreshed by him, and that he is obedient and complying in all things; then he puts it last of all, by this particularly putting him to the blush. For if others obtain the things which they ask, much more Paul. If coming before others, he was worthy to obtain, much more when he comes after others, and asks a thing not pertaining to himself, but in behalf of another. Then, that he may not seem to have written on this account only, and that no one may say, If it were not for Onesimus you would not have written, see how he assigns other causes also of his Epistle. In the first place manifesting his love, then also desiring that a lodging may be prepared for him.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phlm/1/4",
+      "full_content_url": "https://catenabible.com/com/57eb0ef1b0d44ee10cfac709",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Again, first he expresses thanks; second he gives the reason for his gratitude: as I hear of your charity... ; third, the reason why he thanks God: For I had great joy and consolation... I give thanks to my God. Colossians 3:15: ‘Show yourself thankful.’ Philippians 4.6: ‘With thanksgiving let your petitions be made to God.’ As if he said: I give thanks for past things in order that I might pray for future things. Therefore he says: always making remembrance of you in my prayers... Philippians 11:7: ‘Because I have you in my heart, all of you, alike in my chains.’ Isaiah 49-15: ‘Can a woman forget her infant, so as not to have pity on the son of her womb? And if she should forget, yet will not I forget you.’",
+      "commentary_number": "5/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phlm/1/4",
+      "full_content_url": "https://catenabible.com/com/576218ce9fd295934bf1206e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHLM 1:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

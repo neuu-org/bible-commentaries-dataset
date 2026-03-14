@@ -1,0 +1,58 @@
+{
+  "verse_reference": "2PET 3:16",
+  "verse_text": "Verse text for 2PET 3:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2pt/3/16",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Now all men, having the same judgment, some, following the Word speaking, frame for themselves proofs; while others, giving themselves up to pleasures, wrest Scripture, in accordance with their lusts.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/3/16",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac90",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Lucius Caecilius Firmianus Lactantius",
+      "period": "AD320",
+      "content": "The sum of the matter is this: The unlearned and the foolish esteem false religions as true, because they neither know the true nor understand the false.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/3/16",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac92",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "As also in all his epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable twist, as they do also the other scriptures, unto their own destruction. Tertullian of Carthage Now, unquestionably, the Divine Scriptures are more fruitful in resources of all kinds for this sort of facility. Nor do I risk contradiction in saying. But all these (instances) I believe to be unknown to those who are in a state of agitation at our proceedings; or else known by the reading alone, not by careful study as well; in accordance with the greater bulk of \"the unskilled\".",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2pt/3/16",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bac91",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2PET 3:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

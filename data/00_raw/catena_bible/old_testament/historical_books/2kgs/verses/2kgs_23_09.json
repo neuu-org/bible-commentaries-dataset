@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 23:9",
+  "verse_text": "Verse text for 2KGS 23:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/23/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "How, then, do kings serve the Lord with fear except by forbidding and restraining with religious severity all acts committed against the commandments of the Lord? A sovereign serves God one way as man, another way as king; he serves him as man by living according to faith, he serves him as king by exerting the necessary strength to sanction laws that command goodness and prohibit its opposite. It was thus that Hezekiah served him by destroying the groves and temples of idols and the high places that had been set up contrary to the commandments of God; thus Josiah served him by performing similar acts.… It is thus that kings serve the Lord as kings when they perform acts in his service that none but kings can perform.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/23/9",
+      "full_content_url": "https://catenabible.com/com/5e1b69a48bc66721fe4efa1a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Nevertheless the priests of the high places came not up to the altar of the LORD in Jerusalem, but they did eat of the unleavened bread among their brethren. Thus people are degraded in the Christian Church, that they may suffer some confusion (Calmet) in this world, and repent. (Haydock) The priests, who had offered sacrifice unlawfully, where only permitted to perform the minor offices; but provision was made for their support, that they might not be tempted to relapse, Leviticus xxi. , and Ezechiel xliv. (Calmet) They were reduced to the rank of Levites. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/23/9",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd56c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 23:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

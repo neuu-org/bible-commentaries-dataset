@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 5:11",
+  "verse_text": "Verse text for ROM 5:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/5/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul teaches us not only that we should thank God, for the salvation and assurance which we have received, but that we should also rejoice in God through our Lord Jesus Christ, because through his Son the Mediator God has been pleased to call us his friends. Therefore we can rejoice that we have received every blessing through Christ, that through him we have come to know God. As we rejoice in him, let us therefore honor the Son equally with the Father, as he himself bears witness, saying: “That they may honor the Son as they honor the Father.” Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/5/11",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ecf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The fact that we who were such terrible sinners were saved is a very great sign, indicating how much we were loved by him who saved us. For it was not by angels or archangels but by his only begotten Son that God saved us! Homilies on Romans",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/5/11",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4ed0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 5:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

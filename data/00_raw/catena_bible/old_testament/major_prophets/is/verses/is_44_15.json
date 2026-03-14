@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 44:15",
+  "verse_text": "Verse text for IS 44:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/44/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "What do you think of them, and what is the nature of those who make gods from inanimate statues? For it is easy to see in the latter that they are works of artisans, prepared by axes and drills and such tools, the invention of skillful and industrious people, who through a need of food have found an instrument of leisurely falsehood. What do you think of the nature of God and about whether God needs our sacrifices and whether God is weak, as if according to Symmachus he is hungry and weak and feeble and cannot even drink water. The statement that God cannot drink water implies that he desperately needs liquid, while in fact God shares in no such thing, as though he were a dumb creature.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/44/15",
+      "full_content_url": "https://catenabible.com/com/5e88f317b1c7280cb341d0e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "We do not honor with many sacrifices and garlands of flowers such deities as humans have formed and set in shrines and called gods. For we see that these are soulless and dead and do not have the form of God (for we do not consider that God has such a form as some say that they imitate to his honor). These are names and forms of those wicked demons that have appeared. For why need we tell you who already know, into what forms the artisans, carving and cutting, casting and hammering, fashion their materials? And often out of vessels of dishonor, by merely changing the form and making an image of the requisite shape, they make what they call a god; which we consider not only senseless but to be even insulting to God, who, having indescribable glory and form, thus gets his name attached to things that are corruptible and require constant service.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/44/15",
+      "full_content_url": "https://catenabible.com/com/5e88f316b1c7280cb341d0e1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 44:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

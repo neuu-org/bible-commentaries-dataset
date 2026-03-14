@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 5:9",
+  "verse_text": "Verse text for ACTS 5:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/5/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Isodore of Seville",
+      "period": "AD636",
+      "content": "Then Peter said unto her, How is it that you have agreed together to tempt the Spirit of the Lord. behold, the feet of them who have buried your husband are at the door, and shall carry you out. Isodore of Seville The punishment by death from the wisest Peter against those who erred is not out of madness but out of teaching of prescient, letting go the many transgressions of mankind. For at that time they began sowing the seeds of the gospel, and knowing that darnels appeared besides naturally, they wisely plucked them out forthwith; it was taken care of by the future fire so as to burn lest they be gathered with the wheat.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/5/9",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabde5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then Peter said unto her, How is it that you have agreed together to tempt the Spirit of the Lord. behold, the feet of them who have buried your husband are at the door, and shall carry you out. And yet she might have perceived even from this that Peter knew the secret. For why, having questioned none other, does he question you. Was it not clear that he asked because he knew. But so great was her hardness, it would not let her attempt to evade the guilt; and with great confidence she replied; for she thought she was speaking only to a man. The aggravation of the sin was, that they committed it as with one soul, just as upon a settled compact between them.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/5/9",
+      "full_content_url": "https://catenabible.com/com/57ec81edb0d44ee10cfac8d9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 5:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

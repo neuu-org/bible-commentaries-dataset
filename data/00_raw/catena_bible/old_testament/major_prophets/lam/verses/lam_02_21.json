@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 2:21",
+  "verse_text": "Verse text for LAM 2:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/2/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Killed. Literally, \"stricken \"(Haydock) with unusual severity. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/2/21",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bef83",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Here is proclaimed a universality of punishment. About this three more views are advanced. First is viewed common punishment for everyone. As said: \"in the dust of the streets\", That is, the dead: \"the young and the old,\" Namely, the strong ones, inside and outside the city. For, Jeremiah 51:22 declares: \"with you I break in pieces man and woman; with you I break in pieces the old man and the youth; with you I break in pieces the young man and the maiden. \" Second, the indignation of the person punishing is reckoned. For, it says: \"In the day of thy anger thou hast slain them, slaughtering without mercy. \" Namely, by thy authority, yet by the ministry of the Chaldeans. Since, Isaiah 63:3 says: \"I trod them in my anger and trampled them in my wrath. \" Third, any idea of mercy, or pity, is excluded. As stated: \"slaughtering without mercy. \" And as Deuteronomy 32:39 states: \"See now that I, even I, am he, and there is no god besides me; I kill and I make alive; I wound and I heal; and there is none that can deliver out of my hand. \" Also, Job 5:19 says: \"He will deliver you from six troubles; in seven there shall no evil touch you.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/2/21",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d91",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 2:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

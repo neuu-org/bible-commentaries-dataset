@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:79",
+  "verse_text": "Verse text for PS 119:79",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/79",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "79. \"Let such as fear Thee,\" he saith, \"and have known Thy testimonies, be turned unto me\" (ver. 79). But who is he who saith this? For no mortal will venture to say this, or if he say it, should be listened to. Indeed, it is He who above also hath interposed His own words, saying, \"I am a partaker with all them that fear Thee.\" Because He was made sharer in our mortal state, that we might also become partakers in His Divine Nature, we became sharers in One unto life, He a sharer in many unto death. He it is unto whom they that fear God turn, and who know the testimonies of God, so long before predicted of Him through the Prophets, a little before displayed in His presence through miracles.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/79",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e664b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Turn to me. Let the wicked (Worthington) among those who adore the true God, enter into themselves, that we may form a holy league to support each other. (Haydock)\nMay we all obtain our liberty, (Calmet) or may they imitate my constancy. (St. Ambrose)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/79",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be41d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:79",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

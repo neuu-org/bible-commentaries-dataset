@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 144:11",
+  "verse_text": "Verse text for PS 144:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/144/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Who giveth salvation to kings, who redeemeth David His servant\" (ver. Ye know who David is; be yourselves David. Whence \"redeemeth He David His servant\". Whence redeemeth He Christ. Whence redeemeth He the Body of Christ. \"From the sword of ill intent deliver me. \" \"From the sword\" is not sufficient; he addeth, \"of ill intent. \" Without doubt there is a sword of good intent. What is the sword of good intent. That whereof the Lord saith, \"I came not to send peace on earth, but a sword. \" For He was about to separate believers from unbelievers, sons from parents, and to sever all other ties, while the sword cut off what was diseased, but healed the members of Christ. Of good intent then is the sword twice sharpened, powerful with both edges, the Old and New Testaments, with the narration of the past and the promise of the future. That then is the sword of good intent: but the other is of ill intent, wherewith they talk vanity, for that is of good intent, wherewith God speaketh verity. For truly \"the sons of men have teeth which are spears and arrows, and their tongue is a sharp sword. \" \"From\" this \"sword deliver me\" (ver. take me out of the hand of strange children, whose mouth hath spoken vanity:\" just as before. And that which followeth, \"their right hand is a right hand of iniquity,\" the same he had set down before also, when he called them \"many waters. \" For lest thou shouldest think that the \"many waters\" were good waters, he explained them by the \"sword of ill intent.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/144/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e679d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Children. Both Jews and Christians who live ill, are like strangers, who frame to themselves a temporal felicity, making riches and pleasures their god. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/144/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be51f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 144:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

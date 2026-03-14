@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 17:8",
+  "verse_text": "Verse text for MT 17:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/17/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "And when they had lifted up their eyes, they saw no man, except Jesus only. Theophylact of Ochrid. Not able to endure the brightness of the cloud, nor the voice, the disciples fell to the ground. Their eyes were also heavy with sleep, as Luke says (See Lk. ), (\"sleep\" indicating the daze caused by the vision). Lest the fear grip them for a long time and obliterate the memory of what they had seen, the Lord rouses them and reassures them. He is seen to be alone, so that you will not imagine that the voice was for Moses or Elijah; indeed, the voice was for Christ, as He is the Son.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/17/8",
+      "full_content_url": "https://catenabible.com/com/58a5ce5154b4f95416b2f724",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 17:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

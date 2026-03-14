@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 34:7",
+  "verse_text": "Verse text for EX 34:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/34/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Keepest. So the Targum of Jerusalem reads. Hebrew and Septuagint have, \"keepeth. \"\nNo man All have sinned, Romans iii. 23. Hebrew, \"who will not clear the guilty \"which is followed by the Chaldean and Septuagint. God is a just judge, who will assuredly punish the impenitent. Yet even in justice, he will remember mercy, and will stop at the third and fourth generation, (Calmet) when the influence of the progenitors' example can have but small influence upon their descendants. If, however, they prove guilty, they must expect chastisement, Exodus xx. 5.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/34/7",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc4c5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "What does it mean that the Lord now says through Moses, “You visit the iniquity of fathers on their sons and grandsons”. In these two passages a different sense is found, but the mind of the hearer is taught to inquire subtly along the path of discernment. We inherit original sin from our parents, and unless we are washed by the grace of baptism, we bear even our parents’ sins, because up to that point we are one with them. So God will visit the iniquity of the fathers upon their sons, for, through original sin, the soul of the offspring is stained by the guilt of the parent. But then God does not visit the iniquity of fathers on their sons, because, when we are freed from original guilt through baptism, we no longer have our parents’ guilt but only the guilt for sins we ourselves committed. This passage can also be understood in another way, because when each one imitates the iniquity of his sinful parent, he is rendered guilty through his parent’s fault. But whoever does not imitate the iniquity of his parent is not burdened with his sin. Thus it happens that the sinful son of a sinful father pays the penalty not only for his own sins, which he committed, but also for his father’s sins. For he does not fear to add his own malice to his father’s vices, even though he knows that the Lord is angered by them. It is just that a man who does not fear to imitate the ways of his wicked father before a busy judge is forced in this present life to pay the penalty for the faults of his wicked father. So Scripture says, “The soul of my father is mine; … the soul that sins, that one will die. ” For in the flesh sons sometimes perish for their father’s sin. But when the original sin that comes from the parents’ iniquity is forgiven, it is no longer kept in the soul. What does it mean that small children are often snatched away by demons, unless the son’s flesh suffers to punish the father. For the wicked father is struck at in his very self and refuses to sense the force of the blow. Generally he is struck in his sons, so that he burns painfully, and the father’s sorrow is visited on the son’s flesh, insofar as the father’s evil heart is punished by the son’s suffering. But when the sons who are punished for their fathers’ guilt are not little children but already grown, what else should we understand except that they are suffering the punishments of those people whose deeds they imitated. Thus Scripture says rightly, “To the third and fourth generation. ” For the sons can see the lives of the parents they imitate up to the third and fourth generation. Punishment extends up to them, for they saw what they would imitate sinfully. Exposition of the Old and New Testament, Exodus.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ex/34/7",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e528df",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 34:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

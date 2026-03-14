@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 109:30",
+  "verse_text": "Verse text for PS 109:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/109/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "30. \"For He stood at the right hand of the poor\" (ver. 30). It was said of Judas, \"Let Satan stand at his right hand;\" since he chose to increase his riches by selling Christ; but here the Lord stood at the right hand of the poor, that the Lord Himself might be the poor man's riches. \"He stood at the right hand of the poor,\" not to multiply the years of a life that one day must end, nor to increase his stores, nor to render him strong in the strength of the body, or secure for a time; \"but,\" he saith, \"to save my soul from the persecutors.\" Now the soul is rendered safe from the persecutors, if we do not consent to them unto evil; but there is no such consent to them when the Lord standeth at the right hand of the poor, that he may not give way through his very poverty, that is, weakness. This aid was given to the Body of Christ in the case of all the holy Martyrs.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/109/30",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65af",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "My. Hebrew, \"his soul from the judges \"Pilate and the Jews, (Calmet) particularly the Sanhedrim. How many still continue to persecute Christ, and do not tremble! (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/109/30",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3a6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 109:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

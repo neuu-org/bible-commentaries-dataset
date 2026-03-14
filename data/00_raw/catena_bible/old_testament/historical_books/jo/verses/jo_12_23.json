@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 12:23",
+  "verse_text": "Verse text for JO 12:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/12/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The king of Dor in the heights of Dor, one; the king of the people of Gilgal, one; Galgal, not where the Israelites had encamped, but that part which was afterwards called the Galilee of the Gentiles, in some corner of which the king in question had fixed his residence. For we cannot suppose that he ruled over all that country, extending from Tyre to beyond the Jordan. His people might probably be a mixed multitude of various nations, as Strabo (xvi. ) observes, that many parts of Palestine were peopled by men of this description.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/12/23",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcbe4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 12:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

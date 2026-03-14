@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 13:33",
+  "verse_text": "Verse text for ACTS 13:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He then shows them that Jesus was their Messias, and the Son of God, begotten of his Father from eternity, who rose from the dead, and he applies these words, (Psalm ii. ) to prove Christ's resurrection, thou art my son, this day have I begotten thee. It is true, these words regard chiefly the eternal generation of Christ, as they are applied by St. Paul, (Hebrews v. ) but the resurrection was a necessary consequence of his divinity, since death could have no power over him. Paul here also proves Christ's resurrection by the following predictions. (Witham) Second psalm. The oldest copy reads, first psalm. The difference is merely in words; for the division of the psalter at present is very different from what it formerly was: sometimes a single psalm of ours being divided into many, and many of our divisions making only one, according to the Hebrews. The latter are not even now agreed among themselves on the same division of the psalms. (Calmet) Some suppose, that what we call the first psalm was originally looked upon as a preface to the psalter; others, that our first and second psalms united in one.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/13/33",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfde8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "God has fulfilled the same unto us their children, in that he has raised up Jesus again; as it is also written in the second psalm, You are my Son, this day have I begotten you. Aye, upon this the rest follows of course. Why did he not allege some text by which they would be persuaded that forgiveness of sins is by Him. Because the great point with them was to show, in the first place, that He was risen: this being acknowledged, the other was unquestionable. Through this man, nay more, by Him, is remission of sins.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/33",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9346",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

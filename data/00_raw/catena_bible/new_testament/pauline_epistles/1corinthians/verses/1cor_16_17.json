@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1COR 16:17",
+  "verse_text": "Verse text for 1COR 16:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/16/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "1 Corinthians 16:17 I am glad of the coming of Stephanas and Fortunatus and Achaicus: for that which was lacking on your part they have supplied. Cornelius a Lapide I am glad of the presence of Stephanas, and Fortunatus, and Achaiacus. ) According to Anselm this presence means the presence of these men with the Corinthians to supply, teach, and strengthen them in the faith. ) According to Theophylact it is the presence of these men with S. Paul, to supply him with what he needed for his ministry from their own resources, and so to help forward the cause of Christ. This is undoubtedly S. Paul\"s meaning, and suits better with what follows.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/16/17",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52501",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Which was wanting on your part, they have supplied, by informing me, and giving me a full account of all. (Witham)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/16/17",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c003a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 16:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

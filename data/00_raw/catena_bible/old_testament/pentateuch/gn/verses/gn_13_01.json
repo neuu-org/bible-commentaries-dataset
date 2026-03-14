@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 13:1",
+  "verse_text": "Verse text for GN 13:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/13/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "So Abraham left, taking with him his wife Sarah, which means “sovereign,” not “servant.” Therefore it was said to Abraham, “Listen to your wife Sarah.” In fact, she who is liberated from the slavery of sin obtains sovereignty, not servitude. Therefore a sound mind possesses sovereign virtue, which has dominion over the bodily senses, which is not subject, which has brought back everything from Egypt, which has not left there any of the norms that regulate her life. Such a mind is not clothed with intemperance or insolence or shameful immodesty. Nor is it lacking the veil of prudent wisdom, and it is clothed with modesty. .",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/13/1",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e519fa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "South. With respect to Judea, which the sacred writers have always in view.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/13/1",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc06a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 13:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 89:10",
+  "verse_text": "Verse text for PS 89:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Lastly, what hast Thou done in the sea itself, to pacify its rage, and to weaken it. \"Thou hast humbled the proud as one that is wounded\" (ver. There is a certain proud serpent in the sea, of which another passage of Scripture speaks, \"I will command the serpent, and he shall bite him;\" and again, \"There is that Leviathan, whom Thou hast made to mock him,\" whose head He bruises above the water. \"Thou,\" he says, \"hast humbled the proud, as one that is wounded. \" Thou hast humbled Thyself, and the proud was humbled: for the proud held the proud ones through pride: but the great One is humbled, and by believing in Him become small. While the little one is nourished by the example of One who from greatness descended to humility, the devil has lost what he held: because the proud held only the proud. When such an example of humility was displayed before them, men learned to condemn their own pride, and to imitate the humility of God. Thus also the devil, by losing those whom he had in his power, has even himself been humbled; not chastened, but thrown prostrate. \"Thou hast humbled the proud like one that is wounded. \" Thou hast been humbled, and hast humbled others: Thou hast been wounded, and hast wounded others: for Thy blood, as it was shed to blot the handwriting of sins, could not but wound him. For what was the ground of his pride, except the bond which he held against us. This bond, this handwriting, Thou hast blotted out with Thy blood: him therefore hast Thou wounded, from whom Thou hast rescued so many victims. You must understand the devil wounded, not by the piercing of the flesh, which he has not, but by the bruising of his proud heart. \"Thou hast scattered Thine enemies abroad with Thy mighty arm.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/89/10",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cde",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Proud one. Hebrew Rahab, Egypt or Pharao, Psalm lxxxvi. 4., and Isaias li. 9. (Calmet) He alludes to the plagues inflicted on the Egyptians (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/10",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be291",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

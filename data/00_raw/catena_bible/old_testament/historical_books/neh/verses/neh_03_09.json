@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 3:9",
+  "verse_text": "Verse text for NEH 3:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/3/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And they rose up to stand, and they read from the Book of the Law of the Lord their God four times a day, and four times at night they confessed and prayed to the Lord their God. For who would not be amazed that such a great people had such extraordinary concern for devotion that four times a day - that is, at the first hour of the morning, the third, the sixth and the ninth, when time was to be made for prayer and psalmody - they gave themselves over to listening to the divine law in order to renew their mind in God and come back purer and more devout for imploring his mercy; but also four times a night they would shake off their sleepiness /1325/ and get up in order to confess their sins and to beg pardon. From this example, I think, a most beautiful custom has developed in the Church, namely that through each hour of daily psalmody a passage from the Old or New Testament is recited by heart1 for all to hear, and thus strengthened by the words of the apostles or the prophets, they bend their knees to perseverance in prayer, but also at night, when people cease from the labors of doing good works, they turn willing ears to listen to divine readings.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/3/9",
+      "full_content_url": "https://catenabible.com/com/58fe876d543064d91d46c3f0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Street. Protestants, \"of the half part \"(Haydock) belonging to Benjamin. Sellum was the inspector of that part which fell to the share of Juda, ver. 12., and chap. iv. 19. (Grotius)\nJerusalem, like all great cities, was divided into parts. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/3/9",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 3:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

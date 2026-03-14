@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 139:4",
+  "verse_text": "Verse text for PS 139:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/139/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Thou hast understood my thoughts from afar; Thou hast tracked out my path and may limit\" (ver. 3); \"and all my ways Thou hast seen beforehand\" (ver. What is, \"from afar\". While I am yet in my pilgrimage, before I reach that, my true country, Thou hast known my thoughts. The younger son went into a far country. After his toil and suffering and tribulation and want, he thought on his father, and desired to return, and said, \"I will arise, and go to my father. \" \"I will arise,\" said he, for before he had sat. Here then thou mayest recognise him saying, \"Thou hast known my down-sitting and up-rising. \" I sat, in want; I arose, in longing for Thy Bread. \"Thou hast understood my thoughts from afar. \" For far indeed had I gone; but where is not He whom I had left. Wherefore the Lord saith in the Gospel, that his father met him as he was coming. Truly; for \"he had understood his thoughts from afar. \" \"My path,\" he saith; what, but a bad path, the path he had walked to leave his father. What is, \"my path\". that by which I have gone. What is, \"my limit\". that whereunto I have reached. \"Thou hast tracked out my path and my limit. \" That limit of mine, far distant as it was, was not far from Thine eyes. Far had I gone, and yet Thou wast there. \"And all my ways Thou hast seen beforehand. \" He said not, \"hast seen,\" but, \"hast seen beforehand. \" Before I went by them, before I walked in them, Thou didst see them beforehand; and Thou didst permit me in toil to go my own ways, that, if I desired not to toil, I might return into Thy ways. \"For there is no deceit in my tongue. \" What meant he by this. Lo, I confess to Thee, I have walked in my own way, I am become far from Thee, I have departed from Thee, with whom it was well with me, and to my good it was ill with me without Thee.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/139/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e674f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "No speech, viz., unknown to thee: or when there is no speech in my tongue, yet my whole interior and my most secret thoughts are known to thee. (Challoner)\nVatican Septuagint, \"no evil speech. \"Aldus, \"no deceit. \"(Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/139/4",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 139:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

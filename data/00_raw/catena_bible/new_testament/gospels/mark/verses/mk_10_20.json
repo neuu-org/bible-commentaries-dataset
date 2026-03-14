@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 10:20",
+  "verse_text": "Verse text for MK 10:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/10/20",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But the young man went away sad, so anyone can see how far he kept those commandments of the law. I think he spoke with more pride than truth when he answered that he had kept them. Letter , To Hilarius.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/20",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e0f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "We must recollect, that to the faithful observers of the Mosaic law, not only present goods were given, but the happiness of a future life promised. Hence our Lord with reason inquired, whether he had kept the commandments. The innocent life of this young man is deserving of our imitation. (Ven. Bede)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/20",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf96b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "He who declared that he had observed all the commandments had already yielded to the power of riches from the very outset. Letter , To Julian.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/20",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e0e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 10:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

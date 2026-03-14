@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 5:30",
+  "verse_text": "Verse text for MK 5:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/5/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "had gone out of Him, and had healed her; not as if any quality had gone out from Christ\"s hem, or as if this virtue had gone from place to place, from the hem into the woman who had the issue of blood, but by reason of the effect which it produced in the woman. For the virtue abiding in Christ wrought the effect of healing in the woman. Like as, saith Theophylact, the learning of doctors is said to be communicated to their disciples, when, nevertheless, the learning itself remains in the doctors, and produces its effect only, that Isaiah , a like knowledge in the disciples. Observe, this virtue of healing and working miracles conferred by the Word upon the humanity of Christ, was not a physical quality. For that would have been infinite, as having divine and infinite efficacy, of which the humanity of Christ was not capable, being created. But it was a moral quality, that is to say, an instrumental virtue. For the humanity of Christ did these things as an instrument of the divinity. Who hath touched My garments. Christ asks this question, says Bede, that the healing which He had given to the woman, being declared and made known, might advance in many the virtue of faith, and draw them to believe in Christ.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/5/30",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e59",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Virtue that hath proceeded from him. Virtue to heal this woman's malady proceeded from Christ, though she touched but his coat: so when the saints by their relics and garments perform miracles, the grace and force thereof cometh from our Saviour; they being but the means of instruments of the same. (Bristow)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/5/30",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf935",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 5:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

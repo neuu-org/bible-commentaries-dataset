@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 7:17",
+  "verse_text": "Verse text for ROM 7:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/7/17",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Prius enim dixit: \"Sed inhabitarts in me peccatum; \"propter quod consentaneum erat dicere illud: \"Non habitat in came mea bonum.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/17",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba00",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gennadius of Constantinople",
+      "period": "AD471",
+      "content": "All this is reminiscent of what was said by the Lord in the Gospels: “The spirit is willing but the flesh is weak.” .",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/17",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4fec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Now then it is no more I that do it: To will good is present with me. These expressions all show that he speaks of temptations that affect the sense only, the imagination, or the members of the body, but to which the mind and the will give no consent, but retain an aversion to them; and so long they never can be truly and properly sins, which must be with full deliberation and consent. (Witham) The apostle here means to say, that he knew by experience that evil and not good dwelt within him, according to the flesh. He does not contradict this passage when he says elsewhere, that our members are the temples of the Holy Spirit: (1 Corinthians iii. ) for good cannot be found in our flesh, inasmuch as it is corrupted by sin; whence our Saviour says, \"What is born of flesh, is flesh. ) But good is in our body, when our members under the influence of the soul, renewed by the Holy Spirit residing in it, are employed in good works. The meaning of this passage is, that although now healed and renewed by grace, he could have a perfect desire of doing good; yet still on account of the evil of concupiscence dwelling in his flesh, he found not himself able to perform all the good he wished, because concupiscence was always urging him on to evil against his will.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/7/17",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bff25",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "-that, surely, which he previously mentioned as dwelling in our members.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/7/17",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba01",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 7:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

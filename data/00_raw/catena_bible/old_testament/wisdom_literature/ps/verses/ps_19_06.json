@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 19:6",
+  "verse_text": "Verse text for PS 19:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/19/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "7. \"His going forth is from the highest heaven\" (ver. 6). From the Father is His going forth, not that in time, but from everlasting, whereby He was born of the Father. \"And His meeting is even to the height of heaven.\" And in the fulness of the Godhead He meets even to an equality with the Father. \"And there is none that may hide himself from His heat.\" But whereas, \"the Word was even made flesh, and dwelt in us,\" assuming our mortality, He permitted no man to excuse himself from the shadow of death; for the heat of the Word penetrated even it.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/19/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e687b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Its going forth is from the end of the heaven, and its circuit unto the ends of it: and there is nothing hid from the heat thereof. So the Hebrew word is rendered \"revolution. \"Septuagint and Vulgate, \"meeting \"occurs us, may insinuate that the sun is found in the centre, while the earth moves daily and yearly round it, according to the Copernican system. But we must be more attentive to the life and motions of Jesus Christ, in whom the Deity resided corporally.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/19/6",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdef4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 19:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

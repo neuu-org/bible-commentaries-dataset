@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 13:13",
+  "verse_text": "Verse text for PRV 13:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/13/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Whosoever despises the word shall be destroyed: but he that fears the commandment shall be rewarded. To defend what he has asserted, or to pass for a liar. Hebrew, \"shall be destroyed by it. ) (Haydock) Those who despise God's order shall perish. Deceitful This is not in Hebrew, nor in some of the Latin editions. (Calmet) Septuagint, \"to the deceitful son nothing shall be good. But the ways of the wise servant shall prosper, and his paths shall be made straight \"chap.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/13/13",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be632",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 13:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

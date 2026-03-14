@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 10:41",
+  "verse_text": "Verse text for JO 10:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/10/41",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Gaza. These cities were on the southern limits of the land of Chanaan, and of the Philistines.\nGosen, or Gessen, where the Hebrews had formerly dwelt. It was then very fertile, chap. xiii. 3. The territory of Juda extended as far as the Nile; (Calmet) or this country may have resembled the country of Gessen, Genesis xlvi. (Menochius)\nIt seems indeed rather wonderful, that if this was a part of the promised land, God should order his people to leave it, as it were, to the Egyptians; and after they had occupied another part of the country, should seize it again. But he might have secret reasons for this order. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/10/41",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcbc4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 10:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

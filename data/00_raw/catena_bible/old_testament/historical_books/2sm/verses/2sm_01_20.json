@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 1:20",
+  "verse_text": "Verse text for 2SM 1:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/1/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Triumph. He was aware of the exultation of the infidels. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/1/20",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd054",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "You have heard David’s lament for Saul.… If David did not wish the matter paraded in public so that it might not be a source of joy to his foes, so much the more must we avoid spreading the story to alien ears. Rather, we must not spread it even among ourselves for fear that our enemies may hear it and rejoice, for fear that our own may learn of it and fall. We must hush it up and keep it guarded on every side. Do not say to me, “I told so-and-so.” Keep the story to yourself. If you did not manage to keep quiet, neither will he manage to keep his tongue from wagging.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/1/20",
+      "full_content_url": "https://catenabible.com/com/5de46d0b8b87fe0847ee86c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 1:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

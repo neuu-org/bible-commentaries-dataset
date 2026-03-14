@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 19:30",
+  "verse_text": "Verse text for ACTS 19:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/19/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "so far were they from all display and love of glory. And certain of the Asiarchs, which were his friends, sent unto him, desiring him that he would not adventure himself into the theatre",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/19/30",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9457",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul then wished to enter in that he might harangue them: for he took his persecutions as occasions for teaching: but the disciples suffered him not. Mark, how great forethought we always find them taking for him. At the very first they brought him out that they might not (in his person) receive a mortal blow; and yet they had heard him say, I must also see Rome. But it was providential that he so predicts beforehand, that they might not be confounded at the event. But they would not that he should even suffer any evil. And certain of the Asiarchs besought him that he would not enter into the theatre. Knowing his eagerness, they besought him: so much did all the believers love him.— And they drew Alexander, etc.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/19/30",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9466",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 19:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

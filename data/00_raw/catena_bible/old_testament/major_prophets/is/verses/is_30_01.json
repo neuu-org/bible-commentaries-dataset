@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 30:1",
+  "verse_text": "Verse text for IS 30:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/30/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Reprimand is disapproval expressed in correction or strongly worded blame. The Educator resorts to this method of training when he says through Isaiah, “Woe to you, apostate children, says the Lord, that you would take counsel and not of me, and make treaties and not of my Spirit.” He flavors each pronouncement in turn with the tart spice of fear to whet the appetite of his people for salvation and make them more aware of it, just as wool to be dyed is usually steeped first in an astringent to prepare it to preserve the dye.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/30/1",
+      "full_content_url": "https://catenabible.com/com/5e4f7fb2c849cf49a740e41b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of me. Ezechias was guided by human prudence, in making an alliance with Egypt, though he might have just reasons for refusing to pay tribute to the Assyrians, 4 Kings xviii. 20. (Calmet)\nAnd. Septuagint, \"alliances not by \"(Haydock)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/30/1",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea33",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Let every man and woman among us, whether meeting together at church or remaining at home, call upon God with much earnestness, and he will doubtless accede to these petitions. Whence does this appear evident. Because he is exceedingly desirous that we should always take refuge in him and in everything make our requests to him; [he desires that we] do nothing and speak nothing without him. For men, when we trouble them repeatedly concerning our affairs, become slothful and evasive and conduct themselves unpleasantly toward us; but with God it is quite the reverse. Not when we apply to him continually respecting our affairs, but when we fail to do so, then is he especially displeased. Hear at least what he reproves the Jews for, when he says, “You have taken counsel, but not of me, and made treaties but not by my Spirit. ” For this is the custom of those who love; they desire that all the concerns of their beloved should be accomplished by means of themselves; and that they should neither do anything, nor say anything, without them. … Let us not then be slow to take refuge in him continually; and whatever be the evil, it will in any case find its appropriate solution.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/30/1",
+      "full_content_url": "https://catenabible.com/com/5e4f7fb2c849cf49a740e41a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 30:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

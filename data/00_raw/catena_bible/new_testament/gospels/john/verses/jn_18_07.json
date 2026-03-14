@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JN 18:7",
+  "verse_text": "Verse text for JN 18:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/18/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "If therefore ye seek Me, let these go their way. Why was this? (1.) That He might by His own death alone redeem the world. \"He removed His disciples out of danger,\" says S. Cyril, \"as knowing that the contest and the work of our salvation pertained to Him alone, as being the work of a ruler and not of one under him.\" (2.) Because He destined the Apostles to succeed Him, and spread His truth over the world after His death and Resurrection. (3.) To show His great love and care for them, as a shepherd careth for his sheep, as S. John suggests in the next verse.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/18/7",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52368",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 18:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

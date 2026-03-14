@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 38:22",
+  "verse_text": "Verse text for PS 38:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/38/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Depart not from me. Make haste to help me, Lord of my salvation\" (ver. This is that very \"salvation,\" Brethren, concerning which, as the Apostle Peter saith, \"Prophets have enquired diligently,\" and though they have enquired diligently, yet have not found it. But they searched into it, and foretold of it; while we have come and have found what they sought for. And see, we ourselves too have not as yet received it; and after us shall others also be born, and shall find, what they also shall not receive, and shall pass away, that we may, all of us together, receive the \"penny of salvation in the end of the day,\" with the Prophets, the Patriarchs, and the Apostles. For you know that the hired servants, or labourers, were taken into the vineyard at different times; yet did they all receive their wages on an equal footing. Apostles, then, and Prophets, and Martyrs, and ourselves also, and those who will follow us to the end of the world, it is in the End itself that we are to receive everlasting salvation; that beholding the face of God, and contemplating His Glory, we may praise Him for ever, free from imperfection, free from any punishment of iniquity, free from every perversion of sin: praising Him; and no longer longing after Him, but now clinging to Him for whom we used to long to the very end, and in whom we did rejoice, in hope. For we shall be in that City, where God is our Bliss, God is our Light, God is our Bread, God is our Life; whatever good thing of ours there is, at being absent from which we now grieve, we shall find in Him. In Him will be that \"rest,\" which when we \"call to remembrance\" now, we cannot choose but grieve. For that is the \"Sabbath\" which we \"call to remembrance;\" in the recollection of which, so great things have been said already; and so great things ought to be said by us also, and ought never to cease being said by us, not with our lips indeed, but in our heart: for therefore do our lips cease to speak, that we may cry out with our hearts.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/38/22",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69d6",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Attend. Hebrew, \"hasten \"which is the sense of prosches, \"attend. \"(Septuagint) (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/38/22",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be018",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 38:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

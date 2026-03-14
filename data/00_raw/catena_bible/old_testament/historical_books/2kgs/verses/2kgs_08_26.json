@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 8:26",
+  "verse_text": "Verse text for 2KGS 8:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/8/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In 2 Paralipomenon xxii. , we read forty, by mistake of the transcribers, as Ochozias, (Joachaz, or Azarias, 2 Paralipomenon xxi. ) would thus be older than his father, who died at the age of forty, 2 Paralipomenon xxi. All the original versions, and many copies of the Septuagint read \"twenty-two \"in both passages; and those who would admit no mistake, are forced to have recourse to explanations which can give no satisfaction. De Dieu would include in the reign of Ochozias the six years of Athalia's usurpation, and the thirteen of Joas, during his minority. Others would date from the separation of the two kingdoms But would the Holy Spirit cause the same fact to be recorded in two places in such a different manner. The best chronologists acknowledge a mistake in the Hebrew text of Paralipomenon. (Cajetan; Salien; Petau; Tirinus; Calmet) as the letters which denote these numbers are not unlike (Mariana:) c (20) might easily be exchanged for m (40. ) (Haydock) Daughter. That is, grand-daughter; for she was daughter of Achab, son of Amri, ver. , (Challoner) unless she was only adopted by Achab. (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/8/26",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd485",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Daughter: That is, grand-daughter; for she was daughter of Achab son of Amri, ver. 18.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/8/26",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa070",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 8:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

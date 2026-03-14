@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 20:20",
+  "verse_text": "Verse text for 2KGS 20:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/20/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "City. Probably before it was besieged by Sennacherib, 2 Paralipomenon xxxii. 4.\nJuda, and in the works of Isaias, 2 Paralipomenon xxxii. 32., and Isaias xxxvii., xxxviii., and xxxix. The prophet gives us the canticle of this pious king, who shone with so great splendour, and did so much for the good of his people, chap. xviii. 4, 5., and Ecclesiasticus xlviii. 19. (Calmet)\nHe generously opposed the reign of vice, and though threatened with the most imminent dangers, came off with victory. Thus Jesus Christ declared war against idolatry and all vice, and established his Church in the midst of persecution. (Haydock)\nEzechias was conducted to the gates of death, and brought back; Christ rose victorious from the grave, as the holy king seems to have foreseen, Isaias xxxviii. 19. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/20/20",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd54c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 20:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 10:21",
+  "verse_text": "Verse text for HEB 10:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/10/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And a high priest; i.e. and having a great priest, to wit, Christ, over the house of God, that is, over the Church, or over all the faithful, both in the Church militant on earth and in the Church triumphant in heaven. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/10/21",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0318",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Let us draw near (he says) with a true heart. To what should we draw near? To the holy things, the faith, the spiritual service. With a true heart, in full assurance of faith, since nothing is seen; neither the priest henceforward, nor the sacrifice, nor the altar. And yet neither was that priest visible, but stood within, and they all without, the whole people. But here not only has this taken place, that the priest has entered into the holy of holies, but that we also enter in. Therefore he says, in full assurance of faith. For it is possible for the doubter to believe in one way, as there are even now many who say, that of some there is a resurrection and of others not. But this is not faith. In full assurance of faith (he says); for we ought to believe as concerning things that we see, nay, even much more; for here it is possible to be deceived in the things that are seen, but there not: here we trust to the senses, but there to the Spirit.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/10/21",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac823",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 10:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

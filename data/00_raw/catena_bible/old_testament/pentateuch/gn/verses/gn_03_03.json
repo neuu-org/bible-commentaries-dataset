@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 3:3",
+  "verse_text": "Verse text for GN 3:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/3/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But of the fruit of the tree which is in the midst of the garden, God has said, You shall not eat of it, neither shall you touch it, lest you die. Not touch it. She exaggerates, through dislike of restraint, St. Or through reverence, she thought it unlawful to touch what she must not eat, lest perhaps, as if there could be any doubt. \"God asserts, the woman doubts, Satan denies. Bernard) Thus placed, like Eve, between God and the devil, to whom shall we yield our assent. (Haydock) Perhaps we die, Hebrew, \"lest ye die.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/3/3",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bbff8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 3:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

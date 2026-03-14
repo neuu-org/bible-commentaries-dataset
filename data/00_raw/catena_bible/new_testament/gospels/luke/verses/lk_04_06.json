@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 4:6",
+  "verse_text": "Verse text for LK 4:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/4/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ignatius of Antioch",
+      "period": "AD108",
+      "content": "Yea, thou even darest, most accursed one, to appropriate the works of God to thyself, and to declare that the dominion over these was delivered to thee.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/4/6",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc3e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "He then, having been thus signally defeated, and then, as it were, concentrating his forces, drawing up in order all his available power for falsehood, in the third place \"showed Him all the kingdoms of the world, and the glory of them\".\nIf then he be a liar and the truth be not in him, he certainly did not speak truth, but a lie, when he said, \"For all these things are delivered to me, and to whomsoever I will I give them.\".\nAs therefore the devil lied at the beginning, so did he also in the end, when he said, \"All these are delivered unto me, and to whomsoever I will I give them.\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/4/6",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc3f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 4:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

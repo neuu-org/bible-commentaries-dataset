@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 12:26",
+  "verse_text": "Verse text for MK 12:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/12/26",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And concerning the dead, that they rise: have you not read in the book of Moses, how in the bush God spoke unto him, saying, I am the God of Abraham, and the God of Isaac, and the God of Jacob. The doctrine of the resurrection from the dead is clearly given in the book of Moses, where mention is made of the burning bush, from the midst of which God appeared to Moses: have you not read, I say, what God there said to him. As God is the God of the living, you must be in an egregious error in imagining, that such as die in the eyes of the world not to return thither any more, die in the same manner in the eyes of God, to live no more. (Bible de Vence).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/12/26",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf98c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 12:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

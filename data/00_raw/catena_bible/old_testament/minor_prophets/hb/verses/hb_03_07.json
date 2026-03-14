@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HB 3:7",
+  "verse_text": "Verse text for HB 3:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hb/3/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "However, we who are exposed to the outbreaks of barbarians and the storms of war are tossed in the midst of a sea of many troubles and can only infer from these labors and trials more grievous trials in the future. The saying of the prophet seems to be in accord with our condition: “I saw the tents of the Ethiopians for their labors.” Having now lived fiftythree years in the body, amid the shadows of this world that obscure the reality of the future perfection, and having already endured such heavy sorrows, am I not encamping in the tents of the Ethiopians and dwelling with the inhabitants of Midian? They, owing to their knowledge of the works of darkness, fear to be judged even by mortal men. “For the spiritual man judges all things, and he himself is judged by no man.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hb/3/7",
+      "full_content_url": "https://catenabible.com/com/5839eeff205c248f42e52fda",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Ethiopia: the land of the Blacks, and Madian, are here taken for the enemies of God and his people: who shall perish for their iniquity.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hb/3/7",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9ec9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HB 3:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

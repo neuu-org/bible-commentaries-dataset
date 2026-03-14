@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 103:18",
+  "verse_text": "Verse text for PS 103:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/103/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"And His righteousness upon children's children\" (ver. He speaketh of reward, \"upon children's children. \" How many servants of God are there who have not children, how much less children's children. But He calleth our works our children; the reward of works, our \"children's children. \" \"Even upon such as keep His covenant. \" Let men beware that all may not conceive what is here said to belong to themselves: let them choose, while they have the choice. \"And keep in memory His commandments to do them. \" Thou wast already disposed to flatter thyself, and perhaps to recite to me the Psalter, which I have not by heart, or from memory to say over the whole Law. Clearly thou art better in point of memory than I, better than any righteous man who doth not know the Law word for word: but see that thou keep the commandments. But how shouldest thou keep them. Not by memory, but by life. \"Such as keep in memory His commandments:\" not, to recite them; but, \"to do them. \" And now perhaps each man's soul is disturbed. Who remembereth all the commandments of God. who remembereth all the writings of God. Lo, I wish not only to hold them in my memory, but also to do them in my works: but who remembereth them all. Fear not: He burdeneth thee not: \"on two commandments hang all the Law and the Prophets.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/103/18",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6521",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 103:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

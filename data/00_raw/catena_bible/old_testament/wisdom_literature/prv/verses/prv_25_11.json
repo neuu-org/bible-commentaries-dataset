@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 25:11",
+  "verse_text": "Verse text for PRV 25:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/25/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Time, (Symmachus) \"on its wheels \"(Hebrew) flowing smoothly, (Calmet) or \"according to his two faces, is apples of gold in network of silver. \"The Scriptures have a double sense. The exterior one leads to that sense which is interior, and more excellent. (Maimonides) (Parkhurst, p. 366.)\nGold, oranges.\nBeds. On such the kings of Parthia slept, and these metals were very common under Solomon, 3 Kings x. 27., and Esther i. 6. (Calmet)\nMontanus renders mascioth \"transparent cases. \"Protestants, \"pictures of silver.\"",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/25/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be735",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 25:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 17:6",
+  "verse_text": "Verse text for REV 17:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/17/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And I saw the woman drunken with the blood of the saints, and with the blood of the martyrs of Jesus: and when I saw her, I wondered with great wonder. Drunk with the blood of the saints. Such was pagan Rome, for innumerable were the martyrs she put to death, both throughout the extent of her vast dominions, and even in her own bosom, the city itself. These were the victims of the ten persecutions raised by Rome against the Christians. Such was the woman drunk with the blood of the saints, and with the blood of the martyrs of Jesus. (Pastorini).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/17/6",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c04bf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "When great Babylon likewise is represented as drunk with the blood of the saints,",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/17/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb8b9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 17:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

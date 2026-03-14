@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 48:3",
+  "verse_text": "Verse text for IS 48:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/48/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Eusebius of Caesarea",
+      "period": "AD339",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I have declared the former things from the beginning; and they went forth out of my mouth, and I showed them; I did them suddenly, and they came to pass. Eusebius of Caesarea It is not in human nature to know things that are to come. I am the God who foretells them even now and who did so throughout former times. In addition, the predictions that previously came through the mouths of my other prophets as declarative of many things to come were reported by and complied with by those prophesying, to whom the events seemed to fit the words of the other prophets.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/48/3",
+      "full_content_url": "https://catenabible.com/com/5e88f332b1c7280cb341d155",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Suddenly, when there was no human appearance of the event, as when I foretold the exploits of Cyrus and the ruin of Babylon so long before.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/48/3",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb1a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 48:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

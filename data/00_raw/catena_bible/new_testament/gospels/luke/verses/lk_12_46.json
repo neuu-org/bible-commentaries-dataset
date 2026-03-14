@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 12:46",
+  "verse_text": "Verse text for LK 12:46",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/12/46",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And shall cut him asunder. That Isaiah , shall separate him from Himself, and His household, the Church triumphant; from the society of the Blessed and from the Beatitude promised to the faithful servants. See St. Jerome on Matt. xxiv.: \"Shall cut him asunder, that Isaiah , shall separate him from the Communion of Saints.\" St. Hilary: \"Shall separate him from the good promises;\" Origen: \"Shall cut him off from the gift of the Holy Spirit and from the society and guardianship of the Angels, for Christ will deprive him of all grace, all virtue, all help, and all hope of salvation.\"\nAnd appoint his position with the unfaithful. That Isaiah , shall punish him with the other servants who were unfaithful to him, although they pretended to be the contrary. Hence Matthew 24:51 has \"with the hypocrites.\" These unfaithful are perhaps the unbelieving—they who would not believe in Christ, and of whom it is said, \"He that believeth not hath been judged already.\" S. John 3:18.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/12/46",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fe4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 12:46",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

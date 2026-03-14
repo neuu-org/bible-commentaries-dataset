@@ -1,0 +1,69 @@
+{
+  "verse_reference": "JN 1:27",
+  "verse_text": "Verse text for JN 1:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/1/27",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "While he, though speaking more perspicuously as no longer prophesying, but pointing out as now present, Him, who was proclaimed symbolically from the beginning, nevertheless said, \"I am not worthy to loose the latchet of the Lord's shoe.\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/1/27",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb2b9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "He it is who, coming after me, &c. After me Christ shall come to baptize you, that by His baptism He may perfect mine, and may wash and justify them that are penitent. As S. Cyril paraphrases, \"I in preparation wash with water those who are polluted with sins as a beginning of repentance, and by this means leading you from what is lower I prepare you for more lofty things. For He who is the giver of greater things, and of the highest perfection, is about to come after me.\" Or, as S. Chrysostom says,\n\"My baptism is only a disposition and preparation for the baptism of Christ. Mine is of water and corporeal, Christ\"s is of fire and spiritual.\"\nWhose shoe\"s latchet, &c. As though he said, \"I am not worthy to be reckoned amongst the last of the servants of Christ, on account of the greatness of the Deity which is in Him.\"",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/1/27",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "I acknowledge my own servitude, I proclaim Thy glorious greatness, I recognise Thy perfect lordship, I recognise my own perfect insignificance, I am not worthy to unloose the latchets of Thy shoes;",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/1/27",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb2bb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "I am worthless, and the least; but \"after me there comes One who is before me\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/1/27",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb2ba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 1:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

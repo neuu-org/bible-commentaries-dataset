@@ -1,0 +1,69 @@
+{
+  "verse_reference": "DN 3:7",
+  "verse_text": "Verse text for DN 3:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/3/7",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "adored: Some did so because they feared the king himself; but all or “most”, because they were idolaters, obeyed the word commanded by the king.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/3/7",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f44a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "All the people fell. Some (did so) because they feared the king himself; but all (or most), because they were idolaters, obeyed the word commanded by the king.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/3/7",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac137",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh At the outset the king admired the prophet’s wisdom, and professed belief that his God is the God of all. But in a brief period of time he returned to his former self, like a dog to his vomit, as the Scriptures says Prov 26:11. (Theodoret of Cyrus) or the fact that in a polytheistic country many gods were worshipped. Most) It is the higher ranks which stand in the greater peril, and those who occupy the loftier position are the more sudden in their fall.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/3/7",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f448",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "We are to take this statement in the same sense as above, so that we understand that all the peoples were represented by their leaders. For of course it was impossible for all the nations to attend at one time.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/3/7",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd29e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 3:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

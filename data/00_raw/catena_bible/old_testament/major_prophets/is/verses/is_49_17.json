@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 49:17",
+  "verse_text": "Verse text for IS 49:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/49/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Your children shall make haste; your destroyers and they that made you waste shall go forth from you. Augustine of Hippo Since by the command of the apostle we are not allowed to understand this as about the Jewish people but about Christians, what are we to understand in that which Isaiah says here, “you will quickly be built up by those from whom you fled,” except the kings of the earth who formerly persecuted the church and later would help it as much as previously foretold.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/49/17",
+      "full_content_url": "https://catenabible.com/com/5e88f345b1c7280cb341d1a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of thee. Sanballat, shall yield to Zorobabel, Nehemias",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/49/17",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb31",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 49:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

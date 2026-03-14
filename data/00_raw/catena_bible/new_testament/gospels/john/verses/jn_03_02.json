@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JN 3:2",
+  "verse_text": "Verse text for JN 3:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/3/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "More ready is Nicodemus to believe, but overcome by no good fear, and not despising the opinion of men, he refuses boldness, and is divided in opinion into two, and halts in purpose, feeble upon both his knee joints, as it is written, forced by the convictions of his conscience to the duty of believing by reason of the exceedingness of the miracles, but esteeming the loss of rulership over his own nation a thing not to be borne, for he was a ruler of the Jews. Deeming that he can both preserve his repute with them, and be a disciple secretly, he cometh to Jesus, making the darkness of the night an aider of his scheme, and by his secret coming convicted of double mindedness.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/3/2",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabe5b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 3:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

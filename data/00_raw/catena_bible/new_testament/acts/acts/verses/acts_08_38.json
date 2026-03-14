@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 8:38",
+  "verse_text": "Verse text for ACTS 8:38",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/8/38",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And he commanded the chariot to stand still: and they went down both into the water, both Philip and the eunuch; and he baptized him. We are not to suppose that in the administration of the sacraments in the primitive Church, nothing more was done than what we read, totidem litteris, in the Scripture. Augustine answers this, when he says: \"insomuch that he saith, Philip baptized him, he would have it understood, that all things were done, which though in the Scripture, for brevity sake, they are not mentioned, yet by order of tradition we know were to be done.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/38",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfda2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "The one who is to be baptized must first step toward contrition and confession.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/38",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabdf0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He spoke, and gave the order at the same moment, before hearing (Philip's answer). And when they had come up out of the water, the Spirit of the Lord caught away Philip;",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/8/38",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f27b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 8:38",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

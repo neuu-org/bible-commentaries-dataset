@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 4:5",
+  "verse_text": "Verse text for ROM 4:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/4/5",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "This refers to somebody who is bound by sin and who therefore does not do what the law commands. Paul says this because to an ungodly person, that is, to a Gentile, who believes in Christ without doing the works of the law, his faith is reckoned for righteousness just as Abraham’s was. How then can the Jews think that they have been justified by the works of the law in the same way as Abraham, when they see that Abraham was not justified by the works of the law but by faith alone? Therefore there is no need of the law when the ungodly is justified before God by faith alone. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/4/5",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e6e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "God makes the ungodly man godly, in order that he might persevere in this godliness and righteousness. For a man is justified in order that he might be just, not so that he might think it is all right to go on sinning.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/4/5",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Abraham, before his vocation, was an idolater, according to Josephus; (Jewish Antiquities, lib. i. chap. viii.) according to some of the Rabbins, and as the Scripture itself seems to insinuate, Josue chap. xxiv; Isaias xliii; Wisdom x; Judith v. He did not then merit his vocation to the faith by his works. But when God had called him, and made him depart from his country, when he promised to him an innumerable posterity, Abraham believed in his promises, and it was reputed to him unto justice, that his faith and his justice were the pure gift of God. His faith was not a dead and speculative faith only, but an active faith, a faith animated by charity, as appears from the sequel of his life. (Calmet)",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/4/5",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfef9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Think how great a thing it is to be persuaded and have complete confidence that God is able not only to set an ungodly man free from punishment but also to make him righteous and count him worthy to receive these immortal honors…. This is what makes a believer glorious—the fact that he enjoys so great a grace and displays such great faith. Note too that the recompense is greater. For the one who works receives his reward, but the one who believes is made righteous. Righteousness is much greater than a reward, because it is a recompense which includes many rewards.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/4/5",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e6f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 4:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EZ 33:11",
+  "verse_text": "Verse text for EZ 33:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/33/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Say unto them, As I live, says the Lord GOD, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live: turn you, turn you from your evil ways; for why will you die, O house of Israel. The sinner's damnation is not an object of God's pleasure, chap. (Calmet) He has an antecedent will to save all. He knocks at the door of our heart, (Apocalypse iii. ) and if man do what depends on him, nothing will be wanting on the part of God. Thomas Aquinas, i. ) (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ez/33/11",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf18c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Symeon the New Theologian",
+      "period": "AD1022",
+      "content": "We are naturally obliged to state our opinion clearly to such people, and to reply: O, you. Why do you reason to your own perdition rather than your salvation. And why do you pick out for yourselves the obscure passages of inspired Scripture and then tear them out of context and twist them in order to accomplish your own destruction. Do you not hear the Savior crying out every day: “As I live … I have no pleasure in the death of the wicked, but that the wicked turn from his way and live” (Ezekiel 33:11). Do you not hear Him Who says: “Repent, for the Kingdom of Heaven is at hand” [Matthew 3:2]; and again: “Just so, I tell you, there is joy in heaven over one sinner who repents” [Luke 15:7, adapted]. Did He ever say to som: “Do not repent for I will not accept you,” while to others who were predestined: “But you, repent. because I knew you beforehand”. Of course not. Instead, throughout the world and in every church He shouts: “Come to Me, all who labor and are heavy laden, and I will give you rest” [Matthew 11:28]. Come, He says, all you who are burdened with many sins, to the One Who takes away the sin of the world; come all who thirst to the fountain which flows and never dies.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ez/33/11",
+      "full_content_url": "https://catenabible.com/com/602844b0365356511a112674",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 33:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

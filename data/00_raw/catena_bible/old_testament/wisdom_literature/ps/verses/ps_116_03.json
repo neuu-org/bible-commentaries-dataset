@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 116:3",
+  "verse_text": "Verse text for PS 116:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/116/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "And what are thy days, since thou hast said, \"In my days I have called upon Him\". Are they those perchance, in which \"the fulness of time came,\" and \"God sent His Son,\" who had already said, \"In an acceptable time have I heard thee, and in a day of salvation have I helped thee\". I may rather call my days the days of my misery, the days of my mortality, the days according to Adam, full of toil and sweat, the days according to the ancient corruption. \"For I lying, stuck fast in the deep mire,\" in another Psalm also have cried out, \"Behold, Thou hast made my days old;\" in these days of mine have I called upon Thee. For my days are different from the days of my Lord. I call those my days, which by my own daring I have made for myself, whereby I have forsaken Him: and, since He reigneth everywhere, and is all-powerful, and holdeth all things, I have deserved prison; that is, I have received the darkness of ignorance, and the bonds of mortality. For in these days of mine, \"The snares of death compassed me round about, and the pains of hell gat hold upon me\" (ver. 3): pains that would not have overtaken me, had I not wandered from Thee. But now they have overtaken me; but I found them not, while I was rejoicing in the prosperity of the world, in which the snares of hell deceive the more.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/116/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65e7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 116:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 13:47",
+  "verse_text": "Verse text for ACTS 13:47",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/47",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For so has the Lord commanded us, saying, I have set you to be a light of the Gentiles, that you should be for salvation unto the ends of the earth. Then why have ye not done this. It was indeed needful that the Gentiles should hear, and this not before you: it is your own doing, the before you. For so has the Lord commanded us: I have set you for a light of the Gentiles, that you should be for salvation, i. for knowledge which is unto salvation, and not merely of the Gentiles, but of all men, unto the ends of the earth— As many as were ordained unto eternal life.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/47",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9358",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For that the Gentiles might not be hurt at hearing this, as if the case were so that, had the Jews been in earnest, they themselves would not have obtained the blessings, therefore he brings in the prophecy, saying, A light of the Gentiles, and, for salvation unto the ends of the earth. And hearing (this) the Gentiles",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/47",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b934e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "And who was it that said to Christ concerning giving light to the world: \"I have set Thee as a light to the Gentiles\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/47",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae34",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:47",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

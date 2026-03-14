@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 1:20",
+  "verse_text": "Verse text for DN 1:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/1/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Diviners, or fortune-tellers.\nWise men. Septuagint, \"philosophers. \"(Calmet)\nHebrew Asha him, may come from the Greek sop hoi. (Grotius)\nThey had been educated three years, ver. 5. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/1/20",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf275",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And in all matters of wisdom and understanding, that the king inquired of them, he found them ten times better than all the magicians and astrologers that were in all his realm. For \"soothsayers\" and \"magicians\" the Vulgate edition [i. , of the Septuagint] translated \"sophists\" and \"philosophers\"----terms to be understood not in the sense of the philosophy and sophistic erudition which Greek learning holds forth, but rather in the sense of the lore of a barbarian people, which the Chaldeans pursue as philosophy even to this day.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/1/20",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd276",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 1:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

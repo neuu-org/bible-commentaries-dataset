@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:72",
+  "verse_text": "Verse text for PS 119:72",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/72",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The law of your mouth is better unto me than thousands of gold and silver pieces. Augustine of Hippo 71. But that this is not gained, save through love, wherein he who doeth them hath delight, on which account it is said, \"In Thy sweetness teach me Thy righteousnesses:\" the following verse showeth, wherein he saith, \"The law of Thy mouth is better unto me than thousands of gold and silver\" (ver. 72): so that love loveth the law of God more than avarice loveth thousands of gold and silver.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/72",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6645",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Silver, above all the world. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/72",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be417",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:72",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 42:6",
+  "verse_text": "Verse text for GN 42:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/42/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "To him. Conformably to the prophetic dreams, chap. xxxvii. 7, 9. (Menochius)\nJoseph was like a prince or sultan, shallit, with sovereign authority. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/42/6",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc229",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "They did all this out of ignorance for the time being. You see, it was a long time since they had last seen Joseph, and so they no longer recognized their brother’s appearance. After all, it was likely that some change had occurred in him now that he had reached maturity. Still, I’m inclined to think that it all happened as a result of the dispensation of the God of all so that they would fail to recognize their brother either from conversing with him or by sight. After all, how on earth would they have formed such an idea? I mean, they were under the impression that he had become a slave of the Ishmaelites and by now was enduring slavery under the barbarians. Whereas they were in no position to conceive any other idea and so recognize Joseph, he recognized them as soon as he saw them and took every care to conceal his identity, wishing to deal with them as with foreigners.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/42/6",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51c64",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 42:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

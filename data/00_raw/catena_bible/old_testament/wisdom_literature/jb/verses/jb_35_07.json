@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JB 35:7",
+  "verse_text": "Verse text for JB 35:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/35/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh If you are righteous, what give you to him. or what receives he of your hand. These words mean, you will do no wrong to him, and you will not be more useful to him by being righteous. In fact, he said, “If I have sinned, what shall I be able to do. ” What shall I do to you. Elihu says, Why did you say that. Does God care about the fact that you sinned, as if he is the victim of an injustice or as if he is suffering damage.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/35/7",
+      "full_content_url": "https://catenabible.com/com/5e1b61688bc66721fe4ef723",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 35:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

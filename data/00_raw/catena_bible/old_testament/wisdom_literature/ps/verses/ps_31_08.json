@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 31:8",
+  "verse_text": "Verse text for PS 31:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/31/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. \"And hast not shut me up into the hands of the enemy\" (ver. 8). And hast not shut me up, that I should have no opening for recovering unto liberty, and be given over for ever into the power of the devil, ensnaring me with the desire of this life, and terrifying me with death. \"Thou hast set my feet in a large room.\" The resurrection of my Lord being known, and mine own bring promised me, my love, having been brought out of the straits of fear, walks abroad in continuance, into the expanse of liberty.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/31/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6930",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Place. The psalms were commonly composed after the danger was over. David had escaped the lance and the servants of Saul. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/31/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf78",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 31:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

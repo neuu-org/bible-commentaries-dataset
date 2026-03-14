@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ACTS 2:31",
+  "verse_text": "Verse text for ACTS 2:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/2/31",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Christ did in fact desend, with respect to his soul, to those in hell so that he might come to aid those for whom it was necessary.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/2/31",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd20",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Foreseeing he (David) spoke of the resurrection of Christ. St. Peter shows them that the prophetical words of the Psalm, agree not to David in person, he being dead, and his body having remained in the grave, without rising from the dead. (Witham)",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/2/31",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd2e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Again, His soul shall not be left in Hades, neither shall His flesh see corruption? \"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/2/31",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bad60",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This again is wonderful: it shows that His resurrection was not like that of other men. For though death laid hold on Him, yet it did not its own work then.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/2/31",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd33",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 2:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

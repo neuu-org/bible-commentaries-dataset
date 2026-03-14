@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 11:2",
+  "verse_text": "Verse text for NEH 11:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/11/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And I came to Jerusalem and remained there three days. And I arose in the night, I and a few men with me; and I told no one what God had put into my heart to do in Jerusalem; and there was no animal with me but the one on which I rode. And I went out at night by the Valley Gate, and so on until it says: And I inspected the wall; and I turned back and came to the Valley Gate, and went back in. 2 He wanders around inspecting the various parts of the devastated city and examines carefully in his mind how each of these should be repaired. Similarly, it is fitting for spiritual teachers also to get up regularly at night and inspect with careful scrutiny the state of the Holy Church while others are resting, so that they might vigilantly investigate how they might repair and rebuild through chastening those things which have been defiled or destroyed in it by the warfare of sins. 3 Jerusalem's wall lies in ruins, and the way of life of the faithful is soiled by earthly and base desires. The gates are consumed by fire when, as a result of their abandoning instruction in the truth, even those who ought to have been opening up the entrance of life to others also by teaching them now grow idle with the same laziness as everyone else and become slaves to temporal concerns.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/11/2",
+      "full_content_url": "https://catenabible.com/com/58fe876d543064d91d46c3c1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Blessed. Applauding their zeal and disinterestedness, as the city was yet only a heap of ruins. (Calmet)\nSome from the other ten tribes returned; but the transactions of three tribes are more particularly noticed. (Ven. Bede) (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/11/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda58",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 11:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

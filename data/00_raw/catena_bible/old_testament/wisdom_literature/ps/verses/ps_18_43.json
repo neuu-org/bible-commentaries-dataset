@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:43",
+  "verse_text": "Verse text for PS 18:43",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/43",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "44. \"Thou wilt deliver Me from the contradictions of the people\" (ver. 43). Thou wilt deliver Me from the contradictions of them who said, \"If we send Him away, all the world will go after Him.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/43",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e686c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You have delivered me from the strivings of the people; and you have made me the head of the nations: a people whom I have not known shall serve me. Here he begins to predict the glory of the Messias, though what he says may be applied to himself. David's own people began to revolt, under Absalom and Seba; after he had subdued the most powerful nations around, 2 Kings xx. The chosen people rejected Christ, (Calmet) while the nations were converted. The reprobation of the former was prefigured by those rebels. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/43",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdee8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:43",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

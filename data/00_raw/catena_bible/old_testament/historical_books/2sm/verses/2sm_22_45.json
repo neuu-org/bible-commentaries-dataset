@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 22:45",
+  "verse_text": "Verse text for 2SM 22:45",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/22/45",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Therefore as we have shown above that the coming cessation of the old law and of the carnal circumcision was declared, so, too, the observance of the new law and the spiritual circumcision has shone out into the voluntary obediences of peace. For “a people,” he says, “whom I did not know has served me; in obedience of the ear it has obeyed me.” Prophets made the announcement. But what is the people which was ignorant of God, but ours, who in days bygone did not know God? And who, in the hearing of the ear, paid attention to him, but we, who, forsaking idols, have been converted to God?",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/22/45",
+      "full_content_url": "https://catenabible.com/com/5de46d5a8b87fe0847ee8730",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 22:45",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

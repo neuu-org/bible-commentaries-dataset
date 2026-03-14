@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 5:2",
+  "verse_text": "Verse text for 1CHR 5:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/5/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Accounted to Joseph, viz., as to the double portion, which belonged to the first-born: but the princely dignity was given to Juda, and the priesthood to Levi. (Challoner)\nYet it is not certain that the latter dignity formed a part of the birth-right, (Genesis xxv. 31.) and the author takes no notice of it. (Calmet)\nThe double portion seems to have been all the privilege, Deuteronomy xxi. 17. Septuagint, \"the blessing or gift was Joseph's. \"Hebrew also does not specify princes, but \"the leader \"(Haydock) the Messias, (Syriac) and kings, from David till the captivity. (Calmet) (Genesis xlix. 4.) (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/5/2",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd5f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Accounted to Joseph: That is, as to the double portion, which belonged to the firstborn; but the princely dignity was given to Juda, and the priesthood to Levi.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/5/2",
+      "full_content_url": "https://catenabible.com/com/5879d89fdd1bb6dd3dba9f9b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 5:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

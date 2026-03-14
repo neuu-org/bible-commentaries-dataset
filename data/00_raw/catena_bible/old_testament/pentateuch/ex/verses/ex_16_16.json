@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 16:16",
+  "verse_text": "Verse text for EX 16:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/16/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Nay, rather, the Holy Spirit is not given from a measure but is poured out completely upon the believer. For if the day is born to all equally, and if the sun shines upon all with equal and similar light, how much more does Christ, the Sun and the true Day, bestow equally in his church the light of eternal life with equal measure! We see that the pledge of this equality is celebrated in Exodus, when the manna from heaven fell and, with a prefiguring of the future, showed the nourishment of heavenly bread and the food of the coming Christ. For there, without distinction either of sex or of age, a measure was collected for each equally.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/16/16",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52809",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "If anyone cannot endure what I have said but still clings to the poverty of worldly things, snatching at the things which undergo diminution, let him call to mind the food of manna. Let him tremble at the example of that punishment. For what happened in that instance, this same result one may now also see in the case of covetous people. But what then happened to them? Worms were bred from their covetousness. This also now happens in their case. For the measure of the food is the same for all. You have but one stomach to fill. Only you who feed luxuriously have more to get rid of. Those who gathered in their houses more than the lawful quantity gathered not manna but more worms and rottenness. Just so both in luxury and in covetousness, the gluttonous and drunken gather not more delicacies but more corruption.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/16/16",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5280a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 16:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1COR 1:2",
+  "verse_text": "Verse text for 1COR 1:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/1/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul writes to the church as a whole, because at that time leaders had not yet been appointed for individual churches. He censures them for many things, but in spite of that he still says that they have been sanctified. However, they later began to behave badly, so that although the whole church was sanctified in Christ, some members of it had been deflected from the truth by the wicked teaching of the false apostles. The Corinthians were called to be saints, which means that they could not deviate from the narrow path of sanctification. Paul linked them, as Gentiles, with the true Jews, because salvation is of the Jews, so that wherever there are Gentiles who call on the name of the Lord Jesus Christ and wherever there are true Jews, both are united in him. But the false apostles, who preached the name of Christ in accordance with the wisdom of this world, criticized the law and the prophets. Like Marcion and Mani, they maintained that Christ was not really crucified but that it merely appeared that he had been. Neither did they believe in the resurrection of the body. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/1/2",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5b25",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In every place of theirs and ours. Inasmuch as among Christians in all places there ought to be such an union in faith, and conformity of discipline, as if they were all in one place. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/1/2",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723bff89",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The church ought to be united because it belongs to God. It does not exist only in Corinth, but all over the world, and it is one, for the church’s name (ekkl&#;sia) means “assembly.” It is not a name of separation, but a name of unity and concord.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/1/2",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5b26",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 1:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

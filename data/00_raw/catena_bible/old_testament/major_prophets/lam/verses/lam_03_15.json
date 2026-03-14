@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 3:15",
+  "verse_text": "Verse text for LAM 3:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/3/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wormwood, or a bitter poisonous herb, chap. ix. 26., and Deuteronomy xxix. 18.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/3/15",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bef8f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Here secondly the affliction of penalty says: \"He drove into my heart. \" Namely, by which the luxury of a people is indicated. Then: \"the arrows of his quiver\". That is, difference of penalties issuing forth from his governance. As Job 30:11 states: \"Because God has loosed my cord and humbled me, they have cast off restraint in my presence. \" Third, the delusion of those persons punished is exposed: \"I have become the laughing stock of all peoples, the burden of their songs all day long. \" As elsewhere said: \"I have become a laughing stock all the day; every one mocks me. \" (Jer: 20:7). That is, just as people are accustomed to be derided by others. Verse 15 then adds: \"He has filled me with bitterness, he has sated me with wormwood. \" Thus is shown how wide is such, and first as to the multitude of penalties. Namely, \"he has filled me with bitterness\": by different obstacles which is afflicted abundantly (cf. Chapter 41: Jeremiah: \"Ishmael and Johanan\"). Then, secondly as in Verse 15: \"he has sated me with wormwood\", That is, regarding the number punished.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/3/15",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d97",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 3:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 120:3",
+  "verse_text": "Verse text for PS 120:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/120/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Added. This is an usual form of denouncing vengeance, Ruth i. 17. The Babylonians are threatened with God's judgments, ver. 4. Some place these words in the mouth of God, answering the captives. How shall you be screened from the shafts of detraction? Fear not. The sharp (Calmet)\nWhat punishment is great enough for this sin? (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/120/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be46c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 120:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 9:9",
+  "verse_text": "Verse text for MK 9:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Risen from the dead. The disciples believed the resurrection of the dead, but they knew not what Christ meant by by his rising from the dead. Their thoughts were filled with the idea of a glorious kingdom in this world, in which they should enjoy great dignities and offices under the Messias. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/9",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf958",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And as they came down from the mountain, he charged them that they should tell no man what things they had seen, till the Son of man was risen from the dead. So He bound them to silence. Furthermore he spoke of his passion as though it were the reason why he asked them to be silent. Note that he did not tell them that they must never tell this to anyone. Instead they should not tell it until he had risen from the dead. In this respect he was silent as to what was painful, and spoke only of what was joyful. Gospel of St. Matthew, Homily.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/9",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52dcf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 34:4",
+  "verse_text": "Verse text for DT 34:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/34/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This land, which has been just described, is what God chiefly promised to the Patriarchs, comprising the countries on the east, as well as those on the western side of the Jordan. (Haydock) To it. But thou shalt be translated to a better land, the land of the living. Moses was now perfectly resigned to the will of God. (Salien) He no longer cherished those ardent desires of introducing the people into Chanaan, which he had not long before expressed: as he found that God had decreed that he should be deprived of the honour. He received this refusal as a just punishment of his transgression, and calmly reposed in the Lord. There seems no reason why Moses might not have written the preceding verses at least, though the names of some of the tribes are mentioned, who obtained possession only after his death. As he knew the limits of the promised land, so by the prophetic spirit, he might know that these tribes would be settled in the country; and he does not mark out their divisions with any degree of precision. In a word, there seems to be hardly a single passage in the Pentateuch, which may not have Moses for its author.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/34/4",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb24",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 34:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

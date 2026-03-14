@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 14:9",
+  "verse_text": "Verse text for JO 14:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/14/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "However, he [the Lord] said they should not come to that land which they had refused, as a penalty for their unbelief; but their children and wives, who had not murmured, and who, owing to their sex and age, were guiltless, should receive the promised inheritance of that land. So the bodies of those of twenty years old and upwards fell in the desert. The punishment of the rest was put aside. But they who had gone up with Joshua, and had thought fit to dissuade the people, died without delay of a great plague. Joshua and Caleb entered the land of promise together with those who were innocent by reason of age or sex. The better part, therefore, preferred glory to safety; the worse part safety to virtue. But the divine judgment approved those who thought virtue was above what is useful, while it condemned those who preferred what seemed more in accordance with safety than with what is virtuous.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/14/9",
+      "full_content_url": "https://catenabible.com/com/5de471458b87fe0847ee8887",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 14:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

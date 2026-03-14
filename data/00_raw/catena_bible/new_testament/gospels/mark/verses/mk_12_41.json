@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 12:41",
+  "verse_text": "Verse text for MK 12:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/12/41",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "How the people cast money: s, brass (Vulg.), i.e, all sorts of money, whether brass, silver, or gold. For the first money was made of brass, hence all money was afterwards called brass, even when made of silver or gold.\nInto the treasury; gazophylacium (Vulg.). For gaza is a Persian word, meaning riches; and Ï†Ï…Î»Î¬Ï„Ï„ÎµÎ¹Î½ is to keep. This was a chest into which gifts were cast by the people, and kept for the service of the Temple, and for supporting the priests and the poor. Hence, also, the porch in which the chest was kept was called by the same name. Thus it is said in John viii20 , \"These words spake Jesus in the treasury (gazophylacio), teaching in the Temple.\" So Bede.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/12/41",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51ea0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 12:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

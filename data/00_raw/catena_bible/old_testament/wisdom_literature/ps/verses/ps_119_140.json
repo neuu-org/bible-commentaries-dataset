@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:140",
+  "verse_text": "Verse text for PS 119:140",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/140",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Your word is very pure: therefore your servant loves it. Augustine of Hippo 138. Then considering with himself with what a flame of love he burned for the commandments of God: \"Fiery,\" saith he, \"is Thy word exceedingly, and Thy servant hath loved it\" (ver. Justly jealous was he of the impenitent heart in His enemies, who had forgotten God's word; for he endeavoured to bring them unto hat which he himself most ardently loved.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/140",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6685",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Refined. Literally, \"fire. \"(Haydock)\nPure as any thing which has passed through the fire. (Worthington)\n\"It consumes sin, and enlightens the penitent. \"(St. Jerome)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/140",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be44e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:140",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

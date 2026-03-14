@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 48:17",
+  "verse_text": "Verse text for IS 48:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/48/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "He says, “I AM your God.” This “I AM” means “I am the beginning.” He explained all this to the all-wise Moses saying “I am the one who is.” For he as Lord is truly the God of everything. Those things that are brought into being by him are said to be “beings” also and to share in the source of being.… Again he works in them a steadfast thinking and a well-established mind that they can see God to be truly existing in nature. To these he reveals his glory so that they are not carried away by deceitful voices.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/48/17",
+      "full_content_url": "https://catenabible.com/com/5e88f337b1c7280cb341d16b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 48:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

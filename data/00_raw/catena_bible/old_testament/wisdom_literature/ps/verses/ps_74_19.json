@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 74:19",
+  "verse_text": "Verse text for PS 74:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/74/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But what sayest thou, O Asaph, now in understanding. \"Deliver not to the beasts a soul confessing to Thee\" (ver. To what beasts, save to those the heads whereof were broken in pieces upon the water. For the same devil is called, beast, lion, and dragon. Do not, he saith, give to the Devil and his Angels a soul confessing to Thee. Let the serpent devour, if still I mind things earthly, if for things earthly I long, if still in the promises of the Old Testament, after the revealing of the New, I remain. But forasmuch as now I have laid down pride, and my own righteousness I will not acknowledge, but Thy Grace; against me let proud beasts have no power. \"The souls of Thy poor forget Thou not unto the end. \" Rich we were, strong we were: but Thou hast dried up the rivers of Etham: no longer we establish our own righteousness, but we acknowledge Thy Grace; poor we are, bearken to Thy beggars. Now we do not dare to lift our eyes to Heaven, but smiting our breasts we say, \"O Lord, be Thou merciful to me a sinner.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/74/19",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c04",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 74:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

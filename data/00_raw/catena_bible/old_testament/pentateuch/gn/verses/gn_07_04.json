@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 7:4",
+  "verse_text": "Verse text for GN 7:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/7/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "God granted one hundred years while the ark was being made to that generation, and still they did not repent. God summoned beasts that they had never seen and still they showed no remorse. He established a state of peace between the predatory animals and those who are preyed upon, and still they had no awe. God delayed yet seven more days for them, even after Noah and every creature had entered the ark, leaving the gate of the ark open to them. This is a wondrous thing that no lion remembered its jungle and no species of beast or bird visited its customary haunt! Although those of that generation saw all that went on outside and inside the ark, they were still not persuaded to renounce their evil deeds. .",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/7/4",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e51989",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 7:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

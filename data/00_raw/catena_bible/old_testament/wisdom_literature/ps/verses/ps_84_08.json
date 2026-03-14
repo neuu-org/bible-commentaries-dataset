@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 84:8",
+  "verse_text": "Verse text for PS 84:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/84/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "12. And again, from the thought of those joys he returns to his own sighs. He sees what has come before in hope, and where he is in reality. ...Therefore returning to the groans proper to this place, he saith, \"O Lord God of virtues, hear my prayer: hearken, O God of Jacob\" (ver. 8): for Jacob himself also Thou hast made Israel out of Jacob. For God appeared unto him, and he was called Israel, seeing God. Hear me therefore, O God of Jacob, and make me Israel. When shall I become Israel? When the God of Gods shall appear in Sion.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/84/8",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 84:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

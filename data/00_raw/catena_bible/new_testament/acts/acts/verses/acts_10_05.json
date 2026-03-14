@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 10:5",
+  "verse_text": "Verse text for ACTS 10:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/10/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "So far, he signified that the sending for him would be for good consequences, but in what way good, he did not intimate. So, neither does Peter relate the whole matter, but everywhere, the narratives are in part only, for the purpose of making the hearers apply their minds to what is said. Send and call for Simon: in like manner the Angel only calls Philip. And as they went on their journey, and drew near to the city",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/10/5",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92b1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Lest they should come to a different person, he designates the man not only by his surname, but by the place. And the same, says he, is lodging with one Simon a tanner, who has his house by the seaside.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/10/5",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92a7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 10:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

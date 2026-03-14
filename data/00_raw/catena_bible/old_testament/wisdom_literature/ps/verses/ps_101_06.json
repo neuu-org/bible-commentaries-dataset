@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 101:6",
+  "verse_text": "Verse text for PS 101:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/101/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. And whence wast thou fed? And what pleased thee, when he did not eat with thee? \"Mine eyes,\" he saith, \"were upon such as are faithful in the land, that they might sit with me\" (ver. 6). That is, that with Me they might be seated. In what sense are they \"to sit\"? \"Ye shall sit on twelve thrones, judging the twelve tribes of Israel.\" The faithful of the earth judge, for to them it is said, \"Know ye not, that we shall judge angels?\" \"Whoso walketh in a spotless way, he ministered unto me.\" To \"Me,\" he saith, not to himself. For many minister the Gospel, but unto themselves; because they seek their own things, not the things of Jesus Christ. ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/101/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Faithful. A prince cannot do every thing himself. But he ought to make choice of the most virtuous and skilful ministers. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/101/6",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be31d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 101:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

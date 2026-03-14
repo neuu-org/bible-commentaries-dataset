@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 5:24",
+  "verse_text": "Verse text for LK 5:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/5/24",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "He then, as was said, announced forgiveness of sins, since he is endowed with a most godlike authority. But the declaration disturbed again the ignorant and envious gang of the Pharisees. They said one to another, “Who is this that speaks blasphemies. ” But would you have said this about him, Pharisee, if you had known the divine Scriptures, and borne in mind the words of prophecy, and understood the adorable and mighty mystery of the incarnation. Instead, they now involve him in a charge of blasphemy, bringing against him the uttermost penalty and condemning him to death. The law of Moses commanded that whoever spoke blasphemies against God should be put to death. But no sooner have they arrived at this height of daring, than he immediately shows that he is God, to convict them once more of intolerable impiety, “Why do you question in your hearts. ” If you, therefore, Pharisee, say, “Who can forgive sins but God only. ” I will also say to you, “Who can know hearts, and see the thoughts hidden in the depth of the understanding, but God only. ” For he himself says somewhere by the voice of the prophets, “I, the Lord, search the minds and try the heart. ” David also said somewhere concerning both him and us, “He who fashions the hearts of them all. ” Therefore he who as God knows both the hearts and minds, as God also forgives sins. Commentary on Luke, Homily.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/24",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7387",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "While the Pharisee doubted that our Lord was a prophet, he was unwittingly pledging himself to the truth by thinking, “If this man were a prophet, he would know that this woman is a sinner.” Therefore, if our Lord indeed knows that she is a sinner, then, Pharisee, by your own reasoning he indeed is a prophet. And so our Lord did not hesitate to point out not only that she was a sinner but also that she had sinned very much, so that the testimony of his own mouth would trap the accuser. [The Pharisee] was one of those who had said, “Who can forgive sins but God alone?” Our Lord took this testimony from them, that whoever is able to forgive sin is God. From this point on, the struggle was for our Lord to show them whether or not he was able to forgive sin. And so he quickly healed the parts [of the body] that were visible, to confirm that he had forgiven the sins which were not visible.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/24",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7386",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But that you may know that the Son of man has power upon earth to forgive sins, (he said unto the paralytic,) I say unto you, Arise, and take up your bed, and go into your house. The Son of man. By which act, says St. Cyril, it is clear that the Son of man hath power on earth to remit sins; which he said both for himself and us. For he, as God-man, the Lord of the law, forgiveth sins; and we also have obtained by him that wonderful grace when he said to his disciples: Whose sins you shall forgive, they are forgiven them. ) And how should he not be able to remit sins, who gave others the power to do the same.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/24",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa50",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 5:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

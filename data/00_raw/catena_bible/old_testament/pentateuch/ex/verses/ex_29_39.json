@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 29:39",
+  "verse_text": "Verse text for EX 29:39",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/29/39",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Morning. About sun-rise.\nEvening, or between the two vespers, Exodus xii. 6. The lambs were provided by the people; flour, wine, and oil, by the priests. (Philo)\nThe wine was poured at the foot of the altar, the flour and oil were burnt upon it, and not placed on the head of the victim, as was customary among the pagans, frontique invergit vina sacerdos. (Virgil, vi.; Maimonides) By these sacrifices, God was to be adored as the author both of day and night; (Menochius) and we are admonished of our duty of praying to him, particularly at those times. (Haydock)\nAll the sacrifices prefigured that of Christ, (St. Augustine, contra advers. i. 18,) but none more than these of lambs. (Origen in Jo.) (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/29/39",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc473",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 29:39",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

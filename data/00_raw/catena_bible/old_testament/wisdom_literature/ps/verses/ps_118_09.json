@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 118:9",
+  "verse_text": "Verse text for PS 118:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "4. But, when my enemies have been brought to contempt, let not my friend present himself unto me as a good man, so as to bid me repose my hope in himself: for \"It is better to trust in the Lord, than to put any confidence in man\" (ver. 8). Nor let any one, who may in a certain sense be styled a good angel, be regarded by myself as one in whom I ought to put my trust: for \"no one is good, save God alone;\" and when a man or an angel appear to aid us, when they do this of sincere affection, He doth it through them, who made them good after their measure. \"It is\" therefore \"better to trust in the Lord, than to put any confidence in princes\" (ver. 9). For angels also are called princes, even as we read in Daniel, \"Michael, your prince.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/118/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65f7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Princes. For vain is the salvation of man, Psalm lix. 31., and Jeremias xvii. 5. (Calmet)\nSo neither can man hurt those whom God protects, Romans viii. 31. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3cb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

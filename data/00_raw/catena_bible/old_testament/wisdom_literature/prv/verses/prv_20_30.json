@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 20:30",
+  "verse_text": "Verse text for PRV 20:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/20/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Evils. The wicked shall derive benefit from correction.\nBelly. They shall feel the remorse of conscience, as Chaldean seems to indicate. (Calmet)\nA serious illness often causes people to repent. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/20/30",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be6d1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "The sick are to be admonished to consider that through bodily affliction can come great gifts. It may be the occasion for cleansing of sins committed or the restraint of those that could be committed and lead from a troubled mind toward penitence inflicted by outward stripes. Hence Scripture says, “The blueness of a wound cleanses evils, and stripes in the more inward parts of the belly.” The blueness of a wound cleanses evil, that is, the pain of chastisement cleanses wickedness, whether meditated or perpetrated.… That is, when we are outwardly smitten, we are recalled, silent and afflicted, to the memory of our sins, and we bring before our eyes all the evil we have done, and in proportion as we suffer outwardly, the more do we grieve inwardly for our deeds. .",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/20/30",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8526",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 20:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

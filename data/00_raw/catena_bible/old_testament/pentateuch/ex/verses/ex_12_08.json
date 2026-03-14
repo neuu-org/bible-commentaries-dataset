@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 12:8",
+  "verse_text": "Verse text for EX 12:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/12/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Unleavened, in testimony of innocence, 1 Corinthians v. 7. The priests of Jupiter did the like. (Servius)\nLettuce, or some \"bitter herbs \"Hebrew and Septuagint. The Jews allow of five sorts.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/12/8",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc342",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Maximus of Turin",
+      "period": "AD423",
+      "content": "Yet they were also completely ignorant of the commands of Moses himself, who ordered them specially to eat this bitterness when he established the paschal sacraments for them to observe and said, “You will eat it with bitterness, for it is the pasch of the Lord.” For he did not order, as they think, the consuming of the very bitter juices of insignificant herbs with the roasted flesh of a lamb. Rather, he commanded the fruitful devouring of the bitter words of Christ’s precepts with the sacrament of the Lord’s passion. For do not the words of the Lord seem to be bitter when he says: “If you wish to be perfect, leave all that you have and come, follow me?” And when he says that one is not to possess two tunics or a wallet or sandals, that bitterness of such words is a medicine for souls.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/12/8",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 12:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

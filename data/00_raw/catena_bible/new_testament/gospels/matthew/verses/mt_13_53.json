@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 13:53",
+  "verse_text": "Verse text for MT 13:53",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/13/53",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Wherefore said He, these? Because He was to speak others besides. And wherefore, again, does He depart? Desiring to sow the word everywhere.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/13/53",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac452",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And what does he now call his country? As it seems to me, Nazareth. “For he did not do many mighty works there,” it is said, but in Capernaum he did miracles. Thus Jesus also said, “And you, Capernaum, will you be exalted to heaven? You shall be brought down to hades. For if the mighty works done in you had been done in Sodom, it would have remained until this day.” The Gospel of Matthew, Homily",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/13/53",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6f72",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 13:53",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

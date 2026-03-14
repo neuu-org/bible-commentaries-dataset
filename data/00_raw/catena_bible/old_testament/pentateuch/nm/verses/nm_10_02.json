@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 10:2",
+  "verse_text": "Verse text for NM 10:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/10/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Make you two trumpets of silver; of a whole piece shall you make them: that you may use them for the calling of the assembly, and for the journeying of the camps. Two trumpets. These were probably deemed sufficient at first, though in the days of Josue there were seven, (Calmet) and in those of Solomon 20,000. (Josephus, viii. ) (Tirinus) They were used for all public assemblies. Josephus (iii. 11,) says, one was sounded to call the princes together, and the other to collect the people, which is not quite conformable to the Scripture.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/10/2",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc725",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "“Make for yourself two trumpets of hammered silver.” The army is led by two trumpets because the people are called to readiness in faith by the two commandments of charity. Scripture bids them to be made of silver, so that the words of the preachers may shine with gleaming light and not confuse the minds of the hearers with any darkness of their own. They are to be hammered, because those who preach the life to come grow through the blows of the present tribulations. Scripture says well, “When the short signal sounds, the camps will move.” When the preacher’s word is subtle and concise, the hearers are aroused more ardently for the struggle against temptation. Exposition of the Old and New Testament, Numbers",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/10/2",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e528fc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 10:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

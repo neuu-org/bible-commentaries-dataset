@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 27:3",
+  "verse_text": "Verse text for PS 27:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/27/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Though a host should encamp against me, my heart shall not fear: though war should rise against me, in this will I be confident. Augustine of Hippo 3. \"If camps stand together against me, my heart will not fear. \" But if the multitude of gain-sayers conspire to stand together against me, my heart will not fear, so as to go over to their side. \"If war rise up against me, in this will I trust\" (ver. If the persecution of this world arise against me, in this petition, which I am pondering, will I place my hope.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/27/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This; God's protection (Haydock) and light, (Menochius) or in the very heat of battle: prælium. Septuagint express the Hebrew feminine pronoun, as they do with the Vulgate, ver. 4, unam. There is no neuter in Hebrew, which commonly uses the feminine, instead. (Calmet)\nIt may be deemed too scrupulous an exactitude, to express this in a version. The word petition may be understood. (Berthier) (Menochius)\nThe one petition of David comprised every blessing; as he had his mind bent on heaven. (Du Hamel)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/27/3",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf45",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 27:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

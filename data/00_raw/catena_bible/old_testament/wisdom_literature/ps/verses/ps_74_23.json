@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 74:23",
+  "verse_text": "Verse text for PS 74:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/74/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Forget not the voice of your enemies: the tumult of those that rise up against you increases continually. Augustine of Hippo 23. \"Forget not the voice of them that implore Thee\" (ver. While they groan for and expect now that which Thou hast promised from the New Testament, and walk by that same Faith, \"do Thou not forget the voice of them imploring Thee. \" But those still say, \"Where is Thy God. Let the pride of them that hate Thee come up always to Thee. \" Do not forget even their pride. Nor doth He forget: no doubt He doth either punish or amend.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/74/23",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c08",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 74:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

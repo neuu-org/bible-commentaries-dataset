@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 37:8",
+  "verse_text": "Verse text for PS 37:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/37/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Cease from anger, and forsake wrath\" (ver. Wherefore art thou wroth. Wherefore is it that, through that passion and indignation, thou dost blaspheme, or almost blaspheme. Against \"the man who bringeth wicked devices to pass, cease from anger, and forsake wrath. \" Knowest thou not whither that wrath tempts thee on. Thou art on the point of saying unto God, that He is unjust. It tends to that. why is that man prosperous, and this man in adversity. \" Consider what thought it begets: stifle the wicked notion. \"Cease from anger, and forsake wrath:\" so that now returning to thy senses, thou mayest say, \"Mine eye is disturbed because of wrath. \" What eye is that, but the eye of faith. To the eye of thy faith I appeal. Thou didst believe in Christ: why didst thou believe. What did He promise thee. If it was the happiness of this world that Christ promised thee, then murmur against Christ; yes. murmur against Him, when thou seest the wicked flourishing. What of happiness did He promise. What, save in the Resurrection of the Dead. But what in this life. That which was His portion. His portion, I say. Dost thou, servant and disciple, disdain what thy Lord, what thy Master bore.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/37/8",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69a0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Evil. Repining (Menochius) at the ways of Providence (Calmet) (",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/37/8",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfe6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 37:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ECCL 1:15",
+  "verse_text": "Verse text for ECCL 1:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/1/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "He is upright in heart who does not have his mind inclined to excess or to deficiency but directs his endeavors toward the mean of virtue. He who has turned aside from valor to something less becomes crooked through cowardice, but he who has strained on to greater things inclines toward temerity. Therefore the Scripture calls those “crooked” who go astray from the middle way by excess or by deficiency. For, as a line becomes crooked when its straightforward direction is deflected, now convexly, now concavely, so also a heart becomes crooked when it is at one time exalted through boastfulness, at another dejected through afflictions and humiliations. Wherefore Ecclesiastes says, “The crooked will not be kept straight.” Homilies on the Psalms (Psalm ).",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/1/15",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee2c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Evagrius Ponticus",
+      "period": "AD399",
+      "content": "The number by which God numbers the saints displays a certain and determined spiritual order, as it is said, “He numbers the multitudes of stars; and calls them all by name.” … Now, if David says, the understanding of God is without number, it is not as though it were unworthy of God’s essence that it cannot be numbered, or because the nature of such a number cannot be comprehended. For, just as the word invisible has two meanings: first, when applied to something that by its very nature is invisible (e.g., God), and second, when applied to something that may be visible yet is not normally seen, like the ocean floor because it is hidden under waters; similarly, “innumerable” has two meanings: what cannot be numbered by nature and what cannot be numbered for some other reason. .",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/1/15",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee2d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Perverse. Habitual and obstinate sinners. (Calmet)\nFools, who follow the broad road. (Haydock)\nHebrew and Septuagint, \"the defect cannot be numbered. \"We know not to what a height the soul of man might have risen, if he had continued faithful.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/1/15",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be7b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 1:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

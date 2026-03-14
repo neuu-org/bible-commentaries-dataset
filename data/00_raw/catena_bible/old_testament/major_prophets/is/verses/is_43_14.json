@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 43:14",
+  "verse_text": "Verse text for IS 43:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/43/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Thus says the LORD, your redeemer, the Holy One of Israel; For your sake I have sent to Babylon, and have brought them all down as fugitives, and the Chaldeans, whose song is in their ships. Septuagint, \"fugitives. \"Theodotion, \"strong ones. Septuagint, \"shall be bound in ships \"to be sent beyond the Caspian Sea. (Calmet) Cyrus was victorious for the sake of God's people; for he will not neglect his Church. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/43/14",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beae0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 43:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 30:23",
+  "verse_text": "Verse text for EX 30:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/30/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Spices. Perfumes were probably first invented in Arabia and Egypt. Ovid makes Bacchus the author of bloody sacrifices, and of incense offered to Jupiter. (Fast. 3.)\nMyrrh. Hebrew, \"the head of the myrrh of liberty \"or such as flowed freely and was most excellent, free from any mixture. Sudant sponte.stacten dictam. (Pliny, xii. 15.) (Calmet)\nStacte takes its name from distilling. (Menochius)\nSicles; this is not expressed in the Hebrew, as this measure is commonly meant.\nCinnamon, a plant extremely rare. Matthcole assures us, that it is not now to be found in Arabia, no more than balm in Judea.\nCalamus. Hebrew adds the epithet sweet-smelling both to cinnamon and calamus, or cane, the latter of which grows in the Indies. (Dioscor. i. 17.) That which druggists sell, under this name, is not a proper ingredient for ointments.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/30/23",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc482",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 30:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

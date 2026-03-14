@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MI 5:1",
+  "verse_text": "Verse text for MI 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "So he says that Samaria will be surrounded and encompassed by the hostile peoples. Not only will they strike her cheek with their hand, which is more bearable, but they will crush her with rods, which is especially cruel. This signifies the shameful and miserable distress of captivity, for it is unquestionable that to strike the cheek is a special dishonor. Considering that they also struck her with rods, they have caused extreme hardship and debasement. Governed by the tribe of Ephrem, Samaria is dishonored. She is in shame and suffering. However, the striking hand will stop, and we will not taste misery if only we do our best to refrain from provoking the wrath of the Lord of all by trespassing or eagerly committing sins, which are hateful to him. If we honor him with virtuousness instead, then we will enjoy prosperity and will live a joyous and commendable life.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mi/5/1",
+      "full_content_url": "https://catenabible.com/com/5838db9b205c248f42e52c66",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now gather yourself in troops, O daughter of troops: he has laid siege against us: they shall strike the judge of Israel with a rod upon the cheek. Some understand this of Babylon, which robbed and pillaged the temple of God; others understand it of Jerusalem, by reason of the many rapines and oppressions committed there. (Challoner) Hebrew, \"now assemble, O daughter of troops \"Babylon, famous (Haydock) for soldiers, who will seize Sedecias; (Jeremias xxxix. ; Calmet) or Jerusalem, noted for rapine, chap. Thou shalt be spoiled, yet restored till Bethlehem bring forth Christ, the ruler of the world. (Worthington).",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/5/1",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4e8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Daughter of the robber: Some understand this of Babylon; which robbed and pillaged the temple of God: others understand it of Jerusalem; by reason of the many rapines and oppressions committed there.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/5/1",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f2a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

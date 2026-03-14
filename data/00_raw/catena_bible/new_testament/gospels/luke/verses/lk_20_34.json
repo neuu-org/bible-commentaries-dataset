@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 20:34",
+  "verse_text": "Verse text for LK 20:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/20/34",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "And those whose life is common, have common graces and a common salvation; common to them are love and training. \"For in this world \"he says, \"they marry, and are given in marriage\".\nSed hanc interrogation era et cos qui interrogant, si quis consideraverit, inveniet Dominum non reprobare matrimonium, sed remedium afferre exspectationi carnal is cupiditatis in resurrectione. Illud autem, \"filiis hujus saeculi\"",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/20/34",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf1f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "But, that the dead rise again, Moses intimates when he says in the bush, The Lord, the God of Abraham, and the God of Isaac, and the God of Jacob. He is not the God of the dead, but of the living: for all live unto Him.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/20/34",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf21",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "And at the same time He foretold that, in the future world, sexual intercourse should be done away with; as He says, \"The children of this world marry, and are given in marriage; but the children of the world to come neither marry nor are given in marriage, but shall be like the angels in heaven.\"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/20/34",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf1e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "A subject which He was not in the habit of teaching publicly at any other time. He therefore gave His answer, that \"the children of this world marry.\".\nGod; who have restored the honour of their flesh, and who have already dedicated themselves as sons of that (future) age, by slaying in themselves the concupiscence of lust, and that whole (propensity) which could not be admitted within Paradise!",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/20/34",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbf20",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 20:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

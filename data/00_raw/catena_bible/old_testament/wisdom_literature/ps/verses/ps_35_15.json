@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 35:15",
+  "verse_text": "Verse text for PS 35:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/35/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But in my adversity they rejoiced, and gathered themselves together: yea, the attackers gathered themselves together against me, and I knew it not; they did tear me, and ceased not: Augustine of Hippo 18. And against Me they rejoiced, and gathered themselves together (ver. 15), against Me only: they rejoicing, I sorrowful. But we heard just now in the Gospel, \"Blessed are they that mourn. \" If they are blessed that mourn, miserable are they that laugh. \"Against Me they rejoiced, and gathered themselves together: scourges were gathered together against Me, and they knew not. \" Because they laid to My charge things that I knew not, they also knew not Whom they charged.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/35/15",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6982",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Against me. Hebrew, \"in my distress \"(Houbigant) or \"infirmity. \"(St. Jerome)\nThus was my kind attention repaid. (Haydock)\nMy enemies became only the more insolent, and stood beside me, to show their contempt. (Calmet)\nScourges. Hebrew also, \"vile men \"(Berthier) necim, people stricken, gathered themselves upon me, and I knew not. \"(Mont.) (Haydock)\nThe Roman psalters have \"and they were ignorant \"ignoraverunt. (Calmet)\nDavid could not think that he had given any offence: much less had our Saviour. (Haydock)\nHe knew no just cause why the Jews persecuted him, as they were actuated by malice. (Worthington)\nDavid knew not personally those who afflicted him. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/35/15",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfc4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 35:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

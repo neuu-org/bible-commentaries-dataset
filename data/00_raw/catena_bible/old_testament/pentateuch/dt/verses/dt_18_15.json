@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 18:15",
+  "verse_text": "Verse text for DT 18:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/18/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The LORD your God will raise up unto you a Prophet from the midst of you, of your brethren, like unto me; unto him you shall hearken; Augustine of Hippo “Like me,” says Moses. This means according to the form of the flesh, not to the eminence of majesty. Therefore we find the Lord Jesus called a prophet. Accordingly that woman is no longer greatly in error when she says, “I see that you are a prophet. ” She begins to call her husband, to exclude the adulterer. “I see that you are a prophet. ” And she begins to ask about a thing that constantly disturbs her.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/18/15",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a58",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This passage plainly proves, that the Scripture may have many literal senses: for the context insinuates that God would supply the wants of his people, so that they should not need to go far in order to consult diviners, since they should have leaders and prophets, after the death of Moses, who might explain to them God's will, as they had desired; but at the same time, it clearly refers to the Messias, as it is explained by St. Peter, (Acts iii. ; Worthington) and by St. Stephen, Acts vii. The Jews, at that time, were convinced of the truth of this application: but they only denied that Christ was the Messias. They have since gone a step farther, and deny that it regards the Messias, some referring it to Josue, others to Jeremias (Ap. Munster and Fag. ) But surely what other prophet could be compared with Moses. ) What other man reunited in his person the qualifications of lawgiver, chief of God's people, mediator, or who was like him. Hence prophet is written in the singular, to denote his eminent dignity. Augustine, contra Faustus) St. Philip recognized the claim of Jesus, as did the people after the multiplication of bread, John i. God the Father seems to allude to this passage, according to the remark of Tertullian, (contra Mar. 22,) when he says hear ye him, (Luke ix. Cyprian believes our Saviour does also, John v. Athanasius (contra Arianos 2) condemns the error of the Jews, who would apply this passage to any other prophet but to the Messias. If they could be excused for denying him this latter claim, they surely cannot in calling in question that Jesus was a true prophet, since he has all the marks of one; (Grotius) and if they would once acknowledge this, they must soon confess that he is also the Messias, and the Son of God, as these truths are so necessarily connected. (Calmet) The miracles of Moses were far exceeded by those of Jesus Christ, and the latter conversed more intimately with his eternal Father (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/dt/18/15",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9f2",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 18:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

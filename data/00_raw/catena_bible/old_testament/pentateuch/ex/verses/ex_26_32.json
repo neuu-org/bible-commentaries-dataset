@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 26:32",
+  "verse_text": "Verse text for EX 26:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/26/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Heads. Chaptrels of setim-wood, overlaid with gold,\n(Vovim), not little hooks for curtains. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/26/32",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc437",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "The tabernacle is a type of the church. So God says to Moses that the bases of the four pillars placed within it should be silver. What does silver mean except the clarity of the divine Word? Scripture says, “The words of the Lord are chaste words, silver tried by fire, cleansed from earth.” The bases are overlaid with silver and hold up the four pillars of the tabernacle, just as the preachers of the church are adorned with divine eloquence. They provide an example in every way; they have the words of the four Evangelists on their lips and in their deeds. Exposition of the Old and New Testament, Exodus",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/26/32",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52894",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 26:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

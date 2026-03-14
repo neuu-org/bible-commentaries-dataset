@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 20:8",
+  "verse_text": "Verse text for GN 20:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/20/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In the night, (de nocte) or \"as soon as it began to dawn. \"(Septuagint)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/20/8",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc0d2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you see how it was not idly or to no purpose that the good man had shifted place? I mean, had he remained at his former encampment, how would all the people of Gerar have been able to realize the degree of favor he enjoyed from God? “But all the people were very frightened.” A great fear fell on them; they worried about everything. Then “Abimelech summoned Abraham,” the text goes on. Consider, I ask you, the degree of notoriety with which the just man is now brought into the presence of the king after being treated a little before as beneath contempt, in the manner of a vagabond and stranger. When everyone is assembled in haste, the patriarch is summoned, for the time being ignorant of all this, and he then learns from the king in person what has happened to him on his account at God’s hands.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/20/8",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51aad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 20:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

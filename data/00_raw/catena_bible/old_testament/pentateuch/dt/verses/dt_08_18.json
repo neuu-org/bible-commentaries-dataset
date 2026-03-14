@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 8:18",
+  "verse_text": "Verse text for DT 8:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/8/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But you shall remember the LORD your God: for it is he that gives you power to get wealth, that he may establish his covenant which he swore unto your fathers, as it is this day. By these words [Scripture] is showing clearly that it is God who grants us gifts of good things and that we ought as servants of the grace of God to sow God’s gracious gifts and enable our neighbors to become people of honor. The aim is for the man of selfcontrol to enable those who are continent to find their fulfillment, the man of courage to do the same for the noble, the man of practical wisdom for the understanding, and the man of justice for the just.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/8/18",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a37",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 8:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 20:10",
+  "verse_text": "Verse text for LV 20:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/20/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "A woman accused of adultery was brought by the scribes and Pharisees to the Lord Jesus. But the woman was presented with guile, so that if Jesus should absolve her, he would appear to break the law. But if Jesus should condemn her, he would deviate from the purpose for which he came, since he came to forgive the sins of all. Earlier he said, “I do not judge anyone.” But presenting her, they said, “We found this woman openly committing adultery. Now it is written in the law of Moses that every adulteress is to be stoned. But what do you have to say about her?” Letter ()..",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/20/10",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529e3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Adulteress. Philo (de Josephus) says, whoever discovered a man in the very act, might kill him; and the Roman law allowed the same liberty, impunè necato. But God requires a juridical process, and witnesses, as we see in the case of Susanna, (Daniel xiii.) and in that of the woman who was brought to our Saviour. One witness might authorize a person to put his wife away, and if he then retained her, he was esteemed a fool, Proverbs xviii. 23. But more witnesses were requisite before she could be put to death. They put their hands on the heads of the guilty, thus taking their blood upon themselves, if they accused them wrongfully. Solon allowed the husband to kill the adulterer. The woman was not permitted to wear any ornaments, or to enter any temple afterwards. If she did, any one might tear her clothes, and beat, but not kill her.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/20/10",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc632",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 20:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

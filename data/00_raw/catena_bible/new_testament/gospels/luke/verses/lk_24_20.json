@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 24:20",
+  "verse_text": "Verse text for LK 24:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/24/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And how the chief priests, and our rulers delivered him, &c. They do not accuse the chief priests and the rulers, although they were persuaded of the injustice of their actions. For they feared lest this stranger might be a spy, seeking some cause of accusation against them.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/24/20",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520b5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "On Re-Baptism (Anonymous)",
+      "period": "AD300",
+      "content": "And how the chief priests and our rulers delivered him to be condemned to death, and have crucified him. On Re-Baptism (Anonymous) Ction, one of His disciples, Cleopas, when he was, according to the error of all his fellow-disciples, sorrowfully telling what had happened to the Lord Himself, as if to some unknown person, spoke thus, saying of Jesus the Nazarene, \"who was a prophet mighty in deed and in word before God and all the people; how the chief priests and our rulers delivered Him to be condemned to death, and fastened Him to the cross. But we trusted that it had been He which should have redeemed Israel.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/24/20",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbfb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 24:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

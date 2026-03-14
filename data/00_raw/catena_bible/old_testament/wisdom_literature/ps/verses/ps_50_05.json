@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 50:5",
+  "verse_text": "Verse text for PS 50:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/50/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Gather to Him His righteous\" (ver. The voice divine and prophetic, seeing future things as if present doth exhort the Angels gathering. For He shall send His Angels, and before Him shall be gathered all nations. Gather to Him His righteous. What righteous men save those that live of faith and do works of mercy. For those works are works of righteousness. Thou hast the Gospel: \"Beware of doing your righteousness before men to be seen of them. \" And as if it were inquired, What righteousness. \"When therefore thou doest alms,\" He saith. Therefore alms He hath signified to be works of righteousness. Those very persons gather for His righteous: gather those that have had compassion on the \"needy,\" that have considered the needy and poor: gather them, \"The Lord preserve them, and make them to live;\" \"Gather to Him His righteous: who order His covenant above sacrifices:\" that is, who think of His promises above those things which they work. For those things are sacrifices, God saying, \"I will have mercy more than sacrifice. \" \"Who keep His covenant more than sacrifice.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/50/5",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a81",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "His saints. Hebrew, \"my merciful ones \"(Haydock) the chosen people, (Calmet) particularly priests, (Theodoret) who might have too high an opinion of the legal sacrifices, (St. Chrysostom) or all the elect are meant, Matthew xxiv. 30. (Eusebius)\nThe Hebrews were the only nation which then offered sacrifices to the true God, though some individuals might do it among the Gentiles. (Calmet)\nBefore, super, or, \"who make a covenant with him respecting sacrifices. \"\nProtestants, \"those that have made a covenant with me by sacrifice \"Malachi as i. 12. (Haydock)\nThe Septuagint seem to have read v for i, more accurately, as the prophet speaks till ver. 7. (Berthier)\nJudgment should begin at the house of God. And if first at us, what shall be the end of them that believe not the gospel of God? (1 Peter iv. 17., and Romans ii. 9.) (Haydock)\nThose who believe not, are already judged, John iii.\nSacrifice generally precedes a covenant, Genesis xv. 17. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/50/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be09d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 50:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 9:23",
+  "verse_text": "Verse text for MT 9:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/9/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And when Jesus . saw the minstrels. It was a custom among the Jews at funerals to hire persons to make some doleful music, and great lamentations. (Witham)\nOvid also mentions the lugubrious music attendant on funerals.\nCantabat moestis tibia funeribus. (4. Fast.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/9/23",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf6f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Peter Chrysologus",
+      "period": "AD450",
+      "content": "Christ reaches the house and sees the girl who appears to be dead. In order to move faithless hearts to faith, he says that the ruler’s daughter is sleeping and is not dead. Ostensibly it is not easier to rise from death than to rise from sleep. So he says, “The girl is asleep, not dead. ” With God, indeed, death is sleep, for God can bring a dead person back to life sooner than a sleeping person can be wakened from sleep by humans; and God can sooner restore lifegiving warmth to limbs frozen in death than humans can infuse vigor in bodies immersed in sleep. Hear the words of the apostle: “In a moment, in the twinkling of an eye the dead shall rise. ” Because the blessed apostle was unable to refer to the speed of the resurrection in words, he opted for examples. How could he touch upon rapidity when divine power anticipates rapidity itself. And how does time enter the picture when something eternal is given outside of time. Even as time applies to temporality, so does eternity exclude time.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/9/23",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6e66",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 9:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

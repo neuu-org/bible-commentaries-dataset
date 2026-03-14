@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 15:17",
+  "verse_text": "Verse text for MK 15:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/15/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "He who now gives true palms to the victors was beaten in the face with hostile palms; he who clothes all others with the garment of immortality was stripped of his earthly garment.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/17",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52efd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "And they clothed him with purple, and platted a crown of thorns, and put it about his head, Cyril of Jerusalem When they “clothed him in purple,” it was in mockery, yet ironically it was a fulfillment of prophecy, for he indeed was a king, so even their parody indirectly served divine revelation. Even though they did it in a spirit of derision, still they did it, and his regal dignity was by that symbolically heralded. So, likewise, though it was with thorns they crowned him, it was still a crown.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/15/17",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52efe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 15:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 91:2",
+  "verse_text": "Verse text for PS 91:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/91/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "He then who so imitates Christ as to endure all the troubles of this world, with his hopes set upon God, that he falls into no snare, is broken down by no panic fears, he it is \"who dwelleth under the defence of the Most High, who shall abide under the protection of God\" (ver. 1), in the words with which the Psalm, which you have heard and sung, begins. You will recognise the words, so well known, in which the devil tempted our Lord, when we come to them. \"He shall say unto the Lord, Thou art my taker up, and my refuge: my God\" (ver. Who speaks thus to the Lord. \"He who dwelleth under the defence of the Most High:\" not under his own defence. Who is this. He dwelleth under the defence of the Most High, who is not proud, like those who ate, that they might become as Gods, and lost the immortality in which they were made. For they chose to dwell under a defence of their own, not under that of the Most High: thus they listened to the suggestions of the serpent, and despised the precept of God: and discovered at last that what God threatened, not what the devil promised, had come to pass in them.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/91/2",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6d0e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 91:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

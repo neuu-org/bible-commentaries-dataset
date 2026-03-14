@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 9:1",
+  "verse_text": "Verse text for REV 9:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/9/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "And the rest of the men who were not slain by these plagues, nor repented of the works of the deeds of their hands, that they should not worship demons and idols, that is, images of gold, and of silver, and of brass, and of stone, and of wood, which can neither see nor walk, repented not also of their, murders.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/9/1",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb882",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The fifth Angel. And I saw a star This again may be to represent the confusion of all things in antichrist's time, or it may signify the fall and apostacy of great and learned men from the Christian faith. Bossuet applies it to the fall of Theodotus, of Byzantium, towards the end of the second age; but certainly no great stress can be laid on such arbitrary applications, which it is no hard matter to invent, as may be seen by the different fancies we may meet with about the locusts (Witham)\nHere is a description of the rise and progress of the reformation. This trumpet begins with announcing to us the fall of a star from heaven; a very just emblem of the apostacy of Luther, who in quality of a priest and religious man is styled a star, but renouncing his faith and vows, may truly be said to have fallen from heaven upon the earth. (Pastorini, hic.)\nTo him (i.e. to the Angel, not to the fallen star) was given the key of the bottomless pit, which properly signifies hell. (Witham)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/9/1",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c046c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 9:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

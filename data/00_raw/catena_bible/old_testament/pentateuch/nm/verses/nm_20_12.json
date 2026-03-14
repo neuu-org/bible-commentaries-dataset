@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 20:12",
+  "verse_text": "Verse text for NM 20:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/20/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "You have not believed The fault of Moses and Aaron, on this occasion, was a certain diffidence and weakness of faith: not doubting of God's power or veracity; but apprehending the unworthiness of that rebellious and incredulous people, and therefore speaking with some ambiguity. (Challoner)\nSt. Augustine (contra Faust. xvi. 16,) does not think them guilty of any grievous crime. (Menochius)\nBut this must be left undetermined. (Calmet)\nLand, beyond the Jordan, which is described (chap. xxxiv. 2,) as the land of promise, though the east side of the Jordan was so too. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/20/12",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7ce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the LORD spoke unto Moses and Aaron, Because you believed me not, to sanctify me in the eyes of the children of Israel, therefore you shall not bring this congregation into the land which I have given them. You have not believed: The fault of Moses and Aaron, on this occasion, was a certain diffidence and weakness of faith; not doubting of God's power or veracity; but apprehending the unworthiness of that rebellious and incredulous people, and therefore speaking with some ambiguity.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/20/12",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fd1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 20:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

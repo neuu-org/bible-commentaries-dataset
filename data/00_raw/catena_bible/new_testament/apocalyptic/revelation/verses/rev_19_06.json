@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 19:6",
+  "verse_text": "Verse text for REV 19:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/19/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Also in the Apocalypse: \"The Lord God omnipotent reigneth: let us be glad and rejoice, and let us give to Him the honour of glory; for the marriage of the Lamb is come, and His wife hath made herself ready.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/19/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb8c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The voice of a great multitude. Menochius applies this voice to the multitude of Angels and saints, which from its strength may be compared to the voice of rushing waters, and because of the terror with which it strikes the wicked. Pastorini understands by this voice of many waters, the voices of many Angels that preside over the nations, denoted by waters, which had all before groaned under the tyranny of antichrist; and the voice of great thunders, that of the Angel who presides over fire, which, as employed in military engines, by its explosion resembles thunder. It must be observed that the latter author refers it to the last stage of the world.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/19/6",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c04cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 19:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

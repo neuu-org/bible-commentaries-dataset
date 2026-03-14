@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 13:28",
+  "verse_text": "Verse text for MK 13:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/13/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "The summer signifies the end of the world, because at that time fruits are gathered up and stored. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/28",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Now learn a parable of the fig tree; When its branch is yet tender, and puts forth leaves, you know that summer is near: Tertullian of Carthage As the sproutings of small trees afford a sign of the approach of summer time, so do the great conflicts of the world point toward the kingdom by preceding it. Both sign and thing signified belong to the same One who orders all. So if conflicts are signs of the kingdom, as sproutings are of summer, then the kingdom also is the creator’s, to whom the conflicts are ascribed, which are the signs of the coming kingdom.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/28",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e96",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 13:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

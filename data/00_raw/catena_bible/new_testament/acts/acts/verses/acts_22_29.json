@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 22:29",
+  "verse_text": "Verse text for ACTS 22:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/22/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The same law which forbad a Roman citizen to be scourged, forbad him also to be bound. (St. Augustine, lib. i. de Serm. Dni. chap. 29.)\nIt was under Claudius that the abuse of buying the freedom of Rome was introduced. At first the name of a Roman was esteemed much, and bought at a great price. Now (such is the emptiness and vanity of titles) it is refused, and despised; nay, it is fled from, and reckoned disgraceful. (Salvian. De Gubern. Dei, lib. v.)\nIf St. Paul, on this occasion, makes use of his privilege, it is not that he was unprepared, or afraid to die for Christ; but because it was lawful to use ordinary means to extricate himself from difficulties, and preserve himself for future services to religion. (Denis the Carthusian) _",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/22/29",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe78",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then immediately they departed from him who should have examined him: and the chief captain also was afraid, after he knew that he was a Roman, and because he had bound him. But I, he says, was free born. So then his father also was a Roman. What then comes of this. He bound him, and brought him down to the Jews. On the morrow, because he would have known the certainty whereof he was accused of the Jews, he loosed him from his bands, and commanded the chief priests and all their council to appear, and brought Paul down, and set him before them.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/22/29",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 22:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

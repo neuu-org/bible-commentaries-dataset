@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 14:27",
+  "verse_text": "Verse text for MK 14:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/14/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Christ permitted his disciples to fall, that they might learn not to trust in themselves. To strengthen his prediction, he adduces the testimony of Zacharias the prophet, (xiii. 7.) I will strike the shepherd, and the sheep shall be dispersed. (Theophylactus) . This text is expressed in other words, being there spoken in the person of the prophet: Strike the pastor, and the sheep shall be dispersed. (Ven. Bede)\nBy these words, the prophet prays for the passion of the Lord. The Almighty Father answers his prayer: I will strike the shepherd. The Son is sent by the Father, and is stricken by becoming incarnate and suffering death. (St. Jerome)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/14/27",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9ab",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "On Re-Baptism (Anonymous)",
+      "period": "AD300",
+      "content": "Even as we do not apprehend that Peter in the Gospel suffered this alone, but all the disciples, to whom, though already baptized, the Lord afterwards says, that \"all ye shall be offended in me\".\n\"I never knew you; depart from me, ye who work iniquity\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/14/27",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb759",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 14:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

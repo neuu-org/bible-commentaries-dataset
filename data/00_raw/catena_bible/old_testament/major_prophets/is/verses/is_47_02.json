@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 47:2",
+  "verse_text": "Verse text for IS 47:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/47/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Shame. Hebrew tsammathec, Canticle of Canticles iv. 1, 4. Protestants, \"thy locks, make bare the legs, uncover the thigh, pass \"(Haydock)\nThou shalt be reduced to a state of the most abject slavery, Exodus xi. 5., and Supra iii. 17., and xx. 4. The Barbarians sold their slaves naked.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/47/2",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb10",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "As Fabiola was not ashamed of the Lord on earth, so he shall not be ashamed of her in heaven. She laid bare her wound to the gaze of all, and Rome beheld with tears the disfiguring scar that marred her beauty. She uncovered her limbs, bared her head and closed her mouth. She no longer entered the church of God but, like Miriam the sister of Moses, she sat apart, outside the camp, till the priest who cast her out should himself call her back. She came down like a daughter of Babylon from the throne of her daintiness, she took the millstones and ground meal, she passed barefoot through rivers of tears.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/47/2",
+      "full_content_url": "https://catenabible.com/com/5e88f32eb1c7280cb341d141",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 47:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

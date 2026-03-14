@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 120:6",
+  "verse_text": "Verse text for PS 120:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/120/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "7. \"My soul hath wandered much\" (ver. 6). Lest thou shouldest understand bodily wandering, he hath said that the soul wandered. The body wandereth in places, the soul wandereth in its affections. If thou love the earth, thou wanderest from God: if thou lovest God, thou risest unto God. Let us be exercised in the love of God, and of our neighbour, that we may return unto charity. If we fall towards the earth, we wither and decay. But one descended unto this one who had fallen, in order that he might arise. Speaking of the time of his wandering, he said that he wandered in the tents of Kedar. Wherefore? Because \"my soul hath wandered much.\" He wandereth there where he ascendeth. He wandereth not in the body, he riseth not in the body. But wherein doth he ascend? \"The ascent,\" he saith, \"is in the heart.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/120/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66ad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 120:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

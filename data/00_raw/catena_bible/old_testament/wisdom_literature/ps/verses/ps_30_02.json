@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 30:2",
+  "verse_text": "Verse text for PS 30:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/30/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "3. \"O Lord, My God, I have cried unto Thee, and Thou hast healed Me\" (ver. 2). O Lord, My God, I have cried unto Thee, and I no longer hear about a body enfeebled and sick by mortality.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/30/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e691d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Healed me. I expected to die every moment, and I had made choice of the scourge of pestilence, that I might not be more screened than my subjects, 2 Kings xxiv. 13. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/30/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf65",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 30:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

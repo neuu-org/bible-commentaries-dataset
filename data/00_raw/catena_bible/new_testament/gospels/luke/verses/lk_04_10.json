@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 4:10",
+  "verse_text": "Verse text for LK 4:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/4/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "We have the devil here again citing Scripture, (Psalm xc. ) (Read what is given on this subject in note on ver. Matthew's gospel) which shows how very dangerous a thing it is to put the Scripture, in the first instance, indiscriminately into every, even the most illiterate person's hands, without any previous disposition of the mind and heart, by study and prayer. How much more satisfactory must it be to be guided by the Church of God, which Christ has promised to secure against all error, and which he commands all to obey. How much more rational to begin with distributing elementary catechisms, approved by the Catholic Church as conformable to the word of God, and then only opening to them the sacred mystic book, when their minds and hearts are better prepared to avail themselves of the inestimable treasure, and of justly appreciating and exploring the golden lore. If humility be a virtue that renders us most pleasing to God, it is a virtue particularly necessary for the proper understanding of Holy Writ. This will teach us to submit (whenever the Scripture is either silent or obscure in points of faith) our own private and unassisted judgment to the judgment and comments of the Church. This was the sentiment of a great philosopher of this nation, who, when charged with scepticism and a love of novelty by his contemporaries, replied: \"However fanciful I may be esteemed in matters of philosophy, in religious concerns I like to go the beaten road. Where the Scripture is silent, the Church is my text. Where that speaks, it is but the comment; and I never refer any thing to the arbitration of my own judgment, but in the silence of them both.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/4/10",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa2f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 4:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

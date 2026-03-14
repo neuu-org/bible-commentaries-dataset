@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MT 27:54",
+  "verse_text": "Verse text for MT 27:54",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/27/54",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Now when the centurion, and they that were with him, watching Jesus, saw the earthquake, and those things that were done, they feared greatly, saying, Truly this was the Son of God. Indeed this was the Son of God. Mark says, that when they saw Jesus die in that manner, crying out with a loud voice, which could not be natural, and when they saw the other miracles, they were struck with fear. Luke says, (xxiii. ) that the centurion glorified God (Witham) It is said that this centurion, being afterwards confirmed in the faith, was honoured with the crown of martyrdom. Chrysostom, hom.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/27/54",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf8d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 27:54",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 20:7",
+  "verse_text": "Verse text for JB 20:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/20/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hill. Hebrew, \"his own dung. \"(Haydock) (Proverbs x. 7.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/20/7",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc83",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Which same, though he feign to lead a heavenly life, though he shew his view of truth to accord with the true preachers, yet he ‘perishes like a dunghill in the end,’ in that his soul is damned for the stench of his evil qualities. It goes on;\nThey which had seen him shall say, Where is he?\n6. It generally happens that the life of the hypocrite is even by all men discovered at the end to be damnable, for it to be made appear by plainer marks now what sort they were of. They then that saw him elate at this present time shall say of him when dead, Where is he? For neither is he seen here where he was elated, nor yet in the rest of eternity, which he was supposed to be of.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/20/7",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd06c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 20:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

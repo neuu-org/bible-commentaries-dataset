@@ -1,0 +1,69 @@
+{
+  "verse_reference": "TIT 2:9",
+  "verse_text": "Verse text for TIT 2:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ti/2/9",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "A bishopric necessarily pertains to him who is the head of the household. It is a superintendence of the faith of the members of the household, lest any fall into heresy. It extends to the wife, to a son or a daughter; it extends also to a slave, for he has also been redeemed at so great a price. The apostolic teaching assumes the placement of the master above the slave and the slave beneath the master, but Christ has given the same price for each of them. Do not neglect even the lowliest among your household.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/9",
+      "full_content_url": "https://catenabible.com/com/583bbc53205c248f42e530e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Servants to be obedient. Servants owe respect and submission to their masters in every thing not contrary to the law, or the will of God. Hence they are strictly forbidden to murmur at their commands, to show any repugnance to obey them, or to censure their conduct. To avoid these evils, they ought to consider their masters as Jesus Christ himself, and their commands as those of God himself: which St. Paul often inculcates in other places in his epistles. (Ephesians vi. 5, 6.; Colossians iii. 23.) (St. Jerome)",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/9",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0289",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Exhort servants to be obedient unto their own masters, and to please them well in all things; not talking back; Do you see what he has previously said, that he that is of the contrary part may be ashamed, having no evil thing to say of you. He therefore is deserving of condemnation, who under pretense of continence separates wives from their husbands, and he who under any other pretext takes away servants from their masters. This is not speech that cannot be condemned, but it gives great handle to the unbelieving, and opens the mouths of all against us.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/9",
+      "full_content_url": "https://catenabible.com/com/576210d59fd295934bf1201b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For if you serve your master with good will, yet the occasion of this service proceeds from your fear of God, and he who with so great fear renders him service, shall receive the greater reward. For if he restrains not his hand or his unruly tongue, how shall the Gentile admire the doctrine that is among us? But if they see their slave, who has been taught the philosophy of Christ, displaying more selfcommand than their own philosophers and serving with all meekness and good will, he will in every way admire the power of the gospel. For the Greeks judge not of doctrines by the doctrine itself but make the life and the conduct the test of the doctrines.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ti/2/9",
+      "full_content_url": "https://catenabible.com/com/583bbc53205c248f42e530e8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured TIT 2:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "verse_reference": "PS 11:1",
+  "verse_text": "Verse text for PS 11:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/11/1",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "This title does not require a fresh consideration: for the meaning of, \"to the end,\" has already been sufficiently handled. Let us then look to the text itself of the Psalm, which to me appears to be sung against the heretics, who, by rehearsing and exaggerating the sins of many in the Church, as if either all or the majority among themselves were righteous, strive to turn and snatch us away from the breasts of the one True Mother Church: affirming that Christ is with them, and warning us as if with piety and earnestness, that by passing over to them we may go over to Christ, whom they falsely declare they have. Now it is known that in prophecy Christ, among the many names in which notice of Him is conveyed in allegory, is also called a mountain. We must accordingly answer these people, and say, \"I trust in the Lord: how say ye to my soul, Remove into the mountains as a sparrow. I keep to one mountain wherein I trust, how say ye that I should pass over to you, as if there were many Christs. Or if through pride you say that you are mountains, I had indeed need to be a sparrow winged with the powers and commandments of God: but these very things hinder my flying to these mountains, and placing my trust in proud men. I have a house where I may rest, in that I trust in the Lord. For even \"the sparrow hath found her a house,\" and, \"The Lord hath become a refuge to the poor. \" Let us say then with all confidence, lest while we seek Christ among heretics we lose Him, \"In the Lord I trust: how say ye to my soul, Remove into the mountains as a sparrow.",
+      "commentary_number": "1/4",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/11/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6801",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "TO The End, A Psalm OF David Himself.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/11/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6800",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "] Hebrew Lamnatseach led avid, (Haydock) \"to the master of music or, or to David. \"(Calmet)\nSt. Jerome supplies the word psalm. That David, or any other, should give the title of master of music to so great a prince may seem strange; and therefore the Vulgate may perhaps be as accurate. St. Jerome and Pagnin have \"to the victor of David. \"Almost all agree that he composed this psalm (Haydock) when he began to be persecuted by Saul. He expresses his confidence in God; when his friends advised him to flee. (Calmet)\nThe Fathers take hence occasion to caution the faithful against the insidious speeches of those who pretend that they can procure greater security than the Church affords, (Haydock) and that they teach a doctrine of greater perfection. (Sts. Augustine, Jerome) (Calmet)",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/11/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde94",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "How. My friends. Say (Worthington)\nTo the. Hebrew now, \"to your mountain \"as the words are joined which were formerly divided, while a v has been lost, and another placed instead of i, as we may gather from the ancient interpreters. (Chaldean; Syriac; St. Jerome)\nMost people suppose that David's friends exhort him to withdraw: but he waits for the divine order. Others think (Calmet) that these are the words of his enemies, who wished to fill him with dismay, that he might retire among the Gentiles, and adore their idols, 1 Kings xxvi. 19. (Mariana)\nSparrow. Hebrew tsipor, any little \"bird. \"(Haydock) (Proverbs xxvii. 8.) (Menochius)\nHeretics falsely style their conventicles the mountain. (St. Augustine) (Worthington)",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/11/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde95",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 11:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

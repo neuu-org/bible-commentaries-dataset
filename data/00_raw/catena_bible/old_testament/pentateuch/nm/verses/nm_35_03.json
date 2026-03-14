@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 35:3",
+  "verse_text": "Verse text for NM 35:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/35/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cities, in all forty-eight, with a thousand paces round them. This land belonged to the community: but some built upon it, Josue xxi. , and 1 Paralipomenon vi. The burial place for the Levites lay behind it. (Drusius) In these cities alone, the Levites had houses and gardens of their own; others might live with them, and indeed the cities acknowledged other lords, as Hebron belonged to Caleb, Josue xiv. The Levites were dispersed throughout the land, that they might instruct the people both by word and by example, Deuteronomy xxxiii. They had a clear revenue without labour of husbandry, equivalent to any two of the other tribes. ) Six of their cities were assigned for places of refuge, as they were the proper judges of the cases, in which murder may be excused, and to remind them that they ought to be very merciful. Hence arose the privileges, granted to some churches, of protecting those who fled to them for an asylum. That none might be hindered from enjoying this benefit, three of these cities were situated on each side of the Jordan, and at equal distances.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/35/3",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc8bd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 35:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

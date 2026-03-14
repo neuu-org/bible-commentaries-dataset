@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 27:32",
+  "verse_text": "Verse text for LV 27:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/27/32",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rod; on which was some red colouring, to mark the tenth animal as it passed through a narrow gate. If it was proper for sacrifice, its blood was poured out around the altar, and its flesh was returned to the giver. If it could not be offered in sacrifice, it was slain. The priest received none of the victim, no more than the paschal lamb. (Outram, sac. i. 11.) But a feast was made of flesh for the person's friends, and he gave a portion to the poor and to the Levites.\nThe Lord, as a sacrifice of thanksgiving, in which the greatest part of the victim is consumed by the person who offers it. The priests have but a small share, chap. iii. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/27/32",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc6bb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 27:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

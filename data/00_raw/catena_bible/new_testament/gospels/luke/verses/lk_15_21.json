@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 15:21",
+  "verse_text": "Verse text for LK 15:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/15/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And the son said unto him, Father, I have sinned, &c. He desires, says the Interlinear, that to be done by grace, which he acknowledges himself to be unworthy of by any merit of his own. (See above on ver18.) He omits to say, \"make me as one of thy hired servants,\" either because his father, out of love and joy, had cut short his confession, by bidding the attendants \"bring forth the best robe,\" or because his father\"s embrace and kiss had encouraged him to hope that again he might be acknowledged as a son. \"He does not add,\" says S. Augustine (Lib. ii. Quæst. Evang. q33), \"what he had before determined to say, for after the kiss of his father he most nobly disdained to become a hireling.\" Titus , however, is of opinion that the words were actually uttered, although S. Luke , has not recorded them.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/15/21",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5202c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "This son, when he repented, and returned to his father, and said, \"I have sinned against Heaven, and before thee, and am no more worthy to be called thy son; \"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/15/21",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbe67",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 15:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

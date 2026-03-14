@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 27:13",
+  "verse_text": "Verse text for GN 27:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/27/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This curse. Rebecca had too much confidence in God's promises, to think that he would suffer them to be ineffectual. Hence, Onkelos makes her say, \"I have learnt by revelation, that thou wilt receive no curse, but only blessing. \"The sequel shewed, that she was directed by God in this delicate business. (Theodoret q. 78.) (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/27/13",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc12c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "We can see that the words spoken by Rebekah a long time ago have now been fulfilled in the church. The words “Let your curse be on me, my son” show that now certain people offend the church by their blasphemies, because she worships the Crucified, and for that reason they throw curses and contempt at us. In fact, the passion of the Lord is held to be a curse for the unbelievers, whereas his life is peace for those who believe. The apostle says, “Christ redeemed us from the curse of the law by becoming a curse for us.” That is what the Savior has now accomplished by receiving in himself, through his body, death on the cross. By his obedience he has erased the curse of Adam, which was received in the law: “You are dust, and to dust you shall return.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/27/13",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51b86",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 27:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

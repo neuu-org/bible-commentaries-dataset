@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 33:16",
+  "verse_text": "Verse text for IS 33:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/33/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sure. Never failing. (Calmet)\nThis was a great advantage in those dry regions. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/33/16",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea72",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh He shall dwell on high: his place of defense shall be the fortresses of rocks: bread shall be given him; his waters shall be sure. “Bread” signifies perfection, as Paul attested while exhorting the weak to conversion: “I gave you milk to drink, not food, for you were then and still remain unable to eat. ” If milk is for children, then bread is only for the perfect. Consequently, it was said about the strength of the perfect man: “He will live upon the heights, a fortress of rocks will be his dwelling, bread will be given to him.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/33/16",
+      "full_content_url": "https://catenabible.com/com/5e4f7fbec849cf49a740e44c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 33:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 47:12",
+  "verse_text": "Verse text for EZ 47:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/47/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "First-fruits, or most excellent. (Haydock)\nSt. John saw such (Worthington) a tree of life, Apocalypse xxii. (Haydock)\nThe doctrine of the gospel, and the study of the sacred books, have the most salutary effects; while the very leaves, or the example of the saints, heal the soul. No more shall the deceitful fruits near Sodom be seen (Calmet) beautiful, but full of nothing but ashes. (Tacitus, An. v.)\nWhere Christ instructs, a torrent of grace and glory is presently formed. Like the mustard seed growing into a large tree, in which the birds rest, its origin is mean; yet its progress is grand and astonishing.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ez/47/12",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf252",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 47:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

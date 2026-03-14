@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 20:31",
+  "verse_text": "Verse text for 1KGS 20:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/20/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Heads, or necks, to indicate that hey deserved to die. (Haydock)\nThe Syrians acted thus, when they came as supplicants. (Josephus, viii. 14.)\nThe son of Psammetichus, king of Egypt, was led in this manner to execution, with 2000 others. (Herodotus iii. 14.)\nBessus was conducted to Alexander with a chain round his neck. (Curt. vii.) (Calmet)\nWhat a reverse of fortune do we here behold! (Salien)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/20/31",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd3bb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 20:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

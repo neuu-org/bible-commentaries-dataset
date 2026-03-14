@@ -1,0 +1,47 @@
+{
+  "verse_reference": "3JN 1:4",
+  "verse_text": "Verse text for 3JN 1:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/3jn/1/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "I have no greater joy than to hear that my children walk in truth. Cornelius a Lapide Greater grace than these I have none. ) That Isaiah , nothing can be more grateful or pleasing to me than that they so act that I may hear they are walking in the truth that I have spoken of. Instead of Ï‡Î¬Î¶Î¹Î½, grace, some Greek MSS. read Ï‡Î¬Î¶Î±Î½, joy. This is followed by the Syriac. Jerome on the5th chapter to the Ephesians mentions that celebrated axiom of Christ, \"Never be joyful except when ye shall see a brother in charity.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/3jn/1/4",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e526dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "No greater grace: that is nothing that gives me greater joy and satisfaction.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/3jn/1/4",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f44",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 3JN 1:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

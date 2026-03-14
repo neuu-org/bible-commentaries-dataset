@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 10:20",
+  "verse_text": "Verse text for HEB 10:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/10/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "A new and living way; that is, having a new way, which he hath traced out and opened for us, by entering himself first into heaven, through the veil, i.e. through his flesh, or by taking upon him, our flesh or human nature. He speaks with an allusion and comparison with the high priest of the former law, who to enter into the sanctuary, was to pass through the veil of separation. He compares Christ's flesh or body to this veil, inasmuch as Christ entered into the sanctuary of heaven by his sufferings in the flesh, and by the death of his body on the cross; or, inasmuch as the divinity of Christ was hidden from us by the veil of his human nature, as the sanctuary was hidden from the people by its veils. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/10/20",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0317",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "A new and living way. Here He expresses the full assurance of hope. New, he says. He is anxious to show that we have all things greater; since now the gates of Heaven have been opened, which was not done even for Abraham. A new and living way, he says, for the first was a way of death, leading to Hades, but this of life. And yet he did not say, of life, but called it living, (the ordinances, that is,) that which abides.\n\nThrough the veil (he says) of His flesh. For this flesh first cut that way, by this He inaugurated it [the way] by which He walked. And with good reason did he call [the flesh] a veil. For when it was lifted up on high, then the things in heaven appeared.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/10/20",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac822",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 10:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

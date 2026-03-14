@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 13:23",
+  "verse_text": "Verse text for LK 13:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/13/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Then said one unto Him, Lord, are there few that be saved? Christ answered in the affirmative that few should be saved, as S. Luke signifies and S. Matt. plainly states, Matthew 7:14. Isaiah speaks to the same effect, Isaiah 10:22; Isaiah 24:13. Understand \"few\" by a comparison of all the inhabitants of the whole world; or of the faithful with the unbelieving, for all the latter are condemned for their unbelief, and equally many of the faithful for their wicked lives. The faithful alone are saved, and not all of these. But whether the greater number of them are saved or lost is the question. Some think that the greater number are saved, through the holy sacraments (which very many of them only receive at the end of their lives). Others think that most are lost because they live in a state of mortal sin. The rule of S. Augustine is that as men have lived, so they die. Of these opinions I have shown which is the true one, on S. James 2:13, on the words \"Mercy rejoiceth against judgment.\" The judgment of S. Chrysostom, Homily xl. to the Antiochenes, who numbered100 ,000 or more, is formidable. \"In our city,\" he says, \"among so many thousands, scarcely can100 be found who will be saved, for in the youngers is great wickedness, and in the elders deadness.\" And S. Augustine (Bk. iv. ch53 , against Dresconius) compares the Church to a threshing-floor, on which there is much more chaff than grain, i.e. more reprobate than elect.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/13/23",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51ff9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 13:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

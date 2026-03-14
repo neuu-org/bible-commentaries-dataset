@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 5:16",
+  "verse_text": "Verse text for LK 5:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/5/16",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Not by words alone, but also by deeds has God taught us to pray. He himself prayed frequently and demonstrated what we ought to do by the testimony of his own example. As it is written: “But he himself was in retirement in the desert, and in prayer,” and again, “He went out into the mountain to pray and continued all night in prayer to God.” But if he who was without sin prayed, how much more ought sinners to pray, and if he prayed continually, watching through the whole night with uninterrupted petitions, how much more ought we to lie awake at night in continuing prayer! The Lord’s Prayer",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/16",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7382",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Nor was it only in words, but in deeds also, that the Lord taught us to pray, Himself praying frequently and beseeching, and thus showing us, by the testimony of His example, what it behoved us to do, as it is written, \"But Himself departed into a solitary place, and there prayed.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/16",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Christ did not stand in need of this retirement, since, being God, he was free from every stain, and likewise present in every place. But, by this his conduct, he wished to teach us the time most proper, both for our active employments, and for the more sublime duties of prayer and contemplation. (St. Gregory of Nazianzus, Orat. xxviii.)\nen upochoron, he withdrew after his great prodigies, to avoid the praise of the multitude, and to pray assiduously, and with fresh instance, for the salvation of man.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/16",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa4b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "The sick of the palsy is healed,",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/16",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc5d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 5:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

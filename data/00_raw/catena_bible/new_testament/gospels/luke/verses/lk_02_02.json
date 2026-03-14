@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 2:2",
+  "verse_text": "Verse text for LK 2:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/2/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And this taxing was first made when Cyrenius was governor of Syria. First, that is general,—throughout all the world, which had now been lulled into peace under Augustus and the Romans; for there was a particular census taken in several provinces prior to this general one. So Paulus Orosius, Bede, Maldonatus, Jansenius, Toletus, Franciscus Lucas and others. First, again, because a second was taken ten years after, when Cyrenius was sent to Syria to superintend it, for the purpose of confiscating the property of Archelaus who was then exiled;—see Josephus, Antiq. Tertullian, \"against Marcion\" bk. iv, ch7 , 19 , and36 , says that this first enrolment was made under Sentius Saturninus, who was sent expressly for the purpose by Augustus at the time when Cyrenius was governor of Syria in all things, and, consequently, with respect to this census as well. Or, according to others, Cyrenius began the census, and, being called away to a war against the Homonadians—over whom he shortly after triumphed—left it to Saturninus to finish. Hence it follows that this enrolment and census was not a lustral or quinquennial, but a new and universal one; the second and most celebrated of the three made by Augustus, in the Consulship of Censorinus and Asinius, as the stone of Ancyra, Suetonius, and Josephus, Antiq. xvii, ch3 , have it. The first census was that which Augustus took twenty years before in his sixth consulate and the seventeenth year of his reign, M. Agrippa his Song of Solomon -in-law being his colleague, while the third was twenty years after, in the last year of his reign and his life, with Tiberius, who had married Julia at the death of Agrippa, his mother Livia having married Augustus. The time occupied in making one of these enrolments was five years. Sulpitius Quirinus, Cyrinus, or Cyrinius whom Augustus had appointed tutor to Caius Csar when he went to Syria, and whom he ordered to remain as governor when Caius died there, as Velleius the companion of Caius, Suetonius, Florus, Dio, and others record.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lk/2/2",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51ef1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By Cyrinus, or Publius Sucp. Quirinus. (Witham)\nThis was the first census made by Quirinus, governor of Syria: nine years after the birth of Christ, this same Quirinus was charged to make a second, when Judea was reduced to a Roman province, by the deposition and exile of Archelaus.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/2/2",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9fb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 2:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

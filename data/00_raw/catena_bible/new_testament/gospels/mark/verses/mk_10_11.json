@@ -1,0 +1,80 @@
+{
+  "verse_reference": "MK 10:11",
+  "verse_text": "Verse text for MK 10:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/10/11",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Athenagoras of Athen",
+      "period": "AD190",
+      "content": "We hold that a man should either remain as he is born or else marry only once. For a second marriage is a veiled adultery.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/11",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52dfc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "”For a woman is bound, as long as her husband is alive.” As a consequence, therefore, the husband is also bound, as long as his wife is alive. This bond renders any further union impossible without the implication of adultery. Hence, four adulterers are produced of necessity from the two marriages, if the wife remarries and the husband marries an adulteress. However, a more infamous adultery is imputed to the one who remarries after the dismissal of his wife for other than the cause of fornication. Matthew spoke of this type of adultery. Such a one is not the only one who commits adultery, but, as we read in Mark: “Whoever puts away his wife and marries another, commits adultery against her; and if the wife puts away her husband, and marries another, she commits adultery.” .",
+      "commentary_number": "2/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/10/11",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52dfe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "God created marriage. As the union is from God, so divorce is from the devil. But one is allowed to divorce a wife in case of fornication for the precise reason that one never originally wished to have a wife who has not preserved conjugal fidelity to her husband. .",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/11",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52dff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "This declaration of the Lord applies equally to man and woman. It prohibits departing from marriage except in the case of fornication. Letter , To Amphilochius",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/11",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52dfd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Guilt in this does not attach merely to the man who divorces her. It attaches also to the man who takes her on, since he provides the starting point for the woman’s sin.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/11",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52dfb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 10:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

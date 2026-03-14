@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 147:14",
+  "verse_text": "Verse text for PS 147:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/147/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "22. What ye cried out a while ago at the very mention of peace, ye cried from longing: your cry was from thirst, not from fulness; for there will be perfect righteousness where will be perfect peace. Now we hunger and thirst after righteousness. \"They shall be filled.\" How shall they be filled? When we have arrived at peace. Therefore when he had said, \"Who hath set peace for thy borders,\" because there is fulness and no want, he added at once, \"and filleth thee with the fat of wheat\" (ver. 14). ...",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/147/14",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67c4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Peace. To obtain this, the peace of Jesus Christ must triumph in our hearts, Colossians iii. 15. (Haydock)\nBorders. People perceiving that Assuerus favoured the Jews, durst no longer attack them, 2 Esdras vi. 16. (Calmet)\nThey enjoyed peace and plenty. In the Church we have remission of sin in baptism and penance, and the spiritual food of Christ's body and blood in the blessed Eucharist, with the graces of the other sacraments. In heaven peace and joy subsist for ever. (Worthington)\nFat. The best (Haydock) of all sorts of fruit. (Theodoret)\nThe Fathers understand the blessed Eucharist, or the holy Scriptures. (St. Augustine) (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/147/14",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be548",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 147:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

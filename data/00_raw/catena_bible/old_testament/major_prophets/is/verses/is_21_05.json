@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 21:5",
+  "verse_text": "Verse text for IS 21:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/21/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Drink. Persians refresh yourselves.\nTake up. Hebrew, \"anoint. \"He may also allude to the Babylonians, who were feasting.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/21/5",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be9c2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "And in testimony of the fact that Babylon was captured during a banquet, Isaiah clearly exhorts it to battle when he writes, “Babylon, my beloved, has become a strange spectacle to me: set the table and behold in the mirrors those who eat and drink; rise up, you princes, and snatch up your shields!” - \"Commentary on Daniel 2.5.31\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/21/5",
+      "full_content_url": "https://catenabible.com/com/5e4f7f88c849cf49a740e359",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 21:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

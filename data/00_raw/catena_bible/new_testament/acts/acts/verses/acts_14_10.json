@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 14:10",
+  "verse_text": "Verse text for ACTS 14:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/14/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Said with a loud voice, Stand upright on your feet. And he leaped and walked. It was a proof of his perfect cure, the leaping. And when the people saw what Paul had done, they lifted up their voices, saying in the speech of Lycaonia, The gods have come down to us in the likeness of men. And they called Barnabas, Jupiter; and Paul, Mercurius, because he was the chief speaker. Then the priest of Jupiter, which was before their city, brought oxen and garlands unto the gates, and would have done sacrifice with the people.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/10",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9363",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Suppose now we revolve in our minds the superstitions of Numa Pompilius, and consider his priestly offices and badges and privileges, his sacrificial services, too, and the instruments and vessels of the sacrifices themselves, and the curious rites of his expiations and vows: is it not clear to us that the devil imitated the well-known",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/10",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae37",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 14:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

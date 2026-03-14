@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 11:12",
+  "verse_text": "Verse text for JN 11:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/11/12",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Then said His disciples, Lord, if he sleep, he shall do well. For in the sick sleep is usually the sign and forerunner, and often the cause, of health. The sense is as if it were said, Let us suffer him to sleep, that he may the more quickly recover: wherefore there is no reason that we should go to him. So S. Augustine and Cyril.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/12",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52279",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "To men indeed he was dead, but to God he slept. For the Almighty as easily raised him from his grave, as man can raise the slumberer from his bed. (St. Augustine, tract. 49. in Joan.)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/12",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfc5a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This they said not without a cause, but desiring to hinder the going there. Sayest Thou, asks one of them, that he sleeps? Then there is no urgent reason for going. Yet on this account He had said, Our friend, to show that the going there was necessary. When therefore their disposition was somewhat reluctant, He said,",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/12",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabbcd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 11:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

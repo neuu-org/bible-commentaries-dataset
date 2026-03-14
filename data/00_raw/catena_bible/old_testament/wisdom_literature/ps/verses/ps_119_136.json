@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:136",
+  "verse_text": "Verse text for PS 119:136",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/136",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "135. \"My eyes have descended streams of waters, because they have not kept Thy law\" (ver. 136): that is, my eyes. For in some copies there is this reading, \"Because I have not kept Thy law, streams of waters\" therefore \"descended,\" that is, floods of tears. ...\n\nTadze.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/136",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6682",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Law. This shows that David composed this psalm, as he fell by seeing Bethsabee.\nThey. Men. (Duport.) Septuagint, \"I. \"But this is unnecessary. The eyes and all our senses lead to our ruin, Romans vii. 18, 24. (Berthier)\nTrue repentance requires lamentation, as well as a firm purpose of amendment, (Worthington) commissa diluereabluta non iterare. (St. Jerome)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/136",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be44a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:136",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

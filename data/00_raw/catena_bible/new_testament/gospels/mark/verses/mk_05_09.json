@@ -1,0 +1,80 @@
+{
+  "verse_reference": "MK 5:9",
+  "verse_text": "Verse text for MK 5:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/5/9",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "My name is Legion; Syriac, our name, &c, adding, by way of explanation, for we are many. A legion contained properly6666 soldiers. See what is said in Matthew 26:53. In this place a certain number is put for an uncertain. Observe, the devil is God\"s ape. Hence he imitates God, who is \"the Lord of hosts,\" that Isaiah , of angels. In a like way the devil calls himself legion, because he leads out many companions into line of battle to fight against God and His faithful people. Wherefore me have a right to dread that battle, knowing that their warfare is not with men, but devils, and those many in number, who conspire for their destruction. Therefore they ought to implore the help of God and the holy angels, as Elisha did ( 2 Kings 7:17).",
+      "commentary_number": "1/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/5/9",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e56",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "Look too at Legion: when in anguish he begged, our Lord permitted the demons to enter into the herd. He asked for respite, without deception, in his anguish, and our Lord in his kindness granted this request. His compassion for the demoniac is a rebuke to the demons, showing how much anguish his love suffers in desiring that humans should live. Encouraged by the words I had heard, I knelt down and wept there, and spoke before our Lord: “Legion received his request from you without any tears. Permit me, with my tears, to make my request.”",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/5/9",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d44",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "My name is Legion. Spirits have no names, only with respect to our language. These devils say their name is Legion, because they are many. (Witham)",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/5/9",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf92d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "One should also bear in mind that God antecedently wills all to be saved and to attain to his kingdom. For he did not form us to be chastised, but to share his goodness, because he is incomparably good. Yet, because he is just, it is required that sin be punished. So, the first form of the will of God is called his antecedent will and blessing, which has God as its cause. The second is called God’s consequent will and permission, of which we are a participating cause. What God wills as a consequence of our sinning is twofold: either that which God permits to continue by his gracious dispensation for our instruction and salvation, or that which God finally abandons to certain chastisement. These, however, belong to those things which do not depend upon us. As to the things which do depend upon us, whatever is good God wills antecedently and blesses. Whatever is evil he neither wills antecedently nor consequently, but permits them to the free will. If something is done under compulsion, it cannot be a virtuous act or according to reason, since virtue must be chosen. In these ways God provides for all creation. Through all creation God does good and teaches, and he may even use the demons themselves for this purpose of instruction, as he did in the case of Job and in the gospel narrative of the swine.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/5/9",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d45",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "And after they are gone out, let him say: Ye energumens, afflicted with unclean spirits, pray, and let us all earnestly, pray for them, that God, the lover of mankind, will by Christ rebuke the unclean and wicked spirits, and deliver His supplicants from the dominion of the adversary. May He that rebuked the legion of demons, and the devil, the prince of wickedness,",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/5/9",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb6ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 5:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

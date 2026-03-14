@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1COR 16:5",
+  "verse_text": "Verse text for 1COR 16:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/16/5",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul is personally strengthening the admonitions by which he is putting them right. The one from whom they have heard Christian teaching is coming to visit. If so, they will be all the more concerned not to be ashamed when he arrives. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/16/5",
+      "full_content_url": "https://catenabible.com/com/584c89a19ac03ecd4b8e5fa2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Now I will come. St. Paul came to Corinth a year after he had written this epistle. Titus, his favourite disciple, arrived at Corinth before St. Paul, and was received with the greatest marks of esteem: by him he sent his second epistle to the Corinthians. (Calmet)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/16/5",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0035",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "5. But I will come to you, says he, when I shall have passed through Macedonia. This he had said also above; then however with anger: at least he added, 1 Corinthians 4:19 And I will know not the speech of them that are puffed up, but the power: but here, more mildly; that they might even long for his coming. Then, that they might not say, Why is it that you honor the Macedonians above us? he said not, When I depart, but, When I shall have passed through Macedonia; for I do pass through Macedonia.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/16/5",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd939",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 16:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

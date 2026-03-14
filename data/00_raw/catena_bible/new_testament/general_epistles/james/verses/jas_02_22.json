@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JAS 2:22",
+  "verse_text": "Verse text for JAS 2:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/2/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Abraham had such a vibrant faith in God that he was ready to do whatever God wanted him to. This is why his faith was reckoned to him as righteousness, and it was in order that we might know the full meaning of this that God ordered Abraham to sacrifice his son. It was by his perfect accomplishment of God's command that the faith which he had in his heart was shown to be perfect.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/22",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9ef1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "He has sacrificed the spiritual victim and announced that the laws of nature have been overcome. He has opened up the heart of his unquenchable love for humanity and shown that nothing on earth can compare with the love of God.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/22",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f2a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 2:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 17:7",
+  "verse_text": "Verse text for DT 17:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/17/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The hands of the witnesses shall be first upon him to put him to death, and afterward the hands of all the people. So you shall put the evil away from among you. Thus testifying that they approve the sentence, and are willing that his blood should be required at their hands, if they had accused him falsely. The criminal was hurled down a precipice by one of the witnesses, and, if he survived, he was stoned by the other, and by the whole people. Maimonides asserts, that the execution took place on some great festival, for the terror and instruction of the multitude; but others call this in question. (Fagius) (Calmet).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/17/7",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9da",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 17:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

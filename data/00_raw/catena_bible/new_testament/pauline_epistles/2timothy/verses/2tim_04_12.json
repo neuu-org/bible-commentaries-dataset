@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2TIM 4:12",
+  "verse_text": "Verse text for 2TIM 4:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2tm/4/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Tychicus. Theodoret and some others have inferred from this verse, that Timothy was not at Ephesus at this time; otherwise St. Paul would have here said, I have sent Tychicus to thee. Timothy, in quality of bishop of Ephesus, had the inspection of the whole province of Asia; hence St. Paul might have presumed, that Tychicus would not be able to find him in that city. But these reasons do not appear sufficiently convincing. Tychicus might have been the bearer of this epistle; then St. Paul might say, I have sent him to carry it. Or St. Paul might have sent him before, and here tells Timothy of it; because, on account of the distance of Rome from Ephesus, he might not have yet heard of his arrival. Mention has been made of Tychicus before, Acts. xx. 4.; Ephesians vi. 71.; Colossians iv. 70. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2tm/4/12",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c026e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2TIM 4:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

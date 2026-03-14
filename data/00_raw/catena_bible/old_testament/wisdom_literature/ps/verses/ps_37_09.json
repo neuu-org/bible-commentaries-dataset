@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 37:9",
+  "verse_text": "Verse text for PS 37:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/37/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"For evil-doers shall be cut off\" (ver. \"But I see their prosperity. \" Believe Him who saith, \"they shall be cut off;\" Him who seeth better than thou, since His eye anger cannot cloud. \"For evil-doers shall be cut off. But those that wait upon the Lord,\"-not upon any one that can deceive them; but verily on Him who is the Truth itself,-\"But those that wait upon the Lord, they shall inherit the land. \" What \"land,\" but that Jerusalem, with the love of which whosoever is inflamed, shall come to peace at the last. \"But how long is the sinner to flourish. How long shall I have to endure. \" Thou art impatient; that which seems long to thee, will soon come to pass. It is infirmity makes that seem long, which is really short, as is found in the case of the longings of sick men. Nothing seems so long as the mixing of the potion for him when athirst. For all that his attendants are making all speed, lest haply the patient be angry; \"When will it be done. When will it be drest. When will it be served. \" Those who are waiting upon you are making haste, but your infirmity fancies that long which is being done with expedition. Behold ye, therefore, our Physician complying with the infirmity of the patient, saying, \"How long shall I have to endure. How long will it be.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/37/9",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69a1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For evildoers shall be cut off: but those that wait upon the LORD, they shall inherit the earth. Land of the living. (Worthington) David knew that many truly pious people would never obtain riches in the land of Chanaan, even though they might have remained there, if the nation had been faithful. He therefore comforts them with the prospect of a better land. If this were not the meaning, the Church would put these canticles in the mouth of her children to little purpose.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/37/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfe8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 37:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

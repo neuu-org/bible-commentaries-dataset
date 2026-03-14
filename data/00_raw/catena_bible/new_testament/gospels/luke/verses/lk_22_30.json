@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 22:30",
+  "verse_text": "Verse text for LK 22:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/22/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "That ye may eat and drink at My table in My kingdom. As kings gave to their most intimate nobles a place at their own table, and made them companions of their banquets, but assigned to other and less famous nobles another table, so will I make you, My Apostles, the chief and foremost of My kingdom, and place you most nearly to Myself, and, as it were, at My table, and I will have you as the most intimate guests of My royal feasts. \"In like manner,\" say Euthymius, Titus , and Theophylact, \"He shows that the Apostles, as the first and most illustrious of His followers, should enjoy the highest honours with their immortal king. It is by catachresis that the pleasures and honours of the kingdom of heaven are often compared in Holy Scripture to banquets, and feasts of meat and drink, and to the first seats at table with kings; because carnal men understand these things best, but are unable to estimate spiritual ones, and because, as meat and drink are incorporated into ourselves and made our own, Song of Solomon , in heaven by the beautiful vision and His other glorious gifts, God will be incorporated into us, as it were, and will be made our own.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/22/30",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5209d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "That you may eat and drink at my table in my kingdom, and sit on thrones judging the twelve tribes of Israel. That you may eat and drink of the spiritual banquet of the joys of heaven which in the Scriptures are divers times compared to a feast or banquet. (Witham) Sit upon thrones. Judas is excepted from the dignity of this great promise. For it is probable he had gone out before the Lord spoke these words. They likewise are excepted, who (St. ) having heard the words of an incomprehensible mystery, turned back and went away.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/22/30",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb61",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 22:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

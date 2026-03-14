@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 4:8",
+  "verse_text": "Verse text for ROM 4:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/4/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Blessed is the man to whom the Lord will not impute sin. “Forgive,” “cover,” “not reckon”—all amount to one and the same thing. For all three are given and received in the same way. Paul has three categories to cover the different types of sin. The first category is that of wickedness or ungodliness, in that the Creator is not acknowledged. The second category is that of the more serious sins, and the third is that of the less serious ones. All of these are wiped out in baptism. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/4/8",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e75",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Blessed is the man to whom the Lord hath not imputed sin. That is, blessed is the man who hath retained his baptismal innocence, that no grievous sin can be imputed to him. And likewise, blessed is the man who, after falling into sin hath done penance, and leads a virtuous life by frequenting the sacraments necessary for obtaining the grace to prevent a relapse, that sin is no more imputed to him. (Challoner)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/4/8",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfefc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 4:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 10:1",
+  "verse_text": "Verse text for 1KGS 10:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/10/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "The queen of Sheba was a sheep that had come into the place of wolves. The lamp of truth did Solomon give her who also married her when he fell away. She was enlightened and went away, but they were dark as their manner was. - \"The Pearl, Hymn 3.3\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/10/1",
+      "full_content_url": "https://catenabible.com/com/5e1b67548bc66721fe4ef8e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Saba is written with sh, to denote a part of Arabia, and with s, when Ethiopia is meant, Psalm lxxi. The former is here designated, (Menochius) being \"the ends of the earth, east \"of Judea, (Tacitus, Hist. ) and lying also to the south of that country, Matthew xii. This region was famous for gold, and acknowledged the dominion of women: Medis levibusque Sabæis Imperat hic sexus. ) Grotius follows the opinion of Josephus ( viii. ) and Origen, (hom. in Canticle of Canticles. ) who place the seat of this queen's empire at Meroe. The Abyssinians also pretend that their kings are descendants of Solomon, by the queen of Saba; and that Azarias, the son of Sadoc, stole the tables of the law, when he brought back his pupil from Jerusalem. (Sanctius) This shows their vanity and ignorance. (Calmet) Still many suppose that this queen came from their country. (Worthington) Lord, who had raised Solomon to so great splendour, while, on the other hand, the king endeavoured to enhance his glory. (Haydock) If we place the stop after Solomon, we may say that the queen was moved by divine grace, and attracted, like the Gabaonites, (Josue ix. ) to embrace the true religion; (Calmet) though she seems to have professed it already, as many others did among the Gentiles. (Haydock) The Fathers look upon her as a figure of the Christian Church. Hilary, Psalm cxxi. ) Barbara natione, non animo. ) Questions. Thus the ancients tried each others skill, Judges xiv. The questions might regard natural history or religion. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/10/1",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd2d4",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 10:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

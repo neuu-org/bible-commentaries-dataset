@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 13:2",
+  "verse_text": "Verse text for JER 13:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/13/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "The blessed John disdained sheep’s wool because it savored of luxury; he preferred camel’s hair and clothed himself in it, giving us an example of simple, frugal living. Incidentally, he also ate only honey and locusts, food that is sweet and with a spiritual significance. So it was that he prepared the way of the Lord and kept it humble and chaste. He fled from the false pretenses of the city and led a peaceful life in the desert with God, away from all vanity, boasting and servitude. How could he possibly have worn a purple mantle? Elijah used a sheepskin for his garment and girded it tight with a belt made of leather. Isaiah, another historic prophet, went “naked and without sandals” and often put on sackcloth as a garment of humility. If you protest and make mention of Jeremiah, he wore only a loincloth made of linen.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/13/2",
+      "full_content_url": "https://catenabible.com/com/5e936111d87c4a70874ae211",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh So I bought a belt according to the word of the LORD, and put it on my waist. Furthermore, this Paul said strongly that “the kingdom of God is not a matter of eating and drinking”—or abstinence from wine or meat—“but of righteousness, peace and joy in the Holy Spirit. ” Which of them goes around like Elijah wearing a sheepskin and a leather belt. Which of them wears no shoes and nothing but a piece of sackcloth like Isaiah. Or with nothing on but a linen loincloth, like Jeremiah.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/13/2",
+      "full_content_url": "https://catenabible.com/com/5e936110d87c4a70874ae210",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 13:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

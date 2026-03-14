@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PHIL 1:2",
+  "verse_text": "Verse text for PHIL 1:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/1/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "It is evident that while God is called Father, Christ Jesus is called Lord. Does it not then appear that the Lord does not possess equal dignity with the Father? That might seem true in the world of human beings, but between God the Father and Christ the Lord there is complete harmony.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/2",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e533f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "How is it that though he nowhere else writes to the Clergy, not in Rome, nor in Corinth, nor in Ephesus, nor anywhere, but in general, to all the saints, the believers, the beloved, yet here he writes to the Clergy? Because it was they that sent, and bare fruit, and it was they that dispatched Epaphroditus to him.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/1/2",
+      "full_content_url": "https://catenabible.com/com/5755bff83c6effa740dddbc5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 1:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

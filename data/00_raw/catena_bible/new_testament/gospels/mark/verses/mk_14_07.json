@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 14:7",
+  "verse_text": "Verse text for MK 14:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/14/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "[Jesus] was going to remain bodily with the church for but a brief while, whereas the poor, for whom alms could be provided, were always to be found in it.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/14/7",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52eb7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Christ here answers the apostles, by informing them that he should not always be with them, but would shortly leave them, as to his corporal presence, though he spiritually will remain with them, and their successors, to the end of time. (Matthew xxviii.)\nBehold I am He will not always be with them, so as to want their services. (Ven. Bede)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/14/7",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 14:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

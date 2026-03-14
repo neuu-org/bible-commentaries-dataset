@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 109:5",
+  "verse_text": "Verse text for PS 109:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/109/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "8. \"Set thou an ungodly man to be ruler over him; and let Satan stand at his right hand\" (ver. 5). Though the complaint had been before concerning many, the Psalm is now speaking of one. ...Since therefore he is here speaking of the traitor Judas, who, according to the Scripture in the Acts of the Apostles, was to be punished with the penalty due to him, what meaneth, \"set thou an ungodly man over him,\" save him whom in the next verse he mentioneth by name, when he saith, \"and let Satan stand at his right hand\"? He therefore who refused to be subject unto Christ, deserved this, that he should have the devil set over him, that is, that he should be subject unto the devil. ...For this reason also it is said of those who, preferring the pleasures of this world to God, styled the people blessed who have such and such things, \"their right hand is a right hand of iniquity.\" ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/109/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6599",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Set thou the sinner over him Give to the devil, that arch-sinner, power over him: let him enter into him, and possess him. The imprecations, contained in the thirty verses of this psalm, are opposed to the thirty pieces of silver for which Judas betrayed our Lord: and are to be taken as prophetic denunciations of the evils that should befall the traitor, and his accomplices, the Jews; and not properly as curses. (Challoner)\nThe devil entered into Judas, (John xiii. 2.; Calmet) who hung himself in despair. (Worthington)\nThe Jews were abandoned over to cruel masters, as Doeg and Achitophel presently perished, Psalm li. 5. It was customary at trials, for a satan, or \"adversary \"to be stationed at the right hand of the accused, Zacharias iii. 1. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/109/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be392",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 109:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

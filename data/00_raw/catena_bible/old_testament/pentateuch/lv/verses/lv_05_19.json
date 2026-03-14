@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 5:19",
+  "verse_text": "Verse text for LV 5:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/5/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lord. Hebrew, \"It is a victim for the sin which he has committed against the Lord. \"From this chapter, as well as from Numbers v. 7, it is obvious that a special confession was necessary, not only for those who had fallen into the disorder of leprosy, which was a figure of sin, and often inflicted by God in punishment of it; but also, when they had given way to the smallest transgression against the commands and ceremonies of the Lord. (Haydock)\nThis custom is still observed by the Jews. (Galatinus x. 3.)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/5/19",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc530",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 5:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

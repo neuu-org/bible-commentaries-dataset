@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 10:16",
+  "verse_text": "Verse text for ECCL 10:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/10/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "When thy. Hebrew literally, \"whose \"cujus, as ver. 17. (Haydock)\nSt. Jerome give two senses to this passage, the literal and the mystical, according to his usual custom. The dominion of young men and of luxurious judges is reproved, as well as innovations in matters of religion, Isaias iii. 4. Those are blessed who have Christ for their head, descending from the patriarchs and saints, (over whom sin ruled not, and who of course were free) and from the blessed Virgin , who was \"more free. \"They have the apostles for princes, who sought not the pleasures of this world, but will be rewarded, in due time, and eat without confusion. (T. 7.) (Worthington)\nChild. Minorities often prove dangerous to the state, while regents cannot agree.\nMorning, as children eat at all times. This may relate to the ruler who is a child in age, or in knowledge, though it seems rather to refer to his counsellors, Isaias v. 11.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/10/16",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be83f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Isaac of Syria",
+      "period": "AD700",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Woe to you, O land, when your king is a child, and your princes feast in the morning. Our intellect is not brought into submission unless our body is subject to it. The kingship of the intellect is the crucifixion of the body. The intellect is not subject to God unless the free will is subject to reason. It is hard to convey anything sublime to one who is still a beginner, and an infant in stature. “Woe to thee, O city, when thy king is a child. ” Ascetical Homilies.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/10/16",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef13",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 10:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 2:5",
+  "verse_text": "Verse text for PS 2:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/2/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "4. \"Then He shall speak unto them in His wrath, and vex them in His sore displeasure\" (ver. 5). For showing more clearly how He will \"speak unto them,\" he added, He will \"vex them;\" so that \"in His wrath,\" is, \"in His sore displeasure.\" But by the \"wrath and sore displeasure\" of the Lord God must not be understood any mental perturbation; but the might whereby He most justly avengeth, by the subjection of all creation to His service. For that is to be observed and remembered which is written in the Wisdom of Solomon, \"But Thou, Lord of power, judgest with tranquillity, and with great favour orderest us.\" The \"wrath\" of God then is an emotion which is produced in the soul which knoweth the law of God, when it sees this same law transgressed by the sinner. For by this emotion of righteous souls many things are avenged. Although the \"wrath\" of God can be well understood of that darkening of the mind, which overtakes those who transgress the law of God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/2/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6480",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rage. These, and similar expressions, when applied to the immutable Deity, only denote that men have deserved the worst of punishments. (Haydock)\nGod had discomfited the enemies of David (2 Kings v. 20, 24.) by his thunder. But he still more confounded the devil, when Christ descended to take away his spoils; and he chastised the Jews by the ruin of their city, (Calmet) as he has or will do all persecutors of his Church. (Haydock)\nHe will severely reprehend, and justly punish the obstinate. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/2/5",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde48",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 2:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

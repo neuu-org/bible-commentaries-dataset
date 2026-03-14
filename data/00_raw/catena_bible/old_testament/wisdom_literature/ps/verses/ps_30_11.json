@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 30:11",
+  "verse_text": "Verse text for PS 30:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/30/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You have turned for me my mourning into dancing: you have put off my sackcloth, and girded me with gladness; Augustine of Hippo 12. \"Thou hast turned My mourning into joy to Me\" (ver. Whom I, the Church, having received, the First-Begotten from the dead, now in the dedication of Thine house, say, \"Thou hast turned my mourning into joy to me. Thou hast put off my sackcloth, and girded me with gladness. \" Thou hast torn off the veil of my sins, the sadness of my mortality; and hast girded me with the first robe, with immortal gladness.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/30/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6925",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Joy. When thou orderest the angel, 2 Kings xxiv. 16. (Calmet)\nSackcloth, of human nature, which was cut, and the price of our redemption came forth. (St. Augustine; St. Jerome)\nThou hast changed my mourning weeds for robes of joy. (Du Hamel)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/30/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf6e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 30:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

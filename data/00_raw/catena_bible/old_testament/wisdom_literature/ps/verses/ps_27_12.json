@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 27:12",
+  "verse_text": "Verse text for PS 27:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/27/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "12. \"Deliver me not up unto the souls of them that trouble me\" (ver. 12). Suffer not them that trouble me to be satiated with my evils. \"For unrighteous witnesses have risen up against me.\" For there have risen up against me they that speak falsely of me, to remove and call me back from Thee, as if I seek glory of men. \"And iniquity hath lied unto itself.\" Therefore iniquity hath been pleased with its own lie. For me it hath not moved, to whom because of this there hath been promised a greater reward in heaven.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/27/12",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6901",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Will. Literally, \"souls. \"(Haydock)\nSome ancient copies have, \"the hands. \"\nUnjust. Hebrew, \"false. \"(Haydock)\nTo itself, ought not to be urged no more than eat sibi, vade tibi, Genesis xii. 1., and Canticle of Canticles i. 7. (Calmet)\nIt is a Hebrew idiom. (Haydock)\nMany find fault with the Septuagint and Vulgate in this place, but without reason; and they do not agree in their versions. Symmachus and St. Jerome come near to us. Puach means to breathe, or entangle; and our version intimates, that \"iniquity has entangled itself: \"vipheach chamas, \"and open lying. \"(St. Jerome) (Berthier)\nThe accusers of Susanna, and of our Saviour, could not agree in their testimony. The Chaldeans continually calumniated the captives, Isaias lii. 4., and Jeremias l. 33. (Calmet)\nWorld lings still do the same, (Matthew v.) delighting in lies, which will prove their own ruin. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/27/12",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf4e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 27:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

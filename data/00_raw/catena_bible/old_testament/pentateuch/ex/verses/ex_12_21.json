@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 12:21",
+  "verse_text": "Verse text for EX 12:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/12/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What then did Moses do? “Sacrifice an unblemished lamb,” he said, “and smear your doors with its blood.” What do you mean? Can the blood of an irrational animal save one who expresses reason? “Yes,” he says. “Not because it is blood but because it prefigures the Master’s blood.” Although statues of the emperor have neither life nor perception, they can save the men endowed with perception and life who flee to them for refuge, not because they are bronze but because they are images of the emperor. So too that blood which lacked life and perception saved the men who had life, not because it was blood but because it was an anticipatory type of the Master’s blood.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/12/21",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527b6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 12:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 104:2",
+  "verse_text": "Verse text for PS 104:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/104/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. ...\"Bless the Lord, O my soul.\" Let the soul of us all, made one in Christ, say this. \"O Lord my God, Thou art magnified exceedingly!\" (ver. 1). Where art Thou magnified? \"Confession and beauty Thou hast put on.\" Confess ye, that ye may be beautified, that He may put you on. \"Clothed with light as a garment\" (ver. 2). Clothed with His Church, because she is made \"light\" in Him, who before was darkness in herself, as the apostle saith: \"Ye were sometime darkness, but now light in the Lord.\" \"Stretching out the heaven like a skin:\" either as easily as thou dost a skin, if it be \"as easily,\" so that thou mayest take it after the letter; or let us understand the authority of the Scriptures, spread out over the whole world, under the name of a skin; because mortality is signified in a skin, but all the authority of the Divine Scriptures was dispensed unto us through mortal men, whose fame is still spreading abroad now they are dead.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/104/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6526",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Light. In this manner he always appeared, 1 Timothy vi. 16., and Exodus iii. 2. (Calmet)\nChrist only once assumed such a glorious form at this transfiguration, because he came to instruct our mind and heart. (Berthier)\nStretchest. Hebrew and Septuagint have the verbs in the third person, till ver. 6., as the Vulgate has here extendens. But St. Jerome and others agree with us, though St. Paul quotes according to the Hebrew, ver. 4. (Haydock)\nPavilion. The idea of the heavens resting like a tent upon the earth was very prevalent, Job ix. 8., and Isaias xl. 22.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/104/2",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be330",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 104:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

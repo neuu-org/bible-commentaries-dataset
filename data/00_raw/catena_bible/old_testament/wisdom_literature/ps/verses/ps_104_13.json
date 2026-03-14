@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 104:13",
+  "verse_text": "Verse text for PS 104:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/104/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "16. \"Watering the mountains from the higher places\" (ver. 13). Now if a Gentile uncircumcised man comes to us, about to believe in Christ, we give him baptism, and do not call him back to those works of the Law. And if a Jew asks us why we do that, we sound from the rock, we say, This Peter did, this Paul did: from the midst of the rocks we give our voice. But that rock, Peter himself, that great mountain, when he prayed and saw that vision, was watered from above. ...\n\n17. \"From the fruit of Thy works shall the earth be satisfied.\" What is, \"From the fruit of Thy works\"? Let no man glory in his own works: but \"he that glorieth, let him glory in the Lord.\" With Thy grace he is satisfied, when he is satisfied: let him not say that grace was given for his own merits. If it is called grace, \"it is gratuitously given;\" if it is returned for works, wages are paid. Freely therefore receive, because ungodly thou art justified.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/104/13",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6530",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rooms, with rain, ver. 3. (Calmet)\nEarth, or its inhabitants. (Tirinus)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/104/13",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be339",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 104:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EZR 4:10",
+  "verse_text": "Verse text for EZR 4:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/4/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "'Rise up, it is your part to make a decision, and we will be with you, so take courage and do it', he very fittingly teaches how one should consult with superiors, namely that a person should say what he has understood is best according to his own reason, if he believes that he has understood well, and yet leave the prerogative of decision making to the person who is qualified to make it and be ready to submit to all that this person ordains should be done in accordance with the will and law of God.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ezr/4/10",
+      "full_content_url": "https://catenabible.com/com/58fe623b543064d91d46c3a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Asenaphar, commonly supposed to be the Asarhaddon, though we know not that he caused any of these nations to remove thither, as Salmanasar certainly did. (Calmet) The name of the latter occurs in some copies. (Lyranus) River, Euphrates. (Haydock) The original, ceheneth, is neglected by the Septuagint and Arabic. The Syriac reads, \"Acheeneth. \"Others translate, \"at that time \"as if the date had been lost. (Junius) Protestants, \"and at such a time. \"(Haydock) Others suppose the writers lived \"at Kineeth. \"(Pagnin) But who ever heard of such a place. Le Clerc takes it to mean \"and the rest \"as if the title were curtailed. But it is more probable that the text ought to be Ceheth, as ver. 17, and that we should translate, \"beyond the river, (Calmet) as now, (11) unless this word ought to be here omitted, (Haydock) to Artaxerxes, the king, peace (and prosperity) as at present. \"(Calmet) Chaldean sslum ucath, \"peace even now. \"(Haydock) So Horace says, suaviter ut nunc est, wishing a continuation of happiness. 3 Esdras (ii. ) joins the last word with ver. 12, \"And now be it \"Canoth may have this sense, (Calmet) and consequently no change is necessary.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ezr/4/10",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd96d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 4:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 34:5",
+  "verse_text": "Verse text for NM 34:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/34/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Many suppose the rivulet of Rinocorura is meant. (Menochius) But it seems more probable that the Nile, the only river of Egypt, or the eastern branch of it, where Pelusium stands, is designated. There is no proof that the former rivulet belonged to Egypt; and though some assert that the Hebrews never dwelt to the west of it, the territory was so barren, that nothing may be said respecting that affair. We find, however, that under Solomon they inhabited as far as the river of Egypt; (1 Paralipomenon xiii. , and 3 Kings viii. 65,) and if they had not, God's promise entitled them to that part of the country; as well as to that which extends to the great river Euphrates, though they perhaps never took possession of it. See Genesis xv. , and Josue xiii. Pelusium is commonly reckoned the frontier town of Egypt, Ezechiel xxx. ) In another place, the promised land extends from Emath to the torrent of Egypt, (1 Kings viii. 55,) or of the desert, Amos vi.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/34/5",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc8b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The great sea: The Mediterranean.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/34/5",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fe1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 34:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 7:8",
+  "verse_text": "Verse text for PS 7:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/7/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Innocence. Hebrew, \"simplicity \"which has the same meaning. (Haydock) He speaks of the justice of his cause (Muis) against his particular enemies. (Worthington)\nSt. Paul thus commends himself, 2 Timothy iv. 7. The justice of the saints is not merely imputed, as the first Protestants foolishly imagined: for how should God reward those whom he saw still in sin, and who were only reputed holy? a notion which their disciples have modified or abandoned, as they have also done what had been taught respecting grace. Justice is an effect of God's grace, and of man's co-operation, 1 Corinthians xv. 10. (Berthier)\nDavid begs that the disposer of kingdoms would convince Saul that he was not a rebel: and the world, that he had not lost God's favour, like his rival. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/7/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde82",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 7:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 106:24",
+  "verse_text": "Verse text for PS 106:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/106/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "20. \"Yea, they thought scorn of that pleasant land\" (ver. 24). But had they seen it? How then could they scorn that which they had not seen, except as the following words explain, \"and believed not in His words.\" Indeed, unless that land which was styled the land that flowed with milk and honey, signified something great, through which, as by a visible token, He was leading those who understood His wondrous works to invisible grace and the kingdom of heaven, they could not be blamed for scorning that land, whose temporal kingdom we also ought to esteem as nothing, that we may love that Jerusalem which is free, the mother of us all, which is in heaven, and truly to be desired. But rather unbelief is here reproved, since they gave no credence to the words of God, who was leading them to great things through small things, and hastening to bless themselves with temporal things, which they carnally savoured of, they \"abided not His counsel,\" as is said above.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/106/24",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6578",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Word. Which Moses, Josue, announced, Numbers xiii., and xii. 29. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/106/24",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be37b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 106:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

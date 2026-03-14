@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 14:28",
+  "verse_text": "Verse text for EX 14:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/14/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the waters returned, and covered the chariots, and the horsemen, and all the host of Pharaoh that came into the sea after them; there remained not so much as one of them. Ambrose of Milan The waters of the sea were held back yet at the same time surrounding the Hebrews. They then poured back and brought death upon the Egyptians, so that they destroyed one people and saved the other. What too do we find in the Gospel itself. Did not our Lord show there that the sea grew calm at his word, that the storm clouds of heaven were scattered, that the blasts of the winds subsided and that the dumb elements obeyed him and the shores were quieted. On His Brother, Satyrus.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/14/28",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527e3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the waters returned, and covered the chariots, and the horsemen, and all the host of Pharaoh that came into the sea after them; there remained not so much as one of them. Pharaoh and his army and all the leaders of Egypt, “the chariots and their riders,” were drowned in the Red Sea and perished for no other reason than that their foolish hearts were hardened, after the working of signs and wonders in the land of Egypt by God’s servant Moses.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/14/28",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 14:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

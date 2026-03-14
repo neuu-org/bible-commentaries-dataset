@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 14:9",
+  "verse_text": "Verse text for 2SM 14:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/14/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Guiltless, if the murderer be not brought to execution. I am willing to bear all the blame and punishment. (Calmet)\nAbigail and Rebecca speak in the same manner, 1 Kings xxv. 24., and Genesis xxvii. 13. (Tirinus)\nThough kings may not pardon as they please, yet in this instance David might protect the widow's son, as there was no witness to prove that he had committed the murder. (Menochius)\nThe woman was not satisfied with the former promise. She wished to extort something more decisive. She intimates that the danger is pressing, and if any misfortune should arrive, she cannot impute it to the king, (Calmet) which gives him occasion to encourage her the more. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/14/9",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd12f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 14:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

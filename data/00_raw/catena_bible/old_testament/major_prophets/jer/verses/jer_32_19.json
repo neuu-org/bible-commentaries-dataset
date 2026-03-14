@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JER 32:19",
+  "verse_text": "Verse text for JER 32:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/32/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "You, as a person, know any other person from the way he appears outside. You think the way you see. And you see as far only as your eyes do. But the Scripture says, “The eyes of the Lord are lofty,” “People look at the outward appearance, but God looks at the heart,” “The Lord sees and knows his own,” and “the plant that my heavenly Father has not planted, he roots up,” and “the first shall,” as he shows, “be last,” and he carries “his fan in his hand to purge his threshing floor.” Let the chaff of a fickle faith fly off as much as it will at every blast of temptation; all the purer will be that heap of corn that shall be laid up in the garner of the Lord.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/32/19",
+      "full_content_url": "https://catenabible.com/com/5e93615dd87c4a70874ae331",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 32:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

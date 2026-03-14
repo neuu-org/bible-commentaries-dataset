@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 105:17",
+  "verse_text": "Verse text for PS 105:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/105/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh He sent a man before them, even Joseph, who was sold for a servant: Augustine of Hippo 11. \"But He had sent a man before them\" (ver. \"Even Joseph. \" How did He send him. \"Joseph was sold to be a bond-servant. \" When this happened, it was the sin of his brethren, and, nevertheless, God sent Joseph into Egypt. We should therefore medirate on this important and necessary subject, how God useth well the evil works of men, as they on the other hand use ill the good works of God.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/17",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e654e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He sent. Drawing good from the malice of Joseph's brethren, (Haydock) in which he had no hand. (Berthier)\nWho could have thought that this event would have tended to Joseph's exaltation, and to the safety of his father's house?",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/17",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be353",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 105:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

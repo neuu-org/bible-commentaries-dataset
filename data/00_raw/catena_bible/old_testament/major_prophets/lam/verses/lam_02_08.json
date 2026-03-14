@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 2:8",
+  "verse_text": "Verse text for LAM 2:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/2/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The LORD has purposed to destroy the wall of the daughter of Zion: he has stretched out a line, he has not withdrawn his hand from destroying: therefore he made the rampart and the wall to lament; they languished together. Line, to level it with the ground, (Isaias xxxiv. ; Calmet) or to treat it with just severity. (Theodoret) Bulwark. Literally, \"the first wall \"(Haydock) or ditch, lined with palisades. Alexander ordered the towers to be levelled, and the horses' manes to be cut, when Hephæstion died, to denote the general sorrow.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/2/8",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bef78",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "The destruction of the ark of Zion is here considered. First it is viewed as a divine revelation. \"The Lord determined to lay in ruins the wall\": Namely, as if the Lord, so considering, determines not to fulfill immediately. Then: \"the wall of the daughter of Zion\" - That is, as relates to the tabernacle, the ark, or Jerulalem itself. As Isaiah 14:26 says: \"This is the purpose that is purposed concerning the whole earth; and this is the hand that is stretched out over all the nations. \" Second, a last judgment is considered. As: \"he marked it off by the line. \" As if, in order to measure out a just judgment. So that, the penalty would equate with the fault, or sin. Then: \"he restrained not his hand from destroying\", Since, nothing is dismissed regarding a just punishment. So, Isaiah 34:11-12 claims: \"He shall stretch the line of confusion over it, and the plummet of chaos over its nobles. They shall name it No Kingdom There, and all its princes shall be nothing. \" Third, the effect of such divine justice is evaluated. As: \"he caused rampart and wall to lament, they languish together. \" That is, he foresaw destruction that led to such lamentation. As Chapter 1:4 states: \"The roads to Zion mourn, for none come to the appointed feasts; all the gates are desolate.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/2/8",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d84",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 2:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

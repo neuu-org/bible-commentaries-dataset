@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 145:11",
+  "verse_text": "Verse text for PS 145:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/145/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10. For when Thy saints bless Thee, what say they? \"They shall tell the glory of Thy kingdom, and talk of Thy Power\" (ver. 11). How powerful is God, who hath made the earth! how powerful is God, who hath filled the earth with good things! how powerful is God, who hath given to the animals each its own life! how powerful is God, who hath given different seeds to the womb of the earth, that they might make to spring up such various shoots, such beautiful trees! how powerful, how great is God! Do thou ask, creation answereth, and by its answer, as by the confession of the creature, thou, O saint of God, blessest God, and \"talkest of His power.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/145/11",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67a6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 145:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

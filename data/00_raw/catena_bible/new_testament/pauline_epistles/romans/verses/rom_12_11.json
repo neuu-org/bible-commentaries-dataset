@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ROM 12:11",
+  "verse_text": "Verse text for ROM 12:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/12/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "This means that we should not be lukewarm in doing God’s work or the law, as God says in the Revelation of John: “Because you are lukewarm, I shall spit you out of my mouth.” Daily meditation removes laziness and makes people vigilant. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/12/11",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5270",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Love by itself is not enough; there must be zeal as well. For zeal also comes out of loving and gives it warmth, so that the one confirms the other. For there are many who have love in their mind but who do not stretch out their hand. This is why Paul calls on every means he knows to build up love.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/12/11",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5271",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 12:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 8:3",
+  "verse_text": "Verse text for REV 8:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/8/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Stood before the altar, having a golden censer. In the visions is an allusion to the tabernacle and its parts. The altar of perfumes was in the sanctum, and here the golden altar is said to be before the throne of God. The incense from the censer is said to be the prayers of all the Saints, which the Angel offered up. The altar seems to signify our Saviour Christ, as the prayers of all the faithful are always made through the merits of Christ, our only chief Mediator or Redeemer. By the fire cast upon the earth, (ver. ) is signified the fire of divine charity, now to be exercised by the ways of justice, to draw persons to their conversion by punishments. (Witham) We may observe both in this and other places of the Apocalypse, that St. John makes continual allusions to what was done in the temple of Jerusalem, for which he gives us symbolical reasons. Thus on the present occasion, the incense which was offered morning and evening in the temple, on the golden altar, is represented as done here in heaven.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/8/3",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c0466",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Shepherd of Hermas",
+      "period": "AD150",
+      "content": "See that no one escape you\". he added; \"and if any escape you, I will try them at the altar.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/8/3",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb881",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 8:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

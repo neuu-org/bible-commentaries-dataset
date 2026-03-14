@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 24:28",
+  "verse_text": "Verse text for LK 24:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/24/28",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Remember, though, dearly beloved, how the Lord Jesus desired to be recognized in the breaking of bread, by those whose eyes had been kept till then from recognizing him. The faithful know what I’m talking about. They know Christ in the breaking of bread. It isn’t every loaf of bread, you see, but the one that receives Christ’s blessing and becomes the body of Christ. That’s where they recognized him. They were overjoyed and went straight to the others. They found whom they already knew. By telling what they had seen, they added to the gospel. It was all said, all done, all written down. And it has reached us.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/24/28",
+      "full_content_url": "https://catenabible.com/com/585b6d629ac03ecd4b8e76d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "And no one should doubt that his being recognized in the breaking of bread is the sacrament, which brings us together in recognizing him.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/24/28",
+      "full_content_url": "https://catenabible.com/com/585b6d629ac03ecd4b8e76cf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And He made as though He would have gone further. This was no deceit: for He would have gone on if the disciples had not constrained Him, but as He knew that they would thus constrain Him to abide with them, in this respect he was not willing, but was making as if (Ï€Î¶Î¿ÏƒÎµÏ€Î¿Î¹ÎµÎ¹ÌƒÏ„Î¿) He would have gone further.\nHence S. Augustine (Qust. Evang.) says, \"When one feigning has reference to a certain meaning, it is not a falsehood, but a certain figure of the truth.\" And again, \"A fiction founded on truth is a figure; not so founded, it is a lie.\" And S. Gregory (hom23in Evang.) writes, 11By the word \"fingere\" we mean to put together or form, hence modellers of clay we call \"figuli.\" He who was the truth did nothing by deceit. He manifested Himself to them in the body, such as He came before them in their midst. He would prove them whether they could show charity to Him as a stranger, although they might not yet love Him as God.\"",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/24/28",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520ba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 24:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EST 2:9",
+  "verse_text": "Verse text for EST 2:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/2/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the maiden pleased him, and she obtained kindness of him; and he speedily gave her her beautifying ointments, with such things as belonged to her, and seven maidens, who were suitable to be given her, out of the king's house: and he moved her and her maidens unto the best place of the house of the women. And he, Egeus, commanded the under eunuch. (Tirinus) Hebrew, \"he quickly gave her her things for purifications, (ver. ) and her portions, with seven maids, suitable for her, out of the king's house; and he charged her and her maids to dwell in the best of the women's house \"(Haydock) where things were the most commodious.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/2/9",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdab4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "It is evident that Esther signifies the gentile church. Her name is interpreted as “hiding place,” and she also had the other name of Hadassah, that is, “mercy. ” The church is pleasing to God in the hiding place of his heart because of the chastity of her faith and before the eyes of God it finds a greater mercy and grace than the synagogue of the Jews which with good reason the prophet Hosea calls merciless because of its impiety. Therefore the spiritual Mordecai adopted [Esther] as his own daughter because she had lost both her parents. And what is signified by Mordecai but the future teachers of the Gentiles. This is especially true of the blessed apostle Paul who also descended from the stock of Jemin, that is, he testified to be from the tribe of Benjamin. After Paul was transformed from persecutor into apostle, the gentile church was entrusted to him. And he himself, after her mother and father had died—namely, the errors and superstitions of the Gentiles—made her his own daughter when he regenerated her through the grace of baptism and the word of the gospel, making her also a daughter of the almighty Father, saved for all eternity. Therefore Paul said to them, “For though you might have ten thousand guardians in Christ, you do not have many fathers. Indeed, in Christ Jesus I became your father through the gospel.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/2/9",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa2e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 2:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

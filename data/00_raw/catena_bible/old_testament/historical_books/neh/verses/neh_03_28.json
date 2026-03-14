@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 3:28",
+  "verse_text": "Verse text for NEH 3:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/3/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Jeremiah mentions this gate and indicates that it is in the eastern part of the city when he writes typologically about the church, “And the city shall be rebuilt for the Lord from the Tower of Hananel”; and a little afterwards: “up to the torrent of Kidron and as far as the corner of the Gate of the Horse on the east. ” Now horses, when they are put to good use, just as donkeys, camels and mules also do, sometimes represent peoples of the Gentiles who have been converted to the Lord, and at other times concerns for temporal matters that have been duly subjugated to the rule of the soul. And the priests built the wall of God’s city up to the gate of the horses when, after the calling of the Jewish people, holy teachers by spreading the word went on to lead the peoples of the Gentiles into the holy church. Similarly, they build up to the gate of the horses when they show satisfactory examples of living to those who enter the doors of the holy church in order to bridle the wanton motions of their flesh or soul, or perhaps when they control their own thoughts with which they consider it necessary to worry about their own and their family’s food and clothing in such a way that these thoughts in no way impede the freedom of that mind with which they have resolved always to seek heavenly things.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/3/28",
+      "full_content_url": "https://catenabible.com/com/591a466e19aa35522bc7e34d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Horse-gate, by which the king's horses were led to water, at the torrent Cedron. It was near the temple and palace, 4 Kings xi. 16. (Calmet)\nSome Rabbins assert that people were obliged to alight here, and to go on foot to the temple. (Lyranus)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/3/28",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9ec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 3:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

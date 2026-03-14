@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 118:26",
+  "verse_text": "Verse text for PS 118:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "20. \"Blessed be He that cometh in the Name of the Lord\" (ver. 26). Cursed, therefore, is he that cometh in his own name; as He saith in the Gospel: \"if another shall come in his own name, him ye will receive.\" \"We have blessed you out of the house of God.\" I believe that these are the words of the great to the little, of those great ones, to wit, who in spirit commune with God the Word, who is with God, as they may in this life; and yet temper their discourse for the sake of the little ones, so that they may sincerely say what the Apostle saith: \"For whether we be beside ourselves, it is to God: or whether we be sober, it is for yourcause. For the love of Christ constraineth us.\" They bless the little children from the inner house of the Lord, where that praise faileth not age after age: consider therefore what they proclaim from thence.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/118/26",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6606",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "We. The Levites, (Calmet) or Christ and his ministers pronounce this blessing, (Worthington) or the psalmist gives it, after having expressed his thanks for the graces brought by the Messias. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/26",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3d7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

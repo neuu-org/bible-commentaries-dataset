@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 19:23",
+  "verse_text": "Verse text for ACTS 19:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/19/23",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "About the way of the Lord; that is, about Christian faith, and religion. (Witham)\nA great source of these troubles that ensued, was the preaching of the gospel.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/19/23",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe43",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "for indeed the superstition was excessive. (a) You both see and hear, so palpable was the result that was taking place— that not alone at Ephesus, but almost throughout all Asia, this Paul by persuading has turned away, not by violence: this is the way to persuade a city. Then, what touched them closely, that they be no gods which are made with hands.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/19/23",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9461",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He sends Timothy and Erastus into Macedonia, but himself remains at Ephesus. Having made a long enough stay in that city, he wishes to remove elsewhere again. But how is it, that having from the first chosen to depart into Syria, he turns back to Macedonia. He purposed, it says, in the Spirit, showing that all (that he did) was done not of his own power. Now he prophesies, saying, I must also see Rome: perhaps to comfort them with the consideration of his not remaining at a distance, but coming nearer to them again, and to arouse the minds of the disciples by the prophecy. At this point, I suppose, it was that he wrote his Epistle to the Corinthians from Ephesus, saying, I would not have you ignorant of the trouble which came to us in Asia. 2 Corinthians 1:8 For since he had promised to go to Corinth, he excuses himself on the score of having loitered, and mentions the trial relating the affair of Demetrius. There arose no small stir about the Way. Do you see the renown (acquired). They contradicted, it says: (then) came miracles, twofold: (then) again, danger: such is the way the threads alternate throughout the whole texture (of the history). For a certain man named Demetrius, a silversmith, which made silver temples of Diana, brought no small gain unto the craftsmen.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/19/23",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9451",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 19:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

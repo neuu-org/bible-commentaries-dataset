@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 78:26",
+  "verse_text": "Verse text for PS 78:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/78/26",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "West wind. Literally, Africum, which blows \"from Africa \"in this direction, with respect to Jerusalem. (Haydock)\nThe same wind may be styled the south wind. Hebrew Kadim, \"strong, eastern \"(Berthier)\nThese quails came from the banks of the southern ocean, or from the Red Sea, as the Israelites were still in Arabia, when they were furnished with them a second time, (Numbers xi. 31.) for a whole month, (Calmet) though there were about three million people. (Berthier)\nGod changed the wind, so as to bring them into the camp, Exodus xvi. (Worthington)\nIt was before blowing from the south-east. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/78/26",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be1f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 78:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

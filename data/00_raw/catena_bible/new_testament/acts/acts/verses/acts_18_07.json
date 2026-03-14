@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 18:7",
+  "verse_text": "Verse text for ACTS 18:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/18/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And he departed from there, and entered into a certain man's house, named Justus, one that worshiped God, whose house was next door to the synagogue. and there abode, by this wishing to persuade them that he was in earnest (πρὸς τὰ ἐθνη ἠπείγετο) to go to the Gentiles. Accordingly, mark immediately the ruler of the synagogue converted, and many others, when he had done this. Crispus the ruler of the synagogue believed in the Lord, with his whole house: and many of the Corinthians hearing believed, and were baptized.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/18/7",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b942e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 18:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

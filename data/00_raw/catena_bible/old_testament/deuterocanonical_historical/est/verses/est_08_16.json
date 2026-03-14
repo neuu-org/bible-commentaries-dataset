@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 8:16",
+  "verse_text": "Verse text for EST 8:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/8/16",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The Jews had light, and gladness, and joy, and honor. The glory of the holy teachers is exalted because it is through their doctrine and exhortation that the faithful defeat the cruelty of their most evil enemy with the help and strength of their heavenly king. And their reward remains with them in the heavenly kingdom of eternal blessedness and perpetual splendor, which appears to be signified by the colors of blue and white and the brightness of gold.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/8/16",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 8:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

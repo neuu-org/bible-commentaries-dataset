@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 4:10",
+  "verse_text": "Verse text for REV 4:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/4/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The four and twenty elders fall down before him that is sitting on the throne, and worship him that lives forever and ever, and cast their crowns before the throne, saying, Nothing is so well adapted to give us an idea of the infinite majesty of God, and of the sovereign respect which is due to him, as this description. How ought Christians to appear in the presence of the God of armies, if what is most august and most elevated in heaven acknowledges its lowness and nothing before this tremendous Majesty.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/4/10",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c044a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "That is, on account of the eminent glory of Christ's victory, they cast all their victories under His feet. This is what in the Gospel the Holy Spirit consummated by showing, For when about finally to suffer, our Lord had come to Jerusalem, and the people had gone forth to meet Him, some strewed the road with palm branches cut down, others threw down their garments, doubtless these were setting forth two peoples— the one of the patriarchs, the other of the prophets; that is to say, of the great men who had any kind of palms of their victories against sin, and cast them under the feet of Christ, the victor of all. And the palm and the crown signify the same things, and these are not given save to the victor.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/4/10",
+      "full_content_url": "https://catenabible.com/com/574f83413c6effa740ddd7f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 4:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

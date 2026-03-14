@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 4:22",
+  "verse_text": "Verse text for EX 4:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/4/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "When you hear “firstborn,” do not think of this in human fashion; for among humans the firstborn have other brothers; and it is somewhere written, “Israel is my son, my firstborn.” But like Reuben, Israel was a rejected firstborn; for Reuben went up to his father’s bed, and Israel cast the Son of the Father out of the vineyard and crucified him. To others also Scripture says, “You are children of the Lord your God” and elsewhere, “I said, you are gods; all of you sons of the Most High.” Note “I said,” not “I begot.” They, from the fact that God said it, received adoption which they did not have, but he was not begotten to be other than he was before. Rather he was begotten Son from the beginning, Son of the Father, like in all things to his Genitor, begotten Life of Life, Light of Light, Truth of Truth, Wisdom of Wisdom, King of King, God of God, Power of Power.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/4/22",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52753",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "First-born, heir to my promises, and the object of my complacency.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/4/22",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2e1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 4:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 33:22",
+  "verse_text": "Verse text for DT 33:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/33/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And of Dan he said, Dan is a lion's whelp: he shall leap from Bashan. Ambrose of Milan Moses blessed this tribe, saying, “Dan is a lion’s whelp, and he shall flee away from Bashan,” that is, from confusion. For this reason we ought rather to interpret according to the Greek, from which our translation comes, that Dan himself became a serpent sitting in the way. Dan expounds judgment, and therefore that tribe has entered into a severe danger of judgment, for the serpent, the antichrist, has slipped into it to injure it with his poisons as it runs.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/33/22",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52ab3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "As the Jordan rushes with impetuosity (Haydock) from Lais, which was seized by some of this tribe; (Judges xviii. ) and as a lion falls on its prey from the mountains of Basan, so shall this tribe give birth to Samson, who was stronger than a lion, (Calmet) and terribly harassed the Philistines, Judges xiv. 5, 14 When the Danites found themselves straitened for room, they sent a colony, (Haydock) which took possession of Lais, and called it after their own name: one of the fountains of the Jordan was in this place, the other was called Jor, (Menochius) though the river may have a more distant and obscure source in the lake of Phiala, whence Josephus says (Haydock) it runs by a subterraneous passage, to a fountain of Dan. As it then takes its course through the promised land, of which it is the principal river, Dan may thus be said to supply waters abundantly for the whole country. (Menochius) But the Hebrew and Septuagint have, \"he shall leap from Basan \"which must be understood of the lion, since the territory of Dan was very remote from that mountain.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/33/22",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb1a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 33:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

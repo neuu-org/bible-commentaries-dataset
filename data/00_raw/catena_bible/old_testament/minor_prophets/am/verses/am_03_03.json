@@ -1,0 +1,47 @@
+{
+  "verse_reference": "AM 3:3",
+  "verse_text": "Verse text for AM 3:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/3/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Can two walk together, except they are agreed. Cyril of Alexandria Consequently he means, O stupid and mindless people, surely some of you will not become friends and take the same path in life without getting to know one another, that is, without perceiving that the other shares the same behavior and attitudes. Scripture says, remember, ‘Every creature loves its like, and people stick close to those like themselves.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/3/3",
+      "full_content_url": "https://catenabible.com/com/5745e16f3c6effa740ddd48b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Can two walk together, except they are agreed. As they cannot do this well, so neither can man be acceptable to God, unless he keep his laws. (Worthington) The prophet here proves his mission, intimating that if he were not inspired, he would soon be open to detection. He had been banished from Bethel, chap. By many similes, he shows that the event will prove the sincerity of his character, and that he cannot resist the holy spirit which is in him.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/3/3",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf427",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 3:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

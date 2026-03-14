@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 19:22",
+  "verse_text": "Verse text for JGS 19:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/19/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "That is An interpretation of the Vulgate. Belial is sometimes rendered \"devilish, apostate \"Septuagint, \"lawless, or transgressors. \"(Menochius)\nAquila, \"rebels. \"Symmachus, \"libertines \"without education or restraint. (Calmet)\nJosephus lays the blame on some young men, who had been captivated with the charms of the Levite's wife, whom they had seen in the street. But they seem to have had designs still more criminal, though they were prevailed upon to desist, when she was abandoned to them. (Haydock)\nThe demanded the Levite himself. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/19/22",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcdee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 19:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

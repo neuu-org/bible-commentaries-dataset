@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:24",
+  "verse_text": "Verse text for PS 119:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "24. \"Princes also did sit and speak against me: but Thy servant is exercised in Thy statutes\" (ver. 23). Thou who desirest to know what sort of exercise this was, understand what he hath added, \"For Thy testimonies are my meditation, and Thy statutes are my counsellors\" (ver. 24). Remember what I have above instructed you, that testimonies are acts of martyrdom. Remember that among the statutes of the Lord there is none more difficult and more worthy of admiration, than that every man should love his enemies. Thus then the body of Christ was exercised, so that it meditated on the acts of martyrdom that testified of Him, and loved those from whom, while they rebuked and de spised the Church for these very martyrdoms, she suffered persecutions. ...\n\nDaleth.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/24",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e661d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Counsel. Hebrew, \"the princes of my counsel. \"(Houbigant) in opposition to those who endeavoured to make him fall, ver. 23. (Haydock)\nThe laws of God afford the best advice. An ancient king observed, that the dead were the best counsellors, as they will not flatter (Calmet)\nIn every trial, we must reflect on the rewards and punishments held out. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/24",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3ef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

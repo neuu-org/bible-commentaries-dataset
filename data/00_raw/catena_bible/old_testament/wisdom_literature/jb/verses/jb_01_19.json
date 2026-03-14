@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JB 1:19",
+  "verse_text": "Verse text for JB 1:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/1/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Sometimes, while the mind is sustained with the fullness and richness of a gift so large, if it enjoys uninterrupted security in these things, it forgets the source from which they have come. It imagines that it derives these things from itself in a way that never ceases. Hence it is that this same grace sometimes withdraws itself for our good and shows the presumptuous mind how weak it is in itself. For then we really learn the source from which our good qualities proceed. Only by seemingly losing them are we made aware that they can never be preserved by our own efforts. And so for the purpose of tutoring us in lessons of humility, it very often happens that when the crisis of temptation is upon us, such extreme folly comes down upon our wisdom. Then, the mind being dismayed, it does not grasp how to meet the evils that threaten or how to guard against temptation. But this very foolishness wisely instructs the heart. For whatever causes the mind to turn to foolishness for a moment is afterwards faced as reality. As the mind becomes more humble, it becomes wiser. In this way the very wisdom that seems to be lost temporarily is now held in more secure possession.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/1/19",
+      "full_content_url": "https://catenabible.com/com/5e1b5e528bc66721fe4ef57e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 1:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

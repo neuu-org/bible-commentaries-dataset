@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 106:9",
+  "verse_text": "Verse text for PS 106:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/106/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "7. \"He rebuked the Red Sea also, and it was dried up\" (ver. 9). We do not read that any voice was sent forth from Heaven to rebuke the sea; but he hath called the Divine Power by which this was effected, a rebuke: unless indeed any one may choose to say, that the sea was secretly rebuked, so that the waters might hear, and yet men could not. The power by which God acteth is very abstruse and mysterious, a power which He causeth that even things devoid of sense instantly obey at His will. \"So He led them through the deeps, as through a wilderness.\" He calleth a multitude of waters the deeps. For some wishing to give the sense of this whole verse, have translated, \"So He led them forth amid many waters.\" What then doth \"through the deeps, as through a wilderness,\" mean, except that that had become as a wilderness from its dryness, where before had been the watery deeps?",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/106/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e656b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rebuked. Commanding with power, Nahum i. 4. (Calmet)\nWilderness. Or plain country. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/106/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be36e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 106:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

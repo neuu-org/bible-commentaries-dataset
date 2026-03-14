@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:29",
+  "verse_text": "Verse text for PS 18:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "30. \"For by Thee shall I be delivered from temptation\" (ver. 29). For not by myself, but by Thee, shall I be delivered from temptation. \"And in my God shall I leap over the wall.\" And not in myself, but in my God shall I leap over the wall, which sin has raised between men and the heavenly Jerusalem.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/29",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e685e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Temptation. David was almost continually assailed by enemies. (Calmet)\nSeptuagint peieatesion, signifies \"a place of pirates \"denoting what crafty foes he had to encounter, (Berthier) or \"a place or time to learn the military exercise \"a warfare, Job vii. 1. But gedud, (Haydock) means \"a troop \"designed to make incursions, as those under Jephte and David. Hebrew, \"In thee I will run armed \"(St. Jerome) or, \"at the head of my troops. \"(Calmet)\n\"I will break, (Pagnin) or, run through an army. \"(Montanus)\nNo fortification can hold out. (Haydock)\nHe alludes particularly to the wall of the Jebusites, which Joab first mounted, though extremely high, 2 Kings v. 6. (Calmet)\nWith God's help, every difficulty may be surmounted. (Worthington)\nWatch and pray, that ye enter not into temptation, as our Saviour admonishes.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/18/29",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdedb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

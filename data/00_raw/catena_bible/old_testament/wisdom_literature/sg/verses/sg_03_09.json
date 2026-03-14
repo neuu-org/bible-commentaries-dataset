@@ -1,0 +1,47 @@
+{
+  "verse_reference": "SG 3:9",
+  "verse_text": "Verse text for SG 3:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/3/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "King Solomon: Christ. (Apponius)\nchariot: the Apostles.\nwood of Lebanon: Scripture often calls by the name Lebanon Jerusalem and the people of the Jews. Since the Apostles derived their origin from them, the chariot is appropriately said to be constructed of the wood of Lebanon.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/3/9",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d18",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Litter. Septuagint, to conduct his spouse with solemnity; or a throne; though it most probably denotes the bridal bed. (Calmet)\nHebrew apiron. Greek, phoreion.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/3/9",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be87e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 3:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

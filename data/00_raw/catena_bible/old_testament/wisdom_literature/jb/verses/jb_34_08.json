@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 34:8",
+  "verse_text": "Verse text for JB 34:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/34/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Goeth in. Septuagint insert a negation, which is not found in Hebrew, Chaldean They may be understood to speak ironically. (Calmet)\n\"Who committeth no sin, nor iniquity, nor has had any society with lawless people, so as to walk with wicked men. \"(Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/34/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdd8b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Julian of Eclanum",
+      "period": "AD455",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Who goes in company with the workers of iniquity, and walks with wicked men. Julian of Eclanum “Who is there like Job, who drinks up scoffing like water. ” [Job is compared with one] who reproves God’s judgments, despises them and thinks that they must be considered vile. “Who goes in company with evildoers”; since he has an ill feeling against the judgments of God, he does not differ at all from those who are proven to be impious by the injustice of their actions.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/34/8",
+      "full_content_url": "https://catenabible.com/com/5e1b61688bc66721fe4ef712",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 34:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

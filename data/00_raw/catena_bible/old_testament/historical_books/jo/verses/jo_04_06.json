@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JO 4:6",
+  "verse_text": "Verse text for JO 4:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/4/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "Images are of two kinds: either they are words written in a book … or else they are material images such as the twelve stones which he commanded to be taken from the Jordan for a second memorial (such a mystery, truly the greatest ever to befall the faithful people!) of the carrying of the ark and the parting of the waters. Therefore we now set up images in remembrance of valiant men, that we may zealously desire to follow their example. Either remove these images altogether, and reject the authority of him who commanded them to be made, or else accept them in the manner and with the esteem which they deserve.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/4/6",
+      "full_content_url": "https://catenabible.com/com/5de470658b87fe0847ee880a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "God ordered twelve stones to be taken from the Jordan, and specified why, for he says, “When your children ask their fathers in time to come, what do these stones mean? Then you shall let your children know, Israel passed over this Jordan on dry ground, for the Lord your God dried up the waters of the Jordan for you until you passed over,” and thus the ark was saved and all the people. Shall we not then record with images the saving passion and miracles of Christ our God, so that when my son asks me, “What is this?” I may say that God the Word became man, and that through him not only Israel passed through the Jordan, but the whole human race regained its original happiness? Through him, human nature rose from the lowest depths to the most exalted heights, and in him sat on the Father’s throne.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jo/4/6",
+      "full_content_url": "https://catenabible.com/com/5de470658b87fe0847ee8809",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 4:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

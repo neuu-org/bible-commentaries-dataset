@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 25:8",
+  "verse_text": "Verse text for PS 25:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/25/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Good and upright is the LORD: therefore will he teach sinners in the way. Augustine of Hippo 8. \"Gracious and upright is the Lord\" (ver. The Lord is gracious, since even sinners and the ungodly He so pitied, as to forgive all that is past; but the Lord is upright too, who after the mercy of vocation and pardon, which is of grace without merit, will require merits meet for the last judgment. \"Wherefore He will establish a law for them that fail in the way. \" For He hath first bestowed mercy to bring them into the way.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68d9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Righteous. Though he is always ready to receive the penitent, he will punish the obstinate with severity. (Calmet; Worthington)\nYet he points out the means of obtaining his favour. (St. Augustine)\nA law. Hebrew, \"will instruct. \"(Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf29",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 25:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

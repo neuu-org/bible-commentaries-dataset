@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 5:1",
+  "verse_text": "Verse text for EZ 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "That. Hebrew, \"the scissors of clippers. \"The same term is used for clipping sheep as for cutting hair. Shaving was not probably then in use.\nBeard, as in mourning or for ignominy, 2 Kings x. 4., and Jeremias xlvii. 5.\nBalance, to show that God does nothing unjustly. (Calmet)\nThe hair. Literally, \"them. \"(Haydock)\nThis was to be done before he lay down. Hew was to burn, cut, and divide the hair as the siege represented on the tile advanced, to denote that some should perish in the city by famine, others by the sword, while a few should be scattered among the nations: yet of these a small number should be gathered round Godolias, and perish with him, or in Egypt, and the rest be thence led captive to Babylon.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ez/5/1",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bf002",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

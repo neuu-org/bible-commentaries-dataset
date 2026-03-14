@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 8:14",
+  "verse_text": "Verse text for LK 8:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/8/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The sense of the Greek text is: they produce no fruit that arrives at maturity. (Bible de Vence)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/8/14",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa7d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Shepherd of Hermas",
+      "period": "AD150",
+      "content": "And that which fell among thorns are they, who, when they have heard, go forth, and are choked with cares and riches and pleasures of this life, and bring no fruit to maturity. Shepherd of Hermas Even as beautiful vines, when they are neglected, are withered up by thorns and divers plants, so men who have believed, and have afterwards fallen away into many of those actions above mentioned, go astray in their minds, and lose all understanding in regard to righteousness; for if they hear of righteousness, their minds are occupied with their business,.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/8/14",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbcf6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 8:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 115:13",
+  "verse_text": "Verse text for PS 115:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/115/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. For we do not by our deservings prevent the mercy of God; but, \"The Lord hath been mindful of us, and hath blessed us. He hath blessed the house of Israel, He hath blessed the house of Aaron\" (ver. 12). But in blessing both of these, \"He hath blessed all that fear the Lord\" (ver. 13). Dost thou ask, who are meant by both of these? He answereth, \"both small and great.\" That is, the house of Israel with the house of Aaron, those who among that nation believed in Jesus the Saviour. ...For in the character of those who out of that nation believed, it is said, \"Except the Lord of Sabaoth had left us a seed, we had been as Sodoma, and been made like unto Gomorrha.\" Seed, because when it has been scattered over the earth, it multiplied.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/115/13",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65e1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 115:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

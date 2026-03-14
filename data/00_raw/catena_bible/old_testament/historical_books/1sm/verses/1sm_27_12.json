@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 27:12",
+  "verse_text": "Verse text for 1SM 27:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/27/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Harm. Hebrew, \"he hath made himself stinking (an object of horror) to his people. \"A strong expression used, Genesis xxxiv. 30., and Exodus v. 21. (Calmet)\nSeptuagint, \"he is quite covered with confusion. \"Achis supposed that David had thus forfeited all his pretensions to dwell among, much less, to reign over Israel: so that he might keep him always in his service. (Haydock)\nIn the mean time, Saul was exterminating the people of Gabaon, which brought a pestilence on Israel, 40 years after. (Theodoret)\nHe perhaps supposed that the oath of Josue had not been yet put in execution, as it ought to be, herein indulging too much his cruel temper. (Salien)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/27/12",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd009",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 27:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 27:13",
+  "verse_text": "Verse text for LV 27:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/27/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But if he will at all redeem it, then he shall add a fifth part thereof unto your valuation. That offereth it. This addition of the Vulgate shews, that if any other purchased the animal, he would not have to give a fifth part more than the value. That only concerned the person who had made the vow, to punish him for his inconstancy, and that he might not have a desire to get possession again of what he had once consecrated to the Lord. If the beast was valued at 40 sicles, he would therefore have to pay 50.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/27/13",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc6b0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 27:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

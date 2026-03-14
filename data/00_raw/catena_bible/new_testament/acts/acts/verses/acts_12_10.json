@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 12:10",
+  "verse_text": "Verse text for ACTS 12:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/12/10",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now know I that the Lord has sent His Angel.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/12/10",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b930f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "and yet the things that had happened within (the prison) were more marvellous: but this was now more after the manner of man. And having gone out, they went along one street and immediately (all 'until') the Angel departed from him.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/12/10",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9307",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "When they were past the first and the second guard, they came unto the iron gate that leads unto the city; which opened to them of its own accord: and they went out, and passed on through one street; and immediately the angel departed from him. Behold, a second miracle. And they went out, and passed on through one street; and immediately the angel departed from him. And when Peter had come to himself, he said, Now I know of a surety, that the Lord has sent His Angel, and has delivered me out of the hand of Herod, and from all the expectation of the people of the Jews.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/12/10",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b92fa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 12:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

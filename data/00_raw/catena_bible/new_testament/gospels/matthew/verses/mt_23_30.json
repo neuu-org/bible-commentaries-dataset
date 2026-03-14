@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MT 23:30",
+  "verse_text": "Verse text for MT 23:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/23/30",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And say, &c. They deceive themselves, and utter falsehoods. For if they killed Christ, the Prince of the Prophets, because He reproved their wickedness, surely they would have killed the Prophets, who were wont to do the same.\nWherefore ye testify against yourselves, &c. That Isaiah , you testify that you are the sons of those who murdered the Prophets, and consequently that you have the same disposition and the same propensity to kill those who rebuke your vices, which they had. For children are like their parents. For a father is wont to transmit his inclinations, talents, and views to his children. Hence children \"favour their parents.\" Also there is the example and training of parents, by means of which they influence their children to do the same things that they do themselves.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/23/30",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51d90",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets. or the things that you now dare to do, show that you do these things also in this spirit. For, though ye speak the contrary, says He, as condemning them, as, for instance, We should not, if we had been in their days, have been partakers with them; yet the disposition is evident wherewith ye say these things. Wherefore also unfolding it, though darkly, still He has expressed it.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/23/30",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac56d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And you yourselves continue to do these things in this spirit. Though you may speak to the contrary, you still do them. You say, “If we had lived in the days of our fathers we would not have taken part with them in shedding the blood of the prophets.” Yet your own disposition is evident. Even as you are unfolding your intention, you are already expressing it, however disguised. So Jesus adds, “Thus you witness against yourselves, that you are the sons of those who murdered the prophets.” If you are the son of a murderer but do not partake of the mind of your father, you yourself are not to blame. But if you do so partake, you have an affinity with his wickedness. The Gospel of Matthew, Homily",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/23/30",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e710b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 23:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

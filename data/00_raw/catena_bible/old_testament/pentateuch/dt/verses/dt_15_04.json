@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 15:4",
+  "verse_text": "Verse text for DT 15:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/15/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "There shall be no poor It is not to be understood as a promise, that there should be no poor in Israel, as appears from ver. 11, where we learn that God's people would never be at a loss to find objects for their charity: but it is an ordinance that all should do their best endeavours to prevent any of their brethren from suffering the hardships of poverty and want. (Challoner) Beggar, is not expressed, though it be implied in Hebrew or the Septuagint, which connect this with the preceding verse, (Haydock) \"because (or save when) there shall be no poor among you \"as if the rich could not derive the benefit from the remission of debts. (Vatable) God had made abundant provision for the poor. He might have prevented any from falling into distress. (Calmet) But he suffered this sometimes to take place, to try the dispositions both of the rich and of the poor. (Haydock) If they had faithfully complied with his laws, he would not have permitted them to fall into the last degree of misery. (Calmet) He allows no public begging, which all well regulated nations discountenance. (Menochius) The Jews carefully relieve their brethren. They gather alms, and one of the judges distributes what may be sufficient for the ensuing week. ) Those who refused to give according to their abilities, were formerly ordered by the Sanhedrim to be scourged, till they had complied with their duty; and sometimes, things were taken forcibly from their houses. (Maimonides) They relieve the distressed in proportion to their former condition. (Selden, Jur.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/15/4",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9b8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Except when there shall be no poor among you; for the LORD shall greatly bless you in the land which the LORD your God gives you for an inheritance to possess it: There shall be no poor: It is not to be understood as a promise, that there should be no poor in Israel, as appears from ver. 11, where we learn that God's people would never be at a loss to find objects for their charity: but it is an ordinance that all should do their best endeavours to prevent any of their brethren from suffering the hardships of poverty and want.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/15/4",
+      "full_content_url": "https://catenabible.com/com/587e51f954b4f95416b2f158",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 15:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 44:25",
+  "verse_text": "Verse text for PS 44:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/44/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "20. \"For our soul is bowed down to the dust\" (ver. 25). Where is it bowed down? \"To the dust:\" i.e. dust persecutes us. They persecute us, of whom Thou hast said, \"The ungodly are not so; but are like the dust, which the wind driveth away from the face of the earth.\" \"Our belly hath cleaved to the earth.\" He seems to me to have expressed the punishment of the extreme of humiliation, in which, when any one prostrates himself, \"his belly cleaveth to the earth.\" For whosoever is humbled so as to be on his knees, has yet a lower degree of humiliation to which he can come: but he who is so humbled, that his \"belly cleaveth to the ground,\" there is no farther humiliation for him. Should one wish to do still farther, it will, after that point, be not bowing him down, but crushing him. Perhaps then he may have meant this We are \"bowed down very low\" in this dust; there is no farther point to which humiliation can go. Humiliation has now reached its highest point: let mercy then come also. ...",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/44/25",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a30",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 44:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

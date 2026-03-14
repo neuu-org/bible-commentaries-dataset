@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 4:31",
+  "verse_text": "Verse text for DN 4:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/4/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Heaven: God having looked on me with pity. (St. Augustine, ep. 111. (Calmet) or 122.; Worthington) seems to think that he was saved; and the author of the Book on Pred.grace, (chap. 15) attributes to him, remarks that his repentance was different from that of Pharao. Hence none must despair. (St. Jerome, ep. vii. to Læta.)\nSee Theod.; Cornelius a Lap ide, who maintain that same opinion: but St. Thomas Aquinas expresses his doubts. Isaias (xiv. 9.) seems to consign him to hell; and the king here manifests his adhesion to Bel, (ver. 5.) and great inconstancy, chap. ii. 47., and iii. 15. His conviction seems therefore to have been only in speculation, (Calmet) or momentary, like that of the philosophers, (Romans i.) which would render them only more criminal; and we must confess, (Haydock) that this conversion is very equivocal. (Sanctius, ver. 24 and 34.) (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/4/31",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2c6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh While the word was in the king's mouth, there fell a voice from heaven, saying, O king Nebuchadnezzar, to you it is spoken; The kingdom has departed from you. His arrogant boasting is immediately punished by the Lord. For this reason the execution of the sentence is not delayed, lest mercy towards the poor seem to have profited him not at all. But as soon as he has spoken in pride, he straightway loses the kingdom which (650) had been reserved for him on account of his works of charity.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/31",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2cb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 4:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

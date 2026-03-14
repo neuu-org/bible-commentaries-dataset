@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 33:5",
+  "verse_text": "Verse text for PS 33:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/33/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "5. \"He loveth Mercy and Judgment:\" for He loveth Mercy, which now He showeth first; and Judgment, wherewithHe exacteth that which He hath first shown. \"The earth is full is full of the Mercy of the Lord\" (ver. 5): throughout the whole world are sins forgiven unto men by the Mercy of the Lord.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/33/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e694f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Judgment. God joins these virtues together, (Worthington) as we ought to do. (Haydock) (Luke vi. 36., and Matthew v. 48.)\nHe punishes the wicked, and rewards the good. But his mercy displays itself on the earth, as there is no misery in heaven. (St. Augustine)\nIts effects appear more since the coming of our Saviour. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/33/5",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf95",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 33:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

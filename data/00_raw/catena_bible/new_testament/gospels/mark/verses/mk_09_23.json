@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 9:23",
+  "verse_text": "Verse text for MK 9:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "If the man believed, as he said, why does he add, help my unbelief? It may be answered: because faith is manifold; their is a faith of beginners, and a faith of the perfect. The incipient faith this man already possessed, and he besought our Saviour to help him to the higher degrees of this virtue. No one becomes great and perfect all at once, but must first set off with small beginnings, and thus gradually ascend to the height of perfection. Thus the man, who, by the inspiration of grace has received imperfect faith, may be said at the same time to believe, and still to be incredulous. (Ven. Bede)\nHere we are taught that our faith is weak, and has need of support and increase from God's assistance. When tears accompany our faith, they obtain for us the grant of our petitions. (St. Jerome)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/9/23",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf95d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Thus showing that there is a faith specially belonging to man, since he has an opinion specially his own. And again, \"All things are possible to him that believeth; \"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/23",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb6ea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

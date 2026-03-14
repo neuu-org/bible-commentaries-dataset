@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1JN 4:15",
+  "verse_text": "Verse text for 1JN 4:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/1jn/4/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Whosoever shall confess that Jesus is the Son of God, &c. He here maintains the Divinity of Christ because Ebion, Cerinthus, and many others at that time impugned it. This is as it were a conclusion drawn from the preceding verse. As though he said, Christ is the Saviour of the world. Whosoever therefore believeth in Him, and stedfastly confesses His faith, God abideth in him, and he in God. He abides, I say, by a true, living faith and confession, which includes charity, and which works by love. As S. Augustine says, \"Whosoever shall confess, not in word, but in deed, not in tongue, but in life. For many confess in words, but deny by their deeds.\"",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1jn/4/15",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e526cb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Lucius Caecilius Firmianus Lactantius",
+      "period": "AD320",
+      "content": "Nor let the Jews, or philosophers, flatter themselves respecting the Supreme God. He who has not acknowledged the Son has been unable to acknowledge the Father.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1jn/4/15",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba995",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "But \"whosoever shall confess that (Jesus) Christ is the Son of God \"(not the Father), \"God dwelleth in him, and he in God. \"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1jn/4/15",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba994",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1JN 4:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

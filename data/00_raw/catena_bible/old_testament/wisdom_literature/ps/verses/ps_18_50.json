@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:50",
+  "verse_text": "Verse text for PS 18:50",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/50",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "51. \"Magnifying the salvation of His King\" (ver. 50). God, who magnifieth, so as to make wonderful, the salvation, which His Son giveth to believers. \"And showing mercy to His Christ:\" God, who showeth mercy to His Christ: \"To David and to His seed for evermore:\" to the Deliverer Himself strong of hand, who hath overcome this world; and to them whom, as believers in the Gospel, He hath begotten for evermore. What things soever are spoken in this Psalm which cannot apply to the Lord Himself personally, that is to the Head of the Church, must be referred to the Church. For whole Christ speaks here, in whom are all His members.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/18/50",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6873",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Great. This in intimated by the plural salutes, \"salvations \"as David had experienced innumerable favours. (Haydock)\nHe speaks of himself in the third person, to lead our minds to the Messias, in whom this was more gloriously accomplished. The greater honour of this chief family of Israel, consisted in giving birth to so great a personage, in whom all are blessed. (Calmet) (Isaias xi. 1., and Ezechiel xxxiv. 23.)\nFor ever. The true Church will never perish; (Haydock) God still protecting it, as he did David, ver. 48. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/50",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdeed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:50",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

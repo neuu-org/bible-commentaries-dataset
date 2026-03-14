@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PS 23:1",
+  "verse_text": "Verse text for PS 23:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/23/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. The Church speaks to Christ: \"The Lord feedeth me, and I shall lack nothing\" (ver. 1 ). The Lord Jesus Christ is my Shepherd, \"and I shall lack nothing.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/23/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68c0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "David. This psalm most beautifully describes the consolation which the just find in God's protection. (Haydock)\nIt may be applied to the Israelites in the desert, (Chaldean) to David persecuted by Saul, or rather (Calmet) settled quietly upon the throne, (Muis) or to the Jews returned from Babylon. (St. Athanasius) (Calmet)\nThe Fathers explain it mystically of Jesus Christ, the Shepherd of our souls. (Didymus, St. Augustine) The allegories of a shepherd and of a person giving a feast to his guests, are well supported. (Calmet)\nRuleth, in Hebrew. Is my shepherd; viz., to feed, guide, and govern me. (Challoner)\nSeptuagint poimainei, pascit, as St. Augustine and St. Jerome read. St. Gregory Thaumaturgus understands this of the angel guardian. (Paneg. in Orig.)\nJesus Christ conducts us into the pastures of his Church, and feeds us (Worthington) with his own body (Calmet)\nThe saints never complain of want. (Berthier)",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/23/1",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf13",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "And, moreover, the ark made of imperishable wood was the Saviour Himself. For by this was signified the imperishable and incorruptible tabernacle of (the Lord) Himself, which gendered no corruption of sin. For the sinner, indeed, makes this confession: My wounds stank, and were corrupt, because of my foolishness. But the Lord was without sin, made of imperishable wood, as regards His humanity; that is, of the virgin and the Holy Ghost inwardly, and outwardly of the word of God, like an ark overlaid with purest gold.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/23/1",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac0f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 23:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

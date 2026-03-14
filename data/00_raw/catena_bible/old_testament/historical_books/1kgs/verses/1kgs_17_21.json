@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 17:21",
+  "verse_text": "Verse text for 1KGS 17:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/17/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Times, in honour of the blessed Trinity. (Menochius)\nHe puts himself in this posture, as if to co-operate with God in warming the child; as Eliseus did, (4 Kings iv. 34,) as well as St. Paul, (Acts xx. 10,) and St. Benedict. (St. Gregory, Dial. ii. 32.) This posture represented the condescension of Jesus Christ in assuming our nature, to give us life; and the Old Testament affords few more striking figures of this union. (Calmet) (St. Augustine, ser. 201. de Temp.; St. Bernard xvi. in Cant.) (Tirinus)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/17/21",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd376",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 17:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

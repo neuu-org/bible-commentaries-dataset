@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 26:2",
+  "verse_text": "Verse text for PS 26:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/26/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Examine me, O LORD, and prove me; try my heart and my mind. Burn, like gold in the furnace. (Berthier) Purify all my affections and thoughts with the fire of divine love. Augustine; St. Jerome) Make my dispositions known to the world. I have done no one any harm. (Calmet) I take thee for the arbiter of my cause with respect to Saul, whom I have not injured. Still, as I may not be innocent, do thou try me, as thou thinkest proper. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/26/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf39",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 26:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

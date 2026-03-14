@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1PET 1:6",
+  "verse_text": "Verse text for 1PET 1:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/1/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "In which you greatly rejoice, though now for a little while, if need be, you are in heaviness through manifold trials: Though now for a season, if need be, ye are in heaviness through manifold temptations; that the trial of your faith, being much more precious than that of gold which perisheth, though it be tried with fire, might be found unto praise, and honour, and glory at the revelation of Jesus Christ; whom, having not seen, ye love; in whom, though now ye see Him not, yet believing, ye rejoice with joy unspeakable, and full of glory, receiving the end of your faith, the salvation of your souls.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/1/6",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba9fb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 1:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

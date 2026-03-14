@@ -1,6 +1,6 @@
 # Bible Commentaries Dataset
 
-Curated, multi-layered dataset of patristic and historical biblical commentaries spanning **AD 100–1700**, organized for reproducible research in NLP, information retrieval, and theological analysis.
+Curated, multi-layered dataset of patristic and historical biblical commentaries spanning **AD 100-1700**, organized for reproducible research in NLP, information retrieval, and theological analysis.
 
 Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
@@ -12,187 +12,151 @@ This dataset provides verse-level commentaries from the Church Fathers and histo
 
 | Metric | Value |
 |--------|-------|
-| Original verse files | 31,218 |
-| Old Testament coverage | 23,320 verses across 11 categories |
-| New Testament coverage | 7,898 verses across 5 categories |
-| Translated + AI-enriched | 879 (in progress) |
+| Verse files | 31,218 |
+| Individual commentaries | 55,925 |
+| Old Testament | 23,320 verses across 6 categories |
+| New Testament | 7,898 verses across 5 categories |
 | Unique authors | 100+ Church Fathers and theologians |
 | Time span | ~1,600 years of exegetical tradition |
 
-### Sources
+## Pipeline
 
-| Source | Type | Status |
-|--------|------|--------|
-| [CatenaBible.com](https://catenabible.com) | Patristic commentaries | Complete (31,218 files) |
-| *Future sources welcome* | — | — |
+Each numbered directory is one step. Each script maps exactly one transition.
+
+```
+00_raw  --[clean.py]-->  01_cleaned  --[translate.py --lang pt]-->  02_translated/pt  --[enrich.py --lang pt]-->  03_enriched/pt
+```
+
+| Step | Script | Input | Output | Cost |
+|------|--------|-------|--------|------|
+| 0 | `clean.py` | 00_raw | 01_cleaned | Free (ftfy) |
+| 1 | `translate.py` | 01_cleaned | 02_translated | ~$0.001/file (GPT-4o-mini) |
+| 2 | `enrich.py` | 02_translated | 03_enriched | ~$0.01/file (GPT-4o-mini) |
 
 ## Repository Structure
 
 ```
 bible-commentaries-dataset/
 ├── data/
-│   ├── 00_raw_archive/              # LOCAL ONLY (not tracked by git)
-│   │   └── PROVENANCE.json          # Integrity checksums and source metadata
+│   ├── PROVENANCE.json              # SHA256 checksums and source metadata
 │   │
-│   ├── 01_original/                 # Raw verse files as scraped (untouched)
+│   ├── 00_raw/                      # Raw scraped verse files (untouched)
 │   │   ├── catena_bible/
-│   │   │   ├── old_testament/       # 23,320 files across 6 categories
-│   │   │   └── new_testament/       # 7,898 files across 5 categories
+│   │   │   ├── old_testament/       # 23,320 files
+│   │   │   └── new_testament/       # 7,898 files
 │   │   ├── manifest.json            # Full inventory with commentary counts
 │   │   └── schema.json              # JSON Schema for verse files
 │   │
 │   ├── 01_cleaned/                  # Cleaned via ftfy (encoding fixed, metadata stripped)
-│   │   └── catena_bible/            # Same structure, lean JSON
+│   │   └── catena_bible/            # 31,218 lean JSON files
 │   │
-│   ├── 02_translated_enriched/      # AI-translated (PT-BR) + structured enrichment
-│   │   └── enrichment_config.json   # Model, prompts, coverage stats
+│   ├── 02_translated/              # Translations by language
+│   │   └── pt/                     # Portuguese (BR) — 861 files
+│   │       └── new_testament/...
+│   │   └── (future: es/, fr/, etc.)
 │   │
-└── scripts/
-    ├── scrape_catena_bible.py       # How the raw data was extracted
-    ├── clean.py                     # 01_original -> 01_cleaned (ftfy + domain rules)
-    ├── translate.py                 # 01_cleaned -> 02_translated_enriched (EN -> PT-BR)
-    ├── enrich.py                    # 02_translated_enriched (adds AI analysis)
-    ├── validate_schema.py           # Validate verse files against schema
-    ├── generate_manifest.py         # Generate manifest.json for any layer
-    └── gap_audit.py                 # Compare two layers to find missing files
+│   └── 03_enriched/                # AI structured analysis by language
+│       └── pt/                     # Portuguese (BR) — 879 files
+│           └── new_testament/...
+│       └── (future: es/, fr/, etc.)
+│
+├── scripts/
+│   ├── scrape_catena_bible.py       # How the raw data was extracted
+│   ├── clean.py                     # 00_raw -> 01_cleaned
+│   ├── translate.py                 # 01_cleaned -> 02_translated
+│   ├── enrich.py                    # 02_translated -> 03_enriched
+│   ├── validate_schema.py           # Validate verse files against schema
+│   ├── generate_manifest.py         # Generate manifest.json for any layer
+│   └── gap_audit.py                 # Compare two layers to find missing files
+│
+├── requirements.txt
+├── CHANGELOG.md
+└── LICENSE                          # CC BY 4.0
 ```
 
 ## Data Layers
 
-### Layer 01 — Original Commentaries
+### 00_raw — Scraped Data
 
-Normalized, per-verse JSON files extracted from source. One file per verse, containing all available commentaries.
+Verse files exactly as extracted from CatenaBible.com. Contains scraping metadata (extraction_date, source_url, methodology, etc.). Never modified.
 
-**Schema:**
+### 01_cleaned — Research-Ready
+
+Cleaned via [ftfy](https://github.com/rspeer/python-ftfy): encoding fixes (14,906 corrections), scraping metadata stripped, verse text placeholders removed, normalized reference fields added. **33% smaller** than raw.
+
 ```json
 {
   "verse_reference": "ACTS 1:1",
-  "verse_text": "...",
-  "extraction_date": "2025-09-11",
-  "source_url": "https://catenabible.com/acts/1/1",
+  "book": "acts",
+  "chapter": 1,
+  "verse": 1,
+  "commentary_status": "available",
   "total_commentaries": 12,
   "commentaries": [
     {
       "author": "Bede",
       "period": "AD735",
-      "content": "Full commentary text...",
-      "content_type": "full",
-      "extraction_method": "beautifulsoup"
+      "content": "Full commentary text..."
     }
   ]
 }
 ```
 
-### Layer 02 — Translated + AI-Enriched
+### 02_translated — Portuguese Translation
 
-Same structure as Layer 01, with additional fields per commentary:
+Same structure as 01_cleaned, with `content_pt` and `translation_metadata` added per commentary. Cheap to generate (~$0.001/file with GPT-4o-mini).
+
+### 03_enriched — AI Structured Analysis
+
+Same structure as 02_translated, with additional fields per commentary:
 
 | Field | Description |
 |-------|-------------|
-| `content_en` | Original English text |
-| `content_pt` | Portuguese (BR) translation |
-| `translation_metadata` | Model, timestamp |
 | `ai_summary` | one_sentence, abstract, key_points |
 | `argumentative_structure` | thesis, arguments, objections, conclusion |
 | `theological_analysis` | doctrines, traditions, church_fathers, method, controversies |
 | `spiritual_insight` | theme, practical_reflection |
-| `enrichment_metadata` | Model, timestamp, status |
-
-**Current model:** GPT-4o-mini
-
-### Glossary
-
-23 base theological terms with canonical EN→PT mappings (e.g., Trinity→Trindade, grace→graça). Used during translation to ensure consistency.
-
-### Metadata
-
-Rich author profiles for 60+ Church Fathers including:
-- Biographical data (birth/death, location, tradition)
-- Theological school and specializations
-- Major works and historical impact
-- Reliability rating and scholarly consensus
-
-## Biblical Coverage
-
-### Old Testament (23,320 files)
-
-| Category | Books | Files |
-|----------|-------|-------|
-| Pentateuch | Genesis, Exodus, Leviticus, Numbers, Deuteronomy | 5,851 |
-| Historical | Joshua, Judges, Ruth, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles, Ezra, Nehemiah | 6,851 |
-| Wisdom Literature | Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, Sirach | 4,785 |
-| Major Prophets | Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel, Baruch | 4,544 |
-| Minor Prophets | Hosea–Malachi (all 12) | 1,122 |
-| Deuterocanonical | Esther, Judith, Tobit, 1-2 Maccabees | 167 |
-
-### New Testament (8,034 files)
-
-| Category | Books | Files |
-|----------|-------|-------|
-| Gospels | Matthew, Mark, Luke, John | 3,779 |
-| Acts | Acts | 1,007 |
-| Pauline Epistles | Romans–Philemon (13 letters) | 2,110 |
-| General Epistles | Hebrews, James, 1-2 Peter, 1-3 John, Jude | 734 |
-| Apocalyptic | Revelation | 404 |
+| `enrichment_metadata` | model, timestamp, status |
 
 ## Scripts
 
-### `scrape_catena_bible.py`
+### `clean.py`
 
-Hybrid web scraper (Firecrawl + BeautifulSoup) that extracts verse-level commentaries from CatenaBible.com. Includes retry logic, deduplication, and progress checkpointing.
+```bash
+python scripts/clean.py                    # Clean full corpus (00_raw -> 01_cleaned)
+python scripts/clean.py --dry-run          # Report without modifying
+python scripts/clean.py --book acts        # Clean specific book
+```
 
 ### `translate.py`
 
-Translates commentaries from English to Brazilian Portuguese. Reads from `01_original/`, writes to `02_translated_enriched/`. Only adds `content_en`, `content_pt`, and `translation_metadata`.
-
 ```bash
-# Translate a full book
 python scripts/translate.py --testament new_testament --book john
-
-# Test with limit
 python scripts/translate.py --testament new_testament --book john --max-files 10
 ```
 
 ### `enrich.py`
 
-Adds AI-structured analysis to already-translated commentaries. Reads and writes `02_translated_enriched/`. Requires `content_pt` to exist (run translate.py first).
-
 ```bash
-# Enrich a book (after translation)
 python scripts/enrich.py --testament new_testament --book john
-
-# Use a more capable model for higher quality
 python scripts/enrich.py --testament new_testament --book john --model gpt-4o
 ```
 
-### Pipeline workflow
-
-```
-Step 0 (one-time):          clean.py       01_original → 01_cleaned (ftfy encoding fixes, strip scraping metadata)
-Step 1 (cheap, priority):   translate.py   01_cleaned  → 02_translated_enriched (adds content_pt)
-Step 2 (costly, selective): enrich.py      02_translated_enriched → 02_translated_enriched (adds AI analysis)
-```
-
-**Requirements:** `openai`, `python-dotenv`, `tqdm`
+**Requirements:** `pip install -r requirements.txt` (ftfy, openai, python-dotenv, tqdm)
 
 ## Provenance
 
-- **Extraction date:** September 2025
-- **Method:** Hybrid Firecrawl + BeautifulSoup scraping
+- **Extraction:** September 2025, hybrid Firecrawl + BeautifulSoup
 - **Source:** CatenaBible.com (public domain patristic texts)
-- **Integrity:** SHA256 checksums for 100 sampled files stored in `data/00_raw_archive/PROVENANCE.json`
-- **Translation model:** GPT-4o-mini (OpenAI)
-- **Enrichment model:** GPT-4o-mini (OpenAI)
+- **Integrity:** SHA256 checksums in `data/PROVENANCE.json`
+- **Translation model:** GPT-4o-mini
+- **Enrichment model:** GPT-4o-mini
 
 ## License
 
-The patristic commentaries are **public domain** (original texts from AD 100–1700).
-
-The structured dataset, translations, AI enrichments, and scripts in this repository are released under **CC BY 4.0**.
+Patristic commentaries: **public domain** (AD 100-1700). Dataset, translations, enrichments, and scripts: **CC BY 4.0**.
 
 ## Citation
-
-If you use this dataset in academic work:
 
 ```bibtex
 @misc{neuu_bible_commentaries_2026,
@@ -204,14 +168,9 @@ If you use this dataset in academic work:
 }
 ```
 
-## Contributing
-
-Contributions are welcome — new commentary sources, improved translations, additional enrichment layers, or bug fixes. Please open an issue first to discuss scope.
-
 ## Related Datasets (NEUU Ecosystem)
 
-*Coming soon:*
-- `bible-crossrefs-dataset` — 1.2M+ cross-references from OpenBible + TSK
-- `bible-topics-dataset` — 7,873 unified biblical topics (Nave + Torrey + Easton + Smith)
-- `bible-dictionary-dataset` — Easton's + Smith's Bible Dictionaries
-- `bible-text-dataset` — 20 Bible translations (EN + PT-BR)
+- `bible-crossrefs-dataset` — 1.2M+ cross-references (planned)
+- `bible-topics-dataset` — 7,873 unified biblical topics (planned)
+- `bible-dictionary-dataset` — Easton's + Smith's Dictionaries (planned)
+- `bible-text-dataset` — 20 Bible translations EN + PT-BR (planned)

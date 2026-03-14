@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 109:19",
+  "verse_text": "Verse text for PS 109:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/109/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "19. \"This is the work of them that slander me before the Lord\" (ver. 19). He said not, \"their reward,\" but, \"their work:\" for it is clear that by the clothing, covering, water, oil, and girdle, he was describing the very works by which eternal curses are procured. It is not then one Judas, but many, of whom it is said, \"This is the work of them that slander me before the Lord.\" Although indeed the plural number might have been put for the singular; even as, when Herod died, it was said by the Angel, \"They are dead which sought the young Child's life.\" But who slander Christ more before the Lord, than they who slander the very words of the Lord, by declaring that it is not He whom the Law of the Lord and His Prophets announced beforehand? \"And of those that speak evil against my soul:\" by denying that He, when He had willed, could have arisen: though He saith, \"I have power to lay down My life, and I have power to take it again.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/109/19",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Work. They effect their own ruin. (Haydock)\nThe Jews pretended to act for the glory of God, being influenced with a zeal without knowledge. Some translate, \"let such be the recompense \"which is not amiss. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/109/19",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be39d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 109:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

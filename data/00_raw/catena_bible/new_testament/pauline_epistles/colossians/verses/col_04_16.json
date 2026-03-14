@@ -1,0 +1,58 @@
+{
+  "verse_reference": "COL 4:16",
+  "verse_text": "Verse text for COL 4:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/4/16",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Read you that which is of the Laodiceans. Some expound these words of an epistle which St. Paul wrote to the Laodiceans, which is lost, for that now extant is no more than a collection of sentences out of St. By the Greek text is rather signified a letter writ from Laodicea, and might be a letter sent from the Laodiceans to St. Paul, which he had a mind the Colossians should read. (Witham) This opinion does not, however, seem well founded. Hence it is more probable, that St. Paul wrote an epistle from Rome to the Laodiceans about the same time that he wrote to the Colossians, as he had them both equally at heart, and that he ordered that epistle to be read by the Colossians for their instruction; and, being neighbouring cities, they might communicate to each other what they had received from him: as one epistle might contain some matters not related in the other, and would be equally useful for their concern; and more particularly as they were equally disturbed by intruders and false teachers, against whom the apostle was anxious to warn them, lest they should be infected by their pernicious doctrine. (Challoner) It is the most common opinion, both amongst the ancients and moderns, that the epistle here alluded to was one written by the Laodiceans to St. Paul, which he sent to Colossus with this, and not one which he himself had written to the Laodiceans. It is however now lost. This exposition agrees best with the Greek.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/4/16",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c01b3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And when this Epistle has been read among you, cause that it be read also in the church of the Laodiceans. I suppose there are some of the things therein written, which it was needful that those also should hear. And they would have the greater advantage of recognizing their own errors in the charges brought against others.\n\nAnd that you also read the Epistle from Laodicea. Some say that this is not Paul's to them, but theirs to Paul, for he said not that to the Laodiceans, but that written from Laodicea.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/4/16",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddd02",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "Of Crete, Titus. Of Athens, Dionysius. Of Tripoli in Phoenicia, Marathones. Of Laodicea in Phrygia, Archippus.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/4/16",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baf53",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 4:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 27:36",
+  "verse_text": "Verse text for ACTS 27:36",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/27/36",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And not only so, but henceforth they so cast all their care upon Paul, that they even cast out the grain",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/27/36",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b951e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "seeing that there was no question about their lives being saved. (d) And we were in all in the ship two hundred threescore and sixteen souls. And when they had eaten enough, they lightened the ship, and cast out the wheat into the sea. And when it was day, they knew not the land: but they discovered a certain creek with a shore, into the which they were minded, if it were possible, to thrust in the ship. And when they had taken up the anchors, they committed themselves unto the sea, and loosed the rudder bands, and hoisted up the mainsail to the wind, and made toward shore.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/27/36",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9516",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 27:36",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

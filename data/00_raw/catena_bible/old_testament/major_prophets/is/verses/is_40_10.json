@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 40:10",
+  "verse_text": "Verse text for IS 40:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/40/10",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Behold, the Lord GOD will come with strong hand, and his arm shall rule for him: behold, his reward is with him, and his work before him. We must … be zealous in doing good, for all things are from him. [Isaiah] warns us, “Behold, the Lord comes, and his reward is before his face, to pay each person according to his work. ” He therefore urges us who believe in him with all our heart not to be lazy or careless in any good work. Let our glorying and our confidence be in him. Let us be subject to his will.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/10",
+      "full_content_url": "https://catenabible.com/com/5e88f27ab1c7280cb341d016",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "For our Lord Jesus Christ showed himself to us having divine strength, and his arm with authority, that is, with power and dominion. - \"Letter 1.31\"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/10",
+      "full_content_url": "https://catenabible.com/com/5e88f27bb1c7280cb341d019",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Him. Christ will reward and punish, Jeremias xxxi. 16., and Luke ii. 34.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/40/10",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723beaa8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 40:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

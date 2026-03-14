@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 72:17",
+  "verse_text": "Verse text for PS 72:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/72/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Be,\" therefore, \"the name of Him blessed for ever: before the sun endureth the name of Him\" (ver. By the sun times are signified. Therefore for everlasting endureth the name of Him. For eternity doth precede times, and is not bounded by time. \"And there shall be blessed in Him all the tribes of the earth. \" For in Him is fulfilled that which hath been promised to Abraham. \"For He saith not, In seeds, as though in many; but as though in one, And to thy Seed, which is Christ. \" But to Abraham is said, \"In thy Seed shall be blessed all the tribes of the earth. \" And not the sons of the flesh but the sons of promise are counted in the Seed. \"All nations shall magnify Him. \" As if in explanation there is repeated that which above hath been said. For because they shall be blessed in Him, they shall magnify Him; not of themselves making Him to be great, that of Himself is great, but by praising and confessing Him to be great. For thus we magnify God: thus also we say, \"Hallowed be Thy name,\" which is indeed always holy.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/72/17",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6bd7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The God. Hebrew repeats this word, (Haydock) as the Septuagint of St. Jerome did. (Ep. ad Sun.) (Calmet)\nAlone. Miracles can be wrought only by God's power. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/72/17",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be19b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 72:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

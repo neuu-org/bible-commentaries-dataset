@@ -1,0 +1,80 @@
+{
+  "verse_reference": "IS 42:14",
+  "verse_text": "Verse text for IS 42:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/42/14",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Alexander of Alexandria",
+      "period": "AD250",
+      "content": "Christ suffered shame for humanity’s sake in order to set people free from death. This he exclaimed, as in the words of the prophet, “I have endured as a woman in childbirth. ” In very deed Christ endured for our sakes sorrow, ignominy, torment, even death itself, and burial. For thus he says himself by the prophet, “I went down into the deep. ” Who made him thus to go down. The ungodly. … They suspended him on the tree—the One who stretches out the earth. They transfixed him with nails who laid firm the foundation of the world. They circumscribed him who circumscribed the heavens. They bound him who frees sinners. They gave him vinegar to drink who has enabled them to drink of righteousness. They fed him with gall who has offered to them the bread of life. They caused corruption to come on his hands and feet who healed their hands and feet. They violently closed his eyes who restored sight to them. They gave him over to the tomb who raised their dead to life both in the time before his passion and also while he was hanging on the tree.",
+      "commentary_number": "1/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/14",
+      "full_content_url": "https://catenabible.com/com/5e88f301b1c7280cb341d08f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I have long time held my peace; I have been still, and restrained myself: now will I cry like a travailing woman; I will destroy and devour at once. Augustine of Hippo “Sweet and righteous is the Lord. ” You love [him] because he is sweet. You fear [him] because he is righteous. In a gentle voice, he said, “I have kept silence. ” But as a just person, “shall I always be silent. ” “A Lord compassionate and merciful. ” Yes, indeed. Yet add, patient; yet add, and very compassionate.",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/42/14",
+      "full_content_url": "https://catenabible.com/com/5e88f301b1c7280cb341d08e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The one who speaks is now keeping quiet. He speaks in commandments; he keeps quiet in judgment.… How has he kept quiet, seeing that he spoke to say this very thing? He says, “I have kept quiet,” and yet he does not keep quiet, because just by saying “I have kept quiet,” God has not kept quiet. So then, Lord, I hear you speaking in so many commandments, as many sacred signs, so many pages, so many books. And then I hear you saying this, “I have kept quiet, will I keep quiet always?” So how have you kept quiet? Because I am not yet saying, “Come, you blessed of my Father, receive the kingdom.” And I am not yet saying to the others, “Go into the eternal fire that has been prepared for the devil and his angels.” And while I am not yet saying these things, I am already warning you that I am going to say them.",
+      "commentary_number": "3/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/14",
+      "full_content_url": "https://catenabible.com/com/5e88f300b1c7280cb341d08c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "Still, the saying of Isaiah has come to my mind: “I have kept silence; I shall not always keep silence and endure, shall I? I have been as patient as a woman in labor.” May it be that we both receive the reward for our silence and acquire some power for refuting, so that, when we have given our proofs, we may dry up this bitter torrent of falsehood poured out against us. May we say, “Our souls have passed through a torrent,” and, “If it has not been that the Lord was with us, when people rose up against us, perhaps they had swallowed us up alive, perhaps the waters had swallowed us up.”",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/14",
+      "full_content_url": "https://catenabible.com/com/5e88f300b1c7280cb341d08b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "“I spoke as if giving birth.” For as we already have said, giving birth with pain expels that which was developing deep within for a long time. The one who was always silent speaks out now like one giving birth, for the coming judge withheld revenge from being inflicted on humans for a long time; for he shows the extent to which he kept contained within the pressure of endurance, like a headache. So no one, when God hides this light, should despise him or criticize him when God flashes down from heaven to burn up those who have contempt for him. For the one who does not long for pardon then without a doubt he will burn as punishment. So we accept the time of calling through heavenly grace, while indulgence still prevails, and may we flee the wrath that is all around, making an improvement in our lifestyle.",
+      "commentary_number": "5/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/42/14",
+      "full_content_url": "https://catenabible.com/com/5e88f301b1c7280cb341d08d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 42:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

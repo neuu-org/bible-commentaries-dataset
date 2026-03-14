@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 33:6",
+  "verse_text": "Verse text for EZ 33:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/33/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Iniquity, not regarding the admonitions of his pastor; (chap. iii. 18.; Calmet) or rather of conscience, when the guide proves faithless and silent, as in this instance. (Haydock)\nThe people were persuaded that none suffered except for some fault, ver. 10.; Jeremias xxxi. 30., Daniel xiii. 52., and Genesis xliv. 16. The author of the Book of Job takes great pains to remove this mistake. God sometimes sends crosses for a trial, (Calmet) and to increase the merit of his servants; though it be very true, (Haydock) \"no one is miserable except he deserve it. \"(St. Augustine)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ez/33/6",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf189",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 33:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

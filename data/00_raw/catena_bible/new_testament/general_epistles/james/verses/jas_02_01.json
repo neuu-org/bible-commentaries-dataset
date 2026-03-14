@@ -1,0 +1,80 @@
+{
+  "verse_reference": "JAS 2:1",
+  "verse_text": "Verse text for JAS 2:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/2/1",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "James here demonstrates that those to whom he is writing were full of faith but empty when it came to works.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/1",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9eeb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "With respect of persons. This partial respect of persons is several times condemned both in the Old and New Testament. James here speaks of it as it was committed in the assemblies, by which many understand the meetings of Christians, in synagogues and places where they celebrated the divine service, or met to keep the charitable feast, called Agape. Others expound it of meetings where causes were judged. If it be meant of Church meetings, the apostle might have even greater reason to condemn such a partiality at that time than at present; for when the poorer sort of people, of which was the greatest number of converts, saw themselves so neglected and despised, and any rich man when he came thither so caressed and honoured, this might prove a discouragement to the meaner sort of people, and an obstacle to their conversion. But if we expound it of meetings where causes were judged betwixt the rich and others of a lower condition, (which exposition the text seems to favour) the fault might be still greater, when the judges gave sentence in favour of great and rich men, biassed thereunto by the unjust regard they had for men rich and powerful. This was a transgression of the law: (Leviticus xix. ) Respect not the person of the poor, nor honour the countenance of the mighty. But judge thy neighbour according to justice. See also Deuteronomy i. (Witham) Respect The meaning is, that in matters relating to faith, the administering of the sacraments and other spiritual functions in God's Church, there should be no respect of persons: but that the souls of the poor should be as much regarded as those of the rich. 17) (Challoner).",
+      "commentary_number": "2/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jas/2/1",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c036c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What does it matter if you think highly of yourself, when someone else despises you? Are we not all one body, both great and small? Therefore if in principle we are all one and members of each other, why do you mindlessly exalt yourself? Why do you bring shame on your brother? For just as he is a part of you, so you too are a part of him.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/1",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9ee5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Oecumenius",
+      "period": "AD990",
+      "content": "Anyone who does things by showing favoritism covers himself with great shame and reproach, for that way he brings disdain not only on his neighbor but much more on himself as well.",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/1",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9ef4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "With respect of persons: The meaning is, that in matters relating to faith, the administering of the sacraments, and other spiritual functions in God's church, there should be no respect of persons; but that the souls of the poor should be as much regarded as those of the rich. See Deut. 1. 17.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jas/2/1",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f34",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 2:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

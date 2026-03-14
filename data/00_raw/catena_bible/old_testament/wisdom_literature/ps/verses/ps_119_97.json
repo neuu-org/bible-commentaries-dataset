@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:97",
+  "verse_text": "Verse text for PS 119:97",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/97",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "We have frequently admonished you, that love was to be understood by that praiseworthy breadth, by means of which, while we do the commandments of God, we feel no straitness. On this account also after saying above in this great Psalm, \"Thy commandment is exceeding broad:\" in the following verse he showeth wherefore it is broad: \"what love have I unto Thy law, O Lord. Love is therefore the breadth of the commandment. For how can it be that what God commandeth to be loved, be loved, and yet the commandment itself be not loved. For this itself is the law; \"in all the day,\" he saith, \"is my study in it. \" Behold how I have loved it, that in the whole day my study is in it; or rather, as the Greek hath it, \"all the day long,\" which more fully expresses the continuance of meditation. Now that is to be understood through all time; which is, for ever. By such love lust is driven out: lust, which repeatedly opposeth our performing the commandments of the law, when \"the flesh lusteth against the spirit:\" against which the spirit lusting, ought so to love the law of God, that it be its study during the whole day.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/97",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e665d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Loved. Constraint takes away all merit. (St. Hilary)\nSon, give me thy heart, Proverbs xxiii. 26. (Haydock)\nThe just man wonders that he should feel such love, as he knows it is not of his own growth, but a gift of God. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/97",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be42a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:97",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

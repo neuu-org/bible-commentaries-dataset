@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 3:21",
+  "verse_text": "Verse text for JN 3:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/3/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But he that doeth. e, according to God\"s will and law, and by His guidance, light, and help. The truth, i. e, practically by doing what is right and just, and pleasing to God. For as there is truth of the heart and mouth, so is there of deed, by which it comes to pass that an honest and holy work corresponds to the practical rule of reason and prudence, or virtue, and the will of God. Thus ( John 8:43-44), it is said of Lucifer, he abode not in the truth, i. e, in equity, justice, and sanctity. So also the Apostle exhorts us to do the truth, i. e, what is truly good, and holy, and pleasing to God. The meaning Isaiah , he who does, i. e, who by the light and grace of God proposes and determines to do the truth, i. e, what is truly good and holy, cometh to the light, i. e, embraces My doctrine, and the Christian faith, that his works may be manifest that they are done in God, that they please God because they are done by His leading and guidance. And if they be otherwise, He will correct them, and amend them in accordance with the will of God. \"He shows,\" says S. Chrysostom, \"that none of those who are in error will submit to the truth, unless a man will first persuade himself to lead a correct life; and that no one will persist in unbelief unless he be wholly given up to wickedness. \" Thus far are the words of Christ to Nicodemus.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/3/21",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52110",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": ", moreover, provided it be true and full, loves not darkness: it joys in being seen,",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/3/21",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb34b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 3:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

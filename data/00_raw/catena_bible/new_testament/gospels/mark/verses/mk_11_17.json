@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 11:17",
+  "verse_text": "Verse text for MK 11:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/11/17",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "But if we do not the will of the Lord, we shall be of the scripture that saith, \"My house was made a den of robbers.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/11/17",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb721",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Not to the Jews only, but to all nations; not in Jerusalem only, but in every city of the known world. It is no longer a temple of bulls, goats, and rams, but a temple of prayer. (Ven. Bede)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/11/17",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf97c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "She has none to whom to make such a promise; and if she have had, she does not make it; since even the earthly temple of God can sooner have been called by the Lord a \"den of robbers\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/11/17",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb720",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 11:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

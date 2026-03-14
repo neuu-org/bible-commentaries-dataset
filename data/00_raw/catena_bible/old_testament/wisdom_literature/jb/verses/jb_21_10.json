@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 21:10",
+  "verse_text": "Verse text for JB 21:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/21/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cattle. Literally, \"ox \"bos. Protestants, \"their bull gendereth, and faileth not. \"(Haydock)\nBut Bo chart explains it of the cows' bringing forth every year. (Calmet)\nOx is used in the same sense, both by sacred and profane authors. (Haydock)\nA great part of the riches of these nations consisted in cattle, Psalm cxliii. 14., and Zacharias viii. 5.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/21/10",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc9b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "It is the usage of common talk to call ‘ox [bos]’ masculine, and ‘cow’ feminine, but literary phraseology designates ‘ox’ of the common gender. Hence it is now said, Their ox conceiveth, and faileth not; their cow calveth, and loseth not her calf. For to the owner of flocks, the first good fortune is that the flocks being free from barrenness conceive, next that the conception come to the birth, and the third that the thing which is produced be by nourishment reared to a growth. And so in order to shew that the wicked had them all together, blessed Job declares that ‘their flocks had conceived and not miscarried, that they had brought forth and were not deprived of their own offspring.’ But it is inferior good fortune, if whilst the flocks increase, the keepers of them do not thrive at the same time. And hence to the fruitfulness of the flocks we have the fruitfulness of their household [familiae] made to succeed immediately.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/21/10",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd08b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 21:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 28:22",
+  "verse_text": "Verse text for IS 28:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/28/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Isodore of Seville",
+      "period": "AD636",
+      "content": "They do not understand that God grants to each period of time what is appropriate. As he commanded marriage in the law, so in the gospel does he recommend virginity. In the law, an eye is to be offered for an eye, but in the gospel, the other side of the cheek is to be offered to one’s assailant. The former arrangement was for a weak people, whereas the latter is for the perfect. Nevertheless each order was adapted to its proper time. Yet it is not to be believed on the basis of this change that God is mutable. Instead, it should be proclaimed a miracle that while remaining immutable himself, God gave to each era its own distinctly appropriate order. Sins were of lesser guilt under the Old Testament because only a shadow of the truth, not truth itself, was present therein. For the higher precepts of the New Testament reveal that we are to forsake some of those things to which the people of the shadow of truth were bound. Previously, for instance, fornication and the taking of retribution for injuries were permitted without punishment. In the New Testament, however, they are condemned with severe punishments. The creed and the Lord’s Prayer replace the whole law in sufficing to obtain the kingdom of heaven for the little ones of the church. For the entire breadth of Scripture is contained briefly in the Lord’s Prayer and the creed. Thus does the prophet Isaiah say, “I heard from the Lord God of hosts about an abbreviation upon all the earth.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/28/22",
+      "full_content_url": "https://catenabible.com/com/5e4f7fa7c849cf49a740e3ec",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 28:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

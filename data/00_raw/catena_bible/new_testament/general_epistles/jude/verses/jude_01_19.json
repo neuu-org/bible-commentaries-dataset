@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JUDE 1:19",
+  "verse_text": "Verse text for JUDE 1:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jude/1/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "Here was see yet another crime which these awful heretics have committed. Not only are they perishing themselves, they have raided the Church and taken people away from it, which means that they have taken them outside the faith into their own assemblies. (Oecumenius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/19",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f54",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Those, he says, separating the faithful from the unfaithful, be convicted according to their own unbelief. And again those separating from the flesh. He says, Animal not having the spirit; that is, the spirit which is by faith, which supervenes through the practice of righteousness.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/19",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f64",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JUDE 1:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

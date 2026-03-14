@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 1:10",
+  "verse_text": "Verse text for 1CHR 1:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/1/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Earth, first establishing the monarchy of Babylon, and building the castle. (Du Hamel)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/1/10",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd5a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The sons of Regma were Saba and Dadan: Here Saba is written with the letter sin; but above it was written with samech, and we have said that because of this the Sabaeans were so called. But in the present verse Saba refers to Arabia. For in the seventy-first Psalm where we have The kings of the Arabs and Saba shall offer gifts, there is written in the Hebrew: The kings of Saba and Saba, the first word with sin, the second with samech. Dadan is a people in the western region of Ethiopia. Nimrod son of Chus was the first to seize despotic rule over the people, which men were not yet accustomed to; and he reigned in Babylon which was called Babel, because the languages of those building the tower were thrown into confusion there. For Babel signifies confusion. Then he also reigned in Arach, that is in Edissa; and in Achad, which is now called Nisibis; and in Chalanne, which was later called Seleucia after King Seleucus when its name had been changed, and which is now in actual fact called Ktēsiphōn, Ctesiphon. Jerome on Hebrew Names).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/1/10",
+      "full_content_url": "https://catenabible.com/com/5879d89fdd1bb6dd3dba9f8b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 1:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

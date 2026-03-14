@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 45:28",
+  "verse_text": "Verse text for GN 45:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/45/28",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“So let us hasten now so that I may savor something of our meeting before I die. I mean, already the news has dumbfounded me, has banished an old man’s weakness and invigorated my resolve; so once I have the good fortune to meet him and enjoy the consummation of joy, I shall then bring my life to a close.” Without delay the good man took to the road, showing all haste and anxiety to see the object of his desire and gaze upon him, dead for so many years and become the prey of wild beasts, as he thought, and now made king of Egypt.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/45/28",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51c9b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 45:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

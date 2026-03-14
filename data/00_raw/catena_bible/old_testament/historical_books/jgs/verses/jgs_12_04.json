@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 12:4",
+  "verse_text": "Verse text for JGS 12:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/12/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then Jephthah gathered together all the men of Gilead, and fought with Ephraim: and the men of Gilead struck down Ephraim, because they said, You Gileadites are fugitives of Ephraim among the Ephraimites, and among the Manassites. Vile and timid, so that his brethren around him might destroy him at any time. (Menochius) Galaad dwelt in the midst of the descendants of Joseph. (Haydock) But Ephraim, in despite, had represented him as an outcast. Their envy deserved to be severely punished. (Calmet) The same passion had nearly excited them to make war upon Gedeon, chap. (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/12/4",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcda8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 12:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 4:15",
+  "verse_text": "Verse text for HEB 4:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/4/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For we have not an High Priest, who cannot be touched with the feeling of our infirmities. He is not (he means) ignorant of what concerns us, as many of the High Priests, who know not those in tribulations, nor that there is tribulation at any time. For in the case of men it is impossible that one should know the affliction of the afflicted who has not had experience, and gone through the actual sensations. Our High Priest endured all things. Therefore He endured first and then ascended, that He might be able to sympathize with us. But was in all points tempted like as we are, yet without sin. Observe how both above he has used the word in like manner, and here after the likeness. Hebrews 2:14 That is, He was persecuted, was spit upon, was accused, was mocked at, was falsely informed against, was driven out, at last was crucified. After our likeness, without sin. In these words another thing also is suggested, that it is possible even for one in afflictions to go through them without sin. So that when he says also in the likeness of flesh Romans 8:3, he means not that He took on Him [merely] the likeness of flesh, but flesh. Why then did he say in the likeness. Because he was speaking about sinful flesh: for it was like our flesh, since in nature it was the same with us, but in sin no longer the same.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/4/15",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac7c3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "For to the Son of God alone was it reserved to persevere to the last without sin.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/4/15",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb198",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 4:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

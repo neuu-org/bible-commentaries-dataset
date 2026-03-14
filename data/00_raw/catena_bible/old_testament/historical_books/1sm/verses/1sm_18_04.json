@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 18:4",
+  "verse_text": "Verse text for 1SM 18:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/18/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Christ and the church have made a covenant of mutual love and peace, for the church in its more perfect members loves him so much that it has been ready to die for him, thinking it just to give itself, body and soul, for him who for its redemption deigned to put on our human flesh and soul, although he was very God of very God. For it is written, “the Word became flesh” and “the Lord is the upholder of my soul.” Finally, by its martyrs the church strips itself of the flesh which it had worn and gives it in obedience to Christ. [The church] has not any virtue of talent of its own at all, but depends devotedly on the will of his work. It relies on him even for acumen and skill in speaking and for the diligence to set forth arguments truthful in faith and reason against the wiles of those who are not soundly wise. It relies on him even for preserving the glory of its chastity and spotless honor for his love.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/18/4",
+      "full_content_url": "https://catenabible.com/com/5de4681d1f75ae05ba98cf0f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Girdle, which perhaps was of great value, Job xii. 18. He wished that David should lay aside his shepherd's dress, and appear like himself at court, that all might know how much he loved him. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/18/4",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcf5d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 18:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

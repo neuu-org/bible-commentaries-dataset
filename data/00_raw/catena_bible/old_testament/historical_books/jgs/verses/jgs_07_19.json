@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 7:19",
+  "verse_text": "Verse text for JGS 7:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/7/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This was the second of the three watches known to the ancient Hebrews: in the New Testament, they followed the Roman discipline, and admitted four, Matthew xiv. (Calmet) Menochius thinks they did the same at this time. (Haydock) Alarmed. They were not asleep. (Menochius) We read of similar stratagems in the Roman history. The Falisci threw the Romans into consternation, by appearing among them in mourning weeds; (Calmet) others read in priestly attire, (Haydock) with flambeaux and serpents; as those of Veii did by means of burning torches. (Grotius; Fontin. , Strat, ii. 4) (Calmet) Trumpets. In a mystical sense, the preachers of the gospel, in order to spiritual conquests, must not only sound with the trumpet of the word of God, but must also break the earthen pitchers, by the mortification of the flesh and its passions, and carry lamps in their hands by the light of their virtues. (Challoner) These lamps denote the virtues and miracles of the martyrs. ) The things which would seem ridiculous, fill the enemy with terror and dismay. ) (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/7/19",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd3f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh So Gideon, and the hundred men that were with him, came unto the outside of the camp in the beginning of the middle watch; and they had but newly set the watch: and they blew the trumpets, and broke the pitchers that were in their hands. Their trumpets: In a mystical sense, the preachers of the gospel, in order to spiritual conquests, must not only sound with the trumpet of the word of God, but must also break their earthen pitchers, by the mortification of the flesh and its passions, and carry lamps in their hands by the light of their virtues.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/7/19",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa017",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 7:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 34:7",
+  "verse_text": "Verse text for DT 34:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/34/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Moses was a hundred and twenty years old when he died: his eye was not dim, nor his natural force abated. Hebrew also, \"colour. \"His sight and complexion were as good as in his youth, though he was 120 years old. The rays \"of glory never changed \"but attended him to the grave. (Chaldean) Hebrew, \"his natural force (and vigour) never left him; or his cheeks did not fall in. \"(Calmet) The Roman Martyr ology places the death of Moses on the 4th of September, though the Rabbins say he died in the 12th month.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/34/7",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb27",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 34:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 9:21",
+  "verse_text": "Verse text for 1KGS 9:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/9/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Day. After the captivity, some were found who had perhaps come from Phoenicia, 1 Esdras ix. 1. Solomon reduced the natives of the country to the most abject condition, forcing them to work like slaves. (Josephus, viii. 6.)\nHebrew, \"upon those, Solomon imposed a tribute of bond-service, until this day. \"(Haydock)\nEsdras (1 Esdras ii. 58.) calls them who returned from captivity, the children of the servants of Solomon, 392. Their fathers were probably styled proselytes; and were in number, 153,600. See 1 Paralipomenon xxii. 2., and 2 Paralipomenon ii. 17. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/9/21",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd2cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 9:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

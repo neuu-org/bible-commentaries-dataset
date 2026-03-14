@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1THES 2:9",
+  "verse_text": "Verse text for 1THES 2:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1thes/2/9",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "Perhaps someone says: Who can always be thinking of God and eternal bliss, since all men must be concerned for food, clothing and the management of their household? God does not bid us be free from all anxiety over the present life, for he instructs us through his apostle: “If any man will not work, neither let him eat.” The same apostle repeats the idea with reference to himself when he says: “We worked night and day so that we might not burden any of you.” Since God especially advises reasonable thought of food and clothing, so long as avarice and ambition which usually serve dissipation are not linked with it, any action or thought is most rightly considered holy. The only provision is that those preoccupations should not be so excessive that they do not allow us to have time for God, according to the words: “The burdens of the world have made them miserable.”",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1thes/2/9",
+      "full_content_url": "https://catenabible.com/com/583bc355205c248f42e5312f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“The sleep of a working man is sweet, whether he eats little or much. ” Why does he add, “whether he eat little or much”. Both these things usually bring sleeplessness, namely, poverty and abundance; …. But the effect of hard work is such that neither poverty nor excess disrupt this servant’s sleep. Though throughout the whole day they are running about everywhere, ministering to their masters, being knocked about and hard pressed, having little time to catch their breath, they receive a sufficient recompense for their toils and labors in the pleasure of sleeping. And thus it has happened through the goodness of God toward humanity, that these pleasures are not to be purchased with gold and silver but with labor, with hard toil, with necessity and every kind of discipline. Not so with the rich. On the contrary, while lying on their beds, they are frequently without sleep throughout the night. Though they devise many schemes, they do not obtain much pleasure…. For this reason also, from the beginning, God tied the man to labor, not for the purpose of punishing or chastising but for amendment and education. When Adam lived in idle leisure, he fell from paradise, but when the apostle labored abundantly and toiled hard, writing, “In labor and travail, working night and day,” then he was taken up into paradise and ascended to the third heaven. Homilies Concerning the Statues.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1thes/2/9",
+      "full_content_url": "https://catenabible.com/com/583bc355205c248f42e53130",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For you remember, he says, my brethren, our labor and travail. He had said previously, we might have been burdensome as the Apostles of Christ, as he also says in the Epistle to the Corinthians, Do you not know that they which minister about sacred things eat of the things of the Temple. Even so also did Christ ordain that they which proclaim the Gospel should live of the Gospel. 1 Corinthians 9:13-14 But I, he says, would not, but I labored; and he did not merely work, but with much diligence. Observe then what he says; For you remember, he has not said, the benefits received from me, but, our labor and travail: for working night and day, that we might not burden any of you, we preached unto you the Gospel of God. And to the Corinthians he said a different thing, I robbed other Churches, taking wages of them that I might minister unto you. 2 Corinthians 11:8 And yet even there he worked, but of this he made no mention, but urged what was more striking, as if he had said, I was maintained by others when ministering to you. But here it is not so. Working night and day. And there indeed he says, And when I was present with you, and was in want, I was not a burden on any man, and, I took wages that I might minister unto you. 2 Corinthians 11:8-9 And here he shows that the men were in poverty, but there it was not so.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1thes/2/9",
+      "full_content_url": "https://catenabible.com/com/575712ed3c6effa740dddc3b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1THES 2:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

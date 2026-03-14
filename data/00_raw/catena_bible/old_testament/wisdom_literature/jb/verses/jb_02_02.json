@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 2:2",
+  "verse_text": "Verse text for JB 2:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/2/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Through it. Seeking whom he might devour, 1 Peter v. 8. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/2/2",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdb52",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Why does the author describe the angels in the act of presenting themselves daily before the Lord? He does so that we might learn no actual event is overlooked by God’s providence, and that the angels report what happens every day. Every day they are sent to settle some question, even though we ignore all this. That is the reason why they were created; that is their task, as the blessed Paul says, “They are sent to serve for the sake of those who are to inherit salvation.” “And the devil,” the text says, “also came among them.” You know why the angels are present. But why is the devil present? The latter is present to tempt Job; the former, in order to regulate our matters. Why is the devil questioned again before the angels themselves? Because he had said before them, “He will curse you to your face.” What a shameless nature! He has dared come back!",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/2/2",
+      "full_content_url": "https://catenabible.com/com/5e1b5e528bc66721fe4ef586",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 2:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

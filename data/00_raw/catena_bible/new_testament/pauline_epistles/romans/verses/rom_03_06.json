@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ROM 3:6",
+  "verse_text": "Verse text for ROM 3:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/3/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "God forbid: for then how shall God judge the world. It is true that it would not have been just if God had judged the world if its sins were of some benefit to him, so that whenever sinners received forgiveness at his nod, God would appear to be good. Then if they had not sinned, according to this reasoning, he would not appear to be righteous. For if they had not sinned there would be nothing to forgive, and God would not be good. But this kind of thinking is absurd. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/3/6",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e02",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 3:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

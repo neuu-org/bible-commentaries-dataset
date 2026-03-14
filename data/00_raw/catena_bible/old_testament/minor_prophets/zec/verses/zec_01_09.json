@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 1:9",
+  "verse_text": "Verse text for ZEC 1:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/1/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Likewise, who will tell with what bodies angels appear to people, in such fashion as not to be visible but to be tangible. And again how, not through tangible corporeality but by spiritual power, angels produce certain visions, not to the eyes of the body but to those of the spirit or the mind, or can utter speech, not of the ear from without, but within the soul of humans, being themselves placed there, as is written in the book of the prophets: “And the angel that spoke in me said to me” (for what the prophet says is not “that spoke to me,” but “in me”)…. They appear also in sleep and speak through dreams (for we read in the Gospel: “Behold, an angel of the Lord appeared to him in a dream, saying”). These methods of communication tend to show that the angels have intangible bodies, and make it a very difficult question how the patriarchs could wash the feet of angels, and how Jacob could wrestle with an angel in contact so unmistakable. Asking these questions and answering them with such guesses as we can is not a useless exercise for the mind, if the discussion is kept within bounds and if those who take part avoid the error of thinking they know what they do not know. For what need is there of affirming or denying or making nice distinctions about these and similar matters, when ignorance of them imputes no blame. Enchiridion.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/1/9",
+      "full_content_url": "https://catenabible.com/com/5838db40205c248f42e52b5c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "“I will hear what the Lord God proclaims in me.” The prophet is praying for the people and speaks while God is speaking in him: “I will listen to what the Lord God is proclaiming in me.” You perceive that God does not speak in the ears but in the heart, as Zechariah says: “The angel who spoke in me answered me.” The angel is understood to be our Lord, who is proclaiming the will of the Father and who, in Isaiah, is called the angel of the great counsel. I will listen to the voice of the Lord God within me; I shall attend with the ear of my heart that I may hear what the Lord God speaks in me. Homilies on the Psalms, Alternate Series",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/1/9",
+      "full_content_url": "https://catenabible.com/com/5838db40205c248f42e52b5b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 1:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

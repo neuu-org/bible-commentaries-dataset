@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 11:11",
+  "verse_text": "Verse text for 1SM 11:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/11/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And it was so the next day, that Saul put the people in three companies; and they came into the midst of the camp in the morning watch, and slew the Ammonites until the heat of the day: and it came to pass, that they who remained were scattered, so that two of them were not left together. It was not then customary to throw up any fortifications, but only to place sentinels in all the avenues. Watch, which ended at sunrise.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/11/11",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcec5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "The people were divided into three parts, so that we might not strike the serpent Nahash in one battle line alone. The people were divided into three parts so that they might reveal the fruit and dignity of sacred fasting. By fasting we are called back to the contemplation of the holy Trinity, which we lost by eating the forbidding fruit. The people were also divided into three groups because this act commended the fasts of the law, the prophets and the gospel. When Moses was deemed worthy to receive the law, he twice fasted for forty days. When Elijah escaped the hand of Jezebel, he came to Mount Horeb on the strength of one meal that sufficed him for forty days. Our Lord and Savior Jesus Christ fasted for forty days in the wilderness and did not eat any food of any kind. Therefore, Saul divided the people into three parts in order to promote the fasts of the law, the prophets and the gospel as an example for those abstaining from food.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/11/11",
+      "full_content_url": "https://catenabible.com/com/5de467b11f75ae05ba98ceb7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 11:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

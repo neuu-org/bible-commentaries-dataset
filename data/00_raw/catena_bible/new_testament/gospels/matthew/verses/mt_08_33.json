@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 8:33",
+  "verse_text": "Verse text for MT 8:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/8/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Chromatius of Aquileia",
+      "period": "AD407",
+      "content": "Or this may be understood in another way, for there may be more than one spiritual meaning, namely, we can look upon these two demoniacs in a larger sense as two [Gentile] peoples (as we noted before) who by the word and grace of Christ were freed from the bond of the demons. Perhaps we may interpret the swine as heretics who, driven from the community of believers, are known to have migrated. If so, the herdsmen could be viewed as architects of heresies and teachers of falsehood who are feeding these heretical swine as it were with the foul and unclean food of disreputable teachings, feeding them not for life but for death. For these wayward teachers are feeding them, not the heavenly bread nor the food of a wholesome life but the most foul and unclean teachings of falsehood.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/8/33",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6e41",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Chromatius of Aquileia",
+      "period": "AD407",
+      "content": "And they that kept them fled, and went their ways into the city, and told everything, and what was befallen to him possessed of the demons. Chromatius of Aquileia The herdsmen fled at the sight of the divine power and reported to the town what had happened. The people entreated the Lord to depart from their district. This may symbolize the leaders of the Jews or the priests of idols, who, dispensing the food of their errors to unclean and unfaithful people, are feeding them like swine to perpetual death.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/8/33",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6e40",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 8:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

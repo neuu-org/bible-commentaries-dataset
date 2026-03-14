@@ -1,0 +1,47 @@
+{
+  "verse_reference": "SG 8:12",
+  "verse_text": "Verse text for SG 8:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/8/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "My vineyard is before me: The sentence style is changed here from the use of the third person to the first person. The speaker here is the Lord of this vineyard, who is actually Christ.\nlet out the vineyard to keepers: One must not suppose that by this \"letting out to keepers\" Christ would give up his protection of the Church. Therefore he says, My vineyard is before me, that is, I am personally taking care of my Church. Therefore the Church owes much greater thanks to Christ for his protection than to the Church's high-ranking clergy. (Nicholas of Lyra)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/sg/8/12",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Song of Songs 8:12 My vineyard, which is mine, is before me: you, O Solomon, must have a thousand, and those that tend its fruit two hundred. I am satisfied with my spouse. The peaceable. Hebrew and Septuagint, \"Solomon. \"(Haydock) Retain them, and also pay the keepers their wages. I envy not all the treasures of the world; nor would put them in competition with my vineyard, or spouse. The synagogue of Moses and Solomon degenerated, while the Church of Christ has continued faithful, and has always some good workmen. Gregory; Ven. Bede) (Calmet).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/8/12",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8b5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 8:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

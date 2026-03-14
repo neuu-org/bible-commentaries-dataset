@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 28:3",
+  "verse_text": "Verse text for 1CHR 28:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/28/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Blood. See chap. xxii. 8. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/28/3",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd771",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "“Remember your leaders, those who spoke to you the Word of God; consider the outcome of their life and imitate their faith.” Emperors have not preached the word to you, but apostles and prophets, shepherds and teachers. When God gave commands to David concerning the house David intended to build for him, he said to him, “You may not build a house for my name, for you are a warrior and have shed blood.” “Pay all of them their dues,” the apostle Paul says, “taxes to whom taxes are due, revenue to whom revenue is due, respect to whom respect is due, honor to whom honor is due.” Political prosperity is the business of emperors; the condition of the church is the concern of shepherds and teachers. Any other method is piracy, brothers. Saul tore Samuel’s cloak, and what was the consequence? God tore the kingdom away from him and gave it to David the meek.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/28/3",
+      "full_content_url": "https://catenabible.com/com/5e1b64748bc66721fe4ef7aa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 28:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 2:6",
+  "verse_text": "Verse text for PS 2:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/2/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "5. \"Yet am I set by Him as King upon Sion, His holy hill, preaching His decree\" (ver. 6). This is clearly spoken in the Person of the very Lord our Saviour Christ. But if Sion signify, as some interpret, beholding, we must not understand it of anything rather than of the Church, where daily is the desire raised of beholding the bright glory of God, according to that of the Apostle, \"but we with open face beholding the glory of the Lord.\" Therefore the meaning of this is, Yet I am set by Him as King over His holy Church; which for its eminence and stability He calleth a mountain. \"Yet I am set by Him as King.\" I, that is, whose \"bands\" they were meditating \"to break asunder,\" and whose \"yoke\" to \"cast away.\" \"Preaching His decree.\" Who doth not see the meaning of this, seeing it is daily practised?",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/2/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6481",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I am. Hebrew, \"I have anointed. Over Sion, my \"St. Jerome and others have read in the first person, what the Septuagint translate in the third. The sense is much the same. (Calmet)\nBut the Vulgate seems to be better connected, and the same letters may have this sense, if we neglect the points, which were unknown to the Septuagint and of modern invention. These interpreters may also have read a v for i, as these letters are very similar. (Berthier)\n\"But I am anointed king by him over Sion, his holy mountain. \"(Houbigant)\nTheodoret, observing that Christ is king not only over Sion, but also over all, alters the punctuation: On Sion.preaching, which is very plausible, since Isaias (ix. 3.) says, the law shall come forth from Sion, (Berthier) and chap. xxxvii. 32., and salvation from Mount Sion. Hence Christ preached frequently in the temple. It is certain David was not anointed here, but at Hebron; and the temple was not built till the reign of Solomon. See Psalm cix. 2.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/2/6",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde49",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 2:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

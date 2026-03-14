@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 32:6",
+  "verse_text": "Verse text for IS 32:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/32/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "And they [our opponents] even joined in censuring us, as if we thought the opposite to the things that we have already written. But I learn that they say this also, namely, that recently we have accepted a doctrinal statement, or a new creed, perhaps, I suppose, because we lightly esteem the ancient and august one. “The fool will say foolish things, and his heart will think nonsense.” However, we say this, that no individuals have demanded an explanation from us, nor have we accepted one newly coined by others. For the divinely inspired Scripture and the vigilance of our holy Fathers and the creed formulated by those who are in every way orthodox are sufficient for us.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/32/6",
+      "full_content_url": "https://catenabible.com/com/5e4f7fbac849cf49a740e437",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 32:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

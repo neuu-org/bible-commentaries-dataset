@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 24:2",
+  "verse_text": "Verse text for 2SM 24:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/24/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Them. He was led by curiosity. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/24/2",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd207",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Salvian the Presbyter",
+      "period": "AD429",
+      "content": "You say these were the disgraceful acts of a few men and what was not done by all could not injure all. Indeed, I have said above quite often that the crime of one man was the destruction of many among the people of God, just as the people was ruined by Achan’s theft, just as pestilence arose from Saul’s jealousy, just as death came from the counting of the people by the holy David. The church of God is as the eye. As a speck of dirt, even though small, which falls into the eye blinds the sight completely, in the same way, if some, even though they are a few in the body of the church, commit filthy acts, they block almost all the light of the splendor of the church.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/24/2",
+      "full_content_url": "https://catenabible.com/com/5de46d5a8b87fe0847ee8738",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 24:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

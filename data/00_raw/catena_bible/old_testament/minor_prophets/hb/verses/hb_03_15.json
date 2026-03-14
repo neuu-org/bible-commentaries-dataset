@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HB 3:15",
+  "verse_text": "Verse text for HB 3:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hb/3/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You did walk through the sea with your horses, through the heap of great waters. Ambrose of Milan For the soul at peace swiftly turns and corrects itself, even though it sinned before, and Christ mounts it, rather, and considers it appropriate to guide it. To him it is said, “Mount your horses, and your riding is salvation,” and in another passage, “I have sent your horses into the sea. ” These are the horses of Christ. Therefore Christ mounts his horses; the Word of God mounts pious souls. Isaac, or the Soul.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hb/3/15",
+      "full_content_url": "https://catenabible.com/com/5839eeff205c248f42e52fe0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Thou madest a way in the sea: To deliver thy people from the Egyptian bondage: and thou shalt work the like wonders in the spiritual way, to rescue the children of the church from their enemies.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hb/3/15",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9ecc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HB 3:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

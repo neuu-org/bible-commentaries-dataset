@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 10:13",
+  "verse_text": "Verse text for JN 10:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/10/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "The hireling fleeth because he is an hireling, and careth not for the sheep. As though it were said directly, he who loves not the sheep, but worldly gain, cannot stand firm when the sheep are in danger. For while he is aiming at honour, and rejoicing in worldly gain, he is afraid of exposing himself to danger, lest he should lose that which he loves. For no one takes such diligent care for that which is another\"s as he does for his own. And therefore the hireling cares more for his own life than for the sheep which are not his; and flies when the wolf comes, as caring more for his own life than for the sheep.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/10/13",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52247",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Every bishop and pastor is bound to abide with his flock in the time of danger, and persecution, except himself be personally sought for, rather than his flock, or the flock itself forsake him. In such cases the pastor may fly, as the apostles did, and St. Athanasius and others. (St. Athanasius, Apol. de suâ fugâ.; St. Augustine, ep. 180.)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/10/13",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfc46",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 10:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

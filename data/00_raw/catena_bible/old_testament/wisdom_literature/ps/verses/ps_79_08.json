@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 79:8",
+  "verse_text": "Verse text for PS 79:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/79/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. ...He subjoineth, \"Remember not our iniquities of old\" (ver. 8). He saith not bygone, which might have even been recent; but \"of old,\" that is, coming from parents. For to such iniquities judgment, not correction, is owing. \"Speedily let Thy mercies anticipate us.\" Anticipate, that is, at Thy judgment. For \"mercy exalteth above in judgment.\" Now there is \"judgment without mercy,\" but to him that hath not showed mercy. But whereas he addeth, \"for we have become exceeding poor:\" unto this end he willeth that the mercies of God should be understood to anticipate us; that our own poverty, that is, weakness, by Him having mercy, should be aided to do His commandments, that we may not come to His judgment to be condemned.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/79/8",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c5a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Help. The necessity of grace, and the co-operation of free-will, are here plainly asserted. (St. Augustine)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/79/8",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be21b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 79:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

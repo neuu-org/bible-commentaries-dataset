@@ -1,0 +1,58 @@
+{
+  "verse_reference": "HOS 1:1",
+  "verse_text": "Verse text for HOS 1:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/1/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The word of the LORD that came unto Hosea, the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel. He reigned forty-one years, till the year of the world 3220. (Usher) The prophets usually give the date, that the prediction may be verified. Some Latin manuscripts intimate, that \"the Jews attribute these titles to Esdras, (who is Malachi as) or to the respective prophets, which is more probable. ) Jeroboam II died twenty-six years before Ozias, towards the end of whose reign Isaias commenced; so that Osee was more ancient. (Worthington).",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/1/1",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf333",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The order of the Twelve Prophets is not the same among the Hebrews as it is among us. For which reason, according to how it is read there, they are also arranged here. Hosea is composed of short clauses and speaking as though by aphorisms. Joel is clear in the beginning, more obscure at the end. And they each have their individual properties up to Malachi, who the Hebrews name Ezra the scribe and teacher of the Law. And because it is too long to speak of all these things now, I would only you were warned this, O Paula and Eustochium: the book of the Twelve Prophets to be one; and Hosea a contemporary (συνχρονος) of Isaiah; (and) Malachi in fact to have been of the times of Haggai and Zechariah. And those (books) in which the time is not set down in the title, under those kings which they were to have prophesied under, they also prophesied after those which have titles.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hos/1/1",
+      "full_content_url": "https://catenabible.com/com/5745d7833c6effa740ddd3c2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The word of the LORD that came unto Hosea, the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel. OSEE, or Hosea, whose name signifies A saviour, was the first in the order of time among those who are commonly called lesser prophets, because their prophecies are short. He prophesied in the kingdom of Israel, that is, of the ten tribes, about the same time that Isaias prophesied in the kingdom of Juda.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/1/1",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4bc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 1:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

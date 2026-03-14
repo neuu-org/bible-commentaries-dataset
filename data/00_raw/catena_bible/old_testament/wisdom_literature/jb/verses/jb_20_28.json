@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 20:28",
+  "verse_text": "Verse text for JB 20:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/20/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Exposed. Hebrew, \"the bud, (Calmet) or increase of his house, shall depart \"(Haydock) and be led away into captivity, (Calmet) and ruined. Septuagint, \"Let final destruction draw away his house, and the day of wrath overtake him.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/20/28",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc93",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "‘The shoot of his house is disclosed,’ when every thing bad that sprung up in his consciousness is shewn to view. For now the ‘shoot of the hypocrite’s house’ remains hidden from sight, in that though his practice appears good in the delineation, yet the intent lies hidden. Since it is one thing what he does, and another thing what he has in view. But when, at the coming of the Judge, each man’s conscience shall be brought forward for its testimony, (whence it is written, Their thoughts the mean while accusing or else excusing one another, [Rom. 2, 15]) then the ‘shoot of the hypocrite’s house is herein disclosed,’ because the evil design is laid bare in his heart. ‘And he shall be taken away in the day of God’s wrath,’ in that when the indignation of the Judge is revealed, being given to avenging fires, he is parted from His sight. For he that, whilst he lived, would not take thought of the highest things, being forced down by the weight of his sins, shall fall from the face of the Judge into the depths of punishment. But now the Judge both sees and bears with the sinner in his sins, and because it is the day of forbearance and not as yet the day of fury, He waits for each one for his conversion. Now in this day of forbearance the hypocrite as it were remains unmoved, whilst he both commits many evil deeds, and is chastised by no scourges; but ‘in the day of fury he shall be taken away,’ in that being carried off to punishment in the season of vengeance he is cut off from the countenance of the eternal Judge.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/20/28",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd081",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 20:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

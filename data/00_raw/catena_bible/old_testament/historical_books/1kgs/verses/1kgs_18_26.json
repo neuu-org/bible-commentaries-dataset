@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 18:26",
+  "verse_text": "Verse text for 1KGS 18:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/18/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“They limped about the altar that they had made.” This means they had cut the bull in pieces and passed among the pieces lying on the altar by going from side to side. The Scripture shows us another image of this in the sacrifice of Abraham. He divided the animals and saw a torch of fire passing among the pieces. And Jeremiah mentions something similar when he reproaches the Jews because they had become similar to the pagan people and passed among the pieces of their sacrifices: “I will make [those who transgressed my covenant] like the calf which they cut in two and passed between its parts—the officials of Judah, the officials of Jerusalem, the eunuchs, the priests and all the people of the land who passed between the parts of the calf shall be handed over to their enemies.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/18/26",
+      "full_content_url": "https://catenabible.com/com/5e1b68098bc66721fe4ef939",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "That they. Hebrew, \"which he (Achaz) had made \"(Calmet) or, \"which was made. \"(Haydock)\nThe altar of Elias was erected afterwards, ver. 30. The prophets of Baal acted in a foolish manner, (Calmet) as if in jest, but really despairing of success. (Haydock)\nThe pagans were accustomed to dance around their altars:\nPingues spatiatur ad aras. (Virgil, Æneid iv.)\nand some would translate, \"near the altar. \"We might apply to these prophets, the verses of Horace: Dedit risusque jocosque, Dum, flammà sine, thura liquescere limine sacro Persuadere cupit: credat Jud us Apella Non ego. (Sat. i. 5.)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/18/26",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd389",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 18:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

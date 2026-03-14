@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 16:30",
+  "verse_text": "Verse text for LK 16:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/16/30",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And he said, Nay, Father Abraham: but if one went unto them from the dead, they will repent. He is speaking of his own experience. For as he had been affected, so does he think it will be with his brethren. S. Chrysostom. Titus more clearly writes, \"Why does the rich man say this but because he himself had heard the prophets to little purpose, and had looked upon their teaching as untrue? Therefore he conjectures that his brethren similarly regarded them. He as much as says, \"They argue as I once argued. Who has ever given any description of hell—who has ever returned thence? But if any one were sent to them from the dead, they would believe him, and give diligent heed to what he had to say.\"\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/16/30",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5204c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 16:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

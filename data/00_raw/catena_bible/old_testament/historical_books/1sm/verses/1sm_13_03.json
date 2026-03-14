@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 13:3",
+  "verse_text": "Verse text for 1SM 13:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/13/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Land. As soon as the next cities had heard the alarm, they sounded the trumpet, and so the news was conveyed to the most distant parts, in a short time, Judges iii. 27.\nHebrews. Probably those \"on the other side \"of the Jordan, who presently came to the assistance of their brethren, ver. 7. (Osiander)\nIt might also be the usual beginning of a proclamation. See Daniel iii. 4. (Menochius)\nSeptuagint and Aquila have a instead of r, in hibrim. \"Let the servants (subjects) attend. \"(Aquila) \"The slaves have rebelled \"(Septuagint) meaning the Philistines, who ought to have been subject to Israel. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/13/3",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcedb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 13:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

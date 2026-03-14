@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 16:4",
+  "verse_text": "Verse text for JGS 16:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/16/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Dalila: Some are of opinion she was married to Samson; others that she was his harlot. If the latter opinion be true, we cannot wonder that, in punishment of his lust, the Lord delivered him up, by her means, into the hands of his enemies. However if he was guilty, it is not to be doubted but that under his afflictions he heartily repented and returned to God, and so obtained forgiveness of his sins.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/16/4",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa029",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 16:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

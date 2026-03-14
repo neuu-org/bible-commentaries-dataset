@@ -1,0 +1,58 @@
+{
+  "verse_reference": "EST 4:17",
+  "verse_text": "Verse text for EST 4:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/4/17",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Why did Queen Esther expose herself to death and not fear the wrath of a fierce king. Was it not to save her people from death, an act both seemly and virtuous. The king of Persia himself also, though fierce and proud, yet thought it seemly to show honor to the man who had given information about a plot that had been laid against himself, to save a free people from slavery, to snatch them from death and not to spare him who had pressed on such unseemly plans. So finally he handed over to the gallows the man who stood second to himself and whom he counted chief among all his friends, because he considered that he had dishonored him with his false counsels. For that commendable friendship that maintains virtue is to be preferred most certainly to wealth, or honors or power. It is not accustomed to be preferred to virtue indeed, but to follow after it. So it was with Jonathan, who for his affection’s sake avoided not his father’s displeasure or the danger to his own safety. So, too, it was with Ahimelech, who, to preserve the duties of hospitality, though he must endure death rather than betray his friends when fleeing.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/4/17",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa35",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "Many women, fortified by the grace of God, have accomplished many heroic actions. The blessed Judith, when the city was besieged, asked permission of the elders to be allowed to go into the foreigners’ camp. By exposing herself to danger she went out for love of her country and of the people who were besieged, and the Lord delivered Holophernes into the hand of a woman. To no less danger did Esther, who was perfect in faith, expose herself, in order to save the twelve tribes of Israel that were to be destroyed. For by fasting and humiliation she begged the all-seeing Master of the ages, and he, seeing the meekness of her soul, rescued the people for whose sake she had faced danger.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/4/17",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa37",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ceremonies. Becoming acquainted with the sanctity of the law, and the protection which God gave to his people. (Menochius)\nHebrew, \"the Jews had joy and gladness, a feast, and a good day, and many of the people of the land became Jews; for the fear of the Jews \"(Protestants) (Haydock)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/4/17",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdad7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 4:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1COR 11:29",
+  "verse_text": "Verse text for 1COR 11:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/11/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What do you say, tell me? Is this Table which is the cause of so many blessings and teeming with life, become judgment? Not from its own nature, says he, but from the will of him that approaches. For as His presence, which conveyed to us those great and unutterable blessings, condemned the more them that received it not: so also the Mysteries become provisions of greater punishment to such as partake unworthily.\n\nBut why does he eat judgment to himself? Not discerning the Lord's body: i.e., not searching, not bearing in mind, as he ought, the greatness of the things set before him; not estimating the weight of the gift. For if you should come to know accurately Who it is that lies before you, and Who He is that gives Himself, and to whom, you will need no other argument, but this is enough for you to use all vigilance; unless you should be altogether fallen.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/11/29",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd8b6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Corinthians 11:29 For he that eats and drinks unworthily, eats and drinks judgment to himself, not discerning the Lord's body. How can the table which is the cause of so many blessings, and which is teeming with life, become a cause of judgment. It is not from its own nature, says Paul, but because of the attitude of the one who comes to it. For just as the presence of Christ, which conveyed to us those great and unspeakable blessings, condemned those who did not receive them, so also the holy Communion becomes a means of greater punishment to those who partake unworthily.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/11/29",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5dd1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 11:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

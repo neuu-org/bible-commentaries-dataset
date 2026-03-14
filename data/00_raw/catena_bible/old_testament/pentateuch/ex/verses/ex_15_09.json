@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 15:9",
+  "verse_text": "Verse text for EX 15:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/15/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The enemy said, I will pursue, I will overtake, I will divide the spoil; my lust shall be satisfied upon them; I will draw my sword, my hand shall destroy them. Augustine of Hippo The enemy does not understand the power of the Lord’s sacrament, which is available in saving baptism for those who believe and hope in him. He still thinks that sins can prevail even over the baptized, because they are being tempted by the frailty of the flesh. He doesn’t know where and when and how the complete renewal of the whole person is to be perfected, which is begun and prefigured in baptism and is already grasped by the most assured hope.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/15/9",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Enemy. Miracles make but small impression upon the wicked. They pursue their schemes of destruction, which end in their own ruin!\nSlay. Hebrew, \"despoil. \"Septuagint, \"bring them into subjection. \"(Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/15/9",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc37a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 15:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

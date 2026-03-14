@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ECCL 12:14",
+  "verse_text": "Verse text for ECCL 12:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/12/14",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "Consider how grave an error it is to call God’s Word a work. Solomon says in one place in Ecclesiastes that “God shall bring every work into judgment, with every secret thing, whether it be good or whether it be evil.” If then the Word is a work, do you mean that he as well as others will be brought into judgment? And what room is there for judgment, when the Judge is on trial? Who will give to the just their blessing, who to the unworthy their punishment, the Lord, as you must suppose, standing on trial with the rest? By what law shall he, the Lawgiver, himself be judged? Four Discourses Against the Arians.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/12/14",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef4f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Error. Or hidden and secret things. (Challoner)\nHebrew, \"with every secret thing \"(Protestants; Haydock) \"every inadvertency. \"(Septuagint; Symmachus) (Calmet)",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/12/14",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be859",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Error: Or, hidden and secret thing.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/12/14",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9ea8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For God shall bring every work into judgment, including every secret thing, whether it be good, or whether it be evil. Nor is a resurrection declared only for the martyrs, but for all persons, righteous and unrighteous, godly and ungodly, that everyone may receive according to his desert. For God, says the Scripture, “will bring every work into judgment, with every secret thing, whether it be good or whether it be evil.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/12/14",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef4e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 12:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

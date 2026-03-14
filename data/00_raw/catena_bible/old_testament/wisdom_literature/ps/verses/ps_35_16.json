@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 35:16",
+  "verse_text": "Verse text for PS 35:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/35/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"They tempted Me, and mocked Me with mocking\" (ver. That is, they derided Me, they insulted Me; this of the Head, this of the Body. Consider, Brethren, the glory of the Church which now is; remember its past dishonours, remember how once were Christians everywhere put to flight, and wherever found, mocked, beaten, slain, exposed to beasts, burned, men rejoicing against them. As it was to the Head, so it is also to the Body. For as it was to the Lord on the Cross, so has it been to His Body in all that persecution which was made but now: nor even now cease the persecutions of the same. Wherever men find a Christian, they are wont to insult, to persecute, to deride him, to call him dull, senseless, of no spirit, of no knowledge. Do they what they will, Christ is in Heaven: do they what they will, He hath honoured His punishment, already hath He fixed His Cross in the foreheads of all; the ungodly is permitted to insult, to rage he is not permitted; but yet from that which the tongue uttereth, is understood what he beareth in his heart: \"They gnashed upon Me with their teeth.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/35/16",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6983",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh With hypocritical mockers at feasts, they gnashed upon me with their teeth. Separated, and could not agree in their testimonies. This may be one meaning of charak, as it has several. (Berthier) -- \"They did tear me, and ceased not, (16) with hypocritical mockers in feasts, they gnashed \"(Protestants) (Haydock) Many of their attempts have been frustrated by thy Providence, yet they do not enter into themselves. (Theodoret).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/35/16",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfc5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 35:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

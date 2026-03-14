@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HB 2:11",
+  "verse_text": "Verse text for HB 2:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hb/2/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Helena adored the king, not the wood [of the cross], indeed, because this is an error of the Gentiles and a vanity of the wicked. But she adored him who hung on the tree, whose name was inscribed in the title; him, I say, as a scarab, cried out to his Father to forgive the sins of his persecutors. The woman eagerly hastened to touch the remedy of immortality, but she feared to trample under the foot the mystery of salvation. Joyful at heart, yet with anxious step, she knew not what she should do. She proceeded, however, to the resting place of truth. The wood shone, and grace flashed forth. And, as before, Christ had visited as woman Mary, so the spirit visited a woman in Helena. He taught her what as a woman she did not know and led her upon a way that no mortal could know.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/hb/2/11",
+      "full_content_url": "https://catenabible.com/com/5839eeff205c248f42e52fcb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For the stone shall cry out from the wall, and the beam from the timber shall answer it. Hebrew, \"caphis (Septuagint, the insect kantharos) from the wood shall answer. \"(Haydock) The signification of the Hebrew term is unknown. It was customary to place beams of wood after some courses of stone, to strengthen the building, 3 Kings vi. (Calmet) The crimes were so crying, that if men were silent the very stones would publish them. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hb/2/11",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf528",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HB 2:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LAM 3:17",
+  "verse_text": "Verse text for LAM 3:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/3/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "The afflictions are here pursued. As claimed: \"He has made my teeth grind on gravel, and made me cower in ashes.\" That is, like to the warriors by whom defended, and like to teeth of beasts on gravel. So, nothing remains except\"in ashes as if worthless. And since Psalm 102 (lOl):9 declares; \"For I eat ashes like bread, and mingle tears with my drink.\"\n\nVerse 17 then states: \"My soul is bereft of peace.\" Here is assumed a rejection: My soul is bereft\": of God's divine mercy. Like Psalm 89(88)':39 declares: \"Thou has renounced the covenant with thy servant; thou hast defiled his crown in the dust.\"\n\nVerse 17 concludes: \"I have forgotten what hap piness is\". Namely, due to the experience of evils. For, Sirach 11:27 claims: \"The misery of an hour makes one forget luxury.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/3/17",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d98",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 3:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

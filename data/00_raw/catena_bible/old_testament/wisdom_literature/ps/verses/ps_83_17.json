@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 83:17",
+  "verse_text": "Verse text for PS 83:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/83/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Fill their faces with shame, and they shall seek Thy name, O Lord\" (ver. Good and desirable is this which he prophesieth for them: and he would not prophesy thus, unless there were even in that company of the enemies of God's people, some men of such kind that this would be granted to them before the last judgment: for now they are mixed together, and this is the body of the enemies, in respect of the envy whereby they rival the people of God. And now, where they can, they make a noise and lift up their head: but severally, not universally as they will do at the end of the world, when the last judgment is about to fall. But it is the same body, even in those who out of this number shall believe and pass into another body (for the faces of these are filled with shame, that they may seek the name of the Lord), as well as in those others who persevere unto the end in the same wickedness, who are made as stubble before the wind, and are consumed like a wood and barren mountains. To these he again returns, saying, \"They shall blush and be vexed for ever and ever\" (ver. For those are not vexed for ever and ever who seek the name of the Lord, but having respect unto the shame of their sins, they are vexed for this purpose, that they may seek the name of the Lord, through which they may be no more vexed.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/83/17",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c8d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 83:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

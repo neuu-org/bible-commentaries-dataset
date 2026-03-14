@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 24:4",
+  "verse_text": "Verse text for PS 24:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/24/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "4. \"The innocent of hand, and the pure in heart\" (ver. 4). Who then shall ascend thither, and abide there, but the guiltless in deed, and pure in thought? \"Who hath not received his soul in vain.\" Who hath not reckoned his soul among things that pass away, but feeling it to be immortal, hath longed for an eternity stedfast and unchangeable. \"And hath not sworn in deceit to his neighbour.\" And therefore without deceit, as things eternal are simple and undeceiving, hath so behaved himself to his neighbour.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/24/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68ca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Heart, whose faith and intentions are pure, as well as their actions. Vain, by neglecting good works, (St. Jerome) or seeking after trifles; (St. Augustine) or rather, according to the Hebrew, \"who hath not sworn in vain by his soul \"2 Corinthians i. , and 1 Kings i. To take the name of God in vain, means to swear falsely. (Calmet) Protestants, \"who hath not lifted up his soul unto vanity \"to swell with pride, (Haydock) or to swear by idols. ) To his This is not in Hebrew but must be understood, (Calmet) as a person can only intend to deceive men. So Duport, who follows the Hebrew so exactly in his Greek psalms in verse, (Berthier) reads, \"Nor sworn an oath, that men he might deceive. \"(Haydock) These two verses contain an abridgment of the gospel, and show that something better than Mount Sion is understood, Hebrews xii. When we approach to the tabernacle, and to the sacred mysteries, we ought to put these terrible questions to ourselves. (Berthier) We must carefully employ ourselves in good works, (Worthington) by which alone we can make our calling and election sure, 1 Peter i.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/24/4",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf1c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 24:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 2:38",
+  "verse_text": "Verse text for LK 2:38",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/2/38",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And she coming in that instant gave thanks likewise unto the Lord. In Greek Î±Ì‰Î½Î¸Ï‰Î¼Î¿Î»Î¿Î³ÎµÎ¹ÌƒÏ„Î¿, confessed to God in her turn, as though singing in answer to Simeon from the choir set apart for the other sex, praised the Lord, and gave Him thanks for the gift of Christ and His birth. And spake of Him—of the Lord Christ, whom she had there present. Not only did Anna praise God, but she began to discourse to others of Jesus, asserting Him to be the Christ, and exhorting all to believe in Him. To all them that looked for redemption in Jerusalem. The Redeemer Christ, who redeems from sin, death, Satan, and Hell, Israel, that Isaiah , the people of the faithful who believe in Him. Allegorically, Christ, when born, appeared to three groups of persons in three ways—(1) to the shepherds, at the indication of an angel; (2) to the magi, under the guidance of a star; (3) to Simeon and Anna, guided by the Holy Ghost. Again, the shepherds saw Christ, the Magi adored Him, but Simeon and Anna embraced Him. So we first recognise Christ, then adore Him, and then, when we are no longer children in virtue, but old men, embrace Him with arms of love. So Jansenius teaches.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/2/38",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f12",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Methodius of Olympus",
+      "period": "AD311",
+      "content": "And she coming in that instant gave thanks likewise unto the Lord, and spoke of him to all them that looked for redemption in Jerusalem. Methodius of Olympus -Simeon, I mean, and Anna, bearing in themselves most evidently the images of both peoples-had taken their station by the side of that glorious and virginal throne,-for by the old man was represented the people of Israel, and the law now waxing old; whilst the widow represents the Church of the Gentiles, which had been up to this point a widow,-the old man, indeed, as personating the law, seeks dismissal; but the widow, as personating the Church, brought her joyous confession of faith.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/2/38",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc10",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 2:38",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

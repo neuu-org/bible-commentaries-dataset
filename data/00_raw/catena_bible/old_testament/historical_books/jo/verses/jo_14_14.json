@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JO 14:14",
+  "verse_text": "Verse text for JO 14:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/14/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Hebron therefore became the inheritance of Caleb the son of Jephunneh the Kenizzite unto this day, because he wholly followed the LORD God of Israel. Hebron belonged All the country thereabouts, depending on Hebron, was given to Caleb; but the city itself, with the suburbs, was one of those that were given to the priests to dwell in. (Challoner) Caleb might also dwell, (Calmet) and be lord of the city, (Salien) though the profits (Haydock) or the town belonged to the priests, chap. (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/14/14",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcbfc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Hebron belonged: All the country thereabouts, depending on Hebron, was given to Caleb; but the city itself with the suburbs, was one of those that were given to the priests to dwell in.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/14/14",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9ff8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 14:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "EPH 4:21",
+  "verse_text": "Verse text for EPH 4:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/eph/4/21",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "It is Christ himself who teaches us about himself! When we are “taught in him,” we learn who he is, how great we should reckon him to be and what hope is in him. We learn “in him” what sort of people believers ought to be. Any one who has “learned Christ” knows that he rose from the dead to be the pattern for the faithful. He teaches that there is great hope after this death for those who love God.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eph/4/21",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c6699c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "On the one hand the name Jesus refers to the man who was assumed by the Word, the man born from the Virgin. … Then again it refers to the Word of God: “for to us there is one Lord Jesus Christ, through whom are all things” … When Paul says “as truth is in Jesus,” he is speaking of the temple of God in which God the Word dwells. The Word was made flesh and dwelt among us. God is the Word. As life dwells in him, so he also is life. … In this same way the Son too may be called the truth, and truth may be said to dwell in him. In saying this we do not separate God the Word from the humanity he assumed. The man he assumed is not someone else. According to our understanding of certain passages we give different titles to him whom we believe to be the one Son of Man and Son of God, both before and after the virgin birth…. In none of the patriarchs, in none of the prophets, in none of the apostles did truth reside as it did in Jesus. For others know in part and prophesy in part and see “as through a glass darkly. ” In Jesus alone the truth of God has appeared. He confidently asserts “I am the truth.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eph/4/21",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c6699e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "If all who seem to hear Christ did indeed hear him, the apostle would never had said this to the Ephesians. They were those to whom he had already revealed the promises of Christ. Why would he then say conditionally: “if indeed you have heard him?” To know Christ is the same thing already as knowing virtue. To hear of Christ rightly is the same as being attentive to all the virtues: wisdom, justice, temperance, fortitude and the other names by which Christ is called. Therefore if anyone has indeed heard and learned Christ, he would not be living “in the futility of his mind” nor “be darkened in understanding” nor be “alienated from the life of God.” He would already have practical knowledge, since his ignorance would have been dispelled, his darkness illuminated and every blindness lifted from the eyes of his heart. .",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eph/4/21",
+      "full_content_url": "https://catenabible.com/com/5843434325973d7a18c6699d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EPH 4:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

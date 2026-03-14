@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ECCL 3:21",
+  "verse_text": "Verse text for ECCL 3:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/3/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Who knoweth: Viz., experimentally: since no one in this life can see a spirit. But as to the spirit of the beasts, which is merely animal, and become extinct by the death of the beast, who can tell the manner it acts so as to give life and motion, and by death to descend downward, that is, to be no more?",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/3/21",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9e9e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 3:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

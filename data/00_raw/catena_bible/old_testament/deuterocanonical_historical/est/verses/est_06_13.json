@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EST 6:13",
+  "verse_text": "Verse text for EST 6:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/6/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Haman told Zeresh his wife and all his friends everything that had befallen him. Then said his wise men and Zeresh his wife unto him, If Mordecai be of the descendants of the Jews, before whom you have begun to fall, you shall not prevail against him, but shall surely fall before him. Septuagint, \"all these things do not satisfy me, while I behold \"Such is the insatiable nature of ambition. (Haydock) Gate. He does not clearly mention that he wanted to be adored. (Menochius).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/6/13",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdae9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "This is the change caused by the right hand of the Highest: the one who had just boasted about his power and was arrogant towards everyone else becomes viler and weaker than anyone else. When Mary the mother of our Lord considered the greatness of this divine ordering, she sang in her song of praise, “He has shown strength with his arm; he has scattered the proud in the thoughts of their hearts. He has brought down the powerful from their thrones, and lifted up the lowly; he has filled the hungry with good things and sent the rich away empty.” And through Isaiah it is said about this same power, “Shall not Lebanon be transformed into Carmel, and Carmel be regarded as a forest?”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/6/13",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa3f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 6:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

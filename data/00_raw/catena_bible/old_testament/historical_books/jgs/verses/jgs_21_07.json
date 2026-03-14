@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 21:7",
+  "verse_text": "Verse text for JGS 21:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/21/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "The end of the war was also the end of their wrath, and anger turned to sorrow. Then, putting off their armor, the men of Israel met together and wept much and celebrated a fast, grieving that one tribe of their brothers had perished and a strong band of people had been wiped out. They had warred rightly against the authors of the crime because of the cost of the sin, but the people had turned unhappily against their own flesh and each was afflicted with civil war. The outpouring of tears moved their minds to compassion and stirred their feelings; the plan conceived in anger was gone. Sending legates to the six hundred men of Benjamin, who for four months guarded themselves on the top of sheer rocks and by the desert’s barrenness, which was dangerous for a mass of attackers, they lamented their common hardship in losing their fellow tribesmen, relatives and allies. Yet the hope of renewing the tribe was not utterly destroyed, and they consulted together how they might agree on a pledge of faith and one tribe not perish, severed from the body.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/21/7",
+      "full_content_url": "https://catenabible.com/com/5de46f398b87fe0847ee87ce",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In general. Hebrew, \"by the Lord \"with an imprecation, ver. 18. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/21/7",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcdfc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 21:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "COL 1:29",
+  "verse_text": "Verse text for COL 1:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/1/29",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Whereunto I labor also, striving. And he said not, I am desirous merely, nor in any indifferent way, but I labor, striving, with great earnestness, with much watching. If I, for your good, thus watch, much more ought ye. Then again, showing that it is of God, he says, according to His working which works in me mightily. He shows that this is the work of God. He, now, that makes me strong for this, evidently wills it. Wherefore also when beginning he says, Through the will of God. Colossians 1:1 So that it is not only out of modesty he so expresses himself, but insisting on the truth of the Word as well. And striving. In saying this, he shows that many are fighting against him. Then great is his tender affection.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/1/29",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddcc8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 1:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

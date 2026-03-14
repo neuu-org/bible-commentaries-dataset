@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 31:12",
+  "verse_text": "Verse text for PRV 31:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/31/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "“The heart of her husband is confident about her.” He certainly is confident, and he has taught us to be confident too. He commissioned the church, you see, to the ends of the earth, among all nations, from sea to sea. If she was not going to persevere to the end, her husband’s heart would not be confident about her.… So she despoils the world, spread throughout it everywhere; on all sides she plunders trophies from the devil.… “For she works for her husband’s good and not his harm, all the time.” That is why this lady despoils the nations, working for her husband’s good and not his harm. All the time she does good and not harm: not for herself either, but for her husband, “that whoever lives may live no longer for himself, but for the one who died and rose again for all.” –.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/31/12",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85e1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 31:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

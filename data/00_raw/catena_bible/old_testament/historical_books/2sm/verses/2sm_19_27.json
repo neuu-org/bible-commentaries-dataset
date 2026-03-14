@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 19:27",
+  "verse_text": "Verse text for 2SM 19:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/19/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "God. It is not necessary for me to say any more in my defence. Thou art convinced of my innocence; and the accusation was in itself improbable, as I could never expect to be better treated by another king. I am resigned to abide by thy decision. (Haydock)\nI cannot complain. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/19/27",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd1a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Why are you surprised, Peter, that we who are but human make mistakes? Have you forgotten that it was David’s reliance on the untruthful words of a servant that caused him to pronounce sentence against the innocent son of Jonathan? And David had the spirit of prophecy. But, since David did this, we can be sure that in God’s secret judgment he acted justly, even though we cannot see the justice of it with our human reason. Why should we be surprised, then, if we who are not prophets are sometimes led astray by deceitful people? An important point to consider is that the mind of a superior is distracted by a world of cares, and once the attention is preoccupied with a variety of matters it becomes less observant of details. One who is occupied with a multitude of affairs is all the more liable to be misled in regard to any one of them.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/19/27",
+      "full_content_url": "https://catenabible.com/com/5de46d5a8b87fe0847ee8728",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 19:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

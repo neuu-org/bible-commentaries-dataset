@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 32:16",
+  "verse_text": "Verse text for JB 32:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/32/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "The friends of Job are said to have been afraid of the words of Elihu, since frequently proud defenders of the church, though they do not observe due order in what they say, confound the adversaries by the very virtue of their words. It follows, “Because therefore I have waited, and they have not spoken, they have stood and have answered no more. ” Wise people are accustomed to make it the limit of their speaking, to speak as far as silence to their adversaries, for they do not wish to display their own powers but to put down the false teachers. But after, it is said of the friends of Job, “They are dismayed, they answer no more; they have not a word to say,” Elihu subjoins and says, “Because therefore I have waited, and they have not spoken, they have stood and have answered no more. ” Even when they are already silent, he yet multiplies his words, because, being an arrogant man and representing the character of the arrogant, he is in haste not merely to refute the arguments of his opponents but to display his own wisdom.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/32/16",
+      "full_content_url": "https://catenabible.com/com/5e1b61688bc66721fe4ef702",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "17. Wise men are accustomed to make it the limit of their speaking, to speak so far as to silence their adversaries. For they wish not to display their own powers, but to put down the teachers of heresy. But after it is said of the friends of Job, They were afraid, they answered no more, they removed speech from themselves, Eliu subjoins and says, I have waited, and they have not spoken; they have stood, and have answered no more. Even when they are already silent, he yet multiplies his words, because, being an arrogant man, and representing the character of the arrogant, he is in haste not merely to refute the arguments of his opponents, but to display his own wisdom.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/32/16",
+      "full_content_url": "https://catenabible.com/com/574393213c6effa740ddd1bb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 32:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

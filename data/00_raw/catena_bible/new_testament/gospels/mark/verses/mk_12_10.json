@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 12:10",
+  "verse_text": "Verse text for MK 12:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/12/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By this question, Christ shows that they were about to fulfil this prophecy, by casting him off, planning his death, and delivering him up to the Gentiles, by which he became the corner-stone, joining the two people of the Jews and Gentiles together, and forming out of them the one city and one temple of the faithful. (Ven. Bede)\nThe Church is the corner, joining together Jews and Gentiles; the head of it is Christ. By the Lord hath this been done in our days, and it is wonderful in our eyes, seeing the prodigies which God has performed through him whom men reject as an impostor. (Theophylactus and Bible de Vence)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/12/10",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf987",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 12:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

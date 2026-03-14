@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 18:5",
+  "verse_text": "Verse text for 1KGS 18:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/18/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "Observe again and see how the Lord orders Elijah to appear before Ahab exactly on the day when [the king] had taken up the heavy burden of searching for food to feed the horses and the mules of his house. This was part of the divine plan, so that the impious king might come to know the providence of God toward all creatures, even toward horses and mules, and to realize how much more the Creator would be ready to make up the indigence of the king if he had not been ungrateful to God and had not lightheartedly taken advantage of his favors. And God showed this same benevolence of his good will and indulgence toward animals when he said to Jonah, “And should I not be concerned about Nineveh, that great city, in which there are more than a hundred and twenty thousand persons, who do not know their right hand from their left, and also many animals?”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/18/5",
+      "full_content_url": "https://catenabible.com/com/5e1b68098bc66721fe4ef933",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 18:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 21:26",
+  "verse_text": "Verse text for PRV 21:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/21/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Evagrius Ponticus",
+      "period": "AD399",
+      "content": "It belongs to angels never to have evil desires; it is human sometimes to have evil desires and other times not to have them; it belongs to demons always to have evil desires. The expression “all the day” signifies the entire life. So also, “continue in the fear of the Lord all the day” applies to the whole life. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/21/26",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8538",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh He covets greedily all the day long: but the righteous gives and spares not. When the soul does not direct its efforts to higher things, neglecting itself, it stoops to concern itself with low desires, and when it does not restrain itself by aiming vigorously at higher things, it is wounded by the hunger of a base cupidity. Consequently, as it neglects the constraints of discipline, it is the more distracted in its craving for pleasure. Therefore, it is written by the same Solomon, “The slothful man is given utterly to desires.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/21/26",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8539",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 21:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

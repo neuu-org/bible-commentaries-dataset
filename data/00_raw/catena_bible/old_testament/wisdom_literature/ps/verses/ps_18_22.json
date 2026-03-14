@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:22",
+  "verse_text": "Verse text for PS 18:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For all his judgments were before me, and I did not put away his statutes from me. Augustine of Hippo 23. \"Nor have I walked impiously apart from My God. \" \"For all His judgments are in My sight\" (ver. \"For\" with persevering contemplation I weigh \"all His judgments,\" that is, the rewards of the righteous, and the punishments of the ungodly, and the scourges of such as are to be chastened, and the trials of such as are to be proved. \"And I have not cast out His righteousness from Me:\" as they do that faint under their burden of them, and return to their own vomit.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/22",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6857",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Judgments. Commands, or treatment both of the just and of the wicked.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/22",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bded5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

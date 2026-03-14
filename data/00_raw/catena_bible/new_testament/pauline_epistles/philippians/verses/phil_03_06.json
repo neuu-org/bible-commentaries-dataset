@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PHIL 3:6",
+  "verse_text": "Verse text for PHIL 3:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/3/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Before his conversion Paul fulfilled the law conspicuously, either through fear of the people or of God himself, even if he may have offended the law in his internal affections. But he was fulfilling the law through fear of punishment, not through love of righteousness.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/6",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e534e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“If then it was because of my good breeding and my zeal and my way of life, and I had all the things that belong to life, why,” he says, “did I let go those lofty things, unless I found that those of Christ were greater, and greater by far?” Homily on Philippians.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/6",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e534e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 3:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 12:32",
+  "verse_text": "Verse text for MK 12:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/12/32",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "The answer of the scribe seems to accord with the words of the Lord, for he too acknowledges the inmost love of one God, and professes the love of one’s neighbor as real as the love of self, and places love of God and love of one’s neighbor above all the burnt offerings of sacrifices.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/12/32",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e68",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Accordingly, God's judgment will be more full and complete, because it will be pronounced at the very last, in an eternal irrevocable sentence, both of punishment and of consolation, (on men whose) souls are not to transmigrate into beasts, but are to return into their own proper bodies. And all this once for all, and on \"that day, too, of which the Father only knoweth; \"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/12/32",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb73d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "Which the law also does appoint: \"To love the Lord God with all thy mind, and with all thy soul, who is the one and only God, besides whom there is no other; \"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/12/32",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb73e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 12:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

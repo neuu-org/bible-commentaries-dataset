@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 19:8",
+  "verse_text": "Verse text for JN 19:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/19/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The malicious design of the Jews had a result they little expected. For they wished to pile up the indictment against Christ, by saying that He had ventured to sin against the Person of God Himself. But the weighty character of the accusation itself increased Pilate's caution, and he was the more oppressed with alarm, and more careful concerning Christ than before, and questioned Him the more particularly, what He was, and whence He came; not disbelieving, as I think, that though He was a Man, He might be also the Son of God. This idea and belief of his, was not derived from Holy Writ, but the mistaken notions of the Greeks; for Greek fables call many men demi-gods, and sons of gods. The Romans, too, who in such matters were still more superstitious, gave the name of god to the more distinguished of their own monarchs, and set up altars to them, and allotted them shrines, and put them on pedestals. Therefore Pilate was more earnest and anxious than before, in his inquiry Who Christ was, and whence He came. But He, the Scripture saith, answered him not a word, remembering, I suppose, what He Himself had said unto him: Every one that is of the truth, heareth My voice. And how could Pilate, a worshipper of idols, have hearkened to the voice of the Saviour, when He said that He was Truth, and the Child of truth. And how could he at all have received and honoured the name of truth, who at once ridiculed it, and said, What is truth. because he still worshipped false gods, and was buried in the darkness of their deceitfulness.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/19/8",
+      "full_content_url": "https://catenabible.com/com/57eb0c76b0d44ee10cfac0ad",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "For Him it behoved to be made a sacrifice on behalf of all Gentiles, who \"was led as a sheep for a victim, and, like a lamb voiceless before his shearer, so opened not His mouth \"(for He, when Pilate interrogated Him, spake nothing",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/19/8",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb5ff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 19:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

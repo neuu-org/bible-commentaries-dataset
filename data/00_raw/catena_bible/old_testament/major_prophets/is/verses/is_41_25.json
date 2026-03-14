@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 41:25",
+  "verse_text": "Verse text for IS 41:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/41/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sun. Cyrus had a Persian for his father, and a Mede for his mother; thus uniting both nations, (Calmet) so that he was styled a mule by an ancient oracle. (Eusebius, præp. ix. 41.)\nThese countries lay to the north-east of Judea. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/41/25",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beac3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "This is spoken against the idols and those who after the coming of Christ still refused to abandon them but maintained them in their error. And he says that he will raise up a people of nations from the north.… But this will be the response of all, all those who follow vanity and winds and adore the works of their own hands. What we have said about the idols and the peoples we can refer to the teachings of corruption and to their princes, the heresiarchs, that when Christ announced peace to the church and showed it the way of truth, they followed error so as to be like wind and a whirlwind.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/41/25",
+      "full_content_url": "https://catenabible.com/com/5e88f28eb1c7280cb341d060",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 41:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

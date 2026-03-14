@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 3:3",
+  "verse_text": "Verse text for HEB 3:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/3/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For this man was counted worthy of more glory than Moses, because he who has built the house has more honor than the house. Of greater glory The apostle shows Christ to be greater than Moses several ways. Christ is as much above Moses, as an architect above the house which he has made; for Christ (who, as God, made all things) is the builder of that very house, that is, of the house of Israel, of which Moses was only a part of a member. Moses was only employed in the house, as a servant, to give testimony to others, as he was ordered.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/3/3",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02c6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For this man was counted worthy of more glory than Moses, (Again [he is speaking] of the Flesh), inasmuch as he who has built [the house] has more honor than the house; [Moses] himself also (he means) was of the house. (Moreover he did not say, For this one was a servant, but the Other a master, but he covertly intimated it. ) If the people were the house and he was of the people, then he certainly was of the household. For so also we are accustomed to say, such an one is of such an one's house. For here he is speaking of a house, not of the temple, for the temple was not constructed by God, but by men. But He that made him [is] God. Moses he means. And see how he covertly shows the superiority. Faithful, he says, in all His house, being himself also of the house, that is, of the people. The builder has more honor than the house, yet he did not say the artificer has more honor than his works, but he that has built the house, than the house. Hebrews 3:4 But He that built all things is God. You see that he is speaking not about the temple but about the whole people.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/3/3",
+      "full_content_url": "https://catenabible.com/com/57eb1775b0d44ee10cfac7b0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 3:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

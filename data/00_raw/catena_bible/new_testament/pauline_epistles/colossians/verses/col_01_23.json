@@ -1,0 +1,47 @@
+{
+  "verse_reference": "COL 1:23",
+  "verse_text": "Verse text for COL 1:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/1/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ignatius of Antioch",
+      "period": "AD108",
+      "content": "Your prayers; in contrast to their error, be ye stedfast",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/1/23",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723baee2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Here he strikes a blow at their listlessness. And he said not simply continue, for it is possible to continue wavering, and vacillating; it is possible to stand, and continue, though turned this way and that. If so be that you continue, he says, grounded and steadfast, and not moved away. What a forcible metaphor he uses; he says not only not tossed to and fro, but not even moved. And observe, he lays down so far nothing burdensome, nor toilsome, but faith and hope; that is, if you continue believing, that the hope of the things to come is true. For this indeed is possible; but, as regards virtuous living, it is not possible to avoid being shaken about, though it be but a little; so (what he enjoins) is not grievous. From the hope, he says, of the Gospel, which you heard, which was preached in all creation under heaven. But what is the hope of the Gospel, except Christ. For He Himself is our peace, that has wrought all these things: so that he who ascribes them to others is moved away: for he has lost all, unless he believe in Christ. Which ye heard, he says. And again he brings themselves as witnesses, then the whole world. He says not, which is being preached, but has already been believed and preached. As he did also at the outset Colossians 1:6, being desirous by the witness of the many to establish these also. Whereof I Paul was made a minister. This also contributes to make it credible; I, says he, Paul a minister. For great was his authority, as being now everywhere celebrated, and the teacher of the world.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/col/1/23",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddcc4",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 1:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

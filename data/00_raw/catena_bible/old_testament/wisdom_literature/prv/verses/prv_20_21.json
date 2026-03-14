@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 20:21",
+  "verse_text": "Verse text for PRV 20:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/20/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Blessing. It is morally impossible that they should have been acquired justly, chap. xiii. 11., and xxi. 5.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/20/21",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be6c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "When these people burn with the desire of being replete with all manner of wealth at once, let them hear what Scripture says: “He that makes haste to be rich, shall not be innocent. ” Obviously, a person who strives to increase his resources is not interested in avoiding sin; and being caught after the way of birds, while looking greedily at the bait of earthly things, he does not perceive that he is being strangled in the noose of sin. When these long for the gains of this world and ignore the losses they will suffer in the future life, let them hear what Scripture says: “The inheritance gotten hastily in the beginning, in the end shall be without a blessing. ” Indeed, it is this our life from which we take our beginning, that we may come at the end to the lot of the blessed. They, therefore, who hasten to an inheritance in the beginning cut themselves off from the lot of the blessed in the end, because, while desiring increase here through evil cupidity, they become hereafter disinherited of their everlasting patrimony. When they either aim at getting much, or are able to compass all they desired, let them hear what Scripture says: “What does it profit a man if he gain the whole world and suffer the loss of his own soul. ” Pastoral Care.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/20/21",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8521",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 20:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

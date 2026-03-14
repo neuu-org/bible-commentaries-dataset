@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 23:7",
+  "verse_text": "Verse text for DT 23:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/23/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You shall not abhor an Edomite; for he is your brother: you shall not abhor an Egyptian; because you were a stranger in his land. At any rate [Scripture] says openly, “You shall not loathe Egyptians, since you lived as strangers in Egypt. ” By Egyptian it means “Gentile,” in fact anyone from anywhere in the world. It is further forbidden to think of enemies as enemies, even if they are presently besieging your walls in the effort to capture your city, until you have sent them an envoy to invite them to peace.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/23/7",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Brother. Esau and Jacob were twins.\nLand. The Egyptians had for some time afforded the Hebrews an asylum in their country, and though the kings had of late persecuted them, the people seem not to have entered into the views of their rulers, and spared the male children notwithstanding their cruel edicts. They gave them also very rich presents before their departure, Exodus xii. 35. Gratitude required that these things should be considered, (Haydock) and God orders his people generously to pass over the subsequent ill treatment of these two nations.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/23/7",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bca45",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 23:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

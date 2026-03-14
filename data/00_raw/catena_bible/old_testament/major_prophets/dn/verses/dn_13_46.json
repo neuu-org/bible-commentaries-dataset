@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 13:46",
+  "verse_text": "Verse text for DN 13:46",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/13/46",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "Let us examine why this visitation of the Lord did not take place before her condemnation but at the moment in which they were taking her away to death. This happens so that the power of God would shine forth. When he wants to save one of his servants, he saves him when he wants to and how he wants to. When he wants the trial to end, he waits patiently, to glorify and crown his servant like a good athlete. When Susanna finished praying and was heard, the angel of the Lord was sent to her, he who is the avenger and helper, to defeat her enemies. When Daniel saw the angel’s haste, being a prophet and having the Spirit of God, he shouted, “I am innocent of her blood!” so as not to be responsible for her death with the others. Pilate acted in the same way before the Lord, washing his hands and saying, “I am not responsible for this blood.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/13/46",
+      "full_content_url": "https://catenabible.com/com/5dc254c81cb33762803d3eec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Because the Holy Spirit was roused up within him and dictated to the boy what he should say, his voice was great. And if there is any place in Holy Scripture where the voice of a sinner is called great, it has (yet) to be noted. (734)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/13/46",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd388",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 13:46",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

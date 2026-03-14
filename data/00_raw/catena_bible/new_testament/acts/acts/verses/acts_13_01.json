@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 13:1",
+  "verse_text": "Verse text for ACTS 13:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Manahen . foster-brother to Herod, or nursed with the same milk. (Witham)\nIt would appear from his having been brought up with Herod, that he was of noble parentage. He is likewise believed to have been one of the seventy-two disciples. The Latins keep his feast on the 24th of May. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/1",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfddd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now there were in the church that was at Antioch certain prophets and teachers; as Barnabas, and Simeon that was called Niger, and Lucius of Cyrene, and Manaen, who had been brought up with Herod the tetrarch, and Saul. He still mentions Barnabas first: for Paul was not yet famous, he had not yet wrought any sign. As they ministered to the Lord, and fasted, the Holy Ghost said, Separate Me Barnabas and Saul for the work whereunto I have called them. And when they had fasted and prayed, and laid their hands on them, they sent them away.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/1",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b931d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

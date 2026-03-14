@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 19:6",
+  "verse_text": "Verse text for NM 19:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/19/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the priest shall take cedar wood, and hyssop, and scarlet, and cast it into the midst of the burning of the heifer. Dyed, with which the cedar and hyssop were tied together, as being deemed most proper instruments of purifications, Leviticus xiv. Paul informs us, (Hebrews ix. 19,) that Moses thus sprinkled the people and the book: and branches of this description were probably used when the people took this holy water, ver. The ashes intimate, that those who have sinned, may be purified by the sacrament of penance, ver.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/19/6",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7bd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 19:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

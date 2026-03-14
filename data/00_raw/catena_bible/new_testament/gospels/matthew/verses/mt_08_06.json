@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 8:6",
+  "verse_text": "Verse text for MT 8:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/8/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But having come unto Him, he says, My servant lies at home sick of the palsy, grievously tormented. Now some say, that by way of excuse he mentioned also the cause, why he had not brought him. For neither was it possible, says he, paralyzed as he was, and tormented, and at his last gasp, to lift and convey him. For that he was at the point of expiring, Luke says; He was even ready to die. But I say, this is a sign of his having great faith, even much greater than theirs, who let one down through the roof. Luke 5:19 For because he knew for certain, that even a mere command was enough for the raising up of the patient, he thought it superfluous to bring him. What then does Jesus. What He had in no case done before, here He does. For whereas on every occasion He was used to follow the wish of His supplicants, here He rather springs toward it, and offers not only to heal him, but also to come to the house. And this He does, that we might learn the virtue of the centurion. For if He had not made this offer, but had said, Go your way, let your servant be healed; we should have known none of these things.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/8/6",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac386",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "And saying, Lord, my servant lies at home sick, a paralytic, grievously tormented. Theophylact of Ochrid This man, too, did not approach Jesus while on the mountain, to avoid interrupting the teaching. This is the same man mentioned by Luke (Lk. Although Luke says that the centurion sent to Jesus others who were elders, this does not contradict Matthew who says that the centurion himself came to Jesus. For it is altogether likely that first he sent others, and then, when death was imminent, he himself came and said:.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/8/6",
+      "full_content_url": "https://catenabible.com/com/58a5ce5054b4f95416b2f659",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 8:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 13:57",
+  "verse_text": "Verse text for LV 13:57",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/13/57",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Flying, as that in man, ver. 12. Hebrew, \"it is a leprosy, which returns and is rooted. \"Chaldean, \"it spreads. \"(Calmet) See Calmet's Diss. on the Leprosy.\nThis dreadful disorder is very common in Arabia and Palestine. During the holy wars many of the Europeans were infected with it. The Jews believe, that the leprosy of garments and of houses was restrained to Judea, and attacked them only when the people rebelled against God. (Oleaster)\nThe providence of God often visited those, who would not obey his ministers, with this disorder, Deuteronomy xxiv. 8. and Numbers xii. (Theodoret q. 18.) (Tirinus)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/13/57",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc5c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "Sometimes we know we have done something poorly and avoid including it in our work. But the guilt of it insinuates itself into other acts of ours. For there are some who are subject to carnal uncleanness but reflect on it and return to themselves; they acknowledge the guilt of their depravity. But when they have recovered from their unclean act, they immediately boast of the good of their chastity and swell up with foolish pride. First an unclean act held sway over their bodies; then unclean pride reigns in their minds. What takes hold of them spiritually is like roaming leprosy. It does not wholly leave the garment but changes its place on it. The garment is each of the faithful in the holy church. A roaming and wandering leprosy lays hold of a garment when, by an unreformed fault, guilt takes hold of that soul that seems to be faithful. Let’s suppose someone boasts when he possesses riches in this world but then hears from the mouth of a preacher that all these material things are going to perish; he then distributes what he has to the poor. But when he does so, pride swells up in his heart. First he took pride in his possessions; then he took pride in his generosity. This is analogous to the leprosy changing its place on the garment. Another man is given to immoderate and undisciplined expressions of pleasure. Perhaps he is admonished by a preacher. He practices gravity and selfcontrol and tries to restrain himself so that he does not indulge in dissolute pleasure. Often, though, he restrains himself from pleasure, immoderately—more than he should. His soul turns to anger. His sadness gives rise to motives for wrath and disturbs his mind, constricted as it is with the barb of rage. And so the vice of immoderate pleasure passed through immoderate restraint into the vice of anger. It is like a roaming and wandering leprosy which left the place it had and occupied a place it had not had. Exposition of the Old and New Testament, Leviticus.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lv/13/57",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529cb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 13:57",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

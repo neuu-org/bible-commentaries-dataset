@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 14:1",
+  "verse_text": "Verse text for ACTS 14:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/14/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And of the Greeks. Which is here put for the Gentiles. (Witham)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/1",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfdf2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you mark the nature of the Gospel, the great virtue it has? Made their minds evil-affected, it says, against the brethren:",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/1",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9366",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Again they entered into the synagogues. See how far they were from becoming more timid! Having said, We turn unto the Gentiles, nevertheless (by going into the synagogues) they superabundantly fortify their own justification (with their Jewish brethren). So that, it says, a great multitude both of Jews and Greeks believed. For it is likely they discoursed as to Greeks also. But the unbelieving Jews stirred up the Gentiles, and made their minds evil affected against the brethren.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/1",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b935d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 14:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

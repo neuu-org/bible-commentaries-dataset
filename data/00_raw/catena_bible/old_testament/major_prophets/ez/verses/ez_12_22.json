@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 12:22",
+  "verse_text": "Verse text for EZ 12:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/12/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Proverb, or common saying. (Worthington)\nProlonged. They took occasion from God's long suffering to become more wicked, (Calmet) and even asserted that the prophets told nothing but lies, (Theodoret) and spoke of events at a great distance, that they might not be detected. If what they announced came to pass, they attributed it to chance; (Calmet) if it did not, being only conditional, they ridiculed this idea as a mere subterfuge. (Haydock)\nAs the prophets had long before foretold the captivity, and it had not yet taken place, (Worthington) in general, though many were already in exile, (Haydock) they concluded that it would never be realized. Thus heretics deny the general judgment, 1 Peter iii. (Worthington)\nEvery vision, on this head, ver. 28. Many events were revealed that regarded the times of Christ, Daniel ix. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ez/12/22",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bf05a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 12:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 118:16",
+  "verse_text": "Verse text for PS 118:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10. \"The right hand of the Lord hath brought mighty things to pass\" (ver. 16). What mighty things? saith he. \"The right hand of the Lord,\" he saith, \"hath exalted me.\" It is a mighty thing to exalt the humble, to deify the mortal, to bring perfection out of infirmity, glory from subjection, victory from suffering, to give help, to raise from trouble; that the true salvation of God might be laid open to the afflicted, and the salvation of men might remain of no avail to the persecutors. These are great things: but what art thou surprised at hear what he repeateth: \"The right hand of the Lord hath brought mighty things to pass.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/118/16",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Me is not in Hebrew. All salvation is from God. (Berthier)\nRight hand, repeated thrice, insinuates the blessed Trinity, as the word Lord is applied to Christ, who effected man's redemption with singular efficacy. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/16",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

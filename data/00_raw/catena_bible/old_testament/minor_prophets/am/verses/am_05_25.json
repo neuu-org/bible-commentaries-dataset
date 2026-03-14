@@ -1,0 +1,47 @@
+{
+  "verse_reference": "AM 5:25",
+  "verse_text": "Verse text for AM 5:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/5/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Did you offer Except the sacrifices that were offered at the first, in the dedication of the tabernacle, the Israelites offered no sacrifices in the desert. (Challoner)\nThey ceased after the beginning of the second year. (St. Augustine, q. 47 in Exodus, Leviticus vii.) (Worthington)\nGod did not require sacrifices when the people came out of Egypt, Jeremias vii. 22., and Deuteronomy xii. 8. They were not performed so regularly in the desert, (Calmet) and the people still bore a secret affection for idols, (ver. 26.) which rendered all their victims useless. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/5/25",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf450",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Did you offer: Except the sacrifices that were offered at the first, in the dedication of the tabernacle, the Israelites offered no sacrifices in the desert.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/5/25",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f28b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 5:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

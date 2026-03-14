@@ -1,0 +1,47 @@
+{
+  "verse_reference": "TIT 1:8",
+  "verse_text": "Verse text for TIT 1:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ti/1/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Continent: though both the Latin and Greek word signify in general, one that hath abstained, or contained, and overcome himself: yet it is particularly used for such as contain themselves from carnal pleasures. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/1/8",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c027c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For a ruler without, as he rules by law and compulsion, perhaps does not consult the wishes of those under his rule. But he who ought to rule men with their own consent, and who will be thankful for his rule, if he so conduct himself as to do everything of his own will, and share counsels with no one, makes his presidency tyrannical rather than popular. For he must be blameless, as the steward of God, not self-willed, not soon angry. For how shall he instruct others to rule that passion, who has not taught himself. For power leads on to many temptations, it makes a man more harsh and difficult to please, even him that was very mild, surrounding him with so many occasions of anger. If he have not previously practiced himself in this virtue, he will grow harsh, and will injure and destroy much that is under his rule. Not given to wine, no striker. Here he is speaking of the insolent man. For he should do all things by admonition or rebuke, and not by insolence. What necessity, tell me, for insult. He ought to terrify, to alarm, to penetrate the soul with the threat of hell. But he that is insulted becomes more impudent, and rather despises him that insults him. Nothing produces contempt more than insult; it disgraces the insolent person, and prevents his being respected, as he ought to be. Their discourse ought to be delivered with much caution. In reproving sins they should bear in mind the future judgment, but keep clear of all insolence. Yet if any prevent them from doing their duty, they must prosecute the matter with all authority. Not a striker, he says. The teacher is the physician of souls. But the physician does not strike, but heals and restores him that has stricken him. Not given to filthy lucre.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ti/1/8",
+      "full_content_url": "https://catenabible.com/com/576210d59fd295934bf1200b",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured TIT 1:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

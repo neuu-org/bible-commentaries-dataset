@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 36:12",
+  "verse_text": "Verse text for IS 36:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/36/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "In order … that both our houses may be continually open to [the poor] and our ears to [the apostles], we should purge away the filth from the ears of our soul. For as filth and mud close up our fleshly ears, so do the prostitute’s songs, worldly talking, debts and the business of borrowing and paying interest close up the mind’s ear even worse than dirt. Not only do these things close up the ear, but also they make it unclean. Those who cause you to listen to the prostitute’s songs put dung in your ears. They make you endure not just in word but in deeds, what the barbarian threatened: “You shall eat your own dung,” and what follows.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/36/12",
+      "full_content_url": "https://catenabible.com/com/5e4f7fcbc849cf49a740e48e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 36:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

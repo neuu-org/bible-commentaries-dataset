@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 63:16",
+  "verse_text": "Verse text for IS 63:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/63/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Doubtless you are our father, though Abraham is ignorant of us, and Israel acknowledges us not: you, O LORD, are our father, our redeemer; your name is from everlasting. Cyril of Jerusalem our Father: God is so named not as begetting them of Himself, but as caring for them and shielding them. But whereas God, as we have said, is in an improper sense the Father of men, of Christ alone He is the Father by nature, not by adoption: and the Father of men in time, but of Christ before all time.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/63/16",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa0ba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Abraham That is, Abraham will not now acknowledge us for his children, by reason of our degeneracy; but thou, O Lord, art our true father and our redeemer, and no other can be called our parent in comparison with thee. (Challoner) Abraham is not able to save us. (Calmet) The patriarchs may justly disregard us, as degenerate children; yet we hope in God's mercies. Jerome, explain the passage, which does not favour the errors of Vigilantius and of Luther, who maintain that the saints departed do not know what passes in this world. Augustine (Cura xv. ) shows the contrary, from the example of Lazarus, Luke xvi. They know each other, though they had not lived together, (St. Gregory, Dial. ) and behold in the light of God what regards their clients. Augustine, City of God xxii. ) We cannot decide how the martyrs do help those whom it is certain they assist. Augustine, cura xvi. , and contra Faust. Jerome, contra Vigil. Gregory, 3 ep. ) (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/63/16",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bebdf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 63:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

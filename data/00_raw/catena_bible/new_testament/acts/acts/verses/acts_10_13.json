@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 10:13",
+  "verse_text": "Verse text for ACTS 10:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/10/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Probably he was on his knees when he saw the vision. — To me it seems that this also denotes the Gospel (or, the Preaching). That the thing taking place was of God (the circumstances made evident, namely), both that he sees it (descending) from above, and that he is in a trance; and, that the voice comes from thence, and the thrice confessing that the creatures there were unclean, and its coming from thence, and being drawn back there (all this), is a mighty token of the cleanness (imparted to them). — But why is this done. For the sake of those thereafter, to whom he is about to relate it. For to himself it had been said, Go not into the way of the Gentiles. Matthew 10:5 * * For if Paul needed both (to give) circumcision, and (to offer) sacrifice, much more (was some assurance needed) then, in the beginning of the Preaching, while they were as yet weaker. Acts 16:3; 21:16— Observe too how he did not at once receive them. For, it says, they called, and asked, whether Simon, which was surnamed Peter, were lodging there.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/10/13",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92b3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "But as I doubted what this vision should mean, the Spirit said to me, Behold, men seek thee; but rise up, and go thy way with them, nothing doubting, for I have sent them.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/10/13",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae05",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 10:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

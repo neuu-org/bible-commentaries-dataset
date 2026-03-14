@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 73:5",
+  "verse_text": "Verse text for PS 73:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/73/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But why even this. \"For I was jealous,\" he saith, \"in the case of sinners, looking on the peace of sinners\" (ver. I observed sinners, I saw them to have peace. Temporal, transient, falling, and earthly: but yet such as I also was desiring of God. I saw them that served not God to have that which I desired in order that I might serve God: and my feet were moved and my steps were almost overthrown. But why sinners have this, he saith briefly: \"Because there is no avoidance of their death, and there is a firmament in their scourge\" (ver. Now I have perceived, he saith, why they have peace, and flourish on the earth; because of their death there is no avoidance, because death sure and eternal doth await them, which neither doth avoid them, nor can they avoid it, \"because there is no avoidance of their death, and there is a firmament in their scourge. \" And there is a firmament in their scourge. For their scourge is not temporal, but firm for everlasting. Because of these evil things then which are to be to them eternal, now what. \"In the labours of men they are not, and with men they shall not be scourged\" (ver. Doth not even the devil himself escape scourging with men, for whom nevertheless an eternal punishment is being prepared.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/73/5",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6be0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Other men, who follow a more virtuous course (Worthington) than themselves. Their prosperity encourages their pride, and they indulge in every excess. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/73/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be1a2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 73:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

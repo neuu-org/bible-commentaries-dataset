@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 7:3",
+  "verse_text": "Verse text for ZEC 7:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/7/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The fifth month. They fasted on the tenth day of the fifth month; because on that day the temple was burnt. Therefore they inquire whether they are to continue that fast after the temple is rebuilt. See this query answered ver. 19 of the following chapter. (Challoner)\nThe third of the seventh month (ver. 5) was also a fast, on account of the death of Godolias, (Calmet) during the captivity, 4 Kings xxv. 8, 25. (Worthington)\nSeptuagint, \"Has the sanctification entered hither in the fifth month, as they (or I) have done? \"(Haydock)\nFasting and lamentation are styled sanctification, because they promote it; curatos quoque sanctificat; (St. Jerome) if the proper conditions be observed. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/7/3",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf5ba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And to speak unto the priests who were in the house of the LORD of hosts, and to the prophets, saying, Should I weep in the fifth month, consecrating myself, as I have done these so many years. The fifth month: They fasted on the tenth day of the fifth month; because on that day the temple was burnt. Therefore they inquire whether they are to continue the fast, after the temple is rebuilt. See this query answered in the 19 th verse of the following chapter.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/7/3",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1ce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 7:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 26:10",
+  "verse_text": "Verse text for PS 26:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/26/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10. \"In whose hands is wickedness.\" Destroy me not then with the ungodly and the men of blood, whose works are wicked. \"Their right hand is full of gifts\" (ver. 10). And that which was given them to obtain eternal salvation, they have converted into the receiving this world's gifts, \"supposing that godliness is a trade.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/26/10",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Gifts, to bribe; or rather, which the judges have received. (Berthier) Shochad is always used in a bad sense for \"a bribe. \"(Calmet)\nEst munus a lingua.a manu.et ab obsequio. (St. Jerome)\nThe wicked use their worldly goods to corrupt others. (Worthington)\nJugurtha leaving Rome, said, \"O venal city. \"(Sallust)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/26/10",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf40",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 26:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

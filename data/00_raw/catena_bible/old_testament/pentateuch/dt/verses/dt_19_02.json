@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 19:2",
+  "verse_text": "Verse text for DT 19:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/19/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You shall set apart three cities for you in the midst of your land, which the LORD your God gives you to possess it. These were Hebron, Sichem, and Cades, on the west side of the Jordan, Josue xx. Those on the east were already appointed, chap. Three others might also have been added, (ver. ; Calmet) in case the Hebrews had gotten full possession of the countries as far as the Euphrates. (Haydock) The cities of refuge were not above forty-five miles distant from each other, in the land of Chanaan. Those in Galaad were not so far off, as the territory was smaller.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/19/2",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 19:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

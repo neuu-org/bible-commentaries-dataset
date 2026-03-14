@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 8:20",
+  "verse_text": "Verse text for GN 8:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/8/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "[The clean and the unclean] were together in the ark, but they were not equally pleasing to the Lord as a savor of sacrifice, for after the deluge Noah offered sacrifice to God of the clean, not of the unclean.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/8/20",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e519aa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Noah built an altar unto the LORD; and took of every clean beast, and of every clean fowl, and offered burnt offerings on the altar. Holocausts, or whole burnt offerings. In which the whole victim was consumed by fire upon God's altar, and no part was reserved for the use of priest or people. (Challoner) This is the first time we read of an altar, though Abel had surely made use of one. (Menochius) Noe delays not to show his gratitude to God, St. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/8/20",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc036",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 8:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

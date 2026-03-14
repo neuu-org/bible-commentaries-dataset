@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 51:2",
+  "verse_text": "Verse text for PS 51:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/51/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"More and more wash me from mine unrighteousness\" (ver. What is , \"More and more wash\". One much stained. More and more wash the sins of one knowing. Thou that hast washed off the sins of one ignorant. Not even thus isit to be despaired of Thy mercy. \"And from my delinquency purge Thou me. \" According to the manner in which He isphysician, offer a recompense. He is God, offer sacrifice. What wilt thou give that thou mayest be purged. For see upon whom thou callest; upon a Just One thou callest. He hateth sins, if He isjust; He taketh vengeance upon sins, if He is just; thou wilt not be able to take away from the Lord God His justice: entreat mercy, but observe the justice: there ismercy to pardon the sinner, there is justice to punish the sin. Thou askest mercy; shall sin unpunished abide. Let David answer, let those that have fallen answer, answer with David, and say, No, Lord, no sin of mine shall be unpunished; I know the justice of Him whose mercy I ask: it shall not be unpunished, but for this reason I will not that Thou punish me, because I punish my sin: for this reason I beg that Thou pardon, because I acknowledge.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/51/2",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a99",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Yet more, by baptism. (Eusebius; St. Ambrose, apol.)\nThe true penitent never ceases to deplore his sins, like David, St. Peter, and St. Paul, Ecclesiasticus v. 5. The psalmist prays, that all the remains of sin may be obliterated, John xiii. 10. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/51/2",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be0ad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 51:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

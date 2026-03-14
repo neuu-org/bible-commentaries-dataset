@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 3:7",
+  "verse_text": "Verse text for NEH 3:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/3/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "'And I appointed guards from among the inhabitants of Jerusalem, each in his own turn and each opposite his own house'. Guardians of souls must not be appointed from recent converts or from the common crowd but from those who, freed by the grace of God from the battle with the vices, have already trained themselves to keep their mind in Jerusalem (that is, in the 'vision of serene peace')3 and who can say with the Apostle: But our dwelling is in heaven. 4 About these people it is well said that he appointed each in his own turn, namely so that when their course has been completed and they have been removed from this light, others may straightaway be chosen in their place to rule over the faithful; and that there may at no time be a shortage of those who make an effort to keep watch on behalf of the peace of the Holy Church because of night-time fears,5 since the truth of prophetic word, in which it is said to the same Church, In the place of your fathers, sons are born to you,6 runs continuously to the end of the age. It is also well added, and each opposite his own house. For the guardianship of the Holy Church is duly achieved only if everyone shows concern for all the faithful but makes a particularly diligent effort to take care of those over whom he has been put in charge by God's authority.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/3/7",
+      "full_content_url": "https://catenabible.com/com/58fe876d543064d91d46c3e3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And next unto them repaired Melatiah the Gibeonite, and Jadon the Meronothite, the men of Gibeon, and of Mizpah, who were under the authority of the governor on this side of the river. Hebrew, \"for (Calmet; or) unto the throne of the governor on this side of the river. \"(Protestants) (Haydock) These people worked near the palace, which had been built for the Persian governor, who came to administer justice, till the time of Esdras, chap. , and 1 Esdras vii. Perhaps the governor of Syria had (Haydock) assisted the Jews, unless Nehemias himself be meant. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/3/7",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9de",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 3:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 25:28",
+  "verse_text": "Verse text for GN 25:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/25/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "But we ought not to leave his parents without excuse for having preferred their younger son to the elder. At the same time we must take care so that no one, in turning to their example, would make an unfair judgment between his sons or suppose that he should love the one and esteem the other less. From this line of conduct fraternal hatreds are aroused, and the crime of fratricide is contrived to gain a worthless sum of money. Let children be nurtured with a like measure of devotion. Granted that one’s love may fasten more upon some trait in a child who is more agreeable or similar to oneself, the exercise of justice ought to be the same in regard to all. The more that is given to the child that is loved and who seeks his brothers’ love, the more is taken away from the one who is burdened with jealousy at the unfair preference. Esau threatened that he would kill his brother. Neither the fact of brotherhood nor respect for their parents kept him from his fratricidal madness. He grieved that the blessing had been snatched away from him, whereas he should have proved himself worthy of it by forbearance rather than by crime.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/25/28",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51b57",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Loved Esau, as his first-born, who showed him all attention, and whom he would naturally have appointed his heir, if the will of God had not afterwards been revealed to him. Rebecca, to whom this was already known, gave the preference in her love to Jacob. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/25/28",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc117",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 25:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

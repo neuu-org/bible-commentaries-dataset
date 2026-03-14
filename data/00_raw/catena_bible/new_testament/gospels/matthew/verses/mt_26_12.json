@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 26:12",
+  "verse_text": "Verse text for MT 26:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/26/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He said, “She has done it for my burial,” that they might not be perplexed. See how he consoles her with what follows, saying, “What she has done shall be spoken of in the whole world.” And this was at once consolation to his disciples and comfort and praise to her. “For all the world will celebrate her hereafter. Now she has announced beforehand my suffering by bringing to me what is needed for a funeral. So let no one reprove her. For I am so far from condemning her as having done wrongly or from blaming her as having not acted rightly that I will not permit what has been done to lie unnoticed. The world will know that which has been done in this house and in secret. It is in truth the deed of a reverential mind and fervent faith and a contrite soul.” The Gospel of Matthew, Homily”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/26/12",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e71a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And He adds a reason, as it was His will again to put them in mind of His passion, For she did it, He said, for my burial. And another reason. For you have the poor always with you, but me you have not always;",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/26/12",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac5c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 26:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "NM 12:1",
+  "verse_text": "Verse text for NM 12:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/12/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "The prophetess Mary [Miriam] herself, who crossed the straits of the sea on foot with her brothers, did not yet know the mystery of the Ethiopian [Cushite] woman and murmured against her brother Moses. She shuddered at the white spots of leprosy, which she would hardly have been freed from if Moses had not prayed for her. That murmuring stands very much as a type of the synagogue, which daily murmurs and does not grasp the mystery of the Ethiopian woman, that is, the church of the Gentiles. She envies that people by whose faith even she herself is freed from the leprosy of faithlessness, according to the verse of Scripture: “Blindness has stretched through part of Israel until the full number of Gentiles shall enter and thus shall all of Israel be saved.”",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/12/1",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52908",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sephora, the wife of Moses, was of Madian, which bordered upon the land of Chus, or Ethiopia; and therefore she is called an Ethiopian: where note, that the Ethiopia here spoken of, is not that of Africa but that of Arabia, (Challoner) on the east side of the Red Sea, Exodus ii. Jealousy instigated Aaron and his sister on this occasion. (Calmet) Perhaps Sephora had claimed some pre-eminence on account of her husband's glory, in being a mediator between God and his people, and therefore they pretend to the same honour, ver. (Haydock) The Hebrew insinuates, that they laid hold on the pretext of Moses having married, or received again, a woman of a different nation contrary to the law which he had promulgated, \"for it adds, he had married or retaken an Ethiopian woman. \"Others believe that he had put her away, and that Aaron and Mary stood up in her defence. \"Mary and Aaron murmured against Moses, on account of the wife whom he had taken, who was a perfect beauty, because he had separated himself from his beautiful wife. \"(Onkelos) Some are of opinion, that this woman was Tarbis, the daughter of the king of Ethiopia, whom Moses espoused after he had terminated the wars between him and the Egyptians, before he retired to Madian. But this account of Josephus, (Antiquities ii. 5,) and the explication of Onkelos, and of the Rabbins, seem to be destitute of any solid foundation.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/12/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc750",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Ethiopian: Sephora the wife of Moses was of Madian, which bordered upon the land of Chus or Ethiopia: where note, that the Ethiopia here spoken of is not that of Africa but that of Arabia.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/12/1",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fc3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 12:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

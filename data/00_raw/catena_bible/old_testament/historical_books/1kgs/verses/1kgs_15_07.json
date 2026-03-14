@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 15:7",
+  "verse_text": "Verse text for 1KGS 15:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/15/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“Now in the eighteenth year of King Jeroboam son of Nebat, Abijam began to reign over Judah,” and under his rule the Jews obtained a magnificent victory over the Israelites in a battle, which was greater than all those fought before in their civil wars. It is said that after the two multitudes of soldiers were drawn up in fighting order, Abijam appeared to have four hundred thousand men, and Jeroboam eight hundred thousand. The Jews won, while the number of the Israelites who fell in action was larger than five hundred thousand, which is an extremely rare occurrence in history.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/15/7",
+      "full_content_url": "https://catenabible.com/com/5e1b67d28bc66721fe4ef915",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 15:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

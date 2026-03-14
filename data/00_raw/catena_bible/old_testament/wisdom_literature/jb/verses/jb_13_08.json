@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 13:8",
+  "verse_text": "Verse text for JB 13:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/13/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Will you accept his person. will you contend for God. Hebrew, \"will you not be seized with fear. \"Olympiodorus translates, \"will you stand in his presence, and dispute with him. \"(Calmet) Septuagint, \"Are you sent to be judges. \", or, do you suppose that you please him by asserting that he punishes me for my sins. (Haydock) Is it thus you hope to gain his favour. (Calmet) He knows the state of my soul best; then I myself: but you are quite in the dark. (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/13/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc0a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "For when foolish men behold the doings of the wise, they all seem to them to be worthy of blame; who, forgetting their own emptiness and deficiency, pass judgment on the concerns of others the more eagerly, in proportion as they are more deeply ignorant of their own. But on the other hand, when the righteous reprove the deeds of the wicked, ever conscious of their own weakness, they administer reproof, though in launching forth against them outwardly, yet in sympathizing with them inwardly; in that it belongs to Him alone to scrutinize the sins of men without fellow-feeling, Who by the omnipotence of His nature knows not to commit sin. Therefore, as the friends of blessed Job had so reproved his deeds as if they had nothing in themselves to be reproved, it is well said in this place, Will ye take His face. Will ye strive to judge for God. For to ‘take the face of God’ is to assume His authority in the act of judging; and he as it were ‘strives to judge for God,’ who when he reproves the several weak points in another, does not feel weak in himself within from fellow-feeling.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/13/8",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddcfc9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 13:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

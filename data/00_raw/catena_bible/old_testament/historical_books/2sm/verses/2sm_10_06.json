@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 10:6",
+  "verse_text": "Verse text for 2SM 10:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/10/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rohob, the capital, between Libanus and Antilibanus.\nSoba was subject to Adarezer, chap. viii. 3.\nMaacha, at the foot of Hermon.\nIstob (Hebrew ish tob) signifies, the man, or prince, or \"the master of Tob \"(Calmet) where Jephte lived, Judges xi. 5. (Du Hamel) (Salien)\nJosephus thinks that Istob is the name of a fourth king, who, together with the king of Micha, brought 22,000 into the field. The first he styles king \"of the Mesopotamians \"(1 Paralipomenon xix. 6.) which Salien explains of the country between Abana and Pharphar, the two great rivers of Syria, (4 Kings v. 12,) though, on this occasion, he allows that Adarezer hired forces from the utmost parts beyond the Euphrates. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/10/6",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd0e5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 10:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 7:50",
+  "verse_text": "Verse text for ACTS 7:50",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/7/50",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What is the reason that at this point he speaks in the tone of invective (καταφορικὥς)? Great was his boldness of speech, when at the point to die: for in fact I think he knew that this was the case. You stiffnecked, he says, and uncircumcised in heart and ears. This also is from the prophets: nothing is of himself. You do always resist the Holy Ghost: as your fathers did, so do ye.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/7/50",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f252",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This was shown indeed already by what had been before said: but it is shown also by the voice of a prophet; What house will you build for Me? Says the Lord God. As says the prophet, Heaven is my throne, and earth is my footstool: what house will you build for me? Says the Lord: or what is the place of my rest? Hath not my hand made all these things? Isaiah 66:1-2\nMarvel not, he says, if they on whom Christ confers His benefits refuse His kingdom, seeing in the case of Moses it was just the same.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/7/50",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f245",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 7:50",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

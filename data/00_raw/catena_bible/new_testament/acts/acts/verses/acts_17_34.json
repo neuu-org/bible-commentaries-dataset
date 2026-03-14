@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 17:34",
+  "verse_text": "Verse text for ACTS 17:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/17/34",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Dionysius the Areopagite. This illustrious convert was made the first bishop of Athens. The martyrologies say, St. Paul raised him to that dignity. It is the same person, who, observing the convulsions of nature, which paid homage, as it were, to its God, expiring upon the cross, and not knowing the cause, is said to have exclaimed: Either the universe is falling to ruin, or the God of nature must be suffering. It appears from his writings, that he was, previous to his conversion, of the Platonic school. Ven. Bede was mistaken in supposing that he was afterwards the bishop of Corinth, of that name, who so successfully employed his pen for the good of the Church. This Dionysius lived a whole century after the Areopagite. (Estius)",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/17/34",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe32",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And after these things, etc. And having found a certain Jew by name Aquila, of Pontus by birth, lately come from Italy, because that Claudius had ordered all Jews to depart from Rome, he came to them, and because he was of the same craft, he abode with them, and wrought: for by their occupation they were tent-makers.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/17/34",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9421",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What can be the reason that, having persuaded (some so far as to say) that they would hear him again, and there being no dangers, Paul is so in haste to leave Athens? Probably he knew that he should do them no great good; moreover he was led by the Spirit to Corinth. (b) For the Athenians, although fond of hearing strange things, nevertheless did not attend (to him); for this was not their study, but only to be always having something to say; which was the cause that made them hold off from him. But if this was their custom, how is it that they accuse him, he seems to be a setter forth of strange gods?",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/17/34",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b941d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 17:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

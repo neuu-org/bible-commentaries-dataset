@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 24:6",
+  "verse_text": "Verse text for PS 24:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/24/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "6. \"This is the generation of them that seek the Lord\" (ver. 6). For thus are they born that seek Him. \"Of them that seek the face of the God of Jacob. Diapsalma.\" Now they seek the face of God, who gave the pre-eminence to the younger born.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/24/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68cc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The face. Hebrew, \"Thy face, O Jacob, always. \"(St. Jerome)\nProtestants (marginal note, God of) Jacob. Selah. (Haydock)\nThus they intimate that the Hebrew is imperfect. All the preceding virtues belong to Jesus Christ, who obtained mercy for us. The generation of Adam multiplied, (Genesis v. 1.) and soon forgot the Lord: but it shall not be so with the disciples of Christ, who must delight in fervent prayer, and in the constant practice of good works; and not merely serve him in certain fits of devotion. (Berthier) See Proverbs xxix. 26. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/24/6",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf1e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 24:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

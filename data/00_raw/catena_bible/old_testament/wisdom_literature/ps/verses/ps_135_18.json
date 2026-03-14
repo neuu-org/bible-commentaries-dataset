@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 135:18",
+  "verse_text": "Verse text for PS 135:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/135/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "And man, thou laughest doubtless at what thou hast made, if thou knowest by whom thou art made. But of them who know not, what is said. \"All they who make them, and all they who trust in them, are like them\" (ver. And ye believe, brethren, that there is a likeness to these idols expressed not in their flesh, but in their inner man. For \"they have ears, and hear not. \" God calls to them indeed, \"He who hath ears to hear, let him hear. \" They have eyes, and see not, for they have the eyes of the body, and not the eyes of faith. Lastly, this prophecy is fulfilled among all the nations. Is it not fulfilled. Is it not seen, as it is written. And they who remain have eyes, and see not; have nostrils, and smell not. They perceive not that savour. \"We are a good savour of Christ,\" as the apostle says everywhere. What profiteth it, that they have nostrils, and smell not that so sweet savour of Christ. Truly it is done in them, and truly it is said of them, \"All they who make them,\" etc.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/135/18",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6733",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 135:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

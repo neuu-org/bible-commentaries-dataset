@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 22:31",
+  "verse_text": "Verse text for PS 22:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/22/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh They shall come, and shall declare his righteousness unto a people that shall be born, that he has done this. Augustine of Hippo 32. \"The generation to come shall be declared to the Lord\" (ver. The generation of the New Testament shall be declared to the honour of the Lord. \"And the heavens shall declare His righteousness. \" And the Evangelists shall declare His righteousness. \"To a people that shall be born, whom the Lord hath made. \" To a people that shall be born to the Lord through faith.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/22/31",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68be",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 22:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

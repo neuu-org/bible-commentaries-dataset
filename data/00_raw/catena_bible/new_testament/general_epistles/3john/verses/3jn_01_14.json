@@ -1,0 +1,47 @@
+{
+  "verse_reference": "3JN 1:14",
+  "verse_text": "Verse text for 3JN 1:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/3jn/1/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But I trust I shall shortly see you, and we shall speak face to face. Peace be to you. Our friends greet you. Greet the friends by name. Cornelius a Lapide Salute the friends by name. The Syriac renders this verse, The friends pray for your peace: pray for the peace of the friends, for every one by name. Jerome uses the word cÅ“cutiat. I am not sure, having regard to the context, that he does not mean, \"get out of their depth,\" as we say in English. 2This word is not in Liddell and Scott, but I take it to be a feminine form of Ï€ÏÏÎ³Ï‚.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/3jn/1/14",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e526e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This was a very usual salutation among the Jews, by which they wished every possible blessing might come upon their friends they thus saluted. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/3jn/1/14",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c0420",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 3JN 1:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

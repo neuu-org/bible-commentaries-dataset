@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 1:32",
+  "verse_text": "Verse text for 1CHR 1:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/1/32",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh 1 Chronicles 1:32 Now the sons of Keturah, Abraham's concubine: she bore Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah. And the sons of Jokshan; Sheba, and Dedan. She was his lawful wife, but of an inferior degree, and such were called concubines. (Challoner) She has the title of wife, Genesis xxv. And the sons of Dadan, seems to be copied from Genesis, as the addition is not found in many Latin manuscripts, no more than in the Hebrew or Septuagint.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/1/32",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd5aa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "concubine: She was his lawful wife, but of an inferior degree.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/1/32",
+      "full_content_url": "https://catenabible.com/com/5879d89fdd1bb6dd3dba9f91",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 1:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

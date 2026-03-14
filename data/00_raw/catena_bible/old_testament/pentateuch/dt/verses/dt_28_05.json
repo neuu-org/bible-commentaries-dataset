@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 28:5",
+  "verse_text": "Verse text for DT 28:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/28/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "The prosperity of a city is dependent upon the supply of goods for sale in the market. We say that a country is prosperous which produces much fruit. So also there is a certain prosperity of the soul when it has been filled with works of every kind. It is necessary first for it to be laboriously cultivated and then to be enriched by the plentiful streams of heavenly waters, so as to bear fruit thirtyfold, sixtyfold and a hundredfold and to obtain the blessing which says, “Blessed shall be your barns and blessed your stores.”",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/28/5",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a7d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Barns. Hebrew tene, is translated (chap. xxvi. 2,) basket, in which bread was kept, and served up at table. Loaves were placed thus in baskets, near the altar of holocausts.\nStores. What thou hast laid up for thy provisions in corn, fruit (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/28/5",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bca8b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 28:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

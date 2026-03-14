@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 8:12",
+  "verse_text": "Verse text for MT 8:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/8/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Whilst the Jews, who glory in descending from the patriarchs, and who, on this title, are children and heirs of the celestial kingdom which had been promised them, shall be excluded for having rendered themselves unworthy by their unbelief. (Bible de Vence)\nShall be cast out into exterior darkness. This is spoken so as to imply a comparison to a supper in a great room, with a number of lights, when they who are turned out in the night, stand without, starving, weeping, and gnashing their teeth. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/8/12",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf6db",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "Jesus did not say outright, \"Many Gentiles shall sit at table.\" But He said it in a roundabout manner, so as not to scandalize the Jews, \"Many shall come from the east and west.\" He mentioned Abraham to show that He does not stand in opposition to the Old Testament. By saying \"outer darkness\" He shows that there is also an inner darkness which is less severe. For in hell there are varying degrees of punishment. He calls the Jews \"the sons of the kingdom,\" for the promises of the Old Testament were made to them. He is saying, \"Israel is my firstborn son\" (Ex. 4:22).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/8/12",
+      "full_content_url": "https://catenabible.com/com/58a5ce5054b4f95416b2f65c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 8:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

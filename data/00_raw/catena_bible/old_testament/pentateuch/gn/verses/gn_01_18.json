@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 1:18",
+  "verse_text": "Verse text for GN 1:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/1/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "On the fourth day the heavens received the lights, and in the fourth age, the aforementioned people of God were made prominent by new light through the imperial power of David and of Solomon, of the other kings also ruling by God’s authority - through that very noble temple which Solomon founded for God, through the signs of the prophets, which through all the time of those same kings did not stop flowering, and most of all through this, that to the first and most pre-eminent of the kings who pleased Him the Lord swore, saying, ‘The fruit from your loins I will place upon my throne’. Truly even this day began to move towards evening, when afterwards both the same kings and the people, spurning the temple and the laws of God, were destroyed and torn apart by enemies. But it was not only a most oppressive evening, but night followed, when all of the kingdom was destroyed, the temple burnt, all the people led captive to Babylon.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/1/18",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f435",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 1:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

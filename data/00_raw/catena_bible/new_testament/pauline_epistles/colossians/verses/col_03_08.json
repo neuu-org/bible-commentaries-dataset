@@ -1,0 +1,47 @@
+{
+  "verse_reference": "COL 3:8",
+  "verse_text": "Verse text for COL 3:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/col/3/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Blasphemy. It may here signify either the sin of blasphemy against God, or speaking ill of our neighbour by detraction, calumnies, affronts See St. Chrysostom. (Witham)\nNow that you live in God, with Jesus Christ, quit not only the above shameful crimes, but also these sins, which, although they excite less horror, will separate you no less from the Author of all sanctity.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/3/8",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c01a7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "But now put away all these also.\nHe speaks always both universally and particularly; but this is from earnestness.\n\nAnger, wrath, malice, railing, shameful speaking out of your mouth. Lie not one to another.\n\nShameful speaking, he says, out of your mouth, clearly intimating that it pollutes it.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/col/3/8",
+      "full_content_url": "https://catenabible.com/com/575adb8c3c6effa740dddce1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured COL 3:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

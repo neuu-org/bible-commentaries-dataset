@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ZEC 8:5",
+  "verse_text": "Verse text for ZEC 8:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/8/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "This is that wine with which, when youths and maidens are intoxicated, they at once thirst for virginity. They are filled with the spirit of chastity, and the prophecy of Zechariah comes to pass, at least if we follow the Hebrew literally, for he prophesied concerning virgins: “And the streets of the city shall be full of boys and girls playing in the streets thereof. For what is his goodness, and what is his beauty, but the corn of the elect, and wine that gives birth to virgins?” They are virgins of whom it is written in the fortyfifth psalm: “She is led to the king, with her virgin companions, her escort, in her train. With joy and gladness they are led along as they enter the palace of the king.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/8/5",
+      "full_content_url": "https://catenabible.com/com/5838db40205c248f42e52b84",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 8:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

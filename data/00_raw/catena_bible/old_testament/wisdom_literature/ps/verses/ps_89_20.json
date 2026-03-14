@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 89:20",
+  "verse_text": "Verse text for PS 89:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "20. \"I have found David My servant:\" that David from David's seed: \"with My holy oil have I anointed Him\" (ver. 20): for it is said of Him, \"God, even Thy God, hath anointed Thee with the oil of gladness above Thy fellows.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/20",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6ce6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Oil. Vatican Septuagint has, \"mercy \"and is followed by St. Jerome in Ezechiel lv. 3. (Calmet)\nBut is a mistake, eleei being put for elaio. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/20",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be299",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

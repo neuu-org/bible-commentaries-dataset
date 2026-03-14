@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 122:8",
+  "verse_text": "Verse text for PS 122:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/122/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Thus as he was here speaking of charity, he addeth, \"For my brethren and companions' sake, I spoke peace of thee\" (ver. O Jerusalem, thou city whose partaking is in The Same, I in this life and on this earth, I poor, he saith, I a stranger and groaning, not as yet enjoying to the full thy peace, and preaching thy peace; preach it not for my own sake, as the heretics, who seeking their own glory, say, Peace be with you: and have not the peace which they preach to the people. For if they had peace, they would not tear asunder unity. \"I,\" he saith, \"spoke peace of thee. \" But wherefore. \"For my brethren and companions' sake:\" not for my own honour, not for my own money, not for my life; for, \"To me to live is Christ, and to die is gain. \" But, \"I spoke peace of thee, for my brethren and companions' sakes. \" For he wished to depart, and to be with Christ: but, since he must preach these things to his companions and his brethren, to abide in the flesh, he addeth, is more needful for you.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/122/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66be",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For my brethren and companions' sakes, I will now say, Peace be within you. Hebrew adds, \"I will now \"(Montanus) or rather, \"I have now spoken. \"(Berthier) I was forbidden to beg for the peace of Chanaan, Deuteronomy vii. But Jeremias (xxix. ) exhorts the captives to desire this blessing for the city, to which they were going, as it would redound to their own advantage. (Calmet) Christ leaves his peace to his apostles, and to their successors; and in heaven, all good thing are prepared for the elect. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/122/8",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be47e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 122:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

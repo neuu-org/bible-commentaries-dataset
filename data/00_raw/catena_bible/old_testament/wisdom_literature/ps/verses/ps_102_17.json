@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 102:17",
+  "verse_text": "Verse text for PS 102:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/102/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "18. \"He hath turned Him unto the prayer of the poor destitute, and despised not their desire\" (ver. 17). This is going on now in the building of Sion: the builders of Sion pray, they groan: He is the one poor, because the poor are many; because the thousands among so many nations are one in Him, because He is the unity of the peace of the Church, He is one, He is many: one, through love: many, on account of His extension. Therefore we now pray, we now run: now, if any man hath used to be otherwise, and lived differently, let him eat ashes as it were bread, and mingle his drink with weeping. Now is the time, when Sion is in building: now the stones are entering into the structure: when the building is finished, and the house dedicated, why dost thou run, to ask when too late, to beg in vain, to knock to no purpose, doomed to abide without with the five foolish virgins? Therefore now run.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/102/17",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 102:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

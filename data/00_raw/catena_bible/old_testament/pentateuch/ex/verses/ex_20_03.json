@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 20:3",
+  "verse_text": "Verse text for EX 20:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/20/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Before me, or in my presence. I shall not be content to be adored with idols. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/20/3",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You shall have no other gods before me. Gregory of Nyssa Again, he who says “you shall never worship a strange god” forbids us to worship another god, and the strange god is so called in contradistinction to our own God. Who then is our own God. Clearly, the true God. And who is the strange god. Surely, he who is alien from the nature of the true God. If therefore our own God is the true God, and if, as the heretics say, the onlybegotten God is not of the nature of the true God, he is a strange God and not our God.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/20/3",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52839",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 20:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 116:1",
+  "verse_text": "Verse text for PS 116:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/116/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1. \"I have loved, since the Lord will hear the voice of my prayer\" (ver. 1). Let the soul that is sojourning in absence from the Lord sing thus, let that sheep which had strayed sing thus, let that son who had \"died and returned to life,\" who had \"been lost and was found;\" let our soul sing thus, brethren, and most beloved sons. Let us be taught, and let us abide, and let us sing thus with the Saints: \"I have loved: since the Lord will hear the voice of my prayer.\" Is this a reason for having loved, that the Lord will hear the voice of my prayer? and do we not rather love, because He hath heard, or that He may hear? What then meaneth, \"I have loved, since the Lord will hear\"? Doth he, because hope is wont to inflame love, say that he hath loved, since he hath hoped that God will listen to the voice of his prayer?",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/116/1",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65e5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 116:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

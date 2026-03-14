@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 3:11",
+  "verse_text": "Verse text for NEH 3:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/3/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And every one settled on his own property in their cities: Israel, priests, Levites, Nathinnites, and descendants of the servants of Solomon, and then it adds: And in Jerusalem there settled some of the children of Judah and Benjamin,2 and so on. By these words it is clearly taught that all Israel (i. the ten tribes) were dwelling in their cities, in which even the priests and the Levites used to retain a share decreed to them by the Law. 3 By contrast, those who had been chosen by lot from the tribe of Judah and Benjamin were dwelling in Jerusalem along with some from the priestly and Levitical tribe. For the tribe of Benjamin used to live there from ancient times because that city succeeded to it by lot,4 whereas the tribe of Judah entered there from the time of David when he made it the capital of the whole Israelite kingdom,5 and the tribe of Levi was added to them from the time when the ark of the covenant was brought to that place6 and God's altar and temple built. Consider too the following verses of this book and you will find that it calculates the inhabitants of Jerusalem from these tribes alone and even precisely adds the sum of all of them. 7 But when /1450/ the catalogue of these ends, Scripture still took pains to add in which cities the other part of these same tribes settled, for it goes on:.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/3/11",
+      "full_content_url": "https://catenabible.com/com/58fe876d543064d91d46c3fb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Built. Hebrew, \"repaired the other piece \"or the part of the wall which corresponded with half a division, as in the following ver. 12, 15, 24",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/3/11",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 3:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 24:8",
+  "verse_text": "Verse text for LV 24:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/24/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "The loaves are properly commanded to be changed before the Lord every sabbath day. For surely the loaves that were set out on the table of the Lord through the six days of work are exchanged for new loaves on the sabbath when all the teachers in the holy church, once the time of their holy labor is completed, are rewarded in heaven with eternal peace and leave others behind them in the same work, laboring in the word with the hope of the same reward. And in this way it is brought to pass that the table of the Lord is never left destitute of bread, but as soon as one loaf is taken away another is put in its place, as long as the churches never lack ministers of the word who follow one another in succession. In their words and in their deeds, they always manifest the faith of apostolic piety and the purity of apostolic action, continuing as in that most beautiful verse in which it is said in praise of that same holy church: “Instead of your fathers, sons are born to you; you will make them princes over all the earth. ” In other words, that is as if it were being said to the tabernacle of the Lord: “Instead of your old loaves, new ones are prepared for you; you will designate them for the refreshment of the spiritual hearts of the faithful in all the world.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/24/8",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529ef",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of the The Israelites gave a sufficient maintenance to the ministers of religion, out of which these provided the loaves; as St. Jerome testifies, Malachi as i.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/24/8",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc678",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 24:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

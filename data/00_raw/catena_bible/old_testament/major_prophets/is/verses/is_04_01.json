@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 4:1",
+  "verse_text": "Verse text for IS 4:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/4/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Seven. Many shall sue for a husband, men shall be so scarce. To continue unmarried was reproachful, Deuteronomy vii. 14. (Calmet)\nAfter the conversion of the Gentiles, pastors will be much wanted. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/4/1",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "We read that the Holy Spirit announces in the mouth of Isaiah the number seven: “Seven women took hold of one man.” The one man is Christ, though he was not born through a man’s agency. The seven women are the seven churches, who receive his bread and are clothed with his apparel. They ask that their reproach be taken away and that they are called only by his name. The bread is the Holy Spirit who nourishes eternal life in those who have faith. The garments that they long to wear are the glory of immortality, of which the apostle Paul says, “This corruptible must put on incorruption, and this mortal must put on immortality.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/4/1",
+      "full_content_url": "https://catenabible.com/com/5e4f7f37c849cf49a740e1f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 4:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

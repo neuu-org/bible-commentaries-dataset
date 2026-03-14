@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 11:15",
+  "verse_text": "Verse text for ACTS 11:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/11/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then why did not this happen alone? Of superabundance (ἐ κ περιουσίας) this is wrought by God, that it might be shown that the beginning too was not from the Apostle. But had he set out of his own motion, without any of these things having taken place, they would have been very much hurt: so that from the beginning he disposes their minds in his favor*: saying to them, Who have received the Holy Ghost even as we. And not content with this, he reminds them also of the words of the Lord: Then remembered I the word of the Lord, how that he said, John indeed baptized with water; but you shall be baptized with the Holy Ghost.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/11/15",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "On Re-Baptism (Anonymous)",
+      "period": "AD300",
+      "content": "If, therefore, He gave them a like gift as to us, who believe on the Lord Jesus Christ, who was I, that I could withstand the Lord? \"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/11/15",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae19",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 11:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

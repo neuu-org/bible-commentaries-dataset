@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 2:9",
+  "verse_text": "Verse text for PS 2:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/2/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rule, as a shepherd, (poimaneis) as it is cited Apocalypse ii. 26. But he is speaking of vengeance taken on the rebellious; and we might translate, \"Thou shalt break \"(Calmet)\nYet this is not necessary, as a shepherd sometimes beats with severity, to prevent his sheep from straying. (Haydock)\nThe Church guides also use coercion, but for the good of the flock. (Calmet)\nGod brought the murderers of his Son to an evil end, and destroyed their city. (Haydock)\nHe broke the Gentiles, to make them a more noble vessel, Jeremias xviii. 4. (St. Hilary)\nHe will execute judgment at the last day, Apocalypse xix. 11. (Calmet)\nWhen the clay is still soft, the vessel may easily be repaired; so the sinner may be reclaimed, when he has only just fallen. (St. Jerome)\nEven the most obdurate, are as clay in God's hands. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/2/9",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde4d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 2:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

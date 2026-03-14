@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JL 2:17",
+  "verse_text": "Verse text for JL 2:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jl/2/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let the priests, the ministers of the LORD, weep between the porch and the altar, and let them say, Spare your people, O LORD, and give not your heritage to reproach, that the nations should rule over them: why should they say among the people, Where is their God. Altar of holocausts. They turned towards the holy place, lying prostrate, 1 Esdras x. , and 2 Machabees x. (Calmet) Hither the victim of expiation was brought, and the high priest confessed. (Maimonides) Over them, as they might easily have done during the famine.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jl/2/17",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf3ec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let the priests, the ministers of the LORD, weep between the porch and the altar, and let them say, Spare your people, O LORD, and give not your heritage to reproach, that the nations should rule over them: why should they say among the people, Where is their God. Gregory the Theologian Who will cry aloud, “Spare your people, O Lord, and do not give your heritage to reproach, that the nations should rule over them”. Noah, Job and Daniel stood together as men of prayer. Who will pray for us, that we might have a slight respite from warfare and recover ourselves. In Defense of His Flight to Pontus, Oration.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jl/2/17",
+      "full_content_url": "https://catenabible.com/com/5836709b8a58883142aa6a39",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JL 2:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

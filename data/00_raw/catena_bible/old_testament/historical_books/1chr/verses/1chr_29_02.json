@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 29:2",
+  "verse_text": "Verse text for 1CHR 29:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/29/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "What color the stones were with which the temple was made is openly stated in the book of Paralipomenon when David said to Solomon on showing him the materials of the temple that he had procured, “I have prepared all manner of precious stones and marble of Paros in great abundance.” White marble is called Parian marble because it was produced on the island of that name. Hence the poet writes of it: “[past the] Isle of Olives, and then past snow-white Paros and the Cyclades sprinkled about the sea we sped o’er the waters tossed by many a wind.”",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/29/2",
+      "full_content_url": "https://catenabible.com/com/5e1b64748bc66721fe4ef7af",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Onyx, or \"emeralds. \"(Calmet) Septuagint, \"soom \"form the Hebrew shoham. (Haydock) The dark paint used for the eyes, has the same name, 4 Kings ix. , and Jeremias iv. Yet the stibium or stimmi, or alabaster, mentioned by Pliny, ( xxxiii. ) was of a sliver colour, but not transparent. The stone here specified was probably alabaster, as it was used for the pavement. There is a very fine species at Damascus, and in Arabia, which was much sought after to decorate buildings. (Calmet) Chaldean has \"emeralds. \"Septuagint, \"stones of perfection, rich and various, and every precious stone, and much Parion. \"(Haydock) But Isaias liv. 11, they translate the same term, \"carbuncle. \"(Calmet) The stone might resemble the agate, which is beautifully shaded with clouds and other fanciful figures. (Tirinus) Paros: this is taken from the Septuagint. Hebrew has simply, \"and stones of ssiss. \"(Haydock) Whether it denote the isle of Chio, or that of Chitis, in the Red Sea, the former famous for marble, and the latter for the topaz; or it may refer to Sais, a city of Egypt, which had most beautiful porphyry. (Pliny, xxxvi. , and xxxvii. ) But Paros, one of the Cyclades, was most renowned for its white marble. (Pliny xxxvi. ) Josephus (Jewish Wars vi. ) informs us, that the temple was built of large white marble stones; so that it appeared, at a distance, to be covered with snow.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1chr/29/2",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd782",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 29:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

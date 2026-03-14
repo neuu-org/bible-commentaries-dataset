@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 12:53",
+  "verse_text": "Verse text for LK 12:53",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/12/53",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "And brother from brother, and daughter-in-law from mother-in-law, and a man's foes shall be they of his own house.'",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/12/53",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbe11",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "The father shall be divided against the son, and the son against the father; the mother against the daughter, and the daughter against the mother; the mother-in-law against her daughter-in-law, and the daughter-in-law against her mother-in-law. Tertullian of Carthage He says at last, \"The father shall be divided against the son, and the son against the father; the mother against the daughter, and the daughter against the mother; the mother-in-law against the daughter-in-law, and the daughter-in-law against the mother-in-law.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/12/53",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbe10",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 12:53",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

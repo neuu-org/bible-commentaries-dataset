@@ -1,0 +1,58 @@
+{
+  "verse_reference": "2THES 1:2",
+  "verse_text": "Verse text for 2THES 1:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2thes/1/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "For while I say that similar things are written of the Son as of the Spirit, I am rather proceeding to the following point. My claim is not that because something is written of the Son, therefore it would appear to be reverently written of the Holy Spirit. Rather, I am contending against the argument that because the same is written of the Spirit, therefore the Son’s honor is lessened because of the Spirit. For they say, Is it not written of God the Father? But let them learn that it is also said of God the Father, “In the Lord I will praise the word,” and elsewhere, “In God we will do mighty deeds,” “My remembrance shall be ever in Thee,” and “In Thy name will we rejoice,” and again in another place, “That his deeds may be manifested, that they are wrought in God,” and by Paul, “In God, who created all things,” and again, “Paul and Silvanus and Timothy to the church of the Thessalonians in God the Father and the Lord Jesus Christ.” –.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2thes/1/2",
+      "full_content_url": "https://catenabible.com/com/583bb83d205c248f42e53055",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This blessed man therefore saw how great is the grace of God, and on this account he invokes it upon them. And another thing also he effects, wishing to render them well-disposed to the remaining part of the Epistle; that, though he should reprove and rebuke them, they might not break away from him. For this reason he reminds them before all things of the grace of God, mollifying their hearts, that, even if there be affliction, being reminded of the grace by which they were saved from the greater evil, they may not despair at the less, but may thence derive consolation. As also elsewhere in an Epistle he has said, For if, while we were enemies, we were reconciled to God through the death of His Son, much more, being reconciled, shall we be saved by His life. Romans 5:10",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2thes/1/2",
+      "full_content_url": "https://catenabible.com/com/575f0fc63c6effa740ddddb4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "The blessings he asks are grace, which is the source of all good things: “But by the grace of God I am what I am” (I Cor. 15: 10); and peace, which is our end: for there is peace when desire is totally at rest.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2thes/1/2",
+      "full_content_url": "https://catenabible.com/com/575f0fb43c6effa740dddd4f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2THES 1:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

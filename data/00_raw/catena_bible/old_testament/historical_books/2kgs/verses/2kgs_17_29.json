@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 17:29",
+  "verse_text": "Verse text for 2KGS 17:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/17/29",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh However every nation made gods of their own, and put them in the houses of the high places which the Samaritans had made, every nation in their cities in which they dwelt. This impure service did not deserve a mitigation of the late chastisement. But God often punishes in this world (Haydock) to manifest his glory, (John ix. ) and spares to display his power (Calmet) and goodness. (Haydock) He had sufficiently convinced these nations of his dominion over all.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/17/29",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd506",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 17:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

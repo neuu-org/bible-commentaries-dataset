@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 9:35",
+  "verse_text": "Verse text for LK 9:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/9/35",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And there came a voice out of the cloud, saying, This is my beloved Son: hear him. And a voice This is the voice of the Father from the cloud, as if he should say, \"I call him not one of my sons, but my true and natural Son, to the resemblance of whom all others are adopted. Cyril) Not Elias, not Moses, but he whom you see alone, is my beloved Son. Ambrose) Therefore, it is added: and when the voice was heard, Jesus was alone, lest any one should imagine these words, This is my beloved Son, were addressed to Moses or Elias. \"(Theophylactus).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/9/35",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa98",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Was what he wished to be understood as the meaning of that voice from heaven: \"This is my beloved Son, hear Him\".\n.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/9/35",
+      "full_content_url": "https://catenabible.com/com/5735e130ec4bd7c9723bbd2b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 9:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

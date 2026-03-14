@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 17:9",
+  "verse_text": "Verse text for DT 17:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/17/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Moses does not specify whether the contending parties, or the judges themselves thought proper to have the matter debated before a higher court. The Rabbins observe, that appeals to the Sanhedrim were only the last resort, and that the sentence of that tribunal was to be complied with under pain of death, ver. (Selden, Syned. ) The judge here mentioned, according to them and the generality of commentators, after Josephus, Philo, is no other than the high priest, as the Scripture plainly indicates, chap. , and Ezechiel xliv. He abode near the tabernacle, and God enabled him to explain the law, when he was arrayed with the ephod, and the Urim and Thummim. Some moderns, who have an interest to lessen the authority of the ecclesiastical jurisdiction, with Calvin, Ainsworth, pretend that an appeal was to be made to the priests, in disputes which concerned religion, and to the civil magistrate in other cases, 2 Paralipomenon xix. (Calmet) But an appeal to the high priest, in doubtful cases, could not be denied. The government of the Jews was a theocracy, and the pontiff acted as the vicegerent of God.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/17/9",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9dc",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 17:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

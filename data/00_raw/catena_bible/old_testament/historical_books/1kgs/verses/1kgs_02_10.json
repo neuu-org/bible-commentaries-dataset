@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 2:10",
+  "verse_text": "Verse text for 1KGS 2:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/2/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "By Abel we understand the Christian who cleaves to God, as David says: “It is good for me to adhere to my God,” that is, to attach oneself to heavenly things and to shun the earthly. Elsewhere he says, “My soul has fainted in your word,” thus indicating his rule of life was directed toward reflections on the Word and not on the pleasures of this world. Wherefore we realize that what we read concerning David in the book of Kings is not an idle statement but is said with due weight and reflection: “And he was laid with his fathers.” We are given to understand that his faith was like that of his father’s. It is clear, then, that there is reference here to participation in life and not to the burial of a body.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/2/10",
+      "full_content_url": "https://catenabible.com/com/5e1b66ae8bc66721fe4ef83f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thus died this perfect model of princes, and this great saint, whose only fault, of consequence, was occasioned by Bethsabee: (2 Kings xi. ) and this served to display his repentance. Chrysostom, hom. ) He prefigured Jesus Christ in a wonderful manner; in his birth, at the same city; his election, in preference to his brethren; his persecutions, and subsequent glory. Jesus was, in like manner, betrayed by a false friend, and obliged to go out of Jerusalem, laden with his cross. But he acquired fresh splendour by his sufferings, and purchased a more faithful people. The tomb of David remained for many ages, Acts ii. Josephus says that it contained vast riches: but this seems to be fabulous. Jerome often went to pray at this tomb. ) If it be now unknown, the Holy Spirit has left us a more illustrious monument to the honour of this great man, in the Psalms, and Ecclesiasticus xlvii. (Calmet) We have now only an abridgment of his history, 1 Paralipomenon xxix.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/2/10",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd223",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 2:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

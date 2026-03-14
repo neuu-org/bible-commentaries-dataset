@@ -1,0 +1,47 @@
+{
+  "verse_reference": "SG 8:2",
+  "verse_text": "Verse text for SG 8:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/sg/8/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Song of Songs 8:2 I would lead you, and bring you into my mother's house, who had instructed me: I would cause you to drink of spiced wine of the juice of my pomegranate. house of my mother: that is, into the Church consecrated to the Blessed Virgin, and also into other consecrated holy places, because the Church concedes everything to the honor of the Virgin when she is honored in all churches. (Nicholas of Lyra).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/8/2",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d41",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Teach me economy, on which subject Xenophon represents the newly married entertaining themselves.\nWine. Mark xv. 23., and Osee xiv. 8. Nectar was of this description, (Calmet) being composed of wine, honey, and odoriferous flowers. The best was made at Babylon. (Athen. i. 25., and ii. 2.)\nThese liquors intimate all the virtues, which Christ has taught; the practice of which affords him the greatest satisfaction, John xiv. 23. They are best learnt in retirement, (Calmet) and from our great teacher, Micheas iv. 2. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/sg/8/2",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured SG 8:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

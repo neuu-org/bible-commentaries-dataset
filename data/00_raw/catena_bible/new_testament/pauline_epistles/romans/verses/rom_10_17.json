@@ -1,0 +1,91 @@
+{
+  "verse_reference": "ROM 10:17",
+  "verse_text": "Verse text for ROM 10:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/10/17",
+  "commentary_status": "available",
+  "total_commentaries": 6,
+  "full_content_fetched": 6,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "It is obvious that unless something is said, it can neither be heard nor believed. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/10/17",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e51b4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "\"How then shall they call on Him in whom they have not believed? And how shall they believe on Him whom they have not heard? And how shall they hear without a preacher? And how shall they preach except they be sent? As it is written, How beautiful are the feet of those that publish glad tidings of good things! \"",
+      "commentary_number": "2/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/10/17",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The Jews were forever seeking a sign … but Isaiah promised them no such thing. Rather, it was by hearing that they were to believe.",
+      "commentary_number": "3/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/10/17",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e51b5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "So then faith comes by hearing, and hearing by the word of God. John of Damascus Faith comes by hearing, because when we hear the holy Scriptures we believe in the teaching of the Holy Spirit. This faith is made perfect by all the things which Christ has ordained; it believes truly, it is devout and it keeps the commandments of him who has renewed us. For he who does not believe in accordance with the traditions of the catholic church or who through untoward works holds communion with the devil is without faith.",
+      "commentary_number": "4/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/10/17",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e51b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Shepherd of Hermas",
+      "period": "AD150",
+      "content": "\"\"Because \"he said, \"all the nations that dwell under heaven were called by hearing and believing upon the name of the Son of God.",
+      "commentary_number": "5/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/10/17",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba99",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Whence this outburst of feeling? Surely from the recollection of the Scriptures, which he had been previously turning over, as well as from his contemplation of the mysteries which he had been setting forth above, in relation to the faith of Christ coming from the law.",
+      "commentary_number": "6/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/10/17",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba9b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 10:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

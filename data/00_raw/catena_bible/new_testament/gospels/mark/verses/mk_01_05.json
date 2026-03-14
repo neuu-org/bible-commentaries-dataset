@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 1:5",
+  "verse_text": "Verse text for MK 1:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/1/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "Let us here treat briefly of the different kinds of baptism. Moses baptized, but in water, in the cloud and in the sea; but this he did figuratively. John also baptized, not indeed in the rite of the Jews, not solely in water, but also for the remission of sins; yet not in an entirely spiritual manner, for he had not added: “in the spirit.” Jesus baptized, but in the Spirit; and this is perfection. There is also a fourth baptism, which is wrought by martyrdom and blood, in which Christ himself was also baptized, which is far more venerable than the others, in as much as it is not soiled by repeated contagion. There is yet a fifth, but more laborious, by tears; with which David each night bedewed his bed, washing his couch with tears. Oration , On the Holy Lights.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/1/5",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52c9b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The baptism of John did not so much consist in the forgiveness of sins as in being a baptism of repentance for the remission of sins, that is, for a future remission, which was to follow through the sanctification of Christ.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/1/5",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52c9a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 1:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

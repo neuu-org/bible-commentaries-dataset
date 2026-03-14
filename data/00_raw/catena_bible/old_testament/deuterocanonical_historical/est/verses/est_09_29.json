@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 9:29",
+  "verse_text": "Verse text for EST 9:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/9/29",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Second. The first might be the edict, (chap. viii. 9.) or else the provisional establishment of the festival, as it could not have general authority till it was ratified by the high priest; after which, this second letter was dispatched. (Calmet)\nSeptuagint, \"and queen Esther, daughter of Aminadab.wrote all that they had done, and also the confirmation of the epistle of the Phrourai. \"They should say Phurim, as the former word means \"guards. \"Hebrew, \"wrote with all authority, to confirm this second letter of Purim \"(Protestants; Haydock) or rather, \"this letter, Phurim, of which this is a copy. \"The Roman Septuagint only add for this and the following chapter, to v. 9: \"They set them apart during their lives, and by their advice; (Calmet; Ed. Alex., \"for their health and counsel.\") and Esther established for ever, and wrote as a memorial: My nation \"(Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/9/29",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdb06",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 9:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

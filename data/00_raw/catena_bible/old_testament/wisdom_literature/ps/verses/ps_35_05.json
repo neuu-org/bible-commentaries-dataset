@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 35:5",
+  "verse_text": "Verse text for PS 35:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/35/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Dust. Hebrew mots, small \"chaff \"Psalm i. 4. (Vatable)\nAngel. The evil spirits are employed to punish the wicked, as the good protect the just, Psalm xxxiii. 8. Some Fathers have supposed that every man was attended by a good and a bad angel. (Hermes ii.; Origen xxxv. in Luke; St. Gregory of Nyssa, vit. Mos.; Cassian viii. 17., and xiii. 12.)\nBut the Church admits the power of the wicked spirits only against those who take part with them, or \"as far as God allows them \"(St. Jerome) to tempt. The devil is like a dog chained down, which can bite none but those who come within its reach. (St. Augustine)\nBoth good and bad angels are ministers of God's justice. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/35/5",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdfba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 35:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

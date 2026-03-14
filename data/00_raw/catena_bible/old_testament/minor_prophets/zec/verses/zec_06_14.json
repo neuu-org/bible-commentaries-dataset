@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ZEC 6:14",
+  "verse_text": "Verse text for ZEC 6:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/6/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Helem. Septuagint, \"the crown shall be for those who expect him. \"(Haydock)\nHem. Septuagint, \"for grace. \"Hebrew chen. (St. Jerome)\nThus proper names are frequently interpreted. (Haydock)\nThe crowns were not to be worn, but to be deposited in the temple, 1 Machabees i. 23. (Calmet)\nThe names of those four who had contributed towards their making, were to be inscribed upon them. Helem and Hem are the same with Holdai and Josias. (Menochius)\nThe Jews say Hem or Daniel, and his three companions, brought gifts. (St. Jerome)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/6/14",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf5b6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 6:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 116:12",
+  "verse_text": "Verse text for PS 116:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/116/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. \"What,\" he asketh, \"what reward shall I give unto the Lord, for all the benefits that He hath returned unto me?\" (ver. 12). He saith not, for all the benefits that He hath done unto me but \"for all the benefits that He hath returned unto me.\" What deeds then on the man's Dart had preceded, that all the benefits of God were not said to be given, but returned? What had preceded, on the man's part, save sins? God therefore repayeth good for evil, whilst unto Him men repay evil for good; for such was the return of those who said, \"This is the heir: come, let us kill him.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/116/12",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 116:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

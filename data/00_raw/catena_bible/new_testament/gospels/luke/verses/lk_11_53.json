@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 11:53",
+  "verse_text": "Verse text for LK 11:53",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/11/53",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And the Scribes and the Pharisees began to urge Him vehemently. \"To urge Him vehemently,\" Î´ÎµÎ¹Î½Ï‰ÌƒÏ‚ ÏƒÏ…Î½Î­Ï‡ÎµÎ¹Î½; but the Vulgate has \"to insist,\" as if ÎµÌ‰Î¹Î­Ï‡ÎµÎ¹Î½ \"and to provoke Him to speak of many things,\" Î±Ì‰Ï€Î¿ÏƒÏ„Î¿Î¼Î±Ï„Î¯Î¶ÎµÎ¹Î½, i. to catch something out of His mouth that they might accuse Him—to seek an immediate answer to their crafty questionings, and to confuse Him in His talk. Euthymius and Theophylact. But Maldonatus thinks that Î±Ì‰Ï€Î¿ÏƒÏ„Î¿Î¼Î±Ï„Î¯Î¶ÎµÎ¹Î½ should be rendered \"to shut His mouth,\" i. to put Him to silence. But the Scribes did not wish to silence Christ, but on the contrary to provoke Him to say something against the law or against Caesar, whereof they might accuse Him. They said therefore, Thou hast derided our ceremonies, and broken the tradition of our fathers, v38. Thou hast rebuked us because we tithe mint and rue, v42. Thou hast charged us with loving the uppermost seats, and therefore Thou hast blamed Moses who assigned them to us, v43. Thou hast forbidden us to honour the prophets, v47. Thou hast deprived us of the key of knowledge, which the whole synagogue has committed to our care, v52. Thou desirest therefore to be wiser than Moses, and to overthrow the law, and the ordinances of God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/11/53",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51fcd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And to oppress (i.e. stop) his mouth about many things. Ver. 53. Et os ejus opprimere de multis: apostomatizein auton peri pleionon.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/11/53",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfacc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 11:53",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

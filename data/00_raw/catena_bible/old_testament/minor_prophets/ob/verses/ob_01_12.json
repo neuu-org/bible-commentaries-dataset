@@ -1,0 +1,58 @@
+{
+  "verse_reference": "OB 1:12",
+  "verse_text": "Verse text for OB 1:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ob/1/12",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Preserve, O Lord, your work, guard the gift which you have given even to him who shrank from it. For I knew that I was not worthy to be called a bishop, because I had devoted myself to this world, but by your grace I am what I am. And I am indeed the least of all bishops, and the lowest in merit. Yet since I too have undertaken some labor for your holy church, watch over this fruit. Do not let the one who was lost before you called him to the priesthood be lost when he becomes a priest. And first grant that I may know how with inmost affection to mourn with those who sin; for this is a very great virtue, since it is written, “And you shall not rejoice over the children of Judah in the day of their destruction, and speak not proudly in the day of their trouble. ” Grant that so often as the sin of anyone who has fallen is made known to me I may suffer with him and not chide him proudly but mourn and weep, so that weeping over another I may mourn for myself, saying, “Tamar has been more righteous than I.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ob/1/12",
+      "full_content_url": "https://catenabible.com/com/5839ec83205c248f42e52f85",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thou shalt not look, or thou shouldst not It is a reprehension for what they had done, and at the same time a declaration that these things should not pass unpunished. (Challoner)\nGod admonishes, and at the same time insinuates that the Idumeans would act quite the reverse. (Worthington)\nMagnify. Literally, thou shalt not speak arrogantly against the children of Juda, as insulting them in their distress, (Challoner) like people mocking. When they shall be themselves afflicted, they shall cease to upbraid the Jews. (Calmet)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ob/1/12",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf492",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh But you should not have looked down on the day of your brother in the day that he became a stranger; neither should you have rejoiced over the children of Judah in the day of their destruction; neither should you have spoken proudly in the day of distress. Thou shalt not look: or, thou shouldst not, etc. It is a reprehension for what they had done, and at the same time a declaration that these things should not pass unpunished. Thou shalt not magnify thy mouth: That is, thou shalt not speak arrogantly against the children of Juda as insulting them in their distress.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ob/1/12",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9e8e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured OB 1:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

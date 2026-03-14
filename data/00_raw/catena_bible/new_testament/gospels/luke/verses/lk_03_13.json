@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 3:13",
+  "verse_text": "Verse text for LK 3:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/3/13",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And he said unto them, exact no more than that which is appointed you—in the exaction of taxes. In the Greek it is Ï€Î¶Î¬ÏƒÏƒÎµÏ„Îµ, which can be translated both make and exact, but in this place is more clearly rendered exact as the Syriac and the Greek render it. So Jansenius, Maldonatus, Francis Lucas, and others. For tax-gatherers are wont to increase the tribute out of avarice, and to exact more than is appointed by the Ruler, which is theft or rapine, wherefore John here charges them with it. \"He lays a moderate command on them,\" says S. Augustine (Serm3de Diversis), \"that both iniquity may have no place, and the appointed tribute may have effect\" \"So the Baptist,\" says S. Ambrose, \"gives to each generation of men the answer suitable to them.\" Let the preacher do the same, and prescribe to wives, to husbands, to sons, to maidservants, to menservants, to merchants, farmers and lawyers, what each in particular ought to do, and give each one the directions proper to his state of lif...",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/3/13",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f22",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Do nothing more. You who are military men, exact no more of the people than what is allowed and appointed you. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/3/13",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa23",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "And, besides, even the soldiers and multitude of publicans, who came to hear the word of the Lord about repentance, heard this from the prophet John, after he had baptized them: \"Do nothing more than that which is appointed you.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/3/13",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc2a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 3:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

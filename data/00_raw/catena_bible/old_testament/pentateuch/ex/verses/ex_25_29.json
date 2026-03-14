@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 25:29",
+  "verse_text": "Verse text for EX 25:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/25/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Dishes. (acetabulum.) Properly a vessel to hold vinegar, but used for various purposes.\nBowls, or vials full of wine. (To stat)\nCensers, to contain incense, chap. xxxvii. 16. The first term, karuth, might also mean vessels to contain the flour and oil of which these loaves were made, Numbers vii. 13. The Levites made the bread themselves, (1 Paralipomenon xxii. 29,) and even sowed the corn, and did every thing about it. (St. Jerome in Malachi as i. 7.) The second term, coputh, may denote vessels to keep incense; the third, monkiuth, instruments to clean either the floor or the table All these vessels seem mended to accompany the table of shew-bread.\nCups, used for libations (chap. xxxvii. 16; Numbers iv. 7) of wine, on the sabbath. Kossuth signifies a porringer or dish, like the ancient patera. Whether wine was placed on this table, we cannot determine. But we read of salt, (Calmet) which was to accompany all God's sacrifices, Leviticus ii. 13.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/25/29",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc427",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Libations: That is, drink offerings.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/25/29",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 25:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

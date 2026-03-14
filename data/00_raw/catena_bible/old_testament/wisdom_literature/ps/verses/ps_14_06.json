@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 14:6",
+  "verse_text": "Verse text for PS 14:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/14/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "7. \"For God is in the just generation.\" It refers to what went before, so that the sense is, \"shall not all they that work iniquity know that the Lord is in the just generation;\" that is, He is not in them who love the world. For it is unjust to leave the Maker of the worlds, and \"serve the creature more than the Creator.\" Ye have shamed the counsel of the poor, for the Lord is his hope\" (ver. 6): that is, ye have despised the humble coming of the Son of God, because ye saw not in Him the pomp of the world: that they, whom he was calling, should put their hope in God alone, not in the things that pass away.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/14/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e681f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Man, who wished sincerely to practise his religion, like Daniel Such you have persecuted, and hence God has filled you with alarms, and will punish you. (Calmet)\nSome persevere in justice, amid the general contagion and insults of men. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/14/6",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdeaf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 14:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

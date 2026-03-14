@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 118:13",
+  "verse_text": "Verse text for PS 118:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "7. \"I have been driven on like a heap of sand, so that I was falling, but the Lord upheld me\" (ver. 13). For though there were a great multitude of believers, that might be compared to the countless sand, and brought into one communion as into one heap; yet \"what is man, save Thou be mindful of Him?\" He said not, the multitude of the Gentiles could not surpass the abundance of my host, but, \"the Lord,\" hesaith, \"hath upheld me.\" The persecution of the Gentiles succeeded not in pushing forward, to its overthrow, the host of the faithful dwelling together in the unity of the faith.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/118/13",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65fa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You have thrust hard at me that I might fall: but the LORD helped me. I was very near falling. Hebrew, \"pushing thou hast pushed me that \"(Menochius) \"My sin has strongly pushed me. \"(Chaldean) (Calmet) Those who stick to the Hebrew suppose, that the psalmist addressed the chief of his enemies. But a letter or two may have been added, as St. Jerome, Felix, admit not the second person. Houbigant prefers, \"they have pushed me. \"(Berthier) By God's grace I was prevented from yielding to the force of temptation. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/13",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3ce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

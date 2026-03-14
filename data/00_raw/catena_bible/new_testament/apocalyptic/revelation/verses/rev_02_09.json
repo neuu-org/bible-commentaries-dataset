@@ -1,0 +1,69 @@
+{
+  "verse_reference": "REV 2:9",
+  "verse_text": "Verse text for REV 2:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/2/9",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Jews: \"They profess that they know God, but in works they deny Him.\" For Jew is a name of religion. And so also the Apostle says, \"who is a Jew inwardly, and circumcision is of the heart,\" \"not in the letter.\" <a",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/9",
+      "full_content_url": "https://catenabible.com/com/5862e9b5dd1bb6dd3dba9b88",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "tribulation: Yea, \"Blessed are the poor in spirit, for theirs is the kingdom of heaven.\" Fortunatus has beautifully expressed this in a short verse, saying: \"In narrow realm the poor man reigns possessing God.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/9",
+      "full_content_url": "https://catenabible.com/com/5862e9b5dd1bb6dd3dba9b87",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "For in God's estimation he is not a Jew who is called a Jew among men (nor is he a Gentile that is called a Gentile), but he who, believing in God, fulfils His law and does His will, though he be not circumcised.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/9",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb82d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "For He knows that with such men there are riches hidden with Him, and that they deny the blasphemy of the Jews, who say that they are Jews and are not; but they are the synagogue of Satan, since they are gathered together by Antichrist.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/9",
+      "full_content_url": "https://catenabible.com/com/574f83413c6effa740ddd7d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 2:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

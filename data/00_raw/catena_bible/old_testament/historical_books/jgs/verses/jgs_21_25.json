@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 21:25",
+  "verse_text": "Verse text for JGS 21:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/21/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "After a long time spent in this state of indecision and while I was still busily searching for the cause I have mentioned, there came to my mind the book of Judges, which tells how each man did what was right in his own eyes and gives the reason for this in these words: “In those days there was no king in Israel.” With these words in mind, then, I applied also to the present circumstances that explanation which, incredible and frightening as it may be, is quite truly pertinent when it is understood; for never before has there arisen such discord and quarreling as now among the members of the church in consequence of their turning away from the one, great and true God and only King of the universe. Each person, indeed, abandons the teachings of our Lord Jesus Christ and arrogates to himself authority in dealing with certain questions, making his own private rules and preferring to exercise leadership in opposition to the Lord to being led by the Lord.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/21/25",
+      "full_content_url": "https://catenabible.com/com/5de46f398b87fe0847ee87d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 21:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

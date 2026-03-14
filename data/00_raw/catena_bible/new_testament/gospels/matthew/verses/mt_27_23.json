@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 27:23",
+  "verse_text": "Verse text for MT 27:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/27/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "The Governor said, Why, what evil hath He done? But they cried out the more (vehemently, Ï€ÎµÎ¶Î¹ÏƒÏƒÏ‰ÌƒÏ‚), saying, Let Him be crucified. The more Pilate insisted on His innocence, the more did they clamour for His crucifixion, \"not laying aside their anger, hatred, and blasphemy, but even adding to them\" (Origen). They thus fulfilled the prophecy of Jeremiah ( Jeremiah 12:11), \"Mine heritage (the synagogue) is made unto Me as a lion in the forest; they have uttered their voice against Me;\" and David\"s ( Psalm 22:13), \"They opened their mouth upon Me, as a ravening and a roaring lion;\" and Isaiah\"s ( Isaiah 5:7), \"I looked for judgment, and behold iniquity; and for righteousness, and behold a cry.\" (So S. Jerome.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/27/23",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e00",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Why then did you deliver Him up? Why did you not rescue Him, as the centurion did Paul. Acts xxi For that man too was aware that he would please the Jews; and a sedition had taken place on his account, and a tumult, nevertheless he stood firm against all. But not so this man, but he was extremely unmanly and weak, and all were corrupt together. For neither did this man stand firm against the multitude, nor the multitude against the Jews, and in every way their excuse was taken away. For they cried out exceedingly, that is, cried out the more, Let Him be crucified. For they desired not only to put Him to death, but also that it should be on a charge of wickedness, and though the judge was contradicting them, they continued to cry out the same thing.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/27/23",
+      "full_content_url": "https://catenabible.com/com/57eb0db7b0d44ee10cfac603",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 27:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 147:2",
+  "verse_text": "Verse text for PS 147:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/147/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Who is \"our God,\" that praise should be pleasant to Him. He maketh Himself sweet to us, He commendeth Himself to us; thanks to His condescension. \"But God commendeth His love to us\". \"in that, while we were yet sinners, Christ died for us. Let us see whether it be the commendation whichthe Apostle speaketh of, that Christ died for the sinners and ungodly: \"the Lord who buildeth up Jerusalem, and gathereth the dispersions of Israel\" (ver. For the people of Jerusalem are the people of Israel. It is Jerusalem \"eternal in the heavens,\" whereof theAngels are citizens also. All the citizens then of that city, through \"seeing God,\" rejoice in that great and wide and heavenly city; they gaze upon God Himself. But we are wanderers from that city, driven out by sin, that we should not remain there; weighed down by mortality, that we should not return thither. God looked back on our wandering, and He who \"buildeth up Jerusalem,\" restored the part that had fallen. How restored He the part that bad fallen. He sent then to our captive estate His Son as a Redeemer. Take with Thee, said He, a bag, bear therein the price of the captives. For He put on Him our mortal flesh, and therein was the Blood, by the shedding of which we were to be redeemed. With that Blood He \"gathered the dispersions of Israel. \" And if He gathered them that before were dispersed, how must we strive that they be gathered who now are dispersed. If the dispersed have been gathered, that in the Hand of the Builder they might be fashioned into the building, how should they be gathered who through disquiet have fallen from the Hand of the Builder. Behold whom we praise; behold to whom we owe praise all our life long.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/147/2",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67b8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bruises. God delivered the captives, after chastising them, Deuteronomy xxxii. 39. (Calmet)\nHe gives life to the penitent, as Christ healed the sick, Isaias lxi. 1. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/147/2",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be53f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 147:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

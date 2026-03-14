@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 14:14",
+  "verse_text": "Verse text for ROM 14:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/14/14",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Christ had said: “Not what goes into the mouth defiles a man but what comes out of the mouth—this defiles a man.” This applies to food as well. .",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/14/14",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5321",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Diodorus of Tarsus",
+      "period": "AD390",
+      "content": "This means that nothing is common or unclean when eaten with faith in Christ. .",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/14/14",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e531f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Nothing is unclean of itself. Because the law that made them unclean, is not now binding of itself, yet a man must not act against his conscience, neither must he, when he can avoid it, scandalize or offend the weak: nor cause divisions or dissensions. (Witham)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/14/14",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bff70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Nothing is unclean by nature, but it becomes so by the spirit in which a person uses it.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/14/14",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e5320",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 14:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

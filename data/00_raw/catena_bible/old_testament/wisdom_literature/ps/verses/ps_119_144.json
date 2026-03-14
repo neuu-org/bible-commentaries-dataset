@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:144",
+  "verse_text": "Verse text for PS 119:144",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/144",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "142. \"Thy testimonies are righteousness unto everlasting: O grant me understanding, and I shall live\" (ver. 144). This younger one prayeth for understanding; which if he had not, he would not be \"wiser than the aged;\" but he prayeth for it in trouble and hardships, that he may thereby understand how contemptible is all that his persecuting enemies can take from him, by whom he saith he hath been despised. Therefore he hath said, \"and I shall live:\" because if trouble and heaviness reached such a pitch, that his life should be terminated by the hands of his persecuting enemies, he will live for ever, who preferreth to temporal things, righteousness which remaineth for evermore. This righteousness in trouble and hardship are the Martyria Dei, that is, the testimonies of God, for which Martyrs have been crowned.\n\nKoph.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/144",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6689",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Live. In justice, as thy law enjoins. (Worthington)\nChrist is the life. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/144",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be451",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:144",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 3:4",
+  "verse_text": "Verse text for DT 3:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/3/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And we took all his cities at that time, there was not a city which we took not from them, three score cities, all the region of Argob, the kingdom of Og in Bashan. Hebrew, \"the line \"with which lands were measured, chap. Argob may signify rich and fertile; \"all that fertile region, the kingdom of Og. \"Vatable thinks that Basan, Argob, and Trachonitis, denote the same country. But Cellarius observes, that the last mentioned country was ill cultivated and very poor, the inhabitants living mostly in the caverns of rocks, whereas Argob or Basan was adorned with 60 cities.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/3/4",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc8f7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 3:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

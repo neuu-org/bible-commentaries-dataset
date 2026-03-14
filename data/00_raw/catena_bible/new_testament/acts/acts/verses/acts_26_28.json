@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 26:28",
+  "verse_text": "Verse text for ACTS 26:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/26/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In a little thou persuadest me to become a Christian. According to the common exposition, Agrippa speaks in a jest, and ironically; and as for the words, they are the same as, thou almost persuadest me (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/26/28",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfea7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul did not understand what the phrase ἐ ν ὀλίγῳ meant: he thought it meant ἐ ξ ὀλιγου (i.e. with little cost or trouble), wherefore also he answers (as) to this: so unlearned was he. And he said not, I do not wish (that), but, I pray that not only thou, but also all that hear. Mark how free from flattery his speech is.— I pray that this day they may be all such as I am, except these bonds.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/26/28",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9509",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 26:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

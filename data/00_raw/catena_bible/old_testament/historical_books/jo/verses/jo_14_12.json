@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JO 14:12",
+  "verse_text": "Verse text for JO 14:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jo/14/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now therefore give me this mountain, of which the LORD spoke in that day; for you heard in that day how the Anakim were there, and that the cities were great and fortified: if so be the LORD will be with me, then I shall be able to drive them out, as the LORD said. He trusts not in his own strength, but in the assistance of God, which he modestly acknowledges is not due to him. (Calmet) God's promises are indeed sure on his part; but being conditional, and the will of man being free, he adds perhaps. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jo/14/12",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcbfa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JO 14:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

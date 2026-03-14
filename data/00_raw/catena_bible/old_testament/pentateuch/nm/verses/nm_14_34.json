@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 14:34",
+  "verse_text": "Verse text for NM 14:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/14/34",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "For my part I am afraid to examine the secrets of this mystery, for I see comprehended in it the calculation of sins and punishment. If each sinner is assigned punishment for the sin of one day and according to the number of days he sins must spend so many years in punishment, I fear that perhaps for us who sin daily and spend no day of our life without offense, even ages and ages will not suffice to pay our penalties. In the fact that for forty days of sin those people were afflicted in the desert for forty years and not permitted to enter the holy land, a kind of similarity to the future judgment seems to be evident. At that time the number of sins will have to be calculated, unless perchance there is the balance of good works or of evils which a man has suffered in his life, as Abraham taught concerning Lazarus. However, it is within the power of no one to know these things perfectly, except him to whom “the Father has given all judgment.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/14/34",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52919",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh After the number of the days in which you searched the land, even forty days, each day for a year, shall you bear your iniquities, even forty years, and you shall know my displeasure. Hebrew, \"my breach of promise, or if my threats be vain \"Septuagint, \"you shall know the fury of my anger. \"(Calmet) I will convince you by the severity with which I shall execute this sentence, that you had no reason to distrust my former promises. Jerome (in Ezec. ) entertains hopes of the eternal salvation of many of these Hebrews, who had time to do penance for their sins.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/14/34",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc77b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 14:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

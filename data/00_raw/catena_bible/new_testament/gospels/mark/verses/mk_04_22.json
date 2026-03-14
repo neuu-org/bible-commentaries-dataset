@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 4:22",
+  "verse_text": "Verse text for MK 4:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/4/22",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "For there is nothing hid, which shall not be manifested; neither was anything kept secret, but that it should come into the open. Cornelius a Lapide For there is nothing hid which shall not be made manifest; neither was it made secret, but that it may come abroad. This is the Greek and Latin reading. Although the doctrine of the Gospel and My deeds and words are as yet hidden and secret, I do not wish them always to remain so. At the proper time they must be openly proclaimed by you, 0 My disciples. Jerome and Bede. This is what Christ says in S. x27 , What I say unto you in darkness, that speak ye in light, &c.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/4/22",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e4b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "All my parables, doctrines, and actions, which appear now to you so full of mystery, shall not always be so: in due time they shall all be publicly expounded by you, my apostles, and by your successors. (Tirinus)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/4/22",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf925",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Why does the Lord call us the light of the world? Why has he compared us to a city on a hill? Are we not called to shine in the midst of darkness, and stand up high for those most sunk down? If you hide your lamp beneath a bushel, you will soon notice that you yourself will be in the dark. You will find others bumping into you. So what can you do to illumine the world? Let your faith produce good works. Be a reflection of God’s light. The good is not preoccupied with darkness. It rejoices in being seen. It exults over the very pointings which are made at it. Christian modesty not only wishes to be modest, but also it wishes to be beheld as what it actually is.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/4/22",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52d2c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 4:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

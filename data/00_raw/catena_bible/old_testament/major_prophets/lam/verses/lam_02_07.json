@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 2:7",
+  "verse_text": "Verse text for LAM 2:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/2/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The Lord has cast off his altar, he has abhorred his sanctuary, he has given up into the hand of the enemy the walls of her palaces; they have made a noise in the house of the LORD, as in the day of a solemn feast. Cursed, or suffered it to be polluted, (Worthington) as he looked on it with horror, after it had been profaned by Achaz Towers. Septuagint, \"palaces \"bareon. What a contrast. The temple used to resound with songs of praise and music: the Chaldeans fill it with insolent shouts of victory.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/2/7",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bef77",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Here is described the destruction of edifices inside the temple. First as to religion regarding the altar. For, the altar of holocausts: \"The Lord has scorned his altar\", Namely, handing over the altar for emenies to profane. Second: \"disowned his sanctuary. \" That is, regarding pleasing sacrifices that were formerly offered. As I Maccabees: 4:38 declares: \"And they saw the sanctuary desolate, the altar profaned, and the gates burned. \" Then: \"he has delivered into the hand of the enemy the walls of her palaces\". So, I Maccabees 2:7 states: \"and to dwell there when it was given over to the enemy, the sanctuary given over to aliens. \" Third is indicated the burning of the sanctuary, or temple, by men. As finally Verse 7 says: \"a clamor was raised in the house of the Lord as on the day of an appointed feast. \" Namely, a clamor akin to a blasphemy, or tumult as warlike, that came: \"on the day of an appointed feast. \" Also, like when temple priests were accustomed to praise the Lord God. As the prophet Isaiah 66:6 proclaims: \"Hark an uproar from the city. A voice from the temple. The voice of the Lord, rendering recompense to his enemies.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/2/7",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d83",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 2:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

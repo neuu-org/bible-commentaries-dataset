@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 26:1",
+  "verse_text": "Verse text for ACTS 26:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/26/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "St. Paul having obtained liberty of speaking, stretches out his right hand, disengaged from his cloak. We must recollect that St. Paul still bore his chains about him, those chains in which he gloried; (ver. 26.) it is therefore necessary to suppose that his left hand only was tied; or, what is less likely, that these chains were not so tight nor heavy as to hinder the easy motion of the right. It is observed by Apuleius, that orators in this action closed the two shorter fingers, and had the others extended. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/26/1",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfe9c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "From his great desire to hear, the king permits him to speak. But Paul speaks out immediately with boldness, not flattering, but for this reason saying that he is happy, namely, because (Agrippa) knew all. Then Paul stretched forth the hand, and answered for himself. I think myself happy, king Agrippa, because I shall answer for myself this day before you touching all the things whereof I am accused of the Jews. Especially because I know you to be expert in all questions which are among the Jews: wherefore I beseech you to hear me patiently.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/26/1",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94f4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 26:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

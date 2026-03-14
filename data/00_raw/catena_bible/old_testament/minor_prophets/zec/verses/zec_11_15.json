@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ZEC 11:15",
+  "verse_text": "Verse text for ZEC 11:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/11/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Take unto you yet the implements of a foolish shepherd. A foolish shepherd. This was to represent the foolish, that is, the wicked princes and priests that should rule the people, before their utter desolation. (Challoner) Caligula, Claudius, or Nero, monsters of stupidity, may also be meant. To such the Jews preferred to submit: but they soon found out their mistake, when it was too late. Caligula and Nero would be adored in the temple.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/11/15",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf5f6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "Such is my defense; its reasonableness I have set forth. And may the God of peace, who made both one and has restored us to each other, who sets kings upon thrones and raises up the poor out of the dust and lifts up the beggar from the dunghill, who chose David his servant and took him away from the sheepfolds, though he was the least and youngest of the sons of Jesse, who gave the word to those who preach the gospel with great power for the perfection of the gospel—may he himself hold me by my right hand. [May he] guide me with his counsel and receive me with glory, who is a Shepherd to shepherds and Guide to guides. [May he guide us] that we may feed his flock with knowledge, not with the instruments of a foolish shepherd, according to the blessing, and not according to the curse pronounced against the men of former days. May he give strength and power to his people and himself present to himself his flock resplendent and spotless and worthy of the fold on high, in the habitation of them that rejoice, in the splendor of the saints, so that in his temple everyone, both flock and shepherds together may say, Glory in Christ Jesus our Lord, to whom be all glory forever and ever. In Defense of His Flight to Pontus, Oration.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/11/15",
+      "full_content_url": "https://catenabible.com/com/5838db40205c248f42e52b9e",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "A foolish shepherd: This was to represent the foolish, that is, the wicked princes and priests that should rule the people, before their utter desolation.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/11/15",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 11:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

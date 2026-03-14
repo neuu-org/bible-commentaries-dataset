@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 14:20",
+  "verse_text": "Verse text for ACTS 14:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/14/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For that the spirits of the disciples might not be downcast because they who were accounted gods suffered such treatment, they came in unto them and discoursed. Then on the morrow, etc. And observe, first he goes forth to Derbe, and then comes back to Lystra and Iconium and Antioch,",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/14/20",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b937b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Howbeit as the disciples stood round about him, he rose up and came into the city. (d) Here is fulfilled that saying, My grace is sufficient for you, for My strength is made perfect in weakness. 2 Corinthians 12:9 Greater this than the raising of the lame man! (f) Came into the city. Do you mark the zeal, do you mark how fervent he is, how set on fire! He came into the city itself again: for proof that if on any occasion he did retire, it was because he had sown the word, and because it was not right to inflame their wrath. (h) Then they went over all the cities in which they had been in danger. And on the morrow, it says, he went forth with Barnabas to Derbe. And when they had preached the Gospel to that city, and had taught many, they returned again to Lystra, and to Iconium, and Antioch, confirming the souls of the disciples, and exhorting them to continue in the faith, and that we must through much tribulation enter into the kingdom of God.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/14/20",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9371",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 14:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

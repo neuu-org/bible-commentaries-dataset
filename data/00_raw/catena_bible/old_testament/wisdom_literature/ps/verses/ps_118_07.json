@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 118:7",
+  "verse_text": "Verse text for PS 118:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "3. \"The Lord is my helper; I will not fear what man doeth unto me\" (ver. 6). But are men, then, the only enemies that the Church hath? What is a man devoted to flesh and blood, save flesh and blood? But the Apostle saith, \"We wrestle not against flesh and blood, but against,\" ...he saith, \"spiritual wickedness in high places;\" that is, the devil and his angels; that devil whom elsewhere he calleth \"the prince of the power of the air.\" Hear therefore what followeth: \"The Lord is my helper: therefore shall I despise mine enemies\" (ver. 7). From what class soever my enemies may arise, whether from the number of evil men, or from the number of evil angels; in the Lord's help, unto whom we chant the confession of praise, unto whom we sing Allelujah, they shall be despised.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/118/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65f6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "My helper. Hebrew, \"to me among the helpers \"(Montanus) or most powerful, (Houbigant) and the mover of all, who lend assistance. Jesus Christ prayed with tears, and was heard for his reverence, Hebrews v. 7. We must expect afflictions, (Job xxxiii.) and must have recourse to God.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/7",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3ca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 17:6",
+  "verse_text": "Verse text for 2KGS 17:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/17/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Medes. See chap. xvi. 9. The great maxim and policy of these nations, was to transport the conquered nations to a distant country, in order to prevent any revolts. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/17/6",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd4f6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "At this point it is also appropriate to tell where the Samaritans originated. I say this because the entire region is called Samaria. From what source, then, did they derive this name. The mountain is called Semer from the man who had taken possession of it, as Isaiah also said: “And the head of Samaria, Ephraim. ” The inhabitants, however, were called not Samaritans but Israelites. But as time went on, they transgressed against God, and during the reign of Pekah, Tiglath-pileser went up and seized many cities. After attacking and killing Elah, he gave the kingdom over to Hoshea. Later, Shalmaneser came and captured other cities and made them subject and tributary. However, though Hoshea at first yielded, he revolted afterwards from subjection and took refuge in the aid of the Ethiopians. The Assyrian learned this and, having made an expedition and taken them captive, forbade the nation to remain there any longer, because he suspected the possibility of another such revolt. These inhabitants, moreover, he transported to Babylon and Medea and, having brought from various regions the people dwelling in that vicinity, he caused them to dwell in Samaria so that his power might be safeguarded for the future, with loyal inhabitants in possession of the place. When these things had taken place, God, wishing to show his power and that he had given over the Jews not because of any lack of power on his part but because of the sins of those whom he had surrendered to their enemies, sent lions on the barbarians, and these preyed on the entire nation. This was reported to the king, and he sent a certain priest to give to them the laws of God. Nevertheless, not even then were they freed entirely from their impiety, but only partly. However, as time went on they turned away from idols and worshiped God. When things had reached this point, the Jews, finally returning, showed a contentious spirit toward them as foreigners and enemies and named them “Samaritans” after the mountain.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/2kgs/17/6",
+      "full_content_url": "https://catenabible.com/com/5e1b69a48bc66721fe4ef9f8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 17:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

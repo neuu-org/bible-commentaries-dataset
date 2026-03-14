@@ -1,0 +1,58 @@
+{
+  "verse_reference": "AM 9:13",
+  "verse_text": "Verse text for AM 9:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/9/13",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "the mountains: By mountains here, therefore, he probably refers to the churches of Christ on account of the sublimity of the teachings in them and the excellence of piety towards God, and the fact that while the mountains appear covered in various plants, the churches of Christ have as their heads countless saints, like tall cedars and trees set close to the channels of spiritual water. shall drip sweet wine: Likewise those who are more eminent than the others and better endowed with virtue and understanding collect the sweet honey of teachings on Christ and, as it were, distill it into the hearts of others. and all the hills shall flow with it: The hills being second and of lower ranking in virtue compared with those more conspicuous for it; there are measures of holiness and righteousness in churches, and as Paul says, ‘according to the grace given to each one’ by God, who distributes such things. They will grow together, then he says, luxuriant and fruitful, with a mind richly bedecked with the correctness of divine teachings.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/9/13",
+      "full_content_url": "https://catenabible.com/com/5745e16f3c6effa740ddd4aa",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Shall overtake By this is meant the great abundance of spiritual blessings; which, as it were, by a constant succession, shall enrich the Church of Christ. (Challoner)\nMunster, and his imitator, Clarius, see nothing but an allegory in this abundance and return, ver. 14. Yet the literal sense ought to be adopted, when it involves no contradiction. (Houbigant, pref. p. 297.)\nGod promised a succession of crops to the faithful Israelites, (Leviticus xxvi. 5.) and the return of the ten tribes is frequently specified. (Calmet)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/9/13",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf487",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Shall overtake: By this is meant the great abundance of spiritual blessings; which, as it were, by a constant succession, shall enrich the church of Christ.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/9/13",
+      "full_content_url": "https://catenabible.com/com/587f1dc154b4f95416b2f293",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 9:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

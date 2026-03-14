@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 13:23",
+  "verse_text": "Verse text for DN 13:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/13/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "In the Greek the word is not hairetoteron, or \"better\" [actually: more preferable], but haireton, which we may render by \"good\" [more accurately: \"preferable\"]. And so she chose her words well when she avoided saying, \"It is better for me to fall into the hands of my enemies, the elders, than to sin in the sight of the Lord\"; for thus she avoided calling something better in comparison with sin, which was not a good thing at all. But, she remarks, it is good for me not to do the wicked thing, and to fall into your clutches without sinning in God's sight. (733) Therefore one should not use the comparative and say, \"It is better for me to fall into your (p. 582) clutches than to sin in God's sight,\" but rather the positive, \"It is good for me not to do the wicked thing and fall into your clutches, rather than to commit sin in God's sight.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/13/23",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd384",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 13:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 10:6",
+  "verse_text": "Verse text for LV 10:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/10/6",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Uncover not. Take not off your mitres; (Septuagint) let not your hair grow long, (Chaldean) as the Egyptians do in mourning, nor yet shave your heads, like the priests of Isis. This God forbids, chap. xxi. 5. And Ezechiel, (xliv. 20,) probably with reference to this law, says, Neither shall they shave their heads, nor wear long hair. And no priest shall drink wine when\nGarments, sacred vestments, which were worn only in the tabernacle or temple. (Calmet)\nThe high priests are forbidden to tear their garments at funerals, (chap. xxi. 10,) as this would betray a want of fortitude.\nPerhaps. This does not imply any doubt. (Menochius) See Genesis iii. 3.\nIndignation of God, punishing the people, while there is none to entreat for them.\nBurning of the two priests.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/10/6",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc57d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 10:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

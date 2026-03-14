@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 37:11",
+  "verse_text": "Verse text for PS 37:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/37/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"But the meek shall inherit the land\" (ver. That land is the one of which we have often spoken, the holy Jerusalem, which is to be released from these her pilgrimages, and to live for ever with God, and on God. Therefore, \"They shall inherit the land. \" What shall be their delight. \"And they shall delight themselves in the abundance of peace. \" Let the ungodly man delight himself here in the multitude of his gold, in the multitude of his silver, in the multitude of his slaves, in the multitude, lastly, of his baths, his roses, his intoxicating wines, his most sumptuous and luxurious banquets. Is this the power thou enviest. Is this the glory that delights thee. Would not his fate be worthy to be deplored, even if he were to be so for ever. What shall be thy delights. \" Peace shall be thy gold. Peace shall be thy silver. Peace shall be thy lands. Peace shall be thy life, thy God Peace. Peace shall be to thee whatsoever thou dost desire. On the Second Part of the Psalm.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/37/11",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Meek. Hebrew Hana vim, also means \"the afflicted. \"(Berthier)\nCaptives, ye shall be reinstated in your dear country. Our Saviour alludes to this text, (Matthew v. 4.) and the Fathers beautifully explain it of heaven. (Eusebius; St. Augustine) (Calmet)\nWhat is now become of those who have heretofore filled the world with tumult and bloodshed to obtain dominion! They are confined to the land where everlasting horror and no order dwells. They would wish they had never existed, as our Saviour mentions; while those who passed through life unknown, or despised, but always seeking God, are now arrived at the summit of all their wishes. (Haydock)\nO holy religion! thou explainest all these things. The just have ceased to exist: but their better part has inherited the land of the living. Yet a little while, and all will be in order, and in its proper place; though that of the wicked deserves not the name. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/37/11",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 37:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

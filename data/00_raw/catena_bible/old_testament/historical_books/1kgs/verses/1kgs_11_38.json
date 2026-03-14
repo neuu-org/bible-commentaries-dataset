@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 11:38",
+  "verse_text": "Verse text for 1KGS 11:38",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/11/38",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And it shall be, if you will hearken unto all that I command you, and will walk in my ways, and do what is right in my sight, to keep my statutes and my commandments, as David my servant did; that I will be with you, and build you a sure house, as I built for David, and will give Israel unto you. Faithful house, which shall not be destroyed, nor lose the kingdom, for a long time. Jeroboam never complied with the condition.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/11/38",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd300",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 11:38",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

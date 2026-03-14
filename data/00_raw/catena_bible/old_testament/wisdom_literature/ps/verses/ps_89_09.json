@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 89:9",
+  "verse_text": "Verse text for PS 89:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "For ye have heard, like men accustomed to the watering of the clouds of God, \"Thy truth\" then \"is in the circuit of Thee. \" But when without persecutions, when without opposition, since it is said, that \"He was born for a sign which shall be spoken against\". Since then that nation, where Thou didst deign to be born, and to dwell, was as a land separated from the waves of the heathen, so that it appeared dry and ready for watering with rain, while the rest of the nations were as a sea in the bitterness of their sterility; what do Thy preachers who scatter Thy truth in circuit of Thee, when the waves of that sea rage furiously. \"Thou rulest the power of the sea\" (ver. For what was the result of the sea raging thus, but the day which we are now keeping holy. It slew Martyrs, scattered seeds of blood, the harvest of the Church sprang up. Safely then let the clouds go forth: let them diffuse Thy truth in circuit of Thee, let them not fear the savage waves. \"Thou rulest the power of the sea. \" The sea swells, buffets, and roars: but \"God is faithful, who will not suffer you to be tempted beyond what ye are able:\" and so, \"Thou stillest the waves thereof when they rise.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/89/9",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cdd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Power. Hebrew, \"pride. \"Thou canst raise a storm, or restore a calm. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/89/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be290",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

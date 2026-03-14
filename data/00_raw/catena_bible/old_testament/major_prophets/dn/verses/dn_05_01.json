@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DN 5:1",
+  "verse_text": "Verse text for DN 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "Baltasar: Nabuchodonosor died in 563.Then came his son, Evil Merodach (Man of Marduk). He was assassinated by his brother-in- law General Neriglassdar who had served under Nabuchodonosor when Jerusalem was destroyed. Neriglissar was followed by his son Labashi-Marduk who was murdered nine months later, in 556. The leader of the revolt was Nabonidus (Nabunaid). An objection used to be made about chapter 5: Baltassar is presented as the last king of Babylon before its fall. But we now know that know that Nabonidus in the third year of his reign, 553, made his son Baltassar coregent, and he himself left for Teima in Arabia, where he stayed for about ten years, and never reassumed the throne. So people in Babylon would commonly speak of him as king. We are not sure why he stayed so long -- perhaps better climate for his health, or perhaps religious reasons. (Fr. Most)",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/5/1",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f465",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "He is believed to be the same as Nabonides, the last of the Chaldean kings, grandson to Nabuchodonosor. He is called his son (ver. 2, 11) according to the style of the Scriptures, because he was a descendant from him. (Challoner; St. Jerome in Isaiah xiii. ; Usher) Some think that he was brother of Evilmerodac, ver. , and Baruch i. But he seems rather to have been his son, Jeremias xxvii. Profane authors place Neriglissor and Laborosoarchod between them. They were not of the royal family, and might be looked upon as usurpers, or reigned in some other place; or they did not meddle with the Jews. (Calmet) It is wonderful that Josephus should prefer these authors; (Tirinus) yet he abandons the dates given by them. (Jewish Antiquities x. contra Apion 1. ) They represent Nabonides as a simple Babylonian raised to the throne, defeated by Cyrus, and suffered to retire into Carmania; whereas, Baltassar was slain, ver. (Calmet) The others were of a different lineage, and are mentioned by Eusebius Evilmerodac certainly preceded him on the throne, and honoured Joachin in the 37th year of his captivity. (Worthington) Thousand; or, \"for his officers over a thousand men. \"(Theodotion) Every. Chaldean, \"and drank wine before the thousand \"more than any, for this was deemed a great perfection; or he drank in their presence, but apart. (Calmet) The Persian monarchs used to sit in a separate apartment, with a veil before the door, so that they could see the guests without being seen. A great chandelier was before them; (Athen. ) probably on the outside, otherwise it would have defeated their purpose. Light sufficient would appear for Baltassar to see the hand-writing on his chamber wall, ver. (Haydock) According to the order of time, this chapter should be placed after the vii. (Calmet) But those contain visions.",
+      "commentary_number": "2/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/dn/5/1",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2ca",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "It should be known that this man was not the son of Nebuchadnezzar, as readers commonly imagine; but according to (C) Berosus, who wrote the history of the Chaldeans, and also Josephus, who follows Berosus, after Nebuchadnezzar's reign of forty-three years, a son named Evilmerodach succeeded to his throne. It was concerning this king that Jeremiah wrote that in the first year of his reign he raised the head of Jehoiachin, king of Judah, and took him out of his prison (Jer. Josephus likewise reports that after the death of Evilmerodach, his son [actually his brother-in-law] Neriglissar succeeded to his father's throne; after whom in turn came his son (D) Labosordach, [the cuneiform spelling is Labashi-Marduk]. Upon the latter's death, his son, Belshazzar [note that Jerome is not aware of Belshazzar's father, Nabonidus], obtained the kingdom, and it is of him that the Scripture now makes mention. After he had been killed by Darius, King of the Medes, who was the maternal uncle of Cyrus, King of the Persians, the empire of the Chaldeans was destroyed by Cyrus the Persian. It was these two kingdoms [the Median and the Persian] which Isaiah in chap. 21 addresses as a charioteer of a vehicle drawn by a camel and an ass. Indeed Xenophon also writes the same thing in connection with the childhood of Cyrus the Great; likewise Pompeius Trogus and many others who have written up the history of the barbarians. Some authorities think that this Darius was the Astyages mentioned in the Greek writings, while others think it was Astyages' son, and that he was called by the other name among the barbarians. \"And each one of the princes who had been invited drank in the order of his own age. \" Or else, as other translators have rendered it: \"The king himself was drinking in the presence of all the princes whom he had invited. \" [The latter rendering seems to be the only one justified by the Aramaic original.",
+      "commentary_number": "3/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/dn/5/1",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2d2",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

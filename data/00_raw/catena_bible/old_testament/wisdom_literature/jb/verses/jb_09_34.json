@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JB 9:34",
+  "verse_text": "Verse text for JB 9:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/9/34",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "62. For in the Law God held the rod, in that He said, ‘If any man do this or that, let him die the death.’ But in His Incarnation He removed the rod, in that He shewed the paths of life by mild means. Whence it is said to Him by the Psalmist, Set forward, go forth prosperously and rejoice, because of truth, and meekness, and righteousness. [Ps. 45, 3] For He had no mind to be feared as God, but put it into our hearts that as a Father He should be loved; as Paul clearly delivers; For ye have not received the Spirit of bondage again to fear, but ye have received the Spirit of adoption of sons, whereby we cry, Abba, Father. [Rom. 8, 15]",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/9/34",
+      "full_content_url": "https://catenabible.com/com/57421a163c6effa740ddcf80",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 9:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 24:7",
+  "verse_text": "Verse text for EZ 24:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/24/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For her blood is in the midst of her; she set it upon the top of a rock; she poured it not upon the ground, to cover it with dust; She hath. Septuagint, \"I have let it corrupt upon. I have not\", (ver. ; Haydock) as if God spoke. The Jews had committed murder without fear. They had naturally a horror for blood, and the law ordered even that of beasts to be covered, Leviticus xvii. Now innocent blood cries for vengeance, Genesis iv. The punishment shall be as visible as the crime, ver.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ez/24/7",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bf10b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 24:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

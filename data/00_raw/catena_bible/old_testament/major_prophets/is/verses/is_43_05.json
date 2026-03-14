@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 43:5",
+  "verse_text": "Verse text for IS 43:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/43/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "East. Babylon.\nWest. The islands beyond the Mediterranean.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/43/5",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bead9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Procopius of Gaza",
+      "period": "AD528",
+      "content": "“I will destroy those warring with you on account of the gospel, both people and leaders.” He encourages them in this way. “And your children, which you have sown by God and which you have begotten throughout the world, I will gather to my heavenly city, raising up those airborne, through the air, like birds made light by the winds,” that is, the angelic forces. “I shall raise up your offspring to be my children through their being reborn in the church, and all those called by my name Christians are welcomed.” For Christ prophesied these things through the godly prophet.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/43/5",
+      "full_content_url": "https://catenabible.com/com/5e88f307b1c7280cb341d0a6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 43:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

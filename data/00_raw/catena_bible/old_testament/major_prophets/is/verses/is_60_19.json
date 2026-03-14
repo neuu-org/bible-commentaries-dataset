@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 60:19",
+  "verse_text": "Verse text for IS 60:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/60/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The sun shall be no more your light by day; neither for brightness shall the moon give light unto you: but the LORD shall be unto you an everlasting light, and your God your glory. Thou shalt In this latter part of the chapter, the prophet passes from the illustrious promises made to the Church militant on earth, to the glory of the Church triumphant in heaven. (Challoner) Glory. John seems to have copied this, Apocalypse xviii.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/60/19",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bebbe",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 60:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

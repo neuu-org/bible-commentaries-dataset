@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 5:8",
+  "verse_text": "Verse text for PRV 5:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/5/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Your flight is a good one if your heart does not act out the counsels of sinners and their designs. Your flight is a good one if your eye flees the sight of cups and drinking vessels, so that it may not become envious as it lingers over the wine. Your flight is good if your eye turns away from the woman stranger, so that your tongue may keep the truth. Your flight is a good one if you do not answer the fool according to his folly. Your flight is good if you direct your footsteps away from the countenance of fools. Indeed, one swiftly goes astray with bad guides; but if you wish your flight to be a good one, remove your ways far from their words.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/5/8",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c83f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "We should also be particularly careful of our eyes, for it is better to slip with the feet than with the eyes. The Lord offers a remedy for this weakness, indeed, with curt words: “If your eye scandalizes you, cut it out,” thereby tearing lust up by the roots. Melting glances, and sly looks out of the corner of the eye, which is what is also called winking, are nothing more than adultery with the eyes, since lust operates at a distance through them. The sight sins before the rest of the body does. “The eye, seeing beautiful things, gladdens the heart,” that is, when it knows how to see what is right it gives joy, “but he that winks with the eye deceitfully shall cause men sorrow.” –.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/5/8",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c83ef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 5:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "EX 12:23",
+  "verse_text": "Verse text for EX 12:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/12/23",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "I cull these few flowers in passing from the fair field of the Holy Scriptures. They will suffice to warn you that you must shut the door of your breast and fortify your brow by often making the sign of the cross. Thus alone will the destroyer of Egypt find no place to attack you. Thus alone will the firstborn of your soul escape the fate of the firstborn of the Egyptians. Thus alone will you be able with the prophet to say, “My heart is fixed, O God, my heart is fixed; I will sing and give praise.”",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/12/23",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527ba",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John of Damascus",
+      "period": "AD749",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For the LORD will pass through to smite the Egyptians; and when he sees the blood upon the lintel, and on the two side posts, the LORD will pass over the door, and will not allow the destroyer to come in unto your houses to slay you. John of Damascus This [cross] we have been given as a sign on our forehead, just as Israel was given the circumcision. For by it we faithful are set apart from the infidels and recognized. It is a shield and armor and a trophy against the devil. It is a seal that the destroyer may not strike us, as Scripture says.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/12/23",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527be",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Maximus of Turin",
+      "period": "AD423",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For the LORD will pass through to smite the Egyptians; and when he sees the blood upon the lintel, and on the two side posts, the LORD will pass over the door, and will not allow the destroyer to come in unto your houses to slay you. Maximus of Turin [The Son of God’s] cross is our victory, and his gibbet is our triumph. With joy let us take this sign on our shoulders, let us bear the banners of victory. Let us bear such an imperial banner, indeed, on our foreheads. When the devil sees this sign on our doorposts, he trembles. Those who are not afraid of gilded temples are afraid of the cross, and those who disdain regal scepters and the purple and the banquets of the Caesars stand in fear of the loneliness and the fasts of the Christian.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/12/23",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527bb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 12:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

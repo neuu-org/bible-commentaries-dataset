@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ROM 4:9",
+  "verse_text": "Verse text for ROM 4:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/4/9",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Is this blessedness given to the children of Abraham only or to the Gentiles also? If in those days the Gentiles were not forbidden to come under the law and the promise made to Abraham, how could it be that in the time of Christ they should be prevented from coming to grace, when God has clearly invited them? Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/4/9",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e78",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This blessedness, by which a man's sins are forgiven, and his soul truly justified, was promised, and is given to the uncircumcised Gentiles, as well as to the circumcised Jews, by the faith and grace of Christ; as Abraham was justified, when he was in the state of uncircumcision. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/4/9",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bfefd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul shows that the blessing, far from shunning the uncircumcised, was given to the uncircumcised (i.e., Abraham) before circumcision was instituted.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/4/9",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e79",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 4:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

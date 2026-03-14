@@ -1,0 +1,80 @@
+{
+  "verse_reference": "ACTS 17:23",
+  "verse_text": "Verse text for ACTS 17:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/17/23",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "It may be asked, why they had not implicit faith, worshipping the true, though unknown, God? 1st. because the worship of the true God can never exist with the worship of idols; 2nd. because an explicit faith in God is required of all; 3rd. because it is repugnant to implicit faith, to admit any thing contrary to it, as comparing this unknown God with the pagan idols; for God to be at all, must be one. Lucan towards the end of his 2nd book, hath these words:\n-Et dedita sacris Incerti Judæa Dei.\nWhat, therefore, you improperly worship, that I preach to you, and instruct you in the true worship, far different from what you pay to your strange gods.",
+      "commentary_number": "1/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/17/23",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe2a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "And (Cerinthus alleges) that, after the baptism (of our Lord), Christ in form of a dove came down upon him, from that absolute sovereignty which is above all things. And then, (according to this heretic,) Jesus proceeded to preach the unknown Father,",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/17/23",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae72",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This is why he says, I look upon you as being more religiously disposed, viz. because of the altar. God, he says, that made the world.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/17/23",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9414",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "On which was inscribed, To an Unknown God. The Athenians, namely, as on many occasions they had received gods from foreign parts also— for instance, the temple of Minerva, Pan, and others from different countries— being afraid that there might be some other god not yet known to them, but worshipped elsewhere, for more assurance, forsooth, erected an altar to that god also: and as the god was not known, it was inscribed, To an Unknown God. This God then, he tells them, is Christ; or rather, the God of all. Him declare I unto you. Observe how he shows that they had already received Him, and it is nothing strange, says he, nothing new that I introduce to you. All along, this was what they had been saying: What is this new doctrine spoken of by you. For you bring certain strange matters to our ears. Immediately therefore he removes this surmise of theirs: and then says, God that made the world and all things therein, He being Lord of heaven and earth— for, that they may not imagine Him to be one of many, he presently sets them right on this point; adding, dwells not in temples made with hands.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/17/23",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9407",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Such folly as the Athenians did; for at Athens there was an altar with this inscription: \"To The Unknown Gods.\"",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/17/23",
+      "full_content_url": "https://catenabible.com/com/5735dff1ec4bd7c9723bae71",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 17:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

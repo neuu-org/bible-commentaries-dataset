@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 43:13",
+  "verse_text": "Verse text for IS 43:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/43/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Yea, before the day was I am he; and there is none that can deliver out of my hand: I will work, and who shall hinder it. Cyril of Alexandria “I will act, and who will hinder it. ” For I have accomplished the calling of the nations, he says, that is, I have saved those who were led astray. And who can alter this, or who could change things so that they did not happen. The Savior himself assures us that no one can snatch those who are being saved from the hand of God. “For my sheep hear my voice, and I know them; and they follow me, and I give them eternal life.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/43/13",
+      "full_content_url": "https://catenabible.com/com/5e88f30ab1c7280cb341d0b0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 43:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

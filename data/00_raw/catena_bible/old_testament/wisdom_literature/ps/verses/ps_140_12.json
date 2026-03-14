@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 140:12",
+  "verse_text": "Verse text for PS 140:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/140/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "15. \"I know that the Lord will maintain the right of the needy\" (ver. 12). This \"needy\" one is not \"full of words;\" for he that is full of words, wisheth to abound, knoweth not to hunger. He is \"needy\" of whom it is said, \"Blessed are they which do hunger and thirst after righteousness, for they shall be filled.\" They groan among the stumbling-blocks of the wicked, they pray to their Head, \"to be delivered from the wicked man. \"And the cause of the poor.\" These then are they whose cause the Lord will not neglect; although now they suffer hardships, their glory shall appear, when their Head appeareth. For to such while placed here it is said, \"Ye are dead, and your life is hid with Christ in God.\" So then we are poor, our life is hid; let us cry to Him that is our Bread. ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/140/12",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e676c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I know. Hebrew, \"thou knowest. \"But some copies accurately. (Houbigant)\nPoor. Thus, in the end, was Lazarus treated. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/140/12",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4fa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 140:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

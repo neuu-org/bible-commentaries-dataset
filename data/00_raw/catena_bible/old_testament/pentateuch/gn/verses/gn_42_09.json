@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 42:9",
+  "verse_text": "Verse text for GN 42:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/42/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "They answered and said, “We do not even know the Egyptian language so that, by speaking Egyptian, we might escape notice and deceive the Egyptians. That we dwell in the land of Canaan you can learn from our offering. Moreover, there are twelve of us, and it is impossible that we should all have the same evil purpose of spying. We have come of our own will to stand before you. That we are completely ignorant of the Egyptian language and do not wear the clothing of Egyptians also testifies to our truthfulness. It is clear that we are not spies, for we are twelve. We are recognized everywhere because of our race and our number. “Behold, one of our brothers is with our father and another is no more.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/42/9",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51c65",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "You are spies. This he said by way of examining them, to see what they would answer. (Challoner)\nAquila translates \"vagrants \"going from place to place, as if to discover the weakest parts. Joseph was a person in authority. It was his duty to guard against invasion. He knew how his brethren had treated Sichem, and how they had behaved to himself; and though he might not suppose, that they had any evil design upon Egypt, yet he had a right to make them give an account of themselves. (Haydock)\nHe wished also to extort from them a true account respecting Jacob and Benjamin. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/42/9",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc22b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 42:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "verse_reference": "DN 10:5",
+  "verse_text": "Verse text for DN 10:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/10/5",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Linen. Hebrew baddim.\nFinest. Hebrew uphaz, (Haydock) from Phasis or Ophir.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/10/5",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf322",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "The Hebrew term for this is (E) 'wpz or ophaz [actually pointed as 'uwpaz in the Massoretic Text], a word which Aquila has rendered in this fashion: \"And his loins were girt about with the color of ophax\" [a Greek word which does not otherwise exist].",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/10/5",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd344",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then I lifted up my eyes, and looked, and behold a certain man clothed in linen, whose waist was girded with fine gold of Uphaz: Instead of \"linen,\" as Aquila rendered it, Theodotion simply puts baddim [a mere transcription of the Hebrew word], whereas the Septuagint renders it as byssus [fine linen], and Symmachus as exaireta (choice vestments), (D), that is, \"distinguished clothing\" (praecipua). And instead of what we have rendered as, \"Behold, a man,\" on the basis of the Hebrew text, Symmachus puts, \"One like unto a man,\" inasmuch as he was not actually a man but only had the appearance of one.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/10/5",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd343",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "We must lift up our eyes if we are to be able to discern a mystical vision.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/10/5",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd342",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 10:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

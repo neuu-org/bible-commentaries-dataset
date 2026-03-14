@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 3:16",
+  "verse_text": "Verse text for HEB 3:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/3/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Let us not flatter ourselves with having quitted Egypt by our baptism, unless we also quit that opposition, and that disobedience of our heart to the laws and maxims of the gospel. The Israelites, under the guidance of Moses, left Egypt for the promised land, and after travelling in the desert for the space of two years, found themselves on the confines of the so much desired country; but the possession of it was denied them, and they were left to perish in the desert, because they distrusted God's promises, and were incredulous to his word. All that happened to this chosen people, says St. Paul, was a figure of what was to happen to us. Here then we may read our destiny, if, like them, we prove ungrateful to God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/3/16",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02ce",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For some when they had heard did provoke, howbeit not all that came out of Egypt by Moses: And with whom was He grieved forty years. Was it not with them that had sinned, whose carcasses fell in the wilderness. And to whom swear He that they should not enter into His rest, but to them that believed not. So we see, that they could not enter in because of unbelief. After again repeating the testimony, he adds also the question, which makes the argument clear. For he said (he repeats), Today if you hear His voice, harden not your hearts, as in the provocation. Of whom does he speak (he says) [as] having been hardened. Of whom [as] not believing. Is it not of the Jews. Now what he says is to this effect. They also heard, as we hear: but no profit came to them. Do not suppose then that by hearing what is proclaimed ye will be profited; seeing that they also heard, but derived no benefit because they did not believe. Caleb then and Joshua, because they agreed not with those who did not believe, escaped the vengeance that was sent forth against them. And see how admirably he said, not, They did not agree, but, they were not mixed— that is, they stood apart, but not factiously when all the others had one and the same mind. Here it seems to me that a faction too is hinted at.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/3/16",
+      "full_content_url": "https://catenabible.com/com/57eb1775b0d44ee10cfac7b8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 3:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 26:23",
+  "verse_text": "Verse text for 1SM 26:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/26/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "In the case of David also, we read of both good and bad actions. But where David’s strength lay, and what the secret of his success was, is sufficiently plain, not to the blind malevolence with which Faustus assails holy writings and holy men, but to pious discernment, which bows to the divine authority and at the same time judges human conduct correctly. The Manichaeans will find, if they read the Scriptures, that God rebukes David more than Faustus does. But they will read also of the sacrifice of his penitence, of his surpassing gentleness to his merciless and bloodthirsty enemy, whom David, pious as he was brave, dismissed unhurt when now and again he fell into his hands. They will read of his memorable humility under divine chastisement, when the kingly neck was so bowed under the Master’s yoke, that he bore with perfect patience bitter taunts from his enemy, though he was armed and had armed men with him. And when his companion was enraged at such things being said to the king and was on the point of requiting the insult on the head of the scoffer, he mildly restrained him, appealing to the fear of God in support of his own royal order and saying that this bad happened to him as a punishment from God, who had sent the man to curse him.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/26/23",
+      "full_content_url": "https://catenabible.com/com/5de4687a1f75ae05ba98cf62",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 26:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

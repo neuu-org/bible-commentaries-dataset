@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 15:17",
+  "verse_text": "Verse text for ACTS 15:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/15/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then, what makes his word authoritative— Says the Lord, which does all these things: and, for that this is no new thing, but all was planned from the beginning, Known unto God are all His works from everlasting.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/15/17",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9398",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "If then it was to this end that the city rose again (namely) because of Him (that was to come) of them, it shows that of the building of the city the cause is, the calling of the Gentiles. Who are the residue. those who are then left. And all the Gentiles, upon whom My Name is called: but observe, how he keeps the due order, and brings them in second. Says the Lord, which does these things. Not says (only), but does. Why then, it was God's work. — But the question is other than this (namely), what Peter spoke more plainly, whether they must be circumcised. Then why do you harangue about these matters. For what the objectors asserted, was not that they must not be received upon believing, but that it must be with the Law. And upon this Peter well pleaded: but then, as this very thing above all others troubled the hearers, therefore he sets this to rights again (θεραπεύει). And observe, that which was needful to be enacted as a rule, that it is not necessary to keep the Law, this Peter introduced: but the milder part, the truth which was received of old, this James says, and dwells upon that concerning which nothing is written, in order that having soothed their minds by that which is acknowledged, he may opportunely introduce this likewise. Wherefore, says he, my sentence is, not to trouble them which from among the Gentiles do turn unto God.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/15/17",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b93a8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 15:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 18:23",
+  "verse_text": "Verse text for EZ 18:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/18/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Will. God sincerely wishes that the sinner should be converted. If he refuse grace, it is only in punishment of former transgressions. (St. Augustine, ep. 217.)\nHe wills antecedently their salvation, (1 Timothy ii. 4.) though he has a consequent will to punish them, as they speak in the schools, because they themselves will not be saved. (Sanctius) (Calmet)\nGod's absolute will is always fulfilled, not that which is conditional. (St. John Damascene, Fide ii. 29.; St. Thomas Aquinas, Summa Theologiae p. 1. q. 19. a. 6.)\nHe does enough by offering his graces and the death of Christ, to show that his will is sincere; though by a consequent will his justice punishes the impenitent. Thus a virtuous judge would have all to observe the laws and live: but finding some transgress, so as to become pernicious, he punishes them with death. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ez/18/23",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bf0b7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 18:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

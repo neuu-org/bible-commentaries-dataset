@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 28:13",
+  "verse_text": "Verse text for GN 28:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/28/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thy father, or grandfather. God joins the dead with the living, to show that all live to him, and that the soul is immortal. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/28/13",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc143",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Notice here, I ask you, the extraordinary care of the loving God. When he saw [Jacob] consenting to the journey in accordance with his mother’s advice, which came out of fear of his brother, and taking to the road like some athlete, with no support from any source, leaving everything instead to help from on high, Christ wanted at the very beginning of the journey to strengthen Jacob’s resolve. And so he appeared to him with the words “I am the God of Abraham and the God of your father Isaac.” I have caused the patriarch and your father to experience a great increase in prosperity; so, far from being afraid, believe that I am he who fulfilled my promises and will shower on you my care.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/28/13",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51bb7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 28:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

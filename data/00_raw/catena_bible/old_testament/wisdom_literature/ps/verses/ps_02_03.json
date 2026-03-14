@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 2:3",
+  "verse_text": "Verse text for PS 2:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/2/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let us break their bands asunder, and cast away their cords from us. Augustine of Hippo 2. \"Let us break their bonds asunder, and cast away their yoke from us\" (ver. Although it admits of another acceptation, yet is it more fitly understood as in the person of those who are said to \"meditate vain things. \" So that \"let us break their bonds asunder, and cast away their yoke from us,\" may be, let us do our endeavour, that the Christian religion do not bind us, nor be imposed upon us.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/2/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e647e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let us break their bands asunder, and cast away their cords from us. Let us no longer be subject to the old law, which is abrogated, (St. Augustine) or the enemies of David, and of Christ, encourage one another (Calmet) to subvert their authority, before it be too well established. Protestants still seem to be actuated with the same phrensy; fearing nothing more than the restoration of the Catholic religion persuasion. (Haydock) \"I fear there are more political than religious objectors to emancipation. \"(Nightingale).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/2/3",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bde46",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 2:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

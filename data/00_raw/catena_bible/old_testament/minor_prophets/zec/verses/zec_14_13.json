@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 14:13",
+  "verse_text": "Verse text for ZEC 14:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/14/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "On that day a great panic from the Lord shall fall on them, so that each will seize the hand of a neighbor, and the hand of the one will be fastened to the hand of the other. After peace was restored to the Jews, their Greek enemies and those Jews who had abandoned the religion of their fathers fell into a great distress and panic. And therefore it happened that, as is the habit of those who are confounded, they took each other’s hand and were not able to let their hold go because of their fear. .",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/14/13",
+      "full_content_url": "https://catenabible.com/com/5838db41205c248f42e52bb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And it shall come to pass in that day, that a great panic from the LORD shall be among them; and they shall lay hold everyone on the hand of his neighbor, and his hand shall rise up against the hand of his neighbor. The Church shall be alarmed at these wars, seeing enemies on all sides. But those days shall be shortened, Matthew xxiv. Christians shall assist each other; or rather the nearest relations will persecute them, Matthew x.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/14/13",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf619",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 14:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

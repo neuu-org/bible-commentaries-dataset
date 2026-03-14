@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 119:133",
+  "verse_text": "Verse text for PS 119:133",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/133",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "132. See what the Psalmist next most openly saith: \"Order my steps after Thy word: and so shall no wickedness have dominion over me\" (ver. 133). Where what else doth he say than this, Make me upright and free according to Thy promise. But so much the more as the love of God reigneth in every man, so much the less hath wickedness dominion over him. What else then doth he seek than that by the gift of God he may love God? For by loving God he loveth himself, so that he may healthily love his neighbour also as himself: on which commandments hang all the Law and the Prophets. What then doth he pray, save that God may cause the fulfillment by His help of those commandments which He imposeth by His bidding?",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/133",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e667f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:133",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

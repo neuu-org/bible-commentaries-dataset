@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 3:9",
+  "verse_text": "Verse text for LAM 3:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/3/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Stones. There is no passage, Job xix. 8.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/3/9",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bef8b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "A remedy for an escape from enemies' siege is cut off. So, Verse 7 states: \"He has walled me about so that I cannot excape. \" That is, by the besieging army. \"He has put heavy chains on me. \" This indicates that I (Jeremiah) am besieged just like those persons who are sent to prison and cannot escape. Thus, Psalm 88(87):8 claims: \"I am shut in so that I cannot escape. \" And Job 13:27 says: \"Thou puttest my feet in the stocks, and watchest all my paths. \" Second, is cut off a remedy for escape, due to an exclusion of prayer. For Verse 8 states: \"Though I call and cry for help, he shuts out my prayer. \" And, as Psalm 22(2l):2 says: \"O my God, I cry by day, but thou dost not answer; and by night, but find no rest. \" Third, a remedy for escape is cut off due to a hinderance in counselling. As Verse 9 so expresses: \"He has blocked my ways with hewn stones, he has made my paths crooked\", Namely, he has blocked counsels for escaping: \"with hewn stones\": like to heavy impediments. The prophet Hosea thus claims: \"Therefore I will hedge up her way with thorns; and I will build a wall against her so that she cannot find her paths. \" (Hosea 2:6).",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/3/9",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d95",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 3:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

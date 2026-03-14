@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 30:4",
+  "verse_text": "Verse text for NM 30:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/30/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Girl in age, not 12; or, if more, at least not married, nor out of her father's house, ver. 17. For either of these conditions rendered a girl incapable of binding herself irrevocably. The father, or all who had the care of her, might rescind her vow, provided they did it as soon as it came to their knowledge, or on the same day, ver. 15. Boys under 13, were under similar restrictions. (Grotius)\nWives, and, in general, all who are under subjection, could not dispose of themselves without the consent of their superiors, as their want of prudence, might have otherwise injured what belonged, in some measure, to another. (Haydock)\nThe law, therefore, submits their case to the decision of their immediate judges. (Calmet)\nBut if the thing, which a person vowed, was already of strict obligation, as to fast on the day of expiation, (Leviticus xxiii. 29,) no one could presume to hinder his wife from complying with this double duty. (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/30/4",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc86c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 30:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

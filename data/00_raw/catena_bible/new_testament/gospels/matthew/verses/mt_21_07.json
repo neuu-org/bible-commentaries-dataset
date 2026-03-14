@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 21:7",
+  "verse_text": "Verse text for MT 21:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/21/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sit thereon. Jerome reprobates the opinion of those who suppose that Christ rode upon both the ass and the colt, though without sufficient reason. The Greek indeed, epano auton, upon them, may be referred either to the beasts or to ta imatia, the garments; but the very general sentiment is, that he first sat upon the ass for a short time, and then mounted the colt. It may be asked why Jesus, who through humility had during his whole life travelled on foot, and in no one previous instance is found to have allowed himself the convenience of riding, should on this occasion enter Jerusalem riding. One reason was, as mentioned in note on ver. 4, supra, to fulfil the prophecy of Zarcharias, who had given this mark of the Messias. John (Chrysostom, hom. ) challenges the Jews to show him any other king of theirs, who had entered Jerusalem riding on an ass. Other reasons were, to give a faint specimen of his real kingly dignity before he suffered; to be publicly acknowledged for the Messias; to confirm the faith of his disciples; and to leave his enemies no excuse for their incredulity. On this, as on all other occasions, magnificence is admirably blended with humility, in our Saviour's actions. Even in this his triumph, we cannot help admiring his humility, in riding upon an ass. (Jansenius) The glorious reception he met with from the people, was perfectly voluntary on their parts, the genuine effusions of their hearts, and as such, infinitely superior to the vain and often forced parade bestowed upon earthly princes; and is commemorated in the blessing and distributing of palms in the Catholic Church, on Palm-Sunday, all over the Christian world.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/21/7",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf800",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": ",\n\nLuke and Mark mention only one beast of burden, but Matthew mentions both ass and foal; yet they do not contradict. The mother followed the foal which was led. \"He sat thereon,\" not on the two beasts, but on the clothes. Or, first He sat on the ass and later on the foal, since He first took His rest in the synagogue of the Jews and later among the people of the Gentiles.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/21/7",
+      "full_content_url": "https://catenabible.com/com/58a5ce5154b4f95416b2f75a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 21:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JL 3:10",
+  "verse_text": "Verse text for JL 3:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jl/3/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "Whoever is protected by these weapons is always defended from the enemy’s spears and devastation and will not be led as a captive and a slave, bound in the chains of the ravagers, to the territory of hostile thoughts. Nor will he hear through the prophet, “Why have you grown old in a foreign land. ” But he will live triumphant and victorious in that region of thoughts where he wanted to be. Do you also want to understand the strength and fortitude of this centurion, by which he bears these weapons that we have spoken about and that are not carnal but powerful to God. Listen to the king himself and how he recruits the strong men that he gathers for his spiritual army, marking them and proving them: “Let the weak say,” he says, “that I am strong. ” And, “The one who suffers shall be a fighter. ” You see, then, that the Lord’s battles can be fought only by the suffering and the weak. Indeed, certainly fixed in this weakness, our gospel centurion said with confidence, “When I am weak, then I am strong. ” And again, “Strength is perfected in weakness. ” One of the prophets says about this weakness, “The one who is weak is among them shall be as the house of David. ” The patient sufferer shall also fight these battles with that patience of which it is said, “Patience is necessary for you so that you may do the will of God and receive a reward.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jl/3/10",
+      "full_content_url": "https://catenabible.com/com/5836709b8a58883142aa6a56",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JL 3:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

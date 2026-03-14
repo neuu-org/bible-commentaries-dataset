@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 4:4",
+  "verse_text": "Verse text for ACTS 4:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/4/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Five thousand. Not that hereby is meant the whole number of the believers, but five thousand, by this miracle and preaching, were added to those that believed before. (Witham)\nHere again we remark the visible increase of the Catholic Church, by the preaching of the word.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/4",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd48",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "This again is of God’s ordering. For those who now believe were more numerous than the former. Therefore it was that in their presence they bound the Apostles, to make them also more fearful. But the reverse took place. And they examine them not before the people, but privately, that the hearers may not profit by their boldness.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/4",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabda9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 4:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

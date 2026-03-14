@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 10:42",
+  "verse_text": "Verse text for MK 10:42",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/10/42",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Ye know that they who seem to rule over the Gentiles lord it over them. Gr. ÎºÎ±Ï„Î±ÎºÏ…ÏÎ¹ÎµÏÎ¿Ï…ÏƒÎ¹Î½ Î±Ï…Ì‰Ï„Ï‰ÌƒÎ½, i.e, dominate over them, or against them. For who seem, the Gr. is Î¿Î¯ Î´Î¿ÎºÎ¿Ï…ÌƒÎ½Ï„ÎµÏ‚, i.e, who please themselves, and rejoice in ruling. For none rule more imperiously and harshly than those who are delighted with ruling and commanding. Whence the Arabic translates, they who think themselves princes of the people are their lords, i.e, they exercise, as it were, a tyrannical domination over them.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/42",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e94",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Who seem to rule over the Gentiles See Matthew xx. 25, and Luke xxii. 25. (Witham)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/10/42",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf970",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 10:42",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

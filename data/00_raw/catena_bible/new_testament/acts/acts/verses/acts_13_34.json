@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 13:34",
+  "verse_text": "Verse text for ACTS 13:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/34",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I will give you the holy things of David sure. These are the words of the prophet Isaias, lv. ver. 3. According to the Septuagint the sense is, I will faithfully fulfil the promises I made to David. (Challoner)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/34",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfde9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "I will give you the holy: These are the words of the prophet Isaias, 55. 3. According to the Septuagint, the sense is: I will faithfully fulfil the promises I made to David.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/34",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1f6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

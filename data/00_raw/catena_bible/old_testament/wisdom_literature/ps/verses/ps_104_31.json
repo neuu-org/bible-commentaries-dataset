@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 104:31",
+  "verse_text": "Verse text for PS 104:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/104/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "And see what followeth: \"Thou shalt send forth Thy Spirit, and they shall be made\" (ver. Thou shalt take away their spirit, and send forth Thine own: Thou shalt take away their spirit: they shall have no spirit of their own. Are they then forsaken. \"Blessed are the poor in spirit:\" but they are not forsaken. They refused to have a spirit of their own: they shall have the Spirit of God. Such were our Lord's words to the future martyrs: \"It is not ye that speak, but the Spirit of your Father which speaketh in you. \" Attribute not your courage to yourselves. If it is yours, He saith, and not Mine, it is obstinacy, not courage. \"For we are His workmanship,\" saith the Apostle, \"created unto good works. \" From His Spirit we have received grace, that we may live unto righteousness: for it is He that justifieth the ungodly. \"Thou shalt take away their spirit, and they shall fail; Thou shalt send forth Thy Spirit, and they shall be made: and Thou shalt renew the face of the earth:\" that is, with new men, confessing themselves to have been justified, not righteous of their own power, so that the grace of God is in them. When He hath taken away our spirit, we shall be turned again to our dust, beholding to our edification our weakness, that when we receive His Spirit we may be refreshed. See what followeth: \"Be the glory of the Lord for ever\" (ver. Not thine, not mine, not his, or his; not for a season, but \"for ever. \" \"The Lord shall rejoice in His works. \" Not in thine, as if they were thine: because if thy works are evil, it is through thy iniquity; if good, it is through the grace of God. \"The Lord shall rejoice in His works.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/104/31",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e653f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Works. Seeing that they are good, Genesis i. 31. May all continue to answer the end for which they were created. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/104/31",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be346",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 104:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

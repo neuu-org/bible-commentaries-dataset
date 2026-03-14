@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 16:1",
+  "verse_text": "Verse text for NM 16:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/16/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Isaar was brother of Amram; and, consequently, his son was the cousin of Moses.\nCore engaged the rest in his revolt. Hebrew, \"took or replied \"interrupting Moses at the very time when he was speaking, in the name of God, and requiring that he should shew, by what right he arrogated to himself alone that authority. \"Core separated himself \"Chaldean. \"He retired \"Syriac. \"Core spoke. And Dathan.and they rose up \"Septuagint. The Caathites encamped near the tribe of Ruben; and hence Core had an opportunity to engage some of them in his revolt, by insinuating that Moses occupied the post in the state which ought to belong to them, as Ruben was the first-born; while Aaron had obtained the high priesthood, and the rest of the Levites, though of equal nobility, were to be treated as his servants. It is not known when this revolt happened. Some place it at the camp of Sinai; others at that of Jetebata, Deuteronomy x. 8.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/16/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc78a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 16:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

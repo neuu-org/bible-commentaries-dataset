@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 31:27",
+  "verse_text": "Verse text for PRV 31:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/31/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh She looks well to the ways of her household, and eats not the bread of idleness. Basil the Great Why should we dwell upon the amount of evil there is in idleness, when the apostle clearly prescribes that he who does not work should not eat. As daily sustenance is necessary for everyone, so labor in proportion to one’s strength is also essential. Not vainly has Solomon written in praise: “and she has not eaten her bread idle.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/31/27",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c85ec",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Idle, out of a sense of duty, and not through avarice.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/31/27",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be7a7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 31:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

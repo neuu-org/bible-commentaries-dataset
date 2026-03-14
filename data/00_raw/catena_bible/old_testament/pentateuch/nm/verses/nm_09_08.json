@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 9:8",
+  "verse_text": "Verse text for NM 9:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/9/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "To leave the crowds and return to the tabernacle means to leave the tumult of external things behind and enter the hidden places of the mind. For the Lord is consulted there, and one hears, silently and within, what should be done outside and publicly. Good pastors do this every day. When they do not know how to decide about doubtful matters, they return to the hidden place of the mind as if to some tabernacle. They ponder the divine law, as if they were seeking advice from the Lord at the ark of the covenant. What they first hear silently within, they later make known when they act publicly. To fulfill their external offices without blame, they have recourse unceasingly to the secret places of the heart, and thus they hear the voice of God through his hidden inspiration, as they withdraw from carnal sensations in spiritual meditation. Exposition of the Old and New Testament, Numbers",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/9/8",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e528fb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 9:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

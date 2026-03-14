@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 33:28",
+  "verse_text": "Verse text for DT 33:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/33/28",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Alone, without standing in need of the assistance of any other but God. See Numbers xxiii. 9. (Haydock)\nSome of the ancient Germans would have no communication with any other nation; and they depopulated the country around, to keep all at a distance. (Calmet)\nThe Chinese seem to be at present nearly of the same disposition, as well as those who inhabit Japan\nThe eye of Jacob. His posterity, by whom he sees the transactions of the world. (Haydock)\nHebrew the fountain, is taken in the same sense. The country which his descendants enjoyed, was well watered with springs, Numbers xxiv. 7.\nDew, it will be so abundant. Chaldean, The heavens will drop down dew, chap. xxxii. 2.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/33/28",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb20",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 33:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

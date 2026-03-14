@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 78:70",
+  "verse_text": "Verse text for PS 78:70",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/78/70",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Lastly there followeth, \"and He builded like as of unicorns His sanctification\" (ver. 70): or, as some interpreters have made thereof a new word, \"His sanctifying. :\" The unicorns are rightly understood to be those, whose firm hope is uplifted unto that one thing, concerning which another Psalm saith, \"One thing I have sought of the Lord, this I will require. \" But the sanctifying of God, according to the Apostle Peter, is understood to be a holy people and a royal priesthood. But that which followeth, \"in the land which He founded for everlasting:\" which the Greek copies have eij ton aipna, whether it be called by us \"for everlasting,\" or \"for an age,\" is at the pleasure of the Latin translators; forasmuch as it doth signify either: and therefore the latter is found in some Latin copies, the former in others. Some also have it in the plural, that is, \"for ages:\" which in the Greek copies which we have had we have not found. But which of the faithful would doubt, that the Church, even though, some going, others coming, she doth pass out of this life in mortal manner, is yet founded for everlasting.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/78/70",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c4d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh He chose David also his servant, and took him from the sheepfolds: Young. Hebrew also, \"giving milk. \"David was actually with his father's flocks, when he was sent for by Samuel. Saul was also engaged in the pursuits of a country life when he was chosen king: and it would indeed have been difficult to find people of another description among the Israelites, as all followed some business. Croesus observed that he first of his race (Gyges) obtained his liberty and the throne at the same time, as he had kept the flocks of the preceding king. (Xenophon vii.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/78/70",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be212",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 78:70",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

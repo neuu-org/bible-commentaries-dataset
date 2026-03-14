@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 5:1",
+  "verse_text": "Verse text for LAM 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Remember, O LORD, what is come upon us: consider, and behold our reproach. The prayer This title is not in Hebrew, Septuagint Theodoret has passed over the chapter, as if he doubted of its authenticity. It does not follow the order of Hebrew letters like the preceding, and seems to be a form of prayer for those who retired into Egypt. (Calmet) Jeremias foresees what would happen, and prays as the people would do. (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/5/1",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Here in Chapter 5, the prophet, after many lamentations, addressed himself for a remedy by prayer. So, he first exposes the people's misery, second, he seeks mercy. As expressed in Verse 19: \"But thou, O Lord, dost reign for ever; thy throne endures to all generations.\"\n\nThe first idea (the people's misery) has two aspects. First, the people's misery, in itself is exposed, second, the people's goods that were lost. As said in Verse 14: \"The old men have quit the city gate, the young men their music.\"\n\nAround the first (misery in itself) are two notations. First, in Verse 1 is aroused attention: \"Remember, O Lord, what has befallen us;\". That is, be attentive to our misery itself. And, as said in Chapter 3:19: \"Remember my affliction and my bitterness, the wormwood and the gall!\"\n\nSo, Verse 1 says: \"Remember, O Lord, what has befallen us.\"Which states, as if, hold in attention. Then: \"behold\": with such attention fix your consideration,\"and see our disgrace!\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/5/1",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9dc5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

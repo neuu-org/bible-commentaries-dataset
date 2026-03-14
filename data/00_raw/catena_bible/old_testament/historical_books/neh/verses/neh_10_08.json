@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 10:8",
+  "verse_text": "Verse text for NEH 10:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/10/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And he said to them, 'Go and eat fat food and drink sweet drink, and send portions to him who did not prepare anything for himself, because it is the holy day of the Lord, and do not be saddened'. For it is a holy day of the Lord for us when we take pains to hear and carry out his words. On this day it is proper that, however much outwardly we have endured the obstacles of tribulations, we should be rejoicing in hope,2 in keeping with the Apostle's saying: As if sorrowful, yet always rejoicing. 3 On this day we are commanded also to eat fat food and drink sweet drink - that is, to rejoice over the abundance of good action bestowed on us by God and over the very sweetness of hearing God's word. For sweet drink is wine sweetened with honey, which is why in Greek it is called O'IV6|JEàI. But from this same most healthful feast of our mind we are also instructed to send portions to him who did not prepare anything for himself, namely so that we take care to strengthen the weaker consciences of our neighbors either by the example of pious action or by the sweetness of devout advice, in order that their souls too might, according to the psalmist, be replenished with an abundance of heavenly blessing as though with fat and rich food5 and might praise the Lord's name with exulting lips. Now it behoves us to imitate this passage even in the literal sense, namely so that when on festival days, once our prayer, reading of the psalms, and studies are complete, we arrange to attend to the needs of the flesh with food, we should remember to give a portion also to paupers and pilgrims.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/10/8",
+      "full_content_url": "https://catenabible.com/com/58fe876d543064d91d46c3ea",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Priests. All, at least after Nehemias. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/10/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda4c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 10:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

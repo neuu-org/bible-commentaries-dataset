@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 10:19",
+  "verse_text": "Verse text for ECCL 10:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/10/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Feast. As if they were born for this purpose, (Philippians iii. 19.; Calmet) fruges consumere nati. (Horace, i. ep. 2.)\nMoney.\nScilicet uxorem cum dote fidemque et amicos, Et genus, et formam regina pecunia donet. (Horace, i. ep. 6.)\nHebrew, \"money answers all purposes \"(Haydock) to procure meat, drink (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/10/19",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be842",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Oresiesis-Heru-sa Ast",
+      "period": "AD380",
+      "content": "Let each one do his work without chatting or shouting. Let absolutely no one laugh, so that there will not apply to us the reproach of the Scriptures, “They make bread for laughter.” If someone needs to ask his neighbor a question, he must do so quietly, without shouting.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/10/19",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ef18",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 10:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

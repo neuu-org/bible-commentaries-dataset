@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 30:19",
+  "verse_text": "Verse text for JB 30:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/30/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I am. Hebrew, \"He hath cast me into the mire \"(Protestants) or, \"He regards me as dirt; my portion is on the earth and dust. \"(Haydock)\nAll look upon me with horror and contempt. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/30/19",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdd3d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "60. Since in the judgment of lost sinners the Holy Church of the Elect is ‘likened to mire,’ because it is trodden under and despised in time; it is ‘compared to dust and ashes,’ because while they do not see her interior good things, they calculate that she has been brought to those bad things alone, which they see brought to view in her in the body. But the faithful people of the Elect, while it sees many fall from itself, wishes, if it might obtain this, to have the times of its adversities reversed. Because the prayer of this people is delayed, its groaning is increased.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/30/19",
+      "full_content_url": "https://catenabible.com/com/574392f23c6effa740ddd17e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 30:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

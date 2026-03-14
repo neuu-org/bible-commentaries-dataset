@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 5:3",
+  "verse_text": "Verse text for LAM 5:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/5/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Father. Many had none surviving, and all had lost their king. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/5/3",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befbb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh We are orphans and fatherless, our mothers are as widows. Regarding divine protection Verse 3 declares: \"We have become orphans, fatherless;\". That is, we are destitute of divine direction, like to a paternal consolation. And: \" our mothers are like widows. \" Since definite security is called for. As the prophet Isaiah asserts: \"Therefore the Lord does not rejoice over their young men, and, has not compassion on their fatherless and widows, for everyone is godless and' 'an evil doer, and every mouth speaks folly. \" (Is : 9:17).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/5/3",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9dc7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 5:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

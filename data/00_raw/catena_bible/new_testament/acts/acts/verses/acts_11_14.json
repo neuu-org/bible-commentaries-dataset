@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 11:14",
+  "verse_text": "Verse text for ACTS 11:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/11/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And he does not mention the words spoken by the Angel to Cornelius, Your prayers and your alms have come up for a memorial before God, that he may not disgust them; but what says he? He shall tell you words, whereby thou and all your house shall be saved: with good reason this is added. Also he says nothing of the man's fitness (ἐ πιεικές). The Spirit, he might say, having sent (me), God having commanded, on the one part having summoned (me) through the Angel, on the other urging (me) on, and solving my doubt about the things, what was I to do? He says none of these things, however: but makes his strong point of what happened last, which even in itself was an incontrovertible argument. And as I began to speak, etc.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/11/14",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92dc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 11:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

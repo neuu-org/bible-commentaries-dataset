@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 30:1",
+  "verse_text": "Verse text for GN 30:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/30/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Leah bore Reuben, Simeon, Levi and Judah and then ceased giving birth, whereas Rachel was barren. Because she heard Jacob say that Abraham had prayed over the barren Sarah and was heard and that Isaac had also prayed for Rebekah and was answered, she thought that it was because Jacob had not prayed for her that her closed womb had not been opened. For this reason, she said in anger and in tears, “Give me children, or I shall die. ” Commentary on Genesis.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/30/1",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51bcb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Envied, or desired to have children like her. Thus we may envy the virtues of the saints. (Calmet)\nGive me These words seem to indicate a degree of impatience, at which we need not be surprised, when we reflect, that Rachel had been educated among idolaters. (Menochius)\nDie of grief and shame. \"I shall be considered as one dead. \"(Jun.) St. Chrysostom thinks she threatened to lay violent hands on herself, and through jealousy, spoke in a foolish manner. This passion is capable of the basest actions, (Haydock) and is almost unavoidable where polygamy reigns. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/30/1",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc161",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 30:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

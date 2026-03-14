@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ACTS 22:1",
+  "verse_text": "Verse text for ACTS 22:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/22/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Quam reddo rationem, akousate.tes apologias.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/22/1",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe79",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hear ye the account. In the Greek, to the apology, or defence. (Witham)\nSt. Paul, in this exordium, as also in Acts vii. 2. shows himself not ignorant of the art of pleading. He adds the name of Fathers, supposing there may be some of his hearers of senatorial dignity, and others deserving the title for their rank and age. (Mat. Pol.)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/22/1",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe6a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Mark his address, at once so free from all flattery, and so expressive of meekness. For he says not, Masters, nor Lords, but, Brethren, just the word they most liked: I am no alien from. you, he says, nor against you. Men, he says, brethren, and fathers: this, a term of honor, that of kindred. Hear ye, says he, my— he says not, teaching, nor harangue, but, my defence which I now make unto you. He puts himself in the posture of a suppliant. And when they heard that he spoke in the Hebrew tongue to them, they kept the more silence.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/22/1",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94b6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 22:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

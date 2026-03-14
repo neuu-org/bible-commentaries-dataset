@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 2:15",
+  "verse_text": "Verse text for DN 2:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/2/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cruel. Chaldean also, \"precipitate. \"(Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/2/15",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf281",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh He answered and said to Arioch the king's captain, Why is the decree so hasty from the king. Then Arioch made the thing known to Daniel. Knowing that Daniel and the three youths possessed a knowledge and intelligence tenfold as great as that of all the soothsayers of Chaldea (p. 500) put together, the Chaldeans concealed from them the king's inquiry, lest they should receive preference over them in the matter of interpreting the dream. On this account Daniel inquired concerning the cruelty of the decree, being ignorant of the cause of his own peril.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/2/15",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd27f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 2:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

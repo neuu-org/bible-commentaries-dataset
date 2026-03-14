@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 29:1",
+  "verse_text": "Verse text for DT 29:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/29/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Covenant renewed, and confirmed with an oath, ver. 12. (Menochius)\nHoreb. Thus the speech of Moses is concluded, (Calmet) and consequently this verse should be at the end of the last chapter, as it is placed in the celebrated editions of Michaelis and Houbigant. The latter observes that, beside that covenant, shews, that the curses there recorded, are not by way of explication of those mentioned in the preceding 27th chapter, \"but of a quite different kind. The former are denounced against those who violate the law of the decalogue, which was given at Horeb; neither do they threaten that the chastisements shall be inflicted in this life: the latter maledictions threaten present punishments, and those of a public nature. \"See chap. xxvii. 26. (Haydock)\nJosue put in execution in a more solemn manner, what Moses here describes, (Josue viii. 30,) to intimate that Jesus would give the last finishing to the outlines of the old covenant.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/29/1",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcab2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 29:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

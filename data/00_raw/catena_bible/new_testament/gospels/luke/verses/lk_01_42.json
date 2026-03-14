@@ -1,0 +1,91 @@
+{
+  "verse_reference": "LK 1:42",
+  "verse_text": "Verse text for LK 1:42",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/1/42",
+  "commentary_status": "available",
+  "total_commentaries": 6,
+  "full_content_fetched": 6,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "“Blessed is the fruit of your womb”—since through you we have recovered both the seed of incorruption and the fruit of our heavenly inheritance, which we lost in Adam.",
+      "commentary_number": "1/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/42",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e72b5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "[Elizabeth is attributed] properly with a great voice because she recognized the great gifts of God … [and] she sensed that he whom she knew to be present everywhere was also present bodily there. Indeed, by a “great” voice is not to be understood so much a loud voice as a devoted one. She was not capable of praising the Lord with the devotion of a moderate voice. Being full of the Holy Spirit, she was on fire, harboring in her womb the one than whom no one of those born of woman would be greater. She rejoiced that he had come there—he who, conceived from the flesh of a virgin mother, would be called, and would be, the Son of the Most High.",
+      "commentary_number": "2/6",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/42",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e72b3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And she spake out with a loud vote and said, Blessed art thou among women. Thou art most blessed of all women because thou hast been chosen to be the Mother of God Whom the whole world cannot receive. Blessed is the fruit of thy womb. The fountain of all the blessings and graces bestowed upon the Blessed Virgin by God was to be the mother of God; for God adorned His mother with every grace in order that she might become an habitation worthy of Him, even that she might be worthy to become the Mother of God, and whom would such a Son bless rather than His mother. Elizabeth therefore, by the inspiration of the Spirit knew that Mary had already conceived, and that the Son of God was incarnate in her. And \"He is Blessed, not only as thou art, among women, but, absolutely, above angels, men, and all creatures, as being the Creator and Lord of all. Again the rest of the sons of Eve are all under a curse, because they contract original sin from her and from Adam. Christ alone is Blessed because He is not the natural son of Adam, but was supernaturally conceived in the Virgin by the Holy Ghost. \" She alludes to the prophecy and promise made to David, Of the fruit of thy body shall I set upon thy seat, Psalm 132:2.",
+      "commentary_number": "3/6",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/1/42",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51ee4",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In the same words she is pronounced blessed by Elizabeth, and by the angel Gabriel, both inspired by the Holy Spirit, and this not only to the praise of Jesus, but for his sake, to the praise of Mary, calling her blessed, and her fruit blessed; and thus, as Ven. Bede asserts, holding her up to the veneration of both men and angels.",
+      "commentary_number": "4/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/42",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf9e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "And whence is this to me, that the mother of my Lord should come to me? Blessed art thou among women.\"",
+      "commentary_number": "5/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/42",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbbc5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "\"that it might declare the generation of Him who should be",
+      "commentary_number": "6/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/1/42",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbbc4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 1:42",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

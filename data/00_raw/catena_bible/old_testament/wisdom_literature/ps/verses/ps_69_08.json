@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 69:8",
+  "verse_text": "Verse text for PS 69:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/69/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"An alien I have become to My brethren, and a stranger to the sons of My mother\" (ver. To the sons of the Synagogue He became a stranger. Why did they not acknowledge. Why did they call Him an alien. Why did they dare to say, we know not whence He is. \"Because the zeal of Thine House hath eaten Me up:\" that is, because I have persecuted in them their own iniquities, because I have not patiently borne those whom I have rebuked, because I have sought Thy glory in Thy House, because I have scourged them that in the Temple dealt unseemly: in which place also there is quoted, \"the zeal of Thine House hath eaten Me up. \" Hence an alien, hence a Stranger; hence, we know not whence He is. They would have acknowledged whence I am, if they had acknowledged that which Thou hast commanded. For if I had found them keeping Thy commandments, the zeal of Thine House would not have eaten Me up. \"And the reproaches of men reproaching Thee haven fallen upon Me. \" Of this testimony Paul the Apostle hath also made use (there hath been read but now the very lesson), and saith, \"Whatsoever things aforetime have been written, have been written that we might be instructed. Is the Father reproached, and not Christ Himself. Why have \"the reproaches of men reproaching Thee fallen upon Me\". Because, \"he that hath known Me, hath known the Father also:\" because no one hath reviled Christ without reviling God: because no one honoureth the Father, except he that honoureth the Son also.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/69/8",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6b94",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Mother. This might be true with respect to some apostate Jews. But it was more fully accomplished in Christ, who was betrayed by Judas (Calmet)\nHis own received him not, John i. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/69/8",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be15f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 69:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

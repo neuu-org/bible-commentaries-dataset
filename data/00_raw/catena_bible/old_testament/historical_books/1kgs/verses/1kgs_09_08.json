@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 9:8",
+  "verse_text": "Verse text for 1KGS 9:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/9/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And at this house, which is exalted, every one that passes by it shall be astonished, and shall hiss; and they shall say, Why has the LORD done thus unto this land, and to this house. Hebrew, \"at this house, on high \"(or dedicated \"to the most high \"Paralipomenon) \"every \"(Haydock) It shall be treated with no more regard than the high places of idols. (Calmet) Though at present so much exalted, it shall be reduced to a heap of ruins, (Vatable) and destroyed. (Challoner).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/9/8",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd2c5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 9:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

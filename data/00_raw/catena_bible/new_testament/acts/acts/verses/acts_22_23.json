@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 22:23",
+  "verse_text": "Verse text for ACTS 22:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/22/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Threw off their garments. Or pulling them open to show themselves ready to stone him. (Witham)\nThis is nicely descriptive of the fury of a populace, who, when unable to vent their rage in some more effectual way, indignantly throw into the air, and against the object of their indignation, such harmless trifles as dust, clothes (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/22/23",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe75",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "to make insurrection more fierce, because they wished to frighten the governor. And observe; they do not say what the charge was, as in fact they had nothing to allege, but only think to strike terror by their shouting. The tribune commanded, etc. and yet he ought to have learned from the accusers, wherefore they cried so against him. And as they bound him, etc. And the chief captain was afraid, after he learned that he was a Roman. Why then it was no falsehood. On the morrow, because he would know the certainty wherefore he was accused of the Jews, etc., he brought him down before the council.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/22/23",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b94c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 22:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

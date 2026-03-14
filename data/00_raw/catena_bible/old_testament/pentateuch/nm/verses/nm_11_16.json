@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 11:16",
+  "verse_text": "Verse text for NM 11:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/11/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Seventy men. This was the first institution of the council or senate, called the Sanhedrim, consisting of seventy, or seventy-two senators or counselors. (Challoner)\nCalmet calls this in question. (Dissert. on the Police) Moses chose these senators from among the officers, whom he had before set over the people, (Exodus xviii.) or from those who had superintended their affairs in Egypt, according to the Rabbins, (Exodus iii. 14,) who say that the traditions explaining the law were entrusted to them. (Jar chi)\nAncients; a title of authority in the East. See Genesis l. 7. It was not so necessary that they should be far advanced in year, as that they should be men of prudence and of consummate virtue. These qualifications received a great increase, when they were filled with the spirit of God. (Calmet)\nThey were thus authorized to decide controversies peremptorily, and to consult God, like Moses, being endued also with a prophetic spirit. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/11/16",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc740",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Seventy men: This was the first institution of the council or senate, called the Sanhedrin, consisting of seventy or seventy-two senators or counsellors.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/11/16",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fc1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 11:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

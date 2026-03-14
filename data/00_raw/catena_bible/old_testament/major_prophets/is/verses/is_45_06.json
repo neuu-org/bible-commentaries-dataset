@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 45:6",
+  "verse_text": "Verse text for IS 45:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/45/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The prophets were not denying the Son (God forbid!), but they wished to cure the Jews of their weakness and, meanwhile, to persuade them to give up their belief in the many gods that did not exist. - \"Against the Anomoeans, Homily 5.23\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/45/6",
+      "full_content_url": "https://catenabible.com/com/5e88f320b1c7280cb341d101",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh That they may know from the rising of the sun, and from the west, that there is none besides me. I am the LORD, and there is none else. Tertullian of Carthage And inasmuch as this Son is undivided and inseparable from the Father, so is he to be reckoned as being in the Father, even when he is not named. The fact is, if he had named him expressly, he would have separated him, saying in so many words, “Beside me there is none else, except my Son. ” In short, he would have made his Son actually another, after excepting him from others.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/45/6",
+      "full_content_url": "https://catenabible.com/com/5e88f31fb1c7280cb341d100",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 45:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

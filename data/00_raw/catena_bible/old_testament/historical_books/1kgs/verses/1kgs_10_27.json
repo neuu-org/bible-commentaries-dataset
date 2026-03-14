@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 10:27",
+  "verse_text": "Verse text for 1KGS 10:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/10/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "This means that the knowledge of divine things must be imparted to all nations everywhere through the advent and manifestation of Christ; and Isaiah predicted the coming of Christ in the clearest way by saying, “The earth will be full of the knowledge of the Lord as the waters cover the sea.” The Scripture usually employs the symbol of silver to signify the holy doctrine [of Christ]. Indeed it is a pure, bright and sonorous metal, and its qualities are extraordinarily appropriate to Christ’s gospel. Haggai predicted that the temple of the Lord, which is the church of Christ, must be filled with this kind of silver.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/10/27",
+      "full_content_url": "https://catenabible.com/com/5e1b67548bc66721fe4ef8ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the king made silver to be in Jerusalem as stones, and cedars made he to be as the sycamore trees that are in the lowlands, for abundance. Sycamores, (Hebrew shikmim) which were formerly very common in Palestine, as they are still about Cairo, in Egypt. The fruit resembles figs, as the leaves do the mulberry tree; whence the name is a compound of sukon, \"a fig \"and moria, \"a mulberry \"though some would prefer moros, \"a fool \"to denote that the fruit is \"insipid. \"It is however sweeter than wild figs, and proceeds from the trunk of the tree.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/10/27",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd2e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 10:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

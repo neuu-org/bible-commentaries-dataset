@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PHIL 4:20",
+  "verse_text": "Verse text for PHIL 4:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/4/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Here he makes no distinction [as in :] but prays to both our God and our Father. He calls upon God on account of awe. He calls upon the Father for the sake of honor and because every beginning is from him.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/20",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e53540",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Now unto our God and Father be the glory for ever and ever. Amen. For the glory of which he speaks belongs not only to the Son, but to the Father too, for when the Son is glorified, then is the Father also. For when he said, This is done to the glory of Christ, lest any one should suppose that it is to His glory alone, he continued, Unto our God and Father be the glory, that glory which is paid to the Son.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/4/20",
+      "full_content_url": "https://catenabible.com/com/5755bff93c6effa740dddc17",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 4:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

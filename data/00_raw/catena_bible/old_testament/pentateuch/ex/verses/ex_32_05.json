@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 32:5",
+  "verse_text": "Verse text for EX 32:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/32/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The Lord. The most sacred name of God is prostituted, (Judges xvii. and xviii.; Wisdom xiv. 21,) and an altar is erected to this idol; though some pretend, that Aaron meant God to be adored under this similitude. His weakness was unaccountable, and God would have slain him, had not Moses interceded, Deuteronomy ix. 20. Those who undertake to justify him, enter not into the sentiments of God; and the offender himself pleads no excuse, but the violence of the people, ver. 23. (Salien)\nTo-morrow, when the 40 days expired, and Moses returned arrayed in terrors. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/32/5",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc497",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 32:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

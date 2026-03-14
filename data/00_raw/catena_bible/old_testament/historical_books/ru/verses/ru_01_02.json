@@ -1,0 +1,47 @@
+{
+  "verse_reference": "RU 1:2",
+  "verse_text": "Verse text for RU 1:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ru/1/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehemjudah. And they came into the country of Moab, and continued there. Ephrathites of Bethlehem: Bethlehem and Ephrathah were the same town; but formerly it was called Ephrathah, after Ephrath the wife of Caleb, who was buried there. But it was later called Bethlehem, that is, house of bread, on account of the amazing fertility of the land. (Hugh of St. Cher Com Ruth).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ru/1/2",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9cda",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehemjudah. And they came into the country of Moab, and continued there. Josephus and others read erroneously, Abimelech. He was probably called also Jokim, 1 Paralipomenon iv. Ephrathites. This title often designates people of the tribe of Ephraim; (Judges xii. , and 1 Kings i. 2,) but here it means those of Ephrata, which is also called Bethlehem of Juda, about five or six miles south of Jerusalem, Genesis xxxv. , and Micheas v.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ru/1/2",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce08",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured RU 1:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

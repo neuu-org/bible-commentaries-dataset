@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MI 7:2",
+  "verse_text": "Verse text for MI 7:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/7/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "Cain and Abel followed in the generation of humankind, and Cain was the first murderer. Afterwards a deluge engulfed the earth because of exceeding wickedness of humanity. Fire came down from heaven upon the people of Sodom because of their corruption. Subsequently God chose out Israel, but even Israel became perverse and the chosen race was wounded. For, while Moses stood on the mountain before God, the people worshiped a calf in place of God. In the days of their lawgiver Moses, who said, “You shall not commit adultery,” a man dared to enter a brothel and be wanton. After Moses, prophets were sent to heal Israel, but in their exercise of healing they deplored the fact that they could not overcome evil, so that one of them [Micah] says, “The faithful are gone from the earth, among men the upright are no more. ” The psalmist says, “All alike have gone astray; they have become perverse; there is not one who does good, not even one. ” And again, “Cursing, and theft, and adultery, and killing have overflowed” upon the land. “They sacrificed their sons and daughters to demons. ” They engaged themselves in auguries and enchantments and divinations; and again, “They fastened their garments with cords and hung veils next to the altar.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mi/7/2",
+      "full_content_url": "https://catenabible.com/com/5838db9b205c248f42e52c7f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The godly man has perished out of the earth: and there is none upright among men: they all lie in wait for blood; they hunt every man his brother with a net. Hebrew chasid, (Haydock) \"the pious \"Assidean, 2 Machabees xiv. The disorder of Israel was great, though some were religious. (Calmet) Such expressions only mean that few could be found, and that the far greatest number rejected the prophet's advice. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/7/2",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4fc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 7:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

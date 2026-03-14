@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 138:4",
+  "verse_text": "Verse text for PS 138:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/138/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Let all the kings of the earth confess to Thee, O Lord\" (ver. So shall it be, and so it is, and that daily; and it is shown that it was not said in vain, save that it was future. But neither let them, when they confess to Thee, when they praise Thee, desire earthly things of Thee. For what shall the kings of the earth desire. Have they not already sovereignty. Whatever more a man desire on earth, sovereignty is the highest point of his desire. What more can he desire. It must needs be some loftier eminence. But perhaps the loftier it is, the more dangerous. And therefore the more exalted kings are in earthly eminence, the more ought they to humble themselves before God. What do they do. \"Because they have heard all the words of Thy mouth. \" In a certain nation were hidden the Law and the Prophets, \"all the words of Thy mouth:\" in the Jewish nation alone were \"all the words of Thy mouth,\" the nation which the Apostle praiseth, saying, \"What advantage hath the Jew. Much every way; chiefly because that unto them were committed the oracles of God. \" These were the words of God. What meant Gideon's fleece. It is like the nation of the Jews in the midst of the world, which had the grace of sacraments, not indeed openly manifested, but hidden in a cloud, or in a veil, like the dew in the fleece. The time came when the dew was to be manifested in the floor; it was manifested, no longer hidden. Christ alone is the sweetness of dew: Him alone thou recognisest not in Scripture, for whom Scripture was written. But yet, \"they have heard all the words of thy mouth.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/138/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6747",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh All the kings of the earth shall praise you, O LORD, when they hear the words of your mouth. All kingdoms shall, sooner or later, become acquainted with the gospel. (Worthington) The predictions of Jeremias, had been communicated to the neighbouring princes, (Calmet) and all might know that God had executed his threats and promises. (Haydock) Yet none of them embraced the true religion, soon after the captivity, so that this relates to Christ.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/138/4",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4d6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 138:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

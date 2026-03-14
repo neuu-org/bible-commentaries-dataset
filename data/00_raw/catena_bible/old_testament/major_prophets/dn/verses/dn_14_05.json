@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 14:5",
+  "verse_text": "Verse text for DN 14:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/14/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Who answered and said, Because I may not worship idols made with hands, but the living God, who has created the heaven and the earth, and has sovereignty over all flesh. Athanasius the Apostolic “The Logos,” as John said, “was made flesh. ” Scripture, in fact, has the habit of indicating people with the term “flesh,” as when it says by the mouth of the prophet Joel, “I will pour out my Spirit on all flesh,” and as Daniel said to Astyages, “I do not adore idols made by the hands of people, but the living God, who has created the sky and the earth and has power over all flesh,” for he and Joel identify the flesh with the human race.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/14/5",
+      "full_content_url": "https://catenabible.com/com/5dc249f21cb33762803d3ecc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 14:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 147:5",
+  "verse_text": "Verse text for PS 147:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/147/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Great is our Lord\" (ver. The Psalmist is filled with joy, he hath poured out his words wonderfully: yet somewhat he was unable to speak, and how availed he to think on it. \"And great is His power, and of His understanding is no numbering\" He who \"numbereth the stars,\" Himself cannot be numbered. Who can expound this. who can worthily even imagine what is meant by, \"and of His understanding is no number\". Whatsoever then that is infinite this world containeth, though it be infinite to man, yet is not to God: too little is it to say, to God: even by the angels it is numbered. His understanding surpasses all calculators; it cannot be counted by us. Numbers themselves who numbereth. What than is there with God. wherewith made He all things, and where made He all things, to whom it is said, \"Thou hast arrayed all things in measure, number, and weight\". Or who can number, or measure, or weigh, measure and number and weight themselves, wherein God hath ordered all things. Therefore, \"of His understanding is no number. \" Let human voices be hushed, human thoughts still: let them not stretch themselves out to incomprehensible things, as though they could comprehend them, but as though they were to partake of them, for partakers we shall be. Partakers then we shall be: let none doubt it: Scripture saith it. And of what shall we be partakers, as though these were parts in God, as though God were divided into parts. Who then can explain how many become partakers of one single substance. Require not then that which I think ye see cannot fitly be said: but return to the healing of the Saviour, bruise your heart. He will guide it, He will bind it up where it is broken, He will make it perfectly sound; and then those things will not be impossible with us, which now are impossible. For it is good that he confess weakness, who desireth to attain to the divine nature.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/147/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67bb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ground. As he has done to the Egyptians (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/147/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be542",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 147:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

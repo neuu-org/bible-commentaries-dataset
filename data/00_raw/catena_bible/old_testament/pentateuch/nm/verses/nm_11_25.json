@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 11:25",
+  "verse_text": "Verse text for NM 11:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/11/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "This Spirit descended upon the seventy elders in Moses’ day. My object is to prove that he knew all things and worked according to his will. The seventy elders were chosen: “The Lord then came down in the cloud, and taking some of the spirit that was on Moses, he bestowed it on the seventy elders.” It was not that the Spirit was divided, but his gifts were distributed according to the vessels and the capacity of the recipients. Now there were sixtyeight present, and they prophesied. Eldad and Medad were not present. To make it clear that it was not Moses who bestowed the gift but the Spirit who wrought, Eldad and Medad, who had been called but had not yet presented themselves, also prophesied.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/11/25",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52904",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the LORD came down in a cloud, and spoke unto him, and took some of the spirit that was upon him, and gave it unto the seventy elders: and it came to pass, that, when the spirit rested upon them, they prophesied, and did not cease. Some give a contrary meaning to the Hebrew, with the Septuagint, Syriac: \"They prophesied, (on that occasion) but they did not continue \"to do so; except when they were favoured with the influence of the spirit. When it was requisite, they were enabled to declare God's will and his praise to the people. (Calmet) Saul is said to have prophesied when he praised God, 1 Kings x. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/11/25",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc747",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 11:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

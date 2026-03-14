@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 147:7",
+  "verse_text": "Verse text for PS 147:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/147/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. \"Begin to the Lord in confession\" (ver. 7). Begin with this, if thou wouldest arrive at a clear understanding of the truth. If thou wilt be brought from the road of faith to the profession of the reality, \"begin in confession.\" First accuse thyself: accuse thyself, praise God. What after confession? Let good works follow. \"Sing unto our God upon the harp.\" What is, \"Upon the harp\"? As I have already explained, just like the Psalm upon the psaltery, so also is the \"harp:\" not with voice only, but with works.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/147/7",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67bd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Clouds. This is represented as something wonderful, (Job v. 9., and xxxvii. 6.) though conformable to the laws of nature. The preservation of things is like a new creation. (Calmet)\nAnd the herb Herbam, (Psalm ciii. 14.; Haydock) is now wanting in Hebrew, as it was in the days of St. Jerome and the Chaldean, though the Septuagint, Aquila, read it, and it is not probable that they would borrow it from another psalm. (Berthier)\nTheir copies must therefore have varied. (Haydock)\nThe herb, may denote corn, and all vegetables for food. These productions evince the goodness and wisdom of God, (Berthier) as well as his power. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/147/7",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be544",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 147:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

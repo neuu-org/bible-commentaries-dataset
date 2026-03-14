@@ -53,7 +53,7 @@ except ImportError:
     sys.exit(1)
 
 REPO_ROOT = Path(__file__).parent.parent
-DEFAULT_INPUT = REPO_ROOT / "data" / "01_original" / "catena_bible"
+DEFAULT_INPUT = REPO_ROOT / "data" / "00_raw" / "catena_bible"
 DEFAULT_OUTPUT = REPO_ROOT / "data" / "01_cleaned" / "catena_bible"
 
 # ============================================================================
@@ -318,7 +318,7 @@ def main():
     )
     parser.add_argument(
         "--input", type=Path, default=DEFAULT_INPUT,
-        help="Input directory (default: data/01_original/catena_bible)",
+        help="Input directory (default: data/00_raw/catena_bible)",
     )
     parser.add_argument(
         "--output", type=Path, default=DEFAULT_OUTPUT,

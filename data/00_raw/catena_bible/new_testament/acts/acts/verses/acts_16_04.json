@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 16:4",
+  "verse_text": "Verse text for ACTS 16:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/16/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Here, as well as in the last verse of the former chapter, we see St. Paul ordering the new converts, wherever he went, to receive, as their rule of conduct, the ordinances of the apostles and priests assembled in Jerusalem.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/16/4",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe10",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For until then, there was no need for the Gentiles to keep any such. The beginning of the abrogation was the Gentiles' not keeping these things, and being none the worse for it: nor having any inferiority in respect of faith: anon, of their own will they abandoned the Law. (f) Since therefore he was about to preach, that he might not smite the Jews a double blow, he circumcised Timothy. And yet he was but half (a Jew by birth), his father being a Greek: but yet, because that was a great point carried in the cause of the Gentiles, he did not care for this: for the Word must needs be disseminated: therefore also he with his own hands circumcised him. And so were the churches established in the faith. Do you mark here also how from going counter (to his own object) a great good results? And increased in number daily.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/16/4",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b93c4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 16:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

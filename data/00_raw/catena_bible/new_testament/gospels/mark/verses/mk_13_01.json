@@ -1,0 +1,36 @@
+{
+  "verse_reference": "MK 13:1",
+  "verse_text": "Verse text for MK 13:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/13/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Christ foretelleth the destruction of the temple9 the persecutions for the gospel: 10 that the gospel must be preached to all nations: 14that great calamities shall happen to the Jews: 24and the manner of his coming to judgment: 32the hour whereof being known to none, every man is to watch and pray, that we be not found unprovided, when he cometh to each one, particularly by death.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/1",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51ea3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 13:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

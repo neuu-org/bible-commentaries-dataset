@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EZR 8:21",
+  "verse_text": "Verse text for EZR 8:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/8/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fast it seems for eight days, so that they departed on the 12th, ver. 31. (Menochius)\nIt will not suffice to leave sin, we must also do works of satisfaction. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ezr/8/21",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd9ab",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then I proclaimed a fast there, at the river of Ahava, that we might humble ourselves before our God, to seek of him a right way for us, and for our little ones, and for all our possessions. I proclaimed there a fast: It is not enough to part from Babylon, that is, figuratively from sin, but we must also do works of penance; and therefore Esdras here proclaimed an extraordinary fast to those that were come from captivity. This shews that fasting was commanded and practised from the earliest times.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ezr/8/21",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9cfc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 8:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

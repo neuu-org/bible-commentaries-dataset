@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 50:13",
+  "verse_text": "Verse text for PS 50:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/50/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "20. Why then dost still think of thy flocks? \"Shall I eat the flesh of bulls, or shall I drink the blood of he-goats?\" (ver. 13). Ye have heard what of us He requireth not, who willeth to enjoin us somewhat. If of such things ye were thinking, now withdraw your thoughts from such things: think not to offer God any such thing. If thou hast a fat bull, kill for the poor: let them eat the flesh of bulls, though they shall not drink the blood of he-goats. Which, when thou shalt have done, He will account it to thee, that hath said, \"If I shall be hungry, I will not tell thee:\" and He shall say to thee, \"I was hungry, and thou gavest Me to eat.\" \"Shall I eat the flesh of bulls, or shall I drink the blood of he-goats?\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/50/13",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a88",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Goats? Can any of you be so stupid? (Menochius)\nSome of the pagans believed, that their idols delighted in the smell of victims. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/50/13",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be0a3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 50:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

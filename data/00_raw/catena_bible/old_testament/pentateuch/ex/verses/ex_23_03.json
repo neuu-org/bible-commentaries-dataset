@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 23:3",
+  "verse_text": "Verse text for EX 23:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/23/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Favour. Mercy would then be contrary to justice. (Psalm lxxi. 2; St. Augustine q. 88.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/23/3",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc401",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Neither shall you be partial to a poor man in his cause. “You shall not favor a poor man in his lawsuit,” Scripture says. What therefore is the meaning of these words. “Do not be overcome by pity or unduly influenced if the wrongdoer happens to be a poor man,” it means. And if we must not show favor to the poor man, much more must we not do so for the rich. Moreover, I address these words not only to judges but also to all men, so that justice may nowhere be corrupted but everywhere kept inviolate.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/23/3",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52876",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 23:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JL 2:16",
+  "verse_text": "Verse text for JL 2:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jl/2/16",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Eugippius",
+      "period": "AD533",
+      "content": "He addressed them piously. “Have you not read,” he said, “what divine authority has prescribed to a sinful people through the prophet: ‘Be converted to me with all your heart, in fasting and in weeping,’ and a little later: ‘Sanctify a fast,’ he says, ‘call an assembly, gather the congregation,’ and all that follows? Therefore, fulfill with worthy actions what you teach, that you may perhaps escape the evil of the present time. And let nobody, on any account, go out on his field as if he could ward off the locusts by human effort, lest God’s wrath be provoked even more.” Without delay everybody gathered in the church, and they all, each in his place, recited the psalms, as was the custom. Every age and sex, even those who could not yet speak, offered a prayer to God with tears, alms were given unceasingly, and every good work that the present emergency demanded was carried out as had been prescribed by the servant of God. The Life of St.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jl/2/16",
+      "full_content_url": "https://catenabible.com/com/5836709b8a58883142aa6a37",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sanctify. Let all make themselves ready to appear.\nOnes. Their cries would make an impression on men, and prevail on God to show mercy, Judith iv. 9.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jl/2/16",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf3eb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Leo of Rome",
+      "period": "AD461",
+      "content": "Devout fasting has a very great value for gaining the mercy of God and for strengthening human frailty. We know this from the teaching of holy prophets, dearly beloved. They insist that the arousal of divine justice—which the people of Israel frequently brought upon themselves in punishment for their wickedness—could not be placated except by fasting. Joel the prophet warns us in saying, “The Lord God says these things: ‘Turn to me with all your heart, in fasting, in weeping and in mourning. Rend your hearts, and not your garments. Be converted to the Lord your God, because he is merciful and patient and magnanimous and rich in mercy. ’ ” At another point, the same prophet says, “Make a holy fast, preach healing, call together the people, make holy the assembly. ” This exhortation, dearly beloved, is what we must embrace in our times also. We must of necessity preach the remedy of this healing, so that Christian devotion in the observance of that ancient means for sanctification might acquire what the Jewish transgression lost.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jl/2/16",
+      "full_content_url": "https://catenabible.com/com/5836709b8a58883142aa6a38",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JL 2:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

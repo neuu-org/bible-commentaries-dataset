@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 25:14",
+  "verse_text": "Verse text for PS 25:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/25/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The secret of the LORD is with them that fear him; and he will show them his covenant. Augustine of Hippo 14. \"The Lord is the stay of them that fear Him\" (ver. Fear seems to belong to the weak, but the Lord is the stay of them that fear Him. And the Name of the Lord, which hath been glorified throughout the whole world, is a stay to them that fear Him. \"And His testament, that it may be manifested unto them. \" And He maketh His testament to be manifested unto them, for the Gentiles and the bounds of the earth are Christ's inheritance.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/14",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68df",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The secret of the LORD is with them that fear him; and he will show them his covenant. Firmament, or strong support. (Haydock) Hebrew, \"the secret of the Lord is for them \"He conceals nothing from his friends. (Calmet) Both these senses are good, (Berthier) and the Hebrew words are nearly allied. (Robertson) All who fear God, ought to interest themselves, and pray that he would enlighten the ignorant, and convert sinners. (Berthier) The uncertain and hidden things of thy wisdom thou hast made manifest to me, Psalm l. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/25/14",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf2f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 25:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

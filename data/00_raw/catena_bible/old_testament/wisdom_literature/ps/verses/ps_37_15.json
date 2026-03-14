@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 37:15",
+  "verse_text": "Verse text for PS 37:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/37/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "2. \"The wicked have drawn out the sword, and have bent their bow, to cast down the poor and needy, and to slay such as be of upright heart\" (ver. 14). \"Their weapon shall enter into their own heart\" (ver. 15). It is an easy thing for his weapon, that is, his sword, to reach thy body, even as the sword of the persecutorsreached the body of the Martyrs, but when the body had been smitten, \"the heart\" remained unhurt; but his heart who \"drew out the sword against\" the body of the just did not clearly remain unhurt. This is attested by this very Psalm. It saith, Their weapon, that is, \"Their sword shall,\" not go into their body, but, \"their weapon shall go into their own heart.\" They would fain have slain him in the body. Let them die the death of the soul. For those whose bodies they sought to kill, the Lord hath freed from anxiety, saying, \"Fear not them who kill the body, but cannot kill the soul.\" ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/37/15",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Broken. In the form of imprecation, he foretells the event. (Worthington)\nHebrew is in the future, to imply as much. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/37/15",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 37:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

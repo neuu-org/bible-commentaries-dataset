@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 12:15",
+  "verse_text": "Verse text for 1KGS 12:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/12/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Who can help but tremble at the thought of these judgments of God whereby he accomplishes whatever he pleases even in the hearts of wicked people, while yet rendering to each according to his merits. Solomon’s son, Rehoboam, rejected the salutary counsel of the elders, not to deal harshly with the people, and yielded to the words of men of his own age by replying with threats to those who should have been given a gentle reply. And how did this come about, except by his own will. But as a result of it, the ten tribes of Israel withdrew from him and set up for themselves another king, Jeroboam, that the will of God, who had been angered, might be accomplished, as he had also foretold that it would come to pass. For what does the Scripture say. “And the king condescended not to the people, for the Lord was turned away from him to make good his word, which he had spoken though Ahias, the Silonite, to Jeroboam the son of Nabat. ” All this was certainly done by human will, but in such a way that the “turning way” came from the Lord.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/12/15",
+      "full_content_url": "https://catenabible.com/com/5e1b67d28bc66721fe4ef8fa",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Turned. Hebrew, \"for the cause (revolution) was from the Lord, (Calmet) that he might verify his word. \"(Haydock)\nGod permitted the king to act impudently, and disposed things in such a manner, that the prediction took effect. (Calmet)\nIndeed, the prophet had only spoken, because things would happen. (Haydock)\n\"There are two sorts of persecutors, those who blame, and those who flatter: the tongue of the flatterer persecutes more than the hand of him who kills. \"(St. Augustine in Psalm lxix.) (Du Hamel)\nRoboam fell a prey to his evil counsellors. (Haydock)\nThat, (ver. 16.) denotes the sequel, not the final cause, as chap. xiv. 9. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/12/15",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd30e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 12:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

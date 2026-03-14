@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 89:51",
+  "verse_text": "Verse text for PS 89:51",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/89/51",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Wherewith Thine enemies have blasphemed Thee, O Lord\" (ver. 51), both Jews and Pagans. \"Wherewith they have blasphemed. \" Wherewith have they blasphemed Thee. \"With the change of Thine Anointed. \" They objected that Christ died, and was crucified. Madmen, what is your reproach. Although there is now no one to use it: yet supposing some still remaining that so speak, what is your reproach. that Christ died. He was not destroyed, but changed. He is styled \"dead\" on account of the three days. Wherewith then have thine enemies blasphemed Thee. Not with the loss, not with the perdition of Thine Anointed, but with His \"change. \" He was changed from temporal to eternal life: He was changed from the Jews to the Gentiles; He was changed from earth to heaven. Let then Thy vain enemies blaspheme Thee still for the change of Thine Anointed. Would that they may be changed: they will not in that case blaspheme the change of Christ, which displeases them since they themselves will not be changed. \"For there is no change with them, and they fear not God.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/89/51",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6cfb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wherewith. Or \"because \"quod. (Haydock)\nChange. Hebrew also, \"the supplanting or retardment. \"Why does not your Messias come? How are your kings fallen! though God had promised them an eternal kingdom! Boast no more of his power or veracity. This impious language disturbs me. (Calmet)\nThey deride the ignominious life of the Messias. (Eusebius)\nSedecias had \"exchanged \"the promised crown for irons, which was a cutting reproach. (Berthier)\nChrist appeared to have left his people. (Worthington)\nInfidels objected, that David's piety was ill requited by God, and that the anointed had made a bad exchange; antallagma, Matthew xvi. 26. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/89/51",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2ac",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 89:51",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

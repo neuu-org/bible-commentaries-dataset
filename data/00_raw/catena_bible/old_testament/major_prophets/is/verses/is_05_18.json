@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 5:18",
+  "verse_text": "Verse text for IS 5:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/5/18",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "For each and every person braids a rope for himself in his sins.… Who makes the rope long? Who adds sin to sin? How are sins added to sins? When the sins that have been committed are combined with other sins. He committed a theft; that no one may find out that he committed it, he seeks out an astrologer. It would be enough to have committed the theft; why do you want to join a sin to a sin? Look, two sins. When you are prevented from approaching the astrologer, you blaspheme the bishop. Look, three sins. When you hear, “Send him outside the church,” you say, “I’m taking myself to Donatus’s group.” Look, you add a fourth sin.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/5/18",
+      "full_content_url": "https://catenabible.com/com/5e4f7f3cc849cf49a740e208",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Our Lord shows what reward awaits hypocritical workers when he made a scourge of cords and drove them all out of the temple. They are cast out as sharers of the inheritance of the saints if, after they are chosen to be among the saints, they either perform good acts deceitfully or evil acts openly. He also drives out the sheep and oxen when he shows the life and teaching of such persons deserve condemnation. The cords with which he expelled the wicked persons from the temple by scourging them are the progressive development of [their] evil actions, which provide material to the strict Judge for condemning those who are to be rejected.… The person who heaps sins upon sins, for which he will be condemned more severely, is like one lengthening the cords with which he can be bound and scourged, adding to them little by little.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/5/18",
+      "full_content_url": "https://catenabible.com/com/5e4f7f3cc849cf49a740e209",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cart. Fatiguing themselves with iniquity, (Wisdom v. 7.; Calmet) and delaying your conversion. (St. Isidore) (Menochius)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/5/18",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8fa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 5:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

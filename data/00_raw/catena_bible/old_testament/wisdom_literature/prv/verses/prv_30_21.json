@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PRV 30:21",
+  "verse_text": "Verse text for PRV 30:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/30/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "The shaking (of the earth) signifies the change of things upon earth. —Sin, then, which in its own nature is a slave, has reigned in the mortal body of men: once, indeed, at the time of the flood; and again in the time of the Sodomites, who, not satisfied with what the land yielded, offered violence to strangers; and a third time in the case of hateful Egypt, which, though it obtained in Joseph a man who distributed food to all, that they might not perish of famine, yet did not take well with his prosperity, but persecuted the children of Israel. “The handmaid casting out her mistress:” i. , the Church of the Gentiles, which, though itself a slave and a stranger to the promises, cast out the free-born and lordly synagogue, and became the wife and bride of Christ. By Father, Son, and Holy Spirit, the whole earth is moved. The “fourth it cannot bear:” for He came first by lawgivers, and secondly by prophets, and thirdly by the Gospel, manifesting Himself openly; and in the fourth instance He shall come as the Judge of the living and the dead, whose glory the whole creation will not be able to endure.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/30/21",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac119",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "By three things the earth is moved,” viz., by the Father, the Son, and the Holy Ghost. “And the fourth it cannot bear,” viz., the last appearing of Christ. “When a servant reigneth:” Israel was a slave in Egypt, and in the land of promise became a ruler. “And a fool when he is filled with meat:” i.e., getting the land in possession readily, and eating its fruit, and being filled, it (the people) kicked. “And a handmaid when she casts out her mistress:” i.e., the synagogue which took the life of the Lord, and crucified the flesh of Christ.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/30/21",
+      "full_content_url": "https://catenabible.com/com/57eb0d28b0d44ee10cfac115",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 30:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

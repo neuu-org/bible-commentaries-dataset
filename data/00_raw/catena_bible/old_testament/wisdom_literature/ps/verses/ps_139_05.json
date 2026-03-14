@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 139:5",
+  "verse_text": "Verse text for PS 139:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/139/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Behold Thou, Lord, hast known all my last doings, and the ancient ones\" (ver. Thou hast known my latest doings, when I fed swine; Thou hast known my ancient doings, when I asked of Thee my portion of goods. Ancient doings were the beginnings to me of latest ills: ancient sin, when we fell; latest punishment, when we came into this toilsome and dangerous mortality. And would that this may be \"latest\" to us; it will be, if now we will to return. For there is another \"latest\" for certain wicked ones, to whom it shall be said, \"Go ye into everlasting fire. \"Thou hast fashioned me,and hast laid Thine hand upon me. \" \"Fashioned me,\" where. In this mortality; now, to the toils whereunto we all are born. For none is born, but God has fashioned him in his mother's womb; nor is there any creature, whereof God is not the Fashioner. But \"Thou hast fashioned me\" in this toil, \"and laid Thine hand upon me,\" Thine avenging hand, putting down the proud. For thus healthfully hath He cast down the proud, that He may lift him up humble.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/139/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6750",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Last. Hebrew, \"what are behind and before: \"or, joining it with the sequel, \"thou hast formed behind\", which seems not so noble. (Berthier)\nSee Job x. 18.\nChaldean, \"thou hast afflicted me before and behind, and hast stricken me with thy hand. \"Hence the Rabbins have ridiculously inferred that God reduced the extraordinary size of Adam after his sin to 100 cubits! The sense of the Chaldean may be adopted, though the hand upon me, in Hebrew, may also signify the divine protection, Psalm lxxix. 18. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/139/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4de",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 139:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

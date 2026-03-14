@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 4:41",
+  "verse_text": "Verse text for DT 4:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/4/41",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Then This piece of history seems to be placed out of its natural order, by another hand. (Calmet)\nYet if we attend to the method of Moses, in his other works, we shall not hastily conclude that it is an interpolation. He frequently repeats what has been already specified. He had received an order from God to appoint these three cities of refuge, (Numbers xxxv. 14,) after he had given the land to the tribes of Ruben, Numbers xxxii. This he executes at the conclusion of this discourse; and hence takes occasion to mention how they had taken possession of this country. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/4/41",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc920",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 4:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

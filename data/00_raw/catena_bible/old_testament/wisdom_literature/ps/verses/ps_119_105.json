@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:105",
+  "verse_text": "Verse text for PS 119:105",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/105",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Thy word is a lantern unto my feet, and a light unto my paths\" (ver. The word \"lantern\" appears in the word \"light;\" \"my feet\" are also repeated in \"my paths. \" What then meaneth \"Thy Word\". Is it He who was in the beginning God with God, that is, the Word by whom all things were made. It is not thus. For that Word is a light, but is not a lantern. For a lantern is a creature, not a creator; and it is lighted by participation of an unchangeable light. For no creature, howsoever rational and intellectual, is lighted by itself, but is lighted by participation of eternal Truth: although sometimes day is spoken of, not meaning the Lord, but that \"day which the Lord hath made,\" and on account of which it is said, \"Come unto Him, and be lightened. \" On account of which participation, inasmuch as the Mediator Himself became Man, He is styled lantern in the Apocalypse. But this sense is a solitary one; for it cannot be divinely spoken of any of the saints, nor in any wise lawfully said of any, \"The Word was made flesh,\" save of the \"one Mediator between God and men. \" Since therefore the only-begotten Word, coequal with the Father, is styled a light; and man when enlightened by the Word is also called a light, who is styled also a lantern, as John, as the Apostles; and since no man of these is the Word, and that Word by whom they were enlightened is not a lantern; what is this word, which is thus called a light and a lantern at the same time, save we understand the word which was sent unto the Prophets, or which was preached through the Apostles; not Christ the Word, but the word of Christ, of which it is written, \"Faith cometh by hearing, and hearing by the word of God\". For the Apostle Peter also, comparing the prophetical word to a lantern, saith, \"where-unto ye do well that ye take heed, as unto a lantern, that shineth in a dark place. \" What, therefore, he here saith, \"Thy word\" is the word which is contained in all the holy Scriptures.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/119/105",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6665",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thy word. Jesus Christ, (St. Hilary) who enlightens every man, John i.\nLamp, (2 Peter i. 19., and Proverbs vi. 23.) while sin is the light of the wicked, Proverbs xxi. 4., and xxiv. 20. (Berthier)\nThe law of God, proposed by his prophets and pastors, in the ordinary method of instruction. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/105",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be430",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:105",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

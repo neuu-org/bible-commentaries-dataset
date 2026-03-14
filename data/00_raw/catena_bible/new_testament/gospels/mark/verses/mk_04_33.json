@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 4:33",
+  "verse_text": "Verse text for MK 4:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/4/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And with many such parables He spake the word unto them, as they were able to hear it, that Isaiah , as they were worthy to hear, as Maldonatus says, from Bede and Euthymius. More simply and plainly, Theophylact and Franc. Lucas explain with such, i.e, common and easy parables, which all could understand, not with what was abstruse; so that they might take in their literal drift, and perceive that there was something heavenly and divine lying beneath the surface, although they did not comprehend each particular. Thus, by what was known of the parable they were stirred up by Christ to investigate what lay hid.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/4/33",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e52",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This seems to contradict what was said Ver. 29. Cum produxerit fructus. In the Greek, fructus is in the nominative case; otan de parado o karpos",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/4/33",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf92b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 4:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 118:28",
+  "verse_text": "Verse text for PS 118:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"God is the Lord, who hath showed us light\" (ver. That Lord, who came in the Lord's Name, whom the builders refused, and who became the head Stone of the corner, that \"Mediator between God and man, Jesus Christ,\" is God, He is equal with the Father, He hath showed us light, that we might understand what we believed, and declare it to you who understand it not as yet, but already believe it. But that ye also may understand, \"Declare a holy day in full assemblies, even unto the horns of the altar;\" that is, even unto the inner house of God, from which we have blessed you, where are the high places of the altar. \"Declare a holy day,\" not in a slothful manner, but \"in full assemblies\" (ver. For this is the voice of joyfulness among those that keep holy day, who walk \"in the place of the wonderful tabernacle, even unto the house of God. \" For if there be there the spiritual sacrifice, the everlasting sacrifice of praise, both the Priest is everlasting, and the peaceful mind of the righteous an everlasting altar.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/118/28",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6607",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I will This might be in the copies of the Septuagint. It occurs ver. 26., (Berthier) though it was here retrenched in the Hexapla. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/28",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3d9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JB 19:13",
+  "verse_text": "Verse text for JB 19:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/19/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh He has put my brethren far from me, and my acquaintances are wholly estranged from me. We shall shew this the better, if we bring forward the testimony of John, who says, He came unto His own, and His own received Him not [John 1, 11]; for His ‘brethren were put far from Him,’ and His ‘acquaintance were estranged’ from Him, Whom the Hebrews that held the Law were taught to prophesy, and never knew to acknowledge when present.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/19/13",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd058",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 19:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

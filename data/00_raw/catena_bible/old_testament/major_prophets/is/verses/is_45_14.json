@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 45:14",
+  "verse_text": "Verse text for IS 45:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/45/14",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "Would you receive yet a third testimony to Christ’s godhead? Hear Isaiah saying, “Egypt has labored, and the merchandise of Ethiopia,” and soon after, “In you shall they make supplication, because God is in you, and there is no God except you. For you are God, and we knew it not, the God of Israel, the Savior.” You see that the Son is God, having in himself God the Father, saying almost the very same which he has said in the Gospels. … And again he has not said, “I and the Father am one” but “I and the Father are one,” that we should neither separate them nor make a confusion of Son-Father.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/45/14",
+      "full_content_url": "https://catenabible.com/com/5e88f325b1c7280cb341d116",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gaius Marius Victorinus",
+      "period": "AD400",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Thus says the LORD, The labor of Egypt, and merchandise of Ethiopia and of the Sabeans, men of stature, shall come over unto you, and they shall be yours: they shall come after you; in chains they shall come over, and they shall fall down unto you, they shall make supplication unto you, saying, Surely God is in you; and there is none else, there is no other God. But consider this also in relation to the homoousion [that the Son is of the same essence as the Father], how the Spirit says to Isaiah, “God is in you, and there is no God outside of you.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/45/14",
+      "full_content_url": "https://catenabible.com/com/5e88f325b1c7280cb341d115",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Stature: the people of Saba were the tallest and best proportioned in Arabia. (Agathar. v. 50.)\nCyrus possessed all these countries. He sent the Egyptians home in the third year of his reign, at Babylon, the year of the world 3470, Ezechiel xxix. 11. They never became subject to the Jews; but embraced the religion of Christ, acknowledging him for God, ver. 15. (Calmet)\nBesides thee. Protestants, \"Surely God is in thee, and there is none else, there is no God. \"Those whom we have hitherto adored, deserve not the name. Vulgate and Septuagint make the people address Christ, the God-man. (Haydock)",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/45/14",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb00",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 45:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

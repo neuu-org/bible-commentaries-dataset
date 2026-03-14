@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 7:3",
+  "verse_text": "Verse text for 2SM 7:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/7/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Thee. David did not, perhaps, consult him as a prophet; and Nathan thought that the proposal was so just, that it might be safely carried into effect. The prophets are not inspired in all their actions. Joseph was of a different opinion from his father, Genesis xlviii. 19. Samuel supposed that Eliab should have been king; (1 Kings xvi. 6,) and Eliseus confesses, that God had concealed from him the affliction of the woman with whom he lodged, 4 Kings iv. 24. (Calmet)\nGod afterwards sent the same Nathan to rectify his former decision, that he might not pass sentence, in future, without consulting him. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/7/3",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd0bb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Nathan said to the king, Go, do all that is in your heart; for the LORD is with you. The spirit of prophecy does not enlighten the minds of the prophets constantly, Peter. We read in sacred Scripture that the Holy Spirit breathes where he pleases, and we should also realize that he breathes when he pleases. For example, when King David asked whether he could build a temple, the prophet Nathan gave his consent but later had to withdraw it.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/7/3",
+      "full_content_url": "https://catenabible.com/com/5de46d0b8b87fe0847ee86e3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 7:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

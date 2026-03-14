@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 112:9",
+  "verse_text": "Verse text for PS 112:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/112/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "6. But it is a great thing to have the heart established, and not to be moved, while they rejoice who love what they see, and mock at him who hopeth for what he seeth not; \"what the Lord hath prepared for them that love Him.\" How great is the value of this which is not seen, and it is bought for so much as each man is able to give for it. On this account he also \"dispersed abroad, and gave to the poor\" (ver. 9): he saw not, yet he kept buying; but He was storing up the treasure in heaven, who deigned to hunger and thirst in the poor on earth. It is no wonder then if \"his righteousness remaineth for ever:\" He who created the ages being his guardian. \"His horn,\" whose humility was scorned by the proud, \"shall be exalted with honour.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/112/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65c5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Poor. We must know whom we ought to relieve. Though we may be allowed to retain what is necessary, (2 Corinthians viii. 13., and ix. 11.) yet the saints have often very laudably stripped themselves, to clothe others, abandoning perishable goods, that they might obtain heaven. (Calmet)\nJustice. Works of mercy are so called, because they concur to man's justification. (Worthington)\nHorn. Power Cyrus, and the best of his successors, honoured the Jews. (Calmet)\nThe liberality of the just towards the indigent, is far more glorious than that which prompts the vain to give shows (St. Chrysostom)\nThe praise of the latter is presently at an end. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/112/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3be",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 112:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

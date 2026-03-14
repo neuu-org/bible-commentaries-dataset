@@ -1,0 +1,80 @@
+{
+  "verse_reference": "IS 10:23",
+  "verse_text": "Verse text for IS 10:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/10/23",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For the Lord GOD of hosts shall make the destruction decreed, in the midst of all the land. Augustine of Hippo One might perhaps suppose that in regard to the knowledge of righteousness we have all we need; inasmuch as our Lord, summing and shortening his word upon the earth, has said that upon two commandments hang all the law and the prophets, and he put those commandments in the plainest words: “You shall love the Lord your God with all your heart and with all your soul and with all your mind,” and “You shall love your neighbor as yourself.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/10/23",
+      "full_content_url": "https://catenabible.com/com/5e4f7f60c849cf49a740e2ab",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "What wonder, most beloved brothers, if such [the Lord’s Prayer] is the prayer that God has taught, who by his instruction has abbreviated our every prayer in a saving word? This had already been foretold by Isaiah the prophet, when filled with the Holy Spirit, he spoke of the majesty and loving kindness of God. He said, “He will finish the word and cut it short in righteousness, because the Lord will make a short word in all the world.” For when the Word of God, our Lord Jesus Christ, came to all, and gathering together the learned and unlearned alike, he gave forth the precepts of salvation to every sex and age, he made a concise compendium of his precepts. [This was] so that the memory of the learners might not be burdened in heavenly discipline but might learn quickly what was necessary to a simple faith.",
+      "commentary_number": "2/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/10/23",
+      "full_content_url": "https://catenabible.com/com/5e4f7f5fc849cf49a740e2a7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "Three gathered together in the name of the Lord count for more with God than tens of thousands of those who deny the Godhead. Would you prefer the whole of the Canaanites to Abraham alone? or the men of Sodom to Lot? or the Midianities to Moses, when each of these was a pilgrim and a stranger? How do the three hundred men with Gideon, who bravely lapped, compare with the thousands who were put to flight? Or the servants of Abraham, who scarcely exceeded them in number, with the many kings and the army of tens of thousands whom, few as they were, they overtook and defeated? Or how do you understand the passage that though the number of the children of Israel be as the sand of the sea, a remnant shall be saved? And again, I have left me seven thousand men, who have not bowed the knee to Baal? … God has not taken pleasure in numbers.",
+      "commentary_number": "3/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/10/23",
+      "full_content_url": "https://catenabible.com/com/5e4f7f60c849cf49a740e2a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rufinus of Aquileia",
+      "period": "AD411",
+      "content": "I find, indeed, that some eminent writers have published treatises on these matters piously and briefly written. Moreover, I know that the heretic Photinus has written on the same, with the object not of explaining the meaning of the text to his readers but of wresting things simply and truthfully said in support of his own dogma. Yet the Holy Spirit has taken care that in these words nothing should be set down which is ambiguous or obscure or inconsistent with other truths; for therein is that prophecy verified, “Finishing and cutting short the word in equity: because a short word will the Lord make upon the earth.” It shall be our endeavor, then, first to restore and emphasize the words of the apostles in their native simplicity.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/10/23",
+      "full_content_url": "https://catenabible.com/com/5e4f7f60c849cf49a740e2aa",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "When God made statements such as “You shall not murder; you shall not commit adultery; you shall not steal; you shall not bear false witness,” he was teaching me to refrain from doing to others what I would be unwilling to do to myself. Therefore the precept offered in the Gospel belongs only to the one who first drew it up in ancient times, arranging it according to his own teaching in a formula that could easily be understood. This was predicted in another passage in which the Lord, that is, Christ, was “to make a concise word on the earth.”",
+      "commentary_number": "5/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/10/23",
+      "full_content_url": "https://catenabible.com/com/5e4f7f5fc849cf49a740e2a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 10:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

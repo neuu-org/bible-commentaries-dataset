@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 37:16",
+  "verse_text": "Verse text for EX 37:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/37/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Censers. Hebrew Kapoth, means broad deep dishes or bowls. (Calmet)\nWherein, meaning the golden vessels aforesaid. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/37/16",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc4e1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "We know that in God’s tabernacle not only bowls but ladles too were made at the Lord’s bidding. The bowls signify a more than sufficient teaching, the ladles a small and limited knowledge. One full of true teaching fills the minds of his hearers and in this way provides a bowl by what he says. Another cannot expound what he perceives, but because he proclaims it as best he can he truly offers a ladle to taste. You who are in God’s tabernacle, in his holy church, if you cannot fill bowls with the wisdom of your teaching, give to your neighbors ladles filled with a good word, as much as you have from the divine bounty. Draw others as far as you consider you have advanced. Desire to have comrades on your way toward God.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/37/16",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e528ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 37:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

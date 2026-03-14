@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 26:6",
+  "verse_text": "Verse text for JER 26:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/26/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Silo. Chap. vii. 12. (Calmet)\nCurse. No greater punishment could be threatened or endured in this world. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/26/6",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bedb3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "To us, therefore, the power has been given to act or not to act, with the consequence that whatever good work we desire, will and accomplish, we should refer to the grace of God, who, according to the apostle, enables us to will and to work. If, however, it suffices to walk just once in the law that was given to us through Moses, as foolish heretics suspect, why did he add “and to listen to the words of my servants the prophets,” who were sent after the law and not just once but repeatedly, nor leisurely and apathetically but continuously and carefully. He says, in effect, “I sent my servant to you daily, even throughout the night, but if you refuse to hear him, I will make this house (i. , the temple of God) like Shiloh,” where the tabernacle was located. And when the temple is destroyed, the city as well will then be “a curse to all the peoples of the earth,” from which curse the Lord liberated us, as the apostle says: “Christ redeemed us from the curse of the law, having become a curse on our behalf.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/26/6",
+      "full_content_url": "https://catenabible.com/com/5e936148d87c4a70874ae2eb",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 26:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

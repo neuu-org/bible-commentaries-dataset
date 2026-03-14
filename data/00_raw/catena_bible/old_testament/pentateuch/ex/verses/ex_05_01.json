@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 5:1",
+  "verse_text": "Verse text for EX 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Some ask how the people can be told that God gave the order that he would lead them from Egypt into the land of Canaan, while Pharaoh was told that they wanted to make three days’ journey into the desert to offer sacrifice to their god by his command. But the passage should be understood thus: although God knew what he was going to do and knew that Pharaoh would not agree to dismiss the people, that fact was to be stated first that would also happen first, if Pharaoh let the people go. The contumacy of Pharaoh and his courtiers merited everything that happened, to which the Scripture afterward attests. God is not lying when he commands what he knows is not going to be done by the one he commands; his purpose is to obtain a just judgment.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/5/1",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5275b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Went in alone. Aaron was substituted instead of the ancients, chap. iii. 16.\nPharao Amasis, Cenchres, or Amen phis. (Usher.)\nSacrifice, which is the principal part of a religious festival. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/5/1",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

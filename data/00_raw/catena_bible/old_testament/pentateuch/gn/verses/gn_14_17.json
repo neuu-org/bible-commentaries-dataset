@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 14:17",
+  "verse_text": "Verse text for GN 14:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/14/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you see here in every event the just man being conspicuous and demonstrating to everyone on every occasion God’s providence in his regard? Now you see him also zealous to prove a teacher of reverence for God to the Sodomites. “The king of Sodom,” Scripture says, remember, “came out to meet him on his return from the defeat of Chedorlaomer and the kings with him.” Notice the extent of his virtue and his enjoyment of assistance from God. The king comes out to meet this stranger, advanced in years, and shows high regard for him. He had learned, you see, that the advantage of kingship is as nothing to the person who lacks assistance from on high and that nothing could be more efficacious than God’s hand raised to assist.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/14/17",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51a1a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 14:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

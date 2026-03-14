@@ -1,0 +1,69 @@
+{
+  "verse_reference": "2COR 8:2",
+  "verse_text": "Verse text for 2COR 8:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/2cor/8/2",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Although the Macedonians were short of material resources, their souls were rich, because they ministered to the saints with a pure conscience, trying to please God rather than men. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/8/2",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e6172",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "How that in a great trial of affliction the abundance of their joy. When greatly tried by sundry tribulations, they were very joyful.\nAnd their deep poverty abounded. Having sounded the depths of poverty, the Macedonians, as it were, broke out into plentiful and abundant kindness and almsgiving\nLiberality is given in the Latin version simplicity, and denotes a pure, liberal, and ready will to give. Liberality is measured not by the greatness of the gift, but by the promptitude of the mind, as Chrysostom and Theophylact say. \"Simplicity\" says Ambrose ( Ephesians 10), \"weighs not pros and cons, has no mean suspicions or dishonest thoughts, but overflows with pure affection.\" Cf. Romans 12:8.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2cor/8/2",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52584",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Poverty hath abounded The sense seems to be, that in their great poverty, they showed the riches of their simplicity, that is, of a sincere, willing, and charitable heart. (Witham)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/8/2",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c008e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The affliction of the Macedonians did not lead only to sorrow but also to great rejoicing and generosity. Paul said this in order to prepare the Corinthians to be noble and firm in their sufferings. For they were not merely to be afflicted, they were to use their afflictions as a means of growing in joy.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/8/2",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e6173",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2COR 8:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

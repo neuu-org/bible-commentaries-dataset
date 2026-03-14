@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 129:5",
+  "verse_text": "Verse text for PS 129:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/129/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Let them all be confounded and turned back that hate Zion. Augustine of Hippo 8. \"Let them be confounded and turned backward, as many as have evil will at Sion\" (ver. They who hate Sion, hate the Church: Sion is the Church. And they who hypocritically enter into the Church, hate the Church. They who refuse to keep the Word of God, hate the Church: \"Upon my back have they built:\" what will the Church do, save endure the burden even unto the end.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/129/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66f9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Back. By a sincere conversion. (Calmet)\nGod will cover the presumptuous with eternal confusion, so that none shall bless them, ver. 8. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/129/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be49d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 129:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

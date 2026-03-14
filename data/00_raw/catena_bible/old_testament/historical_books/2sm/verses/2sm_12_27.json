@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 12:27",
+  "verse_text": "Verse text for 2SM 12:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/12/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The city of waters. Rabbath, the royal city of the Ammonites, was called the city of waters, from being encompassed with waters. (Challoner) See chap. v. 8.\nThe Hebrew in the preceding verse seems to insinuate, (Haydock) that \"he had taken the royal city. \"But he was only on the point of doing it, or had, perhaps, made himself master of some part of it. Here the Hebrew, \"I have taken \"may be explained in the same sense, unless the city of waters were the lower part of Rabbath, lying on the Jaboc. Junius translates, \"He cut off the waters, which entered the city \"and Josephus favours this explanation. It seems the siege lasted about two years. (Calmet)\nAntiochus took this city, by depriving the inhabitants of water. (Polybius v.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/12/27",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd10d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The city of waters: Rabbath the royal city of the Ammonites, was called the city of waters, from being encompassed with waters.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/12/27",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0d1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 12:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

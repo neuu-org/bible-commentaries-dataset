@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1PET 3:1",
+  "verse_text": "Verse text for 1PET 3:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/3/1",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Whose adorning, let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel; but let it be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/1",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa4e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Let wives In the first six verses he gives instructions to married women.\n1. By their modest and submissive dispositions to endeavour to gain and convert their husbands, showing them such a respect as Sara did, (whose daughters they ought to esteem themselves) who called Abraham her lord, or master; (Genesis xviii. 12.)\n2. To be modest in their dress, without vanity;\n3. That women take the greatest care of the hidden man, i.e. of the interior disposition of their heart, which he calls the incorruptibility of a quiet and a meek spirit;\n4. Not fearing any trouble, when God's service or the duty to their husbands require it. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1pt/3/1",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03a9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Except in so far as it will not be presumptuously if we treat the subject in accordance with the apostle. Touching modesty of dress and ornamentation, indeed, the prescription of Peter.\nTo persevere in their married state, and are sanctified, and have hope of \"making a gain\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/3/1",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa4f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 3:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

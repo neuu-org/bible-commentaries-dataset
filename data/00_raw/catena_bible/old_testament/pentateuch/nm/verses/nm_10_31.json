@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 10:31",
+  "verse_text": "Verse text for NM 10:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/10/31",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Guide, being well acquainted with the country, and consequently able to point out the best places for pasturage and for water, and to inform us what sort of people we are near. Hebrew, \"thou shalt serve us for eyes. \"Septuagint, \"as a senator. \"The Persians had officers who had the title of eyes and ears of the king. ) Some suppose that Moses stood in no need of Hobab, having lived himself in that country 40 years, with Jethro; and that he only wished to keep his kinsman with him, that he might observe the true religion. He supposed at that time that they would presently obtain possession of Chanaan. But the sins of the people caused almost all to perish in the desert. Hobab probably accepted of the proposal, as we find the Cineans, descendants of Jethro, holding a portion of the land, Judges i. (Calmet) His posterity, the Rechabites, were noted for more than usual piety; and were the same with the Essenes, according to Serarius, and the first authors of a monastic life, Jeremias xxxv.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/10/31",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc731",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 10:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

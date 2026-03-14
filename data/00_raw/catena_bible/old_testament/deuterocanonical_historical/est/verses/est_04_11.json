@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EST 4:11",
+  "verse_text": "Verse text for EST 4:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/4/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Spoil. This was retaliating, as they were to have been treated in like manner. (Calmet)\nSuch were the barbarous customs of the country. (Haydock)\nIt might not still be lawful thus to involve the innocent with the guilty, though the king did not ill in allowing the Jews to stand up in their own defence, 2 Kings xxi. 6. Some think that they were only to prevent the execution of the former edict, which could not be revoked. See chap. iii. (Calmet)\nA form of trial was observed, chap. xvi. 20. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/4/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdad5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 4:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

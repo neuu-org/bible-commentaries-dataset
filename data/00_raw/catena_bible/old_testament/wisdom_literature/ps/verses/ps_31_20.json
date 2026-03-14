@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 31:20",
+  "verse_text": "Verse text for PS 31:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/31/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You shall hide them in the secret of your presence from the pride of man: you shall keep them secretly in a pavilion from the strife of tongues. Augustine of Hippo 21. \"Thou writ protect them in Thy tabernacle from the contradiction of tongues\" (ver. But here meanwhile whilst evil tongues murmur against them, saying, Who hath come thence. Thou wilt protect them in the tabernacle, that of faith in those things, which the Lord wrought and endured for us in time.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/31/20",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e693a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Face. The malice of the wicked has its limits; while God defends his servants, admitting them as it were into his own presence and tabernacle, where none dare assault them. The Eastern princes did not allow any, but their great favourites to come into their presence. (Calmet) (Esther v. and xv.) (Haydock)\nDisturbance. Chaldean, \"troops of the strong. \"Hebrew, \"from the pride or vexations. \"God will protect his friends, both from an open attack and from malicious speeches.\nThy is not expressed in Hebrew. (Berthier)\n\"From the harshness of the great ones thou wilt protect them in the shade, from the contradiction of tongues. \"(St. Jerome)\nHow shall we avoid the danger of being seduced by contradictory teachers, unless we have recourse to the Catholic Church? Tu curre ad Eccles. Cath. et protegeris; (St. Augustine) (Haydock)\nThose who are united to God by contemplation and love, cannot be disturbed by men. (Bellarmine; Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/31/20",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf83",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 31:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 5:5",
+  "verse_text": "Verse text for DT 5:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/5/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh (I stood between the LORD and you at that time, to show you the word of the LORD: for you were afraid by reason of the fire, and went not up into the mount;) saying, Mediator. Paul acknowledges this title of Moses, (Galatians iii. 9,) who was a figure of Jesus Christ, the mediator of the New Testament, Hebrews viii. (Calmet) Let not Protestants, therefore, reject this title with so much indignation, when it is applied in the like limited sense to the saints, to denote that they pray for us, as we pray for one another. Christ is the one mediator (1 Timothy ii. ) of redemption.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/5/5",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc928",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 5:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

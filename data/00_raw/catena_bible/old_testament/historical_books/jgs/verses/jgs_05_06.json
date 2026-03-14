@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 5:6",
+  "verse_text": "Verse text for JGS 5:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/5/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The paths rested. The ways to the sanctuary of God were unfrequented; and men walked in the bye-ways of error and sin. (Challoner)\nThough Samgar and Jehel were so remarkable for their valour, as they had manifested on a late occasion, yet they did not prevent the incursions of the enemy both on the south and north. (Haydock)\nThe merchants durst not travel, as usual, through the country. (Drusius)\nGod had threatened the faithless Israel with this punishment, Leviticus xxvi. 22., and Lamentations i. 4., and Isaias xxiii. 8. (Calmet)\nThey that went by them formerly without apprehension, are now forced to seek out bye-ways. (Haydock)\nThus was justly punished the negligence of those who observed not the festivals of the Lord, nor frequented his tabernacle. (Menochius)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/5/6",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bccfb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The paths rested: The ways to the sanctuary of God were unfrequented: and men walked in the by-ways of error and sin.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/5/6",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa00e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 5:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ECCL 9:4",
+  "verse_text": "Verse text for ECCL 9:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/9/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "There. Even those who have had the vanity to claim divine honours, never could persuade themselves that they would escape death. But the just forms a different conclusion from the wicked. He looks upon his life only as a preparation for the other, (Hebrews xi. 13., and Ephesians ii. 19.) while libertines make haste to enjoy the fleeting pleasure, Isaias xxii. 13. To the former death seems desirable, (chap. iv. 2., and vi. 3.) to the latter it is a subject of consternation; and he prefers the vilest creature living, to the most noble when dead. (Calmet)\nHebrew, \"for whosoever is chosen (yebuchar. Marginal note yechubar, \"is united\") to all the living, has hope; for a \"(Haydock)\nModerns generally follow the marginal reading of the Masorets. (Calmet)\n\"For who shall live for ever? \"(Symmachus) \"Who partakes with all the living? There is hope. \"(Septuagint) (Haydock)\nDuring life alone the sinner may amend, chap. ii. 3. The Gentiles are preferred before the Jews. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/9/4",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be825",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "“Better” by far “is a living dog” in this problem “than a dead lion.” For a living saint may correct what had not been corrected by another who came before him.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/9/4",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19eeef",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 9:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

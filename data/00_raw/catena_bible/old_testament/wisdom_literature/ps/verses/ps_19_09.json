@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 19:9",
+  "verse_text": "Verse text for PS 19:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/19/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The fear of the LORD is clean, enduring forever: the judgments of the LORD are true and righteous altogether. Augustine of Hippo 10. \"The fear of the Lord is chaste, enduring for ever\" (ver. \"The fear of the Lord;\" not that distressing fear under the law, dreading exceedingly the withdrawal of temporal goods, by the love of which the soul commits fornication; but that chaste fear wherewith the Church, the more ardently she loves her Spouse, the more carefully does she take heed of offending Him, and therefore, \"perfect love casteth\" not \"out\" this\" fear,\" but it endureth for ever.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/19/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e687e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fear; or \"the law accompanied with fear \"of which he is speaking. This fear is filial and pure, such as a child must have of displeasing his father. (Berthier)\nYet even servile fear, which restrains us from committing sin, lest we incur punishment, is a gift of God, and prepares the way for charity. (Council of Trent, Session xiv. 4.) But we must not stop here, like Achab and Antiochus. If we understand by fear, the moral law, it will subsist as long as there shall be men.\nThemselves. Septuagint, epi to oto, \"by that very thing \"that they are the judgments of the Lord, (Haydock) who cannot do wrong, Daniel ii. 27. (Calmet)\nHebrew, \"truth itself, is justified altogether. \"(Haydock)\nInfidels acknowledge that the morality of the Gospel is excellent, but they reject the dogmatical part. Would He, who has prescribed such noble rules of conduct, lead our understanding astray, by requiring us to believe what is false? (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/19/9",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdef7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 19:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

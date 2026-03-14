@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 13:14",
+  "verse_text": "Verse text for MK 13:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/13/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Ven. Bede here gives a beautiful illustration of this passage in a spiritual sense. When, says he, we see the abomination of desolation standing where it ought not, that is, when we behold heresies and crimes reigning where we ought to see truth and virtue flourish, then let those who are in Judea, such as have kept the true faith unpolluted, flee to the mountains; that is, rise to the height of perfection; and let those who are on the house-top, those who crucifying the works of the flesh, live according to the spirit, not descend any more to their former way of living according to the flesh. (Ven. Bede)\nIf all heresies tend to the abomination of desolation, that more particularly does which taketh away with other sacrament, and the external worship of God, the very sacrifice of Christ's body and blood; which being taken away, as St. Cyprian remarketh, no religion can remain. (St. Cyprian, on the supper of our Lord. Num. ii.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/13/14",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf998",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "And woe unto them that are with child, and to them that give suck, in those days! for then shall be great tribulation, such as was not since the beginning of the world. And except those days should be shortened, there should no flesh be saved.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/13/14",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb747",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 13:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

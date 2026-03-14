@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DN 4:24",
+  "verse_text": "Verse text for DN 4:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/4/24",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "alms: Daniel's advice meant that he should give up sin and repent, and so make satisfaction by giving alms. (St. Thomas Aquinas) The interior penance of the Christian can be expressed in many and various ways. Scripture and the Fathers insist above all on three forms, fasting, prayer, and almsgiving, which express conversion in relation to oneself, to God, and to others. Alongside the radical purification brought about by Baptism or martyrdom they cite as means of obtaining forgiveness of sins: effort at reconciliation with one's neighbor, tears of repentance, concern for the salvation of one's neighbor, the intercession of the saints, and the practice of charity \"which covers a multitude of sins.\" (Catechism of the Catholic Church 1434)",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/4/24",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f461",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh This is the interpretation, O king, and this is the decree of the most High, which has come upon my lord the king: Alms. Chaldean, \"justice \"is often taken in this sense. ; 2 Corinthians ix. ; Calmet) The prediction was conditional, and therefore Daniel exhorts the king to strive to obtain pardon by the powerful remedy of alms-deeds; as he did, after enduring some punishment. (Worthington) Yet this is very doubtful, ver.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/24",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Daniel moderates the severity of the sentence by complimentary language, so that (variant: and) after he has first set forth the harsher aspects, he may moderate the king's alarm by assurances of the kindlier treatment to follow. He draws the final inference:",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/24",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2c7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 4:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 20:17",
+  "verse_text": "Verse text for LV 20:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/20/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "A crime. Hebrew chesed, commonly signifies an act of piety or goodness, as if Moses intended to insinuate that such marriages were at first lawful. (Thalmud; Selden, Jur. v. 8.) But a softer term is used to denote a great impiety, as the Hebrews say to bless, when they mean to curse, or to blaspheme; (Calmet) and the Greeks call the furies Eumenides, or \"the good-natured. \"\nOne another's. Hebrew, \"He hath uncovered his sister's \"Whether they saw what was indecent or not, if they admitted of any unlawful commerce, they were to be stoned to death. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/20/17",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc638",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 20:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

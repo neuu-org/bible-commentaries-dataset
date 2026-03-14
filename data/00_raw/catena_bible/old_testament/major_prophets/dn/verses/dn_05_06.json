@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DN 5:6",
+  "verse_text": "Verse text for DN 5:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/5/6",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "countenance changed, and his thoughts troubled him: and yet he did not do penance. Now to what purpose do we fear evil, if our fear does not make us resolve to avoid it? But, when we are afraid of offending God not to avoid the pains of hell or the loss of heaven, but only because God being our good Father we owe him honor, respect, obedience, then our fear is filial, because a good child does not obey his father on account of the power he has to punish his disobedience, or because he might disinherit him, but purely because he is his father. (St. Francis of Sales)",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/5/6",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f467",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then the king's countenance was changed, and his thoughts troubled him, so that the joints of his hips were loosened, and his knees struck one against another. Loosed, so that he quaked for fear, Ezechiel xxix. (Calmet) He was not so drunk as to be deprived of sense. (Haydock) This happened in the 17th and last year of his reign, when Daniel was about a hundred years old, (Worthington) though we have no certain account of his age. (Haydock) He might be eighty-two when he died.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/5/6",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf2cb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Here too it is to be observed concerning those Psalms entitled: \"For those who will suffer alterations (or vicissitudes),\" that the alteration of fortune is not only the lot of the saint but also of the sinner. [\"For those who will suffer alteration\" is a remarkable interpretation of the Hebrew (al-shoshannim)----\"according to lilies\" (RSV)----rendered in the Authorized Version as |58 \"upon Shoshannim.\" The Vulgate rendering, following that of the Septuagint, is based upon a very implausible vowel pointing: 'al-sheshonim.'] For we read in this connection: \"King Belshazzar was considerably disturbed and his countenance was altered.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/5/6",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd2d6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 5:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

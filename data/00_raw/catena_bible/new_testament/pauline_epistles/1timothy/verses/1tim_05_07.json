@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1TIM 5:7",
+  "verse_text": "Verse text for 1TIM 5:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/5/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He does not leave it to their choice. Command them, he says, not to be luxurious, assuming it to be confessedly an evil, as not holding it lawful or admissible for the luxurious to partake of the Holy Mysteries. These things command, he says, that they may be blameless. Thus you see it is reckoned among sins. For if it were a matter of choice, though it were left undone, we might still be blameless. Therefore in obedience to Paul, let us command the luxurious widow not to have place in the list of widows. For if a soldier, who frequents the bath, the theater, the busy scenes of life, is judged to desert his duty, much more the widows. Let us then not seek our rest here, that we may find it hereafter. Let us not live in pleasure here, that we may hereafter enjoy true pleasure, true delight, which brings no evil with it, but infinite good. Of which God grant that we may all be partakers, in Jesus Christ, with whom, etc.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1tm/5/7",
+      "full_content_url": "https://catenabible.com/com/575f0fd63c6effa740ddde18",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 5:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

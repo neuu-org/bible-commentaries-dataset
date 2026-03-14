@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 7:40",
+  "verse_text": "Verse text for LK 7:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/7/40",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Augustine, Theophylact, Bede and others, think that this Simon was not Simon, the leper, in whose house the Magdalene again anointed the feet of Jesus. John 12:2, S. Matthew 26:6. Others are of a contrary opinion, because the name is the same, and because the circumstances of the second anointing are so similar. It seems, however, that this Simon was converted when Christ was on his way from Galilee to Juda (S. Matthew 19:1); and that he followed Jesus, and settled at Bethany, near S. Mary Magdalene, who was known to him, in order to enjoy with her the presence and teaching of Christ. I have somewhat to say unto thee. See how wisely Christ reproves Simon with these gentle but meaning words, which appealed to his better feelings, and at once arrested his attention. Augustine says, Christ desired to correct the error of his thoughts, in return for the entertainment which he had provided. Luke implies that Simon at once recognised his fault, for he answered modestly, Master, say on. As Thy disciple, I will gladly accept Thy words as the teaching of my Master.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/7/40",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f5f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 7:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

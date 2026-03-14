@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1PET 2:23",
+  "verse_text": "Verse text for 1PET 2:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/2/23",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Christ, who was incapable of sinning, did not revile Ver. 23. Judicanti se injustè. In the present Greek we read dikaios, justè, as also some Latin Fathers read. St. Augustine, (tract. 21. in Joan.) Commend bat autem judicanti justè; and so the sense is, that he commanded and committed his cause to God, the just judge of all.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/23",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c03a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Ignatius of Antioch",
+      "period": "AD108",
+      "content": "For say ye to those that hate you, Ye are our brethren, that the name of the Lord may be glorified. And let us imitate the Lord, \"who, when He was reviled, reviled not again ; \".\nwhen He was crucified, He answered not; \"when He suffered, He threatened not ; \"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/23",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa48",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "This he does not utter to those alone who wish to hear: Do not err, .\nhe book of the Father, or to behold Him, with the exception of the Lamb who was slain, and who redeemed us with His own blood, receiving power over all things from the same God who made all things by the Word, and adorned them by",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/23",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa49",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "On the contrary, \"when Himself was stricken, He did not strike again; when He was reviled, He reviled not again; when He suffered, He threatened not.\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/23",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa4a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 2:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

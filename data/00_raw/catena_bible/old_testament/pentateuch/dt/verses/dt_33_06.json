@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 33:6",
+  "verse_text": "Verse text for DT 33:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/33/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aphrahat the Persian Sage",
+      "period": "AD345",
+      "content": "Moses wished by his priestly power to absolve Reuben from his transgression and sin, in that he had lain with Bilhah, his father’s concubine, so that when his brothers should rise, he might not be cut off from their number. So he said in the beginning of his blessing, “Reuben shall live and not die and shall be in the number.”",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/33/6",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52ab0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "This is conformable to the prophecy of Jacob, who deprived Ruben of his birth-right, on account of incest. He is even treated with indulgence, in being permitted to form one of the tribes. Yet some copies of the Septuagint, Syriac, (Theodoret q. 42,) and many interpreters, take this in a quite contrary sense, \"let him be numerous, or not few \"the negation being supplied from the former part of the verse, which is not unusual in Hebrew. See Genesis ii. , and Proverbs xxxi. 1 The tribe of Ruben was in effect more numerous than those of Gad, Joseph, or Benjamin. Simeon receives no blessing, probably on account of the crimes for which so many of that tribe were exterminated, (Numbers i. ; Calmet,) and particularly Zambri, one of the chief princes, Numbers xxv. (Worthington) But Grabe's Septuagint applies to Simeon what the rest attribute to Ruben. \"And let Simeon be many in number. \"No solid reason can be given why he should be passed over entirely, as, notwithstanding the infidelity of some of his children, and his own cruelty in not endeavouring to rescue Joseph, he was to form a tribe among his brethren. (Haydock) Some, therefore, imagine that he was to share in the blessings of Ruben, or of Levi, (with whom he is joined by Jacob, Genesis xlix. 5,) or of Juda, near whom he had his allotment of the promised land. Part of the tribe of Simeon afterwards dwelt in the territories of Juda, Josue xix. , 1 Paralipomenon iv. , and Judges i. But (Calmet) it is more likely that the name has been omitted or changed in the original, by the mistake of some early transcriber, in like manner as the tribe of Manasses, included in that of Joseph, seems to have been placed for that of Dan, which otherwise would be omitted, Apocalypse vii. Some have recourse to a mystery in both these places.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/dt/33/6",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb0a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 33:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

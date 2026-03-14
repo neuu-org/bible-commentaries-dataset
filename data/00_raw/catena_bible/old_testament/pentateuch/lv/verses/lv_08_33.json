@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 8:33",
+  "verse_text": "Verse text for LV 8:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/8/33",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And you shall not go out of the door of the tabernacle of meeting in seven days, until the days of your consecration be at an end: for seven days shall he consecrate you. During this time, some say they were allowed to go our for a short time, to satisfy the calls of nature; while others say they were to continue always in the tabernacle, or in the court. Afterwards the priests on duty continued all the time in the temple, adorned with their sacred robes. The high priest could not wear his on other occasions, except some very urgent affair required it, as was the case when Jaddus went to meet Alexander.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/8/33",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc567",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 8:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 18:17",
+  "verse_text": "Verse text for PS 18:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/18/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "18. \"He hath delivered Me from My strongest enemies\" (ver. 17). He hath delivered Me from Mine enemies, who prevailed to the afflicting and overturning of this temporal life of Mine. \"And from them which hate Me; for they are too strong for Me:\" as long as I am under them knowing not God.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/17",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6852",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "For me. He may allude to the giant Jesbibenob, or to Saul, who surrounded him on all sides; (1 Kings xxiii. 26., and 2 Kings xxi. 15.; Calmet) and, in general, to all his temporal or spiritual adversaries. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/18/17",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bded1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 18:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

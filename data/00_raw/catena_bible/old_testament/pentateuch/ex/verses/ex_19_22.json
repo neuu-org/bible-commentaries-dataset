@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 19:22",
+  "verse_text": "Verse text for EX 19:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/19/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sanctified, in an extraordinary manner, above the rest. These priests, according to St. Augustine, are the children of Aaron, and the whole race of Levi, who would shortly be selected by God. But others think, they are those who, by the law of nature, were accustomed to officiate. Or, as God had declared that they were all a priestly kingdom, some of the most comely and irreproachable youths of each family, had been chosen to present victims, when the covenant with God was to be ratified, chap. xxiv. 15. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/19/22",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3c3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 19:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

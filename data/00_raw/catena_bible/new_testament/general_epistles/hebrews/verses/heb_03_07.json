@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 3:7",
+  "verse_text": "Verse text for HEB 3:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/3/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "They have not known my ways: as I sware in my wrath, that they should not enter into my rest.\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/3/7",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb18d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul, having treated of hope, and having said that We are His house, if we hold fast the confidence and the rejoicing of the hope firm unto the end Hebrews 3:6; next shows that we ought to look forward with firmness, and he proves this from the Scriptures. But be attentive, because he has expressed this in a manner somewhat difficult and not readily to be comprehended. And therefore we must first make our own statements, and after we have briefly explained the whole argument, then make clear the words of the Epistle. For you will no longer need us, if you have understood the scope of the Apostle. His discourse was concerning Hope, and that it behooves us to hope for the things to come, and that for those who have toiled here there will assuredly be some reward and fruit and refreshment. This then he shows from the prophet; and what says he. Wherefore as the Holy Ghost says, Today if you will hear His voice, harden not your hearts, as in the provocation, in the day of temptation in the wilderness: when your fathers tempted Me, proved Me, and saw My works forty years. Wherefore I was grieved with that generation, and said, they do always err in their heart, and they have not known My ways. So I swore in My wrath, they shall not enter into My rest.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/3/7",
+      "full_content_url": "https://catenabible.com/com/57eb1775b0d44ee10cfac7b3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 3:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

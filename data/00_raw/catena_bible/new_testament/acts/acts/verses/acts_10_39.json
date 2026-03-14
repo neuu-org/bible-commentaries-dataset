@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 10:39",
+  "verse_text": "Verse text for ACTS 10:39",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/10/39",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Whom they killed. At the very first, says St. Chrysostom, the apostles preached Christ crucified, and tell them they had put to death on a cross the Lord of all things, the judge of the living and the dead. (Witham)\nWe may here admire how wonderfully Peter adapts his discourse to the capacity of his hearers. When speaking to the Jews, he proves Jesus to be their Messias, from the testimony of their prophets. On the present occasion, he only just alludes to the prophets, but confirms his discourse by the testimony of the miracles which Jesus had wrought in public, and were known to all the world. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/10/39",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfdc2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "both we, says he, and you. Then the Passion, and the reason why they do not believe: Whom also they slew, and hanged on a tree. Him God raised up the third day, and showed Him openly; not to all the people, but unto witnesses chosen before of God, even to us, who ate and drank with Him after He rose from the dead. (v. 40, 41.) This is a proof of the Resurrection. And he commanded us to preach unto the people, and to testify that it is He which was ordained of God to be the Judge of quick and dead.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/10/39",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b92c1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 10:39",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

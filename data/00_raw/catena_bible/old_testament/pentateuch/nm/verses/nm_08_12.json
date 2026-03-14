@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 8:12",
+  "verse_text": "Verse text for NM 8:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/8/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the Levites shall lay their hands upon the heads of the bullocks: and you shall offer the one for a sin offering, and the other for a burnt offering, unto the LORD, to make an atonement for the Levites. Thou, Moses, though the Hebrew here seems to refer it to Aaron, \"he shall. \"But the Septuagint and Arabic agree with the Vulgate, and the context shows that Moses is the person (Calmet) who had chiefly to officiate. Aaron also performed his part, ver.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/8/12",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc714",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 8:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

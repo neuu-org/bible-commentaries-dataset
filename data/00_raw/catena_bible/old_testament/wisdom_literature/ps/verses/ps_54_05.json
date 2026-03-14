@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PS 54:5",
+  "verse_text": "Verse text for PS 54:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/54/5",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "9. \"Turn away evil things unto mine enemies\" (ver. 5). So however green they are, so however they flourish, for the fire they are being reserved. \"In Thy virtue destroy Thou them.\" Because to wit they flourish now, because to wit they spring up like grass: do not thou be a man unwise and foolish, so that by giving thought to these things thou perish for ever and ever. For, \"Turn Thou away evil things unto mine enemies.\" For if thou shalt have place in the body of David Himself, in His virtue He will destroy them. These men flourish in the felicity of the world, perish in the virtue of God. Not in the same manner as they flourish, do they also perish: for they flourish for a time, perish for everlasting: flourish in unreal good things, perish in real torments. \"In Thy strength destroy,\" whom in Thy weakness Thou hast endured.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/54/5",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6ac3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Truth. To fulfil thy promises. (Haydock)\nHe foretells their destruction.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/54/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be0cb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Poitiers",
+      "period": "AD368",
+      "content": "After this there is a return to the Person of God, to Whom the petition was at the first addressed: Destroy them by Your truth. Truth confounds falsehood, and lying is destroyed by truth. We have shown that the whole of the foregoing prayer is the utterance of that human nature in which the Son of God was born; so here it is the voice of human nature calling upon God the Father to destroy His enemies in His truth. What this truth is, stands beyond doubt; it is of course He Who said: I am the Life, the Way, the Truth. John 14:6 And the enemies were destroyed by the truth when, for all their attempts to win Christ's condemnation by false witness, they heard that He was risen from the dead and had to admit that He had resumed His glory in all the reality of Godhead. Ere long they found, in ruin and destruction by famine and war, their reward for crucifying God; for they condemned the Lord of Life to death, and paid no heed to God's truth displayed in Him through His glorious works. And thus the Truth of God destroyed them when He rose again to resume the majesty of His Father's Glory, and gave proof of the truth of that perfect Divinity which He possessed. Now in view of our repeated, nay our unbroken assertion both that it was the Only-begotten Son of God Who was uplifted on the cross, and that He was condemned to death Who is eternal by virtue of the origin which is His by the nature which He derives from the eternal Father, it must be clearly understood that He was subjected to suffering of no natural necessity, but to accomplish the mystery of man's salvation; that He submitted to suffering of His own Will, and not under compulsion. And although this suffering did not belong to His nature as eternal Son, the immutability of God being proof against the assault of any derogatory disturbance, yet it was freely undertaken, and was intended to fulfil a penal function without, however, inflicting the pain of penalty upon the sufferer: not that the suffering in question was not of a kind to cause pain, but because the divine Nature feels no pain. God suffered, then, by voluntarily submitting to suffering; but although He underwent the sufferings in all the fullness of their force, which necessarily causes pain to the sufferers, yet He never so abandoned the powers of His Nature as to feel pain.",
+      "commentary_number": "3/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ps/54/5",
+      "full_content_url": "https://catenabible.com/com/574715f73c6effa740ddd557",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 54:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

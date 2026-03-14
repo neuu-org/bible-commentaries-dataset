@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 93:5",
+  "verse_text": "Verse text for PS 93:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/93/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Thy testimonies, O Lord, are very surely believed\" (ver. The Lord, who dwelleth on high, is mightier than the mighty overhangings of the sea. \"Thy testimonies are very surely believed. \" \"Thy testimonies,\" because He had said beforehand, \"These things I have spoken unto you, that in Me ye might have peace. In the world ye shall have tribulation. He added, \"but be of good cheer, I have overcome the world. \" If then He saith, \"I have overcome the world,\" cling unto Him who overcame the world, who overcame the sea. Rejoice in Him, because the Lord, who dwelleth on high, is mightier, and, \"Thy testimonies are very surely believed. \" And what is the end of all these. \"Holiness becometh Thine house, O Lord. \" Thine house, the whole of Thine house, not here and there: but the whole of Thine house, throughout the whole world. Why throughout the whole of the round world. \"Because He hath set aright the round world, which cannot be moved. \" The Lord's house will be strong: it will prevail throughout the whole world: many shall fall: but that house standeth; many shall be disturbed, but that house shall not be moved. Holiness becometh Thine house, O Lord. \" For a short time only. \"Unto length of days.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/93/5",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6493",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Credible. St. Jerome, \"faithful. \"\nProtestants, \"very sure. \"(Haydock)\nA person must shut his eyes not to see the prophecies fulfilled concerning Christ, and his Church. (Eusebius)\nThe majesty of God should strike us with a holy fear, and teach us to observe his commandments, and to behave with the utmost respect in his house, (Calmet) which is the whole world, or the society of the faithful. (Berthier)\nArticles of faith are perfectly credible to those whose hearts are moved by grace, (Worthington) though they cannot be understood. (Haydock)\nAll the members of the Church should carefully approve themselves to God, who is her spouse, (Worthington) and protector, (Menochius) to the end of the world. (Worthington)\nDays. Since thy power and fidelity are so great, suffer not thy temple to be any longer in ruins, or profaned. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/93/5",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 93:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

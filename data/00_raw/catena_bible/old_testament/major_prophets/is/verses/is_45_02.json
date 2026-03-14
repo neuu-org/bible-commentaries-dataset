@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 45:2",
+  "verse_text": "Verse text for IS 45:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/45/2",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I will go before you, and make the crooked places straight: I will break in pieces the gates of bronze, and cut asunder the bars of iron: Ambrose of Milan I maintain in accord with the Scriptures that God can extend the low-lying regions and the open plains, as he has said, “I will go before you and make level the mountains. ” The very force of water can also make its bed deeper by the violent movements of the waves and by the impact of the surf of that wild element that day by day stirs up the bottom of the sea, drawing forth sands from its very depths.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/45/2",
+      "full_content_url": "https://catenabible.com/com/5e88f31cb1c7280cb341d0f6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Brass. Babylon had 100 such gates. (Herodotus i. 179.)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/45/2",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beaf7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Let us not fear punishment. By this faith we shall escape punishment.… This is the correct attitude of the servants of God to be. For if those who were brought up under the old dispensation, when death was not yet slain, or his “brazen gates broken down” or his “iron bars cut into pieces” so nobly encountered their end, how destitute of all defense or excuse shall we be, if, after having had the benefit of such great grace, we attain not even to the same measure of virtue as they did, now when death is only a name, devoid of reality. For death is nothing more than a sleep, a journey, a migration, a rest, a tranquil haven, an escape from trouble and a freedom from the cares of this present life!",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/45/2",
+      "full_content_url": "https://catenabible.com/com/5e88f31db1c7280cb341d0f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 45:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

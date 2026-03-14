@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 39:10",
+  "verse_text": "Verse text for PS 39:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/39/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"I became dumb; and I opened not my mouth\" (ver. But it was to guard against \"the foolish man,\" that \"I became dumb, and opened not my mouth. \" For to whom should I tell what is going on within me. \"For I will hear what the Lord God will speak in me; for He will speak peace unto His people. \" But \"There is no peace,\" saith the Lord, \"to the wicked. \" \"I was dumb, and opened not my mouth; because it is Thou that madest me. \" Was this the reason that thou openedst not thy mouth, \"because God made thee\". That is strange; for did not God make thy mouth, that thou shouldest speak. \"He that planted the ear, doth He not hear. He that formed the eye, doth He not see. \" God hath given thee a mouth to speak with; and dost thou say, \"I was dumb, and opened not my mouth, because Thou madest me\". Or does the clause, \"Because Thou madest me,\" belong to the verse that follows. \"Remove Thy stroke away from me\" (ver. Because it is \"Thou that hast made me,\" let it not be Thy pleasure to destroy me utterly; scourge, so that I may be made better, not so that I faint; beat me, so that I may be beaten out to a greater length and breadth, not so that I may be ground to powder. \"By the heaviness of Thy hand I fainted in corrections. \" That is, I \"fainted\" while Thou wast correcting me. And what is meant by \"correcting\" me. except what follows.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/39/10",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e69e2",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In (thy) rebukes, belongs to the next verse in Hebrew and Septuagint, referring to man in general, unless the prophet mean himself. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/39/10",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be023",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 39:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

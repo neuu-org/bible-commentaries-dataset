@@ -1,0 +1,58 @@
+{
+  "verse_reference": "JN 4:37",
+  "verse_text": "Verse text for JN 4:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/4/37",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "For in this, &c. A word, i.e, a proverb, which is \"current in the mouths of many,\" says S. Chrysostom. This proverb, one soweth, &c, which is spoken of the natural harvest, is still more true with regard to the spiritual sowers and reapers. \"The sowers were the Prophets, the reapers are you, 0 ye Apostles, who by My doctrine will bring to perfection the seeds of faith which were sown by the Prophets, and will gather them, when ripe, into the storehouse of the Church.\" Wherefore He subjoins an explanation.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/4/37",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5213b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "For although Abraham was one, he did in himself prefigure the two covenants, in which some indeed have sown, while others have reaped; for it is said, \"In this is the saying true, that it is one `people' who sows, but another who shall reap; \"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/4/37",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb3a0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "These words the many used whenever one party had supplied toil and another had reaped the fruits; and He says, that the proverb is in this instance especially true, for the Prophets labored, and you reap the fruits of their labors. He said not the rewards, (for neither did their great labor go unrewarded,) but the fruits. This also Daniel did, for he too makes mention of a proverb, Wickedness proceeds from the wicked; and David in his lamenting makes mention of a similar proverb. Therefore He said beforehand, that both he that sows and he that reaps may rejoice together. For since He was about to declare, that one has sowed and another reaps, lest any one should deem that the Prophets were deprived of their reward, He asserts something strange and paradoxical, such as never chances in sensual things, but is peculiar to spiritual only. For in things of sense, if it chance that one sow and another reap, they do not rejoice together, but those who sowed are sad, as having labored for others, and those who reap alone rejoice. But here it is not so, but those who reap not what they sowed rejoice alike with those who reap; whence it is clear that they too share the reward.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/4/37",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabae4",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 4:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

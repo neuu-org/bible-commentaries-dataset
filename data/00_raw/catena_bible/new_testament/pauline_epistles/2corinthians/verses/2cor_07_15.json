@@ -1,0 +1,58 @@
+{
+  "verse_reference": "2COR 7:15",
+  "verse_text": "Verse text for 2COR 7:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/2cor/7/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul is saying that Titus’s mind and affection are concerned with them, because he has seen their progress, for the mind of a saint is concerned with everything that is good. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/7/15",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e616c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This shows that Titus was grateful to his benefactors and also gives the Corinthians even greater honor in that they were able to make such a deep impression on him.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2cor/7/15",
+      "full_content_url": "https://catenabible.com/com/584c8dc39ac03ecd4b8e616d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "What follows is in commendation of him, as exceedingly consumed with love and attached to them. And he said not 'his love. ' Then that he may not appear to be flattering, he everywhere mentions the causes of his affection; in order that he may, as I said, both escape the imputation of flattery and the more encourage them by making the praise redound unto them, and by showing that it was they who had infused into him the beginning and ground of this so great love. For having said, his inward affection is more abundant toward you; he added, Whilst he remembers the obedience of you all. Now this both shows that Titus was grateful to his benefactors, seeing he had returned, having them all in his heart, and continually remembers them, and bears them on his lips and in his mind; and also is a greater distinction to the Corinthians, seeing that so vanquished they sent him away. Then he mentions their obedience also, magnifying their zeal: wherefore also he adds these words, How with fear and trembling ye received him. Not with love only, but also with excessive honor. Do you see how he bears witness to a twofold virtue in them, both that they loved him as a father and had feared him as a ruler, neither for fear dimming love, nor for love relaxing fear. He expressed this also above, That ye sorrow after a godly sort, what earnest care it wrought in you; yea what fear, yea what longing.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2cor/7/15",
+      "full_content_url": "https://catenabible.com/com/5751ab5f3c6effa740ddd9c3",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2COR 7:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

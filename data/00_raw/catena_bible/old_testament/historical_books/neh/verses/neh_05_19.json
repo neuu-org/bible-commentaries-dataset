@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 5:19",
+  "verse_text": "Verse text for NEH 5:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/5/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Explaining this by means of a type, the apostle says that “the Lord has commanded that those who preach the gospel should receive their living from the gospel. But I have not used any of these things.” For twelve years, Nehemiah and his brothers so lived under his leadership that they would not eat “the yearly provisions that were due to the governors,” so that by this he might mystically suggest that that work is an apostolic one when someone who has been promoted to be a ruler of God’s people nobly undertakes the work of the ruler by building the church but does not seek a reward for his work by asking for earthly goods from those whom he rules by preaching and living well.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/5/19",
+      "full_content_url": "https://catenabible.com/com/591a466e19aa35522bc7e357",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Good. A good conscience confidently hopeth for a reward. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/5/19",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda0c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 5:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

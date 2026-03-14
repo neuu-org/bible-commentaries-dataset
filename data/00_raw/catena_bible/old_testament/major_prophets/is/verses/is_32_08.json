@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 32:8",
+  "verse_text": "Verse text for IS 32:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/32/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Abraham is the more praiseworthy in that “he went as the Lord told him.”\nIt was from here that one of the wise men of Greece drew the simple saying “Follow God.” … Deliberation is an investigation of the right means to pursue in present circumstances. Wise deliberation is the application of practical wisdom to deliberations. Well? Does God, after Cain’s forgiveness, consequently introduce the repentance of Enoch in demonstration that forgiveness naturally breeds repentance? Pardon is not constituted for remission of penalty but for cure.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/32/8",
+      "full_content_url": "https://catenabible.com/com/5e4f7fbac849cf49a740e438",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 32:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

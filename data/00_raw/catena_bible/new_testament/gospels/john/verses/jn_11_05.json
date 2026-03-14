@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 11:5",
+  "verse_text": "Verse text for JN 11:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/11/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Now Jesus loved Martha, &c. Because of the singular love, devotion, and liberality with which they used to provide for Jesus and His disciples, for Martha had hospitable care for Jesus. Mary having been healed and converted by Christ, devoted herself wholly to Him, and indeed used to accompany Him when He went from town to town preaching, and ministered to Him of her substance (S. Luke 8:2-3). Lazarus imitated his sisters. John here inserts the mention of the love of Jesus, not so much that he may assign that cause for the sickness of Lazarus, as Cyril thinks, as if Jesus sent the sickness to Lazarus, because He loved him and his sisters, according to Revelation 3:19, \"As many as I love I rebuke and chasten;\" but to signify that Jesus, after He had received the news of the sickness of Lazarus, plainly had a fixed purpose to heal him, but in suitable time and way. For His love made Him anxious respecting the welfare of Lazarus, and therefore He did all things which John narrates in order. Finally, Jesus so loved Lazarus and his sisters, that on their account He raised Lazarus from death, even although He knew that the raising of Lazarus would be to Himself the cause of the Cross and death. The life therefore of Lazarus was the death of Christ.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/11/5",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52272",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "That we should never be discontented or vexed if any sickness happen to good men, and such as are dear to God.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/5",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfabbc5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 11:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

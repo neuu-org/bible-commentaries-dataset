@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:168",
+  "verse_text": "Verse text for PS 119:168",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/168",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"My soul hath kept Thy testimonies, and I have loved them exceedingly:\" or, as some copies read, \"hath loved them,\" understanding, \"my soul\" (ver. The testimonies of God are kept, while they are not denied. This is the office of Martyrs, for testimonies are called Martyria in Greek. But since it profiteth nothing, even to be burnt with flames without charity, he addeth, \"and I have loved them exceedingly. For he who loveth, keepeth them in the Spirit of truth and faithfulness. But generally, while the commandments of God are kept, they against whose will they are kept become our foes: then, indeed, His testimonies also must be kept courageously, lest they be denied when the enemy persecuteth. After the Psalmist, then, had declared that he had done both these things, he ascribeth unto God his having been enabled to do so, by adding, \"because all my ways are in Thy sight. \" He saith therefore, \"I have g kept Thy commandments and Thy testimonies; n because all my ways are in Thy sight\" (ver. As much as to say, Hadst Thou turned away Thy face from me, I should have been confounded, nor could I keep Thy commandments and testimonies. \"I have kept them,\" then, because \"all my ways are in Thy sight. \" With a look favouring and siding man, he meant it to be understood that God seeth his ways: according to the prayer, \"O hide not Thou Thy face from me.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/168",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66a0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sight, whom I would not offend. (Worthington)\nThe presence of God ought to deter us most effectually from sin. (Haydock) (Titus ii. 13.)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/168",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be465",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:168",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

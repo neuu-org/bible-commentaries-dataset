@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 3:14",
+  "verse_text": "Verse text for 2KGS 3:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/3/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "After the death of Ahab, his son Ahaziah died too, and since he had no children, his brother Jehoram took his place. Therefore the Scripture reports that he moved with his army against the king of Moab. He went to war because Mesha, king of Moab, had refused to pay his tribute to the kings of Israel and had not paid both Hezekiah and Jehoram, that is, [he had not paid] one hundred thousand fat lambs and one hundred thousand unshorn rams. The word noqdo, which the Scripture mentions here, derives from Hebrew and can be translated as “king of the shepherds of rams,” that is, he reared huge herds of them. So Jehoram, who had resolved to assert the rights that his brother had renounced, summoned the kings of the inhabitants of Judea and Edom and marched with them through the territories of the children of Moab. But they found themselves on a barren and arid land, and they had no water for the army. The three kings went to see Elisha, following the advice of righteous Jehoshaphat, and implored him to rescue the suffering people, who were overwhelmed with thirst. The prophet protested and harshly reproached Jehoram but was pleased with Jehoshaphat and gave him hope of salvation. At the same time, he promised that through his mediation, he and his companions would soon obtain the victory through the agency of the Lord.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/3/14",
+      "full_content_url": "https://catenabible.com/com/5e1b69628bc66721fe4ef9a7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Reverence, (erubescerem) \"blush at \"may imply a degree of censure at Josaphat's being again found in such bad company, ver. 2. (Haydock)\nHebrew, \"If I did not receive (Calmet) or regard the face. \"(Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/3/14",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd41f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 3:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

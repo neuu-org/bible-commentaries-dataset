@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 11:20",
+  "verse_text": "Verse text for JN 11:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/11/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Then Martha, as soon as she heard, &c. At leisure for silence, grief, and prayer, according to her custom; wherefore the news of the coming of Christ reached not Mary but Martha, for Martha was the senior, and was over the house, and was active and busy, wherefore all letters and messengers were first brought to her, not to Mary. But why did not she herself signify the coming of Christ to Mary. I reply, first, because the near approach of Christ did not allow of any delay. For Christ seems to have been near the house when Martha met Him. Secondly, because Martha wished to confer secretly with Christ, that she might find out from Him whether there were any hope of raising up or helping her brother. Thirdly, because Mary, as I have said, was given to quiet and prayer. Fourthly, because, if she had called out Mary, all the Jews would have followed her, and a tumult would have arisen; they would have contended and disputed with Christ. So Leontius. Finally, her joy at the approach of Christ drew her at once to meet Him, so that she did not think of calling her sister. I prefer to say this, rather than what some suppose, that she desired to deprive her sister of this commendation, viz. [of going to meet] the coming of Christ, for this appears to me too foolish and womanish, and unworthy of so holy a heroine.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/11/20",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52280",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "Then Martha, as soon as she heard that Jesus was coming, went and met him: but Mary sat still in the house. Cyril of Alexandria Perhaps Martha was the more eager to do such things as might be necessary; wherefore also she first went and met Him: but Mary was the more intelligent. Wherefore, as possessing a more sensitive soul, she remained at home, receiving the attentions of her consoling friends; but Martha, as a simpler person, started off, intoxicated indeed with her grief, but nevertheless acting with more vigour.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/11/20",
+      "full_content_url": "https://catenabible.com/com/57eb0c76b0d44ee10cfabfc8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 11:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

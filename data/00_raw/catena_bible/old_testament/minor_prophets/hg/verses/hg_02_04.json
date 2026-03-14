@@ -1,0 +1,58 @@
+{
+  "verse_reference": "HG 2:4",
+  "verse_text": "Verse text for HG 2:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/hg/2/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Yet now be strong, O Zerubbabel, says the LORD; and be strong, O Joshua, son of Jehozadak, the high priest; and be strong, all you people of the land, says the LORD, and work: for I am with you, says the LORD of hosts: Cyril of Jerusalem Whoever scans all the books of the prophets, both of the twelve and of the others, will find many testimonies regarding the Holy Spirit. Haggai says, “For I am with you, says the Lord of hosts, and my spirit continues in your midst.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hg/2/4",
+      "full_content_url": "https://catenabible.com/com/5839ed41205c248f42e52fa6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Yet now be strong, O Zerubbabel, says the LORD; and be strong, O Joshua, son of Jehozadak, the high priest; and be strong, all you people of the land, says the LORD, and work: for I am with you, says the LORD of hosts: Glory. The temple had been destroyed sixty-nine years before, so that many might have seen it. When the second temple was dedicated, (Calmet) or founded, (Haydock) two years after the captivity, cries of grief and of joy were heard, 1 Esdras iii.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hg/2/4",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf56c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Yet now be strong, O Zerubbabel, says the LORD; and be strong, O Joshua, son of Jehozadak, the high priest; and be strong, all you people of the land, says the LORD, and work: for I am with you, says the LORD of hosts: Tertullian of Carthage In the next place, he was stripped of his former solid raiment and adorned with a garment down to the foot, and with a turban and a clean miter, that is, [with the garb] of the second advent; since he is demonstrated as having attained “glory and honor. ” [Since stripped] you will not be able to say that the man [there depicted] is the “son of Jehozadak,” who was never clad in a sordid garment but was always adorned with the sacerdotal garment, nor ever deprived of the sacerdotal function.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hg/2/4",
+      "full_content_url": "https://catenabible.com/com/5839ed41205c248f42e52fa5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HG 2:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

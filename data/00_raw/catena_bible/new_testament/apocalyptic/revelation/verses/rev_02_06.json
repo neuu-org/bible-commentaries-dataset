@@ -1,0 +1,69 @@
+{
+  "verse_reference": "REV 2:6",
+  "verse_text": "Verse text for REV 2:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/2/6",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "And when the disciples (of Nicolaus) continued to offer insult to the Holy Spirit, John reproved them in the Apocalypse as fornicators and eaters of things offered unto idols.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb828",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Wherefore the Word has also spoken of them thus: \"But this thou hast, that thou hatest the deeds of the Nicolaitanes, which I also hate.\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb826",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Enough it is for us that this heresy of the Nicolai tans has been condemned by the Apocalypse of the Lord with the weightiest authority attaching to a sentence, in saying \"Because this thou holdest, thou hatest the doctrine of the Nicolai tans, which I too hate.\"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/2/6",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb827",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Victorinus of Pettau",
+      "period": "AD303",
+      "content": "But because you yourself hatest those who hold the doctrines of the Nicolaitanes, you expect praise. Moreover, to hate the works of the Nicolaitanes, which He Himself also hated, this tends to praise. But the works of the Nicolaitanes were in that time false and troublesome men, who, as ministers under the name of Nicolaus, had made for themselves a heresy, to the effect that what had been offered to idols might be exorcised and eaten, and that whoever should have committed fornication might receive peace on the eighth day. Therefore He extols those to whom He is writing; and to these men, being such and so great, He promised the tree of life, which is in the paradise of His God.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/2/6",
+      "full_content_url": "https://catenabible.com/com/574f83413c6effa740ddd7cf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 2:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

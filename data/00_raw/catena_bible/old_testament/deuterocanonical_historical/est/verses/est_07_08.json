@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EST 7:8",
+  "verse_text": "Verse text for EST 7:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/7/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Apparel. Greek, \"of byssus \"which was very superb, chap. xv. 9. The king alone could wear the tiara upright. The nobles wore it hanging backwards. Cyrus allowed his nobility to appear in purple, but he would have only his own robes striped with white. (Cyrop. viii.; Curtius iii.)\nThe kings often made presents of garments, to ambassadors, and to those who were styled \"their relations. \"\nHorse: 200 such appeared in the train of Cyrus, with golden bits, which none were permitted to use without special leave.\nHead. Greek seems to refer this to the horse, which might indeed have a sort of crown. But the golden one was more probably worn by the person honoured, chap. viii. 15.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/7/8",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdaee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "Haman’s appeal to Queen Esther was considered by King Ahasuerus to be an act of deceit. Indeed, when the day of judgment is about to come, the petition of the wicked is no longer a prayer but a source of irritation. This is what is written in the psalm: “When he is tried, let him be found guilty; let his prayer be counted as sin.” Therefore the request is made for the oppression of those who previously oppressed the humble because the time of retribution has come. Then, after they are condemned, they are covered with the shame of their sins, as is written, “The confusion of their face will cover them,” when they are dragged to the darkness of hell to be rewarded with retribution suitable to their works.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/7/8",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa41",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 7:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

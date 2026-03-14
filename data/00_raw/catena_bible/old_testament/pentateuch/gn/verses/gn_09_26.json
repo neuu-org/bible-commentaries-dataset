@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 9:26",
+  "verse_text": "Verse text for GN 9:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/9/26",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And he said, Blessed be the LORD God of Shem; and Canaan shall be his servant. After Ham had been cursed through his one son, Noah blessed Shem and Japheth and said, “May God increase Japheth, and may he dwell in the tent of Shem, and let Canaan be their slave. ” Japheth increased and became powerful in his inheritance in the north and in the west. And God dwelt in the tent of Abraham, the descendant of Shem, and Canaan became their slave when in the days of Joshua son of Nun, the Israelites destroyed the dwelling places of Canaan and pressed their leaders into bondage.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/9/26",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e519c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 9:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

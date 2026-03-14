@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 8:2",
+  "verse_text": "Verse text for JGS 8:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/8/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "What could I A meek and humble answer appeased them; who otherwise might have come to extremities. So great is the power of humility both with God and man. (Challoner) (Proverbs xv. 1.)\nCould. Hebrew and Septuagint, \"What have I yet done like you? (Menochius)\nIs not the gleaning? \"I only commenced the war; you have brought it to a happy termination, by killing the princes of the enemy. (Debrio adag. 157.) At the first siege of Troy, Telamon having entered the city before Hercules, the latter was on the point of killing him, when Telamon, collecting a heap of stones, which he said he intended for an altar in honour of \"the victorious Hercules \"the hero's fury was appeased. (Apol. Bibl. ii. 6.)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/8/2",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd45",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "What could I: A meek and humble answer appeased them; who otherwise might have come to extremities. So great is the power of humility both with God and man.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/8/2",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa019",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 8:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

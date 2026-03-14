@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 2:4",
+  "verse_text": "Verse text for DN 2:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/2/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then spoke the Chaldeans to the king in Aramaic, O king, live forever: tell your servants the dream, and we will show the interpretation. It was originally the same as the Chaldean. Daniel understood this language, as well as Hebrew and writes in it what concerned the Chaldeans, to Chap. This shows his accuracy, as he makes his speakers use their own tongue. Spinosa ignorantly asserts, that all the seven first chapters are in Chaldean and taken from the records of that nation by Judas Maccabeus. How then did Matthathias become acquainted with the contents.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/2/4",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf27a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then spoke the Chaldeans to the king in Aramaic, O king, live forever: tell your servants the dream, and we will show the interpretation. Up to this point what we have read has been recounted in Hebrew. From this point on until the vision of the third year of King Balthasar [Belshazzar] which Daniel saw in Susa, the account is written in Hebrew characters, to be sure, but in the Chaldee language, which he here calls Syriac.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/2/4",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd27b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 2:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

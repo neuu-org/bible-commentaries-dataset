@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 16:5",
+  "verse_text": "Verse text for GN 16:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/16/5",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Didymus the Blind",
+      "period": "AD398",
+      "content": "The words ek sou can be understood in two ways: either “by you” or “from the time that.” The interpretation “by you” gives the following sense: When one who has engaged the preparatory exercises in view of virtue and perfect wisdom [the promise of faith] remains at that preparatory level [that is, the relation with Hagar], in a sense he wrongs virtue, because he has not properly employed what comes before it. But the translation “from the time that” also yields the same sense, the only difference being the one already mentioned, because in this case too virtue is wronged by one who is eager to have children from the preliminary exercises alone and who makes of this level of child bearing a kind of end in itself.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/16/5",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51a48",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Despiseth. Few bear prosperity in a proper manner!\nAnd thee. Sarai thinks it is the duty of her husband to restrain the insolence of Agar. She commits her cause to God, and does not seek revenge. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/16/5",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc090",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 16:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

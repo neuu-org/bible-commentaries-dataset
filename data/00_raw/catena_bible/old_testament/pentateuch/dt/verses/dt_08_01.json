@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 8:1",
+  "verse_text": "Verse text for DT 8:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/8/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "God can support a person's life without any sustenance, as he did Moses, Elias, for a long time. When the usual food is wanting, he can send some of a supernatural kind, as he did the manna.\nWord. Hebrew, \"by whatever proceedeth \"The Septuagint and our Saviour (Matthew iv. 4,) cite it, however, agreeably to the Vulgate. The word of God and Jesus Christ nourish our souls. (St. Chrysostom)\nPhilo says, \"God feeds us with his most universal word. Which is more ancient than the creation. \"(Calmet)\nGod could make the most poisonous things afford more nutrition, if he commanded us to eat them, than even the most delicious viands. (Abulensis) (Tirinus)\nGod can make food of whatever He pleases, or sustain men without meat. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/8/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc954",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Live a long and happy life; which was often promised to the carnal Jews, to encourage them to fulfil God's commands. Christians are willing to forego these temporal advantages, that they may obtain such as may last for ever. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/8/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc951",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 8:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

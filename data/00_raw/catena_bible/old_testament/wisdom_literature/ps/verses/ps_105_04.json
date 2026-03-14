@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 105:4",
+  "verse_text": "Verse text for PS 105:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/105/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Seek the Lord, and be strengthened\" (ver. This is very literally construed from the Greek, though it may seem not a Latin word: whence other copies have, \"be ye confirmed;\" others, \"be ye corroborated. While these words, then, \"Come unto Him, and be enlightened,\" apply to seeing; those in the text relate to doing: \"Seek the Lord, and be strengthened. But what meaneth, \"Seek His face evermore\". I know indeed that to cling unto God is good for me; but if He is always being sought, when is He found. Did he mean by \"evermore,\" the whole of the life we live here, whence we become conscious that we ought thus to seek, since even when found He is still to be sought. To wit, faith hath already found Him, but hope still seeketh Him. But love hath both found Him through faith, and seeketh to have Him by sight, where He will then be found so as to satisfy us, and no longer to need our search. For unless faith discovered Him in this life, it would not be said, \"Seek the Lord. \" Also, if when discovered by faith, He were not still to be diligently sought, it would not be said, \"For if we hope for that we see not, then do we with patience wait for it. And truly this is the sense of the words, \"Seek His face evermore;\" meaning that discovery should not terminate that seeking, by which love is testified, but with the increase of love the seeking of the discovered One should increase.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/105/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6547",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Evermore. Be assiduous to obtain his favour, and present yourselves in his holy temple as often as you are able. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/4",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be34b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 105:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

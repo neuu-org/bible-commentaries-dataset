@@ -1,0 +1,91 @@
+{
+  "verse_reference": "JN 1:23",
+  "verse_text": "Verse text for JN 1:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/1/23",
+  "commentary_status": "available",
+  "total_commentaries": 6,
+  "full_content_fetched": 6,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "I am the Voice, &c. ( Isaiah 40:3), where I have expounded the meaning. Listen to what the Fathers say about it. \"I am a servant, and prepare paths, your hearts, for the Lord,\" says Theophylact. \"I come, he says, to say that He is at the doors who is expected, that you may be prepared to go whithersoever He may bid you,\" says Cyril.",
+      "commentary_number": "1/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/1/23",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e520db",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "He accuses them sharply as knowing nothing, and accredits the design or purpose entrusted to him by Prophetic testimony. For I come, he says, to say nothing else than that He, The Looked for, is at length at the doors, yea rather the Lord within the doors. Be ye ready to go whatsoever way He bids you, ye have gone the way given you through Moses, take up that by Christ: for this the choir of the holy Prophets foretold you. A setting forth of sayings concerning the way that is after Christ. Come ye and let us go up to the mountain of the LORD, to the house of the God of Jacob, and He will teach us of His ways and we will walk in His paths. And an highway shall be there and a way, and it shall be called The way of holiness; no lion shall be there nor any ravenous beast shall go up thereon, but the redeemed shall walk there. I will give beginning to Sign, and will exhort Jerusalem unto the way. And I will bring the blind by a way that they knew not: I will lead them in paths that they have not known. Stand ye in the ways and see and ask for the old paths, where is the good way and walk therein, and ye shall find rest for you souls. What then is the good way and that purifies those who walk in it, let Christ Himself say: I am the Way.",
+      "commentary_number": "2/6",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/1/23",
+      "full_content_url": "https://catenabible.com/com/57eb0c75b0d44ee10cfabe2f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The voice of one crying in the wilderness. See Matthew iii. 3.; Mark i. 3.; Luke iii. 4.; and Isaias xl. 3. by all which John was his immediate precursor. (Witham)",
+      "commentary_number": "3/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/1/23",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb8e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "I cannot keep silence while Thou art present, for I am a voice; yea, I am the voice, as it is said, of one crying in the wilderness, Prepare ye the way of the Lord.",
+      "commentary_number": "4/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/1/23",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb2b4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "When he had spoken some high and lofty words concerning Christ, as if (replying) to their opinion, he immediately betook himself to the Prophet to draw from thence confirmation of his assertion.",
+      "commentary_number": "5/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/1/23",
+      "full_content_url": "https://catenabible.com/com/57eb0a75b0d44ee10cfaba8b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "As being he who not merely \"prepared His ways in the desert\"",
+      "commentary_number": "6/6",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jn/1/23",
+      "full_content_url": "https://catenabible.com/com/5735dff2ec4bd7c9723bb2b3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 1:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DN 10:2",
+  "verse_text": "Verse text for DN 10:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/10/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Weeks. Marsham says twenty-one years. But it means only so many days. He began to mourn on the third of Nisan, and continued fasting (ver. 4.) it seems even on the sabbaths, and on the feast of Passover, till the 24th. (Calmet)\nHe was grieved that the people did not make use of the leave granted by Cyrus; (Theod.) or because the Samaritans had prevailed at court to have the temple forbidden; (Usher, year of the world 3470; 1 Esdras i. 14.) or rather because he could not fully understand the former visions, chap. ix. 30., and xii. 9. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/10/2",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf321",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "By this example we are taught to abstain from the pleasanter types of food (I think that the term \"desirable bread\" is that inclusive) during a period of fasting, and that we neither eat flesh nor drink (A) wine, (697) and especially that we desire no anointing with ointments. This custom is maintained among the Persians and Indians even to this day, that they use ointment as a substitute for baths. Also, Daniel afflicted his soul for three consecutive weeks, so that his intercession might not appear cursory or casual. By inference, indeed, we ought to make the observation that a person in mourning who (p. 554) bemourns the absence of one betrothed partakes of no desirable bread though |112 it comes down from heaven itself; neither does he touch solid food, which is to be understood in the sense of meat, nor does he drink any wine, which gladdens the heart of man, or make his face cheerful with oil (as we read in the Psalms: \"That he may make the face cheerful with oil\" Ps. 103 [=104]: 15). By means of such a fast as this (B) the betrothed girl sheds tears which will be convincing, when her fiance has been taken from her. Daniel also did well to supplicate the Lord with boldness, inasmuch as in the first year of Cyrus's reign the captivity of the Jews had already been somewhat relaxed in its severity.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/10/2",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd340",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 10:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 25:3",
+  "verse_text": "Verse text for NM 25:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/25/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Initiated to Beelphegor. That is, they took to the worship of Beelphegor, an obscene idol of the Moabites, and were consecrated as it were to him. (Challoner) Hebrew, \"Israel was attached, or married to Beelphegor \"the sun, Adonis or Osiris, whom the psalmist (cv. 28,) styles, the dead, because the people were accustomed to bewail the death of Adonis every year, with great solemnity. (Calmet) St. Jerome supposes this god \"of opening, or nakedness \"Beelphegor, to be the obscene Priapus. (Menochius) The people fell by degrees into the depth of abomination. They first defiled their bodies with women, then their souls were contaminated by the sacrifices of their idols, till they began really to adore them, and even to consecrate themselves to their service, meaning to ratify their base apostacy from the true God. (Haydock) Yet it is probable all those who were cut off by pestilence, were not thus initiated: but only those who were the princes or ringleaders, and who are sentenced to be gibbeted. (Salien) The mother of Asa, king of Juda, was not ashamed to preside over the mysteries of this obscene idol, (3 Kings xv. 13,) which people worshipped by prostitution. (Villalpand) (St. Jerome in Osee iv. ) (Tirinus).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/25/3",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc828",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "Initiated to Beelphegor: That is, they took to the worship of Beelphegor, an obscene idol of the Moabites, and were consecrated, as it were, to him.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/25/3",
+      "full_content_url": "https://catenabible.com/com/5879ddf6dd1bb6dd3dba9fdb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 25:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

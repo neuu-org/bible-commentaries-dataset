@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 11:3",
+  "verse_text": "Verse text for GN 11:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/11/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Each one: not that every individual joined in this undertaking, considered, at least, as a rash and presumptuous attempt to save themselves from a second deluge. Some might innocently give in to it, meaning only to leave a monument to their common origin and friendship, before they separated into distant countries. Slime: literally bitumen. (Haydock)\nThe Hebrew, chomer, means also slime, or mortar. Stone is very scarce in that country, but the earth is fat, and very proper to make brick; it also abounds in naphtha, bitumen: hence the ancients notice the brick walls of Babylon. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/11/3",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc055",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 11:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

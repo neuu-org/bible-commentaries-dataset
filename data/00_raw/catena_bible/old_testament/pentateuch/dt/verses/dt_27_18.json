@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 27:18",
+  "verse_text": "Verse text for DT 27:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/27/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Blind; or, according to the Rabbins and Grotius, those who are on a journey, and do not know the road. \"Cursed, said Diphilis, is the man who does not tell the right road. \"Those who lead the simple astray, are no less blameable, Leviticus xix. 14. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/27/18",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bca83",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "This [that is, the behavior of the Gnostics] is not the behavior of those who heal and give life but rather of those who aggravate disease and increase ignorance. The law shows itself much truer than such people when it says that whoever leads a blind man astray from the way is accursed. The apostles were sent to find those who were lost and to bring sight to those who did not see and healing to the sick. They did not speak to them in accordance with their previous opinions but by a revelation of the truth. For no one would be acting rightly if one told the blind who were already beginning to fall over the precipice to continue in their dangerous way as if it were a sound one and as if they would come through all right. .",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/27/18",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52a7b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 27:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

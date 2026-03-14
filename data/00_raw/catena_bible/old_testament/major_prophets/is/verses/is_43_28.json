@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 43:28",
+  "verse_text": "Verse text for IS 43:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/43/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Therefore I have profaned the princes of the sanctuary, and have given Jacob to the curse, and Israel to reproaches. “Your princes profaned the sanctuary. ” Those who were from the house of Manasseh profaned the sanctuary with the four-faced idol, which they placed inside the sanctuary. Because of those crimes, and in particular because of Manasseh’s crime, “I have given Jacob to the curse, and Israel to reviling.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/43/28",
+      "full_content_url": "https://catenabible.com/com/5e88f311b1c7280cb341d0cc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Profaned, or declared such, (Haydock) Nadab, (Leviticus x. 1.; Calmet) or Moses and Aaron. (Menochius)\nSeptuagint, \"and the princes defiled my holy things. \"(Haydock)\nSlaughter. Hebrew, \"anathema. \"Yet I will re-establish all. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/43/28",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beae8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 43:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

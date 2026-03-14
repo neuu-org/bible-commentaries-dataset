@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 5:21",
+  "verse_text": "Verse text for EX 5:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/5/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Kill us. You are the occasion of our more cruel treatment. You have made the king have a bad opinion of us. Hebrew, \"you have made our savour to be abhorred in the eyes of Pharao. \"So Jacob said, (Genesis xxxiv. 30,) you have made me stink or become odious. Those who attempt to do a kindness, unsuccessfully, often experience a similar ingratitude, chap. xiv. 11. (Menochius)\nIt does not appear from the original, whether the officers or Moses was coming from the king's presence. They met in some appointed place. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/5/21",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2f3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 5:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

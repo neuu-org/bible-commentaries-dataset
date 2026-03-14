@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 14:26",
+  "verse_text": "Verse text for 2KGS 14:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/14/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“In the fifteenth year of King Amaziah son of Joash of Judah, King Jeroboam son of Joash of Israel began to reign in Samaria; he reigned forty-one years. He restored the border of Israel from Lebo-hamath as far as the Sea of the Arabah, according to the word of the Lord, the God of Israel, which he spoke by his servant Jonah son of Amittai, the prophet.” This is the same Jonah who preached the repentance of Nineveh. And the Sea of Arabah is the same that the Scripture calls elsewhere the “salt sea,” situated on the border with Canaan, of which the city of Hamath, beside the Mount Lebanon, is the other northern border. Jeroboam honored the prophet Jonah as his father had honored Elisha and recurred to his useful work, so that, being encouraged by his predictions and advice, was able to conquer back the cities occupied by the Syrians.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/14/26",
+      "full_content_url": "https://catenabible.com/com/5e1b69868bc66721fe4ef9f1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In prison is not expressed in the original, (Calmet) which has, \"not any shut up, nor last. \"Neither those who had strong castles, nor the poorest people, were exempt from suffering. (Haydock)\nNone durst appear, 3 Kings xiv. 10. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/14/26",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd4cc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 14:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

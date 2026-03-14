@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 51:45",
+  "verse_text": "Verse text for JER 51:45",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/51/45",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Therefore, Paul also urged us to this and said, “Expel the wicked man from your midst” and “so that he who has done this deed might be put away from your midst.” Indeed, bad companionship is a terrible thing, a terrible thing! A pestilence does not infect and scabies corrupt those tainted as quickly as the wickedness of evil people does those affected by this malady. For “evil companionships corrupt good morals.” The prophet also said, “Go out of the midst of them, and separate yourselves from them.”",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/51/45",
+      "full_content_url": "https://catenabible.com/com/5e936173d87c4a70874ae379",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theodore of Tabennesi",
+      "period": "AD368",
+      "content": "“Theodore to the beloved brothers in Mount Nitria: priests, deacons and monks, greetings in the Lord. I want you to know that “the pride of” the Arians “has gone up” to God and that “God has visited his people and seeing the afflictions” that they endure he has had mercy on them. He has promised to have mercy on his church and to deliver it from these afflictions. The time has come, therefore, when the church will be delivered from these persecutions. Indeed, God said of the Arians, “I will punish Babylon and will take from its mouth what its has swallowed.” And of the church, “Who is there among you that saw this house in its former glory?” “For the last glory of this house is going to surpass the first.” Therefore, brothers, “since we have these promises,” comfort those who are suffering from the Arians in those parts, that no one’s faith may be turned aside, for “the sins of the” Arians “have not yet ended.”",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/51/45",
+      "full_content_url": "https://catenabible.com/com/5e936173d87c4a70874ae378",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 51:45",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

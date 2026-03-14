@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 18:13",
+  "verse_text": "Verse text for NM 18:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/18/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "First-ripe, (initia.) \"The beginnings \"(Haydock) of the fruit of trees, in the fourth year, Leviticus xix. 24. It may also comprise all the fruits of the earth. (Calmet)\nFirst-fruits must be distinguished from tithes, which were only the tenth part. The former were offered immediately to the Lord, but the latter to the priests, for their support. Besides the first-fruits of ears of corn at the Passover, and of bread at Pentecost, and at every weekly baking, first-fruits were to be given in the 7th month of the harvest and of the vintage, according to each person's generosity, provided he gave between the 40th and the 60th part of his revenue; and these last are commonly the first-fruits meant in Scripture.\nLord, in sacrifice. If they were given to the priest, the unclean might partake of them. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/18/13",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7b0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 18:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

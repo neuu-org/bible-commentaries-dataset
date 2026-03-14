@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ROM 16:27",
+  "verse_text": "Verse text for ROM 16:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/16/27",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Without Christ nothing is complete, because all things are through him. It is acknowledged that praise is given to God the Father through him, because it is understood that “through Christ” means “through his wisdom,” in whom he has saved believers. Therefore glory to the Father through the Son is glory to both in the Holy Spirit, because both are in the one glory. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/27",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "God alone is wise, although both Solomon and many other holy men were called wise.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/27",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53e8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do not think that Paul said this in disparagement of the Son. For if all the things whereby his wisdom was made apparent were done by Christ and nothing was done without him, it is quite plain that the Son is equal to the Father in wisdom also. The word only is used in order to contrast God with every created being.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/27",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53ea",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 16:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

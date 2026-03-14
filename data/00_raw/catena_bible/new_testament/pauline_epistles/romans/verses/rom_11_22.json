@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 11:22",
+  "verse_text": "Verse text for ROM 11:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/11/22",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul testifies that God is good to the Gentiles because, although they followed idols and deserved to die, he waited for them in his patience, and even though they did not seek him, he called them and forgave their sins. But God is severe toward the Jews and has even blinded them because they rejected God’s gift. Here Paul is referring to those Jews who because of their wickedness have been permanently blinded. For this reason he says that they have fallen, whereas the others whom I mentioned above have not fallen, even though they have sinned, because Paul shows that they have been blinded for a time. But God has been severe to these, because they have become eternally blind and apostate. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/11/22",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e520d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "\"Behold, therefore \"says Paul, \"the goodness and severity of God: on them that fell severity; but upon thee, goodness, if thou continue in His goodness\"",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/11/22",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbab0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul does not point to human works but to the goodness of God as a reminder to us that our salvation comes from God’s grace and to make us tremble.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/11/22",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e520e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Such and so great futilities of theirs wherewith they flatter God and pander to themselves, effeminating rather than invigorating discipline, with how cogent and contrary (arguments) are we for our part able to rebut,-(arguments) which set before us warningly the \"severity\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/11/22",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbab1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 11:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

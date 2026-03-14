@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 48:9",
+  "verse_text": "Verse text for IS 48:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/48/9",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For my name's sake will I defer my anger, and for my praise will I restrain it for you, that I cut you not off. Cyril of Alexandria It is a work that is necessary, and it is the fruit of admirable foresight to avoid these things that are announced and not to wait for the end of the unhappy times but to stand outside of all wrath and judgment. … “I have restrained my wrath for the sake of my name,” and I will establish my glorious deeds over you lest you be destroyed. … We see in this the greatness of God’s love; he mixes in with unhappy events glorious things lest they be totally destroyed.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/48/9",
+      "full_content_url": "https://catenabible.com/com/5e88f334b1c7280cb341d15c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bridle thee, like a headstrong beast, (Calmet) running to its own ruin. (Haydock)\nGod pardons freely, that people may be saved if they will. (Worthington)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/48/9",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb1f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "“I will not give my glory to another.” This means that the idols should not be thought to oppress the people of God. Or indeed when [Isaiah] says, “I will not give to another [Christ],” he shows that he has already given it to another. For “another” is used to distinguish from the first. Many of our translators … assert that he here prophesies about the advent of Christ that would come suddenly and unlooked for; that Christ would show his very stubborn people his presence, to those whose ears God never opened since their heart was coarse and they are hard of hearing, in that as soon as the Lord came from the virginal womb he was called “sinner” and “unrighteous” as the people sought to kill him.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/48/9",
+      "full_content_url": "https://catenabible.com/com/5e88f333b1c7280cb341d15b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 48:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

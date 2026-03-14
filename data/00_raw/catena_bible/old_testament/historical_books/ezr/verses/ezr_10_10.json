@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EZR 10:10",
+  "verse_text": "Verse text for EZR 10:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/10/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And Ezra the priest stood up and said to them, 'You have transgressed and married foreign wives, to add to the sin of Israel. And now make a confession to the Lord the God of your fathers', and so on until it says: So the descendants of the exiles did as was proposed. And Ezra the priest and the men who were the heads of the families departed to the house of their fathers, and all of them by their names. This passage answers the one which is stated above: And Ezra rose up from before the house of God and went away to the room of Jehohanan son of Eliashib, and entered there. He ate no bread and drank no water, for he continued to mourn. Here is it worth noting the devotion of the pontifex who while mourning, fasting, and praying for the people's transgression remained for three days in the temple courts and did not want to enter his own house before he saw that the people agreed to repent with a whole heart and turn to the Lord. The remaining leaders are seen to have shared this devotion as well, since they too are said to have departed to the house of their fathers when the assembly ended. For if the writer of sacred history did not want to indicate this by this sentence, what need was there to write that when the conversation ended Ezra and the heads of the families departed to the house of their fathers when they left the precincts of the temple, since anyone would know that they would do this even if Scripture did not say so. And what need was there to add and all of them by their names, since this too would have been very well known to everyone, unless it was because he wished it to be understood that these were the sort of men whose names and deeds are deservedly held in remembrance and passed on to be known by posterity.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/ezr/10/10",
+      "full_content_url": "https://catenabible.com/com/58fe623b543064d91d46c3a7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Assuredly also, when (the apostle) rules that marriage should be “only in the Lord,” (1 Cor. 7:39) that no Christian should intermarry with a heathen, he maintains a law of the Creator, who everywhere prohibits marriage with strangers.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ezr/10/10",
+      "full_content_url": "https://catenabible.com/com/58fe623b543064d91d46c3a8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 10:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

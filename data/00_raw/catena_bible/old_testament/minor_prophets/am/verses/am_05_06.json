@@ -1,0 +1,47 @@
+{
+  "verse_reference": "AM 5:6",
+  "verse_text": "Verse text for AM 5:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/am/5/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "Therefore, while there is time, look to the true and eternal salvation, and, since the end of the world is now at hand, out of fear of God turn your minds to God. Let not your powerless and vain dominion in the world over the just and the meek delight you. Remember that in the fields the tares and the darnel have dominion over the cultivated and fruitful corn, and you should not say that evils happen because your gods are not worshiped by us. But you should realize that this is God’s anger, this is God’s censure, so that he who is not recognized for his blessings may at least be recognized for his judgments. “Seek God, and your soul shall live. ” Acknowledge God even though it is late. For Christ advises and teaches this, saying, “Now this is everlasting life, that they may know you the only true God and him whom you have sent, Jesus Christ. ” Believe him who by no means deceives. Believe him who has foretold that all these things would come to pass. Believe him who will give the reward of eternal life to those who believe. Believe him who by the fires of Gehenna will inflict eternal punishments on the disbelieving.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/am/5/6",
+      "full_content_url": "https://catenabible.com/com/5838db7f205c248f42e52c1c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Joseph. His two grandchildren gave name to the principal tribes of the kingdom.\nBethel. Septuagint, \"Israel \"which seems preferable. (Calmet)\nYet Bethel may stand, as it denotes the apostate Israelites.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/am/5/6",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf440",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured AM 5:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

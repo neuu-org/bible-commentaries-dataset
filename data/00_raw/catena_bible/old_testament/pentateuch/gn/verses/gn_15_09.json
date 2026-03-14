@@ -1,0 +1,58 @@
+{
+  "verse_reference": "GN 15:9",
+  "verse_text": "Verse text for GN 15:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/15/9",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Here also, in fine, a symbol was given, consisting of these animals: a heifer, a shegoat, a ram and two birds, a turtledove and pigeon, that he might know that the things which he had not doubted should come to pass were to happen in accordance with this symbol. The heifer may be a sign that the people should be put under the law, the shegoat that the same people were to become sinful, the ram that they should reign. Perhaps these animals are said to be of three years old for this reason: that there are three remarkable divisions of time, from Adam to Noah, and from him to Abraham, and from him to David. David, on the rejection of Saul, was first established by the will of the Lord in the kingdom of the Israelite nation. In this third division, which extends from Abraham to David, people grew up as if passing through the third age of life. Or perhaps it may be that they had some other more suitable meaning. Still I have no doubt whatever that spiritual things were prefigured by them as well as by the turtledove and pigeon.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/15/9",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51a30",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "Therefore the heifer, the shegoat and the ram of three years, as also the turtledove and the pigeon, presented a type of all nations. They were described as of three years, because all the nations were to believe in the mystery of the Trinity. Now the entire Catholic church has not only spiritual members but carnal ones also, for although some say they believe in the Trinity, they are nevertheless carnal because they neglect to avoid sins and vices. Since there are spiritual souls with the carnal ones, for this reason the turtledove and pigeon were added. In the latter, spiritual people can be meant, but in those other three animals carnal people are understood.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/15/9",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51a31",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Three years, when these animals have obtained a perfect age.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/15/9",
+      "full_content_url": "https://catenabible.com/com/5735e141ec4bd7c9723bc086",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 15:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

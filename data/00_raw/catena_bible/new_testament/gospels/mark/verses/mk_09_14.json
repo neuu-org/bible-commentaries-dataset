@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 9:14",
+  "verse_text": "Verse text for MK 9:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The multitude were so solicitous to see Christ that they saluted him when yet a great way off. Some imagine that the countenance of our Saviour, being rendered more beautiful by his transfiguration, attracted the attention and admiration of the people. (Theophylactus)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/14",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf95a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "When He came to His disciples, that is, to the nine that had not gone up onto the mountain with Him, He saw that they were being questioned by the Pharisees. For the Pharisees had seized the opportunity of Jesus absence to attempt to turn the disciples away from the Lord. The multitude, however, suddenly caught sight of Him, and greeted Him. They had been longing to see Him, and now they caught sight of Him and greeted Him as if He had just returned from a long journey. Some say that even His appearance had become more beautiful from the light of the Transfiguration which drew the multitude towards Him to greet Him. A man in the crowd spoke in answer to the Lords question. This man was weak in faith, as even the Lord attests when He says, 0 faithless generation, and again, all things are possible to him that believeth. The man himself attests to his unbelief when he says, Help Thou mine unbelief. His complaints against the disciples clearly shows his unbelief. For he ought not to have accused them in front of everyone, but privately.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/9/14",
+      "full_content_url": "https://catenabible.com/com/57eb0d50b0d44ee10cfac188",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "verse_reference": "PRV 1:20",
+  "verse_text": "Verse text for PRV 1:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/1/20",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Streets. In every place we may learn wisdom. \"The wise learn more from fools, than fools do from the wise \"as Cato well observed. (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/1/20",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be56c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hilary of Arles",
+      "period": "AD449",
+      "content": "It is written: “Wisdom is made known in death,” that is to say, the life of the wise man is praised at the end of his life. Wherefore we read also in another place: “Do not praise a man during his lifetime”and again, “Praise not any man before death.” Now suppose someone says: praise a man after death, for in the praise of the living there is a possible occasion of vain exultation for the object of the laudation and a note of flattery is attached to the one bestowing it. In many ways, however, it is useful to praise the dead: in the first place, because, while the one is absent who might be gratified by our praise, it is necessary that the whole glory be referred to the bestower of grace; second, because only admiration for his virtue remains when the suspicion of flattery is removed. Therefore, praise of the dead which is proclaimed in the holy congregation of the faithful is full of edification and utterly free from ostentation. Life of St. Honoratus, Preface",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/1/20",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8387",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Salvian the Presbyter",
+      "period": "AD429",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Wisdom cries aloud outside; she raises her voice in the open square: Salvian the Presbyter What about this saying: “He who shall have persevered to the end, shall be saved,” or that oracle of the divine word in the sacred proverbs: “Wisdom is proclaimed at the moment of departure”. These sayings show that, though wisdom is helpful in every age, all people should be particularly wise when they are leaving this world, because the wisdom of past years will not fully deserve praise if it does not terminate in a good end. Wisdom is proclaimed at the moment of departure.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/1/20",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c8388",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 1:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 11:30",
+  "verse_text": "Verse text for MK 11:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/11/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "The baptism announced by John formed the subject, even at that time, of a question proposed by the Lord himself to the legal experts. It concerned whether John’s baptism was from heaven or from men. They were unable to give a consistent answer. They did not understand because they did not believe.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/11/30",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52e4d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "The baptism announced by John formed the subject, even at that time, of a question, proposed by the Lord Himself indeed to the Pharisees, whether that baptism were heavenly, or truly earthly:",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/11/30",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb728",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 11:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

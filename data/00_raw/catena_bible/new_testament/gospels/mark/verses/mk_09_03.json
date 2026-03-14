@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 9:3",
+  "verse_text": "Verse text for MK 9:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/9/3",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "What this sun is to the eyes of the flesh, that is the Lord to the eyes of the heart.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/9/3",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52dc3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "If anyone asks what the Lord’s garments, which became white as snow, represent typologically, we can properly understand them as pointing to the church of his saints [who] … at the time of the resurrection will be purified from every blemish of iniquity and at the same time from all the darkness of mortality. Concerning the Lord’s garments the Evangelist Mark remarks that “they became as bright as snow, such as no bleacher on earth can make them white. ” It is evident to everyone that there is no one who can live on earth without corruption and sorrow. So it is evident to all who are wise, although heretics deny it, that there is no one who can live on earth without being touched by some sin. But what a cleansing agent (that is, a teacher of souls or some extraordinary purifier of his body) cannot do on earth, that the Lord will do in heaven. He will purify the church, which is his clothing, “from all defilement of flesh and spirit,” renewing [her] besides with eternal blessedness and light of flesh and spirit.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/9/3",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52dc6",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "How did he shine? Tell me. Exceedingly. And how do you express this? He shone as the sun. As the sun, you say? Yes. Why the sun? Because I do not know any other luminary more brilliant. And he was white, you say, as snow? Why as snow? Because I do not know any other substance which is whiter. But he did not strictly speaking shine merely as the sun shines daily. This is proved by what follows: the disciples fell to the ground. If he had shone as the sun daily shines, the disciples would not have fallen, for they saw the sun every day, and did not fall. But inasmuch as he shone more brilliantly than the sun or snow, they, being unable to bear the splendor, fell to the earth. Eutropius, and the Vanity of Riches, Homily",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/9/3",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52dc5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 9:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

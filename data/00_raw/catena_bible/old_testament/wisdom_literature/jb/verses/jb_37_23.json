@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 37:23",
+  "verse_text": "Verse text for JB 37:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/37/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Worthily. Hebrew, \"the Almighty, we cannot find him out \"(Haydock) or comprehend his nature or mysteries. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/37/23",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bddd2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "74. Even if we can now find Him out, yet not worthily. For whatever we perceive in Him, is of faith, and not of sight. But yet he adds that which he considers he has found, saying;\nHe is great in power, and judgment, and justice, and cannot be spoken of.\nFor He is great in power, because He overcomes the powerful adversary, and taking from his house the vessels of dishonour, changes them into vessels of mercy. [Matt. 12, 29] Great in judgment; because, though He here brings down His Elect by adversity, yet He raises them at last in the glory of eternal prosperity. Great in justice: for though He here bears long with the reprobate, yet He at last condemns them for ever. But it is well subjoined; And cannot be spoken of. For if He cannot worthily be thought of, how much less can He be spoken of? But we speak of Him far better, in a measure, if we hold our peace with admiration through fear of thinking upon Him.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/37/23",
+      "full_content_url": "https://catenabible.com/com/574393213c6effa740ddd243",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 37:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

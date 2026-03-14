@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1SM 10:25",
+  "verse_text": "Verse text for 1SM 10:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/10/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Before the Lord. It seems that the ark was therefore present. This record of Samuel is lost, so that we cannot determine what laws he prescribed on this occasion. (Calmet)\nJosephus ( chap. viii., and which he says Samuel repeated on this occasion. But the prophet would also take a copy of the law of the kingdom, prescribed by Moses, (Deuteronomy xvii.) and deliver it to Saul, that he might make it the rule of his conduct, and not imitate the wicked customs of tyrants. (Haydock)\nThe whole process of this memorable event he would also write down, (Menochius) as we read it at present in this chapter, placing it in the proper order, as a continuation of the sacred history which Moses and Josue had commenced; and like them, depositing the sacred volume beside the ark, or in the tabernacle. See Josue xxiv. 26. (Haydock)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/10/25",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bceb8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 10:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

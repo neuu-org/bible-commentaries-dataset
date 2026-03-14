@@ -1,0 +1,47 @@
+{
+  "verse_reference": "RU 1:1",
+  "verse_text": "Verse text for RU 1:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ru/1/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "one of the judges: The judge was Abesan, of whom Judges 12:1 speaks, who judged 47 years before Eli, as is clear from Judges 11.\nFamine: The Hebrews say that because of the famine in the land many poor people turned to Elimelech, who was rich and powerful, and he was harsh towards them because of his avarice; and so he left the land of Israel with all the goods he could carry, to avoid their begging. And because he left for bad motive, he died there with his sons and was impoverished. (Nicholas of Lyra Com Ruth)\nLand of Moab: East of the Jordan, and adjacent to the Dead Sea, on both sides the river Arnon, on which their capital city was situated; although the river Arnon was strictly and properly the northern boundary of Moab. This country was originally possessed by a race of giants called Emim whom the Moabites conquered Deut 2:11-12. (Augustin Calmet Dic Bible)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ru/1/1",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9cd9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now it came to pass in the days when the judges ruled, that there was a famine in the land. And a certain man of Bethlehemjudah went to sojourn in the country of Moab, he, and his wife, and his two sons. Hebrew, \"And it came to pass in the days when the judges ruled. \"(Haydock) The and shows the connection with the former book. (Calmet) Land. Chaldean adds, \"of Israel \"(Menochius) while the less fertile country of Moab had abundance. God thus punished the idolatry of his people. Some say the famine lasted ten years; but this is uncertain, though Noemi continued so long out of the country, ver.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ru/1/1",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce07",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured RU 1:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

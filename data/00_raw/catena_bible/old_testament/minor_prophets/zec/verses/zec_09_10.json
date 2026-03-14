@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 9:10",
+  "verse_text": "Verse text for ZEC 9:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/9/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Peace and tranquility of soul are more than all the glory of the house, for peace surpasses all understanding. This is that peace beyond all peace, which will be given after the third moving of heaven, sea, earth and dry land, when he will destroy all the powers and principalities. “Heaven and earth will pass away,” and the whole figure of this world. Every man will rise up against his brother with the sword, that is, with the word that penetrates the marrow of his soul, to destroy what is opposed, namely, the chariot of Ephraim and the horse from Jerusalem, as Zechariah says. And such will be the peace over all the passions of the body which are not in opposition, and over the minds of unbelievers, who are not a hindrance, that Christ will be formed in all and will make an offering of the hearts of all people in submission to his Father.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/zec/9/10",
+      "full_content_url": "https://catenabible.com/com/5838db40205c248f42e52b90",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Chariot. Arms shall be useless, Micheas v. 10.\nEarth. This can be understood only of Christ's kingdom, (Calmet) though it allude to the greatest limits of the promised land. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/9/10",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf5d6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 9:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

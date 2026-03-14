@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 118:15",
+  "verse_text": "Verse text for PS 118:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/118/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The voice of rejoicing and salvation is in the tabernacles of the righteous: the right hand of the LORD does valiantly. Augustine of Hippo 9. \"The voice of joy and health is in the dwellings of the righteous\" (ver. 15); where they who raged against their bodies thought there was the voice of sorrow and destruction. For they did not know the inward joy of the saints in their future hope. Whence the Apostle also saith, \"As sorrowful, yet alway rejoicing;\" and again, \"And not only so, but we glory in tribulations also.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/15",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e65fc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Just. Such were the Jews by their vocation, though many answered very ill the designs of God. (Calmet)\nChristians thank God for their redemption, and confessors are full of joy in their prisons and torments, Acts xvi. 25. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/118/15",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be3cf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 118:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

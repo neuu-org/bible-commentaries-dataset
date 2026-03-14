@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1CHR 10:4",
+  "verse_text": "Verse text for 1CHR 10:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/1chr/10/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Douay Rheims 1609",
+      "period": "AD1609",
+      "content": "But (a) Jabes invocated the God of Israel, saying: If blessing thou wilt bless me, and wilt enlarge my borders, and thy hand be with me, and thou wilt make that I be not oppressed by malice. And God granted the things that he prayed for.\r\n(a) In joining a vow to his prayer he imitated holy Jacob. Gen. 28. And they both desired temporal things for the better serving of God, & advancing his Glory; especially that they might be assisted with grace not to yield to temptations, nor sin of malice.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/10/4",
+      "full_content_url": "https://catenabible.com/com/590bf5639f61fbda40c5414e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fear and reverence for his master, (Calmet) as well as concern for his own safety. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1chr/10/4",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd665",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1CHR 10:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

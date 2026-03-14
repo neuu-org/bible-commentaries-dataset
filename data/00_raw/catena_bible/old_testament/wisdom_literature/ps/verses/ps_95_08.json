@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 95:8",
+  "verse_text": "Verse text for PS 95:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/95/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10. Therefore, \"To-day if ye will hear His voice, harden not your hearts\" (ver. 8). O my people, the people of God! God addresses His people: not only the people of His which He shall not cast off, but also all His people. For He speaketh in the corner stone to each wall: that is, prophecy speaketh in Christ, both to the people of the Jews, and the people of the Gentiles. For some time ye heard His voice through Moses, and hardened your hearts. He then, when you hardened your hearts, spoke through a herald; He now speaketh by Himself, let your hearts soften. He who used to send heralds before Him, hath now deigned to come Himself; He here speaketh by His own mouth, He who used to speak by the mouths of the Prophets.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/95/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64b1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "To-day. St. Paul beautifully illustrates this passage, Hebrews iv. (Haydock)\nHe follows not the present Hebrew punctuation, which would join half this verse with the preceding.\nHis. God speaks of the Messias according to the apostle, who intimates that to-day comprises all the life of man, Hebrew xxxvii. 13. (Berthier)\nHarden not. Man is the author of his own obduracy, (Theodoret) which God only permits. (St. Augustine) (Calmet)\nWe have free will, and may resist God's grace, as we may also consent to it, and thus co-operate to our first justification. (Council of Trent, Session vi. 5.) (Worthington)\nthe captives (Calmet) and first Christians were exhorted not to imitate the depravity of the ancient Jews. (Haydock)\nThough a man may have frequently resisted the Holy Spirit, he may still repent. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/95/8",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 95:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

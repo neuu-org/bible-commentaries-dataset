@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 9:23",
+  "verse_text": "Verse text for LV 9:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/9/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Testimony. To offer incense, which always preceded the morning holocaust.\nGlory; or fire, probably issuing from the tabernacle, and consuming the victims in a moment. Thus God was pleased to show his approbation of the priests and victims, (Calmet) and at the same time, to impress a religious awe upon the minds of the spectators. (Haydock)\nThis fire was carefully preserved and nourished by the priests with wood; though the Rabbins say, this was done only to conceal the miracle of its perpetual continuance. A fire, of the same nature, came down upon the victims, when Solomon dedicated his temple, (2 Paralipomenon vii. 1,) and was kept burning till the captivity, when it was hidden in a cistern. Being found afterwards, like a muddy water, God kindled it again, (2 Machabees i. 18; ii. 10,) and it was not lost till the persecution of Epiphanes.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lv/9/23",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc577",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 9:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

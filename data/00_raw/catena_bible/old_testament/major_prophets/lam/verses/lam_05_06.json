@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LAM 5:6",
+  "verse_text": "Verse text for LAM 5:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/5/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hand; engaged to serve Egyptians, Babylonians, (Calmet) or other nations, to procure sustenance. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lam/5/6",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723befbd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Now, the people's slavery is personal and voluntary, because impelled by no means, people sell themselves to others in slavery. Or, at least for a time, as Verse 6 states: \"We have given the hand to Egypt,and to Assyria, to get bread enough.\" That is, subjugating themselves to them. As I Samuel 2:5 claims: \"Those who were full have hired themselves out for bread, but those who were hungry have ceased to hunger.\"\n\nAgain: Verse 6: \"We have given the hand to Egypt, and to Assyria, to get bread enough\". That is, by demanding aid. As Jeremiah 2:18 says: \"And now what do you gain by going to Egypt, to drink the waters of the Nile? Or what do you gain by going to Assyria to drin~c the waters of the Euphrates?\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/5/6",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9dca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 5:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

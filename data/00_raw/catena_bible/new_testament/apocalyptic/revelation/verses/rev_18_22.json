@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 18:22",
+  "verse_text": "Verse text for REV 18:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/18/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "craftsman: All things, he says, which appertain to the use of pleasure of human life, are taken from the ungodly; and he has added the reason in that which follows. <a",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/18/22",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9ca4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "And the voice of harpers, and musicians, and of flutists, and trumpeters, shall be heard no more at all in you; and no craftsman, of whatsoever craft he may be, shall be found any more in you; and the sound of a millstone shall be heard no more at all in you; voice: Of the five senses he had deferred sound, which he now says is taken away from the world among other things. As if he said, that which is beautiful to see, melodious to hear, smooth to touch, sweet to smell, delicious to taste, is to pass away from the world.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/18/22",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9ca3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 18:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

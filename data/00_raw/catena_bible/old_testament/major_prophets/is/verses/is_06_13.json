@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 6:13",
+  "verse_text": "Verse text for IS 6:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/6/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Tithing. The land shall produce its fruits, and people shall bring their tithes, Ezechiel xx. 40. There shall be some left; (chap. i. 9., and iv. 3.; Calmet) though only a tenth part will embrace Christianity. (St. Basil)\nMade. Septuagint, \"ravaged. \"They shall be exposed to many persecutions under Epiphanes, and few shall escape the arms of the Romans, (Calmet) those particularly (Haydock) who shall be a holy seed. (Calmet)\nThe apostles were of Jewish extraction, (Haydock) and spread the gospel throughout the world. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/6/13",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be910",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 6:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

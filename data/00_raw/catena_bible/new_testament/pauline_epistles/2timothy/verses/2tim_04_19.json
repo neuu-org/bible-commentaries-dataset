@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2TIM 4:19",
+  "verse_text": "Verse text for 2TIM 4:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2tm/4/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For he was then in Rome, of whom he said The Lord grant unto him that he may find mercy of the Lord in that day. 2 Timothy 1:18 By this naming of him, he makes those of his household also more zealous in such good actions.\n\nSalute Priscilla and Aquila. These are they of whom he makes continual mention, with whom too he had lodged, and who had taken Apollos to them. He names the woman first, as being I suppose more zealous, and more faithful, for she had then received Apollos; or it might be done indifferently. And it was to them no slight consolation to be thus saluted. It conveyed a demonstration of esteem and love, and a participation in much grace. For the bare salutation of that holy and blessed man was sufficient to fill with grace him who received it.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2tm/4/19",
+      "full_content_url": "https://catenabible.com/com/575f0fe63c6effa740ddde83",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2TIM 4:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 13:23",
+  "verse_text": "Verse text for HEB 13:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/13/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Our brother, Timothy, is set at liberty. From which we may conjecture that Timothy had been a prisoner, though it is not known where, nor on what occasion. (Witham)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/13/23",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0358",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Know that our brother Timothy is set at liberty; with whom, if he comes shortly, I will see you. I suppose that they were not at all unfavorably disposed towards Timothy: wherefore he also put him forward. For Hebrews 13:23 know ye, he says, that our brother Timothy is set at liberty, with whom, if he come shortly, I will see you. Set at liberty, he says; from whence. I suppose he had been cast into prison: or if not this, that he was sent away from Athens. For this also is mentioned in the Acts.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/13/23",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac88c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 13:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

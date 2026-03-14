@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JGS 1:8",
+  "verse_text": "Verse text for JGS 1:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/1/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Jerusalem. This city was divided into two; one part was called Jebus, the other Salem; the one was in the tribe of Juda, the other in the tribe of Benjamin. After it was taken and burnt by the men of Juda, it was quickly rebuilt again by the Jebusites, as we may gather from ver. 21, and continued in their possession till it was taken by king David. (Challoner)\nFire. They treated it with such severity, because it seems to have revolted, (Serarius) though the text of Josue (x. 25,) only says that the king was slain. But (Josue xv. 63., and here) ver. 21., it is said, that the children of Juda and of Benjamin dwelt along with the Jebusites.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/1/8",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcca8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Now the children of Judah had fought against Jerusalem, and had taken it, and struck it with the edge of the sword, and set the city on fire. Jerusalem: This city was divided into two; one part was called Jebus, the other Salem: the one was in the tribe of Juda, the other in the tribe of Benjamin. After it was taken and burnt by the men of Juda, it was quickly rebuilt again by the Jebusites, as we may gather from ver. 21; and continued in their possession till it was taken by king David.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jgs/1/8",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa002",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 1:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 49:13",
+  "verse_text": "Verse text for PS 49:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/49/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"This their own way is an offence to them\" (ver. Be it an offence to them, not to thee. But when will it be so to thee too. If thou thinkest such men to be blessed. If thou perceivest that they be not blessed, their own way will be an offence to themselves; not to Christ, not to His Body, not to His members. \"And afterwards they shall bless with their mouth. \" What meaneth, \"Afterwards they shall bless with their mouth\". Though they have become such, that they seek nothing but temporal goods, yet they become hypocrites: and when they bless God, with lips they bless, and not with heart. Christians like these, when to them eternal life is commended, and they are told, that in the name of Christ they ought to be despisers of riches, do make grimaces in their hearts: and if they dare not do it with open face, lest they blush, or lest they should be rebuked by men, yet they do it in heart, and scorn; and there remaineth in their mouth blessing, and in their heart cursing. The Second Part.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/49/13",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a73",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 49:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

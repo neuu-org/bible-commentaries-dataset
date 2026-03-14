@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 2:28",
+  "verse_text": "Verse text for 1SM 2:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/2/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And did I choose him out of all the tribes of Israel to be my priest, to offer upon my altar, to burn incense, to wear an ephod before me. and did I give unto the house of your father all the offerings made by fire of the children of Israel. Ephod, and all the pontifical attire. (Haydock) The high priest wore a different sort of ephod from that of other people. (Calmet) All the Even of the holocausts, the priests received the skin. (Menochius).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/2/28",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce56",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For with respect to the future, they [rulers] will not be benefited by the honor done them but receive the greater condemnation; neither will they be injured as to the future by ill treatment but will have the more excuse. But all this I desire to be done for your own sakes. For when rulers are honored by their people, this too is reckoned against them; as in the case of Eli it is said, “Did I not choose him out of his father’s house?” But when they are insulted, as in the instance of Samuel, God said, “They have not rejected you, but they have rejected me.” Therefore insult is their gain, honor their burden. What I say, therefore, is for your sakes, not for theirs. He that honors the priest will honor God also; and he who has learned to despise the priest will sooner or later insult God.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/2/28",
+      "full_content_url": "https://catenabible.com/com/5de467401f75ae05ba98ce78",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 2:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

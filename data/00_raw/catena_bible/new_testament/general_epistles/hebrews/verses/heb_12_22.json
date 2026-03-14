@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 12:22",
+  "verse_text": "Verse text for HEB 12:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/12/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But you are come to Mount Sion, where not a law of fear, like that of Moses, but a new law of love and mercy hath been given you, preached by our Saviour himself, and by his apostles, testified by the coming of the Holy Spirit, and by the effusion of God's spirit upon the believers. Here you are called to the city of the living God, (to the Christian Church on earth) and even to the celestial Jerusalem, there to be for ever happy in the company of many millions of Angels; to the church of the first-born, who are written in heaven, (ver. ) to be happy with those who have been chosen by a special mercy of God, and blessed with an endless happiness; to be there in the presence of God, the judge of all men, with all the celestial spirits and souls of the just and perfect in the kingdom of God. Jesus Christ is the mediator of this new testament, the redeemer of mankind by his death on the cross, by the sprinkling and effusion of his blood, which speaketh better than that of Abel: the blood of Abel cried to heaven for vengeance, and the blood of Christ for mercy and pardon.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/12/22",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0345",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And to an innumerable company of angels. Here he shows the joy, the delight, in place of the blackness and darkness and tempest.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/12/22",
+      "full_content_url": "https://catenabible.com/com/57eb1776b0d44ee10cfac874",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 12:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 21:21",
+  "verse_text": "Verse text for EX 21:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/21/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Money, which purchased the slave. Hence, as he will be punished in some degree, and it is not absolutely certain that the slave died of his wounds, his master shall not be put to death. \"They are slaves, (says Seneca, ep. 47,) but they are our fellow-slaves. \"We have one common origin, and one master over us all, Job xxxi. 13. (Haydock)\nMany nations tolerated the murder of slaves by their masters. But this was contrary to reason and humanity, (Calmet) and condemned by many of the Roman laws. (Christen.)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/21/21",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3e9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 21:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

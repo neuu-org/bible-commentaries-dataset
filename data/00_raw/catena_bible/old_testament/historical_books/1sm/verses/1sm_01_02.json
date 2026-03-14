@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 1:2",
+  "verse_text": "Verse text for 1SM 1:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/1/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "That the church which before had been barren should have more children from among the Gentiles than what the synagogue had had before. Isaiah said, “Rejoice, O barren one, that barest not; break forth and shout, who has not been in labor, for the deserted one will have more children than she who has a husband. …” So also, to Abraham, when his first son was born of a bondwoman, Sarah remained long barren, but later, in her old age, bore him her promised son Isaac, who was a type of the Christ. Jacob also took two wives: the elder, Leah, with weak eyes, was a type of the synagogue; the younger and beautiful Rachel, a type of the church, who also remained long barren and afterwards brought forth Joseph, who also was himself a type of Christ. And in 1 Kings [Samuel] it is said that Elkanah has two wives: Peninnah, with her sons; and Hannah, barren, from whom is born not according to the order of generation but according to the mercy and promise of God, when she had prayed in the temple; and Samuel, being born, was a type of Christ. Again in 1 Kings [Samuel]: “The barren has born seven; and she who had many children has grown weak.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/1/2",
+      "full_content_url": "https://catenabible.com/com/5de467401f75ae05ba98ce58",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Phenenna. She was only of inferior dignity. At that time polygamy was lawful, (Menochius) as Moses insinuates, if he do not expressly allow it.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/1/2",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bce27",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 1:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

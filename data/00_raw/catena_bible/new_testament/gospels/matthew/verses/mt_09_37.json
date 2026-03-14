@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 9:37",
+  "verse_text": "Verse text for MT 9:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/9/37",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "An abundant harvest signified the multitude of people. The few laborers signified the dearth of teachers. He commands them to ask the Lord of the harvest to send out laborers into his harvest. These are the laborers of whom the psalmist speaks: “May those who sow in tears reap with shouts of joy! He that goes forth weeping, bearing the seed for sowing, shall come home with shouts of joy, bringing his sheaves with him.” And that I may speak in broader terms: an abundant harvest represents all the believing multitude. The few laborers imply the apostles and their imitators who are sent to the harvest. .",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/9/37",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6e76",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The harvest truly is plenteous, but the laborers are few; But of what laborers does He speak here. Of the twelve disciples. Whereas He had said, But the laborers are few, did He add to their number. By no means, but He sent them out alone. Wherefore then did He say, Pray ye the Lord of the harvest, that He would send forth laborers into His harvest; and made no addition to their number. Because though they were but twelve, He made them many from that time forward, not by adding to their number, but by giving them power.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/9/37",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac3be",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 9:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

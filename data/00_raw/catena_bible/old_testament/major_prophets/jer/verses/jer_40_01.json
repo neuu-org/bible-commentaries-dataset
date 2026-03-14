@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 40:1",
+  "verse_text": "Verse text for JER 40:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/40/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The word that came to Jeremiah from the LORD, after Nebuzar-adan the captain of the guard had let him go from Ramah, when he had taken him being bound in chains among all that were carried away captive of Jerusalem and Judah, who were carried away captive unto Babylon. This happened to Jeremias; (Raban) or the prophet rather interrupts what he was about to say, to let the reader know the state of affairs, when he was consulted about the journey into Egypt, chap. Rama; probably in Benjamin, near Bethel, Judges xix. (Calmet) In this last part, Jeremias foretells what would befall the Jews in Egypt, and other nations. (Worthington).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/40/1",
+      "full_content_url": "https://catenabible.com/com/5735e271ec4bd7c9723bee7d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Jeremiah, who was sanctified in the womb and was known in his mother’s belly, enjoyed the high privilege because he was predestined to the blessing of virginity. And when all were captured and even the vessels of the temple were plundered by the king of Babylon, he alone was liberated by the enemy, did not know the insults of captivity and was supported by the conquerors; and Nebuchadnezzar, though he gave Nebuzaradan no charge concerning the Holy of Holies, did give him charge concerning Jeremiah. For that is the true temple of God and that is the Holy of Holies, which is consecrated to the Lord by pure virginity.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/40/1",
+      "full_content_url": "https://catenabible.com/com/5e936164d87c4a70874ae349",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 40:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 14:18",
+  "verse_text": "Verse text for LK 14:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/14/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And they all with one consent began to make excuse. The first said unto him, I have bought a piece of ground, &c. The Scribes and Pharisees, and the chief Priests are here clearly indicated; for they, invited by Christ to the Gospel feast, made light of it, because they were so intent on their farms, i.e. their worldly possessions, that they had neither time nor inclination to think about the salvation of their souls. \"God,\" says S. Gregory (Hom36 in Evang.), \"offers what ought to have been asked. Unasked, He is ready to give, what we could scarcely dare hope for. He announces that the delights of the eternal feast are ready, and with one consent they make excuse.\" \"They say, I pray thee, and then disdain to come. The word sounds of humility, but the action is pride.\" S. Bernard rightly calls men who seek wealth, pleasure, honour and the like, lunatics. \"I once\" says Hebrews , \"saw five men: why should I not look on them as lunatics? For the first, with swollen cheeks, was chewing the ...",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lk/14/18",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5200d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Giving his invitation; only then inviting, when already compelling to his banquet; appointing one and the same hour both for the supper and the invitation. But when invited, they excuse themselves.\n\"I have bought a field-and I have bought some oxen-and I have married a wife.\"",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/14/18",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbe47",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 14:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

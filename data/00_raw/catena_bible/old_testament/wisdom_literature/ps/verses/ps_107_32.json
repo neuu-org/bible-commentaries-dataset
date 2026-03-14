@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 107:32",
+  "verse_text": "Verse text for PS 107:32",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/107/32",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "8. \"And let them exalt Him in the assembly of the people, and praise Him in the seat of the elders\" (ver. 32). Let them exalt, let them praise, peoples and elders, merchants and pilots. For what hath He done in this assembly? What hath He established? Whence hath He rescued it? What hath He granted it? Even as He resisted the proud, and gave grace to the humble: the proud, that is, the first people of the Jews, arrogant, and extolling itself on its descent from Abraham, and because to that nation \"were entrusted the oracles of God.\" These things did not avail them unto soundness, but unto pride of heart, rather to swelling than to greatness. What then did God, resisting the proud, but giving grace to the humble; cutting off the natural branches for their pride; grafting in the wild olive for its humility?",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/107/32",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e658e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 107:32",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 49:2",
+  "verse_text": "Verse text for GN 49:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/49/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "See the good man’s shrewdness. Since he foresaw the moment of his death, he summoned his sons and said, “Gather around so that I may predict ahead of time what is in store for you at the end of your days. Come together, and listen to Israel your father.” Come along, he says, and learn from me, not the immediate future but what will happen in the last days. This I foretell to you not of myself but under the inspiration of the Spirit; hence I predict ahead of time what will occur after many generations. You see, as I am on the point of departing this life, I want to imprint it on the memory of each of you as if on some bronze pillar. Now consider how with his sons gathered together the good man follows the order of their birth and in this way bestows curse or blessing appropriate to each, showing by this procedure the extraordinary degree of his own virtue.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/49/2",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51ccc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 49:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

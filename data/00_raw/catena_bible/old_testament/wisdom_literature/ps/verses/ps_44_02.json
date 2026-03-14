@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 44:2",
+  "verse_text": "Verse text for PS 44:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/44/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Thy hand destroyed the nations; and Thou plantedst them: Thou didst weaken the peoples, and cast them out\" (ver. 2). That is to say: \"Thou didst drive out 'the peoples' from their own land, that Thou mightest bring 'them' in, and plant them; and mightest by Thy mercy stablish their kingdom.\" These are the things that we heard from our fathers. But perhaps it was because they were brave, were men of battle, were invincible, were well-disciplined, and warlike, that they could do these things. Far from it. This is not what our fathers told us; this is not what is contained in Scripture. But what does it say, but what follows?",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/44/2",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a1d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh How you did drive out the nations with your hand, and planted them; how you did afflict the people, and cast them out. Plantedst them, thy people. See Jeremias ii. , and Ezechiel xvii. Out, by means of insects, Wisdom xii. , and Josue xxiv. (Calmet) The Hebrews were miraculously assisted, (Worthington) without any merit of their own, (Calmet) as all were wicked at first. Yet Abraham was freely chosen, that the visible Church might be preserved. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/44/2",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be059",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 44:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

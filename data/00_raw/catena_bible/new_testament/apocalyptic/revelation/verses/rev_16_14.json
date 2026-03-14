@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 16:14",
+  "verse_text": "Verse text for REV 16:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/16/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "kings: As there are holy kings to whom, when the Euphrates is dried, the way of the East is laid open; so also are there said to be evil kings of the earth, who, without being gathered together from the whole world into one place, but each nation in its place, are to fight against the saints. By \"the great day of the Lord,\" he means the whole time from the Lord's Passion. \"The day\" may also be taken to be the day of judgment, when the army of the devil, which has been gathered together through the whole time of the present life, will meet the Lord, the King, that it may be overthrown. <a",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/16/14",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c82",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "For they are the spirits of demons, working miracles, who go forth unto the kings of the earth and of the whole world, to gather them to the battle of that great day of God Almighty. demons: For as was done by the magicians of Pharaoh, so is it to be supposed that these will perform signs. And not without reason did he remember these, when he had made mention of frogs, but that he might announce that the ministers of Satan would then also perform similar signs. For the magicians were permitted to prevail by their enchantments as far as the sign of frogs.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/16/14",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c81",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 16:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

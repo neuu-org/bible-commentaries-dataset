@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 7:15",
+  "verse_text": "Verse text for PS 7:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/7/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"He hath opened a ditch, and digged it\" (ver. To open a ditch is, in earthly matters, that is, as it were in the earth, to prepare deceit, that another fall therein, whom the unrighteous man wishes to deceive. Now this ditch is opened when consent is given to the evil suggestion of earthly lusts: but it is digged when after consent we press on to actual work of deceit. But how can it be, that iniquity should rather hurt the righteous man against whom it proceeds, than the unrighteous heart whence it proceeds. Accordingly, the stealer of money, for instance, while he desires to inflict painful harm upon another, is himself maimed by the wound of avarice. Now who, even out of his right mind, sees not how great is the difference between these men, when one suffers the loss of money, the other of innocence. \"He will fall\" then \"into the pit which he hath made. \" As it is said in another Psalm, \"The Lord is known in executing judgments; the sinner is caught in the works of his own hands.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/7/15",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e671f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 7:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

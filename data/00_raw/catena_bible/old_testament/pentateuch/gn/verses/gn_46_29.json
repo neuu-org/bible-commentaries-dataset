@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 46:29",
+  "verse_text": "Verse text for GN 46:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/46/29",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This is what I said at the outset, that in many cases an excess of joy causes the tears to flow. “He fell on his neck,” the text says, and not simply “wept” but “wept a flood of tears.” You see, immediately there came to his mind what he himself had suffered, what his father had endured on his account. Joseph thought of the great length of time that had elapsed in the meantime and the fact that, contrary to all expectation, he saw his father, and his father set eyes on his son. So he shed a flood of tears, revealing his exceeding joy and, at the same time, thanking the Lord for what had happened.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/46/29",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51caf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 46:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

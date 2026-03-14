@@ -1,0 +1,36 @@
+{
+  "verse_reference": "TIT 2:8",
+  "verse_text": "Verse text for TIT 2:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ti/2/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Sound speech, that cannot be condemned; that he that is an opponent may be ashamed, having no evil thing to say of you. By him that is of the contrary part, he means the devil, and every one who ministers to him. For when the life is illustrious, and the discourse corresponds to it, being meek and gentle, and affording no handle to the adversaries, it is of unspeakable advantage. Of great use then is the ministry of the word, not any common word, but that which is approved, and cannot be condemned, affording no pretext to those who are willing to censure it.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/8",
+      "full_content_url": "https://catenabible.com/com/576210d59fd295934bf1201a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured TIT 2:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 7:8",
+  "verse_text": "Verse text for EX 7:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/7/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the LORD spoke unto Moses and unto Aaron, saying, Augustine of Hippo Here indeed there was no need to use the service of the voice, for which Aaron was provided out of necessity, on account of the weakness of Moses’ voice. But the staff was to be cast down so that it would become a serpent. Why did Moses himself not do this, except because that mediation of Aaron himself between Moses and Pharaoh was the symbol of some great matter. Questions on Exodus.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/7/8",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52771",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory the Theologian",
+      "period": "AD390",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the LORD spoke unto Moses and unto Aaron, saying, Gregory the Theologian Great indeed was Moses, who afflicted Egypt grievously and saved his people by many signs and prodigies, who went within the cloud and instituted the twofold law: the law of the letter without and the law of the spirit within. Aaron also, the brother of Moses according to the flesh and the spirit, sacrificed and prayed on behalf of the people, as consecrated minister of the great and holy tabernacle, “which the Lord has erected and not man. ” Oration , On St.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/7/8",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52770",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 7:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

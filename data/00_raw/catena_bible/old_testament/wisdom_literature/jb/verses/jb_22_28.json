@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 22:28",
+  "verse_text": "Verse text for JB 22:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/22/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Decree. Thy projects shall succeed. Septuagint, \"But he shall appoint for thee the rule of justice. \"(Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/22/28",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdcc3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "This is used to be the special conclusion of those going weakly, that in such proportion they esteem a man righteous as they see him obtain all that he desires; whereas in truth we know that earthly goods are sometimes withheld from the righteous, while they are bestowed with liberal bounty upon the unrighteous; seeing that to sick persons also when they are despaired of, physicians order whatever they call for to be supplied, but those whom they foresee may be brought back to health, the things which they long for they refuse to have given them. Now if Eliphaz introduced these declarations with reference to spiritual gifts, be it known that ‘a thing is decreed and is established’ to a man, when the virtue which is longed for in the desire, is, by God’s granting it, happily forwarded by the carrying of it out as well. And hence it is yet further added; And the light shall shine upon thy way. Since for ‘light to shine in the ways’ of the righteous, is by extraordinary deeds of virtue to scatter the tokens of their brightness, that wherever they go in the bent of the mind, from the hearts of those beholding them they may dispel the night of sin, and by the example of their own practice pour into them the light of righteousness; but whatever justness of practice there may be, in the eye of the interior Judge it is nothing, if pride of heart uplifts it.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/22/28",
+      "full_content_url": "https://catenabible.com/com/57428c813c6effa740ddd0ba",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 22:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

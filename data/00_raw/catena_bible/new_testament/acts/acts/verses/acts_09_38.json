@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ACTS 9:38",
+  "verse_text": "Verse text for ACTS 9:38",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/9/38",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Why did they wait till she was dead? Why was not Peter solicited (ἐ σκύλη) before this? So right-minded (φιλοσοφοὕντες) were they, they did not think it proper to trouble (σκύλλειν) the Disciples about such matters, and to take them away from the preaching: as indeed this is why it mentions that the place was near, seeing they asked this as a thing beside his mark, and not now in the regular course. Not to delay to come unto them: for she was a disciple. And Peter arose, and went with them. And when he had come, they led him into the upper chamber.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/9/38",
+      "full_content_url": "https://catenabible.com/com/58cf03f5dec071662b7b9296",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 9:38",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

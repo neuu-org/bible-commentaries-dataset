@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 20:23",
+  "verse_text": "Verse text for ACTS 20:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/20/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "In every city: There were in every city Christian prophets, who foretold to Paul the tribulations which awaited him. It appears, then, that the apostle did not know these things by immediate revelation made to himself, but by that made to the prophets. Of this we have a proof in the next chapter.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/20/23",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfe51",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Then is this why you depart? By no means; on the contrary (I know that), bonds and afflictions await me. That (there are) trials, I know, but of what kind I know not: which was more grievous. But none of these things move me",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/20/23",
+      "full_content_url": "https://catenabible.com/com/58cf0414dec071662b7b9482",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 20:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

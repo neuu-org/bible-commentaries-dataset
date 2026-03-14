@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 20:26",
+  "verse_text": "Verse text for NM 20:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/20/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And strip Aaron of his garments, and put them upon Eleazar his son: and Aaron shall be gathered unto his people, and shall die there. Ambrose of Milan What else does it mean that after the death of Aaron God did not command the entire people but only Moses, who is among the priests of the Lord, to clothe with the vestments of Aaron the priest his son, Eleazar, unless we understand that a priest should consecrate a priest. He himself should vest him, that is, with priestly virtues. And then, if he sees that he lacks none of the priestly vestments and that everything is appropriately in order, he admits him to the holy altars.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/20/26",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e5293f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Vesture, or pontifical attire. Eleazar had been anointed already, so that perhaps he stood in need of no other ceremony to be acknowledged high priest. He was dispensed with on this occasion to attend his dying father. The spirit of God gives great encomiums to Aaron, Malachi as ii. , and Ecclesiasticus xlv. He, at the same time, prefigured Christ, the gospel, and the old law. He spoke plainly, and was allowed to enter the holy of holies; while Moses was excluded, spoke with difficulty, and had a veil on his face. But on the other hand, he represented the law with all its defects. He falls into several great faults, and dies despoiled of his glorious vestments, to show the abrogation of his priesthood. The pagans have, perhaps, introduced some parts of his history into that of Mercury, the god of thieves and of travellers, the messenger of the other gods, whom they adorn with a wand, in imitation of the rod of Aaron, who was the interpreter of Moses, and the head of that people, which wandered for 40 years, after plundering Egypt.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/20/26",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc7d6",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 20:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

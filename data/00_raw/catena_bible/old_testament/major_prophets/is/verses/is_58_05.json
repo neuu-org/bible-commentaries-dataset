@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 58:5",
+  "verse_text": "Verse text for IS 58:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/58/5",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Is it such a fast that I have chosen. a day for a man to afflict his soul. is it to bow down his head as a bulrush, and to spread sackcloth and ashes under him. will you call this a fast, and an acceptable day to the LORD. They affected extreme debility, Matthew vi. (Calmet) Ashes. These external marks of penance are not condemned, but the want of corresponding sentiments. (Haydock) Protestants would hence infer that fasting from flesh is not requisite, or a religious worship. Jerome shows the contrary, provided it be joined with the observance of other commandments, as the saints and Christ himself have shown us. (Worthington).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/58/5",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb97",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 58:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

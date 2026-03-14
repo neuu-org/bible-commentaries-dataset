@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 83:3",
+  "verse_text": "Verse text for PS 83:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/83/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"For lo Thine enemies have sounded, and they that hate Thee have lifted up the head\" (ver. He seems to me to signify the last days, when these things that are now repressed by fear are to break forth into free utterance, but quite irrational, so that it should rather be called a \"sound,\" than speech or discourse. They will not, therefore, then begin to hate, but \"they that hate Thee\" will then \"lift up the head. \" And not \"heads,\" but \"head;\" since they are to come even to that point, that they shall have that head, which \"is lifted up above all that is called God, and that is worshipped;\" so that in him especially is to be fulfilled, \"He that exalteth himself shall be abased;\" and when He to whom it is said, \"Keep not silence, nor grow mild, O God,\" shall \"slay him with the breath of His mouth, and shall destroy with the brightness of His coming. \" \"Upon Thy people they have malignantly taken counsel\" (ver. Or, as other copies have it, \"They have cunningly devised counsel, and have devised against Thy saints. \" In scorn this is said. For how should they be able to hurt the nation or people of God, or His saints, who know how to say, \"If God be for us, who shall be against us.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/83/3",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c86",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Saints. Hebrew, \"hidden ones \"(Protestants; Haydock) the people under God's protection, (Menochius; Berthier) or the treasures of the temple. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/83/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be245",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 83:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

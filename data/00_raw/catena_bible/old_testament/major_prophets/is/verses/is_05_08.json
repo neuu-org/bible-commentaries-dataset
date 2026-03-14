@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 5:8",
+  "verse_text": "Verse text for IS 5:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/5/8",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Because your soul is a priceless thing, poor man, be on your guard. The soul is everlasting, although the flesh is mortal. Although you may lack money, you are not therefore devoid of grace. Although your house is not commodious, your possessions are not scattered. The sky is open, and the expanse of the world is free. The elements have been granted to all for their common use. Rich and poor alike enjoy the splendid ornaments of the universe.\nAre the paneled ceilings decked with gold in the homes of the very wealthy more beautiful than the face of the heavens decorated with glistening stars? Are the estates of the rich more extensive than the surface of the world? Hence it was said of those who join house to house and estate to estate: “Shall you alone dwell in the midst of the earth?” You have actually a larger house, you man of low estate—a house wherein your call is heard and heeded.… The house of God is common to rich and poor.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/5/8",
+      "full_content_url": "https://catenabible.com/com/5e4f7f3bc849cf49a740e204",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Even. Septuagint, \"to take from your neighbour: shall \"(Haydock)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/5/8",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be8f2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "You see, even if many people do not admit this in so many words but claim to believe in the doctrine of the resurrection and future retribution, nevertheless I take notice not of their words but of what they do day to day. That is to say, if you are looking forward to resurrection and retribution, why go chasing the values of this life to such an extent. Why, tell me, do you put yourself to such trouble day in and day out amassing more possessions than there is sand on the seashore, not to mention property and dwellings, as well as buying baths, often acquiring these things through robbery and greed and thus fulfilling that saying from the inspired author “Woe to those who add house to house, and join field to field so as to steal from their neighbor”. Cannot this sort of thing be seen happening day after day. One person says, “That house casts a terrible shadow on mine,” and he invents countless pretexts to get hold of it, while another lays hold of a poor person’s property and makes it his own. And what in fact is worse, remarkable and unheard of and quite beyond excuse, is for a person comfortably situated in one locality being able to move elsewhere without any good reason for wanting to, either on account of a change of circumstances or because constrained by physical disability; all over the place, in city after city, he is bent on procuring monuments to his own avarice and having timeless effigies of his own evil for all to see. He heaps all sins of this kind on his own head without feeling his heavy and troublesome burden, whereas enjoyment of them he leaves for others, not only after his departure from this life but even here before his demise. You see, no matter what he wishes, he is stripped of his possessions, they are all squandered, so to say, by his friends and left in tatters without the smallest part of them falling to him to enjoy. Yet why do I say enjoy. Even if he wanted, how could he with one stomach manage to dispose of such an abundance of good things.",
+      "commentary_number": "3/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/is/5/8",
+      "full_content_url": "https://catenabible.com/com/5e4f7f3bc849cf49a740e205",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 5:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

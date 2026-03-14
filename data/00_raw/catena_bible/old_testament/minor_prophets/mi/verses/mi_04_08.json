@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MI 4:8",
+  "verse_text": "Verse text for MI 4:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mi/4/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“And you, O tower, O cloudy shepherd of the daughter of Zion, your time shall come.” These words refer to the impious king Zedekiah, whom the prophet calls “tower” because the people of Judea stayed under his shadow, and “shepherd” because of his administration of the kingdom, and “cloudy” because of the error of idolatry to which he adhered. Again, in the symbolic meaning of his words he calls the devil a cloudy shepherd, because in an allegorical sense he always attacks the daughter of Zion under a cloudy sky. And, after catching her, he drags her away from the light—indeed the one who acts maliciously hates the light. But later, the supreme and legitimate prince of the mystical Jerusalem destroyed this tyranny with his advent and drove the obscure shepherd away. .",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mi/4/8",
+      "full_content_url": "https://catenabible.com/com/5838db9b205c248f42e52c62",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cloudy. Hebrew. \"fortress, or ophel \"a tower or wall near the temple, 2 Esdras iii. 27.\nFlock. Jerusalem was no better, after the Chaldeans had destroyed it, 4 Kings xvii. 9. Yet there Zorobabel, the Machabees, and Christ displayed their power. It was the cradle of the Church. Some take this to refer to Bethlehem, as chap. v. 2. (Calmet)\nShall it come. Septuagint add, \"from Babylon. \"After the captivity the Jews shall flourish, as the Church shall prove victorious over all her persecutors. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mi/4/8",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf4e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MI 4:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

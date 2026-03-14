@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2SM 7:12",
+  "verse_text": "Verse text for 2SM 7:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/7/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "I will establish his kingdom. This prophecy partly relates to Solomon; but much more to Christ, who is called the Son of David in Scripture, and the builder of the true temple, which is the Church, his everlasting kingdom, which shall never fail, nor be cast off for any iniquity of her children. (Challoner)\nGod passes over all the children whom David had already, 3 Kings ii. 15. The temporal kingdom was enjoyed by David's posterity for a long time, sufficient to verify the expression for ever, as it is often used in Scripture. (Calmet)\nBut the spiritual kingdom of the Messias will last till the end of time, and be perfected in eternity. (Haydock)\nIn these predictions we must always distinguish the type from the reality. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/7/12",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bd0bf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And when your days be fulfilled, and you shall sleep with your fathers, I will set up your offspring after you, who shall proceed out of your own body, and I will establish his kingdom. I will establish his kingdom: This prophecy partly relateth to Solomon: but much more to Christ, who is called the son of David in scripture, and who is the builder of the true temple, which is the church, his everlasting kingdom, which shall never fail.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2sm/7/12",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0ca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 7:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

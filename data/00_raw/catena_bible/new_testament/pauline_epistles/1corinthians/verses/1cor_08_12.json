@@ -1,0 +1,80 @@
+{
+  "verse_reference": "1COR 8:12",
+  "verse_text": "Verse text for 1COR 8:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/8/12",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "It is the very law of Christ that we bear one another’s burdens. Moreover, by loving Christ we easily bear the weakness of another, even him whom we do not yet love for the sake of his own good qualities, for we realize that the one whom we love is someone for whom the Lord has died.",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/8/12",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5cf3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "Consequently, either when something is done which is intrinsically evil and scandal results, or if the performance of a licit act and one within our sphere of competence causes scandal to one who is weak in faith or knowledge, then the penalty is clear and unescapable… “It were better for him that a millstone were hanged about his neck.”",
+      "commentary_number": "2/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/8/12",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5cf1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Rome",
+      "period": "AD99",
+      "content": "Believers say, \"Never will we eat flesh, that we may not make our brother to stumble.\"",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/8/12",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723ba79a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Do you observe how quietly and gradually he has brought their offense up to the very summit of iniquity? And again, he makes mention of the infirmity of the other sort: and so, the very thing which these considered to make for them, that he every where turns round upon their own head. And he said not, Putting stumbling-blocks in their way, but, wounding; so as by the force of his expression to indicate their cruelty. For what can be more savage than a man who wounds the sick? And yet no wound is so grievous as making a man to stumble. Often, in fact, is this also the cause of death.\n\nBut how do they sin against Christ? In one way, because He considers the concerns of His servants as His own; in another, because those who are wounded go to make up His Body and that which is part of Him: in a third way, because that work of His which He built up by His own blood, these are destroying for their ambition's sake.",
+      "commentary_number": "4/5",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/8/12",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd86b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Those who wound a weak conscience sin against Christ. He considers the concerns of his servants to be his own. Those who are wounded make up his own body. These people are destroying the work which Christ built up by his own blood.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/8/12",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5cf2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 8:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

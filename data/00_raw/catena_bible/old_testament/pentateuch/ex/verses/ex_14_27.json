@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 14:27",
+  "verse_text": "Verse text for EX 14:27",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/14/27",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Moses stretched forth his hand over the sea, and the sea returned to its place when the morning appeared; and the Egyptians fled against it; and the LORD overthrew the Egyptians in the midst of the sea. Gregory of Nyssa But after that the surface of the sea became one again, and the temporary gap was flooded over. So this remains a unique event which occurred in such a way that the marvel did not lose credibility because of the passage of time, since it continues to be testified to by visible traces. That is the way the affair of the marshy lake is both described and shown.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/14/27",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527e1",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Paulus Orosius",
+      "period": "AD418",
+      "content": "The Hebrews proceeded s[i]afely over the dry passage, and the masses of stationary water collapsed behind them. The entire Egyptian multitude with their king was overwhelmed and killed, and the entire province, which had previously been tortured by plagues, became empty by this last slaughter. Even today there exists most reliable evidence of these events. For the tracks of chariots and the ruts made by the wheels are visible not only on the shore but also in the deep, as far as sight can reach. And if perchance for the moment they are disturbed either accidentally or purposely, they are immediately restored through divine providence by winds and waves to their original appearances, so that whoever is not taught to fear God by the study of revealed religion may be terrified by his anger through this example of his accomplished vengeance.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/14/27",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e527e2",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 14:27",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

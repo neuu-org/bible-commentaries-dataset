@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 143:9",
+  "verse_text": "Verse text for PS 143:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/143/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. \"Deliver me from mine enemies, O Lord, for unto Thee have I fled for refuge\" (ver. 9). I who once fled from Thee, now flee to Thee. For Adam fled from the Face of God, and hid himself among the trees of Paradise, so that of him was said in the Book of Job, \"As a servant that fleeth from his Lord, and findeth a shadow.\" He fled from the Face of his Lord, and found a shadow. Woe to him, if he continue in the shade, lest it be said afterward, \"All things are passed away like a shadow.\" The rulers of this world, of this darkness, the rulers of the wicked; against these ye wrestle. Great is your conflict, not to see your enemies, and yet to conquer. Against the rulers of this world, of this darkness, the devil, that is, and his angels not the rulers of that world, whereof is said, \"the world was made by Him,\" but that world whereof is said, \"the world knew Him not.\" \"For unto Thee have I fled for refuge.\" ...Whither should I flee? \"Whither shall I go from Thy Spirit?\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/143/9",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6793",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fled. Hebrew, \"To thee I have hidden myself \"(Montanus) or \"am protected. \"(St. Jerome)\nBut the Septuagint seem to have read better, esithi. \"I have hoped. \"(Chaldean)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/143/9",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be513",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 143:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

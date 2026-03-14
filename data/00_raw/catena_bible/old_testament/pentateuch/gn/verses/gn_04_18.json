@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 4:18",
+  "verse_text": "Verse text for GN 4:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/4/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The text runs: “Methushael begot Lamech, who took two wives: the name of the one was Ada, and the name of the other Sella. And Ada brought forth Jobel; who was the father of such as dwell in tents, and of herdsmen. His brother’s name was Jubal. He was the father of all those who play the psaltery and cittara. Sella bore Tobel; he was the forger of all instruments of bronze and iron. The sister of Tobel was Noema. ” This is as far as the line of descent from Cain is carried. There are eight generations in all, including Adam. The seventh is that of Lamech, who was the husband of two wives; the eighth is that of his children, among whom is the woman who is mentioned by name. What is here delicately intimated is that to the very end of its existence the earthly city will be propagated by physical births proceeding from the union of the sexes. This is why we are given the proper names of the wives of the last man mentioned as begetting children—a practice unheard of before the flood, except in the case of Eve.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/4/18",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e5194a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And unto Enoch was born Irad: and Irad begat Mehujael: and Mehujael begat Methushael: and Methushael begat Lamech. That Cain remained alive until the seventh generation is clear. First, … it had been so decreed concerning him. Second, the length of the lives of those first generations also testifies to it. For if his father Adam remained alive until the ninth generation, that of Lamech, and was gathered from the world in the fiftysixth year of Lamech, it is no great thing that Cain should remain until the seventh generation.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/4/18",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e51949",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 4:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

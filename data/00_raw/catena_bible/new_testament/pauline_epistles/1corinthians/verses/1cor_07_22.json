@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1COR 7:22",
+  "verse_text": "Verse text for 1COR 7:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/7/22",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "1 Corinthians 7:22 For he that is called in the Lord, being a servant, is the Lord's freeman: likewise also he that is called, being free, is Christ's servant. Whoever has been delivered from sin is truly free. The ancients used to say that anyone who acts unwisely is a slave. They called all wise men free, and all the unwise were slaves as far as they were concerned. In any case, even a free believer is a slave of Christ, for to be free from God is the greatest sin of all. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/7/22",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5ca4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "A slave is free because he has been set free from the passions and diseases of the mind. Legal freedom is unimportant by comparison.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/7/22",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5ca5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Oecumenius",
+      "period": "AD990",
+      "content": "Paul wants to show that slave and master are equal. We are all freedmen of Christ because he has set us free from the tyranny of Satan, and we are voluntary slaves of Christ because, having set us free, he led us into his own kingdom. .",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/7/22",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5ca6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 7:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

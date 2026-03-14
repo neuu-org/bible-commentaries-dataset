@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 135:20",
+  "verse_text": "Verse text for PS 135:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/135/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "But daily do men believe through the miracles of Christ our Lord; daily the eyes of the blind, the ears of the deaf are opened, the nostrils of the senseless are breathed into, the tongues of the dumb are loosed, the hands of the palsied are strengthened, the feet of the lame are guided; sons of Abraham are raised up of these stones, to all of whom be it said, \"Bless the Lord, ye house of Israel\" (ver. All are sons of Abraham; and if sons of Abraham are raised up from these stones, it is plain that they are rather the house of Israel who belong to the house of Israel, the seed of Abraham, not by the flesh, but by faith. But even granting that it is said of that house, and the people of Israel is meant, from thence did the Apostles and thousands of the circumcised believe. \"Bless the Lord, ye house of Aaron. Bless the Lord, ye house of Levi\" (ver. Bless the Lord, ye nations, this is, the \"house of Israel\" generally; bless Him, ye leaders, this is, the \"house of Aaron;\" bless Him, ye servants, this is, the \"house of Levi. \" What of the other nations. \"Ye that fear the Lord, bless the Lord.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/135/20",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6734",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Fear. It was important to distinguish the priests from the people. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/135/20",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4c5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 135:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

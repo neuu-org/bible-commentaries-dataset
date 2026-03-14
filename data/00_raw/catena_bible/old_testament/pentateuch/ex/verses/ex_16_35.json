@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 16:35",
+  "verse_text": "Verse text for EX 16:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/16/35",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And the children of Israel did eat manna forty years, until they came to a land inhabited; they did eat manna, until they came unto the border of the land of Canaan. Manna was withdrawn as soon as usual food could be easily procured. (Haydock) In this desert of the world, we are supported by the sacraments. As manna fell in the night, so the mysteries of faith are concealed from the curious researches of men. It melted with the sun beams; so mysteries confound the idle attempts of those who would fathom their impenetrable depth. Those who ate manna died, but the worthy receiver of the blessed sacrament will live for ever.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/16/35",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc39b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Maximus of Turin",
+      "period": "AD423",
+      "content": "Let us also see if we are able to find Quadragesima’s mystical number somewhere else in the Scriptures. We read that holy Moses fed the children of Israel with heavenly manna in the desert for the space of forty years. Good is the number, then, which always opens heaven. Good is the number, I say, by which Noah’s righteousness is preserved and the children of Israel are fed. For this reason let us also observe this number so that the heavens might be opened to us in order that the rain of spiritual grace might fall upon us and the manna of the spiritual sacraments refresh us. For, after the fashion of our fathers, by this observance of Quadragesima we are both made righteous and nourished: we are made righteous by the washing [of baptism] and nourished by the sacraments [of bread and wine].",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/16/35",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e5280d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 16:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

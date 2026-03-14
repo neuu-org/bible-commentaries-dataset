@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 15:13",
+  "verse_text": "Verse text for EX 15:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/15/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh You in your mercy have led forth the people whom you have redeemed: you have guided them in your strength unto your holy habitation. This is a prophecy of what should happen to the Hebrews till they should be put in quiet possession of Chanaan, (Calmet) of which they had an earnest, in the protection which they had already experienced. (Haydock) Holy, on account of the temple, and of the patriarchs, and Jesus Christ, who dwelt there. (Menochius).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/15/13",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc37e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 15:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 14:26",
+  "verse_text": "Verse text for 1SM 14:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/14/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Saul, as it is written in the first book of Kings [Samuel], pronounced a curse on him who ate bread before the evening, and until he had avenged himself upon his enemies. So none of his troops tasted any food while all the people of the land ate. And so binding was a solemn fast once it was proclaimed to the Lord, that Jonathan, to whom the victory was due, was taken by lot and could not escape the charge of sinning in ignorance, and his father’s hand was raised against him, and the prayers of the people barely saved him.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/14/26",
+      "full_content_url": "https://catenabible.com/com/5de467b11f75ae05ba98ced3",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "At all events, Saul himself, when engaged in battle, clearly enjoined this duty: “Cursed (be) the man who shall have eaten bread until evening, until I am avenged against my enemy”; and his whole company did not taste (food), and (yet) the whole earth was breakfasting! So solemn a sanction, moreover, did God confer on the edict which enjoined that station, that Jonathan the son of Saul, although it had been in ignorance of the fast having been appointed till a late hour that he had allowed himself a taste of honey, was both presently convicted, by lot … and with difficulty was exempted from punishment through the prayer of the people: for he had been convicted of gluttony, although of a simple kind.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/14/26",
+      "full_content_url": "https://catenabible.com/com/5de467b11f75ae05ba98ced4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 14:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

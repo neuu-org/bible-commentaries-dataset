@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MAL 2:15",
+  "verse_text": "Verse text for MAL 2:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mal/2/15",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And did not he make them one. Yet had he the remnant of the spirit. And why one. That he might seek a godly offspring. Therefore take heed to your spirit, and let none deal treacherously against the wife of his youth. Eve received a soul from God, like Adam. Hebrew, \"One (Abraham, Chaldean styled one, Ezechiel xxxiii. ) did it not, and he had the \"Septuagint vary. The text is very obscure. (Calmet) See Cap. ; Grabe prologue. A strange god did not make women. The human race is best propagated, where polygamy and divorces are rejected.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mal/2/15",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf638",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "For in the Gospel of Matthew he says, “Whosoever shall put away his wife, saving for the cause of fornication, causes her to commit adultery. ” He also is deemed equally guilty of adultery who marries a woman put away by her husband. The Creator, however, except on account of adultery, does not put asunder that which he himself joined together, the same Moses in another passage enacting that he who had married after violence to a damsel should thenceforth not have it in his power to put away his wife. Now if a compulsory marriage contracted after violence shall be permanent, how much rather shall a voluntary one, the result of an agreement. This has the sanction of the prophet: “You shall not forsake the wife of your youth. ” Thus you have Christ following spontaneously the tracks of the Creator everywhere, both in permitting divorce and in forbidding it. You find him also protecting marriage, in whatever direction you try to escape. He prohibits divorce when he will have the marriage inviolable; he permits divorce when the marriage is spotted with unfaithfulness. You should blush when you refuse to unite those whom even your Christ has united, and repeat the blush when you disunite them without the good reason why your Christ would have them separated.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mal/2/15",
+      "full_content_url": "https://catenabible.com/com/5838db61205c248f42e52bdd",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MAL 2:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

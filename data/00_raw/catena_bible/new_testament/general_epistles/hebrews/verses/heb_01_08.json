@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HEB 1:8",
+  "verse_text": "Verse text for HEB 1:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/heb/1/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "But to the Son. That is, to his Son Jesus Christ, he saith, Thy throne, O God, is for ever and ever, and lasts for eternity. A sceptre, or rod of equity, is the sceptre of thy kingdom. That is, O Christ, God and man, head of thy Church, judge of all mankind, thou shalt reward and punish all under thee with justice and equity, as thou hast loved justice, and hated iniquity: therefore God, thy God, hath anointed thee. Many here understand God first named, to be in the vocative case, and that the sense is: therefore thee, O God, thy God, hath anointed: thus Christ is called God. Others take God in both places to be in the nominative case, and to be only a repetition of God the Father; and the sense to be, thee Christ, God, thy God, hath anointed thee with the oil of gladness above them that are partakers with thee: by which spiritual unction, some understand graces infused into Christ's soul at his incarnation, by a greater plenitude of graces than was ever given to any saints whom he made partakers of his glory in heaven; others expound it of an unction of greater glory given to Christ in heaven as man, because by his sufferings and merits he had destroyed and triumphed over sin. See Estius, Cornelius a Lap ide (Witham).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/heb/1/8",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c02af",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Behold a symbol of Kingly Office. A scepter of righteousness is the scepter of Your kingdom. Behold again another symbol of Royalty.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/heb/1/8",
+      "full_content_url": "https://catenabible.com/com/57eb1775b0d44ee10cfac798",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HEB 1:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

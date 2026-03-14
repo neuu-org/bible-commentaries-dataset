@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 15:17",
+  "verse_text": "Verse text for 1SM 15:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/15/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Eyes. God rejects the proud, and gives his grace to the humble. See Luke i. 52. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/15/17",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcf1a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Thus Saul, after merit of humility, became swollen with pride, when in the height of power: for his humility he was preferred, for his pride rejected; as the Lord attests, who says, “When you were little in your own sight, did I not make you the head of the tribes of Israel?” He had before seen himself little in his own eyes, but, when propped up by temporal power, he no longer saw himself little. For, preferring himself in comparison with others because he had more power than all, he esteemed himself great above all. Yet in a wonderful way, when he was little with himself, he was great with God; but, when he appeared great with himself, he was little with God. Thus commonly, while the mind is inflated from an affluence of subordinates, it becomes corrupted to a flux of pride, the very summit of power being pander to desire.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/15/17",
+      "full_content_url": "https://catenabible.com/com/5de467b11f75ae05ba98cede",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 15:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

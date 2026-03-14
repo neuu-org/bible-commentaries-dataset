@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 25:35",
+  "verse_text": "Verse text for 1SM 25:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/25/35",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Face. I have been pleased with thy coming, and granted thy request. (Haydock)\nDavid had sworn with too much haste. (Calmet)\n\"It is sometimes wrong to perform what has been promised, and to keep an oath. \"(St. Ambrose, Off. i. C. ult.)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/25/35",
+      "full_content_url": "https://catenabible.com/com/5735e188ec4bd7c9723bcfe9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "Further, we are taught at considerable length by other texts of Scripture, too, that we neither should nor can fulfill everything that we decide upon whether with tranquil or upset mind. In them we frequently read that holy men or angels or even almighty God himself altered the things that they had promised. For blessed David determined with the promise of an oath and said, “May God do this and add more to the enemies of David if, of all that belongs to Nabal, I leave one male until morning. ” But when his wife, Abigail, interceded and entreated on his behalf, David immediately ceased his threats, softened his words, and preferred to be considered a transgressor of his own intention than to be true to his oath by cruelly carrying it out. And he said, “As the Lord lives, unless you had come quickly to meet me, there would not have been left to Nabal one male until the morning light. ” As we do not at all consider the promptness of his rash vow, which proceeded from an upset and disturbed mind, as something to be imitated, so likewise we judge that the cessation and correction of the thing that was decided on is to be pursued.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/25/35",
+      "full_content_url": "https://catenabible.com/com/5de4687a1f75ae05ba98cf56",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 25:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

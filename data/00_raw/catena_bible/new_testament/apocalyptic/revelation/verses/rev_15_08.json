@@ -1,0 +1,58 @@
+{
+  "verse_reference": "REV 15:8",
+  "verse_text": "Verse text for REV 15:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/15/8",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "enter: No one is able to be incorporated among the members of the Church, but he who hears the mysteries of faith from the preachers, and learns that Jesus is constituted by God the Judge both of the living and the dead. But if thou shalt interpret the smoke to be the secret judgement of God, these remain impenetrable, and closed to mortal men \"until,\" after the plagues of the present age are ended, \"the Lord come, Who is both to bring to light even the hidden things of darkness, and make manifest\" how much the coming of Antichrist confers which is either of utility in proving the faith of the Church, or of judgement in blinding the eyes of the Jews, \"Who received not the love of the truth, that they might be saved.\" <a",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/15/8",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c7a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "smoke: The Church, when it is to preach to the nations, is first influenced itself with the fire of love, and sends forth the smoke of pious confession, while it \"gives thanks to God for His unspeakable gift .\"",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/15/8",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c79",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And the temple was filled with smoke from the glory of God, and from his power; and no man was able to enter into the temple, till the seven plagues of the seven angels were fulfilled. The temple was filled with smoke, as in the time of Solomon. (2 Paralipomenon vii. ) (Witham) The vials are given to the Angels by one of the four living creatures, that is, by a prophet, because at that time the effects had not happened, but were to happen in time to come, and are therefore announced by way of prophecy; and the temple was filled with smoke, manifesting first the majesty of God, and secondly his power. (Pastorini).",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/15/8",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c04b0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 15:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

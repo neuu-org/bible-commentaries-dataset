@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 27:33",
+  "verse_text": "Verse text for GN 27:33",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/27/33",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Be blessed. Thus he confirms what he had done; and shows that he bore no resentment towards his younger son, nor esteemed himself to be mocked, ver. 12. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/27/33",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc134",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Hippolytus of Rome",
+      "period": "AD235",
+      "content": "What had actually occurred from the action of Jacob was a mystery of the [divine] economy in view of the Christ prefigured [by Jacob], [of the Christ] who, blessed by the Father, has been blessed forever after his [temporal] birth. The words of Scripture, “Besides himself, Isaac was seized with great amazement,” have the same meaning as “Isaac was filled with admiration” for what had happened, because he foresaw that the Gentiles, according to the will of God, had to be blessed and take part in the covenant of the promise made to the fathers through the younger son. That is why Jacob, when he was brought forth and emerged the last from his mother’s womb, took hold on Esau’s heel. This means that by closely following the footsteps of the prophets the last peoples had to take hold of the right of primogeniture, since they are the first ones to be found in the New Testament.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/27/33",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51b98",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 27:33",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

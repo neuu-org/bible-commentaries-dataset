@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 5:23",
+  "verse_text": "Verse text for PRV 5:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/5/23",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "“He will perish here with those who have no discipline; and he will be driven out of the abundance of his fatness.” One who becomes the prey of sin and lacks discipline will experience the same things. Indeed the one who consorts with murderers becomes a murderer. See what bitter kind of death he [Solomon] designates when he says that he [the wicked person] will die with such companions. It is indeed horrible to depart from life with a bad reputation. Depravity—what he [Solomon] calls “fatness”—multiplies so that the flesh is destroyed completely by the works of flesh, keeping one away from the very kind of life that could save him. He [the wicked person] perishes because of imprudence, not because of lustful desires: he had a legitimate means to satisfy his desire, that is, his wife. Therefore nobody is allowed to accuse nature, but only human intemperance which is not proper to nature. Commentary on the Proverbs of Solomon, Fragment",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/5/23",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c83fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 5:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

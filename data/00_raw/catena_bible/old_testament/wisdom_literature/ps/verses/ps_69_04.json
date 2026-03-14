@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 69:4",
+  "verse_text": "Verse text for PS 69:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/69/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "8. Thus \"there have been multiplied above the hairs of My head they that hate Me gratis\" (ver. 4). How multiplied? So as that they might add to themselves even one out of the twelve \"There have been multiplied above the hairs of My head they that hate Me for nought.\" With the hairs of His head He hath compared His enemies. With reason they were shorn when in the place of Calvary He was crucified. Let the members accept this voice, let them learn to be hated gratis. For now, O Christian, if it must needs be that the world hate thee, why dost thou not make it hate thee gratis, in order that in the Body of thy Lord and in this Psalm sent before concerning Him, thou mayest acknowledge thy own voice? How shall it come to pass that the world hate thee gratis? If thou no wise huttest any one, and art still hated: for this is gratis, without cause...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/69/4",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6b90",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Cause. The captives had not injured Babylon, and Christ had even bestowed the greatest favours upon his enemies. He suffered for our sins, Isaias liii. 4. (Calmet)\nAway. Christ in his passion made restitution of what he had not taken away, by suffering the punishment due to our sins, and so repairing the injury we had done to God. (Challoner)\nThe expression was proverbial, Jeremias xxxi. 29., and Lamentations v. 7.\nMany of the captives were very innocent. (Calmet)\nBut Christ was without sin; (Worthington) though made a curse and a sin-offering, Galatians iii. 13., and 2 Corinthians v. 21. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/69/4",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be15b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 69:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

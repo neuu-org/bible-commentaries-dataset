@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 14:19",
+  "verse_text": "Verse text for LK 14:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/14/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And another said, I have bought five yoke of oxen, and I go to examine them: I pray you have me excused. Cornelius a Lapide And another said, I have bought five yoke of oxen, and I go to prove them, &c. Another kind of avarice is here described, viz, the desire of possessing oxen, and animals for tillage, or food, or some other purpose; for the riches of the patriarchs lay in their herds. So think Theophylact and Titus. Gregory, however (Hom36), says, \"What are we to understand by the five yoke of oxen but the five senses. which are rightly called yokes, because they are double in the two sexes.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/14/19",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5200e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 14:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

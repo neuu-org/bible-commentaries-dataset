@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 13:28",
+  "verse_text": "Verse text for MT 13:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/13/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "He said unto them, An enemy has done this. The servants said unto him, Will you then that we go and gather them up. As I said before, we must adapt our faith to those things that the Lord explained. Those things which he did not mention and which he left to our intelligence will be briefly touched on here. Think of those who were asleep as signifying the teachers of the different churches. Think of the householder’s servants as none other than the angels who daily look upon the Father’s face. Think of the enemy who sowed the weeds as the devil because he wanted to be a god.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/13/28",
+      "full_content_url": "https://catenabible.com/com/585b63219ac03ecd4b8e6f46",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And He calls him an enemy, because of his harm done to men. For although the despite is against us, in its origin it sprang from his enmity, not to us, but to God. Whence it is manifest, that God loves us more than we love ourselves. And see from another thing also, the malicious craft of the devil. For he did not sow before this, because he had nothing to destroy, but when all had been fulfilled, that he might defeat the diligence of the Husbandman; in such enmity against Him did he constantly act. And mark also the affection of the servants. I mean, what haste they are in at once to root up the tares, even though they do it indiscreetly; which shows their anxiety for the crop, and that they are looking to one thing only, not to the punishment of that enemy, but to the preservation of the seed sown. For of course this other is not the urgent consideration. Wherefore how they may for the present extirpate the mischief, this is their object. And not even this do they seek absolutely, for they trust not themselves with it, but await the Master's decision, saying, Will You.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/13/28",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac441",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 13:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

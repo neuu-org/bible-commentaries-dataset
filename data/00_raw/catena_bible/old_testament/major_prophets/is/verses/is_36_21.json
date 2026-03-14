@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 36:21",
+  "verse_text": "Verse text for IS 36:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/36/21",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "All of the people remained silent and no one said anything to him, because they had accepted the instruction of the king not to respond to him. For because Hezekiah was a truly righteous man, acting in complete fidelity and with all counsel, he had asked that no response be made to the blaspheming Assyrian, lest it provoke him to even greater blasphemy. Hence it is written: “Do not ignite the coals of a sinner.” We also read in the Psalms: “When the sinner stood against me, I was mute and I was humbled and I was silent concerning the good.” And again, “Place a guard at my mouth, Lord, and a fortified door over my lips; do not incline my heart toward evil words.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/36/21",
+      "full_content_url": "https://catenabible.com/com/5e4f7fcbc849cf49a740e490",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 36:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

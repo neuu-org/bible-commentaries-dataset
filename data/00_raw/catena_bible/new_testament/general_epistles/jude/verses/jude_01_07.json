@@ -1,0 +1,69 @@
+{
+  "verse_reference": "JUDE 1:7",
+  "verse_text": "Verse text for JUDE 1:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jude/1/7",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "The unnatural lust in which the Sodomites indulged was homosexuality, which is wrong because it cannot lead to procreation. (Oecumenius) So by conflagration of the people of Sodom he gives the example of those who exchange the grace of our Lord for self-indulgence. (St. Bede)",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/7",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f4c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "\"As Sodom and Gomorrha,\" he says. ... By which the Lord signifies that pardon had been granted; and that on being disciplined they had repented.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/7",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f5e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "And it was He who rained fire and brimstone from heaven, in the days of Lot, upon Sodom and Gomorrah, \"an example of the righteous judgment of God\"",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/7",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb661",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "Marriage, if they commingle themselves with \"strange flesh\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/7",
+      "full_content_url": "https://catenabible.com/com/5735e000ec4bd7c9723bb662",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JUDE 1:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

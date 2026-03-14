@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 16:1",
+  "verse_text": "Verse text for DT 16:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/16/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew, \"at the (return of the) season in which\"",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/16/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9c8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hebrew abib, \"green ears of corn \"when barley begins to ripen, and wheat is yet green in Palestine; at the time of the year, which corresponds with half of our March and April. The Chaldeans called this month Nisan, \"of the standards \"because the armies then left their winter quarters. The first-fruits of the barley harvest were offered on the second day of the paschal solemnity, Leviticus xxiii. , and Exodus xiii. (Calmet) Night. We read (Exodus xii. , and Numbers xxxiii. 3,) that the Hebrews were ordered not to leave their houses till morning, and that they departed from Ramesses on the day after the passage of the destroying angel. They began, therefore, to prepare for their journey on the evening of the 14th, and began their march at day-break on the 15th of Nisan, ver. Their departure may be considered in its different stages: 1. Of eating the paschal lamb, with their staves in their hands; 2. of being urged by the Egyptians to depart, at midnight; 3. of their leaving their respective homes, to meet all together at Ramesses; and lastly, of their beginning their march from that place to leave Egypt. They did not, however, quit the confines till they had passed the Red Sea, which took place effectually in the night, Exodus xiv. (Haydock) Thus they departed in the evening, at night, in the morning, and in the open day.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/16/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc9c4",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 16:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

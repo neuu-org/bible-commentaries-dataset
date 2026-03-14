@@ -1,0 +1,36 @@
+{
+  "verse_reference": "1KGS 10:2",
+  "verse_text": "Verse text for 1KGS 10:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/10/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "We read also in the book of Kings that the queen of the South came from the end of the earth to listen to the wisdom of Solomon. Actually, it was customary for that nation to be always ruled by women, whom they called Kandakes.\nThe sending by the Ethiopian queen of the treasures of the nations to Jerusalem signifies that the church would bring gifts of the virtue and of faith to the Lord. The etymology of her name is also appropriate, for in Hebrew Candace [Kandake] means “exchanged.” In the Scriptures (in the psalm “For those who will be exchanged”) it is she to whom it was said, “Hear, daughter, and see, and incline your ear. Forget your people and your father’s home,” and so forth.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/10/2",
+      "full_content_url": "https://catenabible.com/com/5e1b67548bc66721fe4ef8e7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 10:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

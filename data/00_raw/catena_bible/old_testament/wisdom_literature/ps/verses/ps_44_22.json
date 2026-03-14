@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 44:22",
+  "verse_text": "Verse text for PS 44:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/44/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"For, for Thy sake we are killed all the day long: we are counted as sheep for the slaughter\" (ver. For you may see a man being put to death; you do not know why he is being put to death. God knoweth this. The thing in itself is hid. But some one will say to me, \"See, he is detained in prison for the name of Christ, he is a confessor for the name of Christ. \" Why do not heretics also confess the name of Christ, and yet they do not die for His sake. Nay more; let me say it, in the Catholic Church itself, do you think there either are, or have been wanting persons such as would suffer for the sake of glory among men. Were there no such persons, the Apostle would not say, \"Though I give my body to be burned, and have not charity, it profiteth me nothing. \" He knew therefore that there might be some persons, who did this not from \"charity,\" but out of vainglory. It is therefore hid from us; God alone sees this; we cannot see it. He alone can judge of this, who \"knoweth the secrets of the heart. \" \"For,\" for Thy sake \"are we killed all the day long; we are counted as sheep for the slaughter. \" I have already mentioned that from hence the Apostle Paul had borrowed a text for the encouragement of the Martyrs: that they might not \"faint in the tribulations\" undergone by them for the name of Christ.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/44/22",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a2d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Sleepest thou, seeming not to attend to our sufferings. (Menochius)\nEnd, shall we never be restored to favour? (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/44/22",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be068",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 44:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 4:30",
+  "verse_text": "Verse text for JER 4:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/4/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "And if Plutus is blind, are not those women who are crazy about him and have an attraction with him blind too? Having, then, no limit to their lust, they push on to shamelessness. For the theater, and pageants, and many spectators, and strolling in the temples and loitering in the streets, that they may be seen conspicuously by all, are necessary to them. For those who glory in their looks, not in heart, dress to please others. For as the brand shows the slave, so do gaudy colors the adulteress. “For though you clothe yourself in scarlet, and deck yourself with ornaments of gold and anoint your eyes with paint, in vain is your beauty,” says the Word by Jeremiah. Is it not monstrous that while horses, birds and the rest of the animals spring and bound from the grass and meadows, rejoicing in ornament that is their own, in mane and natural color and varied plumage, woman, as if inferior to the brute creation, should think herself so unlovely as to need foreign, bought and painted beauty?",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jer/4/30",
+      "full_content_url": "https://catenabible.com/com/5e9360e6d87c4a70874ae166",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Stone, or antimony, like Jezabel, (4 Kings ix. 30.) to darken and enlarge the eye-lids.\nLovers. Infidel nations of Egypt",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/4/30",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bec5f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 4:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

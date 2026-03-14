@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ROM 4:13",
+  "verse_text": "Verse text for ROM 4:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/4/13",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "It is clear that the law had not yet been given, neither was there as yet circumcision, when the promise was made to Abraham the believer and to his seed, which is Christ, who would cleanse the sins of all. Therefore Abraham was made heir to the world not by the merit earned from keeping the law but by faith. The heir of the world is the heir of the earth, which he obtained in his children. For Christ is the heir of the nations, as David sings: “I will make the nations your heritage and the ends of the earth your possession.” Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/4/13",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e87",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of the world By the world, some understand the land of Chanaan, which is sometimes meant by the whole earth, particularly in the times of David and Solomon, when they ruled over the neighbouring nations. But others think that the apostle alludes to the passage of Genesis, where the Almighty promises that in his (Abraham's) seed, all the nations of the earth should be blessed; which promise extends much beyond the narrow limits of Chanaan. In fine, it may be understood in a spiritual sense, of his dignity of father of all the faithful; which makes him, in a manner, master of the whole world, since his spiritual children, spread through the whole world, have the universe for their inheritance. (Calmet) Postula a me, et dabo tibi Gentes hæreditatem tuam et possessionem tuam terminos terræ. ) (Haydock) It was by Christ that Abraham was to be heir of the world, in as much as the spiritual kingdom of Christ should be spread over all the world. And this of one who was of the seed of David, being heir of the world, was not by the law, or by virtue of the law, which was not given to Moses till 400 years after.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rom/4/13",
+      "full_content_url": "https://catenabible.com/com/5735e339ec4bd7c9723bff01",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Severian of Gabala",
+      "period": "AD425",
+      "content": "Paul says that the righteous will inherit the world because the ungodly will be thrown out and handed over to punishment on the day of judgment, but the righteous will possess the universe which remains, and will have been renewed, and the good things of heaven and earth will be theirs. .",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/4/13",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e4e88",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 4:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

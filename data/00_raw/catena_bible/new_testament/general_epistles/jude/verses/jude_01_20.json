@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JUDE 1:20",
+  "verse_text": "Verse text for JUDE 1:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jude/1/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "But you, beloved, building up yourselves in your most holy faith, praying in the Holy Spirit, building yourselves: To forever reform themselves according to the Holy Spirit’s guidance; in other words, by building congregations up, by their preaching, in the teaching of the Holy Spirit. (Oecumenius) praying in the Holy Spirit: To pray in the Spirit always means to offer prayer to God with a clean conscience and a pure faith. If we live a good life the Holy Spirit dwells with us and we can receive what we ask for. (Ambrosiaster Eph 6:18).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/20",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f55",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Building yourselves: That is, raising by your actions a spiritual building, founded 1. upon faith; 2. on the love of God; 3. upon hope, whilst you are awaiting for the mercies of God, and the reward of eternal life; 4. joined with the great duty of prayer. (Witham)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jude/1/20",
+      "full_content_url": "https://catenabible.com/com/5735e34fec4bd7c9723c042f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JUDE 1:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 22:28",
+  "verse_text": "Verse text for EX 22:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/22/28",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "“Brethren, I did not know that he was the high priest; for it is written, ‘You shall not speak ill of a ruler of your people.’ ” The mildness of this prompt reply shows how calmly he had spoken what he seemed to have uttered in anger, for such a reply could not be given by those who are angered or perturbed. And in the reply, “I did not know that he was the high priest,” he spoke the truth to those who understand him. It is as though he were saying, “I have come to know another High Priest for whose name’s sake I am suffering these injuries—a High Priest whom it is not lawful to revile but whom you are reviling, because in me you hate nothing else than his name.” On the Lord’s Sermon on the Mount.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/22/28",
+      "full_content_url": "https://catenabible.com/com/5838d9a2205c248f42e52872",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Gods. Judges, priests Josephus and Philo say, we must not speak ill of strange gods, lest the Gentiles should take occasion to blaspheme the true God, and that we may be farther removed from the danger of taking the name of God in vain, and losing that respect which we owe to it.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/22/28",
+      "full_content_url": "https://catenabible.com/com/5735e14eec4bd7c9723bc3fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 22:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

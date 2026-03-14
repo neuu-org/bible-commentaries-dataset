@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:127",
+  "verse_text": "Verse text for PS 119:127",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/127",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"Therefore,\" he saith, \"I love Thy commandments above gold and topaz\" (ver. Grace hath this object, that the commandments, which could not be fulfilled by fear, may be fulfilled by love. Therefore, they are above gold and topaz stones. For this is read in another Psalm also, \"Above gold and exceeding precious stones. \" For topaz is a stone considered very precious. But they not understanding the hidden grace which was in the Old Testament, screened as it were by the veil (this was signified when they were unable to gaze upon the face of Moses), endeavoured to obey the commandments of God for the sake of an earthly and carnal reward, but could not obey them; because they did not love them, but something else. Whence these were not the works of the willing, but rather the burdens of the unwilling. But when the commandments are loved for their own sake \"above gold and exceeding precious stones,\" all earthly reward compared with the commandments themselves is vile; nor are any other goods of man comparable in any respect with those goods whereby man himself is made good.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/127",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6679",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Therefore I love your commandments above gold; yea, above fine gold. Hebrew paz, which denotes \"the purest gold \"of Phison, Genesis ii. (Calmet) The topaz was discovered only in the reign of Ptolemy, father of Philadelphus. Hilary) (Pliny, xxvii. Jerome and others have the topaz, (Berthier) which St. Ambrose represents as the finest of precious stones. (Calmet) The more the law is despised by the wicked, the more are the just in love with it. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/127",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be442",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:127",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

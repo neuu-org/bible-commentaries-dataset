@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 41:22",
+  "verse_text": "Verse text for IS 41:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/41/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "“Tell us what is to come hereafter, that we may know that you are gods; do good or do harm, that we may be dismayed and terrified.” … It is a further sign that the idols are not gods that they can do neither good nor evil. It is not saying that the idols or the demons inhabiting idols do not do evil frequently, but that unless God permits them to have power they cannot do so. So in the Gospel demons ask that they might have power over a herd of pigs, and in Job we read that without the Lord’s command the devil is not able to destroy livestock or goods.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/41/22",
+      "full_content_url": "https://catenabible.com/com/5e88f28eb1c7280cb341d05e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 41:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

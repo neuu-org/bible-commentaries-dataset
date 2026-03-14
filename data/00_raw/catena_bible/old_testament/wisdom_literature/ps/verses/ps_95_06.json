@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 95:6",
+  "verse_text": "Verse text for PS 95:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/95/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "8. \"O come, let us worship, and fall down to Him; and mourn before the Lord our Maker\" (ver. 6). ...Perhaps thou art burning with the consciousness of a fault; blot out with tears the flame of thy sin: mourn before the Lord: fearlessly mourn before the Lord, who made thee; for He despiseth not the work of His own hands in thee. Think not thou canst be restored by thyself. By thyself thou mayest fall off, thou canst not restore thyself: He who made thee restoreth thee. \"Let us mourn before the Lord our Maker:\" weep before Him, confess unto Him, prevent His face in confession. For who art thou who mournest before Him, and confessest unto Him, but one whom He created? The tiring created hath no slight confidence in Him who created it, and that in no indifferent fashion, but according to His own image and likeness.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/95/6",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e64af",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "And weep. Hebrew also, \"bend the knee \"though this sense would seem less proper, after he had mentioned prostration. Tears of contrition and tenderness may accompany our canticles. (Berthier)\nKneeling in prayer is a posture pleasing to God, Philippians ii. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/95/6",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be2f0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 95:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

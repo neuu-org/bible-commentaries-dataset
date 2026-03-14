@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JER 14:21",
+  "verse_text": "Verse text for JER 14:21",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jer/14/21",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Glory; heaven, the temple or Jerusalem. How will infidels blaspheme!",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/14/21",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723bed06",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "We should not think that the glorious throne of God is only the throne of the temple, which was repeatedly destroyed, but that it is also every saint who is cast down and destroyed when he offends God by his multitude of sins, according to what is written: “You have cast his throne to the ground.” Nevertheless, the one who perishes from his own guilt is sustained by the clemency of the Lord, whereby the severity of the sentence is altered, lest the Lord invalidate his covenant in which he promised to be our coming salvation.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jer/14/21",
+      "full_content_url": "https://catenabible.com/com/5e936116d87c4a70874ae22a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JER 14:21",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "REV 11:9",
+  "verse_text": "Verse text for REV 11:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/rv/11/9",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "tombs: He has spoken of their wish and their opposition: not that they are able to effect that the Church should not be their memorial; as it is said, \"Ye neither enter in, nor suffer others to enter in,\" seeing that some do enter in, although they oppose. But they will evidently effect, in respect of the bodies of the living and of the slain, that neither are the living suffered to meet together for their memory by the celebration of holy offices, nor the slain to have their names recited for their memory, nor to have their bodies buried for their memory as witnesses of God. <a",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/rv/11/9",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c14",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "see: He said not the peoples and tribes will see, but, many from among the peoples who openly deride the saints, when others believe.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rv/11/9",
+      "full_content_url": "https://catenabible.com/com/5862e9b6dd1bb6dd3dba9c13",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured REV 11:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

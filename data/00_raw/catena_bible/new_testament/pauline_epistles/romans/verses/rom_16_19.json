@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ROM 16:19",
+  "verse_text": "Verse text for ROM 16:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/16/19",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Being “wise as to what is good” means doing good works, while being “guileless as to what is evil” means avoiding unrighteous deeds. Commentary on Paul’s Epistles.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/19",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53cd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "The apostle admits that he rejoices because of the hearts of the innocent, and [in this verse] he gives a kind of definition of being as a child.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/19",
+      "full_content_url": "https://catenabible.com/com/584b75339ac03ecd4b8e53cc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "On account of the hearts of the innocent, the apostle, in the Epistle to the Romans, owns that he rejoices, and furnishes a kind of definition of children, so to speak, when he says, \"I would have you wise toward good, but simple towards evil.\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/16/19",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bbb4a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 16:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "2KGS 11:12",
+  "verse_text": "Verse text for 2KGS 11:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/11/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The testimony. The book of the law. (Challoner)\nSo Job (xxxi. 35, 36.) wished to have the sentence pronounced by God as a crown upon his head. The Orientals still lift to their heads the letters which they have received from people whom they wish to honour. (Thevenot, 46.)\nSome think that the diadem was adorned with phylacteries, or scrolls, containing parts of the law, (Grotius) particularly what related to the king; (Haydock) or that Joas held in his hand a roll of vellum, containing those instructions, (Deuteronomy xvii. 18., and 2 Paralipomenon xxiii. 11.) instead of a sceptre.\nAnointed him, by the hands of Joiada; as this ceremony was requisite on account of the usurpation of Athalia. In peaceable times the unction was not given, (Calmet) according to the Jews, (Haydock) whose sentiment is elsewhere shown to be unsatisfactory. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/11/12",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd492",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The testimony: The book of the law.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/11/12",
+      "full_content_url": "https://catenabible.com/com/587aa249dd1bb6dd3dbaa072",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 11:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

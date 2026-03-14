@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 16:41",
+  "verse_text": "Verse text for NM 16:41",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/16/41",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Salvian the Presbyter",
+      "period": "AD429",
+      "content": "When their crimes were so great, heavenly solicitude was of no avail. As often as they were corrected, so often amendment did not follow. As we are not corrected, even though soundly scourged, so they, though constantly struck down, did not mend their ways. What is written? “The following day all the multitude of the children of Israel murmured against Moses and Aaron, saying ‘You have killed the people of the Lord.’ ” What followed? Fourteen thousand and seven hundred men were struck down and consumed by divine fire. Since the multitude all had sinned, why were not all punished, especially since, as I have said, none escaped from Korah’s mutiny? Why did God wish the whole assembly of sinners to be killed on the former occasion but only a portion at the latter time? It is because the Lord is filled with both justice and mercy and in his indulgence he gives way to his love, and in his will to teach a lesson he gives way to his severity.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/16/41",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e5292a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 16:41",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

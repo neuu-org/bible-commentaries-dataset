@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 13:55",
+  "verse_text": "Verse text for MT 13:55",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/13/55",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Is not this the carpenter's son. I find carpenter in all translations, though the Greek word signifies, in general, a workman or craftsman. The Latin is also a general word, which of itself signifies no more a carpenter than a smith. But the common belief of the faithful is, that St. Joseph was a carpenter, which may be confirmed by what Theodoret relates (lib. ) of one Libanius, under Julian the apostate, who asking scornfully of a holy man, what the carpenter's son was doing at that time. the holy man made him this smart reply, that he was making a coffin for Julian; who was killed not long after. how truly astonishing is the stupidity of the Nazareans. They wonder whence wisdom itself possesses wisdom, and virtue itself virtue. The reason is evident: they only considered him as the son of a carpenter. Jerome) Was not David the son of an husbandman, and Amos a shepherd. They should then have honoured our Lord, when they heard him speak in this manner. What wonderful mildness in Christ. Though calumniated and reviled, he still answers with the greatest humility and charity, a prophet is not without honour, save in his own country. Chrysostom in St. Thomas Aquinas) His brethren. These were the children of Mary, the wife of Cleophas, sister of our blessed Lady; (Matthew xxviii. ) and therefore, according to the usual style of the Scripture, they were called brethren, that is, near relations to our Saviour. (Challoner).",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/13/55",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf770",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Is not this the carpenter's son. is not his mother called Mary. and his brothers, James, and Joses, and Simon, and Judas. He is moreover continually frequenting the synagogues, lest if He were always abiding in the wilderness, they should the more accuse Him as making a schism, and fighting against their polity. Being amazed therefore, and in perplexity, they said, Whence has this man this wisdom, and these powers. either calling the miracles powers, or even the wisdom itself. Matthew 13:55 The greater then the marvel, and the more abundant the ground of amaze.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/13/55",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac454",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 13:55",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

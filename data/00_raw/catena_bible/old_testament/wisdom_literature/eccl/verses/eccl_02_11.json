@@ -1,0 +1,58 @@
+{
+  "verse_reference": "ECCL 2:11",
+  "verse_text": "Verse text for ECCL 2:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/2/11",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Didymus the Blind",
+      "period": "AD398",
+      "content": "A person who is enlightened by the “sun of righteousness” is not “under” it but “in” it. Thus it is said in the Gospel: “The righteous will shine like the sun in the kingdom of their Father,” not “under” the sun. If a person says about himself that he is a Christian and enlightened by the true light, by the “sun of righteousness,” and still concentrates his actions on earthly things and strives after them (and we all are for the most part like these people) this person is “under the sun.” If he is “under the sun” in this way, he has no gain. Even if he quotes much from Scripture but does not act accordingly, he has no gain.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/2/11",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee49",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Didymus the Blind",
+      "period": "AD398",
+      "content": "My hands are busy and tools fit for work. They toil and are active. And I saw that all that has been created by these visible hands and their activities, was vanity.… This kind of toil is to be rejected indeed—it is vanity. And still, most human beings act vainly. Ecclesiastes counts himself among these people; he is himself a human being. I said it already: No one who talks against wealth is heard if he is poor himself. But one who teaches this needs to have experienced all these human things himself. A teaching thus only reaches its goal and is successful if he who delivers it is acquainted with what he is rejecting. He thereby shows that he himself is able to handle them in an appropriate way.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/2/11",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee48",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory of Nyssa",
+      "period": "AD394",
+      "content": "People who write in water are engaged in drawing the shapes of the letters in the liquid by writing with the hand, but nothing remains of the shape of the letters, and the interest in the writing consists solely in the act of writing (for the surface of the water continually follows the hand, obliterating what is written). In the same way all enjoyable interest and activity disappears with its accomplishment. When the activity ceases the enjoyment too is wiped out, and nothing is stored up for the future, nor is any trace or remnant of happiness left to the pleasure takers when the pleasant activity passes away. This is what the text means when it says “there is no advantage under the sun” for those who labor for such things, whose end is futility.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/eccl/2/11",
+      "full_content_url": "https://catenabible.com/com/597d4a4b1fb7a2ba2d19ee4a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 2:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

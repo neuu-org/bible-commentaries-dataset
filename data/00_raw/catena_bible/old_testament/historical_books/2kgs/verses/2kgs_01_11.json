@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 1:11",
+  "verse_text": "Verse text for 2KGS 1:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/1/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Again also he sent unto him another captain of fifty with his fifty men. And he answered and said unto him, O man of God, thus has the king said, Come down quickly. Another, not knowing what was become of the first, or why he did not return; as Ochozias was eager to have the prophet in his power. (Menochius) If he were acquainted with his fate, (Haydock) this second captain was guilty of greater insolence. But there are such generally to be found at courts; men who are ready to execute the king's orders, without considering whether they be contrary to God's law or not.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/2kgs/1/11",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd3ff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 1:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

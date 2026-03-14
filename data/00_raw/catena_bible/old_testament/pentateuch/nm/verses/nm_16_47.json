@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 16:47",
+  "verse_text": "Verse text for NM 16:47",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/16/47",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "Clearly the man [Aaron], who is proposed as a leader to all, is worthy. For when fateful death crept into the midst of the people because of the insolent, he threw himself between the “living and the dead” to restrain death, lest many should perish. Truly the man is priestly in mind and heart who throws himself with pious love before the flock of the Lord like a good shepherd. In this way he broke the sting of death. He held off the attack; he put an end to the dying. Piety assisted merit, since he offered himself for those who resisted.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/16/47",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e5292b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Caesarius of Arles",
+      "period": "AD542",
+      "content": "Then Moses encouraged the high priest to offer incense in the camp and to pray for the people: “For the people have already begun to be destroyed.” Moses saw in spirit what was happening, and therefore Aaron departed to offer incense for the people. He stood between the living and the dead, and the Lord’s fury was alleviated. If you know the course of history and have been able to perceive with your eyes, so to speak, the priest standing in the middle between the living and the dead, rise now to the loftier heights of these words. See how the true priest, Jesus Christ, took the censer of human flesh, put fire on the altar which doubtless is that splendid soul with which he was born in the flesh, further added incense which is his pure spirit, stood between the living and the dead and did not allow death to proceed any farther.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/16/47",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e5292c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 16:47",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

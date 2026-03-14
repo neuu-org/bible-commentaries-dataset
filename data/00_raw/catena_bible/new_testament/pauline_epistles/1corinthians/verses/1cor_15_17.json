@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1COR 15:17",
+  "verse_text": "Verse text for 1COR 15:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/15/17",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "If Christ be not raised, your faith is vain; ye are yet in your sins. It rightly follows that, if Christ has not risen, we are still in our sins; for1. if Christ has not risen, therefore faith in a risen Christ, which is the basis of justification, is false; but a false faith cannot be the beginning and foundation of remission of sins and of true sanctification2. If Christ remained in death, He was overcome by it, and His death was ineffectual for the remission of sins; for if by His resurrection He could not overcome death, then He could not overcome sin, for it is more difficult and a heavier task to overcome this than to overcome death. If this be Song of Solomon , sin is not fully abolished, if its penalty death is not. The resurrection of Christ is the cause of our justification. ( Romans 4:25). Now the cause being removed, the effect is removed. If, then, the resurrection of Christ is not a fact, neither is our justification from sins, and consequently we are still in our former sins.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/15/17",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e524e1",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Cyril of Jerusalem",
+      "period": "AD386",
+      "content": "If the cross is an illusion, the resurrection is an illusion also, and “if Christ has not risen, we are still in our sins.” If the cross is an illusion, the ascension is also an illusion, and everything, finally, becomes unsubstantial.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/15/17",
+      "full_content_url": "https://catenabible.com/com/584c89a19ac03ecd4b8e5ede",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "surrounding the resurrection of Christ, by means of the stronger point making even that which seems to be weak and doubtful, strong and clear.\n\nYou are yet in your sins. For if He was not raised, neither did He die; and if He died not, neither did He take away sin: His death being the taking away of sin. For behold, says one, the Lamb of God, which takes away the sin of the world. John 1:29 But how takes away? By His death. Wherefore also he called him a Lamb, as one slain. But if He rose not again, neither was He slain: and if He was not slain, neither was sin taken away: and if it was not taken away, you are in it: and if you are in it, we have preached in vain: and if we have preached in vain, you have believed in vain that you were reconciled. And besides, death remains immortal, if He did not arise. For if He too was holden of death and loosed not its pains, how released He all others, being as yet Himself holden of it?",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1cor/15/17",
+      "full_content_url": "https://catenabible.com/com/5750753c3c6effa740ddd90f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "If Christ did not rise again, neither was he slain, and if he was not slain, our sins have not been taken away. If our sins have not been taken away, we are still in them, and our entire faith is meaningless.",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/15/17",
+      "full_content_url": "https://catenabible.com/com/584c89a19ac03ecd4b8e5edf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 15:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 13:25",
+  "verse_text": "Verse text for ACTS 13:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/13/25",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And as John fulfilled his course, he said, Whom think you that I am. I am not he. But, behold, there comes one after me, whose shoes of his feet I am not worthy to loose. Thus also John, writing his Gospel, continually has recourse to him: for his name was much thought of in all parts of the world. And observe, he does not say it Of this man's seed, etc. from himself, but brings John's testimony. Men and brethren, children of the stock of Abraham— he also calls them after their father— unto you was the word of this salvation sent.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/13/25",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9340",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And John too not merely bears witness (to the fact), but (does it in such sort that) when men were bringing the glory to him, he declines it: for it is one thing (not to affect) an honor which nobody thinks of offering; and another, to reject it when all men are ready to give it, and not only to reject it, but to do so with such humility. Men and brethren, children of the stock of Abraham, and whosoever among you fears God, to you is the word of this salvation sent. For they that dwell at Jerusalem, and their rulers, because they knew Him not, nor yet the voices of the prophets which are read every sabbath day, they have fulfilled them in condemning Him. And though they found no cause of death in Him, yet desired they Pilate that He should be slain.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/13/25",
+      "full_content_url": "https://catenabible.com/com/58cf03f6dec071662b7b9337",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 13:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

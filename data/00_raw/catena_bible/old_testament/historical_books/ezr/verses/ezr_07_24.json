@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZR 7:24",
+  "verse_text": "Verse text for EZR 7:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ezr/7/24",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Also we inform you, that concerning any of the priests and Levites, singers, gatekeepers, Nethinim, or servants of this house of God, it shall not be lawful to impose toll, tribute, or custom, upon them. 3 Esdras, \"sacred slaves. \"(Haydock) Artaxerxes confirms the immunities granted by the law of God, (Numbers iii. 6, 12,) by the kings of Egypt, (Genesis xlvii. 22,) and by all nations, to the ministers of religion.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ezr/7/24",
+      "full_content_url": "https://catenabible.com/com/5735e1bcec4bd7c9723bd99f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZR 7:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

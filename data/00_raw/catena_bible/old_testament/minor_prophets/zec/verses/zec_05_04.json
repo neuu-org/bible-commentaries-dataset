@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ZEC 5:4",
+  "verse_text": "Verse text for ZEC 5:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/5/4",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I will bring it forth, says the LORD of hosts, and it shall enter into the house of the thief, and into the house of him that swears falsely by my name: and it shall remain in the midst of his house, and shall consume it with its timber and its stones. Nabuchodonosor is often so styled. ) This title comprises all the injuries done to man, as he that sweareth falsely refers to those where God's honour is concerned (Calmet) more immediately.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/5/4",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf5a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 5:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

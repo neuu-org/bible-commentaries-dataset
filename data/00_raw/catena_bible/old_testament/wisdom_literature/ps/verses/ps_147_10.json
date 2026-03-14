@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 147:10",
+  "verse_text": "Verse text for PS 147:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/147/10",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"In the power of an horse He will not take pleasure\" (ver. The power \"of an horse\" is pride. For the horse seemeth adapted as it were to bear a man aloft, that he may be more uplifted as he goes. And in truth he has a neck which typifieth a sort of pride. Let not men exalt themselves upon their worth, let them not think themselves uplifted by their distinctions; let them beware test they be thrown by an untamed horse. \"Nor in the tabernacle of a man will He delight. \" For the tabernacle of the Lord is the Holy Church spread throughout the whole world. Heretics, separating themselves from the Church's tabernacles, have set up tabernacles for themselves. For if perchance it be the lot of any, who is good and pious, who confesseth his own weakness, who is \"the young of a raven that calleth on God,\" not to enjoy worldly distinction, he goeth not out of the Church, he setteth not up for himself a tent outside the Church, wherein God will not delight. But what saith he. \"I have chosen to be cast away in the house of God, rather than to dwell in the tents of sinners.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/147/10",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e67c0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 147:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

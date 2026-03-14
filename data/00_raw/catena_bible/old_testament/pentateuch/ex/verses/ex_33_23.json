@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EX 33:23",
+  "verse_text": "Verse text for EX 33:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/33/23",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "See my back parts. The Lord, by his angel, usually spoke to Moses in the pillar of the cloud, so that he could not see the glory of Him that spoke familiarly with him. In the vision here mentioned, he was allowed to see something of Him, in an assumed corporeal form: not in the face, the rays of which were too bright for mortal eye to bear, but to view Him as it were behind, when his face was turned from him. (Challoner)\nThus our curiosity is repressed. (Du Hamel)\nServius observes, on Virgil, that the \"gods mostly declare themselves by suddenly disappearing. They will not show their faces. \"(Iliad. N. Grotius)\nThe rock was Christ, (Du Hamel) in whose sacred humanity we discern, at a distance, the majesty of God. (St. Augustine, q. 154.) Moses saw the hinder parts of God, or what should happen to Jesus Christ in the latter days of the synagogue. (Origen, hom. 12.) By this wonderful vision, God was pleased to declare that he was appeased. (Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/33/23",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc4c0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And I will take away my hand, and you shall see my back: but my face shall not be seen. See my back parts: The Lord by his angel, usually spoke to Moses in the pillar of the cloud; so that he could not see the glory of him that spoke familiarly with him. In the vision here mentioned he was allowed to see something of him, in an assumed corporeal form: not in the face, the rays of which were too bright for mortal eye to bear, but to view him as it were behind, when his face was turned from him.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ex/33/23",
+      "full_content_url": "https://catenabible.com/com/587f1dc054b4f95416b2f1ae",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 33:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1JN 3:11",
+  "verse_text": "Verse text for 1JN 3:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/1jn/3/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "mark how he confirms it: For this is the message which we heard from the beginning, that we should love one another. He has made it manifest to us that it is of this he speaks; whoso acts against this commandment, is in that accursed sin, into which those fall who are not born of God.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1jn/3/11",
+      "full_content_url": "https://catenabible.com/com/574f800e3c6effa740ddd6ee",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "For this is the message, ever to be announced by us the Apostles of Christ. It is the message of good tidings, which Christ brought from heaven. He might have exacted from us many hard and painful sufferings. But He is satisfied if we love each other. And what is more joyous, pleasant, and easy than this? For as God ordered us to love our brethren, He orders our brethren to love us in return—love in this way eliciting and demanding love. See John xv12. On which S. Augustine remarks that charity is here distinguished from mere human love. We should love men, not merely as men, but as we love ourselves as the children of the Most Highest.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1jn/3/11",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e526b4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1JN 3:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

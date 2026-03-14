@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2KGS 18:26",
+  "verse_text": "Verse text for 2KGS 18:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2kgs/18/26",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Syriac, or Chaldean language, which was spoken at the Assyrian court, 1 Esdras iv. 7., and Daniel ii. 4. Rabsaces was acquainted with both the languages; as the Jews say he was an apostate, which they infer from this passage, and from the legates tearing their clothes when they heard him blaspheme; as they pretend this was only done when blasphemy came from the mouth of an Israelite. (Grotius)\nBut these reasons are very weak. (Calmet)\nThe like was practised when any thing terrifying was heard, ver. 37. (Haydock)\nThe reasons why the legates desire Rabsaces not to speak in a language which the common soldiers understood, was to prevent them from shewing their indignation by shooting at him, or out of fear, lest they should be induced to cause some sedition. (Menochius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2kgs/18/26",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd51c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2KGS 18:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:176",
+  "verse_text": "Verse text for PS 119:176",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/176",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "172. At last he openeth himself completely, and showeth what person was speaking throughout the whole Psalm. \"I have gone astray,\" he saith, \"like a sheep that is lost: O seek Thy servant, for I do not forget Thy commandments\" (ver. 176). Let the lost sheep be sought, let the lost sheep be quickened, for whose sake its Shepherd left the ninety and nine in the wilderness, and while seeking it, was torn by Jewish thorns. But it is still being sought, let it still be sought, partly found let it still be sought. For as to that company, among whom the Psalmist saith, \"I do not forget Thy commandments,\" it hath been found; but through those who choose the commandments of God, gather them together, love them, it is still sought, and by means of the blood of its Shepherd shed and sprinkled abroad, it is found in all nations.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/176",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e66a7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Lost. I am in captivity. (Calmet)\nAll men have been involved in sin, and Christ came to save them; but only such as keep the law will obtain salvation. (Worthington)\nThe conclusion contains a confession of misery in the name of all, and an allusion to Christ, the good shepherd. The prophet admits that notwithstanding his love of the law, he may have still many ways transgressed; and that without faith in the Messias, he could not belong to his fold, or escape the many dangers of the world, 1 Corinthians iv. 4., and ix. 27. (Berthier)\nSeek. St. Hilary and some Greek copies have read incorrectly \"quicken. \"(Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/176",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be469",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:176",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

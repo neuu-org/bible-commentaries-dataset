@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JN 21:16",
+  "verse_text": "Verse text for JN 21:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/21/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "He saith to him the second time, Simon, son of Jonas, lovest thou Me. He saith unto Him, Yea, Lord, Thou knowest that I love Thee. Chrysostom: \"Again he dreads the former things, lest perchance, thinking himself to love, he should be corrected if he did not love, like as before he was corrected for thinking himself strong, and therefore he takes refuge in Christ Himself. \" He saith unto him the second time, Feed My lambs. Thus the Arabic has it. But the Greek and Syriac instead of lambs have sheep, but it is very probable that the Vulgate, together with the Arabic, read the Greek Ï€Î¶Î¿Î²Î±Ï„Î¯Î± inserting iota, i. e, little sheep, or lambs: because the shepherd\"s chief care must be for them; and therefore Christ repeats and doubles His injunction concerning them. Augustine says, \"Let it be love\"s office to feed the Lord\"s flock, like as it was the mark of fear to deny the Shepherd. Gregory (1Part. ) says, \"He who is strong in virtue and refuses to feed the flock of God is proved not to love his Pastor.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/21/16",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e523b8",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The lambs and the sheep of our Saviour here mean the faithful, who compose his Church, without any distinction of Jew or Gentile. St. Peter, by these words, is appointed to take charge of the whole flock, as being the chief and prince of the apostles. He is, in some manner, the pastor, not of the sheep only, but of the pastors themselves. They have each their own flock to look after; but to him is committed the care of all; he alone is the pastor of all. (Calmet)\nFeed my sheep. Our Lord had promised the spiritual supremacy to St. Peter; (Matthew 16:19.) and here he fulfils that promise, by charging him with the superintendency of all his sheep, without exception; and consequently of his whole flock, that is, of his whole Church. (Challoner)",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/21/16",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd0b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 21:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

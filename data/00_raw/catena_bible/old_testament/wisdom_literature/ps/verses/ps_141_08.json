@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 141:8",
+  "verse_text": "Verse text for PS 141:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/141/8",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "11. \"For unto Thee, Lord, are mine eyes; in Thee have I hoped, take not Thou away my life\" (ver. 8). For they were tortured in persecutions, and many failed. It occurreth to him that many have failed, many have been in hazard, and as it were in the midst of the tribulation of persecution is sent forth the voice of one praying; \"For unto Thee, Lord, are mine eyes:\" I care not what they threaten who stand around, \"unto Thee, Lord, are mine eyes.\" More do I fix mine eye on Thy promises than on their threats. I know what Thou hast suffered for me, what Thou hast promised me.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/141/8",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6775",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 141:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

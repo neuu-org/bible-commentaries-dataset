@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NM 5:2",
+  "verse_text": "Verse text for NM 5:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/5/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Camp; in the midst of which God had fixed his tabernacle. See Leviticus xvi. 16. Some pretend that these unclean persons were only excluded from the camp of the Lord, and from that of the Levites, which occupied 2000 cubits round the tabernacle. But God will not permit any of the camp to be defiled by such people. They were to absent themselves for seven days, and then wash themselves, chap. xix. 11. If lepers be excluded from the camp, how much more do heretics deserve to be cast out of the Church! (Theodoret, q. 8.) (Worthington)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/5/2",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc6e8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 5:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 42:3",
+  "verse_text": "Verse text for PS 42:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/42/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"My tears have been my meat day and night, while they daily say unto me, Where is thy God. My tears (he saith) have been not bitterness, but \"my bread. \" Those very tears were sweet unto me: being athirst for that fountain, inasmuch as I was not as yet able to drink of it, I have eagerly made my tears my meat. For he said not, \"My tears became my drink,\" lest he should seem to have longed for them, as for \"the water-brooks:\" but, still retaining that thirst wherewith I burn, and by which I am hurried away towards the water-brooks, \"My tears became my meat,\" whilst I am not yet there. And assuredly he does but the more thirst for the water-brooks from making his tears his meat. \"And they daily say unto me, Where is thy God. \" For if a Pagan should say this to me, I cannot retort it upon him, saying, \"Where is thine. \" inasmuch as he points with his finger to some stone, and says, \"Lo, there is my God. \" When I have laughed at the stone, and he who pointed to it has been put to the blush, he raises his eyes from the stone, looks up to heaven, and perhaps says, pointing his finger to the Sun, \"Behold there my God. Where, I pray, is your God. \" He has found something to point out to the eyes of the flesh; whereas I, on my part, not that I have not a God to show to him, cannot show him what he has no eyes to see. For he indeed could point out to my bodily eyes his God, the Sun; but what eyes hath he to which I might point out the Creator of the Sun.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/42/3",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a0a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Bread. Ovid imitates this: Cura dolorque animi lachrymæque alimenta fuere. (Met. x.)\nThe tears of compunction obtain the remission of sin. (St. Jerome)\nGod. Thus the idolaters derided those who could not point at their God. (Haydock)\nThe Babylonians had conquered all the surrounding nations, and despised their deities. (Calmet)\nThe wicked laugh at the just, who are for a time in distress, comforting themselves with weeping. (Worthington)\nThose who saw David wandering (Haydock) in the mountains, at a distance from the tabernacle, might ask him what religion or God he followed. (Menochius)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/42/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723be049",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 42:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DT 8:9",
+  "verse_text": "Verse text for DT 8:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/8/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Iron, equal in hardness, and used to cut things, in the same manner as we use iron or steel, Isaias lx. 17.\nBrass. There were mines of both in Mount Libanus; and David collected great quantities of such metals from Coelosyria, 3 Kings xviii. 8., and 1 Paralipomenon xxii. 3, 14. Sidon was noted for its brass. (Homer, Odyssey xv. 425.) Sarepta probably took its name from the \"foundry \"established there. Dan and Aser had abundance of iron and of brass, chap. xxxiii. 25., and Ezechiel xxvii. 19. Cadmus brought from this country the art of melting gold, into Greece. (Pliny, vii. 56. In latter ages, many Christians were condemned to work in the mines of Palestine. (Eusebius)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dt/8/9",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc959",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 8:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

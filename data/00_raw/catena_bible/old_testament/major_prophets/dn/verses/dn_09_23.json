@@ -1,0 +1,58 @@
+{
+  "verse_reference": "DN 9:23",
+  "verse_text": "Verse text for DN 9:23",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/9/23",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Desires. His zeal and mortification merit this title. (Worthington)\nHe was an object of God's love. (St. Jerome) (Chap. x. 11. and xi. 8.) (Calmet)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/9/23",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf31b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh At the beginning of your supplications the commandment came forth, and I have come to show you; for you are greatly beloved: therefore understand the matter, and consider the vision. Thus [reading sic instead of si] Daniel is told, \"Pay diligent heed, in order that thou mayest hear and understand what thou seest. \" We too should do (p. 542) this, for our eyes have been blinded by the shadows of ignorance and the darkness of sins.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/9/23",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd33d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "That is, at the time when thou didst begin to ask God, thou didst straightway obtain His mercy, and His decision was put forth. I have therefore been sent to explain to thee the things of which thou art ignorant, inasmuch as thou art a man of desires, that is to say a lovable man, worthy of God's love ---- even as Solomon was called Idida (var: Jedida) or \"man of desires.\" I have been sent because thou art worthy, in recompense for thine affection for God, to be told the secret counsels of God and to have a knowledge of things to come.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/dn/9/23",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd33c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 9:23",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

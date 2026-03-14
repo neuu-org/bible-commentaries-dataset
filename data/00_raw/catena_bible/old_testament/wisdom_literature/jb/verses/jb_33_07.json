@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 33:7",
+  "verse_text": "Verse text for JB 33:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/33/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Wonder (miraculum.) Hebrew, \"terror \"(Haydock) in allusion to Job's words, chap. ix. 34.\nEloquence. Hebrew, \"hand. \"(Calmet)\nSeptuagint, \"the dread of me shall not cast thee down, nor my hand be heavy upon thee. \"Arrogant men esteem their own observations as something wonderful. (St. Gregory) (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/33/7",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdd75",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "For it is peculiar to the arrogant that they always believe, even before they speak, that they are going to say some wonderful thing. And they anticipate their own words by their own admiration, because, with all their acuteness, they are not sensible to how great a folly is their very pride. We must observe also that Paul, when he was giving the Hebrews some striking warnings, subjoined, “I beseech you, brethren, suffer the word of consolation, for I have written to you in few words. ” But Elihu uttered empty words and afterwards added, as if for consolation, “Yet let not my wonder terrify you or my eloquence be burdensome to you. ” The one called his sayings the words of consolation; the other called them eloquence and a marvel. Behold, how different in taste are the fruits that spring forth from diverse roots of thought. The one thinks humbly of his high qualities; the other exalts himself without reason on his scanty endowments. What then is specially to be observed in all this, but that those who are about to rise think themselves low, and that they who are soon to fall ever stand on high ground. As Solomon bears witness, “The heart is exalted before destruction and is brought low before honor.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/33/7",
+      "full_content_url": "https://catenabible.com/com/5e1b61688bc66721fe4ef707",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 33:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

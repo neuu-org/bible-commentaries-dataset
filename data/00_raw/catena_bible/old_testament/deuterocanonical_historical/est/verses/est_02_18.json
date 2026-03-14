@@ -1,0 +1,47 @@
+{
+  "verse_reference": "EST 2:18",
+  "verse_text": "Verse text for EST 2:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/est/2/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then the king made a great feast unto all his princes and his servants, even Esther's feast; and he made a holiday in all the provinces, and gave gifts, according to the liberality of the king. Septuagint add, \"seven days, and he magnified the nuptials of Esther. \"(Haydock) Rest, from labour. (Calmet) Septuagint, \"remission to all his subjects \"of tribute, as was sometimes done. (Herodotus iii. ) (Tirinus) (Calmet) Gifts, on Esther. (Chaldean) (Malvenda).",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/est/2/18",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdabb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Rabanus Maurus",
+      "period": "AD856",
+      "content": "It is evident that the magnificent banquet for Esther’s wedding, prepared for both the princes and the people, represents the greatest bliss that is enjoyed by the entire human race, both great and small, for the spiritual union of Christ with the church. In this banquet, in fact, no carnal foods are consumed by those who are worthy to participate in it. Instead they consume a spiritual diet of wisdom and virtue. In this banquet, all the faithful receive the holy mysteries of the body and blood of the Lord as a remedy for their salvation. Here the meal of eternal life resides. And our king gives peace to all the provinces, and bestows abundant gifts in freeing those who believe in him from the weight of sins, and rewarding them with spiritual gifts. Therefore he himself says in the gospel, “Come to me, all you who are weary and are carrying heavy burdens, and I will give you rest. Take my yoke upon you, and learn from me; for I am gentle and humble in heart, and you will find rest for your souls.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/est/2/18",
+      "full_content_url": "https://catenabible.com/com/5e1b69e68bc66721fe4efa30",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EST 2:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

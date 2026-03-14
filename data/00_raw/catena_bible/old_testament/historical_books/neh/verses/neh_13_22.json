@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NEH 13:22",
+  "verse_text": "Verse text for NEH 13:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/13/22",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "We are commanded by the Law to do for six days the things that are necessary and to rest on the seventh. The general mystery of this command is clear: namely, that in this world, which lasts for six ages, all the elect should labor for eternal rest, but on a day that is to come, as it were on the seventh, should hope for that rest itself from the Lord. But according to tropology (i.e., the moral sense), the elect even in this life keep the sabbath holy for the Lord when, having separated themselves at the appropriate time from worldly concerns, they make time for prayer and raise their minds, which have been purified, to the contemplation of heavenly things. For when we lawfully carry out those things that care for the body’s demands with a sincere heart and not with desires contrary to the precept of the apostle, we are, so to speak, performing our necessary work in the six days, since we are occupied with those things that we have need of in this world.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/neh/13/22",
+      "full_content_url": "https://catenabible.com/com/591a466e19aa35522bc7e374",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Gates. The Levites would more conscientiously discharge their duty, (Menochius) and restrain the people, so that they might keep the day holy. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/13/22",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda95",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 13:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

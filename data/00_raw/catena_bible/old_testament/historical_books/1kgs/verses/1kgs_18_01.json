@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1KGS 18:1",
+  "verse_text": "Verse text for 1KGS 18:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1kgs/18/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "“After many days the word of the Lord came to Elijah, in the third year of the drought, saying, ‘Go, present yourself to Ahab; I will send rain on the earth.’ ” The Lord, by giving life back to the child, granted grace to Elijah. He had taught him through the affliction of the child, who had died, that his Lord was also grieved for his creatures tormented by starvation and thirst, even though he did not want to destroy or sever the link of the word of his servant against his will. After preparing the spirit of Elijah through this thought, he calls him and says to him, “Go, present yourself to Ahab; I will send rain on the earth.”",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1kgs/18/1",
+      "full_content_url": "https://catenabible.com/com/5e1b68098bc66721fe4ef932",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Year of his sojourning at Sarephta. As other six months elapsed before the drought was removed, it is probable that Elias had spent them at Carith, James v. 17. (Calmet)\nEarth. God is pleased to withdraw his chastisement, though the guilty were not yet reclaimed. (Salien)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1kgs/18/1",
+      "full_content_url": "https://catenabible.com/com/5735e1a3ec4bd7c9723bd378",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1KGS 18:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 20:22",
+  "verse_text": "Verse text for LK 20:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/20/22",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "If our divine Saviour had returned them for answer, that they ought to give tribute to Cæsar, they would have accused him of being an enemy to the law; but if, on the contrary, he said it was not lawful, they would have accused him to Pilate as an enemy to the state. (Theophylactus)\nFor there was then a great misunderstanding among the Jews: some, who wished to keep peace with the Romans, said that it was lawful; but the Pharisees denied it, and said: \"The people of God ought to be exempt from such a tax. They were bound by the law to give tithes and first-fruits to God; therefore they ought not to be bound by human laws to give likewise tax to men who were heathens. \"(St. Jerome)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/20/22",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfb46",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 20:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

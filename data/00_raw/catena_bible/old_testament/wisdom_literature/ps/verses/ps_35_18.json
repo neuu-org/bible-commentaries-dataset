@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 35:18",
+  "verse_text": "Verse text for PS 35:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/35/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "21. Lastly, wouldest thou know what is that Darling? Read the words following: \"I will confess unto Thee, O Lord, in the great Congregation; in a weighty people will I praise Thee\" (ver. 18). Truly saith He, \"I will confess unto Thee:\" for confession is made in all the multitude, but not in all is God praised: the whole multitude heareth our confession, but notin all the multitude is the praise of God. For in all the whole multitude, that is, in the Church which is spread abroad in the whole world, is chaff, and wheat: the chaff flieth, the wheat remaineth; therefore, \"in a weighty people will I praise Thee.\" In a weighty people, which the wind of temptation carries not away, in such is God praised.For in the chaff He is ever blasphemed. ...",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/35/18",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6985",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I will give you thanks in the great congregation: I will praise you among many people. Strong, gravi. Hebrew hat sum, numerous, (1 Machabees i. ; Menochius) and \"weighty \"(Haydock) which is the consequence of great numbers, (Berthier) and of virtue. Augustine understands the Church, which is not carried away like chaff before the wind. Amama dislikes this. (Haydock) The resurrection is foretold, (ver. ) and here the Catholic Church is signified. (Worthington).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/35/18",
+      "full_content_url": "https://catenabible.com/com/5735e1f4ec4bd7c9723bdfc7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 35:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

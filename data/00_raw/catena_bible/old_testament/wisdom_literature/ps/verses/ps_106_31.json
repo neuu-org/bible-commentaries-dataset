@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 106:31",
+  "verse_text": "Verse text for PS 106:31",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/106/31",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "25. \"And that was counted unto him for righteousness among all posterities for evermore\" (ver. 31). God counted this unto His Priest for righteousness, not only as long as posterity shall exist, but \"for evermore;\" for He who knoweth the heart, knoweth how to weigh with how much love for the people that deed was done.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/106/31",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e657d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Evermore. Phinees thus by his pious zeal, merited (Worthington) God's favour, and the high priesthood (Numbers xxv. 13.; Calmet) for his posterity, for 900 years, though the latter promise seems to have been conditional. (Berthier)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/106/31",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be37f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 106:31",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

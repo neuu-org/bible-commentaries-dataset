@@ -1,0 +1,69 @@
+{
+  "verse_reference": "PHIL 3:5",
+  "verse_text": "Verse text for PHIL 3:5",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/phil/3/5",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Paul first mentions the very point that was their chief boast, the ritual of circumcision. He was, he says, “circumcised on the eighth day.” So he makes it clear that he comes “of the stock of Israel.” By this language he shows that he is not a proselyte (hence the eighth day), nor was he born of a proselyte background (for he comes of the stock of Israel). And so that no one may suppose that “of the stock of Israel” means from one of the ten tribes, he further specifies that he is “of the tribe of Benjamin.” This is a highly respected Jewish identity, since the affairs of the priesthood fell to the lot of this tribe. .",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phil/3/5",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e534e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "It was possible to be “of Israel” but not a “Hebrew of the Hebrews.” For there were many who had already misplaced their Hebrew heritage. Long residing among Gentiles, they had become ignorant of their Hebrew tongue. Not so with Paul. .",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/5",
+      "full_content_url": "https://catenabible.com/com/583f63ed205c248f42e534e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "Then he told me frankly both his name and his family. \"Trypho \"says he, \"I am called; and I am a Hebrew of the circumcision,",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/5",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb7c9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "For the occasion, indeed, of claiming Divine grace even for the Gentiles derived a pre-eminent fitness from this fact, that the man who set up to vindicate CoWs Law as his own was of the Gentiles, and not a Jew \"of the stock of the Israelites.\"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phil/3/5",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bb7ca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHIL 3:5",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

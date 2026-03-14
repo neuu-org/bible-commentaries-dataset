@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JGS 9:37",
+  "verse_text": "Verse text for JGS 9:37",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/jgs/9/37",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Midst. Hebrew Tabur, here signifies \"a little hill, or the navel \"which title is given to places which are elevated and in the centre of the country, Ezechiel xxxviii. 12. (Josephus, Jewish Wars iii. 2.) Varro mentions the lake of Cut ilia, as the navel of Italy. The wood of Enna and Etolia are styled the navel of Sicily and of Greece, by Cicero and Livy. (Bonfrere; Calmet)\nOak, which is probably mentioned, ver. 6. (Menochius)\nHebrew, \"another company comes by the oak or plain of Mehonenim \"which may signify, \"of the augurs. \"Septuagint, \"of those who make observations \"apoblepontón. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jgs/9/37",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcd70",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JGS 9:37",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

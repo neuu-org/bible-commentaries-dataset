@@ -1,0 +1,58 @@
+{
+  "verse_reference": "1PET 2:24",
+  "verse_text": "Verse text for 1PET 2:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1pt/2/24",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Clement Of Alexandria",
+      "period": "AD215",
+      "content": "Addressing those who have believed, he says, \"For by His stripes we were healed.\"",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/24",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa4d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "The ass was the type of the body of Christ, upon whom all men, resting from their labours, are borne as in a chariot. For the Saviour has taken up the burden of our sins.",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/24",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa4c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Polycarp of Smyrna",
+      "period": "AD155",
+      "content": "Let us then continually persevere in our hope, and the earnest of our righteousness, which is Jesus Christ, \"who bore our sins in His own body on the tree\"",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1pt/2/24",
+      "full_content_url": "https://catenabible.com/com/5735dfccec4bd7c9723baa4b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1PET 2:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

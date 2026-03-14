@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 49:13",
+  "verse_text": "Verse text for IS 49:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/49/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "We say that those humble ones who submit their necks to Christ and who do not despise the yoke of a kingdom under him, in that they welcome faith, will be fit to worship him in spirit and in truth. [They will] fulfill the worship of those who did not receive faith, those who were not humble but raised their proud horns in the air and spoke unrighteousness against him and his holy prophecies and who exulted in stretching out the neck of their understanding. These were not worthy of spiritual consolation, for they were not deserving. “For what share has faith with unbelief?” as it is written.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/49/13",
+      "full_content_url": "https://catenabible.com/com/5e88f343b1c7280cb341d19c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 49:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

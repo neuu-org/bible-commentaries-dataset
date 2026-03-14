@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JB 31:28",
+  "verse_text": "Verse text for JB 31:28",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/31/28",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "21. For it is clear that he does deny Him, when setting at nought His grace, he claims to himself the powers of good practice. Which too is rightly called as well ‘the chiefest iniquity’ because every act of sin which is from infirmity destroyeth not hope, seeing that it asks forgiveness from the Judge Above. But presuming on our own goodness is so much the worse in desperateness, the further it is removed from humility. And when it ascribes the strength of practice to itself, it does not have recourse to the aid of the Maker, and it is brought to pass that the sinner perishes so much the worse, for that even this very thing, that he is a sinner, he is ignorant of.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/31/28",
+      "full_content_url": "https://catenabible.com/com/574392f23c6effa740ddd1a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 31:28",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "verse_reference": "LK 5:20",
+  "verse_text": "Verse text for LK 5:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/5/20",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "But the Lord, wanting to save sinners, shows himself to be God both by his knowledge of secrets and by the wonder of his actions. He adds, “Which is easier, to say, ‘Your sins are forgiven you,’ or to say, ‘Rise and walk?’ ” In this passage he shows the full likeness of the resurrection. Alongside of healing the wounds of body and mind, he also forgives the sins of the spirits, removes the weakness of the flesh, and thus heals the whole person. It is a great thing to forgive people’s sins—who can forgive sins, but God alone? For God also forgives through those to whom he has given the power of forgiveness. Yet it is far more divine to give resurrection to bodies, since the Lord himself is the resurrection. –.",
+      "commentary_number": "1/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/20",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7385",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "When the Savior says to him, “Man, your sins are forgiven you,” he addresses this to humankind in general. For those who believe in him, being healed of the diseases of the soul, will receive forgiveness of the sins which they formerly committed. He may also mean this: “I must heal your soul before I heal your body. If this is not done, by obtaining strength to walk, you will only sin more. Even though you have not asked for this, I as God see the maladies of the soul which brought on you this disease.” Commentary on Luke, Homily",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/20",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7384",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Great is the Lord, who pardons men on account of the merits of others. If you are diffident of the pardon of your grievous sins, have recourse to the Church. She will pray for you; and the Almighty, at her intercession, will grant you that pardon he might have denied to your prayers. (St. Ambrose, lib. v. in Luc.)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/20",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa4e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Irenaeus of Lyons",
+      "period": "AD202",
+      "content": "Rightly then does His Word say to man, \"Thy sins are forgiven thee; \".\nBut if indeed we had disobeyed the command of any other, while it was a different being who said, \"Thy sins are forgiven thee; \"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/20",
+      "full_content_url": "https://catenabible.com/com/5735e12fec4bd7c9723bbc5f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 5:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

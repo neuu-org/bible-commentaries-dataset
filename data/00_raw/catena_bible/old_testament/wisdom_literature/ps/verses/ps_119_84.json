@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:84",
+  "verse_text": "Verse text for PS 119:84",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/84",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"How many are the days of Thy servant. when wilt Thou be avenged of them that persecute me. In the Apocalypse, these are the words of the Martyrs, and long-suffering is enjoined them until the number of their brethren be fulfilled. The body of Christ then is asking concerning its days, what they are to be in this world, and that no man might suppose that the Church would cease to exist here before the end of the world came, and that some time would elapse in this world, while the Church was now no more on earth; therefore, when he had enquired concerning the days, he added also respecting the judgment, showing indeed that the Church would exist on earth until the judgment, when vengeance shall fall upon Her persecutors. But if any one wonder why he should ask that question, to which when asked by the disciples, their Master replied, \"It is not for you to know the times and the seasons;\" why should we not believe that in this passage of the Psalm it was prophesied that they should ask this very question, and that the words of the Church, which were so long before uttered here, were fulfilled in their question.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/84",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6650",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Servant. The just may lawfully desire the term of their sufferings, with submission to God's will, (Worthington) and to be freed from the power of persecutors, (Hebrew, \"the proud \"Berthier) and from exile, after their enemies are punished, Psalm xxxviii. 5. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/84",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be420",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:84",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

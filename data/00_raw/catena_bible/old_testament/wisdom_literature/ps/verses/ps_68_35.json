@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 68:35",
+  "verse_text": "Verse text for PS 68:35",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/68/35",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "40. Lastly, lest of anything else the clouds be understood, he hath in continuation added, \"Wonderful is God in His saints, the God of Israel\" (ver. 35). For at that time even most truly and most fully there shall be fulfilled the name Israel itself, which is one \"seeing God :\" for we shall see Him as He is. \"He Himself shall give virtue and strength to His people, blessed be God:\" to His people now frail and weak. For \"we have this treasure in earthen vessels.\" But then by a most glorious changing even of our bodies, \"He Himself shall give virtue and strength to His people.\" For this body is sown in weakness, shall rise in virtue. He Himself then shall give the virtue which in His own flesh He hath sent before, whereof the Apostle saith, \"the power of His Resurrection.\" But strength whereby shall be destroyed the enemy death. Now then of this long and difficultly understood Psalm we have at length by His own aid made an end. \"Blessed be God. Amen.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/68/35",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6b8a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 68:35",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JAS 3:9",
+  "verse_text": "Verse text for JAS 3:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jas/3/9",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By it we bless God:Such different effects from the same cause, as of blessing God, and cursing men, created to the likeness of God, seem contrary to the ordinary course of nature; for a fountain form the same source doth not send forth both sweet and bitter streams.\nWho is a wise man, and endued with knowledge among you? This seems to be connected with the admonition given at the beginning of the chapter, be not many masters; let none pretend to this but who have wisdom and knowledge, which also may be known by their prudent and mild conversation.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jas/3/9",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c037c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JAS 3:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

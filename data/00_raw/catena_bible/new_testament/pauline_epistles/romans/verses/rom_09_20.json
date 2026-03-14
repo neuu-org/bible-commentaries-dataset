@@ -1,0 +1,69 @@
+{
+  "verse_reference": "ROM 9:20",
+  "verse_text": "Verse text for ROM 9:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/rom/9/20",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "It is a great indignity and presumption for a man to answer back to God— the unjust to the just, the evil to the good, the imperfect to the perfect, the weak to the strong, the corruptible to the incorrupt, the mortal to the immortal, the servant to the Lord, the creature to the Creator! Commentary on Paul’s Epistles.",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/9/20",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e513b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Nay but, O man, who are you that replies against God. Shall the thing formed say to him that formed it, Why have you made me thus. Augustine of Hippo As long as you are just a creature, says Paul, like this lump of clay, and you have not been led to spiritual things, so that as a spiritual man you might judge all things and be judged by no one, it is right for you to hold back from this kind of inquiry and not to answer back to God. For everyone who wants to know God’s plan ought first to be received into his friendship, and this is only possible for spiritual people who already bear the image of the heavenly.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/9/20",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e513d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Nay but, O man, who are you that replies against God. Shall the thing formed say to him that formed it, Why have you made me thus. Paul says this in order not to do away with free will but rather to show to what extent we ought to obey God. We should be as little inclined to call God to account as a piece of clay is. We ought to abstain not only from complaining or questioning but from even speaking or thinking about it at all, and instead we should become like that lifeless matter which follows the potter’s hands and lets itself be shaped in whatever way the potter wills.",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/9/20",
+      "full_content_url": "https://catenabible.com/com/584b75329ac03ecd4b8e513c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Tertullian of Carthage",
+      "period": "AD220",
+      "content": "In the same way the potter, too, has it in his power, by tempering the blast of his fire, to modify his clayey material into a stiffer one, and to mould one form after another more beautiful than the original substance, and now possessing both a kind and name of its own. For although the Scripture says, \"Shall the clay say to the potter? \"",
+      "commentary_number": "4/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/rom/9/20",
+      "full_content_url": "https://catenabible.com/com/5735e001ec4bd7c9723bba7f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ROM 9:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

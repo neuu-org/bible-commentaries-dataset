@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MAL 3:2",
+  "verse_text": "Verse text for MAL 3:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-14",
+  "source_url": "https://catenabible.com/mal/3/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Coming. This may be explained of the Baptist, (Luke iii. 7.) or of the second coming of Christ; though his first coming showed the hypocrisy of the Jews. They would not acknowledge him, but sought his death, and brought on their own condemnation. (Calmet)\nFuller's. Septuagint, \"washers' herb. \"Borith is found in all the low places of Palestine, (St. Jerome) and probably denotes soda, (Jeremias ii. 22.; Calmet) or fullers' earth. (Haydock)\nChrist purified the religion of the Jews, or did what was requisite for that purpose. The people would not obey. Yet he established his Church in all purity.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mal/3/2",
+      "full_content_url": "https://catenabible.com/com/5735e2b1ec4bd7c9723bf63c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "The same Christ who did all this will hereafter stand before us as our judge. Certainly the prophets did not pass over this but foretold it. Some saw him in that very form which he would stand before us; others predicted this only in words. Daniel was in the midst of the barbarians and the Babylonians when he saw Christ coming in the clouds. Listen to what he said: “I beheld, and lo. One like the Son of man was coming on the clouds. And he advanced to the ancient of days and was presented before him; and to him was given the government and the kingdom, and all the peoples, tribes and languages serve him. ” And Daniel hinted at God’s court and judgment when he said, “The thrones were set, and the books were opened. A river of fire rolled before him. Thousands upon thousands ministered to him, and myriads waited on him. ” [Daniel not only revealed that, but also he showed the honor that the just would have when he said, “He gave judgment to the holy ones of the most high, and the holy ones possessed the kingdom. ”] And that judgment will come through fire. Malachi said, “He is coming [like the fire of a refiner’s furnace, and] like the soap of the fullers. ” And then the just will enjoy great honor. And Daniel was speaking of the resurrection when he said, “Those lying in the dust shall arise.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mal/3/2",
+      "full_content_url": "https://catenabible.com/com/5838db61205c248f42e52be7",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MAL 3:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

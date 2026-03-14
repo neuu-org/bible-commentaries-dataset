@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PRV 9:3",
+  "verse_text": "Verse text for PRV 9:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/9/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Maids. Septuagint, \"servant men \"the pastors of the church, inviting all to piety in so public a manner, that none can plead ignorance. (St. Gregory) (Calmet)\nTo invite. Protestants, \"she crieth upon the highest places of the city. \"(Haydock)\nChrist enjoins his apostles to preach on the roofs, Matthew x. 37.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/9/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be5e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 9:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 26:18",
+  "verse_text": "Verse text for MT 26:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/26/18",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "To a certain man, whom Sts. Mark and Luke call, the good man of the house, or master of the house. When St. Matthew therefore says, a certain man, he seems to do it for brevity's sake; as no one ever speaks to his servants thus, go to a certain man. The evangelist, therefore, after giving our Saviour's words, go ye into a certain city, he adds as from himself, to a certain man, to inform us that there was a particular man to whom Jesus sent his disciples. (St. Augustine)\nIn Greek, ton deina; in Hebrew, Pelona; words that express a person whose name is either not known, or is wished to be kept secret. (Jansenius)",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/26/18",
+      "full_content_url": "https://catenabible.com/com/5735e2c9ec4bd7c9723bf888",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "And for what possible reason does He send them to an unknown person. To show by this also that He might have avoided suffering. For He who prevailed over this man's mind, so that he received them, and that by words; what would He not have done with them that crucified Him, if it had been His will not to suffer. And what He did about the ass, this He did here also. For there too He says, If any man say anything unto you, you shall say, that the Lord has need of them; Matthew 21:3 and so likewise here, The Master says, I will keep the passover at your house. But I marvel not at this only, that he received Him, being unknown, but that expecting to bring upon himself such enmity and implacable hostility, he despised the enmity of the multitude. After this, because they knew him not, He gave them a sign, like as the prophet touching Saul, saying, You shall find one going up and carrying a bottle; 1 Samuel 10:3 and here, carrying a pitcher. And see again the display of his power. For He did not only say, I will keep the passover, but He adds another thing also, My time is at hand. And this He did, at once continually reminding His disciples of the passion, so that exercised by the frequency of the prediction, they should be prepared for what was to take place; and at the same time to show to themselves, and to him that was receiving Him, and to all the Jews, which I have often mentioned, that not involuntarily does He come to His passion. And He adds, with my disciples, in order that both the preparation should be sufficient, and that the man should not suppose that He was concealing Himself.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/mt/26/18",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac5c9",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 26:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

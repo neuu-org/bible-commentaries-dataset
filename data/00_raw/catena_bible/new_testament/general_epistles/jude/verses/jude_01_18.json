@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JUDE 1:18",
+  "verse_text": "Verse text for JUDE 1:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jude/1/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Aquinas Study Bible",
+      "period": "AD2017",
+      "content": "in the last time: That statement, and similar expressions that are to be found in Scripture do not enable us to know the exact length of time. For they are not intended to indicate a short length of time, but to signify the last state of the world, which is the last age of all, and it is not stated definitely how long this will last. Thus neither is fixed duration appointed to old age, which is the last age of man, since sometimes it is seen to last as long as or even longer than all the previous ages, as Augustine remarks (Qq. 83, qu. 58). Hence also the Apostle in 2 Thess. 2:2 disclaims the false signification which some had given to his words, by believing that the day of the Lord was already at hand. (St. Thomas Aquinas Sum Theo 3.88.3. r3)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jude/1/18",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f53",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JUDE 1:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

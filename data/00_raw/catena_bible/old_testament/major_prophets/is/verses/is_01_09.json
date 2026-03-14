@@ -1,0 +1,80 @@
+{
+  "verse_reference": "IS 1:9",
+  "verse_text": "Verse text for IS 1:9",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/1/9",
+  "commentary_status": "available",
+  "total_commentaries": 5,
+  "full_content_fetched": 5,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Beware, O Christian, beware of pride. For though you are a follower of the saints, ascribe it always wholly to grace. That there should be any “remnant” in you, the grace of God has brought it to pass, not your own merits. - \"Sermon 50 (100).4\"",
+      "commentary_number": "1/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/1/9",
+      "full_content_url": "https://catenabible.com/com/5e4f7f1bc849cf49a740e18b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "It was shown above what the prophetic word threatened against Jerusalem and Judah, not pertaining to the time of the Babylonian captivity but to the end of the Romans, when the remnant of the Jewish people were saved in the apostles, and three thousand believed in one day and five thousand on another, and the gospel was spread throughout the entire world. “The Lord of hosts” is our Latin translation, following Aquila, of the Hebrew “Lord of the Sabbath,” to which the Septuagint translators gave a double sense: either the Lord of powers or the Lord omnipotent. We also need to ask whether it was said about the Father or about the Son. But there is no doubt what we read in the twenty-third psalm: “Lift up your heads, gates, and be lifted up, eternal doors, and the king of glory will enter. Who is the king of glory. Lord of the sabbath. ” The Lord of powers, he is the king of glory, referring to Christ, who ascended to heaven as victor after the triumph of the passion. And in another place it says about the Lord, the king of glory: “If they had known him, they never would have crucified the Lord of glory. ” Not only according to the Apocalypse of John and the apostle Paul, therefore, but also in the Old Testament Christ is named as Lord of the sabbath, that is, Lord omnipotent. For if all things of the Father belong to the Son and, as he himself says in the Gospel, “All power in heaven and on the earth has been given to me” and “All that is mine is yours, and I am glorified in them,” why then does the title of omnipotence not also belong to Christ, so that just as he is God of God and Lord of Lord, he would also be the omnipotent Son of the omnipotent One.",
+      "commentary_number": "2/5",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/is/1/9",
+      "full_content_url": "https://catenabible.com/com/5e4f7f1cc849cf49a740e18c",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "He here shows that even the few that were saved were not saved through their own resources. Even they would have perished and suffered like Sodom. That is, they would have been completely destroyed—for Sodom was destroyed root and branch, and not even the smallest seed remained. He means to say that they too would have been like those, except that God demonstrated his goodness to them and saved them by faith. This happened as well in their visible captivity in which most of them were taken captive and perished, in which only a few were saved.",
+      "commentary_number": "3/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/1/9",
+      "full_content_url": "https://catenabible.com/com/5e4f7f1bc849cf49a740e18a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Unless the LORD of hosts had left unto us a very small remnant, we should have been as Sodom, and we should have been like unto Gomorrah. The Gentiles were utterly ignorant of the one true God and worshiped things they themselves made. The Jews and Samaritans, though, had been given the Word of God by the prophets and have always waited for the coming of Christ. However, they did not recognize him when he came, except for a few who were to be saved.",
+      "commentary_number": "4/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/1/9",
+      "full_content_url": "https://catenabible.com/com/5e4f7f1bc849cf49a740e189",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Justin Martyr",
+      "period": "AD165",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Unless the LORD of hosts had left unto us a very small remnant, we should have been as Sodom, and we should have been like unto Gomorrah. Moreover, those teachers who believe that the descendants of Abraham according to the flesh will indeed share in the eternal kingdom, even if they are sinners without faith and disobedient to God, are deceiving themselves and you. These are speculations that the Scriptures demonstrate have absolutely no basis. If they did, Isaiah would not have said, “And except the Lord of hosts had left us seed, we had become as Sodom and Gomorrah.",
+      "commentary_number": "5/5",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/1/9",
+      "full_content_url": "https://catenabible.com/com/5e4f7f1bc849cf49a740e188",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 1:9",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

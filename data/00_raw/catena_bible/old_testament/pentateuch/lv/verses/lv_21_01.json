@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 21:1",
+  "verse_text": "Verse text for LV 21:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/21/1",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "An uncleanness; viz. , such as was contracted in laying out the dead body, or touching it; or in going into the house, or assisting at the funeral (Challoner) At the death. Hebrew, \"for a soul \"by which name the carcass is here denoted, because it had once been ruled by the soul. Augustine, q. ) This law related only to the family of Aaron, when no absolute necessity or near relationship required their attendance. When such offices of charity should be deemed defiling, it is not easy to say. But the ancients generally looked upon them in this light, chap. Porphyrius enquired of Anebo, why the holy inspector touched not the dead, since in all sacred transactions, the death of animals generally intervenes. We know not the answer of this pretended prophet Egypt; and Jamblicus confesses, that he cannot resolve the difficulty. The Romans placed a branch of cypress before the door where a corpse was lying, lest any priest might see it unthinkingly, and be defiled. (Servius) \"At their return from a funeral they sprinkled themselves with water, and passed over fire. \"(Festus) The Rabbins say, that no one could be buried in Jerusalem, nor in the towns of the Levites, on account of the sanctity of those places, and for fear lest the priests might thus contract some uncleanness. (Calmet) To account for all these regulations, we only need to observe that such was the will of God; and here it may surely be said, stat pro ratione voluntas. He might thus intend to exercise their obedience; to keep their minds from being too much depressed by the sight of the dead, and to remind us all that we ought carefully to avoid sin, which kills the soul, and renders us really unclean before God.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lv/21/1",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc63f",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "An uncleanness: Viz., such as was contracted in laying out the dead body, or touching it; or in going into the house, or assisting at the funeral, etc.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/21/1",
+      "full_content_url": "https://catenabible.com/com/5879d137dd1bb6dd3dba9f80",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 21:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

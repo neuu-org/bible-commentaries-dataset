@@ -1,0 +1,47 @@
+{
+  "verse_reference": "NM 16:26",
+  "verse_text": "Verse text for NM 16:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/nm/16/26",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyprian of Carthage",
+      "period": "AD258",
+      "content": "We find that also made clear in Numbers when Korah and Dathan and Abiram claimed for themselves the liberty of sacrificing in opposition to Aaron the priest. There also the Lord teaches through Moses that the people should be separated from them lest they be bound by the same guilt with the criminals and contaminate themselves by the same crime. “Keep away,” he says, “from the tents of most shameless wicked men, and do not touch anything that is theirs, lest you perish at the same time in their sin.” Because of this, a people who obey the precepts of the Lord and fear God ought to separate themselves from a sinful leader and should not take part in the sacrifices of a sacrilegious bishop, especially since they themselves have the power either of electing worthy bishops or of refusing the unworthy.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/nm/16/26",
+      "full_content_url": "https://catenabible.com/com/5838da65205c248f42e52925",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Depart. If we give any encouragement to schismatics, or go to their meetings, we must expect to be involved in their sins. (St. Cyprian, de Lapsis 5.) (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/nm/16/26",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc795",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NM 16:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

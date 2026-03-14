@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MK 1:20",
+  "verse_text": "Verse text for MK 1:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/1/20",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Basil the Great",
+      "period": "AD379",
+      "content": "A beginning is made by detaching oneself from all external goods: property, selfimportance, social class and useless desire, following the holy example of the Lord’s disciples. James and John left their father Zebedee and the very boat upon which their whole livelihood depended. Matthew left his counting house and followed the Lord, not merely leaving behind the profits of his occupation, but also paying no heed to the dangers which were sure to befall both himself and his family at the hands of the magistrates because he had left the tax accounts unfinished. Paul speaks of the whole world being crucified to him, and he to the world. Thus, those who are strongly seized with the desire of following Christ can no longer be concerned with anything pertaining to this life, not even with the love of their parents or other relatives insofar as this runs counter to the calling of the Lord. The Long Rules, Question",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/1/20",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52ccb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "There must have been something divinely compelling in the face of the Savior. Otherwise they would not have acted so irrationally as to follow a man whom they had never seen before. Does one leave a father to follow a man in whom he sees nothing more than he sees in his father? They left their father of the flesh to follow the Father of the spirit. They did not leave a father; they found a Father. What is the point of this digression? To show that there was something divine in the Savior’s very countenance that men, seeing, could not resist.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/1/20",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52cca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 1:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

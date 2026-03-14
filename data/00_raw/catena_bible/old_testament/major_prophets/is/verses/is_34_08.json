@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 34:8",
+  "verse_text": "Verse text for IS 34:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/34/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Recompenses. When the persecutors of Sion, that is, of the Church, shall receive their reward. (Challoner)\nThe Idumeans had frequently shown their ill-will towards the Jews, 2 Paralipomenon xxviii. 17., and Amos i. 11. (Calmet)\nSion shall perish as the wicked in hell shall be tormented. (Worthington)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/34/8",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea7e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh For it is the day of the LORD'S vengeance, and the year of recompense for the controversy of Zion. It [sacred Scripture] has a dreadful appearance when, describing hell, it says, “The day of the vengeance of the Lord, the year of recompense of the judgment of Zion. And the streams thereof shall be turned into pitch, and the ground thereof into brimstone: and the land thereof shall become burning pitch. Night and day it shall not be quenched … forever.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/34/8",
+      "full_content_url": "https://catenabible.com/com/5e4f7fc1c849cf49a740e45a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 34:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

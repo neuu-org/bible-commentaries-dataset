@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 46:10",
+  "verse_text": "Verse text for IS 46:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/46/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "For he says “I am the one possessing knowledge of all, and whatever happens, I give notice of it beforehand.” That which is announced, I execute … for what the holy God wills, who will thwart it? And who will avert his hand when it is raised?… We take the bird that is called from the east and from a far land to be the Babylonian, who scorched all the territory of the Jews, took Jerusalem and ruined the temple. They removed both ordinary flock and the leading birds among them and forced them into the region of the Persians. They also subjected them to a yoke of harsh imprisonment.…\nThis work was done not by Israel’s own hand, as if God would need a helper. For “it is I alone who save,” guard and lead him on the right road, so that those who have made little progress in godliness will help the righteous ones and the humble. By these means, glory and honor are finally given to me alone, even from among wood and stones.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/46/10",
+      "full_content_url": "https://catenabible.com/com/5e88f32cb1c7280cb341d137",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Cassian",
+      "period": "AD435",
+      "content": "“Your will be done on earth as it is in heaven. ” There cannot be a greater prayer than to desire that earthly things should deserve to equal heavenly ones. For what does it mean to say “your will be done on earth as it is in heaven,” if not that human beings should be like angels and that, just as God’s will is fulfilled by them in heaven, so also all those who are on earth should do not their own but his will. No one will really be able to say this but one who believes that God regulates all things that are seen, whether fortunate or unfortunate, for the sake of our well-being, and that he is more provident and careful with regard to the salvation and interests of those who are his own than we are for ourselves. And of course it is to be understood in this way—namely, that the will of God is the salvation of all, according to the text of blessed Paul: “Who desires all to be saved and to come to the knowledge of truth. ” Of this will the prophet Isaiah, speaking in the person of God the Father, also says, “All my will shall be done.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/46/10",
+      "full_content_url": "https://catenabible.com/com/5e88f32cb1c7280cb341d136",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 46:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

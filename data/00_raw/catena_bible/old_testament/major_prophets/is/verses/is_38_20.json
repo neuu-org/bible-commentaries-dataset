@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 38:20",
+  "verse_text": "Verse text for IS 38:20",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/38/20",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Athanasius the Apostolic",
+      "period": "AD373",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The LORD was ready to save me: therefore we will sing my songs to stringed instruments all the days of our life in the house of the LORD. Athanasius the Apostolic At no time should one freely praise God more than when one has passed through afflictions. Nor again should one at any time give thanks more than when he finds rest from toil and temptations. As Hezekiah, when the Assyrians perished, praised the Lord and gave thanks, saying, “The Lord is my salvation, and I will not cease to bless you with harp all the days of my life, before the house of the Lord.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/38/20",
+      "full_content_url": "https://catenabible.com/com/5e4f7fd0c849cf49a740e4a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 38:20",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

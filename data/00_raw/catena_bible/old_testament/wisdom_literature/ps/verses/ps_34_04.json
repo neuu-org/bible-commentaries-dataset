@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 34:4",
+  "verse_text": "Verse text for PS 34:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/34/4",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"I sought the Lord, and He heard me\" (ver. Where heard the Lord. Where giveth He. There thou prayest, there thou art heard, there thou art blessed. Thou hast prayed, thou art heard, thou art blessed; and he knoweth not who standeth by thee: it is all carried on in secret, as the Lord saith in the Gospel, \"Enter into thy closet, and when thou hast shut thy door, pray to thy Father which is in secret; and thy Father which seeth in secret, shall reward thee openly. \" When therefore thou enterest into thy chamber, thou enterest into thy heart. Blessed are they who rejoice when they enter into their heart, and find therein nought of evil. \"I sought the Lord, and He heard me. \" Who then are not heard, seek not the Lord. Attend, Holy Brethren; he said not, I sought gold from the Lord, and He heard me; I sought from the Lord long life, and He heard me; I sought from the Lord this or that, and He heard me. It is one thing to seek anything from the Lord, another to seek the Lord Himself. \"I sought\" (saith he) \"the Lord, and He heard me. \" But thou, when thou prayest, saying, Kill that my enemy, seekest not the Lord, but, as it were, makest thyself a judge over thy enemy, and makest thy God an executioner. How knowest thou that he is not better than thou, whose death thou seekest. In that very thing haply he is, that he seeketh not thine. Therefore seek not from the Lord anything without, but seek the Lord Himself, and He will hear thee, and while thou yet speakest, He will say, \"Lo, here I am.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/34/4",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6966",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I sought the LORD, and he heard me, and delivered me from all my fears. Hebrew, \"fears or straits \"angustiis. Jerome) (Haydock) The Vulgate adopts the Alexandrian Septuagint, thlipseon: the Vatican copy has, paroikion, \"habitations \"at Nobe, Geth Seek the Lord, while he may be found, Isaias lv. Those who entertain doubts about religion, who are in sin, or tend to perfection, must all strive to find the Lord. The matter is of the utmost importance.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/34/4",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdfa4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 34:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

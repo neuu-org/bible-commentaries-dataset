@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LV 1:6",
+  "verse_text": "Verse text for LV 1:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/1/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "They. Regularly the Levites performed this office. The skin belonged to the priest, chap. vii. 8. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/1/6",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc4fd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Pacian of Barcelona",
+      "period": "AD391",
+      "content": "We strip off the skin of a victim when we remove the illusion of virtue from the eyes of our mind. We cut its limbs into pieces when we carefully distinguish the content of a virtue and ponder it step by step. We should take care, so that when we conquer evil we do not replace it with frivolous goods. Otherwise those goods might produce inconstancy; they might lay hold of frivolity; they might wander off on the path of error; they might be broken by laziness and lose the value of work already done. In all things the mind should look around carefully and persevere in its provident concern. We should also note that we are sometimes afflicted by an impulse to illicit thoughts, because we are engaged in some earthly business, even if it is legitimate. When an earthly act is tinged with desire, even in a small way, the power of the ancient enemy grows against us and our minds are corrupted by no small oppression of temptation. Hence the priest of the law is bidden to burn in fire part of the victim that has been cut into pieces, namely, the head and the parts around the liver; but the feet and the intestines of the victim he must first wash in water. We burn the head and what is near the liver when, in the senses that rule the whole body and in our hidden desires, we burn with the flame of divine love. And the priest is commanded to wash the victim’s feet and intestines. Feet touch the earth, and intestines carry excrement. We are often set on fire with longing for eternity and in our sense of devotion long for our mortification. But since we still do something earthly because of our weakness, we tolerate in our hearts some illicit thoughts that we have suppressed. And when unclean temptation fouls our thoughts, what do they contain except excrement from the victim’s intestines. To burn them, they should be washed, for it is necessary that weeping in fear should wash away unclean thoughts. The heavenly fire can burn them in an acceptable sacrifice. Whatever the mind suffers in unfamiliar struggle or in the memory of its first conversion is to be washed, so that it can burn more sweetly in the sight of the one who beholds it. Exposition of the Old and New Testament, Leviticus.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lv/1/6",
+      "full_content_url": "https://catenabible.com/com/5838dac5205c248f42e529a0",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 1:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

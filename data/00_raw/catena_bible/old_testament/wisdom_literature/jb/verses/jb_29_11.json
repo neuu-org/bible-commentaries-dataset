@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 29:11",
+  "verse_text": "Verse text for JB 29:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/jb/29/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Gave. Septuagint, \"winked \"through approbation. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/29/11",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdd22",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "Whereas blessed Job avouches himself to be ‘blessed by those that heard him,’ and to ‘have witness given to him by those that saw him,’ what he was in speech and what in practice, we have shewn us. For neither is he henceforth perfect in practice, whom wickedness of the tongue still withstands, or praiseworthy in speech who does not exhibit in practice the thing that he utters. Therefore that blessed Job being found out by the reproaches of his own friends, might declare that he had both these, he shews himself to have been an object of veneration both to the persons bearing and the persons seeing him. Which if we refer to the voice of Holy Church, that man ‘blesses her words,’ who completes in practice the things he has heard. That person ‘gives testimony to her,’ who in patterns of life responds to her by living well. For he in a true sense sees Holy Church, whose life bears witness that he sees her. For to this end the righteousness of the good is seen within her, that all that see her may be corrected of their wickednesses. Not yet, then, does he see the good within the pale of Holy Church, who is not reformed from evil habits. But whence ‘the testimony is rendered to him,’ is shown.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/29/11",
+      "full_content_url": "https://catenabible.com/com/574392f23c6effa740ddd15a",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 29:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EX 28:42",
+  "verse_text": "Verse text for EX 28:42",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ex/28/42",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Linen breeches, descending as far as the knees. (St. Jerome) In chap. xxxix. 29, they seem to have been made of byssus, or cotton. But as linen is prescribed in all other places, perhaps a word has crept in there, by mistake of the transcribers. They were intended to remind the priests of superior modesty, as they were not commonly worn. Homer never mentions them. Virgil only specifies the cloak and tunic of Evander. Augustus wore breeches and stockings in winter. (Suetonius)\nBut the ancient breeches were not like ours, but resembled rather an apron or girdle, enveloping both thighs, and hanging from the waist. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ex/28/42",
+      "full_content_url": "https://catenabible.com/com/5735e159ec4bd7c9723bc45d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EX 28:42",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

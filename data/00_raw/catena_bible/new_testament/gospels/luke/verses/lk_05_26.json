@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 5:26",
+  "verse_text": "Verse text for LK 5:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/5/26",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "What is this bed which he is commanded to take up, as he is told to rise? It is the same bed which was washed by David every night, the bed of pain on which our soul lay sick with the cruel torment of conscience. But if anyone has acted according to Christ’s teaching, it is already not a bed of pain but of repose. Indeed, through the compassion of the Lord, who turns for us the sleep of death into the grace of delight, that which was death begins to be repose. Not only is he ordered to take up his bed, but also to go home to his house, that is, to return to Paradise. That is our true home which first fostered man, lost not lawfully, but by deceit. Therefore, rightfully is the home restored, since he who would abolish the obligation of deceit and reform the law has come.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/5/26",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7389",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "A place still remains open for disbelief when it is said, “Your sins are forgiven you”—for people cannot see the forgiven sins with the eyes of the body. By contrast, the putting off of the disease and the paralytic’s rising up and walking carries with it a clear demonstration of a godlike power. Jesus adds, “Rise, take up your bed and go home. ” And he returned to his house, delivered from the infirmity from which he had so long suffered. This very fact proves that the Son of man has power on earth to forgive sins. But to whom does he refer when he says this. Himself only, or us too. Both the one and the other are true. For he forgives sins as the incarnate God, the Lord of the law. We too have received from him this splendid and most admirable grace. He has crowned human nature with this great honor also, having even said to the holy apostles, “Truly, I say to you, whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven. ” And again, “If you forgive the sins of any, they are forgiven; if you retain the sins of any, they are retained. ” And what is the occasion on which we find him speaking this to them. It was after he had trampled on the power of death and risen from the grave, when he breathed on them and said, “Receive the Holy Spirit. ” After he had made them partakers of his nature and bestowed upon them the indwelling of the Holy Spirit, he also made them sharers of his glory, by giving them power both to remit and to bind sins. And as we have been commanded to perform this very act, how much more must he himself remit sins, when he gives to others authority to enable them to do so. Commentary on Luke, Homily.",
+      "commentary_number": "2/3",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lk/5/26",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7388",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "At the sight of the exertion of divine power, the Jews would rather fear than believe; for had they believed they would never have feared, but rather loved; for perfect love excludes fear. (St. Ambrose)",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/5/26",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bfa51",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 5:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 32:29",
+  "verse_text": "Verse text for GN 32:29",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/32/29",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ephrem The Syrian",
+      "period": "AD373",
+      "content": "That night an angel appeared to [Jacob] and wrestled with him. He overcame the angel and was overcome by the angel so that [Jacob] learned how weak he was and how strong he was. He was weak when the angel touched the hollow of his thigh and it became dislocated, but he was strong, for the angel said to him, “Let me go.” It was to show how long they had been contending with each other that [the angel] said, “Behold, the dawn is rising.” Then Jacob sought to be blessed in order to make known that it was in love that they had laid hold of each other. Then the angel blessed him to show that he was not angry that an earthly being had prevailed over him.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/32/29",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51bfd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Why He represses Jacob's curiosity, (Haydock) perhaps because God did not as yet choose to reveal his name, Exodus vi. 3. Some Greek and Latin copies add, which is wonderful, taken from Judges xiii. 6, 18. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/32/29",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc19a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 32:29",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LK 17:13",
+  "verse_text": "Verse text for LK 17:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/17/13",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And they lifted up their voices. They cried out aloud, because they stood afar off. The voice was one and proceeded from all, \"Jesus, Master,\" have mercy on us, and free us from this heavy and incurable disease. Master here does not so much mean teacher as Lord, one who directs his servants and tells them his wishes. The Greek is ÎµÌ‰Ï€Î¯ÏƒÏ„Î±Ï„Î±, that is Præfect—Præses; one whose right it is to rule and command: for they do not ask Christ to teach them, and give them precepts of virtue, but to command the leprosy and cause it to depart from them. So the Hebrew, Rabbi, means not only master but also Lord, and Mighty, and One of the first rank. Moreover, S. Luke everywhere calls Christ ÎµÌ‰Ï€Î¯ÏƒÏ„Î±Ï„Î±, as is seen Luke 5:5, Luke 8:24, Luke 8:45, Luke 9:33, Luke 9:49; S. also, Matthew 8:25, Matthew 17:4, and elsewhere, has ÎºÏÎ¶Î¹Îµ, that is Lord. So the Gauls, Germans, and Belgians call their masters Lords, Domini, mon maistre, mein meister.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/17/13",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52055",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 17:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

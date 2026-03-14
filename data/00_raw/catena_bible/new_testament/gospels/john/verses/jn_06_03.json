@@ -1,0 +1,36 @@
+{
+  "verse_reference": "JN 6:3",
+  "verse_text": "Verse text for JN 6:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/jn/6/3",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "He saith unto Philippians , &c. Observe, this was the order of what was done. Christ beholding from the mountain the crowd which followed Him, came down to them and received them kindly, taught them, and healed their sick until the eventide. The evening being at hand, His disciples asked Christ to dismiss the multitude, and refresh Himself with food. But Christ bade them first feed the hungry throngs. This, they said, was impossible, because200 denarii worth of bread would not suffice for so many. By and by Christ proposed the same thing to Philippians , probably because he had been most anxious in asking Christ to dismiss the multitude. Philip gave the same answer as the others with regard to the quantity of bread that would be required.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jn/6/3",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e5217f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JN 6:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

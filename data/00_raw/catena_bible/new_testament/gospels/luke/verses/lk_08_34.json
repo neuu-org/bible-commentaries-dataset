@@ -1,0 +1,58 @@
+{
+  "verse_reference": "LK 8:34",
+  "verse_text": "Verse text for LK 8:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/8/34",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "When they that fed them saw what was done they fled (lest they also should perish. Titus), and went and told it in the city and in the country. To the owners, in order that they might demand redress from Christ, who had given the swine up to the power of the devils, and not blame those who were in charge of the herd for their loss.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/8/34",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51f76",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "We may also learn this from what befell the herd of swine. Wicked demons are cruel, mischievous, hurtful and treacherous to those who are in their power. The fact clearly proves this, because they hurried the swine over a precipice and drowned them in the waters. Christ granted their request that we might learn from what happened that their disposition is ruthless, bestial, incapable of being softened, and solely intent on doing evil to those whom they can get into their power. If there is anyone among us who is wanton, swinish, filth loving, impure and willingly contaminated with the abominations of sin, God permits such a one to fall into their power and sink into the abyss of damnation. It will never happen that those who love Christ will become subject to them. It will never happen to us as long as we walk in his footsteps, avoid negligence in the performance of what is right, desire those things which are honorable, and belong to that virtuous and praiseworthy lifestyle that Christ has marked out for us by the precepts of the gospel. Commentary on Luke, Homily.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/34",
+      "full_content_url": "https://catenabible.com/com/585b6d619ac03ecd4b8e7419",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "When those who had been feeding the swine fled into the city, it became an opportunity for salvation for the Gadarenes, but they did not understand. They ought to have marvelled at the Saviour's power and believed in Him. The Evangelist says that they besought Him to depart from them, instead of calling upon Him in supplication. They did this out of fear of suffering another loss like that of the swine. But the man who had been healed shows indisputable proof of his healing. That he had been healed in his mind is shown by the fact that he now both recognizes Jesus and begs His permission to be with Him. For he was afraid, it would seem, that the demons would again easily assault him when he was separated from Jesus. But the Lord shows him that even if he is not with Jesus, the Lord's grace can shelter him from demonic attack. The Lord says to him, Return to thine own house, and tell what great things God hath done unto thee. By not saying, \"what great things I have done unto thee,\" the Lord gives us an example of humility and teaches us that we should attribute all our accomplishments to God. But though the Lord had commanded him to tell what things God had done for him, he told instead what things Jesus had done for him, so great was his gratitude. Therefore when you do something good for someone, do not desire it to become public knowledge; but he who is the beneficiary of that good deed ought to be moved by gratitude to tell it to others, even though you do not want him to do so.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lk/8/34",
+      "full_content_url": "https://catenabible.com/com/57eb0d50b0d44ee10cfac230",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 8:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

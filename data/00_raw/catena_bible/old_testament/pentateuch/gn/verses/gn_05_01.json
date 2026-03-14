@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 5:1",
+  "verse_text": "Verse text for GN 5:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/5/1",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "The reason for this break in the narrative [in the description of the genealogies to the flood] was, I take it, that the writer, as though bidden by God, was unwilling to have the beginning of world chronology reckoned from the earthly city (that is, from the generation of Cain), and so he deliberately went back to Adam for a new beginning. If we ask why this return to recapitulate was made immediately after mentioning Seth’s son, the man who hoped to call upon the name of the Lord God, the answer must be that this was the proper way to present the two cities. The one begins and ends with a murderer, for Lamech, too, as he admitted to his two wives, was a murderer. The other city begins with the man who hoped to call upon the name of the Lord God, for the invocation of God is the whole and the highest preoccupation of the city of God during its pilgrimage in this world. It is symbolized in the one “man” (Enosh) born of the “resurrection” (Seth) of the man who was slain (Abel). That one man in fact is a symbol of the unity of the whole heavenly city, which is not yet in the fullness that it is destined to reach and which is adumbrated in this prophetic figure.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/gn/5/1",
+      "full_content_url": "https://catenabible.com/com/5838d595205c248f42e51956",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 5:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

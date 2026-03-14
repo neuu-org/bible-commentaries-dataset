@@ -1,0 +1,69 @@
+{
+  "verse_reference": "1TIM 6:1",
+  "verse_text": "Verse text for 1TIM 6:1",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1tm/6/1",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ignatius of Antioch",
+      "period": "AD108",
+      "content": "Give no occasion to the Gentiles, lest \"by means of a few foolish men the word and doctrine",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/6/1",
+      "full_content_url": "https://catenabible.com/com/5735dfe4ec4bd7c9723bab22",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Let as many servants as are under the yoke count their own masters worthy of all honor, that the name of God and his doctrine be not blasphemed. Those who have believing masters must not be disrespectful on the ground that they are brothers. Rather they must serve all the better since those who benefit by their service are believers and beloved. In the epistles to the Ephesians and Colossians he commands the same. So it is obvious that Paul’s intention is not to abolish slavery as a social institution. Rather, he attacks slavery in its worst form, the slavery to evil, which pays no respect to any external freedom.",
+      "commentary_number": "2/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1tm/6/1",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e63fb",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Let them count them worthy of all honor, he says; for do not suppose, because you are a believer, that you are therefore a free man: since your freedom is to serve the more faithfully. For if the unbeliever sees slaves conducting themselves insolently on account of their faith, he will blaspheme, as if the Doctrine produced insubordination. But when he sees them obedient, he will be more inclined to believe, and will the rather attend to our words. But God, and the Gospel we preach, will be blasphemed, if they are disobedient. But what if their own master be an unbeliever? Even in that case they ought to submit, for God's Name's sake.",
+      "commentary_number": "3/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1tm/6/1",
+      "full_content_url": "https://catenabible.com/com/575f0fd63c6effa740ddde28",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "But as to servants, what can we say more than that the servant should bring a good will to his master, with the fear of God, although his master be impious and wicked, but yet not yield any compliance as to his worship? And let the master love his servant, although he is his supervisor. Let him reflect on the fact that each shares equally in the other’s humanity. And let one who has a believing master love him both as his master, and as of the same faith, and as a father, but still with the preservation of his authority as his master…. In like manner, let a master who has a believing servant love him as a son or as a brother, on account of their communion in the faith, but still preserving the difference of a servant.",
+      "commentary_number": "4/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1tm/6/1",
+      "full_content_url": "https://catenabible.com/com/584e28f79ac03ecd4b8e63fc",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1TIM 6:1",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

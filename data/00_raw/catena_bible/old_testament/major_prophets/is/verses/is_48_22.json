@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 48:22",
+  "verse_text": "Verse text for IS 48:22",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/48/22",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh There is no peace, says the LORD, unto the wicked. Cyril of Alexandria No one found that this happened when they came out of Babylon and went into Judah. For this is said with reference to the economy of salvation so as to show that God, who was formerly able and is still now able, being of undiminished power, to perform similar miracles with great strength, now, as if calling out, proclaims a universal law, that “there is no peace for the wicked.",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/48/22",
+      "full_content_url": "https://catenabible.com/com/5e88f339b1c7280cb341d173",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Peace. Septuagint, \"rejoicing \"or prosperity for the Chaldeans or wicked Jews, ver. 18. (Calmet)\nIt is promised only to the penitent. (Worthington)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/48/22",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beb25",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "Some say that so we might know that this prophecy is not about Christ but about Cyrus, the phrase is added, “there is no peace for the ungodly, says the Lord. ” This would mean that there will be no perfect happiness except under Christ, which is reserved for the last times. Yet those who more truly and rightly apply these words to the advent of the Savior, about whom it is said, “He has sent me to announce to the poor, to preach liberty to the captives,” understand it to be an encouragement of those who preach the gospel or of the Lord and Savior, that we leave Babylon, that is, the confusion of this world, and flee the Babylonians. … For the Lord has redeemed his servant Jacob with his most precious blood and led him through the desert and made a way for water to come out of a rock, about which the apostle said, “The Rock was Christ. ” … And lest it be thought that the prophecy is said about all the seed of Jacob, and not those only who would believe through the apostles, mention is also made concerning this: “there is no peace for the ungodly.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/48/22",
+      "full_content_url": "https://catenabible.com/com/5e88f339b1c7280cb341d174",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 48:22",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

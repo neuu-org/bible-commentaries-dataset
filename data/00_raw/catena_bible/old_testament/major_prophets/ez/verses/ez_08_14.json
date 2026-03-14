@@ -1,0 +1,36 @@
+{
+  "verse_reference": "EZ 8:14",
+  "verse_text": "Verse text for EZ 8:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ez/8/14",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Adonis, the favourite of Venus, slain by a wild boar, as feigned by the heathen poets, and which being here represented by an idol, is lamented by the female worshippers of that goddess. In Hebrew the name is Tammuz, (Challoner) which means \"concealed \"as Adonis signifies \"my lord. \"This idol, which the Egyptians called Osiris, was placed in a coffin, and bewailed till it was pretended he was come to life, when rejoicings took place. Obscene pictures were carried about; and the more honest pagans were ashamed of these practices, which began in Egypt, and became almost general. Moses alludes to them, Leviticus xix. 27., and Deuteronomy xiv. 1. (Calmet)\nDavid and Solomon say that the image was made of brass, with eyes of lead, which seemed to weep, melting when it was hot. (Worthington)\nBut this is destitute of proof.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ez/8/14",
+      "full_content_url": "https://catenabible.com/com/5735e272ec4bd7c9723bf02e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured EZ 8:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

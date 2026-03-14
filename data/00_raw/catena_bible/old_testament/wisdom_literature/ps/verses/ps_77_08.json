@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 77:8",
+  "verse_text": "Verse text for PS 77:8",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/77/8",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "And thou hast found what. \"God will not repel for everlasting\" (ver. Weariness he had found in this life; in no place a trustworthy, in no place a fearless comfort. Unto whatsoever men he betook himself, in them he found scandal, or feared it. In no place therefore was he free from care. An evil thing it was for him to hold his peace, lest perchance he should keep silence from good words; to speak and babble without was painful to him, lest all his enemies, anticipating watches, should seek slanders in his words. Being exceedingly straitened in this life, he thought much of another life, where there is not this trial. And when is he to arrive thither. For it cannot but be evident that our suffering here is the anger of God. This thing is spoken of in Isaiah, \"I will not be an avenger unto you for everlasting, nor will I be angry with you at all times. Will this anger of God always abide. This man hath not found this in silence. For he saith what. \"God will not repel for everlasting, and He will not add any more that it should be well-pleasing to Him still. \" That is, that it should be well-pleasing to Him still to repel, and He will not add the repelling for everlasting. He must needs recall to Himself His servants, He must needs receive fugitives returning to the Lord, He must needs hearken to the voice of them that are in fetters. \"Or unto the end will He cut off mercy from generation to generation.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/77/8",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c25",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Is his mercy ceased forever. does his promise fail forevermore. Hebrew adds, \"is his word ineffectual. \"which the Vatican Septuagint neglects, (Berthier) though gamar omer be thus rendered in other editions. \"Has he completely fulfilled his word \"which may be the true sense, consumabitur verbum. Jerome) (Haydock) \"Will he execute this threat from generation. \"(Calmet) God will never abandon his Church, (Worthington) though he may chastise his people.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/77/8",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be1d5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 77:8",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

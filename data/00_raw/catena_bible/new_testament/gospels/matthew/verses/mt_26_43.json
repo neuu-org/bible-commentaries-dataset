@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 26:43",
+  "verse_text": "Verse text for MT 26:43",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/26/43",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For besides that it was late at night, their eyes also were weighed down by their despondency. And the third time He went and spoke the same thing, establishing the fact, that He was become man. For the second and third time is in the Scriptures especially indicative of truth; like as Joseph also said to Pharaoh, Did the dream appear to you the second time? For truth was this done, and that you might be assured that this shall surely be. Genesis 41:32 Therefore He too once, and twice, and three times spoke the same thing, for the sake of proving the incarnation.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/26/43",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac5de",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": ". When you hear that the Lord Himself prayed many times, learn, O man, that you ought to pray continuously when beset by temptations. When Jesus found them sleeping again, He did not rebuke them lest He grieve them, but He let them be. And He left them and prayed for the third time, thus confirming His human nature. For the number three signifies both truth and confirmation.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/26/43",
+      "full_content_url": "https://catenabible.com/com/58a5ce5154b4f95416b2f7b4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 26:43",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

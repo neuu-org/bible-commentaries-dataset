@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 143:3",
+  "verse_text": "Verse text for PS 143:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/143/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"For the enemy hath persecuted my soul: he hath humbled my life on the earth\" (ver. Here we speak, here our Head speaketh for us. Manifestly both the devil persecuted the Soul of Christ and Judas the Soul of his Master: and now too the same devil remaineth to persecute the Body of Christ, and one Judas succeedeth another. There lacketh not then of whom the Body too may say, \"For the enemy hath persecuted my soul. \" For what doth each one who persecuteth us endeavour save to make us abandon our heavenly hope, and savour of the earth, yield to our persecutor, and love earthly things. \"They have laid me in dark places, as the dead of the world. \" This ye hear more readily from the Head; this ye perceive more readily in the Head. For He died indeed for us, yet was He not one of the \"dead of the world. \" For who are the \"dead of the world\". And how was not He one of the \"dead of the world\". \"The dead of the world\" are those who have died of their own desert, receiving the reward of iniquity, deriving death from the sin transmissed to them; according as it is said, \"For I was conceived in iniquity. In dying, saith He, I do the will of My Father, but I am not deserving of death. Nought have I done wherefore I should die, yet is it Mine own doing that I die, that by the death of an innocent One, they may be freed who had wherefore they should die. \"They set me in places,\" as though in Hades, as though in the tomb, as though in His very Passion, \"as the dead of the world.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/143/3",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e678d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of old. Literally, \"of an age \"(Haydock) who are quite forgotten, Lamentations iii. 6. (Calmet)\nThe devil had violently tempted me, by means of temporal and spiritual calamities. (Worthington)\nThe greatest darkness is that of the heart, Ephesians iv. 17. (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/143/3",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be50d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 143:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

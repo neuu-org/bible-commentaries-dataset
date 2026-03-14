@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1SM 9:12",
+  "verse_text": "Verse text for 1SM 9:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/1sm/9/12",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "The high place: Excelsum. The excelsa, or high places, so often mentioned in scripture, were places of worship, in which were altars for sacrifice. These were sometimes employed in the service of the true God, as in the present case: but more frequently in the service of idols; and were called excelsa, which is commonly (though perhaps not so accurately) rendered high places; not because they were always upon hills, for the very worst of all, which was that of Topheth, or Geennom, (Jer. 19.) was in a valley; but because of the high altars, and pillars, or monuments, erected there, on which were set up the idols, or images of their deities.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1sm/9/12",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0f8",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And they answered them, and said, He is; behold, he is before you: make haste now, for he came today to the city; for there is a sacrifice of the people today in the high place: A sacrifice: The law did not allow of sacrifices in any other place, but at the tabernacle, or temple, in which the ark of the covenant was kept; but Samuel, by divine dispensation, offered sacrifices in other places. For which dispensation this reason may be alleged, that the house of God in Silo, having lost the ark, was now cast off; as a figure of the reprobation of the Jews, Ps. And in Cariathiarim where the ark was, there was neither tabernacle, nor altar.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1sm/9/12",
+      "full_content_url": "https://catenabible.com/com/587e51f854b4f95416b2f0f7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1SM 9:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

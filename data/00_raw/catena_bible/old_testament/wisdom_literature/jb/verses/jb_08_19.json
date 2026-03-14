@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 8:19",
+  "verse_text": "Verse text for JB 8:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/8/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Joy. Septuagint, \"the catastrophe of the wicked, for another shall spring \"Haydock)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/8/19",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdbb9",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "86. As though it were in plain words, ‘When the Judge cometh, he is not acknowledged, but receives punishment a thousand fold, because he rejoiced in his wickedness more amply in proportion as he spread evil among others also.’ For he that is not satisfied with being wicked himself here, must be tormented There with the due of the guilt of others also. Now then let the hypocrites rejoice, and triumph to have gotten the suffrages of their fellow-creatures. Let the simplicity of good men be looked down upon, and be called foolishness by the craft of the double-dealing. Speedily doth the contempt of the single-minded pass, speedily the glorying of the double-dealing run to an end.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/jb/8/19",
+      "full_content_url": "https://catenabible.com/com/57421a163c6effa740ddcf5b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 8:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

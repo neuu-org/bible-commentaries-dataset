@@ -1,0 +1,47 @@
+{
+  "verse_reference": "HOS 2:16",
+  "verse_text": "Verse text for HOS 2:16",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/hos/2/16",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And it shall be at that day, says the LORD, that you shall call me Ishi; and shall call me no more Baali. In Hebrew Ishi. Baali: my lord. The meaning of this verse is: that, whereas, Ishi and Baali were used indifferently in those days by wives speaking to their husbands, the synagogue, whom God was pleased to consider as his spouse, should call him only Ishi, and abstain from the name of Baali, because of his affinity with the name of the idol Baal. (Challoner) The very name shall become obsolete.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/2/16",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf347",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Richard Challoner",
+      "period": "AD1781",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And it shall be at that day, says the LORD, that you shall call me Ishi; and shall call me no more Baali. My husband: In Hebrew, Ishi. Baali, my lord. The meaning of this verse is: that whereas Ishi and Baali were used indifferently in those days by wives speaking to their husbands; the synagogue, whom God was pleased to consider as his spouse, should call him only Ishi, and abstain from the name of Baali, because of its affinity with the idol Baal.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/hos/2/16",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f4c7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured HOS 2:16",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

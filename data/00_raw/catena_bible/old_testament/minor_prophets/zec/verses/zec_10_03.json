@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ZEC 10:3",
+  "verse_text": "Verse text for ZEC 10:3",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/zec/10/3",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh My anger was kindled against the shepherds, and I punished the leaders: for the LORD of hosts has visited his flock, the house of Judah, and has made them as his royal horse in the battle. Goats; the leaders of the people, Jeremias l. (Calmet) Vir gregis ipse caper. (Virgil, Ec. ) Jason died in exile, Lysimachus was slain in the temple, Alcimus perished miserably, and Menelaus was hurled among ashes, 2 Machabees v. , and 1 Machabees ix. The apostates have suffered: God will not abandon his flock, but raises up Mathathias.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/zec/10/3",
+      "full_content_url": "https://catenabible.com/com/5735e2b0ec4bd7c9723bf5e0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "Observe, you who are our beloved sons, how merciful yet righteous the Lord our God is, how gracious and kind to humankind. And yet most certainly “he will not acquit the guilty,” though he welcomes returning sinners and revives them, leaving no room for suspicion to such as wish to judge sternly and to reject offenders entirely, and to refuse to grant them exhortations which might bring them to repentance. In contradiction to such, God by Isaiah says to the bishops, “Comfort you, comfort you my people, you priests; speak comfortably to Jerusalem. ” It therefore behooves you, upon hearing those words of his, to encourage those who have offended, and lead them to repentance, and afford them hope, and not vainly to suppose that you shall be partakers of their offenses on account of such your love to them. Receive the penitent with alacrity and rejoice over them, and with mercy and bowels of compassion judge the sinners. For if a person was walking by the side of a river and ready to stumble, and you should push him and thrust him into the river instead of offering him your hand for his assistance, you would be guilty of the murder of your brother…. You ought rather to lend your helping hand as he was ready to fall, lest he perish without remedy, that both the people may take warning and the offender may not utterly perish. It is your duty, O bishop, neither to overlook the sins of the people nor to reject those who are penitent, that you may not unskillfully destroy the Lord’s flock or dishonor his new name which is stamped upon his people, and you yourself be reproached as those ancient pastors were, of whom God speaks thus to Jeremiah: “Many shepherds have destroyed my vineyard; they have polluted my heritage. ” And in another passage, “My anger is waxed hot against the shepherds, and against the lambs shall I have indignation.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/zec/10/3",
+      "full_content_url": "https://catenabible.com/com/5838db40205c248f42e52b98",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ZEC 10:3",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

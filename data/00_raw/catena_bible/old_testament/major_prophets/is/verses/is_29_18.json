@@ -1,0 +1,36 @@
+{
+  "verse_reference": "IS 29:18",
+  "verse_text": "Verse text for IS 29:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/29/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Bede",
+      "period": "AD735",
+      "content": "Neither was heaven created in any six-day period and the stars illuminated and the dry land separated from the water and the trees and vegetation planted. Rather, Scripture customarily uses “day” to denote an unspecified period of time, as the apostle did when he said, “Behold, this is the day of salvation.” He was not referring to a particular day but to the entirety of the time of the present life in which we labor for eternal salvation. The prophet also spoke not of one specific day but of numerous moments of divine grace, saying, “In that day, the deaf will hear the words of this book.” Moreover, it is difficult to understand how in one day God made heaven and earth and all the brush of the field and every plant of every region, unless we say that all creatures were created simultaneously in formless matter, according to which it is written: “He who lives forever created all things together.”",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/29/18",
+      "full_content_url": "https://catenabible.com/com/5e4f7fb2c849cf49a740e419",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 29:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

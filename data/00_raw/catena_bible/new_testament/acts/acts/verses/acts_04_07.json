@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 4:7",
+  "verse_text": "Verse text for ACTS 4:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/4/7",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "By what authority? Is it by your own authority, or that of some other, you have healed this lame man? They wished to know if it was a true miracle, or the effects of some secret magic or enchantment. The knowledge of this kind of affairs belonged to them. It was their duty to repress the attempts of false prophets, seducers, and magicians. But they might easily discover that the apostles were far removed from any thing of this kind. The simple narration of the fact was enough to acquit them. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/7",
+      "full_content_url": "https://catenabible.com/com/5735e338ec4bd7c9723bfd4a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Interlinear Gloss",
+      "period": "AD1480",
+      "content": "And yet they knew it well; for it was because they were “grieved that they preached through Jesus the resurrection” that they arrested them. Then for what purpose do they question them? They expected the numbers present would make them recant, and thought by this means to have put all right again.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/4/7",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabdac",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 4:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

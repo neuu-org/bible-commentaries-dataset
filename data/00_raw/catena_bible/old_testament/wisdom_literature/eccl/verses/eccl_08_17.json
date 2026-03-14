@@ -1,0 +1,36 @@
+{
+  "verse_reference": "ECCL 8:17",
+  "verse_text": "Verse text for ECCL 8:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/eccl/8/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Then I beheld all the work of God, that a man cannot find out the work that is done under the sun: because though a man labors to seek it out, yet he shall not find it; yea moreover; though a wise man thinks to know it, yet shall he not be able to find it. We know in general that God does all for his own glory, and for the welfare of his elect. But we cannot account for his treatment of mankind in particular cases, Romans xi. Jerome) (Calmet) Say. Septuagint, \"speak what thing soever, that he may know he \"(Haydock).",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/eccl/8/17",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723be821",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ECCL 8:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

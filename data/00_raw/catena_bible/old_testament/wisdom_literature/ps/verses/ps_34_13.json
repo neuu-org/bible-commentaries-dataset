@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 34:13",
+  "verse_text": "Verse text for PS 34:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/34/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Let not a Christian then murmur, let him see whose steps he followeth: but if he loveth good days, let him hearken unto Him teaching and saying, \"Come, ye children, hearken unto Me; I will teach you the fear of the Lord. \" What wouldest thou. Life and good days. Hear, and do. \"Keep thy tongue from evil\" (ver. I will not, saith a miserable man, I will not keep my tongue from evil, and yet I desire life and good days. If a workman of thine should say to thee, I indeed lay waste this vineyard, yet I require of thee my reward; thou broughtest me to the vineyard to lop and prune it, I cut away all the useful wood, I will cut short also the very trunks of the vines, that thou have thereon nothing to gather, and when I have done this, thou shall repay to me my labour. Wouldest thou not call him mad. Wouldest thou not drive him from thy house or ever he put his hand to the knife. Such are those men who would both do evil, and swear falsely, and speak blasphemy against God, and murmur, and defraud, and be drunken, and dispute, and commit adultery, and use charms, and consult diviners, and withal see good days. To such it is said, thou canst not doing ill seek a good reward. If thou art unjust, shall God also be unjust. What shall I do, then. What desirest thou. Life I desire, good days I desire. \"Keep thy tongue from evil, and thy lips that they speak no guile,\" that is, defraud not any, lie not to any.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/34/13",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e696d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Guile. He very properly begins with regulating the tongue, as this member may prove very dangerous, Proverbs xviii. 21., and James iii. 5. By detraction, it wounds three people; and it causes no less evil by flattery. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/34/13",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdfad",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 34:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

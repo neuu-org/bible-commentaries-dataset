@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 2:26",
+  "verse_text": "Verse text for DN 2:26",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/2/26",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh The king answered and said to Daniel, whose name was Belteshazzar, are you able to make known unto me the dream which I have seen, and its interpretation. In framing his inquiry he adheres to logical sequence, so that he (p. 502) first asks for the dream, of which the magi had replied they were ignorant, and afterwards he asks for the interpretation of the dream. The implication is that after he has heard the dream, then he would believe also in the correctness of what was susceptible of varying interpretations.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/2/26",
+      "full_content_url": "https://catenabible.com/com/5743db763c6effa740ddd288",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 2:26",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

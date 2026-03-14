@@ -1,0 +1,47 @@
+{
+  "verse_reference": "IS 33:2",
+  "verse_text": "Verse text for IS 33:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/33/2",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Morning. Speedily. Hebrew, \"mornings \"or every day. Ezechias thus addresses God.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/33/2",
+      "full_content_url": "https://catenabible.com/com/5735e257ec4bd7c9723bea68",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh O LORD, be gracious unto us; we have waited for you: be their arm every morning, our salvation also in the time of trouble. The master of the church has many names: being called the Father, the way, the life, the light, the arm, the propitiation, the foundation, the door, the sinless one, the treasure, Lord, God, Son, the only begotten, the form of God, the image of God. So it is with the church itself. Does one name suffice to present the whole truth. By no means. But for this reason there are countless names, that we may learn something concerning God, though it is but a small part.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/33/2",
+      "full_content_url": "https://catenabible.com/com/5e4f7fbcc849cf49a740e442",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 33:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

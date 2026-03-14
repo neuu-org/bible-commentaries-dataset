@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 24:10",
+  "verse_text": "Verse text for PS 24:10",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/24/10",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "10. \"Who is this King of glory?\" What! dost thou too, prince of the power of this air, marvel and ask, \"Who is this King of glory?\" \"The Lord of powers, He is the King of glory\" (ver. 10). Yea, His Body now quickened, He who was tempted marches above thee; He who was tempted by the angel, the deceiver, goes above all angels. Let none of you put himself before us and stop our way, that he may be worshipped as a god by us: neither principality, nor angel, nor power, separateth us from the love of Christ. It is good to trust in the Lord, rather than to trust in a prince; that he who glorieth, should glory in the Lord. These indeed are powers in the administration of this world, but \"the Lord of powers, He is the King of glory.\"",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/24/10",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e68d0",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Hosts of all heavenly powers, (Worthington) and the arbiter of war. (Haydock)\nBoth Jews and foreigners were convinced that God granted victory to his people, if they had not forfeited his favour by their crimes, as in the case of Achan, and of the sons of Heli, Josue vii., and 1 Kings iv., and Judith v. 24. The title of Lord of hosts, was very applicable to Christ after his victory. (Calmet)\nGlory. St. Jerome adds, \"for ever \"thus frequently sela seems to form a part of the sentence though it be neglected by the Vulgate (Haydock)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/24/10",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf21",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 24:10",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

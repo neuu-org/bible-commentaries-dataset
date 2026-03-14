@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 49:7",
+  "verse_text": "Verse text for PS 49:7",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/49/7",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "There are some who rely on their friends, others rely on their virtue, others on their riches. This is the presumption of mankind which relieth not on God. He hath spoken of virtue, he hath spoken of riches, he speaketh of friends. \"Brother redeemeth not, shall man redeem. Dost thou expect that man shall redeem thee from the wrath to come. If brother redeem thee not, shall man redeem thee. Who is the brother, who if He hath not redeemed thee, no man will redeem. It is He who said after His resurrection, \"Go, tell My brethren. \" Our Brother He hath willed to be: and when we say to God, \"Our Father,\" this is manifested in us. For he that saith to God, \"Our Father;\" saith to Christ, \"Brother. \" Therefore let him that hath God for his Father and Christ for his Brother, not fear in the evil day. \"For the iniquity of his heel shall not compass him;\" for he relieth not on his virtue, nor glorieth in the abundance of his riches, nor vaunteth himself of his powerful friends. Let him rely on Him who died for him, that he might not die eternally: who for his sake was humbled, in order that he might be exalted; who sought him ungodly, in order that He might be sought by him faithful. Therefore if He redeem not, shall man redeem. Shall any man redeem, if the Son of man redeem not. If Christ redeem not, shall Adam redeem.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/49/7",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6a6d",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 49:7",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

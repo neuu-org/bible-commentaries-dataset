@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 119:74",
+  "verse_text": "Verse text for PS 119:74",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/119/74",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"They that fear Thee,\" he saith, \"will see me, and be glad\" (ver. 74): or, as other copies have it, \"will be joyful: because I have hoped in Thy word:\" that is, in the things which Thou hast promised, that they may be the sons of promise, the seed of Abraham, in whom all nations are blessed. Who are they who fear God, and whom will they see and be glad, because he hath put his trust in the word of God. Whether it be the body of Christ, that is, the Church, whose words these are through Christ, or within it, and concerning it, these are as it were the words of Christ concerning Himself; are not they themselves among those who fear God. The same persons, who see the Church and are glad, are the Church. But why said he not, They who fear Thee see me, and are glad: whereas he hath written, \"fear Thee,\" in the present tense; while the verbs \"shall see,\" and shall \"be glad,\" are futures. Is it because in the present state there is fear, as long as \"man's life is a temptation upon earth;\" but the gladness which he desired to be understood, will be then, when \"the righteous shall shine in the kingdom of their Father like the sun.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/119/74",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6647",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "See me advance in virtue. (Worthington)\nThe angels rejoice at the conversion of a sinner, (Luke xv. 10.) as the Church does at her children's progress. (St. Jerome)\nAll the just will be glad to see me delivered. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/119/74",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be419",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 119:74",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

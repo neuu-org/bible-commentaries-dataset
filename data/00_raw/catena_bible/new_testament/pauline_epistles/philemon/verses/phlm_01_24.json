@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PHLM 1:24",
+  "verse_text": "Verse text for PHLM 1:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/phlm/1/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "Paul bears witness that all these share in his glory.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/phlm/1/24",
+      "full_content_url": "https://catenabible.com/com/576218ce9fd295934bf1205e",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Why then does he put Luke last? And yet he elsewhere says, Only Luke is with me 2 Timothy 4:11, and Demas, he says, was one of those who forsook him, having loved the present world. 2 Timothy 4:10 All these things, although they are mentioned elsewhere, yet nevertheless ought not to be passed over here without enquiry, nor ought we merely to hear them as things of course. But how comes he to say that he who forsook him salutes them? For Erastus, he says, abode at Corinth. 2 Timothy 4:20 He adds Epaphras, both as known to them, and being of their country. And Mark, as being himself also an admirable man. Why then does he number Demas with these? Perhaps it was after this that he became more remiss, when he saw the dangers multiplied. But Luke being last became first. And from these indeed he salutes him, urging him the more to obedience, and calls them his fellow-laborers, and in this way shames him into granting the request.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/phlm/1/24",
+      "full_content_url": "https://catenabible.com/com/57eb0ef1b0d44ee10cfac71d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PHLM 1:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

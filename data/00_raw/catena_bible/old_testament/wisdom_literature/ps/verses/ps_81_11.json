@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 81:11",
+  "verse_text": "Verse text for PS 81:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/81/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "15. \"And My people obeyed not My voice\" (ver. 11). For He would not speak these things except to His own people. For, \"we know that whatsoever things the Law saith, it saith to them that are in the Law.\" \"And Israel did not listen to Me.\" Who? To whom? Israel to Me. O ungrateful soul! Through Me the soul, by Me the soul called, by Me brought back to hope, by Me washed from sins! \"And Israel did not listen to Me!\" For they are baptized and pass through the Red Sea: but on the way they murmur, gainsay, complain, are stirred with seditions, ungrateful to Him who delivered them from pursuing enemies, who leads through the dry land, through the desert, yet with food and drink, with light by night and shade by day.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/81/11",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6c7b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 81:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

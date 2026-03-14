@@ -1,0 +1,47 @@
+{
+  "verse_reference": "GN 25:30",
+  "verse_text": "Verse text for GN 25:30",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/25/30",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And Esau said to Jacob, Feed me, I pray you, with that same red pottage; for I am faint: therefore was his name called Edom. Augustine of Hippo Let frugality be joined to fasting. Just as overeating is to be censured, so stimulants of the appetite must be eliminated. It is not that certain kinds of food are to be detested but that bodily pleasure is to be checked. Esau was censured not for having desired a fat calf or plump birds but for having coveted a dish of lentils.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/25/30",
+      "full_content_url": "https://catenabible.com/com/5838d64c205c248f42e51b58",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Give me Hebrew, \"make me devour this red \"which denotes, the very red quality of the pottage, and the greediness of Esau. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/25/30",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc119",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 25:30",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

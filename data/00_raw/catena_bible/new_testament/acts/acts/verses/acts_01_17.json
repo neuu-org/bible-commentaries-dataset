@@ -1,0 +1,47 @@
+{
+  "verse_reference": "ACTS 1:17",
+  "verse_text": "Verse text for ACTS 1:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/acts/1/17",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "God is no respecter of persons. Even Saul and Judas had been good at one time. How could someone who was not good have a share in the Savior's ministry? In the plan of God it was decided that we would be considered worthy for the time for which he was chosen. It is no wonder that these men were considered good, because all nature is good and no substance is evil, but rather transgression, which arises from the will.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/acts/1/17",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabd15",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "Therefore, since Judas was one of the twelve, it seems that he was chosen. I answer that one can be chosen in two ways. One is for a present righteousness; and Judas was chosen for this. The other is for final glory; and Judas was not chosen for this. Our Lord chose Judas, whom he knew would become an evil person, so that we could realize that there would be no human society which does not have some evil members: We can also understand from this that if a bishop receives someone into the Church, and this person becomes bad, the bishop should not be blamed.",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/acts/1/17",
+      "full_content_url": "https://catenabible.com/com/57eb0c54b0d44ee10cfabcff",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured ACTS 1:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

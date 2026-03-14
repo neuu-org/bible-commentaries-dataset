@@ -1,0 +1,58 @@
+{
+  "verse_reference": "IS 41:19",
+  "verse_text": "Verse text for IS 41:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/is/41/19",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cyril of Alexandria",
+      "period": "AD444",
+      "content": "The water was not life-giving. For they were not able to satisfy those who longed for truth from their teachings. Their tongues remained parched from thirst. But I will hear them, says the God of Israel, and I will not abandon them. For he had mercy on the mass of those who strayed and did not leave them without gifts from above, but rather he gave to them in fullness, and this in such a way as is finely described in the verses that follow.… The desert and the land short of water is the region of the Gentiles. The desert that will run dry and barren of any flowering growth, meaning spiritual growth, is the way of shriveling, where the wild trees are those useful only for burning in fire. The water allows the nations to bear fruit. To those who were once thirsty he says, “I will make rivers flow on the mountains,” that is, holy people who are enriched by the divine word from above and pour out like flowing streams to the thirsty.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/41/19",
+      "full_content_url": "https://catenabible.com/com/5e88f28db1c7280cb341d05c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "The thorn. In Hebrew, the shitta or setim, a tree resembling the whitethorn. (Challoner) (St. Jerome)\nA fragrant shade shall speedily rise up, Baruch v. 6. (Calmet)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/is/41/19",
+      "full_content_url": "https://catenabible.com/com/5735e264ec4bd7c9723beabf",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Jerome",
+      "period": "AD420",
+      "content": "All these [types of trees] are equally placed in solitude, lest even one chord from the harp of the Lord and any virtue of the graces of the church seem to be missing. They are planted in the desert so that all might understand and recognize with a common mind that the hand of the Lord has accomplished all these things, so that in the desert of the nations there came rivers of virtues and in a land once a desert and full of salty water the cedar and cypress and other trees may grow, whose height and stature rush to the skies. The olive tree is the same tree that supplies both light and relaxation after working.",
+      "commentary_number": "3/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/is/41/19",
+      "full_content_url": "https://catenabible.com/com/5e88f28db1c7280cb341d05b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured IS 41:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1JN 4:14",
+  "verse_text": "Verse text for 1JN 4:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/1jn/4/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "Set your minds at rest, you that are sick: such a Physician has come, and do ye despair? Great were the diseases, incurable were the wounds, desperate was the sickness. Do you note the greatness of your ill, and not note the omnipotence of the Physician? You are desperate, but He is omnipotent; Whose witnesses are these that first were healed, and that announce the Physician: yet even they are made whole in hope rather than in the reality. For so says the apostle: For by hope we are saved. hope, not the reality. But he that rejoices in hope shall hold the reality also: whereas he that has not the hope, shall not be able to attain unto the reality.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1jn/4/14",
+      "full_content_url": "https://catenabible.com/com/574f800e3c6effa740ddd707",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "And we have seen and do testify, &c. These words have reference to the9th verse, where he saith that God hath shown His love to us by sending His Son. This he now proves and confirms by his own testimony, and that of the other Apostles. For they were the eye and ear witnesses, who saw, heard, and conversed with Christ Incarnate, as he said in the beginning of the Epistle.\nThis is an allusion to S. John\"s Gospel ( John 3:17). \"For God sent not His Son into the world to judge the world, but that through Him the world might be saved.\" Whence S. Bernard saith (de amor Dei, c8), \"Christ Himself is our Love, by whom we attain to Thee, by whom we embrace Thee: for how otherwise, 0 incomprehensible Majesty, couldest Thou appear comprehensible to the soul that loveth Thee? For although no understanding of any soul or spirit can comprehend Thee, yet the love of the loving soul comprehends Thee wholly as thou art.\"",
+      "commentary_number": "2/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/1jn/4/14",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e526ca",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1JN 4:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

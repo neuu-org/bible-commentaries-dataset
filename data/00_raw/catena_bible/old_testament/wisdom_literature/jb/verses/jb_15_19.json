@@ -1,0 +1,47 @@
+{
+  "verse_reference": "JB 15:19",
+  "verse_text": "Verse text for JB 15:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/jb/15/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Them. Their antiquity, courage, and purity of morals must consequently be greater, as they have preserved themselves from the inroads of strangers. (Calmet)",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/15/19",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bdc3a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Gregory The Dialogist",
+      "period": "AD604",
+      "content": "All arrogant persons have this characteristic that when they have a right notion, though the thing is little, they wrest it to serve their pride. By the same act from understanding they attempt to raise themselves higher. From swollen pride they fall into the pit of self-exalting and account themselves better instructed than the learned. They exact respect for themselves from their superiors and stand upon it to teach as with authority those who are holier people. Hence it is now said, “I will demonstrate; listen to me.”",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/jb/15/19",
+      "full_content_url": "https://catenabible.com/com/5e1b5f908bc66721fe4ef64c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured JB 15:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

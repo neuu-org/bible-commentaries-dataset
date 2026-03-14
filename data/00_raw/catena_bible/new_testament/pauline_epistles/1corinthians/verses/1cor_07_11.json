@@ -1,0 +1,47 @@
+{
+  "verse_reference": "1COR 7:11",
+  "verse_text": "Verse text for 1COR 7:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/1cor/7/11",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrosiaster",
+      "period": "AD400",
+      "content": "1 Corinthians 7:11 But if she depart, let her remain unmarried, or be reconciled to her husband: and let not the husband put away his wife. A woman may not marry if she has left her husband because of fornication or apostasy, if he wishes to have sexual relations with her. But if the husband turns away from the faith or desires to have extramarital sexual relations, the wife may neither marry another nor return to him. The husband should not divorce his wife, but one should add the clause “except for fornication. ” Commentary on Paul’s Epistles.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/7/11",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5c8c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Separations are best avoided if at all possible, but if not, the wife should not take another husband.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/1cor/7/11",
+      "full_content_url": "https://catenabible.com/com/584c89a09ac03ecd4b8e5c8d",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 1COR 7:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

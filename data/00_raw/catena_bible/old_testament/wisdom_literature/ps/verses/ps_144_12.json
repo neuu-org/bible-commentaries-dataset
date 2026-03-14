@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 144:12",
+  "verse_text": "Verse text for PS 144:12",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/144/12",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Whose. Hebrew, \"our. \"This makes quite a different sense from the ancient versions, which refer what follows to the rebels, who had no cause to complain of David's government, ver. 14. (Calmet)\nSt. Jerome, however, agrees with the Hebrew, \"that our sons may be \"Protestants asher means \"whose (ver. 11.) and that. \"(Haydock)\nIf we supply, they said, the text and versions will give the same sense, (Genebrard; Berthier) as it is inserted ver. 15. (Haydock)\nDecked. Hebrew, \"our daughters, like corner-stones cut like a temple \"(Montanus) or \"palace. \"(Protestants)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/144/12",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be520",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 144:12",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

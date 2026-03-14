@@ -1,0 +1,36 @@
+{
+  "verse_reference": "PS 68:25",
+  "verse_text": "Verse text for PS 68:25",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/68/25",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "31. But in order that those steps might be seen, \"there went before princes conjoined with men psalming, in the midst of damsels players on timbrels\" (ver. 25). The princes are the Apostles: for they went before, that the peoples might come in multitudes. \"They went before\" proclaiming the New Testament: \"conjoined with men psalming,\" by whose good works that were even visible, as it were with instruments of praise, God was glorified. But those same princes are \"in the midst of damsels players on timbrels,\" to wit, in an honourable ministry: for thus in the midst are ministers set over new Churches; for this is \"damsels:\" with flesh subdued praising God; for this is \"players on timbrels,\" because timbrels are made of skin dried and stretched.",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/68/25",
+      "full_content_url": "https://catenabible.com/com/5851ccc09ac03ecd4b8e6b82",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 68:25",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

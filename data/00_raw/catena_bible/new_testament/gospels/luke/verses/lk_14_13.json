@@ -1,0 +1,47 @@
+{
+  "verse_reference": "LK 14:13",
+  "verse_text": "Verse text for LK 14:13",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/lk/14/13",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "But when thou makest a feast, call the poor, the maimed, the lame, the blind. \"The maimed,\" Î±Ì‰Î½Î±Ï€Î®Î¶Î¿Ï…Ï‚, the cripple, the mutilated, i. those wanting in body or mind. Chrysostom assigns the reason. \"If ye invite the poor, God will be your debtor. For the humbler the brother Isaiah , so much the more does Christ come through him and visit us. For he who entertains a great man does it often from an interested motive or from vainglory. But thou sayest, the poor man is unclean and filthy. Wash him and make him sit with thee at table. If he has dirty garments, give him clean ones. If thou will not receive him in a quiet chamber, at least admit him where thy servants are. If thou art not willing that he should sit at meat with thee, send him a dish from thy table. \" Following this counsel, S. Gregory had often twelve beggars at his table, and therefore was rewarded by receiving Christ. Himself in the guise of a poor man. Louis of France also, not content with entertaining120 beggars at his table daily, and on feast days200 , frequently waited upon them himself, and even washed their feet. In like manner acted S. Louis the Minorite, Bishop of Toulouse, following the example of his uncle S. Hedwig, Duchess of Poland, and her niece S. Elizabeth, the daughter of Andrew king of Hungary, who fed900 poor every day, receiving a rich reward in divine favour and grace. Origen says, \"He who shuns vainglory calls to a spiritual banquet the poor, that Isaiah , the ignorant, that he may enrich them; the weak, that Isaiah , those with offended consciences, that he may heal them; the lame, that Isaiah , those who have wandered from reason, that he may make their paths straight; the blind, that they may discern the truth.",
+      "commentary_number": "1/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/lk/14/13",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e52008",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "If any determine to invite eider women to an entertainment of love, or a feast, as our Saviour calls it,",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lk/14/13",
+      "full_content_url": "https://catenabible.com/com/5735e140ec4bd7c9723bbe41",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LK 14:13",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

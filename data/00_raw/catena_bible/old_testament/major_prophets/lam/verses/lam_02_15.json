@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LAM 2:15",
+  "verse_text": "Verse text for LAM 2:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lam/2/15",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "The wonders of seeing are here exposed. First, as to seeing friends, second as to enemies. There: \"All your enemies rail against you; they hiss, they gnash their teeth, they cry: 'We have destroyed her'\" (Verse 16).\n\nRegarding friends their compassion is expressed by four signs. First, by the clap of hands: \"all who pass along the way clap their hands at you.\" Namely, along the way upon the earth, seeing the earth's vastness.\n\nThen,\"they hiss\" by a movement of their head. And,\"wag their heads at the daughter of Jerusalem\".\n\nThen so, by word: \"Is this the city which was called the perfection of beauty, the joy of all the earth?\"\n\nBecause, in both spiritualities and temporalities (Jerusalem) was: \"the joy of all the earth\". For peoples assembled there in solemnities. And Psalm 48(47):2 declares: \"beautiful in elevation is the joy of all the earth, Mount Zion, in the far north, the city of the great king.\"",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/lam/2/15",
+      "full_content_url": "https://catenabible.com/com/58632f40dd1bb6dd3dba9d8b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LAM 2:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

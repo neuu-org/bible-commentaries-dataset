@@ -1,0 +1,36 @@
+{
+  "verse_reference": "GN 50:19",
+  "verse_text": "Verse text for GN 50:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/gn/50/19",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Resist Hebrew, \"Am I not subject to God; or, Am I a God \"to oppose his will. Septuagint, \"I belong to the Lord. \"You see that your designs against me have turned to our mutual advantage. Can I, therefore, think of punishing you? Repent, and obtain pardon of God: I certainly forgive you. (Haydock)\nThus God drew good out of the evil, in which he had no share. (St. Augustine, City of God xiv. 27; St. Chrysostom, hom. 67.)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/gn/50/19",
+      "full_content_url": "https://catenabible.com/com/5735e14dec4bd7c9723bc2ab",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured GN 50:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

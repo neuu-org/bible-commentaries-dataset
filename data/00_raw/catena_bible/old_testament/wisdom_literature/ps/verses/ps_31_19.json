@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 31:19",
+  "verse_text": "Verse text for PS 31:19",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/31/19",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "\"How great\" is \"the multitude of Thy sweetness, O Lord\" (ver. Here the Prophet exclaims, having sight of all this, and admiring how manifoldly plenteous is Thy sweetness, O Lord. \"Which Thou hast hid for them that fear Thee. \" Even those, whom Thou correctest, Thou lovest much: but lest they should go on negligently from relaxed security, Thou hidest from them the sweetness of Thy love, for whom it is profitable to fear Thee. \"Thou hast perfected it for them that hope in Thee. \" But Thou hast perfected this sweetness for them that hope in Thee. For Thou dost not withdraw from them what they look for perseveringly even unto the end. \"In sight of the sons of men. \" For it does not escape the notice of the sons of men, who now live no more after Adam, but after the Son of Man. \"Thou wilt hide them in the hidden place of Thy Countenance:\" which seat Thou shalt preserve for everlasting in the hidden place of the knowledge of Thee for them that hope in Thee. \"From the troubling of men. \" So that now they suffer no more trouble from men.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/31/19",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6939",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Men. Thou comfortest thy servants internally, and often manifestest thy protection. (Haydock)\nThis thou wilt do when it is expedient, though the reward of the just in this life is generally hidden. They are, nevertheless, in great esteem with thee. (Worthington)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/31/19",
+      "full_content_url": "https://catenabible.com/com/5735e1d2ec4bd7c9723bdf82",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 31:19",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

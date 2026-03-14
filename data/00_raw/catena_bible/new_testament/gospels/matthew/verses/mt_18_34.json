@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 18:34",
+  "verse_text": "Verse text for MT 18:34",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/18/34",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "For He delivered him over till he should pay that which was due, that is, for ever; for he will never repay. For since you are not become better by the kindness shown you, it remains that by vengeance thou be corrected.\n\nAnd yet, The graces and the gifts are without repentance, but wickedness has had such power as to set aside even this law. What then can be a more grievous thing than to be revengeful, when it appears to overthrow such and so great a gift of God.\n\nAnd he did not merely deliver him, but was angry. For when he commanded him to be sold, his were not the words of wrath (therefore neither did he do it), but a very great occasion for benevolence; but now the sentence is of much indignation, and vengeance, and punishment.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mt/18/34",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac4dd",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "And his lord was angry, and delivered him to the jailers, till he should pay all that was due unto him. Theophylact of Ochrid. The master in his love for mankind takes issue with the servant, to show that it is not the master, but the savagery and the ingratitude of the servant that has revoked the gift. To what tormentors does he deliver him. To the punitive powers for eternal punishment. For the meaning of \"till he should pay all his debt\" is this: \"let him be punished till that he should pay all that was due. \" But he will never be able to pay his debt, and therefore his punishment will never end.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/18/34",
+      "full_content_url": "https://catenabible.com/com/58a5ce5154b4f95416b2f73f",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 18:34",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

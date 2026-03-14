@@ -1,0 +1,69 @@
+{
+  "verse_reference": "PRV 13:24",
+  "verse_text": "Verse text for PRV 13:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/prv/13/24",
+  "commentary_status": "available",
+  "total_commentaries": 4,
+  "full_content_fetched": 4,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "The correction of the father who does not spare the rod is useful, that he may render his son’s soul obedient to the precepts of salvation. He punishes with a rod, as we read, “I shall punish their offenses with a rod.”",
+      "commentary_number": "1/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/13/24",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c84a4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "“He that spares the rod hates his son.” For, give us a person who with right faith and true understanding can say with all the energy of his heart, “My soul thirsts for God, for the living God: when shall I come and appear before God?” For such a person there is no need of the terror of hell, to say nothing of temporal punishments or imperial laws, seeing that with him it is so indispensable a blessing to cleave to the Lord that he not only dreads being parted from that happiness as a heavy punishment but can scarcely even bear delay in its attainment. But yet, before the good sons can say they have “a desire to depart, and to be with Christ,” many must first be recalled to their Lord by the stripes of temporal scourging, like evil servants, and in some degree like goodfornothing fugitives.",
+      "commentary_number": "2/4",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/prv/13/24",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c84a5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Betimes. God has always treated his friends in this manner, to preserve them from sin, or to increase their reward. (Calmet)",
+      "commentary_number": "3/4",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/prv/13/24",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be63b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "The Apostolic Constitutions",
+      "period": "AD375",
+      "content": "You fathers, educate your children in the Lord, bringing them up in the nurture and admonition of the Lord, and teach them such trades as are agreeable and suitable to the Lord, lest they by such opportunity become extravagant and continue without punishment from their parents, and so become slack before their time and go astray from that which is good. Therefore do not be afraid to reprove them and to teach them wisdom with severity. For your corrections will not kill them but rather preserve them. … [Thus Solomon says,] “He that spares his rod hates his son,” and afterwards, “Beat his sides while he is an infant, lest he be hardened and disobey you. ” He, therefore, who neglects to admonish and instruct his own son, hates his own child. Teach, therefore, your children the word of the Lord. Bring them under with cutting stripes, and make them subject from infancy, teaching them the holy Scriptures, which are Christian and divine, and delivering to them every sacred writing, “not giving them such liberty that they get the mastery” and act against your opinion. Do not permit them to club together with peer groups. For so they will be turned to disorderly ways and will fall into fornication. And if this happens by the carelessness of their parents, those who gave them birth will be guilty of their souls. For if the offending children get into the company of debauched persons by the negligence of those who gave them life, they will not be punished alone by themselves, but their parents also will be condemned on their account. For this cause, endeavor at the time when they are of an age fit for marriage, to join them in wedlock and settle them together, lest in the heat and fervor of their age their course of life become dissolute and you be required to give an account by the Lord God in the day of judgment.",
+      "commentary_number": "4/4",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/prv/13/24",
+      "full_content_url": "https://catenabible.com/com/5939857985a0ed853b0c84a2",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PRV 13:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

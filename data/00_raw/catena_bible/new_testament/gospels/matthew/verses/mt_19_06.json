@@ -1,0 +1,47 @@
+{
+  "verse_reference": "MT 19:6",
+  "verse_text": "Verse text for MT 19:6",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mt/19/6",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "Therefore they are no more two, but one flesh. What therefore God has joined together, let not man put asunder. And see how He says, He which made them at the beginning, made them male and female, that is, from one root they sprung, and into one body came they together, for the two shall be one flesh. After this, to make it a fearful thing to find fault with this lawgiving, and to confirm the law, He said not, Sever not therefore, nor put asunder, but, What God has joined together, let not man put asunder.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mt/19/6",
+      "full_content_url": "https://catenabible.com/com/57eb0db6b0d44ee10cfac4e4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "Theophylact of Ochrid",
+      "period": "AD1107",
+      "content": "O what mindlessness. They thought they would confound Christ by their questions, for if He said it was lawful to divorce one’s wife for any reason, they would say to Him, \"Why then did you say, Let not a man divorce his wife unless only she be an adulteress. But if He said it was not lawful for a man to divorce his wife they would slander Him as a lawgiver at variance with Moses. For Moses had decreed that if a man hated his wife he should divorce her even without reasonable cause (Deut. What then does Christ say. He shows that monogamy is the work and law of Him Who created us at the beginning. For at the beginning, He says, God joined together one man and one woman. So it is not right that one man should be joined to many women, or one woman to many men. But as they were joined together at the beginning, so they should remain, not sundering the marital union without good cause. Jesus did not say, \"It is I Who made them male and female,\" not wanting to vex the Pharisees; but He phrased it more indefinitely, \"He Who made them. \" The goodness of wedded union is of such importance to God that He even permitted women to leave their parents and to cleave to their husbands. But why is it written in Genesis (Gen. 2:24) that Adam said, \"Therefore shall a man leave his father and his mother,\" while here Christ says that it was God Who said, \"For this cause shall a man leave father and mother. \" We say, therefore, that what Adam spoke, he spoke from God, so that the speech of Adam is of God. Therefore, since they have become one flesh, joined together by means of marital relations and physical affection, just as it is accursed to cut one’s own flesh, so is it accursed to separate husband and wife. He did not say, \"Let not Moses put asunder,\" so as not to scandalize them, but simply \"Let not man,\" showing the gap between God Who joins together and man who dissolves.",
+      "commentary_number": "2/2",
+      "reading_time": "2 mins",
+      "source_url": "https://catenabible.com/mt/19/6",
+      "full_content_url": "https://catenabible.com/com/58a5ce5154b4f95416b2f742",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MT 19:6",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

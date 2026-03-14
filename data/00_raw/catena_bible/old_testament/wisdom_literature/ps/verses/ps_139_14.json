@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 139:14",
+  "verse_text": "Verse text for PS 139:14",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/ps/139/14",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "14. \"I will confess to Thee, O Lord, for terribly hast Thou been made wonderful: wondrous are Thy works, and my soul knoweth it right well\" (ver. 14). Aforetime \"Thy knowledge was made wonderful from me, it had waxed great, nor could I attain unto it.\" From me then \"it had waxed great.\" Whence doth \"my soul\" now \"know right well,\" save because the \"night is light in my delight?\" save because Thy grace hath come unto me, and enlightened my darkness? save because Thou hast possessed my reins? save because Thou hast taken me up from my mother's womb?",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/139/14",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6758",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Magnified. Chaldean and St. Jerome, \"hast magnified me. \"Hebrew seems less correct, \"I have been terribly magnified \"though the sense is much the same. (Berthier)\nI have been stricken with awe and astonishment at thy works. (Calmet)",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/139/14",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be4e6",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 139:14",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

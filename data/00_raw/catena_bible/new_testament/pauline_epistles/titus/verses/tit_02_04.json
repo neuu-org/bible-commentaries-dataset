@@ -1,0 +1,58 @@
+{
+  "verse_reference": "TIT 2:4",
+  "verse_text": "Verse text for TIT 2:4",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/ti/2/4",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Love their husbands. This is the first lesson he wishes to be given to young women; that they should always manifest a love, an attachment, respect and obedience to their husbands. But it must be a chaste love. Vult eas amare viros suos castè; vult inter virum et mulierem esse pudicam dilectionem. (St. Jerome)",
+      "commentary_number": "1/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/4",
+      "full_content_url": "https://catenabible.com/com/5735e34eec4bd7c9723c0286",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "That they may teach the young women to be sober. Observe how he binds the people together, how he subjects the younger women to the elder. For he is not speaking there of daughters, but merely in respect of age. Let each of the elder women, he means, teach any one that is younger to be sober. To love their husbands. This is the chief point of all that is good in a household, A man and his wife that agree together. Sirach 25:1 For where this exists, there will be nothing that is unpleasant. For where the head is in harmony with the body, and there is no disagreement between them, how shall not all the other members be at peace. For when the rulers are at peace, who is there to divide and break up concord. As on the other hand, where these are ill disposed to each other, there will be no good order in the house. This then is a point of the highest importance, and of more consequence than wealth, or rank, or power, or anything else. Nor has he said merely to be at peace, but to love their husbands. For where love is, no discord will find admittance, far from it, other advantages too spring up. To love their children. This is well added, since she who loves the root, will much more love the fruit.",
+      "commentary_number": "2/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ti/2/4",
+      "full_content_url": "https://catenabible.com/com/576210d59fd295934bf12016",
+      "content_type": "full",
+      "extraction_method": "firecrawl"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "This is the chief point of all that is good in a household: “that a man and his wife agree together.” For where this exists, there will be nothing that is unpleasant. For where the head is in harmony with the body and there is no disagreement between them, how shall not all the other members be at peace?.",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ti/2/4",
+      "full_content_url": "https://catenabible.com/com/583bbc53205c248f42e530e5",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured TIT 2:4",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

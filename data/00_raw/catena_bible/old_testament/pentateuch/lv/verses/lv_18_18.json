@@ -1,0 +1,36 @@
+{
+  "verse_reference": "LV 18:18",
+  "verse_text": "Verse text for LV 18:18",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/lv/18/18",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Rival her, (in pellicatum). Hebrew and Chaldean, \"to trouble her. \"After the death of one sister, it seems, another might be taken. Jacob had two at once. Some think that polygamy is here forbidden. But the law seems to have tolerated it; and only condemns many, or too great a number, with respect to the king, Deuteronomy xvii. 17. The impediments specified in this chapter may be comprised in these four verses: Nata, soror, neptis, matertera, fratrisuxor, Et patrui conjux, mater, privigna, noverca, Uxorisque soror, privigni nata, nurusque, Atque soror patris, conjungi lege vetantur. (Calmet)",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/lv/18/18",
+      "full_content_url": "https://catenabible.com/com/5735e15aec4bd7c9723bc60b",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured LV 18:18",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

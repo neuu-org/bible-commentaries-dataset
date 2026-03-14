@@ -1,0 +1,36 @@
+{
+  "verse_reference": "DN 4:2",
+  "verse_text": "Verse text for DN 4:2",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-18",
+  "source_url": "https://catenabible.com/dn/4/2",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "Thomas Aquinas",
+      "period": "AD1274",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh I thought it good to show the signs and wonders that the most high God has worked for me. If certain things are divinely represented to any man by means of imaginary likenesses, as happened to Nabuchodonosor, such a man is not to be considered a prophet, unless his mind be enlightened for the purpose of judgment; and such an apparition is something imperfect in the genus of prophecy. Wherefore some have called this \"prophetic ecstasy,\" and such is divination by dreams.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dn/4/2",
+      "full_content_url": "https://catenabible.com/com/589c8d9e54b4f95416b2f45c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DN 4:2",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

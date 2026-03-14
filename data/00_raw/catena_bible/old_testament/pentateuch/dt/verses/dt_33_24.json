@@ -1,0 +1,47 @@
+{
+  "verse_reference": "DT 33:24",
+  "verse_text": "Verse text for DT 33:24",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/dt/33/24",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Ambrose of Milan",
+      "period": "AD397",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And of Asher he said, Let Asher be blessed with children; let him be acceptable to his brethren, and let him dip his foot in oil. Ambrose of Milan With this oil the church anoints the necks of its children so that they might take up the yoke of Christ. With this oil it anointed the martyrs so that it might wash them clean of worldly filth. With this oil it anointed the confessors so that they might not cease to labor nor succumb to fatigue and so that they might not be overcome by the commotion of this world. For that reason it anointed them, so that spiritual oil might refresh them.",
+      "commentary_number": "1/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/33/24",
+      "full_content_url": "https://catenabible.com/com/5838dae5205c248f42e52ab4",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh And of Asher he said, Let Asher be blessed with children; let him be acceptable to his brethren, and let him dip his foot in oil. He alludes to the name of Aser, which has this signification. (Haydock) This tribe had been upon the increase in the desert, (Calmet) and now comprised 53,000 warriors. (Haydock) The province of Galilee, where Aser dwelt, was one of the most fertile of all Chanaan, and noted for abundance of oil, Genesis xlix. (Josephus, Jewish Wars iii. ) (Calmet) Oil. So Job (xxix. 6,) says, When I washed my feet with butter. (Menochius).",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/dt/33/24",
+      "full_content_url": "https://catenabible.com/com/5735e167ec4bd7c9723bcb1c",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured DT 33:24",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

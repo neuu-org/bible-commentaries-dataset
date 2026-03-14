@@ -1,0 +1,36 @@
+{
+  "verse_reference": "2SM 23:11",
+  "verse_text": "Verse text for 2SM 23:11",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/2sm/23/11",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Troop. Hebrew Lachaya, has been much controverted: but it appears to be the name of Lechi, or Lehi, \"the jaw-bone \"(Josephus and Septuagint Complut.) so memorable for the exploit of Samson. (Bo chart, Anim. p. 1. B. ii. 15.)\nVulgate literally, in statione, \"in a station. \"Some copies of the Septuagint, \"against wild beasts \"\"To hunt wild beasts \"Syriac and Arabic. But it is most probably the name of a place. (Calmet)\nLentils. (1 Paralipomenon) Barley seems more correct, as the field could not be full of both at the same time; (Haydock) and barley is of more general utility. (Kennicott)\nYet some would assert, that there was barley in one part and lentils in the other. (Buxtorf)",
+      "commentary_number": "1/1",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/2sm/23/11",
+      "full_content_url": "https://catenabible.com/com/5735e1a2ec4bd7c9723bd1ed",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured 2SM 23:11",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

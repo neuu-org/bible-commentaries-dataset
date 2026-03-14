@@ -1,0 +1,58 @@
+{
+  "verse_reference": "MK 8:15",
+  "verse_text": "Verse text for MK 8:15",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-11",
+  "source_url": "https://catenabible.com/mk/8/15",
+  "commentary_status": "available",
+  "total_commentaries": 3,
+  "full_content_fetched": 3,
+  "commentaries": [
+    {
+      "author": "Cornelius a Lapide",
+      "period": "AD1637",
+      "content": "Beware of the leaven of the Pharisees and of the leaven of Herod. The leaven is the doctrine of the Pharisees, by which they taught children to say to their parents corban, as well as other things contrary to the law of God. The leaven of Herod is the doctrine of the Sadducees, for with them Christ had had His most recent controversy, as appears from Matt. xvi1-12. For Herod, as well as many of the principal people at that time, were Sadducees (see Jos. xviii. c2). They denied the immortality of the soul, and lived as Atheists. So Herod lived in adultery, killed John , and committed many other crimes, having no fear of God. For although he thought that John had risen again in Christ, yet that opinion did not arise, out of faith, but was wrung out of him by fear. Others, with Origen and S. Jerome, understand by leaven the sect of the Herodians, who flattered Herod, saying that he was the Messiah. But that referred to Herod of Ascalon, not Herod Antipas, as I have shown on Matt. xxii16.",
+      "commentary_number": "1/3",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/mk/8/15",
+      "full_content_url": "https://catenabible.com/com/5838d8f6205c248f42e51e7a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Of the leaven of Herod. In St. Matthew chap. xvi. ver. 6, we read of the leaven of the Pharisees and Sadducees: we may conclude that Christ named all of them. (Witham)",
+      "commentary_number": "2/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/8/15",
+      "full_content_url": "https://catenabible.com/com/5735e2caec4bd7c9723bf951",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "John Chrysostom",
+      "period": "AD407",
+      "content": "It was not to learn faith that they [the Pharisees] sought him, but to seize him. Gospel of St. Matthew, Homily",
+      "commentary_number": "3/3",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/mk/8/15",
+      "full_content_url": "https://catenabible.com/com/5838fee5205c248f42e52da7",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured MK 8:15",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

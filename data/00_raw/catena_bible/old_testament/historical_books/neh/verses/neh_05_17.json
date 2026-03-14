@@ -1,0 +1,36 @@
+{
+  "verse_reference": "NEH 5:17",
+  "verse_text": "Verse text for NEH 5:17",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2026-03-13",
+  "source_url": "https://catenabible.com/neh/5/17",
+  "commentary_status": "available",
+  "total_commentaries": 1,
+  "full_content_fetched": 1,
+  "commentaries": [
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "1 Esdras Wisdom of Solomon Wisdom of Sirach Epistle of Jeremiah Prayer of Manasseh Moreover there were at my table a hundred and fifty of the Jews and rulers, besides those that came unto us from among the nations that are about us. Men, my brethren, not (Calmet) Persians. (Grotius) Them; ambassadors. (Menochius) If Nehemias behaved with such generosity for twelve years, he must have been very rich; or he received a great pension from the king, or voluntary and abundant contributions from the rich.",
+      "commentary_number": "1/1",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/neh/5/17",
+      "full_content_url": "https://catenabible.com/com/5735e1d1ec4bd7c9723bda0a",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured NEH 5:17",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

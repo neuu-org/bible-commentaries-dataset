@@ -1,0 +1,47 @@
+{
+  "verse_reference": "PS 105:40",
+  "verse_text": "Verse text for PS 105:40",
+  "scraped_with": "Hybrid approach (Firecrawl + BeautifulSoup)",
+  "extraction_date": "2025-09-17",
+  "source_url": "https://catenabible.com/ps/105/40",
+  "commentary_status": "available",
+  "total_commentaries": 2,
+  "full_content_fetched": 2,
+  "commentaries": [
+    {
+      "author": "Augustine of Hippo",
+      "period": "AD430",
+      "content": "30. \"They asked, and the quail came\" (ver. 40). They did not desire quails, but flesh. But since the quail is flesh, and in this Psalm he speaketh not of the provocation of those who did not please God, but of the faith of the elect, the true seed of Abraham; they are to be understood to have desired that that might come which might crush the murmurs of those who provoked. Then in the next line, \"And He filled them with the bread of heaven,\" he has not indeed named manna, but it is obscure to none who hath read those records.",
+      "commentary_number": "1/2",
+      "reading_time": "1 min",
+      "source_url": "https://catenabible.com/ps/105/40",
+      "full_content_url": "https://catenabible.com/com/5851ccbf9ac03ecd4b8e6561",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    },
+    {
+      "author": "George Leo Haydock",
+      "period": "AD1849",
+      "content": "Asked. Chaldean and ancient psalters add, \"for meat. \"Hebrew, \"he (Moses or all the people) asked, and the quail came \"at Sin, Exodus xvi. 13.",
+      "commentary_number": "2/2",
+      "reading_time": "< 1 min",
+      "source_url": "https://catenabible.com/ps/105/40",
+      "full_content_url": "https://catenabible.com/com/5735e1f5ec4bd7c9723be363",
+      "content_type": "full",
+      "extraction_method": "beautifulsoup"
+    }
+  ],
+  "methodology": {
+    "step_1": "Parse main page with BeautifulSoup for structure",
+    "step_2": "Extract metadata (author, period, reading time)",
+    "step_3": "Use Firecrawl to get full content from 'Go to Commentary' links",
+    "step_4": "Fallback to BeautifulSoup for accordion content if needed",
+    "result": "Successfully captured PS 105:40",
+    "advantages": [
+      "Complete commentary content via Firecrawl",
+      "Structured metadata extraction",
+      "Robust fallback mechanisms",
+      "Records verses even without commentaries for complete tracking"
+    ]
+  }
+}

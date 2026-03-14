@@ -31,25 +31,35 @@ This dataset provides verse-level commentaries from the Church Fathers and histo
 ```
 bible-commentaries-dataset/
 ├── data/
-│   ├── 00_raw_archive/           # LOCAL ONLY (not tracked by git)
-│   │   └── PROVENANCE.json       # Integrity checksums and source metadata
+│   ├── 00_raw_archive/              # LOCAL ONLY (not tracked by git)
+│   │   └── PROVENANCE.json          # Integrity checksums and source metadata
 │   │
-│   ├── 01_original/              # Canonical normalized verse files
-│   │   └── catena_bible/
-│   │       ├── old_testament/    # pentateuch, historical, wisdom, prophets...
-│   │       └── new_testament/    # gospels, acts, pauline, general, apocalyptic
+│   ├── 01_original/                 # Canonical normalized verse files
+│   │   ├── catena_bible/
+│   │   │   ├── old_testament/       # 23,320 files across 6 categories
+│   │   │   └── new_testament/       # 7,898 files across 5 categories
+│   │   ├── manifest.json            # Full inventory (path, verse_ref, commentary count)
+│   │   └── schema.json              # JSON Schema definition for verse files
 │   │
-│   ├── 02_translated_enriched/   # AI-translated (PT-BR) + structured enrichment
-│   │   └── new_testament/
-│   │       ├── acts/             # 865 files (85.9% of Acts)
-│   │       └── gospels/john/     # 14 files (1.6% of John)
+│   ├── 02_translated_enriched/      # AI-translated (PT-BR) + structured enrichment
+│   │   ├── new_testament/
+│   │   │   ├── acts/ (865 files)
+│   │   │   └── gospels/john/ (14 files)
+│   │   └── enrichment_config.json   # Model, prompts, coverage stats, costs
 │   │
-│   ├── glossary/                 # Theological glossary EN-PT (23 base terms)
-│   └── metadata/                 # Author profiles (60+ Church Fathers)
+│   ├── glossary/                    # Theological glossary EN-PT (23 base terms)
+│   └── metadata/
+│       ├── church-fathers-authors.json  # 60+ author profiles
+│       ├── biblical-authors.json
+│       ├── modern-authors.json
+│       └── book_canon.json          # 66 book abbreviation mappings
 │
 └── scripts/
-    ├── scrape_catena_bible.py    # How the raw data was extracted
-    └── translate_and_enrich.py   # Unified translation + AI enrichment pipeline
+    ├── scrape_catena_bible.py       # How the raw data was extracted
+    ├── translate_and_enrich.py      # Unified translation + AI enrichment pipeline
+    ├── validate_schema.py           # Validate verse files against schema
+    ├── generate_manifest.py         # Generate manifest.json for any layer
+    └── gap_audit.py                 # Compare two layers to find missing files
 ```
 
 ## Data Layers

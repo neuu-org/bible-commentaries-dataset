@@ -1,0 +1,30 @@
+# Raw archive is kept LOCAL ONLY as immutable backup
+# The normalized data in 01_original/ is the canonical version
+data/00_raw_archive/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+*.tmp
+*.bak

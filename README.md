@@ -56,7 +56,8 @@ bible-commentaries-dataset/
 │
 └── scripts/
     ├── scrape_catena_bible.py       # How the raw data was extracted
-    ├── translate_and_enrich.py      # Unified translation + AI enrichment pipeline
+    ├── translate.py                 # EN -> PT-BR translation (01 -> 02)
+    ├── enrich.py                    # AI structured analysis (requires translation first)
     ├── validate_schema.py           # Validate verse files against schema
     ├── generate_manifest.py         # Generate manifest.json for any layer
     └── gap_audit.py                 # Compare two layers to find missing files
@@ -146,26 +147,35 @@ Rich author profiles for 60+ Church Fathers including:
 
 Hybrid web scraper (Firecrawl + BeautifulSoup) that extracts verse-level commentaries from CatenaBible.com. Includes retry logic, deduplication, and progress checkpointing.
 
-### `translate_and_enrich.py`
+### `translate.py`
 
-Unified pipeline that translates commentaries EN→PT-BR and generates structured AI enrichment in a single pass.
+Translates commentaries from English to Brazilian Portuguese. Reads from `01_original/`, writes to `02_translated_enriched/`. Only adds `content_en`, `content_pt`, and `translation_metadata`.
 
 ```bash
-# Translate + enrich a full book
-python scripts/translate_and_enrich.py \
-    --testament new_testament --book john
+# Translate a full book
+python scripts/translate.py --testament new_testament --book john
 
 # Test with limit
-python scripts/translate_and_enrich.py \
-    --testament new_testament --book john --max-files 10 --turbo
+python scripts/translate.py --testament new_testament --book john --max-files 10
+```
 
-# Translation only
-python scripts/translate_and_enrich.py \
-    --testament new_testament --book john --only-translate
+### `enrich.py`
 
-# Enrichment only (assumes content_pt exists)
-python scripts/translate_and_enrich.py \
-    --testament new_testament --book john --only-enrich
+Adds AI-structured analysis to already-translated commentaries. Reads and writes `02_translated_enriched/`. Requires `content_pt` to exist (run translate.py first).
+
+```bash
+# Enrich a book (after translation)
+python scripts/enrich.py --testament new_testament --book john
+
+# Use a more capable model for higher quality
+python scripts/enrich.py --testament new_testament --book john --model gpt-4o
+```
+
+### Pipeline workflow
+
+```
+Step 1 (cheap, priority):   translate.py   01_original → 02_translated_enriched (adds content_pt)
+Step 2 (costly, selective): enrich.py      02_translated_enriched → 02_translated_enriched (adds AI analysis)
 ```
 
 **Requirements:** `openai`, `python-dotenv`, `tqdm`

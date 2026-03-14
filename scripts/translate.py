@@ -65,6 +65,7 @@ PRICES_PER_MILLION = {
 }
 
 REPO_ROOT = Path(__file__).parent.parent
+# translate reads from CLEANED data, not raw originals
 LOG_DIR = REPO_ROOT / "logs"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -209,7 +210,7 @@ class Translator:
         self.stats["files"] += 1
 
     def discover_files(self, testament: str, book: str, max_files: int = 0) -> list:
-        base = REPO_ROOT / "data" / "01_original" / "catena_bible" / testament
+        base = REPO_ROOT / "data" / "01_cleaned" / "catena_bible" / testament
         files = []
         for p in sorted(base.rglob("verses/*.json")):
             if f"/{book.lower()}/" in str(p).lower().replace("\\", "/"):
@@ -220,7 +221,7 @@ class Translator:
 
     def map_output(self, input_path: Path) -> Path:
         s = str(input_path)
-        rel = s.split("01_original", 1)[1]
+        rel = s.split("01_cleaned", 1)[1]
         rel = rel.replace("catena_bible/", "").replace("catena_bible\\", "")
         return REPO_ROOT / "data" / "02_translated_enriched" / rel.lstrip("/\\")
 

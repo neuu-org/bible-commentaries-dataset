@@ -34,30 +34,24 @@ bible-commentaries-dataset/
 │   ├── 00_raw_archive/              # LOCAL ONLY (not tracked by git)
 │   │   └── PROVENANCE.json          # Integrity checksums and source metadata
 │   │
-│   ├── 01_original/                 # Canonical normalized verse files
+│   ├── 01_original/                 # Raw verse files as scraped (untouched)
 │   │   ├── catena_bible/
 │   │   │   ├── old_testament/       # 23,320 files across 6 categories
 │   │   │   └── new_testament/       # 7,898 files across 5 categories
-│   │   ├── manifest.json            # Full inventory (path, verse_ref, commentary count)
-│   │   └── schema.json              # JSON Schema definition for verse files
+│   │   ├── manifest.json            # Full inventory with commentary counts
+│   │   └── schema.json              # JSON Schema for verse files
+│   │
+│   ├── 01_cleaned/                  # Cleaned via ftfy (encoding fixed, metadata stripped)
+│   │   └── catena_bible/            # Same structure, lean JSON
 │   │
 │   ├── 02_translated_enriched/      # AI-translated (PT-BR) + structured enrichment
-│   │   ├── new_testament/
-│   │   │   ├── acts/ (865 files)
-│   │   │   └── gospels/john/ (14 files)
-│   │   └── enrichment_config.json   # Model, prompts, coverage stats, costs
+│   │   └── enrichment_config.json   # Model, prompts, coverage stats
 │   │
-│   ├── glossary/                    # Theological glossary EN-PT (23 base terms)
-│   └── metadata/
-│       ├── church-fathers-authors.json  # 60+ author profiles
-│       ├── biblical-authors.json
-│       ├── modern-authors.json
-│       └── book_canon.json          # 66 book abbreviation mappings
-│
 └── scripts/
     ├── scrape_catena_bible.py       # How the raw data was extracted
-    ├── translate.py                 # EN -> PT-BR translation (01 -> 02)
-    ├── enrich.py                    # AI structured analysis (requires translation first)
+    ├── clean.py                     # 01_original -> 01_cleaned (ftfy + domain rules)
+    ├── translate.py                 # 01_cleaned -> 02_translated_enriched (EN -> PT-BR)
+    ├── enrich.py                    # 02_translated_enriched (adds AI analysis)
     ├── validate_schema.py           # Validate verse files against schema
     ├── generate_manifest.py         # Generate manifest.json for any layer
     └── gap_audit.py                 # Compare two layers to find missing files
@@ -174,7 +168,8 @@ python scripts/enrich.py --testament new_testament --book john --model gpt-4o
 ### Pipeline workflow
 
 ```
-Step 1 (cheap, priority):   translate.py   01_original → 02_translated_enriched (adds content_pt)
+Step 0 (one-time):          clean.py       01_original → 01_cleaned (ftfy encoding fixes, strip scraping metadata)
+Step 1 (cheap, priority):   translate.py   01_cleaned  → 02_translated_enriched (adds content_pt)
 Step 2 (costly, selective): enrich.py      02_translated_enriched → 02_translated_enriched (adds AI analysis)
 ```
 

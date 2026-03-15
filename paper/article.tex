@@ -158,11 +158,9 @@ O resultado \'{e} um JSON enxuto contendo apenas os campos relevantes para pesqu
 
 \subsection{Etapa 2: tradu\c{c}\~{a}o autom\'{a}tica}
 
-A tradu\c{c}\~{a}o do ingl\^{e}s para o portugu\^{e}s brasileiro utiliza o modelo GPT-4o-mini da OpenAI, com um gloss\'{a}rio teol\'{o}gico de 14 termos embutido no \textit{prompt} para garantir consist\^{e}ncia terminol\'{o}gica (por exemplo, \textit{Trinity} $\rightarrow$ Trindade, \textit{grace} $\rightarrow$ gra\c{c}a, \textit{incarnation} $\rightarrow$ encarna\c{c}\~{a}o).
+A tradu\c{c}\~{a}o do ingl\^{e}s para o portugu\^{e}s brasileiro utiliza o modelo GPT-4o-mini da OpenAI. O script suporta m\'{u}ltiplos idiomas por \textit{design}: o par\^{a}metro \texttt{--lang} define o idioma alvo, permitindo que o pipeline seja reutilizado para outros idiomas sem modifica\c{c}\~{a}o.
 
-O script suporta m\'{u}ltiplos idiomas por \textit{design}: o par\^{a}metro \texttt{--lang} define o idioma alvo, permitindo que o pipeline seja reutilizado para espanhol, franc\^{e}s ou outros idiomas sem modifica\c{c}\~{a}o.
-
-Os arquivos traduzidos cont\^{e}m apenas os campos essenciais: \texttt{verse\_reference} e uma lista de coment\'{a}rios com \texttt{author}, \texttt{period} e \texttt{content\_pt}. Metadados de tradu\c{c}\~{a}o (modelo, data) s\~{a}o armazenados em um arquivo separado (\texttt{translation\_metadata.json}).
+Os arquivos traduzidos cont\^{e}m apenas os campos essenciais: \texttt{verse\_reference} e uma lista de coment\'{a}rios com \texttt{author}, \texttt{period} e \texttt{content\_pt}. Metadados de tradu\c{c}\~{a}o (modelo, data) s\~{a}o armazenados em arquivo separado (\texttt{translation\_metadata.json}).
 
 \subsection{Etapa 3: enriquecimento por IA}
 

@@ -1,0 +1,46 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#e8f5e9', 'primaryBorderColor': '#4CAF50', 'lineColor': '#333', 'textColor': '#333', 'fontSize': '13px'}}}%%
+flowchart LR
+    subgraph INPUT["Raw Verse File (00_raw)"]
+        I1["verse_reference"]
+        I2["verse_text ⚠️ placeholder"]
+        I3["scraped_with ❌"]
+        I4["extraction_date ❌"]
+        I5["source_url ❌"]
+        I6["methodology{} ❌"]
+        I7["commentaries[]"]
+        I8["  ├ author ✓"]
+        I9["  ├ period ✓"]
+        I10["  ├ content ✓"]
+        I11["  ├ reading_time ❌"]
+        I12["  ├ commentary_number ❌"]
+        I13["  └ extraction_method ❌"]
+    end
+
+    subgraph PROCESS["clean.py Operations"]
+        P1["ftfy.fix_text()\n14,906 encoding fixes"]
+        P2["Strip 5 top-level fields"]
+        P3["Strip 6 per-commentary fields"]
+        P4["Remove placeholder verse_text"]
+        P5["Fix: doubled quotes,\nleading punctuation,\nHTML remnants"]
+        P6["Add: book, chapter, verse\nfrom filename"]
+        P7["Unicode NFC normalization"]
+    end
+
+    subgraph OUTPUT["Cleaned File (01_cleaned)"]
+        O1["verse_reference ✓"]
+        O2["book ✓ (new)"]
+        O3["chapter ✓ (new)"]
+        O4["verse ✓ (new)"]
+        O5["commentary_status ✓"]
+        O6["total_commentaries ✓"]
+        O7["commentaries[]"]
+        O8["  ├ author ✓"]
+        O9["  ├ period ✓"]
+        O10["  └ content ✓ (cleaned)"]
+    end
+
+    INPUT --> PROCESS --> OUTPUT
+
+    style INPUT fill:#fff3e0,stroke:#FF9800
+    style PROCESS fill:#e8f5e9,stroke:#4CAF50
+    style OUTPUT fill:#e3f2fd,stroke:#2196F3

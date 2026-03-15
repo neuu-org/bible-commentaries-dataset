@@ -1,0 +1,298 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================================
+% Packages
+% ============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{helvet}                    % Arial-like font
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[margin=2.5cm]{geometry}    % USP margins
+\usepackage{setspace}                  % Line spacing
+\onehalfspacing                        % 1.5 spacing (USP)
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{fancyhdr}
+
+% ============================================================
+% Header/Footer (USP style)
+% ============================================================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textit{Trabalho de Conclus\~{a}o de Curso apresentado para obten\c{c}\~{a}o do t\'{i}tulo de especialista em Data Science and Analytics -- 2026}}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ============================================================
+% JSON listing style
+% ============================================================
+\lstdefinestyle{json}{
+  basicstyle=\small\ttfamily,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!5},
+  keywordstyle=\color{blue!70},
+  stringstyle=\color{green!50!black},
+}
+
+% ============================================================
+% Document
+% ============================================================
+\begin{document}
+
+% ============================================================
+% Title Page
+% ============================================================
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+
+{\LARGE\bfseries Pipeline multi-camada para constru\c{c}\~{a}o de corpus de coment\'{a}rios b\'{i}blicos patr\'{i}sticos}
+
+\vspace{1.5cm}
+
+{\large Iury Anderson Fernandes Coelho\textsuperscript{1}}
+
+\vspace{0.5cm}
+
+{\small\textsuperscript{1}MBA Data Science and Analytics -- USP/ESALQ}
+
+\vspace{3cm}
+
+{\large Orientador: [Nome do Orientador]}
+
+\vfill
+
+{\small 2026}
+\end{titlepage}
+
+% ============================================================
+% Resumo
+% ============================================================
+\section*{Resumo}
+\begin{singlespace}
+Este trabalho apresenta a constru\c{c}\~{a}o de um corpus multi-camada de coment\'{a}rios b\'{i}blicos patr\'{i}sticos, cobrindo 31.218 vers\'{i}culos com 55.925 coment\'{a}rios individuais de mais de 100 autores do per\'{i}odo AD~100--1700. O pipeline proposto organiza os dados em quatro camadas progressivas --- dados brutos, dados limpos, tradu\c{c}\~{a}o autom\'{a}tica e enriquecimento por intelig\^{e}ncia artificial --- garantindo rastreabilidade, reprodutibilidade e preserva\c{c}\~{a}o da fonte hist\'{o}rica. A limpeza utiliza a biblioteca \texttt{ftfy} como motor principal, corrigindo 14.906 problemas de codifica\c{c}\~{a}o e reduzindo o tamanho do corpus em 33\%. O dataset resultante est\'{a} dispon\'{i}vel publicamente e serve como base para pesquisas em recupera\c{c}\~{a}o de informa\c{c}\~{a}o, processamento de linguagem natural e an\'{a}lise teol\'{o}gica computacional.
+\end{singlespace}
+
+\vspace{0.5cm}
+\noindent\textbf{Palavras-chave:} processamento de linguagem natural, coment\'{a}rios patr\'{i}sticos, pipeline de dados, corpus b\'{i}blico, limpeza de texto
+
+% ============================================================
+% 1. Consideracoes Iniciais
+% ============================================================
+\section{Considera\c{c}\~{o}es iniciais}
+
+O estudo computacional de textos b\'{i}blicos e teol\'{o}gicos tem avan\c{c}ado significativamente com o desenvolvimento de t\'{e}cnicas de processamento de linguagem natural [NLP] e recupera\c{c}\~{a}o de informa\c{c}\~{a}o [IR]. No entanto, a disponibilidade de corpora estruturados de coment\'{a}rios patr\'{i}sticos --- textos exeg\'{e}ticos escritos pelos Pais da Igreja entre os s\'{e}culos II e XVIII --- permanece limitada. Esses coment\'{a}rios constituem uma fonte hist\'{o}rica de valor inestim\'{a}vel para a compreens\~{a}o da evolu\c{c}\~{a}o do pensamento teol\'{o}gico crist\~{a}o.
+
+Fontes como o CatenaBible.com disponibilizam coment\'{a}rios vers\'{i}culo a vers\'{i}culo de autores como Agostinho de Hipona, Jo\~{a}o Cris\'{o}stomo, Beda e Jer\^{o}nimo, por\'{e}m em formato n\~{a}o estruturado para processamento computacional. A extra\c{c}\~{a}o, limpeza e organiza\c{c}\~{a}o desses dados em um corpus reutiliz\'{a}vel requer um pipeline robusto que preserve a integridade das fontes enquanto prepara os dados para an\'{a}lises automatizadas.
+
+O objetivo deste trabalho \'{e} apresentar a constru\c{c}\~{a}o de um pipeline multi-camada para a organiza\c{c}\~{a}o de coment\'{a}rios b\'{i}blicos patr\'{i}sticos, desde a extra\c{c}\~{a}o bruta at\'{e} a tradu\c{c}\~{a}o e o enriquecimento por intelig\^{e}ncia artificial, com foco em reprodutibilidade, rastreabilidade e extensibilidade.
+
+% ============================================================
+% 2. Implementacao
+% ============================================================
+\section{Implementa\c{c}\~{a}o do pipeline}
+
+\subsection{Vis\~{a}o geral da arquitetura}
+
+O pipeline \'{e} organizado em quatro camadas numeradas sequencialmente, cada uma representando uma etapa de transforma\c{c}\~{a}o dos dados. Cada camada \'{e} produzida por um \'{u}nico script, e cada script mapeia exatamente uma transi\c{c}\~{a}o entre camadas.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/pipeline.png}
+\caption{Arquitetura do pipeline de quatro camadas para processamento de coment\'{a}rios patr\'{i}sticos}
+\label{fig:pipeline}
+Fonte: Resultados originais da pesquisa
+\end{figure}
+
+\subsection{Camada 00: dados brutos}
+
+A camada zero cont\'{e}m os arquivos JSON exatamente como extra\'{i}dos do CatenaBible.com, utilizando uma abordagem h\'{i}brida de \textit{web scraping} combinando Firecrawl e BeautifulSoup. Cada arquivo representa um vers\'{i}culo e cont\'{e}m todos os coment\'{a}rios dispon\'{i}veis para aquele vers\'{i}culo, juntamente com metadados de extra\c{c}\~{a}o (data, URL de origem, m\'{e}todo de extra\c{c}\~{a}o).
+
+Esta camada \'{e} \textbf{imut\'{a}vel} --- nunca \'{e} modificada ap\'{o}s a extra\c{c}\~{a}o --- e serve como arquivo hist\'{o}rico para auditoria e recupera\c{c}\~{a}o.
+
+\subsection{Camada 01: dados limpos}
+
+A limpeza utiliza a biblioteca \texttt{ftfy} (Speer, 2019) como motor principal para corre\c{c}\~{a}o de problemas de codifica\c{c}\~{a}o, combinada com regras de dom\'{i}nio espec\'{i}ficas para coment\'{a}rios b\'{i}blicos.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/cleaning-process.png}
+\caption{Opera\c{c}\~{o}es realizadas pelo script de limpeza (\texttt{clean.py})}
+\label{fig:cleaning}
+Fonte: Resultados originais da pesquisa
+\end{figure}
+
+As opera\c{c}\~{o}es incluem:
+
+\begin{enumerate}[leftmargin=1.25cm]
+\item Corre\c{c}\~{a}o de \textit{mojibake} e erros de codifica\c{c}\~{a}o via \texttt{ftfy.fix\_text()}
+\item Remo\c{c}\~{a}o de 5 campos de metadados de \textit{scraping} do n\'{i}vel superior
+\item Remo\c{c}\~{a}o de 6 campos por coment\'{a}rio (\texttt{reading\_time}, \texttt{content\_type}, etc.)
+\item Remo\c{c}\~{a}o de \textit{placeholders} no campo \texttt{verse\_text}
+\item Corre\c{c}\~{a}o de aspas duplas, pontua\c{c}\~{a}o inicial e \textit{backslashes}
+\item Adi\c{c}\~{a}o de campos de refer\^{e}ncia normalizados (\texttt{book}, \texttt{chapter}, \texttt{verse})
+\item Normaliza\c{c}\~{a}o Unicode NFC
+\end{enumerate}
+
+\subsection{Camada 02: tradu\c{c}\~{a}o}
+
+A tradu\c{c}\~{a}o \'{e} realizada do ingl\^{e}s para o portugu\^{e}s brasileiro utilizando o modelo GPT-4o-mini da OpenAI, com um gloss\'{a}rio teol\'{o}gico embutido de 14 termos para garantir consist\^{e}ncia terminol\'{o}gica (por exemplo, \textit{Trinity} $\rightarrow$ Trindade, \textit{grace} $\rightarrow$ gra\c{c}a).
+
+A arquitetura suporta m\'{u}ltiplos idiomas por \textit{design}: o par\^{a}metro \texttt{--lang} permite gerar tradu\c{c}\~{o}es para qualquer idioma alvo sem modifica\c{c}\~{a}o do pipeline.
+
+\subsection{Camada 03: enriquecimento por IA}
+
+O enriquecimento adiciona an\'{a}lise estruturada por IA a cada coment\'{a}rio traduzido, gerando quatro campos:
+
+\begin{itemize}[leftmargin=1.25cm]
+\item \texttt{ai\_summary}: resumo em uma frase, resumo expandido e pontos-chave
+\item \texttt{argumentative\_structure}: tese, argumentos, obje\c{c}\~{o}es e conclus\~{a}o
+\item \texttt{theological\_analysis}: doutrinas, tradi\c{c}\~{o}es, m\'{e}todo teol\'{o}gico e controv\'{e}rsias
+\item \texttt{spiritual\_insight}: tema central e reflex\~{a}o pr\'{a}tica
+\end{itemize}
+
+Esta camada \'{e} \textbf{seletiva} --- executada apenas nos livros necess\'{a}rios para a pesquisa, dado o custo mais elevado por arquivo.
+
+\subsection{Garantias do pipeline}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/layer-guarantees.png}
+\caption{Garantias de cada camada do pipeline: imutabilidade, idempot\^{e}ncia e seletividade}
+\label{fig:guarantees}
+Fonte: Resultados originais da pesquisa
+\end{figure}
+
+% ============================================================
+% 3. Resultados e Discussao
+% ============================================================
+\section{Resultados e discuss\~{a}o}
+
+\subsection{Escala do corpus}
+
+\begin{table}[H]
+\centering
+\caption{Estat\'{i}sticas do corpus de coment\'{a}rios patr\'{i}sticos}
+\label{tab:stats}
+\begin{tabularx}{0.8\textwidth}{Xr}
+\toprule
+M\'{e}trica & Valor \\
+\midrule
+Arquivos de vers\'{i}culo & 31.218 \\
+Coment\'{a}rios individuais & 55.925 \\
+Vers\'{i}culos com coment\'{a}rios & 22.537 \\
+Vers\'{i}culos sem coment\'{a}rios & 8.681 \\
+Autores \'{u}nicos & 100+ \\
+Livros b\'{i}blicos cobertos & 66 \\
+Per\'{i}odo temporal & AD 100--1700 \\
+\bottomrule
+\end{tabularx}
+
+Fonte: Resultados originais da pesquisa
+\end{table}
+
+\subsection{Impacto da limpeza}
+
+\begin{table}[H]
+\centering
+\caption{Resultados da execu\c{c}\~{a}o do \texttt{clean.py} sobre o corpus completo}
+\label{tab:cleaning}
+\begin{tabularx}{0.8\textwidth}{Xr}
+\toprule
+Opera\c{c}\~{a}o & Quantidade \\
+\midrule
+Arquivos processados & 31.218 \\
+Corre\c{c}\~{o}es de codifica\c{c}\~{a}o (ftfy) & 14.906 \\
+Campos de metadados removidos & 156.090 \\
+Coment\'{a}rios removidos (conteúdo vazio) & 1 \\
+Redu\c{c}\~{a}o de tamanho & 33\% (195 MB $\rightarrow$ 131 MB) \\
+Erros & 0 \\
+Tempo de execu\c{c}\~{a}o & 119 segundos \\
+\bottomrule
+\end{tabularx}
+
+Fonte: Resultados originais da pesquisa
+\end{table}
+
+\subsection{Cobertura b\'{i}blica}
+
+\begin{table}[H]
+\centering
+\caption{Distribui\c{c}\~{a}o dos arquivos por categoria b\'{i}blica}
+\label{tab:coverage}
+\begin{tabularx}{0.8\textwidth}{Xlr}
+\toprule
+Categoria & Testamento & Arquivos \\
+\midrule
+Livros Hist\'{o}ricos & AT & 6.851 \\
+Pentateuco & AT & 5.851 \\
+Literatura Sapiencial & AT & 4.785 \\
+Profetas Maiores & AT & 4.544 \\
+Profetas Menores & AT & 1.122 \\
+Deuterocan\^{o}nicos & AT & 167 \\
+Evangelhos & NT & 3.779 \\
+Ep\'{i}stolas Paulinas & NT & 2.110 \\
+Atos & NT & 1.007 \\
+Ep\'{i}stolas Gerais & NT & 734 \\
+Apocal\'{i}ptico & NT & 404 \\
+\midrule
+\textbf{Total} & & \textbf{31.354} \\
+\bottomrule
+\end{tabularx}
+
+Fonte: Resultados originais da pesquisa
+\end{table}
+
+\subsection{Trabalhos futuros}
+
+O corpus constru\'{i}do neste trabalho serve como base para diversas linhas de pesquisa futuras:
+
+\begin{enumerate}[leftmargin=1.25cm]
+\item \textbf{Gera\c{c}\~{a}o de embeddings}: vetores sem\^{a}nticos dos coment\'{a}rios utilizando modelos como \texttt{text-embedding-3-small} e \texttt{text-embedding-3-large} da OpenAI, habilitando busca sem\^{a}ntica e recupera\c{c}\~{a}o por similaridade
+\item \textbf{Busca h\'{i}brida}: combina\c{c}\~{a}o de BM25 (lexical) com embeddings (sem\^{a}ntico) para recupera\c{c}\~{a}o de coment\'{a}rios relevantes dado um vers\'{i}culo ou tema
+\item \textbf{Vincula\c{c}\~{a}o tem\'{a}tica}: correla\c{c}\~{a}o autom\'{a}tica entre coment\'{a}rios e temas teol\'{o}gicos utilizando o enriquecimento da camada 03
+\item \textbf{An\'{a}lise diacr\^{o}nica}: estudo da evolu\c{c}\~{a}o da interpreta\c{c}\~{a}o de vers\'{i}culos ao longo de 1.600 anos de tradi\c{c}\~{a}o patr\'{i}stica
+\item \textbf{Expans\~{a}o multi-idioma}: tradu\c{c}\~{a}o para espanhol, franc\^{e}s e outros idiomas utilizando o mesmo pipeline
+\end{enumerate}
+
+% ============================================================
+% 4. Conclusao
+% ============================================================
+\section{Conclus\~{a}o}
+
+O pipeline multi-camada proposto demonstra que \'{e} poss\'{i}vel organizar um corpus hist\'{o}rico de grande escala de forma reprodut\'{i}vel e rastreável.
+
+A utiliza\c{c}\~{a}o da biblioteca \texttt{ftfy} para limpeza autom\'{a}tica de codifica\c{c}\~{a}o mostrou-se altamente eficaz, corrigindo quase 15.000 problemas sem falsos positivos.
+
+A separa\c{c}\~{a}o expl\'{i}cita entre tradu\c{c}\~{a}o e enriquecimento permite otimiza\c{c}\~{a}o de custos, traduzindo todo o corpus a baixo custo e enriquecendo seletivamente apenas o que \'{e} necess\'{a}rio para cada pesquisa.
+
+O dataset est\'{a} dispon\'{i}vel publicamente em \url{https://github.com/neuu-org/bible-commentaries-dataset}, sob licen\c{c}a CC~BY~4.0.
+
+% ============================================================
+% Referencias
+% ============================================================
+\section*{Refer\^{e}ncias}
+
+\begin{singlespace}
+
+Devlin, J.; Chang, M.; Lee, K.; Toutanova, K. 2019. BERT: Pre-training of deep bidirectional transformers for language understanding. Proceedings of NAACL-HLT 2019: 4171--4186.
+
+Manning, C.D.; Raghavan, P.; Sch\"{u}tze, H. 2008. Introduction to Information Retrieval. 1ed. Cambridge University Press, Cambridge, UK.
+
+OpenAI. 2024. GPT-4o mini: advancing cost-efficient intelligence. Dispon\'{i}vel em: https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/. Acesso em: 14 mar. 2026.
+
+Robertson, S.; Zaragoza, H. 2009. The probabilistic relevance framework: BM25 and beyond. Foundations and Trends in Information Retrieval 3(4): 333--389.
+
+Speer, R. 2019. ftfy: fixes text for you. Dispon\'{i}vel em: https://github.com/rspeer/python-ftfy. Acesso em: 14 mar. 2026.
+
+\end{singlespace}
+
+\end{document}

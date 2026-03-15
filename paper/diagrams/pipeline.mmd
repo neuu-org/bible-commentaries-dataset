@@ -1,0 +1,22 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#e8f4fd', 'primaryBorderColor': '#2196F3', 'lineColor': '#333', 'textColor': '#333', 'fontSize': '14px'}}}%%
+flowchart TD
+    SRC["Sources\n(CatenaBible.com, future...)"]
+
+    subgraph PIPELINE["Data Pipeline"]
+        direction TB
+        RAW["00_raw\n31,218 verse files\n195 MB"]
+        CLEAN["01_cleaned\n31,218 verse files\n131 MB"]
+        TRANS["02_translated/pt\nEN → PT-BR"]
+        ENRICH["03_enriched/pt\nAI Structured Analysis"]
+    end
+
+    SRC -->|"scrape_catena_bible.py\n(Firecrawl + BeautifulSoup)"| RAW
+    RAW -->|"clean.py\n(ftfy + domain rules)"| CLEAN
+    CLEAN -->|"translate.py --lang pt\n(GPT-4o-mini, ~$0.001/file)"| TRANS
+    TRANS -->|"enrich.py --lang pt\n(GPT-4o-mini, ~$0.01/file)"| ENRICH
+
+    style RAW fill:#fff3e0,stroke:#FF9800
+    style CLEAN fill:#e8f5e9,stroke:#4CAF50
+    style TRANS fill:#e3f2fd,stroke:#2196F3
+    style ENRICH fill:#f3e5f5,stroke:#9C27B0
+    style SRC fill:#fafafa,stroke:#999

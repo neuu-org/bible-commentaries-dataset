@@ -3,7 +3,8 @@
 enrich.py
 
 Adds AI-structured analysis to already-translated commentaries.
-Reads from data/02_translated_enriched/ (requires content_pt to exist).
+Reads from data/02_translated/pt/ (requires content_pt to exist).
+Writes to data/03_enriched/pt/.
 Adds: ai_summary, argumentative_structure, theological_analysis, spiritual_insight.
 
 Usage:

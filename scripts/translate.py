@@ -3,7 +3,7 @@
 translate.py
 
 Translates patristic commentaries from English to Brazilian Portuguese.
-Reads from data/01_original/, writes to data/02_translated_enriched/.
+Reads from data/01_cleaned/, writes to data/02_translated/pt/.
 Only adds: content_en, content_pt, translation_metadata.
 
 Usage:

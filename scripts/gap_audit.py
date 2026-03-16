@@ -3,10 +3,10 @@
 gap_audit.py
 
 Compares two commentary layers to find missing files.
-Primary use: compare 00_raw_archive vs 01_original to detect gaps.
+Primary use: compare 00_raw vs 01_original to detect gaps.
 
 Usage:
-    python scripts/gap_audit.py --source data/00_raw_archive/catena_bible --target data/01_original/catena_bible
+    python scripts/gap_audit.py --source data/00_raw/catena_bible --target data/01_original/catena_bible
 """
 
 import argparse
@@ -47,7 +47,7 @@ def audit(source_dir: Path, target_dir: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="Audit gaps between layers")
-    parser.add_argument("--source", required=True, help="Source directory (e.g., 00_raw_archive)")
+    parser.add_argument("--source", required=True, help="Source directory (e.g., 00_raw)")
     parser.add_argument("--target", required=True, help="Target directory (e.g., 01_original)")
     args = parser.parse_args()
 

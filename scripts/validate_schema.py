@@ -2,7 +2,7 @@
 """
 validate_schema.py
 
-Validates all verse JSON files in 01_original against the expected schema.
+Validates all verse JSON files in 01_cleaned against the expected schema.
 Reports anomalies: missing fields, empty content, count mismatches, placeholders.
 
 Usage:
@@ -69,7 +69,7 @@ def main():
     parser.add_argument("--limit", type=int, default=0, help="Limit files to validate")
     parser.add_argument(
         "--data-dir",
-        default="data/01_original/catena_bible",
+        default="data/01_cleaned/catena_bible",
         help="Path to verse files",
     )
     args = parser.parse_args()

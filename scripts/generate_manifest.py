@@ -7,7 +7,9 @@ Counts files, commentaries, coverage by book, and flags anomalies.
 
 Usage:
     python scripts/generate_manifest.py --layer 01_original
-    python scripts/generate_manifest.py --layer 02_translated_enriched
+    python scripts/generate_manifest.py --layer 01_cleaned
+    python scripts/generate_manifest.py --layer 02_translated
+    python scripts/generate_manifest.py --layer 03_enriched
 """
 
 import argparse
@@ -44,8 +46,8 @@ def generate(layer_dir: Path, layer_name: str) -> dict:
                 "status": status,
             }
 
-            # Check for enrichment fields (Layer 02)
-            if layer_name == "02_translated_enriched":
+            # Check for enrichment fields (translated/enriched layers)
+            if layer_name in ("02_translated", "03_enriched"):
                 comms = data.get("commentaries", [])
                 has_pt = any(c.get("content_pt") for c in comms)
                 has_enrichment = any(c.get("ai_summary") for c in comms)
@@ -79,7 +81,7 @@ def main():
     parser.add_argument(
         "--layer",
         required=True,
-        choices=["00_raw", "01_cleaned", "02_translated", "03_enriched"],
+        choices=["00_raw", "01_original", "01_cleaned", "02_translated", "03_enriched"],
         help="Which layer to process",
     )
     args = parser.parse_args()
